@@ -221,6 +221,6 @@ Danger alerts display in red
 
 ### Bootstrap grid
 
-![alt text](Bootstrap grid.png "Logo Title Text 1")
+![alt text](https://github.com/tsimeonov/Introduction-to-Front-End-Development/blob/a455999a360d7627078ab556310c2cab64389ea8/Bootstrap-grid.png "Logo Title Text 1")
 
 
