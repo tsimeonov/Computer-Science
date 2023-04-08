@@ -223,4 +223,59 @@ Danger alerts display in red
 
 ![alt text](Bootstrap-grid.png)
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- col-12 This column spans the full width of the screen on extra small devices and on all large devices -->
+            <!-- col-lg-6 is used to define a colum width of 50% for large devices -->
+            <div class="col-12 col-lg-6">
+                <h1>Our Menu</h1>
+                <h2>Falafel</h2>
+                <p>Chickpea, herbs</p>
+                <img class="img-fluid"
+                    src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRlw5l_pTcWLHFRadt8sPjHUgT40pLPRhBQh_8MdqmqkrLCfuuVvXFMoGzikAICzOkfdYvuxzVIs31T7Nw"
+                    alt="falafel">
+                <h2>Pasta</h2>
+                <p>Lettuce, vegetables and mozzarella</p>
+                <img class="img-fluid"
+                    src="https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg"
+                    alt="salat">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2>Prices</h2>
+                <table class="table">
+                    <tr>
+                        <td>Falafel</td>
+                        <td>$12.5</td>
+                    </tr>
+                    <tr>
+                        <td>Pasta Salat</td>
+                        <td>$10.5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+
 
