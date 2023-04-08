@@ -45,9 +45,23 @@ Accept: */*
 Accept-Language: en
 Content-type: text/json
 ```
-- The **Host** header specifies the host of the server and indicates where the resource is requested from.
-- The User-Agent header informs the web server of the application that is making the request. It often includes the operating system (Windows, Mac, Linux), version and application vendor.
-- The Accept header informs the web server what type of content the client will accept as the response.
-- The Accept-Language header indicates the language and optionally the locale that the client prefers.
-- The Content-type header indicates the type of content being transmitted in the request body.
+- The '**_Host_**' header specifies the host of the server and indicates where the resource is requested from.
+- The '**_User-Agent_**' header informs the web server of the application that is making the request. It often includes the operating system (Windows, Mac, Linux), version and application vendor.
+- The '**_Accept_**' header informs the web server what type of content the client will accept as the response.
+- The '**_Accept-Language_**' header indicates the language and optionally the locale that the client prefers.
+- The '**_Content-type_**' header indicates the type of content being transmitted in the request body.
 
+#### Frameworks and Libraries
+Frameworks are comprehensive tools that provide a structure to build an entry application, while libraries are collections of pre-written code that can be used to perform specific tasks.
+
+#### APIs and Services
+API (Application Programming Interface) - Is a service, application or interface offering advanced functionality with simple syntax.
+REST (Representational State Transfer) is a set of principles used to build highly efficient APIs.
+
+# Week 2
+
+## Getting started with HTML
+
+## CSS Basics
+
+## Creating a web page
