@@ -221,6 +221,6 @@ Danger alerts display in red
 
 ### Bootstrap grid
 
-![alt text](./bootstrap grid.png "Logo Title Text 1")
+![alt text](./Bootstrap grid.png "Logo Title Text 1")
 
 
