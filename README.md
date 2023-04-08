@@ -173,7 +173,7 @@ Bootstrap is a collection of pre-written code chunks in CSS and JavaScript.
                <img class="img-fluid" src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRlw5l_pTcWLHFRadt8sPjHUgT40pLPRhBQh_8MdqmqkrLCfuuVvXFMoGzikAICzOkfdYvuxzVIs31T7Nw" alt="falafel">
                <h2>Pasta</h2>
                <p>Lettuce, vegetables and mozzarella</p>
-               <img class="img-fluid"                src="https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg" alt="salat">
+               <img class="img-fluid" src="https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg" alt="salat">
            </div>
            <div class="col">
                <h2>Prices</h2>
@@ -196,5 +196,30 @@ Bootstrap is a collection of pre-written code chunks in CSS and JavaScript.
 </body>
 </html>
 ```
+
+### Using Bootstrap styles
+
+Breakpoints
+
+| Breakpoint        | Class infix   | Dimensions     | 
+| -------------     |:-------------:| :-------------:| 
+| Extra small       |               | < 576px  |
+| Small             | sm            | >= 576px |
+| Medium            | md            |  >= 768px |
+| Large             | lg            | >= 992px |
+| Extra Large       | xl            | >= 1200px |
+| Extra extraLarge  | xxl           | >= 1400px |
+
+Modifiers in Bootstrap:
+
+Primary, Secondary, Success, Info, Warning, Danger, Light, Dark
+
+Bootsrtap alerts:
+
+Primary alerts display in blue
+Danger alerts display in red
+
+### Bootstrap grid
+
 
 
