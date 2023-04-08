@@ -65,3 +65,136 @@ REST (Representational State Transfer) is a set of principles used to build high
 ## CSS Basics
 
 ## Creating a web page
+
+# Week 3
+
+## Intro to UI Framework and Libraries
+
+### Working with libraries
+
+Set up Bootstrap 
+
+1. Open HTML file
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>My Website</title>
+</head>
+  <body></body>
+</html>
+```
+
+2. Add CSS library to HTML head
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <title>Document</title>
+</head>
+  <body></body>
+</html>
+```
+
+3. Add JS library to HTML body
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"  integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+       crossorigin="anonymous"></script>
+</body>
+
+</html>
+```
+
+4. Add button element
+
+```html
+!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <!-- Add button -->
+   <button type="button" class="btn btn-primary">Click this button!</button>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+       crossorigin="anonymous"></script>
+</body>
+</html>
+
+```
+
+Package manager is a tool that automatically downloads and installs dependencies.
+NPM (Node Package Manager).
+Bundler - Is a tool used in web development to bundle together multiple files or modules into a single file that can be loaded by a web browser. (examples Gulp and Webpack)
+
+### Getting Started with Bootstrap
+
+Bootstrap is a collection of pre-written code chunks in CSS and JavaScript.
+
+```html
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+           <div class="col">
+               <h1>Our Menu</h1>
+               <h2>Falafel</h2>
+               <p>Chickpea, herbs</p>
+               <img class="img-fluid" src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRlw5l_pTcWLHFRadt8sPjHUgT40pLPRhBQh_8MdqmqkrLCfuuVvXFMoGzikAICzOkfdYvuxzVIs31T7Nw" alt="falafel">
+               <h2>Pasta</h2>
+               <p>Lettuce, vegetables and mozzarella</p>
+               <img class="img-fluid"                src="https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg" alt="salat">
+           </div>
+           <div class="col">
+               <h2>Prices</h2>
+               <table class="table">
+                   <tr>
+                       <td>Falafel</td>
+                       <td>$12.5</td>
+                   </tr>
+                   <tr>
+                       <td>Pasta Salat</td>
+                       <td>$10.5</td>
+                   </tr>
+               </table>
+           </div>
+       </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+       crossorigin="anonymous"></script>
+</body>
+</html>
+```
+
+
