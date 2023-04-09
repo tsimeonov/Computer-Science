@@ -278,4 +278,88 @@ Danger alerts display in red
 </html>
 ```
 
+### Bootstrap Components
+Pre-made set of UI elements and styles
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h1>Our Menu</h1>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="https://www.thespruceeats.com/thmb/cl1vimRAVmpJKGZddDO2dPwIqak=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-calamari-2019531-hero-01-e294f265d7e84c0f89d4b5759759ffbf.jpg"
+                                alt="calmary">
+                            <div class="card-body">
+                                <h2 class="card-title">Fried Calamary <span class="badge bg-primary">New</span></h2>
+                                <p class="card-text">Squid, buttermilk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRlw5l_pTcWLHFRadt8sPjHUgT40pLPRhBQh_8MdqmqkrLCfuuVvXFMoGzikAICzOkfdYvuxzVIs31T7Nw"
+                                alt="falafel">
+                            <div class="card-body">
+                                <h2 class="card-title">Falafel</h2>
+                                <p class="card-text">Chickpea, herbs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg"
+                                alt="salat">
+                            <div class="card-body">
+                                <h2 class="card-title">Pasta</h2>
+                                <p class="card-text">Lettuce, vegetables and mozzarella</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2>Prices</h2>
+                <table class="table">
+                    <tr>
+                        <td>Fried Calamary</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>Falafel</td>
+                        <td>$12.5</td>
+                    </tr>
+                    <tr>
+                        <td>Pasta Salat</td>
+                        <td>$10.5</td>
+                    </tr>
+                </table>
+                <div class="alert alert-info" role="alert">
+                    Try out our new Fried Calamary!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+```
