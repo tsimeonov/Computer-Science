@@ -372,6 +372,7 @@ Pre-made set of UI elements and styles
 - Dynamic content refers to web content that is generated in real-time and customized for each individual user.
 - A web server is responsible for handling HTTP requests and responding to them with static content such as HTML, video, images and other resources.
 - An application server on the other hand, is responsible for executing dynamic content and handling dynamic requests as processing user inoutm accessing databases and generating dynamic web pages.
+- Caching - a saved copy of dynamic content readily available upon request.
 
 
 
