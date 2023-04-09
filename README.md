@@ -374,6 +374,12 @@ Pre-made set of UI elements and styles
 - An application server on the other hand, is responsible for executing dynamic content and handling dynamic requests as processing user inoutm accessing databases and generating dynamic web pages.
 - Caching - a saved copy of dynamic content readily available upon request.
 
+### Single page applications (SPA)
+
+- Identify a single page application
+A SPA is web applicationthat fits on a single page and dynamically updats that page as the user interacts with the application.
+- Describe how as ingle page application works
+Unlike a traditional multi-page application, which requeres a page reload every time the user navigates to a different part of the site, SPAs retrive data from the server in the background and update the content of the current page as needed.
 
 
 
