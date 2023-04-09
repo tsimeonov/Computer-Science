@@ -381,7 +381,8 @@ A SPA is web applicationthat fits on a single page and dynamically updats that p
 - Describe how as ingle page application works
 Unlike a traditional multi-page application, which requeres a page reload every time the user navigates to a different part of the site, SPAs retrive data from the server in the background and update the content of the current page as needed.
 
-
+### How React works
+React is a JS library for building user intefaces. It works by allowing developers to break down their UI into reusable components. Each component is responsible for rendering a small, isolated piece of the UI. Whrn the data for a component changes, Reacht updates only the affected components rather than re-rendering the entire page. This process is called virtual DOM (Documet Object Model) reconciliation.
 
 
 
