@@ -85,14 +85,13 @@ A collection of characters ecnclosed in single quotes or double quotes.
 ## Conditions and Loops 
 
 ### Writing statements
-- Conditional statements
-If Statement
+- If Statement
 ```javascript
 if (condition == true) {
   // Execute code
 }
 ```
-If-else statement
+- If-else statement
 ```javascript
 if (condition == true) {
   // Execute code
@@ -100,9 +99,14 @@ if (condition == true) {
   // Execute code
 }
 ```
-Else-if statement
-Switch statement
+- Else-if statement
+- Switch statement
 
+### Looping constructs
+
+- For loop
+- While loop
+- Nested loops
 
 
 
