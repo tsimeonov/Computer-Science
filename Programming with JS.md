@@ -112,6 +112,13 @@ if (condition == true) {
 
 ### Functions
 
+### Storing data in arrays
+
+Array literal syntax `[]`
+```javascript 
+  let train1 = ['wheat', 'barley', 'potato', 'salt', 'rocks']
+  console.log(train[0]) // Output: wheat
+```
 
 
 
