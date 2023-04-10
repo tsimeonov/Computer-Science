@@ -119,7 +119,9 @@ Array literal syntax `[]`
   let train1 = ['wheat', 'barley', 'potato', 'salt', 'rocks']
   console.log(train[0]) // Output: wheat
 ```
+### Introduction to objects
 
+### Math object
 
 
 
