@@ -73,9 +73,14 @@ let person = 'Jim'
 | Operator   | Meaning        | Example  |
 | -----------|:-------------: | -----:|
 | &&          | Checks for both conditions to be true   | a > 5 && a < 10 |
-| ||          | Checks for at least one condition to be true      | a > 5 || a > 10 |
+| &#x7c;&#x7c;          | Checks for at least one condition to be true      | a > 5 &#x7c;&#x7c; a > 10 |
 | !          | Returns false if the result is true      | !(a > 5) |
 
+### Number data type
+Foundational data type that represents integers and decimal points.
+
+### Strings
+A collection of characters ecnclosed in single quotes or double quotes.
 
 
 
