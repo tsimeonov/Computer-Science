@@ -82,6 +82,51 @@ Foundational data type that represents integers and decimal points.
 ### Strings
 A collection of characters ecnclosed in single quotes or double quotes.
 
+## Conditions and Loops 
+
+### Writing statements
+- Conditional statements
+If Statement
+```javascript
+if (condition == true) {
+  // Execute code
+}
+```
+If-else statement
+```javascript
+if (condition == true) {
+  // Execute code
+} else {
+  // Execute code
+}
+```
+Else-if statement
+Switch statement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
