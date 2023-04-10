@@ -35,3 +35,50 @@ Non-Primitive data types
 1. Objects 
 2. Array
 3. Functions
+
+### Operators 
+- Assignment operator = 
+```javascript
+let person = 'Jim'
+```
+- Arithmetic Operators
+
+| Operator   | Meaning        | Example  |
+| -----------|:-------------: | -----:|
+| +          | Addition       | 2 + 3 |
+| -          | Substraction   | 3 - 2 |
+| /          | Division       | 35 / 5 |
+| *          | Multiplication | 7 * 4 |
+
+- Comparison Operators
+
+| Operator   | Meaning        | Example  |
+| -----------|:-------------: | -----:|
+| >          | Greater than   | 3 > 2 |
+| <          | Less than      | 2 < 3 |
+| ==          | Equal to      | 5 == 5 |
+| !=          | Not equal to  | 5 ! 6 |
+
+- Comparison Operators
+
+| Operator   | Meaning        | Example  |
+| -----------|:-------------: | -----:|
+| >          | Greater than   | 3 > 2 |
+| <          | Less than      | 2 < 3 |
+| ==          | Equal to      | 5 == 5 |
+| !=          | Not equal to  | 5 ! 6 |
+
+- Logiacal Operators
+
+| Operator   | Meaning        | Example  |
+| -----------|:-------------: | -----:|
+| &&          | Checks for both conditions to be true   | a > 5 && a < 10 |
+| ||          | Checks for at least one condition to be true      | a > 5 || a > 10 |
+| !          | Returns false if the result is true      | !(a > 5) |
+
+
+
+
+
+
+
