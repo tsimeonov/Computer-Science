@@ -108,6 +108,9 @@ if (condition == true) {
 - While loop
 - Nested loops
 
+## Arrays, Objects and Functions
+
+### Functions
 
 
 
