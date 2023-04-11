@@ -154,9 +154,37 @@ currencyTwo = convertCurrency(currencyOne, exchangeRate);
 console.log(currencyTwo); // Output:  120
 ```
 
+### Function calling and recursion
 
+Recursion is a technique in programming where a function calls itself until it reachea s base case.
 
+Example that calculates the factorial of a number:
 
+```javascript
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+console.log(factorial(5)); // Output: 120
+```
+
+In this example, the function `factorial` takes an integer `n` as input and returns its factorial. The base case is when `n` equals 0, in which case the function returns 1. Otherwise, the function multiplies `n` by the factorial of `n-1`, which is calculated by recursively calling the `factorial` function with `n-1` as the argument.
+
+```javascript
+factorial(5)
+= 5 * factorial(4)
+= 5 * 4 * factorial(3)
+= 5 * 4 * 3 * factorial(2)
+= 5 * 4 * 3 * 2 * factorial(1)
+= 5 * 4 * 3 * 2 * 1 * factorial(0)
+= 5 * 4 * 3 * 2 * 1 * 1
+= 120
+
+```
 
 
 
