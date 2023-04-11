@@ -108,6 +108,8 @@ if (condition == true) {
 - While loop
 - Nested loops
 
+# Week 2
+
 ## Arrays, Objects and Functions
 
 ### Functions
@@ -123,8 +125,34 @@ Array literal syntax `[]`
 
 ### Math object
 
+# Week 3
 
+## Introduction to functional programming
 
+### Functional programming
+
+Programming paradigms - Different ways in which a given progamming language can be organized.
+In programming there two commonly used paradigms:
+- Functional programmming(FP)
+- Object-oriented programming (OOP)
+
+Functional programming is a aprroach to software development that uses functions to create maintainable software.
+
+```javascript
+// Functional programming
+
+let currencyOne = 100;
+let currencyTwo = 0;
+let exchangeRate = 1.2;
+
+function convertCurrency(amount, rate) {
+  return amount * rate;
+}
+
+currencyTwo = convertCurrency(currencyOne, exchangeRate);
+
+console.log(currencyTwo); // Output:  120
+```
 
 
 
