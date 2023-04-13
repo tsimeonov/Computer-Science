@@ -156,7 +156,7 @@ console.log(currencyTwo); // Output:  120
 
 ### Function calling and recursion
 
-Recursion is a technique in programming where a function calls itself until it reachea s base case.
+Recursion is a technique in programming where a function calls itself until it reacheas base case.
 
 Example that calculates the factorial of a number:
 
@@ -184,6 +184,15 @@ factorial(5)
 = 5 * 4 * 3 * 2 * 1 * 1
 = 120
 
+```
+### Introduction to scope
+
+```javascript
+let globalVar = 'I am in the global scope'
+
+function scopeTest (){
+  let localVar = 'I am scoped to the function'
+}
 ```
 
 
