@@ -229,41 +229,26 @@ In JavaScript, every object has a prototype property, which points to another ob
 To implement inheritance in JavaScript, you can create a new object that inherits from an existing object using the `Object.create()` method.
 
 ```javascript
-// Parent object constructor function
-function Person(name) {
-  this.name = name;
+let bird = {
+  hasWings: true,
+  canFly: true,
+  hasFeathers: true
 }
 
-// Parent object method
-Person.prototype.sayHello = function() {
-  console.log(`Hello, my name is ${this.name}`);
-}
+let eagle1 = Object.create(bird)
+console.log('eagle1:', eagle1)
 
-// Child object constructor function
-function Student(name, major) {
-  Person.call(this, name);
-  this.major = major;
-}
+console.log('eagle1 has wings:', eagle1.hasWings)
+console.log('eagle1 can fly:', eagle1.canFly)
+console.log('eagle1 has fethers:', eagle1.hasFeathers)
 
-// Set up inheritance
-Student.prototype = Object.create(Person.prototype);
-Student.prototype.constructor = Student;
+let eagle2 = Object.create(bird)
+console.log('eagle2 has wings:', eagle2.hasWings)
 
-// Child object method
-Student.prototype.sayMajor = function() {
-  console.log(`My major is ${this.major}`);
-}
-
-// Create instances of the objects
-let person = new Person("John");
-let student = new Student("Jane", "Computer Science");
-
-// Use the methods of the objects
-person.sayHello(); // Output: "Hello, my name is John"
-student.sayHello(); // Output: "Hello, my name is Jane"
-student.sayMajor(); // Output: "My major is Computer Science"
+let pingui1 = Object.create(bird)
+pingui1.canFly = false;
+console.log('pingui1:', pingui1)
 ```
-In this example, the `Person` function is used to create a parent object with a `name` property and a `sayHello()` method. The `Student` function is used to create a child object with a `major` property and a `sayMajor()` method. The `Object.create()` method is used to set up the prototype chain so that the `Student` object inherits from the `Person` object. The `call()` method is used to call the `Person` function with the `this` keyword set to the `Student` object, so that the `name` property is set correctly when creating a new `Student` object. Finally, the `constructor` property of the `Student.prototype` object is set to `Student`, to ensure that the constructor function of the `Student` object is correctly set.
 
 
 
