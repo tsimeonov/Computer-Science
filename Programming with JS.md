@@ -195,6 +195,12 @@ function scopeTest (){
 }
 ```
 
+## Introduction to Object-Oriented Programming
+
+### Introduction to Object-Oriented Programming
+OOP focuses on the use og objects to represent real-world concepts. In JS, objects can becreated using literals, constructors function, and classes.
+
+
 
 
 
