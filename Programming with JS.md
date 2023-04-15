@@ -200,6 +200,29 @@ function scopeTest (){
 ### Introduction to Object-Oriented Programming
 OOP focuses on the use og objects to represent real-world concepts. In JS, objects can becreated using literals, constructors function, and classes.
 
+### Classes
+Classes are a core feature of OOP, which allow you to create objects based on a blueprint, or template.
+
+To define a class in JS, you can use `class` keyword, follows by the name of the class, and then the curly braces that enclose the body of the class.
+
+```javascript
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  sayHello() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+  }
+}
+```
+To create an instance of the `Person` class, you can use the `new` keyword and call the constructor with the appropriate arqument.
+
+```javascript
+const john = new Person('John', 30);
+john.sayHello(); // logs "Hello, my name is John and I am 30 years old."
+```
 
 
 
