@@ -223,8 +223,47 @@ To create an instance of the `Person` class, you can use the `new` keyword and c
 const john = new Person('John', 30);
 john.sayHello(); // logs "Hello, my name is John and I am 30 years old."
 ```
+### Inheritance
+Inheritance is a key feature of OOP tah allows objects to inherit properties and methods from their parent objects. In JS, inheriatance is implemented using the prototype chain.
+In JavaScript, every object has a prototype property, which points to another object. This prototype object can also have its own prototype, forming a chain of objects called the prototype chain. 
+To implement inheritance in JavaScript, you can create a new object that inherits from an existing object using the `Object.create()` method.
 
+```javascript
+// Parent object constructor function
+function Person(name) {
+  this.name = name;
+}
 
+// Parent object method
+Person.prototype.sayHello = function() {
+  console.log(`Hello, my name is ${this.name}`);
+}
+
+// Child object constructor function
+function Student(name, major) {
+  Person.call(this, name);
+  this.major = major;
+}
+
+// Set up inheritance
+Student.prototype = Object.create(Person.prototype);
+Student.prototype.constructor = Student;
+
+// Child object method
+Student.prototype.sayMajor = function() {
+  console.log(`My major is ${this.major}`);
+}
+
+// Create instances of the objects
+let person = new Person("John");
+let student = new Student("Jane", "Computer Science");
+
+// Use the methods of the objects
+person.sayHello(); // Output: "Hello, my name is John"
+student.sayHello(); // Output: "Hello, my name is Jane"
+student.sayMajor(); // Output: "My major is Computer Science"
+```
+In this example, the `Person` function is used to create a parent object with a `name` property and a `sayHello()` method. The `Student` function is used to create a child object with a `major` property and a `sayMajor()` method. The `Object.create()` method is used to set up the prototype chain so that the `Student` object inherits from the `Person` object. The `call()` method is used to call the `Person` function with the `this` keyword set to the `Student` object, so that the `name` property is set correctly when creating a new `Student` object. Finally, the `constructor` property of the `Student.prototype` object is set to `Student`, to ensure that the constructor function of the `Student` object is correctly set.
 
 
 
