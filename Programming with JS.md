@@ -250,10 +250,23 @@ pingui1.canFly = false;
 console.log('pingui1:', pingui1) // Output: penguin1: {canFly: false}
 ```
 
+## Advanced JS Features
 
+### De-constructing arrays and objects
+De-structuring - copying an item, which the becomes independent of the original.
 
+```javascript
+let { PI } = Math;
+console.log(PI); // Output: 3.141592653589793
 
+let { pi } = Math;
+console.log(pi); // Output: undefined
 
+console.log(PI === Math.PI); // Output: true
+
+PI = 1;
+console.log(PI === Math.PI); // Output: false
+```
 
 
 
