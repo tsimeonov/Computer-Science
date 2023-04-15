@@ -236,18 +236,18 @@ let bird = {
 }
 
 let eagle1 = Object.create(bird)
-console.log('eagle1:', eagle1)
+console.log('eagle1:', eagle1) // Output: eagle: {}
 
-console.log('eagle1 has wings:', eagle1.hasWings)
-console.log('eagle1 can fly:', eagle1.canFly)
-console.log('eagle1 has fethers:', eagle1.hasFeathers)
+console.log('eagle1 has wings:', eagle1.hasWings) // Output: eagle1 has wings: true
+console.log('eagle1 can fly:', eagle1.canFly) // Output: eagle1 can fly: true
+console.log('eagle1 has fethers:', eagle1.hasFeathers) // Output: eagle1 has feathers: true
 
 let eagle2 = Object.create(bird)
-console.log('eagle2 has wings:', eagle2.hasWings)
+console.log('eagle2 has wings:', eagle2.hasWings) // Output: eagle2 has wings: true
 
 let pingui1 = Object.create(bird)
 pingui1.canFly = false;
-console.log('pingui1:', pingui1)
+console.log('pingui1:', pingui1) // Output: penguin1: {canFly: false}
 ```
 
 
