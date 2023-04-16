@@ -290,10 +290,20 @@ const set = new Set([1, 2, 3, 4, 5])
 // contains [1, 2, 3, 4, 5]
 ```
 5. Strings: A strings is e sequence of characters 
-6. 6 Numbers: A number is a numeric value. Numbers can be integers, decimals or even special values such as 'NaN' and 'Infinity'
-7. Booleans: A boolean is a logical value that can be either `true` or `false`
+6. Numbers: A number is a numeric value. Numbers can be integers, decimals or even special values such as 'NaN' and 'Infinity'
+7. Booleans: A boolean is a logical value that can be either `true` or `false`.
 
+### Spread Operator
+The spread operator is a syntax in JS that allows an iterable (like an array, string, or object) to be expandaed or 'spread' into individual elements.
 
+```javascript
+// Spread operator used to combine arrays
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const combinedArr = [...arr1, ...arr2];
+
+console.log(combinedArr); // Output: [1, 2, 3, 4, 5, 6]
+```
 
 
 
