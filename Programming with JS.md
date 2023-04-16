@@ -317,6 +317,25 @@ console.log(second); // Output: 2
 console.log(rest); // Output: [3, 4, 5]
 ```
 
+## JavaScript in the Browser
+
+### JavaScript modules 
+JS modules are reusable pieces of code that can be imported and used in other JS files.
+```javascript
+// math.js
+export function add(x, y) {
+  return x + y;
+}
+
+export function subtract(x, y) {
+  return x - y;
+}
+
+// app.js
+import { add, subtract } from './math';
+console.log(add(2, 3)); // Output: 5
+console.log(subtract(5, 3)); // Output: 2
+```
 
 
 
