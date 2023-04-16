@@ -267,7 +267,31 @@ console.log(PI === Math.PI); // Output: true
 PI = 1;
 console.log(PI === Math.PI); // Output: false
 ```
-
+### Data Structures
+Data structures is a way to organize data
+1. Array: An array is a colletion of any data type, indexed by a numerical index starting at zero.
+```javascrript
+const arr = [1, 2, 3, 4]
+```
+2. Objects: An object is a collection of key-value pairs, where keys are strings and values can be any data type.
+```javascript
+const obj = {name: 'John', age: 30, address: '123 Main St'}
+```
+3. Maps: A map is a collection of key-value pairs, similar to an object. However, maps can have keys of any data type and are ordered.
+```javascript
+const map = new Map()
+map.set('name', 'John')
+map,set(30, 'age')
+map.set({}, 'empty object')
+```
+4. Sets: A set is a collection of unique values of any data type
+```javascript
+const set = new Set([1, 2, 3, 4, 5])
+// contains [1, 2, 3, 4, 5]
+```
+5. Strings: A strings is e sequence of characters 
+6. 6 Numbers: A number is a numeric value. Numbers can be integers, decimals or even special values such as 'NaN' and 'Infinity'
+7. Booleans: A boolean is a logical value that can be either `true` or `false`
 
 
 
