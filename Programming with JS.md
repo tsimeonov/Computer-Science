@@ -305,6 +305,18 @@ const combinedArr = [...arr1, ...arr2];
 console.log(combinedArr); // Output: [1, 2, 3, 4, 5, 6]
 ```
 
+### Rest operator
+The rest operator in JS is denoted by '...' and allows us to represent an indefinite number of arquments as an array.
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const [first, second, ...rest] = numbers;
+
+console.log(first); // Output: 1
+console.log(second); // Output: 2
+console.log(rest); // Output: [3, 4, 5]
+```
+
 
 
 
