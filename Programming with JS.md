@@ -368,7 +368,7 @@ Testing - confirming that software works specified in the softwares requirements
 
 1. e2e - slow and time consuming
 2. Ingetration testing is testing how parts of your system interact with other parts of your system. 
-3. Unit testing - The process of testing the smallest unit of source code in isaloation. Testing ths smallest unit of testable code (function or method)
+3. Unit testing - The process of testing the smallest unit of source code in isaloation. Testing ths smallest unit of testable code (function or method).
 
 
 
