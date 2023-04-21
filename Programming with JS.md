@@ -336,7 +336,26 @@ import { add, subtract } from './math';
 console.log(add(2, 3)); // Output: 5
 console.log(subtract(5, 3)); // Output: 2
 ```
+# Week 4
 
+## Testing
+
+### node % NPM
+
+Mode js applications - Command line, Deskctop application, back-end.
+NPM package manager - Lets developers use libraries and frameworks as node.js modules.
+
+When starting a new pproject run 
+
+```javascript
+npm init
+
+{
+  'name': 'my-awesome-package',
+  'version': '1.0.0'
+}
+```
+package.json is a file created after you run the NPM unit command.
 
 
 
