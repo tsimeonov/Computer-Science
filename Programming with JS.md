@@ -357,6 +357,11 @@ npm init
 ```
 package.json is a file created after you run the NPM unit command.
 
+### What is testing?
+
+JEST - JS testing framework
+Refactorinf - Updating the code, without affecting the result it produces.
+
 
 
 
