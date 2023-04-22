@@ -19,3 +19,18 @@ Version control systems:
 Types of Version contol systems:
 - Centralized
 - Distributed
+
+# Week 2
+
+## Unix Commands
+
+### The command line
+
+### What are the Unix commands?
+
+- man (manual)
+- cd (change directory)
+- ls (show content)
+- pwd (print working directory)
+- cp (copy)
+- mv (move)
