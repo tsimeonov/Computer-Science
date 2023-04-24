@@ -45,3 +45,11 @@ A coding tool that allows the output of one command to be used as the input for 
 
 ### Grep
 GREP - global regular expression print. And it's used for searching across files and folders as well as the contens of files.
+
+# Week 3
+
+## Git and Github
+
+### What is Git and Github?
+Git - version control system for tracking changes to projects.
+GitHub is a cloud -bassed hosting service that lets you manage Git repositories from a user interface.
