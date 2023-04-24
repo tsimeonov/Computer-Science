@@ -37,3 +37,8 @@ Types of Version contol systems:
 
 ### Pipes 
 A coding tool that allows the output of one command to be used as the input for a different command
+
+### Redirection
+- Standard output
+- Standard error
+- Standard input
