@@ -34,3 +34,6 @@ Types of Version contol systems:
 - pwd (print working directory)
 - cp (copy)
 - mv (move)
+
+### Pipes 
+A coding tool that allows the output of one command to be used as the input for a different command
