@@ -42,3 +42,6 @@ A coding tool that allows the output of one command to be used as the input for 
 - Standard output
 - Standard error
 - Standard input
+
+### Grep
+GREP - global regular expression print. And it's used for searching across files and folders as well as the contens of files.
