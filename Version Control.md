@@ -53,3 +53,7 @@ GREP - global regular expression print. And it's used for searching across files
 ### What is Git and Github?
 Git - version control system for tracking changes to projects.
 GitHub is a cloud -bassed hosting service that lets you manage Git repositories from a user interface.
+
+### Branches
+Git branches exists in isolation
+Changes need to be merged back to the main branch
