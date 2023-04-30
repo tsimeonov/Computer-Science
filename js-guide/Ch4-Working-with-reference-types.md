@@ -25,3 +25,7 @@ Reference data types:
   
   #### Determining the type of a variable
   This can be done using the typeof operator. This is a unary operator; that is, it expects only one operand - namely, the value or varialbe the type of which is to be determend.
+
+## Encapsulating State and Behavior in Objects
+### Introduction to Object-oriented-programming
+Objects have a state and a behavior. The `state` of an object is described by its properties and connections to other objects. The `behavior` of an object is defined by its methods.
