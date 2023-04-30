@@ -33,18 +33,18 @@ Objects have a state and a behavior. The `state` of an object is described by it
 Here the `item` object is created with four properties - `name`, `price`, `author` and `isbn` as well as the `printDescription()` method
 ```js
 const item = {
-            name: 'JS book',
-            price: 50,
-            author: 'T.S',
-            isbn: '978-1-4932-2286-5',
-            printDescription: function () {
-                console.log(`${this.author}: ${this.name}`);
-            }
-        }
+  name: 'JS book',
+  price: 50,
+  author: 'T.S',
+  isbn: '978-1-4932-2286-5',
+  printDescription: function () {
+    console.log(`${this.author}: ${this.name}`);
+ }
+}
 
-        console.log(item.name); // JS book
-        console.log(item.price); // 50
-        console.log(item.author); // T.S
-        console.log(item.isbn); // 978-1-4932-2286-5
-        console.log(item.printDescription()); // T.S: JS book
+console.log(item.name); // JS book
+console.log(item.price); // 50
+console.log(item.author); // T.S
+console.log(item.isbn); // 978-1-4932-2286-5
+console.log(item.printDescription()); // T.S: JS book
 ```
