@@ -22,3 +22,6 @@ Reference data types:
 - Regular Expressions
 - Custom objects
   Reference types are not stored directly in the memory, but instead, a reference to the value is stored in the memory (this is referred to as a pointer).
+  
+  #### Determining the type of a variable
+  This can be done using the typeof operator. This is a unary operator; that is, it expects only one operand - namely, the value or varialbe the type of which is to be determend.
