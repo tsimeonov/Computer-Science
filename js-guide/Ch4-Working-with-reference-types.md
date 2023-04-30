@@ -48,3 +48,32 @@ console.log(item.author); // T.S
 console.log(item.isbn); // 978-1-4932-2286-5
 console.log(item.printDescription()); // T.S: JS book
 ```
+### Creating Objects via Constructor Functions
+```js
+function Item(name, price, author, isbn) {
+  this.name = name;
+  this.price = price;
+  this.author = author;
+  this.isbn = isbn;
+  this.printDescription = function () {
+    console.log(`${this.author}: ${this.name}`);
+  };
+}
+
+const item = new Item("JS Book", 50, "T.S", "978 - 1 - 4932 - 2286 - 5");
+
+console.log(item.name); // JS Book
+console.log(item.author); // T.S
+console.log(item.price); // 50
+console.log(item.isbn); // 978 - 1 - 4932 - 2286 - 5
+console.log(item.printDescription()); // T.S: JS Book
+
+const item2 = new Item("Node.js Book", 40, "T.S", "974 - 1 - 4921 - 2286 - 5");
+
+console.log(item2.name); // Node.js Book
+console.log(item2.author); // T.S
+console.log(item2.price); // 40
+console.log(item2.isbn); // 974 - 1 - 4921 - 2286 - 5
+console.log(item2.printDescription()); // T.S: Node.js Book
+
+```
