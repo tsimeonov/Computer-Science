@@ -49,6 +49,7 @@ console.log(item.isbn); // 978-1-4932-2286-5
 console.log(item.printDescription()); // T.S: JS book
 ```
 ### Creating Objects via Constructor Functions
+What makes a function a constructor function in the first place is the `new` keyword prepended whem it's called.
 ```js
 function Item(name, price, author, isbn) {
   this.name = name;
