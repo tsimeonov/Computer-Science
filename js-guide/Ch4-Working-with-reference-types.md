@@ -49,7 +49,7 @@ console.log(item.isbn); // 978-1-4932-2286-5
 console.log(item.printDescription()); // T.S: JS book
 ```
 ### Creating Objects via Constructor Functions
-What makes a function a constructor function in the first place is the `new` keyword prepended whem it's called.
+What makes a function a constructor function in the first place is the `new` keyword prepended when it's called.
 ```js
 function Item(name, price, author, isbn) {
   this.name = name;
@@ -78,3 +78,7 @@ console.log(item2.isbn); // 974 - 1 - 4921 - 2286 - 5
 console.log(item2.printDescription()); // T.S: Node.js Book
 
 ```
+
+### Prototypes
+In JS, every object has a prototype. A prototype is an abject from which the object inhetits properties and methods.
+It acts as a template for the object, defining its default properties and behaviours.
