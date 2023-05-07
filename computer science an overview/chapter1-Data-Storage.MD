@@ -12,17 +12,21 @@ Opearations that manipulate true/false values are called **Boolean operations**.
 
 ## Gates and Flip-Flops
 
-- Logic gate is an electronic circuit that performs a logical operation on one or more inout signals to produce an output signal. 
+Logic gate is an electronic circuit that performs a logical operation on one or more inout signals to produce an output signal. 
 The input and output signals of a logic gate are binary in nature, meaning they can only have one of two possible states: 'on' or 'off', 
 'high' or 'low', 'true' or 'false'.
 
 
-<em><img src="./logic-gates.png" height="350" width="350"> A pictorial representaion if AND, OR, XOR, and NOT gates as well as their input and output values.</em>
+<em><img src="./logic-gates.png" height="350" width="350"> A pictorial representaion of AND, OR, XOR, and NOT gates as well as their input and output values.</em>
 
-- A Flip flop is a type of digital electronic circuit that is used to store a single bit of information. The term 'flip-flop' comes from the fact that can be in one of two stable states, which can be flipped back and forth by applying an appropriate inout signal.
+A Flip flop is a type of digital electronic circuit that is used to store a single bit of information. The term 'flip-flop' comes from the fact that can be in one of two stable states, which can be flipped back and forth by applying an appropriate inout signal.
 
 <em><img src="./flip flop circuit.png" height="100" width="400"> A simpe flip-flop circuit</em>
 
 
 <em><img src="./output flip-flop.png" height="250" width="450"> Setting the output of a flip-flop to 1<em>
+  
+# Hexadecial Notaion
+  
+Hexadecimal (base 16) is used to represent digital data because hexadecimal representaion uses fewer digits than binary.
 
