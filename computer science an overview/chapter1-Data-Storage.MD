@@ -26,7 +26,7 @@ A Flip flop is a type of digital electronic circuit that is used to store a sing
 
 <em><img src="./output flip-flop.png" height="250" width="450"> Setting the output of a flip-flop to 1<em>
   
-# Hexadecial Notaion
+## Hexadecial Notaion
   
 Hexadecimal (base 16) is used to represent digital data because hexadecimal representaion uses fewer digits than binary.
 
