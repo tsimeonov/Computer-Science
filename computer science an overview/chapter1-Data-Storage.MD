@@ -8,7 +8,8 @@
 
 Opearations that manipulate true/false values are called **Boolean operations**.
 
-<img src="./boolean-operations.png" height="300" width="300" >
+<img src="./boolean-operations.png" height="350" width="350" >
+_The possible input and output values of Boolean operaions AND, OR, XOR (exclusive or)_
 
 ## Gates and Flip-Flops
 
@@ -16,4 +17,4 @@ Opearations that manipulate true/false values are called **Boolean operations**.
 The input and output signals of a logic gate are binary in nature, meaning they can only have one of two possible states: 'on' or 'off', 
 'high' or 'low', 'true' or 'false'.
 
-<img src="./logic-gates.png" height="300" width="300" >
+<img src="./logic gates.png" height="350" width="350" alt='logic gate' >
