@@ -7,6 +7,13 @@
 ## Boolean Opearions
 
 Opearations that manipulate true/false values are called **Boolean operations**.
-![Boolean operations](./boolean-operations.png =100x100)
+
+<img src="./boolean-operations.png" height="300" width="300" >
 
 ## Gates and Flip-Flops
+
+- Logic gate is an electronic circuit that performs a logical operation on one or more inout signals to produce an output signal. 
+The input and output signals of a logic gate are binary in nature, meaning they can only have one of two possible states: 'on' or 'off', 
+'high' or 'low', 'true' or 'false'.
+
+<img src="./logic-gates.png" height="300" width="300" >
