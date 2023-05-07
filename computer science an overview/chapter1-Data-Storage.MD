@@ -16,8 +16,8 @@ Opearations that manipulate true/false values are called **Boolean operations**.
 The input and output signals of a logic gate are binary in nature, meaning they can only have one of two possible states: 'on' or 'off', 
 'high' or 'low', 'true' or 'false'.
 
-<img src="./logic-gates.png" height="350" width="350">
-<em>A pictorial representaion if AND, OR, XOR, and NOT gates as well as their input and output values.</em>
+
+<em><img src="./logic-gates.png" height="350" width="350"> A pictorial representaion if AND, OR, XOR, and NOT gates as well as their input and output values.</em>
 
 - A Flip flop is a type of digital electronic circuit that is used to store a single bit of information. The term 'flip-flop' comes from the fact that can be in one of two stable states, which can be flipped back and forth by applying an appropriate inout signal.
 
