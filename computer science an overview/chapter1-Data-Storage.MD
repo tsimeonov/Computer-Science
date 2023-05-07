@@ -7,6 +7,6 @@
 ## Boolean Opearions
 
 Opearations that manipulate true/false values are called **Boolean operations**.
-![Boolean operations](./boolean-operations.png)
+![Boolean operations](./boolean-operations.png =100x100)
 
 ## Gates and Flip-Flops
