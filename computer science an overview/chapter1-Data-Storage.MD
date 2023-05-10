@@ -39,3 +39,7 @@ There are several levels of memory organization in a compute system, each with i
 At the lowest level, memory is organized into individual bits, which are the smallest unit of information that a computer can store.
 Bits are grouped together into bytes, which typically consist of eight bits and are used to represent a singe character or other small pieces of data.
 
+## Measuring Memory Capacity
+In CS, memory capacity is typically measured in terms of the number if bits or bytes that a particular memory device can store.
+The memory capacity is typically measured in powers of two, with the most common units of measurement being kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB).
+For example, a memory device with a capacity of 1KB can store 1024 bytes of data, while a memory device with a capacity of 1GB can store 1024 megabytes or 1,073,741,824 bytes.
