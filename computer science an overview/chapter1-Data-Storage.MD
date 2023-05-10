@@ -29,4 +29,13 @@ A Flip flop is a type of digital electronic circuit that is used to store a sing
 ## Hexadecial Notaion
   
 Hexadecimal (base 16) is used to represent digital data because hexadecimal representaion uses fewer digits than binary.
+  
+# Main Memory
+  
+## Memory Organization 
+In computer science, memory organization refers to the way that a computer's memory is organized and managed. 
+Memory is an essential component of a computer system, as it is used to store data and instructions that the computer needs to operate.
+There are several levels of memory organization in a compute system, each with its own characteristics and performance characteristics.
+At the lowest level, memory is organized into individual bits, which are the smallest unit of information that a computer can store.
+Bits are grouped together into bytes, which typically consist of eight bits and are used to represent a singe character or other small pieces of data.
 
