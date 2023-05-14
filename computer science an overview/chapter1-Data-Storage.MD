@@ -24,7 +24,7 @@ A Flip flop is a type of digital electronic circuit that is used to store a sing
 <em><img src="./flip flop circuit.png" height="100" width="400"> A simpe flip-flop circuit</em>
 
 
-<em><img src="./output flip-flop.png" height="250" width="450"> Setting the output of a flip-flop to 1<em>
+<em><img src="./output flip-flop.png" height="250" width="450"> Setting the output of a flip-flop to 1</em>
   
 ## Hexadecial Notaion
   
@@ -58,7 +58,7 @@ The `latency` of a system is the time elapsed between the transmission and the r
 
 ## Representing Text
 
-  . ASCII stands for `American Standard Code for Information Interchange`. It is a character encodinf standard that assigns unique value to each character commonly used in computer science communications, includind letters, numbers and punctuation marks.
-  . ISO stands for `International Organization for Standardization`. It is and independent, non-goverment international organization that develops and publishes various standards for various industries and products.
-  . Unicode is a universal character encoding standard that assigns a unique code point ir number to every charecter or symbol in writte language, including scripts used in languages aroud the world.
-  . A dile consisting of a long sequence of symbols encoded using ASCII or Unicode is often called `text file`.
+. ASCII stands for `American Standard Code for Information Interchange`. It is a character encodinf standard that assigns unique value to each character commonly used in computer science communications, includind letters, numbers and punctuation marks.
+. ISO stands for `International Organization for Standardization`. It is and independent, non-goverment international organization that develops and publishes various standards for various industries and products.
+. Unicode is a universal character encoding standard that assigns a unique code point ir number to every charecter or symbol in writte language, including scripts used in languages aroud the world.
+. A dile consisting of a long sequence of symbols encoded using ASCII or Unicode is often called `text file`.
