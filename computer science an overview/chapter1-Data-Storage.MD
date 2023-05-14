@@ -53,3 +53,12 @@ retrieve data than a machine's main memory, where all activities are performed e
 ### Magnetic Systems
 The `bandwidth` of a system is a measure of bit rate - the amount of data (measured in bits) that can be sent in a fixed amount of time.
 The `latency` of a system is the time elapsed between the transmission and the receipt of a request.
+
+# Representiong Information as Bit Patterns
+
+## Representing Text
+
+  . ASCII stands for `American Standard Code for Information Interchange`. It is a character encodinf standard that assigns unique value to each character commonly used in computer science communications, includind letters, numbers and punctuation marks.
+  . ISO stands for `International Organization for Standardization`. It is and independent, non-goverment international organization that develops and publishes various standards for various industries and products.
+  . Unicode is a universal character encoding standard that assigns a unique code point ir number to every charecter or symbol in writte language, including scripts used in languages aroud the world.
+  . A dile consisting of a long sequence of symbols encoded using ASCII or Unicode is often called `text file`.
