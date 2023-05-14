@@ -62,3 +62,7 @@ The `latency` of a system is the time elapsed between the transmission and the r
 - ISO stands for `International Organization for Standardization`. It is and independent, non-goverment international organization that develops and publishes various standards for various industries and products.
 - Unicode is a universal character encoding standard that assigns a unique code point ir number to every charecter or symbol in writte language, including scripts used in languages aroud the world.
 - A dile consisting of a long sequence of symbols encoded using ASCII or Unicode is often called `text file`.
+
+## Representig Numbers
+- Number bases, including binary, decimal and hexadecimal, are used to represent and investigate digital data.
+- Numbers can be converted from any base to any other base. Binary notation (base 2), decimal notation (base 10), hezadecimal notation (base 16).
