@@ -68,6 +68,6 @@ The `latency` of a system is the time elapsed between the transmission and the r
 - Numbers can be converted from any base to any other base. Binary notation (base 2), decimal notation (base 10), hezadecimal notation (base 16).
 
 ## Representing Images
-One means of representing an image is to interpret the image as a collection of dots, each of which is called a `pixel`, short for 'picture element'. The appearance of each pixel is then encoded and the entire image is represented as a collection of these encoded pixels. Such a collection is called a `bit map`.
-A disadvantage of representing images as bit maps is that an image cannot be rescaled easily to any arbitrary size. Essentially, the only way to enlarge the image is to make the pixels bigger, which leads to a grainy appearance.
+One means of representing an image is to interpret the image as a collection of dots, each of which is called a `pixel`, short for 'picture element'. The appearance of each pixel is then encoded and the entire image is represented as a collection of these encoded pixels. Such a collection is called a `bit map`.<br>
+A disadvantage of representing images as bit maps is that an image cannot be rescaled easily to any arbitrary size. Essentially, the only way to enlarge the image is to make the pixels bigger, which leads to a grainy appearance.<br>
 An alternative way of representing images that avoids this scaling pronblem is to describe the image as a collection of geometric structures, such as lines and curves, that can be encoded using techniques of analytic geometry.
