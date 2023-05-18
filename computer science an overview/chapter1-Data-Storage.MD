@@ -76,7 +76,7 @@ An alternative way of representing images that avoids this scaling pronblem is t
 
 ## Binary Notaion 
 
-<em><img src="./images/base10vsbinary.png" height="250" width="650"> The base ten and binary systems</em>
+<em><img src="./images/base10vsbinary.png" height="200" width="700"> The base ten and binary systems</em>
 
 <em><img src="./images/decoding binary.png" height="250" width="450"> Decoding the binary representaion 100101</em>
 
