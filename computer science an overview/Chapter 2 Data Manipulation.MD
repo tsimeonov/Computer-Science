@@ -29,5 +29,7 @@ The data transfer group consists of instructions that request the movement of da
 ## Arithmetic/Logic
 The arithmetic/ logic group consists of the instructions that tell the control unit to request an activity within the arithmetic/logic unit.
 
+## Control 
+The control group consists of these instructions that direct the execution of the program rather than the manipulation of data.
 
 
