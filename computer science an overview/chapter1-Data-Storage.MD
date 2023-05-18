@@ -80,8 +80,9 @@ An alternative way of representing images that avoids this scaling pronblem is t
 
 <em><img src="./images/decoding binary.png" height="250" width="450"> Decoding the binary representaion 100101</em>
 
+## Binary Addition
 
-
+<em><img src="./images/binary adittion.png" height="50" width="250"> Binary Addition</em>
 
 
 
