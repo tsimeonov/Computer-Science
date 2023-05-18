@@ -1,4 +1,4 @@
-# Bits and Their Storage
+# 1.1 Bits and Their Storage
 
 - At the lowest level, all digital data are represented by bits.
 - At a higher level, bits are grouped to represent abstractions, including but not limited to numbers, characters and color
@@ -30,7 +30,7 @@ A Flip flop is a type of digital electronic circuit that is used to store a sing
   
 Hexadecimal (base 16) is used to represent digital data because hexadecimal representaion uses fewer digits than binary.
   
-# Main Memory
+# 1.2 Main Memory
   
 ## Memory Organization 
 In computer science, memory organization refers to the way that a computer's memory is organized and managed. 
@@ -44,17 +44,17 @@ In CS, memory capacity is typically measured in terms of the number if bits or b
 The memory capacity is typically measured in powers of two, with the most common units of measurement being kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB).
 For example, a memory device with a capacity of 1KB can store 1024 bytes of data, while a memory device with a capacity of 1GB can store 1024 megabytes or 1,073,741,824 bytes.
   
-## Mass Storage
+# 1.2 Mass Storage
 Due to the volatility and limited size of a computer's main memory, most computers have additional memory devices called `mass storage` (or secondary storage) systems,
 including magnetic disks, CDs, DVDs, magnetic tapes, flash drives, and solid-state drives.
 A major disadvantage of magnetic and optical mass storage systems is that they typically require mechanicl motion and therefore require significantly more time to store and 
 retrieve data than a machine's main memory, where all activities are performed electronically.
  
-### Magnetic Systems
+## Magnetic Systems
 The `bandwidth` of a system is a measure of bit rate - the amount of data (measured in bits) that can be sent in a fixed amount of time.
 The `latency` of a system is the time elapsed between the transmission and the receipt of a request.
 
-# Representiong Information as Bit Patterns
+# 1.4 Representiong Information as Bit Patterns
 
 ## Representing Text
 
@@ -71,3 +71,40 @@ The `latency` of a system is the time elapsed between the transmission and the r
 One means of representing an image is to interpret the image as a collection of dots, each of which is called a `pixel`, short for 'picture element'. The appearance of each pixel is then encoded and the entire image is represented as a collection of these encoded pixels. Such a collection is called a `bit map`.<br>
 A disadvantage of representing images as bit maps is that an image cannot be rescaled easily to any arbitrary size. Essentially, the only way to enlarge the image is to make the pixels bigger, which leads to a grainy appearance.<br>
 An alternative way of representing images that avoids this scaling pronblem is to describe the image as a collection of geometric structures, such as lines and curves, that can be encoded using techniques of analytic geometry.
+
+# 1.5 The Binary System
+
+## Binary Notaion 
+
+<em><img src="./images/output flip-flop.png" height="250" width="450"> The base ten and binary systems</em>
+
+<em><img src="./images/output flip-flop.png" height="250" width="450"> Decoding the binary representaion 100101</em>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
