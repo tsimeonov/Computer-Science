@@ -20,7 +20,11 @@ Machine language is a low-level programming language that consists of binary cod
 ## The Instruction Repertoire 
 There are two philosophies of CPU arhitecture.
 - One is the CPU should be designed to execute a minimal set of machine instructions. This approach leads to whta is called `reduced instruction set computer (RISC)`.
-- The second is the CPU's ability to execute a large number of complex instructions, even though many of them are technically redundant. The result of this approach is known as a `complex instruction set computer (CISC)`.
+- The second is the CPU's ability to execute a large number of complex instructions, even though many of them are technically redundant. The result of this approach is known as a `complex instruction set computer (CISC)`. <br>
 Regardless of the choice between RISC and CISC, a machines's instructions can be categorized into three groupings: (1) the data transfer group, (2) the arithmetic/logic group, and (3) the control group.
+
+## Data Transfer
+The data transfer group consists of instructions that request the movement of data from one location to another.
+
 
 
