@@ -86,7 +86,7 @@ An alternative way of representing images that avoids this scaling pronblem is t
 
 ## Binary Fractions
 
-<em><img src="./images/binary fractions.png" height="50" width="200"> Binary Fractions</em>
+<em><img src="./images/binary fractions.png" height="250" width="450"> Binary Fractions</em>
 
 
 
