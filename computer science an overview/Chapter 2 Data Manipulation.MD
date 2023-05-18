@@ -26,5 +26,8 @@ Regardless of the choice between RISC and CISC, a machines's instructions can be
 ## Data Transfer
 The data transfer group consists of instructions that request the movement of data from one location to another.
 
+## Arithmetic/Logic
+The arithmetic/ logic group consists of the instructions that tell the control unit to request an activity within the arithmetic/logic unit.
+
 
 
