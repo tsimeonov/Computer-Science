@@ -21,10 +21,10 @@ The input and output signals of a logic gate are binary in nature, meaning they 
 
 A Flip flop is a type of digital electronic circuit that is used to store a single bit of information. The term 'flip-flop' comes from the fact that can be in one of two stable states, which can be flipped back and forth by applying an appropriate inout signal.
 
-<em><img src="./flip flop circuit.png" height="100" width="400"> A simpe flip-flop circuit</em>
+<em><img src="./images/flip flop circuit.png" height="100" width="400"> A simpe flip-flop circuit</em>
 
 
-<em><img src="./output flip-flop.png" height="250" width="450"> Setting the output of a flip-flop to 1</em>
+<em><img src="./images/output flip-flop.png" height="250" width="450"> Setting the output of a flip-flop to 1</em>
   
 ## Hexadecial Notaion
   
