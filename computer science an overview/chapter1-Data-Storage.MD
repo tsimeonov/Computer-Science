@@ -82,7 +82,7 @@ An alternative way of representing images that avoids this scaling pronblem is t
 
 ## Binary Addition
 
-<em><img src="./images/binary adittion.png" height="50" width="450"> Binary Addition</em>
+<em><img src="./images/binary adittion.png" height="50" width="250"> Binary Addition</em>
 
 
 
