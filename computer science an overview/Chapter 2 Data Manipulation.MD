@@ -13,3 +13,6 @@ For the purpose of transfering bit patterns, a machine's CPU and main memory are
 ## The Stored-Program Concept
 A sequence of bits may represent instructions or data.<br>
 Cache Memory - It is instructive to compare the memory facilities within a computer in relation to their functionality. Registers are used to hold the data immediately applicable to the operaion at hand; main memory is used to hold data that will be needed in the near future; and mass storage is used to hold data that will likely not be needed in the immediate future. Many machines are designed with an additional memory level, called cache memory. `Cache memory` is a portion (perhaps several hundred KB) of high-speed memory located within the CPU itself.
+
+# 2.2 Machine Language 
+Machine language is a low-level programming language that consists of binary code or instructions directly understandable by a computer's hardware.
