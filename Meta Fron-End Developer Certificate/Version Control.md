@@ -62,3 +62,10 @@ Changes need to be merged back to the main branch
 
 ### 1.4 HEAD 
 The term `head` refers to the latest commit in a branch or a specific reference. It represents the most recent state of a branch or a particular commit that is being referenced.
+
+```
+cd .git
+cat HEAD
+ref: refs/heads/main
+HEAD (END)
+```
