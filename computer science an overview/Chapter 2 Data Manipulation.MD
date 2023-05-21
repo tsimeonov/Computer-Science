@@ -32,4 +32,4 @@ The arithmetic/ logic group consists of the instructions that tell the control u
 ## Control 
 The control group consists of these instructions that direct the execution of the program rather than the manipulation of data.
 
-
+# 2.3 Program Execution 
