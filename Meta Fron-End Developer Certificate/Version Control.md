@@ -69,3 +69,10 @@ cat HEAD
 ref: refs/heads/main
 HEAD (END)
 ```
+### 1.5 Diff commands
+In Git, the 'dif' command is used to show the differences between various entities in the repository, such as files, branches or even different verisons of the same file.
+Git status ----------> Which files were changed
+Git diff -----------> What changes were made
+
+### 1.6 Blame
+The `git blame` command is used in Git todisplay information about whos last modified each line of a file and when the modification occured.
