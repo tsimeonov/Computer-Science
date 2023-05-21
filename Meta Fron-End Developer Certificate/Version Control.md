@@ -1,13 +1,13 @@
 # Week 1
 
-## Course Introduction
+## 1. Course Introduction
 
-## Introduction to Version Control
+## 2. Introduction to Version Control
 
-### What is version control
+### 2.1 What is version control
 Version control is a system that records all changes and modifications to files for tracking purposes.
 
-### Systems of version control and tools
+### 2.2 Systems of version control and tools
 
 Version control systems:
 - Subversion
@@ -22,11 +22,11 @@ Types of Version contol systems:
 
 # Week 2
 
-## Unix Commands
+## 1. Unix Commands
 
-### The command line
+### 1.1 The command line
 
-### What are the Unix commands?
+### 1.2 What are the Unix commands?
 
 - man (manual)
 - cd (change directory)
@@ -35,25 +35,27 @@ Types of Version contol systems:
 - cp (copy)
 - mv (move)
 
-### Pipes 
+### 1.3 Pipes 
 A coding tool that allows the output of one command to be used as the input for a different command
 
-### Redirection
+### 1.4 Redirection
 - Standard output
 - Standard error
 - Standard input
 
-### Grep
+### 1.4 Grep
 GREP - global regular expression print. And it's used for searching across files and folders as well as the contens of files.
 
 # Week 3
 
-## Git and Github
+## 1. Git and Github
 
-### What is Git and Github?
+### 1.2 What is Git and Github?
 Git - version control system for tracking changes to projects.
 GitHub is a cloud -bassed hosting service that lets you manage Git repositories from a user interface.
 
-### Branches
+### 1.2 Branches
 Git branches exists in isolation
 Changes need to be merged back to the main branch
+
+### 1.3 Push and Pull
