@@ -35,3 +35,8 @@ The control group consists of these instructions that direct the execution of th
 # 2.3 Program Execution 
 
 # 2.4 Arithmetic/Logic Instructions
+
+# 2.5 Communication with other Devices
+
+## The role of a controllers
+Communication between a computer and other devices is normally handled through ab intermediary apparatus known as a `controller`.
