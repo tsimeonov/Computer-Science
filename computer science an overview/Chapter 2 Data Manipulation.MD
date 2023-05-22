@@ -51,3 +51,6 @@ Handshaking is a constant two-way dialogue, in which the computer and the periph
 Communication betwen computing devices is handled over two tyoes of paths: `paralel` and `serial`.
 In the case of parallel communication, several signals are transfered at the same time, each on a separate line.
 In contrrast, serial communication is based on transferring signals one after the other over a single line.
+
+## Communication Rates 
+The rate at which bits are transferred from one computing component to another is measured in `bits per second (bps)`. Common units include `Kbps` (kilo-bps, equal to one thousand bps), `Mbps` (mega-bps, equal to one million bps), and `Gbps` (giga-bps, equal to one billion bps).
