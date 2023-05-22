@@ -43,3 +43,6 @@ Communication between a computer and other devices is normally handled through a
 
 ## Direct Memory Access
 The ability of a controller to access main memory is known as `direct memory access (DMA)`, and it is a significant asset to a computers performance.
+
+## Handshaking
+Handshaking is a constant two-way dialogue, in which the computer and the peripheral device exchange information about the device's status and coordinate their activities.
