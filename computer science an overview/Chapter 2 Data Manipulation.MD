@@ -46,3 +46,8 @@ The ability of a controller to access main memory is known as `direct memory acc
 
 ## Handshaking
 Handshaking is a constant two-way dialogue, in which the computer and the peripheral device exchange information about the device's status and coordinate their activities.
+
+## Popular Communication Media
+Communication betwen computing devices is handled over two tyoes of paths: `paralel` and `serial`.
+In the case of parallel communication, several signals are transfered at the same time, each on a separate line.
+In contrrast, serial communication is based on transferring signals one after the other over a single line.
