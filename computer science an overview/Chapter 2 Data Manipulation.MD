@@ -40,3 +40,6 @@ The control group consists of these instructions that direct the execution of th
 
 ## The role of a controllers
 Communication between a computer and other devices is normally handled through ab intermediary apparatus known as a `controller`.
+
+## Direct Memory Access
+The ability of a controller to access main memory is known as `direct memory access (DMA)`, and it is a significant asset to a computers performance.
