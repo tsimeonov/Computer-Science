@@ -54,3 +54,9 @@ In contrrast, serial communication is based on transferring signals one after th
 
 ## Communication Rates 
 The rate at which bits are transferred from one computing component to another is measured in `bits per second (bps)`. Common units include `Kbps` (kilo-bps, equal to one thousand bps), `Mbps` (mega-bps, equal to one million bps), and `Gbps` (giga-bps, equal to one billion bps).
+
+# 2.6 Programming Data Manipulation
+Code in programming language is often translated into code in another (lower level) language to be executed on a computer.
+## Functions
+A function is a named grouping of programmin instructions. <br>
+Functions are reusable programming abstractions.
