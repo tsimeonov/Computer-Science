@@ -5,3 +5,5 @@ A computer network is often classified as being either a:
 - `Local area network` (LAN)
 - `Metropolian area network` (MAN)
 - `Wide area network` (WAN)
+## 4.1.2 Protocols
+For a network to function, it is important to establishh tules by wich activities are conducted. Such rules are called `protocols`
