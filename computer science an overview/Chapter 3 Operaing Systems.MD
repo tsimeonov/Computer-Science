@@ -15,4 +15,5 @@ To keep track of all processes, the scheduler maintains a block of information i
 # 3.4 Handling competition among processes
 ## 3.4.1 Semaphores
 In CS, a semaphore is a variable or abstract data type used to control access to a common resource by multiple threads and avoid critical section problems in a concurent system such as a multitasking operating system.
-
+## 3.4.2 Deadlock
+Another problem that can arise during the resource allocation is `deadlock`, the conditionin which two or more processes are blocked from progresssing because eacht is waiting for a resource that is allocated to another.
