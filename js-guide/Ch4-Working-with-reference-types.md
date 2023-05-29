@@ -125,7 +125,8 @@ console.log(item.isbn); // 978-4921-2231-5
 ### 4.2.5 Creating Objects via the Object.crate() function
 <details>
   <summary>Example</summary>
-  
+
+```js
 // Crating an Object via the Object.create() Helper function
 const item = Object.create(Object.prototype, {
   name: {
@@ -152,4 +153,4 @@ console.log(item.price); // 59.95
 console.log(item.author); // Philip Ackermann
 console.log(item.isbn); // 978-4921-2231-5
 </details>
-
+```
