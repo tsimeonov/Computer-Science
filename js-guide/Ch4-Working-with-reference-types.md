@@ -29,6 +29,10 @@ Reference data types:
 Objects have a state and a behavior. The `state` of an object is described by its properties and connections to other objects. The `behavior` of an object is defined by its methods.
 ### 4.2.2 Creating Objects Using Literal Notation
 Here the `item` object is created with four properties - `name`, `price`, `author` and `isbn` as well as the `printDescription()` method
+
+<details>
+  <summary>Example</summary>
+  
 ```js
 const item = {
   name: 'JS book',
@@ -46,6 +50,8 @@ console.log(item.author); // T.S
 console.log(item.isbn); // 978-1-4932-2286-5
 console.log(item.printDescription()); // T.S: JS book
 ```
+</details>
+
 ### 4.2.3 Creating Objects via Constructor Functions
 What makes a function a constructor function in the first place is the `new` keyword prepended when it's called.
 ```js
