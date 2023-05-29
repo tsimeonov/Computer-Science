@@ -122,4 +122,34 @@ console.log(item.isbn); // 978-4921-2231-5
 ```
 </details>
 
+### 4.2.5 Creating Objects via the Object.crate() function
+<details>
+  <summary>Example</summary>
+  
+// Crating an Object via the Object.create() Helper function
+const item = Object.create(Object.prototype, {
+  name: {
+    value: "JS: The complete guide",
+  },
+  price: {
+    value: 59.95,
+  },
+  author: {
+    value: "Philip Ackermann",
+  },
+  isbn: {
+    value: "978-4921-2231-5",
+  },
+  printDescription: {
+    value: function () {
+      console.log(`${this.author}: ${this.name}`);
+    },
+  },
+});
+
+console.log(item.name); // JS: the complete guide
+console.log(item.price); // 59.95
+console.log(item.author); // Philip Ackermann
+console.log(item.isbn); // 978-4921-2231-5
+</details>
 
