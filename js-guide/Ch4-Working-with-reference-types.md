@@ -79,7 +79,7 @@ console.log(item2.printDescription()); // T.S: Node.js Book
 
 ### 4.2.3 Creating objects using classes
 
-```
+```js
 // Exampple of a class
 class Item {
   constructor(name, price, author, isbn) {
