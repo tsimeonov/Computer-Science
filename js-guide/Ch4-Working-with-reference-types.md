@@ -154,3 +154,13 @@ console.log(item.author); // Philip Ackermann
 console.log(item.isbn); // 978-4921-2231-5
 </details>
 ```
+
+### 4.2.6 Accessing Properties and Calling Methods
+To access object properties or call object methods, js usually uses dot notation.
+<summary>Example dot notation</summary>
+
+```js
+// Access t oObject Properties and Object Methods via Dot Notation
+const itemName - item.name;
+item.printDescription()
+```
