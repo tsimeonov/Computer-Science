@@ -1,8 +1,6 @@
-# Chaprer 4
+# Chaprer 4 - Working with Reference Types
 
-## Working with Reference Types
-
-### Difference between Primitive Data Types and Reference Types
+## 4.1 Difference between Primitive Data Types and Reference Types
 
 Primitive data types include:
 
@@ -23,13 +21,13 @@ Reference data types:
 - Custom objects
   Reference types are not stored directly in the memory, but instead, a reference to the value is stored in the memory (this is referred to as a pointer).
   
-  #### Determining the type of a variable
+### 4.1.4 Determining the type of a variable
   This can be done using the typeof operator. This is a unary operator; that is, it expects only one operand - namely, the value or varialbe the type of which is to be determend.
 
-## Encapsulating State and Behavior in Objects
-### Introduction to Object-oriented-programming
+## 4.2 Encapsulating State and Behavior in Objects
+### 4.2.1 Introduction to Object-oriented-programming
 Objects have a state and a behavior. The `state` of an object is described by its properties and connections to other objects. The `behavior` of an object is defined by its methods.
-### Creating Objects Using Literal Notation
+### 4.2.2 Creating Objects Using Literal Notation
 Here the `item` object is created with four properties - `name`, `price`, `author` and `isbn` as well as the `printDescription()` method
 ```js
 const item = {
@@ -48,7 +46,7 @@ console.log(item.author); // T.S
 console.log(item.isbn); // 978-1-4932-2286-5
 console.log(item.printDescription()); // T.S: JS book
 ```
-### Creating Objects via Constructor Functions
+### 4.2.3 Creating Objects via Constructor Functions
 What makes a function a constructor function in the first place is the `new` keyword prepended when it's called.
 ```js
 function Item(name, price, author, isbn) {
@@ -79,6 +77,32 @@ console.log(item2.printDescription()); // T.S: Node.js Book
 
 ```
 
-### Prototypes
-In JS, every object has a prototype. A prototype is an abject from which the object inhetits properties and methods.
-It acts as a template for the object, defining its default properties and behaviours.
+### 4.2.3 Creating objects using classes
+
+```
+// Exampple of a class
+class Item {
+  constructor(name, price, author, isbn) {
+    this.name = name;
+    this.price = price;
+    this.author = author;
+    this.isbn = isbn;
+  }
+  printDescription() {
+    console.log(`${this.author}: ${this.name}`);
+  }
+}
+
+// Creating an Object using a class
+const item = new Item(
+  "JS: the complete guide",
+  59.95,
+  "Philip Ackermann",
+  "978-4921-2231-5"
+);
+
+console.log(item.name); // JS: the complete guide
+console.log(item.price); // 59.95
+console.log(item.author); // Philip Ackermann
+console.log(item.isbn); // 978-4921-2231-5
+```
