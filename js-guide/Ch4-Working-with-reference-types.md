@@ -54,6 +54,10 @@ console.log(item.printDescription()); // T.S: JS book
 
 ### 4.2.3 Creating Objects via Constructor Functions
 What makes a function a constructor function in the first place is the `new` keyword prepended when it's called.
+
+<details>
+  <summary>Example</summary>
+  
 ```js
 function Item(name, price, author, isbn) {
   this.name = name;
@@ -80,11 +84,15 @@ console.log(item2.author); // T.S
 console.log(item2.price); // 40
 console.log(item2.isbn); // 974 - 1 - 4921 - 2286 - 5
 console.log(item2.printDescription()); // T.S: Node.js Book
-
 ```
+</details>
+
 
 ### 4.2.3 Creating objects using classes
 
+<details>
+  <summary>Example</summary>
+  
 ```js
 // Exampple of a class
 class Item {
@@ -112,3 +120,6 @@ console.log(item.price); // 59.95
 console.log(item.author); // Philip Ackermann
 console.log(item.isbn); // 978-4921-2231-5
 ```
+</details>
+
+
