@@ -19,3 +19,8 @@ Nettworks and infrastructure are supported by both commercial and goverment init
 As we have already mentioned, the Internet is a collection of connected networks. In general, these networks are constructed and maintained by organizations called `Internet Service Providers (ISPs)`. <br>
 The internet and the systems built on it are hierarchical and redundant. <br>
 Hierarchy and redundanct hekp systems scale.
+## 4.2.2 Internet Addressing
+IP addresses are hierarchical. <br>
+Connecting devices to the Internet is enabled by assignement of an Internet protocol (IP) address. <br>
+The domain name system (DNS) translates domain names to IP addresses.
+Hierarchy in the DNS helps that system scale.
