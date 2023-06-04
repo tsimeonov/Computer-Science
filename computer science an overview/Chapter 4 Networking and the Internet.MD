@@ -15,3 +15,7 @@ Devices and networks that make up the Internet are connected and communicate usi
 # 4.2 The Internet
 The internet connects devices and networks all ove rthe world. <br>
 Nettworks and infrastructure are supported by both commercial and goverment initiatives.
+## 4.2.1 Internet Architecture
+As we have already mentioned, the Internet is a collection of connected networks. In general, these networks are constructed and maintained by organizations called `Internet Service Providers (ISPs)`. <br>
+The internet and the systems built on it are hierarchical and redundant. <br>
+Hierarchy and redundanct hekp systems scale.
