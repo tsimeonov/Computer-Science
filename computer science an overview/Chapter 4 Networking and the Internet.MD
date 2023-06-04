@@ -12,3 +12,6 @@ Devices and networks that make up the Internet are connected and communicate usi
 ## 4.1.3 Methos of Process Communication
 - Clien/server model
 - Peer to peer model
+# 4.2 The Internet
+The internet connects devices and networks all ove rthe world. <br>
+Nettworks and infrastructure are supported by both commercial and goverment initiatives.
