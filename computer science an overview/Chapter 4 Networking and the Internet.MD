@@ -7,5 +7,8 @@ A computer network is often classified as being either a:
 - `Wide area network` (WAN)
 ## 4.1.2 Protocols
 For a network to function, it is important to establishh tules by wich activities are conducted. Such rules are called `protocols`
-## 4.1.2 Combibing Networks
+## 4.1.2 Combining Networks
 Devices and networks that make up the Internet are connected and communicate using addresses and protocols.
+## 4.1.3 Methos of Process Communication
+- Clien/server model
+- Peer to peer model
