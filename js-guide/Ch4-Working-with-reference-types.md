@@ -209,7 +209,7 @@ console.log(obj.value); // Output: 10 (value remains unchanged)
 In JavaScript, you can delete object properties using the delete keyword.
 
 <details>
-  <summary>Example of setters and getters</summary>
+  <summary>Deleting Object Propertiesa and Object Methods</summary>
 
 ```js
 const person = {
