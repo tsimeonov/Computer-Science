@@ -177,28 +177,30 @@ Instead of accessing properties directly, it's common in OPP to use special meth
   <summary>Example of setters and getters</summary>
 
 ```js
-const item = {
-  _name: "JS: The complete guide",
-  _price: 59.95,
-  _author: "T. Simeonov",
-  _isbn: "974-124-1415-1515",
-  set name(newName) {
-    if (typeof newName === "string") {
-      console.log("Set new name");
-      this._name;
+const obj = {
+  _value: 0, // underscore is a common convention to indicate private property
+
+  get value() {
+    return this._value;
+  },
+
+  set value(newValue) {
+    if (newValue >= 0) {
+      this._value = newValue;
     } else {
-      throw new TypeError("Name must be a string");
+      console.log("Invalid value. Please provide a positive number.");
     }
-  },
-  get name() {
-    console.log("Return name");
-    return this._name;
-  },
-  // Same for the other propertie
+  }
 };
 
-console.log(item.name); // 'Return name' , 'JS: The complete guide'
-item.name = "JS the complete guide by T. Simeonov"; // Set new name
+console.log(obj.value); // Output: 0
+
+obj.value = 10;
+console.log(obj.value); // Output: 10
+
+obj.value = -5; // Output: Invalid value. Please provide a positive number.
+console.log(obj.value); // Output: 10 (value remains unchanged)
+
 ```
 </details>
 
