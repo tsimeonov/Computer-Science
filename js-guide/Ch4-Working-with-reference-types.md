@@ -205,4 +205,24 @@ console.log(obj.value); // Output: 10 (value remains unchanged)
 </details>
 
 `Data encapsulation` in OOP, technical term for allowing access to the properties of an object only via (setters and getters) methods. The properties are thus protected from direct access from the outside.
+### 4.2.8 Deleting Object Propertiesa and Object Methods
+In JavaScript, you can delete object properties using the delete keyword.
 
+<details>
+  <summary>Example of setters and getters</summary>
+
+```js
+const person = {
+  name: 'John',
+  age: 30,
+  greet: function () {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+}
+
+console.log(person.name); // Output: 'John'
+delete person.name;
+console.log(person.name); // Output: undefined
+
+```
+</details>
