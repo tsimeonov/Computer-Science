@@ -164,10 +164,43 @@ To access object properties or call object methods, js usually uses dot notation
   <summary>Example of dot notaion</summary>
 
 ```js
-// Access t oObject Properties and Object Methods via Dot Notation
+// Access to Object Properties and Object Methods via Dot Notation
 const itemName - item.name;
 item.printDescription()
 ```
 </details>
 
+#### Setters and Getters
+Instead of accessing properties directly, it's common in OPP to use special methods reset properties or returrn the values of properties. Those types of methods that set a new value for a property are called `setter methods`, or `setters` for short, and those that return the value of a property are called `getter methods` or `getters`. The advantage of setter methods in particular is that they provide a good opportunity to validate values that are assigned to a property - that us, to check their validity.
+
+<details>
+  <summary>Example of setters and getters</summary>
+
+```js
+const item = {
+  _name: "JS: The complete guide",
+  _price: 59.95,
+  _author: "T. Simeonov",
+  _isbn: "974-124-1415-1515",
+  set name(newName) {
+    if (typeof newName === "string") {
+      console.log("Set new name");
+      this._name;
+    } else {
+      throw new TypeError("Name must be a string");
+    }
+  },
+  get name() {
+    console.log("Return name");
+    return this._name;
+  },
+  // Same for the other propertie
+};
+
+console.log(item.name); // 'Return name' , 'JS: The complete guide'
+item.name = "JS the complete guide by T. Simeonov"; // Set new name
+```
+</details>
+
+`Data encapsulation` in OOP, technical term for allowing access to the properties of an object only via (setters and getters) methods. The properties are thus protected from direct access from the outside.
 
