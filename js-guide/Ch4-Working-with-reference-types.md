@@ -242,28 +242,36 @@ const mixed = [1, 'hello', true, null]
 
 - Using Array Constructor
 
-<details>
-  <summary>Using Array Constructor</summary>
-
 ```js
 const numbers = [1,2,3,4,5]
 const fruits = ['apple', 'banana', 'orange']
 const mixed = [1, 'hello', true, null]
 
 ```
-</details>
-
 - Creating an empty array and adding elements
-
-<details>
-  <summary>Using Array Constructor</summary>
-
 ```js
 // Creating an Empty Array and adding elements
 const numbers = [];
 numbers.push(1);
 numbers.push(2);
 numbers.push(3);
-
 ```
-</details>
+## 4.3.2 Accessing elements of an array
+- Using square bracket notation
+```js
+const numbers = [10, 20, 30, 40];
+
+console.log(numbers[0]); // 10
+console.log(numbers[2]); // 30
+console.log(numbers[3]); // 40
+```
+- You can use variables or expressions as the index to access array elements dynamically
+```js
+const fruits = ["apple", "banana", "orange"];
+
+let index = 1;
+console.log(fruits[index]); // 'banana'
+
+let dynamicIndex = 2;
+console.log(fruits[dynamicIndex]); // 'orange'
+```
