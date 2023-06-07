@@ -229,16 +229,12 @@ console.log(person.name); // Output: undefined
 ## 4.3.1 Creating and Initializijn Arrays
 - Uisng Array Literal Syntax
 
-<details>
-  <summary>Using array literal syntax</summary>
-
 ```js
 const numbers = [1,2,3,4,5]
 const fruits = ['apple', 'banana', 'orange']
 const mixed = [1, 'hello', true, null]
 
 ```
-</details>
 
 - Using Array Constructor
 
