@@ -1,6 +1,4 @@
-# Chaprer 4 - Working with Reference Types
-
-## 4.1 Difference between Primitive Data Types and Reference Types
+# 4.1 Difference between Primitive Data Types and Reference Types
 
 Primitive data types include:
 
@@ -21,11 +19,11 @@ Reference data types:
 - Custom objects
   Reference types are not stored directly in the memory, but instead, a reference to the value is stored in the memory (this is referred to as a pointer).
   
-### 4.1.4 Determining the type of a variable
+## 4.1.4 Determining the type of a variable
   This can be done using the typeof operator. This is a unary operator; that is, it expects only one operand - namely, the value or varialbe the type of which is to be determend.
 
-## 4.2 Encapsulating State and Behavior in Objects
-### 4.2.1 Introduction to Object-oriented-programming
+# 4.2 Encapsulating State and Behavior in Objects
+## 4.2.1 Introduction to Object-oriented-programming
 Objects have a state and a behavior. The `state` of an object is described by its properties and connections to other objects. The `behavior` of an object is defined by its methods.
 ### 4.2.2 Creating Objects Using Literal Notation
 Here the `item` object is created with four properties - `name`, `price`, `author` and `isbn` as well as the `printDescription()` method
@@ -52,7 +50,7 @@ console.log(item.printDescription()); // T.S: JS book
 ```
 </details>
 
-### 4.2.3 Creating Objects via Constructor Functions
+## 4.2.3 Creating Objects via Constructor Functions
 What makes a function a constructor function in the first place is the `new` keyword prepended when it's called.
 
 <details>
@@ -88,7 +86,7 @@ console.log(item2.printDescription()); // T.S: Node.js Book
 </details>
 
 
-### 4.2.3 Creating objects using classes
+## 4.2.3 Creating objects using classes
 
 <details>
   <summary>Example</summary>
@@ -122,7 +120,7 @@ console.log(item.isbn); // 978-4921-2231-5
 ```
 </details>
 
-### 4.2.5 Creating Objects via the Object.crate() function
+## 4.2.5 Creating Objects via the Object.crate() function
 
 <details>
   <summary>Example</summary>
@@ -157,7 +155,7 @@ console.log(item.isbn); // 978-4921-2231-5
 </details>
 
 
-### 4.2.6 Accessing Properties and Calling Methods
+## 4.2.6 Accessing Properties and Calling Methods
 To access object properties or call object methods, js usually uses dot notation.
 
 <details>
@@ -170,7 +168,7 @@ item.printDescription()
 ```
 </details>
 
-#### Setters and Getters
+### Setters and Getters
 Instead of accessing properties directly, it's common in OPP to use special methods reset properties or returrn the values of properties. Those types of methods that set a new value for a property are called `setter methods`, or `setters` for short, and those that return the value of a property are called `getter methods` or `getters`. The advantage of setter methods in particular is that they provide a good opportunity to validate values that are assigned to a property - that us, to check their validity.
 
 <details>
@@ -223,6 +221,49 @@ const person = {
 console.log(person.name); // Output: 'John'
 delete person.name;
 console.log(person.name); // Output: undefined
+
+```
+</details>
+
+# 4.3 Working with Arrays
+## 4.3.1 Creating and Initializijn Arrays
+- Uisng Array Literal Syntax
+
+<details>
+  <summary>Using array literal syntax</summary>
+
+```js
+const numbers = [1,2,3,4,5]
+const fruits = ['apple', 'banana', 'orange']
+const mixed = [1, 'hello', true, null]
+
+```
+</details>
+
+- Using Array Constructor
+
+<details>
+  <summary>Using Array Constructor</summary>
+
+```js
+const numbers = [1,2,3,4,5]
+const fruits = ['apple', 'banana', 'orange']
+const mixed = [1, 'hello', true, null]
+
+```
+</details>
+
+- Creating an empty array and adding elements
+
+<details>
+  <summary>Using Array Constructor</summary>
+
+```js
+// Creating an Empty Array and adding elements
+const numbers = [];
+numbers.push(1);
+numbers.push(2);
+numbers.push(3);
 
 ```
 </details>
