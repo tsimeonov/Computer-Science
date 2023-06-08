@@ -271,3 +271,26 @@ console.log(fruits[index]); // 'banana'
 let dynamicIndex = 2;
 console.log(fruits[dynamicIndex]); // 'orange'
 ```
+## 4.3.3 Adding elements to array
+- Adding an element to the end of an Array
+```js
+const numbers = [1, 2, 3, 4, 5];
+numbers.push(6);
+console.log(numbers); // 1,2,3,4,5,6
+```
+- Adding an element to the gebinning of an array
+```js
+const numbers = [1, 2, 3, 4, 5];
+numbers.push(6);
+console.log(numbers); // 1,2,3,4,5,6
+```
+- Inserting elements at any position in the array
+```js
+const numbers = [1, 2, 5, 6];
+const index = 2;
+const newElements = [3, 4];
+
+numbers.splice(index, 0, ...newElements);
+
+console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
+```
