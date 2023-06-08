@@ -314,3 +314,10 @@ const numbers = [1, 2, 3, 4, 5];
 numbers.splice(2, 2);
 console.log(numbers); // Output: [1,2,5]
 ```
+## 4.3.5 Copying some of the elements for an array
+```js
+const numbers = [1, 2, 3, 4, 5];
+// Copy elements from index 1 to index 3
+const copiedElements = numbers.splice(1, 3);
+console.log(copiedElements); // Output: [2,3,4]
+```
