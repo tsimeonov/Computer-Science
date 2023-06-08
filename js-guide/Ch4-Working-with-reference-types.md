@@ -294,3 +294,23 @@ numbers.splice(index, 0, ...newElements);
 
 console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
 ```
+## 4.3.4 Removing elements from an array
+- Removing the last element from an array
+```js
+const numbers = [1, 2, 3, 4, 5];
+numbers.pop();
+console.log(numbers); // Output [1,2,3,4,5]
+```
+- Removing the first element from an array
+```js
+const numbers = [1, 2, 3, 4, 5];
+numbers.pop();
+console.log(numbers); // Output [1,2,3,4,5]
+```
+- Removing some of the elements from an array
+```js
+const numbers = [1, 2, 3, 4, 5];
+// Remove elements starting from index 2 and remove 2 elements
+numbers.splice(2, 2);
+console.log(numbers); // Output: [1,2,5]
+```
