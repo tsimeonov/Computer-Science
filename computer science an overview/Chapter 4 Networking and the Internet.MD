@@ -24,3 +24,5 @@ IP addresses are hierarchical. <br>
 Connecting devices to the Internet is enabled by assignement of an Internet protocol (IP) address. <br>
 The domain name system (DNS) translates domain names to IP addresses.
 Hierarchy in the DNS helps that system scale.
+## 4.2.3 Internet Applications
+In the earlier days of the internet, most applications were separate, simple programs that each followed a network protocol. A newsreader application contracted servers using the `Network News Transfer Protocol (NNTP)`, an application fol listing and copying files across the network implementedthe `File Transfer Ptotocol (FTP)`, or an application for accessing anotehr computer from a great distance used the `Telnet` protocol, or later the `Secure Shell (SSH)` protocol. As webservers and browsers have become more sophisticated, more adn more of these traditional network applications have come to be handled by webpages vi tbe powerful `Hyper Text Transfer Protocol (HTTP)`
