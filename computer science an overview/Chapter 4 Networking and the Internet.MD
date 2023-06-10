@@ -41,6 +41,8 @@ In order to locate and retrieve documents on the Web, each document is given a u
 `eXtensible Markup Language (XML)`
 ## Client-Side and Server-Side Activities
 # 4.4 Internet Protocols
-## The Layered Approach to Internet Software
+## 4.4.1 The Layered Approach to Internet Software
 The internet software layers are knows as the `application layer`, the `transportation layer`, the `network layer` and the `link layer`. <br>
 The Internet is a packet-switched system through which digital data issent by breaking the dat into blocks of bits called packets, whicj contain both the data being transmitted and control information for routing the data.
+## 4.4.2 The TCP/IP Protocol Suite
+The TCP/IP protocol suite is a collection of protocols that provide the foundation for communication in the internet. It stands for `Transmission Control Protocol/Internet Protocol`. The TCP/IP protocol suite consists of  several protocols that work tohether to enable reliable and efficient communication between devices connected to a network.
