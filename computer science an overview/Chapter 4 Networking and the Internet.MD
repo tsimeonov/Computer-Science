@@ -28,3 +28,5 @@ Hierarchy in the DNS helps that system scale.
 In the earlier days of the internet, most applications were separate, simple programs that each followed a network protocol. A newsreader application contracted servers using the `Network News Transfer Protocol (NNTP)`, an application fol listing and copying files across the network implementedthe `File Transfer Ptotocol (FTP)`, or an application for accessing anotehr computer from a great distance used the `Telnet` protocol, or later the `Secure Shell (SSH)` protocol. As webservers and browsers have become more sophisticated, more adn more of these traditional network applications have come to be handled by webpages vi tbe powerful `Hyper Text Transfer Protocol (HTTP)`
 ## 4.2.3 Electronic Mail
 `SMTP (Simple mail Transfer Protocol)` defines a way that two computers on the network may interact when transmitting an email message from one host to the other.
+## 4.2.4 VoIP
+`VOIP (Voice over Internet Protocol)` 
