@@ -51,3 +51,6 @@ The TCP/IP protocol suite is a collection of protocols that provide the foundati
 ## 4.6.1 Forms of Attack
 ## 4.6.2 Protection and Cures
 Antivirus software and firewalls can help prevent unauthorized access to private data.
+## 4.6.2 Cryptography
+`Cryptography` is the study od sending and receiving messages securely in the presense of adversaries.
+
