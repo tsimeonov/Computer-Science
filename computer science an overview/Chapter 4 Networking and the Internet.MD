@@ -37,3 +37,5 @@ Software packages that allow users to access hypertext on the Internet fall into
 In order to locate and retrieve documents on the Web, each document is given a unique address called a `Uniform Resource Locator (URL)`.
 ## 4.3.2 HTML 
 `Hypertext Markup Language (HTML)`
+## XML 
+`eXtensible Markup Language (XML)`
