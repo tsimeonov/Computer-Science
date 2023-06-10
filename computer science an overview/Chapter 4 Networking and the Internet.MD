@@ -31,7 +31,9 @@ In the earlier days of the internet, most applications were separate, simple pro
 ## 4.2.4 VoIP
 `VOIP (Voice over Internet Protocol)` 
 ## 4.2.5 Internet Multimedia Streaming
-# The World Wide Web
-## Web Implementation
+# 4.3 The World Wide Web
+## 4.3.1 Web Implementation
 Software packages that allow users to access hypertext on the Internet fall into one of two categories: `browsers` amd `webservers`. <br>
 In order to locate and retrieve documents on the Web, each document is given a unique address called a `Uniform Resource Locator (URL)`.
+## 4.3.2 HTML 
+`Hypertext Markup Language (HTML)`
