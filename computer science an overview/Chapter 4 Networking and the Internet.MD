@@ -40,3 +40,7 @@ In order to locate and retrieve documents on the Web, each document is given a u
 ## 4.3.3 XML 
 `eXtensible Markup Language (XML)`
 ## Client-Side and Server-Side Activities
+# 4.4 Internet Protocols
+## The Layered Approach to Internet Software
+The internet software layers are knows as the `application layer`, the `transportation layer`, the `network layer` and the `link layer`. <br>
+The Internet is a packet-switched system through which digital data issent by breaking the dat into blocks of bits called packets, whicj contain both the data being transmitted and control information for routing the data.
