@@ -379,3 +379,25 @@ console.log(poppedElement); // Output 3
 console.log(stack); // Output : [1,2]
 ```
 </details>
+## 4.3.8 Using arrays as a queue
+Like the stack, a queue is also a data structure, but it works in exactly the opposite way: a queue always returns the element that was added as the first of the elements contained in the queue, via the first in, first out (FIFO) principle.
+<details>
+  <summary>Example</summary>
+
+```js
+let queue = [];
+
+// Add elements to the queue
+queue.push(1);
+queue.push(2);
+queue.push(3);
+
+console.log(queue); // Output: [1,2,3]
+
+// Remove element from the front of the queue
+let dequeuedElement = queue.shift();
+console.log(dequeuedElement); // Output 1
+
+console.log(queue); // Output : [2, 3]
+```
+</details>
