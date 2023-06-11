@@ -65,38 +65,33 @@ console.log(person2); // Output: Person { name: 'Bob', age: 30 }
 ```
 </details>
 
-
 ## 4.2.3 Creating objects using classes
 
 <details>
   <summary>Example</summary>
   
 ```js
-// Exampple of a class
-class Item {
-  constructor(name, price, author, isbn) {
+// Define a class called Person
+class Person {
+  constructor(name, age) {
     this.name = name;
-    this.price = price;
-    this.author = author;
-    this.isbn = isbn;
+    this.age = age;
   }
-  printDescription() {
-    console.log(`${this.author}: ${this.name}`);
+
+  sayHello() {
+    console.log(`Hello, my name is ${this.name}.`);
   }
 }
 
-// Creating an Object using a class
-const item = new Item(
-  "JS: the complete guide",
-  59.95,
-  "Philip Ackermann",
-  "978-4921-2231-5"
-);
+// Create new objects using the Person class
+let person1 = new Person("Alice", 25);
+let person2 = new Person("Bob", 30);
 
-console.log(item.name); // JS: the complete guide
-console.log(item.price); // 59.95
-console.log(item.author); // Philip Ackermann
-console.log(item.isbn); // 978-4921-2231-5
+console.log(person1); // Output: Person { name: 'Alice', age: 25 }
+console.log(person2); // Output: Person { name: 'Bob', age: 30 }
+
+person1.sayHello(); // Output: Hello, my name is Alice.
+person2.sayHello(); // Output: Hello, my name is Bob.
 ```
 </details>
 
