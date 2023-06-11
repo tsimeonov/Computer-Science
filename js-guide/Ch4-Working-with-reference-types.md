@@ -101,31 +101,19 @@ person2.sayHello(); // Output: Hello, my name is Bob.
   <summary>Example</summary>
 
 ```js
-// Crating an Object via the Object.create() Helper function
-const item = Object.create(Object.prototype, {
-  name: {
-    value: "JS: The complete guide",
+// Create a prototype object
+let personPrototype = {
+  introduce() {
+    console.log(`My name is ${this.name}, and I am ${this.age} years old.`);
   },
-  price: {
-    value: 59.95,
-  },
-  author: {
-    value: "Philip Ackermann",
-  },
-  isbn: {
-    value: "978-4921-2231-5",
-  },
-  printDescription: {
-    value: function () {
-      console.log(`${this.author}: ${this.name}`);
-    },
-  },
-});
+};
 
-console.log(item.name); // JS: the complete guide
-console.log(item.price); // 59.95
-console.log(item.author); // Philip Ackermann
-console.log(item.isbn); // 978-4921-2231-5
+// Create a new object using the personPrototype as the prototype
+let person = Object.create(personPrototype);
+person.name = "Alice";
+person.age = 25;
+
+person.introduce(); // Output: My name is Alice, and I am 25 years old.
 ```
 </details>
 
@@ -138,7 +126,7 @@ To access object properties or call object methods, js usually uses dot notation
 
 ```js
 // Access to Object Properties and Object Methods via Dot Notation
-const itemName - item.name;
+const itemName = item.name;
 item.printDescription()
 ```
 </details>
