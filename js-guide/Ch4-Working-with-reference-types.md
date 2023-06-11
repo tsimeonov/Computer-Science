@@ -379,6 +379,7 @@ console.log(poppedElement); // Output 3
 console.log(stack); // Output : [1,2]
 ```
 </details>
+
 ## 4.3.8 Using arrays as a queue
 Like the stack, a queue is also a data structure, but it works in exactly the opposite way: a queue always returns the element that was added as the first of the elements contained in the queue, via the first in, first out (FIFO) principle.
 <details>
