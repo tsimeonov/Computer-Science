@@ -314,10 +314,44 @@ const numbers = [1, 2, 3, 4, 5];
 numbers.splice(2, 2);
 console.log(numbers); // Output: [1,2,5]
 ```
-## 4.3.5 Copying some of the elements for an array
+## 4.3.5 Copying some of the elements from an array
 ```js
 const numbers = [1, 2, 3, 4, 5];
 // Copy elements from index 1 to index 3
 const copiedElements = numbers.splice(1, 3);
 console.log(copiedElements); // Output: [2,3,4]
+```
+## 4.3.6 Sorting Arrays
+- Reversing the order of elements in an Array
+```js
+let array = [1, 2, 3, 4, 5];
+array.reverse();
+console.log(array); // Output: [5, 4, 3, 2, 1]
+```
+- Sorting the elements in an array according to specific criteria
+```js
+let array = [5, 2, 8, 1, 4];
+array.sort(function (a, b) {
+  return a - b; // Sort in ascending order
+});
+
+console.log(array); // Output: [1, 2, 4, 5, 8]
+```
+- Sorting Object in Arrays
+```js
+let array = [
+  { name: "John", age: 25 },
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 20 },
+];
+
+array.sort(function (a, b) {
+  return a.age - b.age; // Sort based on age in ascending order
+});
+
+console.log(array);
+// {name: 'Bob', age: 20}
+// {name: 'John', age: 25}
+// {name: 'Alice', age: 30}
+```
 ```
