@@ -57,31 +57,18 @@ What makes a function a constructor function in the first place is the `new` key
   <summary>Example</summary>
   
 ```js
-function Item(name, price, author, isbn) {
+// Constructor function for creating Person objects
+function Person(name, age) {
   this.name = name;
-  this.price = price;
-  this.author = author;
-  this.isbn = isbn;
-  this.printDescription = function () {
-    console.log(`${this.author}: ${this.name}`);
-  };
+  this.age = age;
 }
 
-const item = new Item("JS Book", 50, "T.S", "978 - 1 - 4932 - 2286 - 5");
+// Create new objects using the Person constructor function
+let person1 = new Person("Alice", 25);
+let person2 = new Person("Bob", 30);
 
-console.log(item.name); // JS Book
-console.log(item.author); // T.S
-console.log(item.price); // 50
-console.log(item.isbn); // 978 - 1 - 4932 - 2286 - 5
-console.log(item.printDescription()); // T.S: JS Book
-
-const item2 = new Item("Node.js Book", 40, "T.S", "974 - 1 - 4921 - 2286 - 5");
-
-console.log(item2.name); // Node.js Book
-console.log(item2.author); // T.S
-console.log(item2.price); // 40
-console.log(item2.isbn); // 974 - 1 - 4921 - 2286 - 5
-console.log(item2.printDescription()); // T.S: Node.js Book
+console.log(person1); // Output: Person { name: 'Alice', age: 25 }
+console.log(person2); // Output: Person { name: 'Bob', age: 30 }
 ```
 </details>
 
