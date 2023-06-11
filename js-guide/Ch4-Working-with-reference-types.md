@@ -25,28 +25,21 @@ Reference data types:
 # 4.2 Encapsulating State and Behavior in Objects
 ## 4.2.1 Introduction to Object-oriented-programming
 Objects have a state and a behavior. The `state` of an object is described by its properties and connections to other objects. The `behavior` of an object is defined by its methods.
-### 4.2.2 Creating Objects Using Literal Notation
+## 4.2.2 Creating Objects Using Literal Notation
 Here the `item` object is created with four properties - `name`, `price`, `author` and `isbn` as well as the `printDescription()` method
 
 <details>
   <summary>Example</summary>
   
 ```js
-const item = {
-  name: 'JS book',
-  price: 50,
-  author: 'T.S',
-  isbn: '978-1-4932-2286-5',
-  printDescription: function () {
-    console.log(`${this.author}: ${this.name}`);
- }
-}
+// Create a person object using object literal notation
+let person = {
+  name: "Alice",
+  age: 25,
+  gender: "female",
+};
 
-console.log(item.name); // JS book
-console.log(item.price); // 50
-console.log(item.author); // T.S
-console.log(item.isbn); // 978-1-4932-2286-5
-console.log(item.printDescription()); // T.S: JS book
+console.log(person); // Output: { name: 'Alice', age: 25, gender: 'female' }
 ```
 </details>
 
