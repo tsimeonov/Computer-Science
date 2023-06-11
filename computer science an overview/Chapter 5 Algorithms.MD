@@ -6,3 +6,5 @@ An algorithm is a well-defined, step-by-step procedure or a set of instructions 
 # 5.2 Algorithm Representaton
 ## 5.2.1 Primitives
 Algorithms described in programming languages can be executed on a computer.
+## 5.2.2 Pseudocode
+Natural language and pseudocode describe algorithms so that humans can understand them.
