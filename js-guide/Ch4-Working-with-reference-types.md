@@ -354,4 +354,28 @@ console.log(array);
 // {name: 'John', age: 25}
 // {name: 'Alice', age: 30}
 ```
+## 4.3.7 Using Array as a Stack
+In programming (and in computer science in general), a stack refers to a data structure that operates according to the last in, first out (LIFO)
+principle, which means that the last element added to the is the first element to be removed. <br>
+In JS, you can use an array as a stack data structure by utilizing the `push()` and `pop()` methods. The `push` method adds an element to the top of the stack, while the `pop()` method removes the top element.
+
+<details>
+  <summary>Example</summary>
+
+```js
+let stack = [];
+
+// Pushing elements onto the stack
+stack.push(1);
+stack.push(2);
+stack.push(3);
+
+console.log(stack); // Output: [1,2,3]
+
+// Poping elements from the stack
+let poppedElement = stack.pop();
+console.log(poppedElement); // Output 3
+
+console.log(stack); // Output : [1,2]
 ```
+</details>
