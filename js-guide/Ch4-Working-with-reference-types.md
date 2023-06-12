@@ -398,3 +398,13 @@ const result2 = [2, 3, 4, 5, 6, 7, 2, 3, 4, 5].findIndex(
 );
 console.log(result2);
 ```
+## 4.3.10 Copying Elements within an array
+```js
+const todoList = ["Clean bathroom", "Go shopping", "Tidy up", "Mow lawn"];
+
+// Copy elements from index 2 to index 4 and paste them starting at index 0
+todoList.copyWithin(0, 2, 4);
+
+console.log(todoList);
+// ['Tidy up', 'Mow lawn', 'Tidy up', 'Mow lawn']
+```
