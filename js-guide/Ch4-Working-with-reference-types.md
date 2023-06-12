@@ -365,6 +365,7 @@ console.log(dequeuedElement); // Output 1
 console.log(queue); // Output : [2, 3]
 ```
 </details>
+
 ## 4.3.9 Finding Elements in arrays
 - Searching from the beginning of the array
 ```js
