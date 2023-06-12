@@ -408,3 +408,9 @@ todoList.copyWithin(0, 2, 4);
 console.log(todoList);
 // ['Tidy up', 'Mow lawn', 'Tidy up', 'Mow lawn']
 ```
+## 4.3.11 Convert arrays to a strings
+```js
+const array = [1, 2, 3, 4, 5];
+const arrayAsString = array.join(', ');
+console.log(arrayAsString); // Output: "1, 2, 3, 4, 5"
+```
