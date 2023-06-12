@@ -365,3 +365,14 @@ console.log(dequeuedElement); // Output 1
 console.log(queue); // Output : [2, 3]
 ```
 </details>
+## 4.3.9 Finding Elements in arrays
+- Searching from the beginning of the array
+```js
+const transactions = [-20, 500.5, -40, -34.5, 200, 500.5, -20, 200];
+
+console.log(transactions.indexOf(-20)); // Output 0
+console.log(transactions.indexOf(500)); // Output -1
+console.log(transactions.indexOf(200)); // Output 4
+console.log(transactions.indexOf(200, 5)); // Output 7
+// An optional second parameter to control from which index to start the search.
+```
