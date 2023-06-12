@@ -376,3 +376,12 @@ console.log(transactions.indexOf(200)); // Output 4
 console.log(transactions.indexOf(200, 5)); // Output 7
 // An optional second parameter to control from which index to start the search.
 ```
+- Searching from the end of the array
+```js
+const transactions = [-20, 500.5, -40, -34.5, 200, 500.5, -20, 200];
+
+console.log(transactions.lastIndexOf(-20)); // Output 6
+console.log(transactions.lastIndexOf(500)); // Output -1
+console.log(transactions.lastIndexOf(200)); // Output 7
+console.log(transactions.lastIndexOf(200, 5)); // Output 4
+```
