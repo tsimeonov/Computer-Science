@@ -386,3 +386,15 @@ console.log(transactions.lastIndexOf(500)); // Output -1
 console.log(transactions.lastIndexOf(200)); // Output 7
 console.log(transactions.lastIndexOf(200, 5)); // Output 4
 ```
+- Finding elements by search criterion
+```js 
+const result = [2, 3, 4, 5, 6, 7, 2, 3, 4, 5].find(
+  (element) => element % 2 !== 0
+);
+console.log(result);
+
+const result2 = [2, 3, 4, 5, 6, 7, 2, 3, 4, 5].findIndex(
+  (element) => element % 2 !== 0
+);
+console.log(result2);
+```
