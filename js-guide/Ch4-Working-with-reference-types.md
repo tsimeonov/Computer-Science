@@ -438,3 +438,15 @@ console.log(value1); // Output 1
 console.log(value2); // Output 2
 console.log(value5); // Output 5
 ```
+- Extracting values from multidimensional arrays
+```js
+const multidimensionalArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+const value = multidimensionalArray[1][2];
+
+console.log(value); // Output: 6
+```
