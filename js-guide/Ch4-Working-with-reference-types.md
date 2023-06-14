@@ -464,3 +464,13 @@ for (let key in obj) {
   console.log(key + ": " + value); // Output: name: John, age: 30, city: New York
 }
 ```
+## 4.4.4 Extracting Arguments of a function
+```js
+function myFunction(a, b, c) {
+  console.log(arguments[0]); // Output: 1
+  console.log(arguments[1]); // Output: 2
+  console.log(arguments[2]); // Output: 3
+}
+
+myFunction(1, 2, 3);
+```
