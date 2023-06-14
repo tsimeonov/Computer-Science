@@ -428,3 +428,13 @@ console.log(value1); // Output 1
 console.log(value2); // Output 3
 console.log(value3); // Output 5
 ```
+- Extracting values from arrays with destructing
+```js
+const array = [1, 2, 3, 4, 5];
+
+const [value1, value2, , , value5] = array;
+
+console.log(value1); // Output 1
+console.log(value2); // Output 2
+console.log(value5); // Output 5
+```
