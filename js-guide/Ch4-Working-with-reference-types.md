@@ -450,3 +450,17 @@ const value = multidimensionalArray[1][2];
 
 console.log(value); // Output: 6
 ```
+## 4.4.2 Extracting values from objects
+## 4.4.3 Extracting values within a loop
+```js
+const obj = {
+  name: "John",
+  age: 30,
+  city: "New York",
+};
+
+for (let key in obj) {
+  const value = obj[key];
+  console.log(key + ": " + value); // Output: name: John, age: 30, city: New York
+}
+```
