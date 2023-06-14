@@ -414,3 +414,17 @@ const array = [1, 2, 3, 4, 5];
 const arrayAsString = array.join(', ');
 console.log(arrayAsString); // Output: "1, 2, 3, 4, 5"
 ```
+# 4.4 Extracting values fro array and objects
+## 4.4.1 Extracting values from arrays
+- Extracting values from array without destructing
+```js
+const array = [1, 2, 3, 4, 5];
+
+const value1 = array[0]; // Accessing the first element
+const value2 = array[2]; // Accessing the third element
+const value3 = array[array.length - 1]; // Accessing the last element
+
+console.log(value1); // Output 1
+console.log(value2); // Output 3
+console.log(value3); // Output 5
+```
