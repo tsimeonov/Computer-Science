@@ -525,3 +525,22 @@ const myString2 = "Hello, world!";
 const extracted2 = myString.split(", ")[1];
 console.log(extracted2); // Output: world!
 ```
+# 4.6 Using Maps
+## 4.6.1 Creating Maps
+What is a Map - a Map is built-in data structure that allows you to store key-value pairs.
+```js
+// 1. Using curly braces '{}'
+const myMap = {
+  key1: "value1",
+  key2: "value2",
+  key3: "value3",
+};
+console.log(myMap.key1); // Output: value1
+
+// 2. Using the 'Map' constructor
+const myMap2 = new Map();
+myMap2.set("key1", "value1");
+myMap2.set("key2", "value2");
+myMap2.set("key3", "value3");
+console.log(myMap2.get("key1")); // Output: value1
+```
