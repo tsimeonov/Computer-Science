@@ -496,3 +496,8 @@ In JS a string is a sequence of characters enclosed in single quotes (''), doubl
 ```js
 const myString = 'Hello, world!'
 ```
+## 4.5.2 Determining the Lengt of a string
+```js
+const myString = 'Hello, world!'
+console.log(myString.length) // Output: 13
+```
