@@ -474,3 +474,19 @@ function myFunction(a, b, c) {
 
 myFunction(1, 2, 3);
 ```
+## 4.4.5 Copying Object Properties to another object
+```js
+// 1. Object.assign()
+const sourceObj = { name: "Todor", age: 30 };
+const targetObj = {};
+
+Object.assign(targetObj, sourceObj);
+
+console.log(targetObj); // Output: {name: 'Todor', age: 30}
+
+// 2. Spread Syntax
+const sourceObj2 = { name: "Todor", age: 30 };
+const targetObj2 = { ...sourceObj };
+
+console.log(targetObj2); // Output: {name: 'Todor', age: 30}
+```
