@@ -501,3 +501,15 @@ const myString = 'Hello, world!'
 const myString = 'Hello, world!'
 console.log(myString.length) // Output: 13
 ```
+## 4.5.3 Searching within a String
+```js
+// 1. indexOf()
+const myString = "Hello, world!";
+console.log(myString.indexOf("world")); // Output: 7
+
+// 2. Regular Expressions (RegExp)
+const myString2 = "Hello, world!";
+const pattern = /world/;
+const isMatch = pattern.test(myString2);
+console.log(isMatch); // Output: true
+```
