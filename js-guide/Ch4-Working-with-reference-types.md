@@ -490,3 +490,9 @@ const targetObj2 = { ...sourceObj };
 
 console.log(targetObj2); // Output: {name: 'Todor', age: 30}
 ```
+# 4.5 Working with Strings
+## 4.5.1 The structure of a string
+In JS a string is a sequence of characters enclosed in single quotes (''), double quotes ("") or backticks (). It can contain alphanumeric characters, special characters, spaces and even Unicode Characters.
+```js
+const myString = 'Hello, world!'
+```
