@@ -513,3 +513,15 @@ const pattern = /world/;
 const isMatch = pattern.test(myString2);
 console.log(isMatch); // Output: true
 ```
+## 4.5.4 Extracting parts of a string
+```js
+// 1. slice()
+const myString = "Hello, world!";
+const extracted = myString.slice(7, 12);
+console.log(extracted); // Output: world
+
+// 2. split()
+const myString2 = "Hello, world!";
+const extracted2 = myString.split(", ")[1];
+console.log(extracted2); // Output: world!
+```
