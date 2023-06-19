@@ -251,3 +251,17 @@ int my_isspace(char param_1) {
     }
 }
 ```
+### ex19 my_print_alphabet
+```c
+#include <stdio.h>
+
+void my_print_alphabet() {
+    char letter = 'a';
+
+    while (letter <= 'z') {
+        printf("%c", letter);
+        letter++;
+        printf("\n");
+    }
+}
+```
