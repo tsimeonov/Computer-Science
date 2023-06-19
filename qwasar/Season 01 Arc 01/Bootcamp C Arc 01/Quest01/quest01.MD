@@ -134,3 +134,17 @@ int main() {
   return 0;
 }
 ```
+### ex09 my_first_while
+```c
+#include <stdio.h>
+
+int main() {
+  int index = 0;
+
+  while (index < 100) {
+    printf("I want to code\n");
+    index++;
+  }
+  return 0;
+}
+```
