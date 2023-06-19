@@ -265,3 +265,17 @@ void my_print_alphabet() {
     }
 }
 ```
+### ex20 my_print_reverse_alphabet
+```c
+#include <stdio.h>
+
+void my_print_reverse_alphabet() {
+    char letter = 'z';
+
+    while (letter >= 'a') {
+        putchar(letter);
+        letter--;
+    }
+    putchar('\n');
+}
+```
