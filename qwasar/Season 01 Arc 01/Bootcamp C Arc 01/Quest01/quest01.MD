@@ -180,3 +180,16 @@ int main() {
   return 0;
 }
 ```
+### ex12 my_is_negative
+```c
+int my_is_negative(int nbr) {
+  if (nbr < 0) {
+    return 0;
+  }
+  else {
+    return 1;
+  }
+}
+```
+
+
