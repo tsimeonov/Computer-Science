@@ -33,3 +33,14 @@ int main() {
   return 0;
 }
 ```
+## ex03 my-first_variable_string
+```c
+#include <stdio.h>
+
+int main() {
+  char my_string[] = "Learning is growing";
+
+  printf("%s\n", my_string);
+  return 0;
+}
+```
