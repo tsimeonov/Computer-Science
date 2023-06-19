@@ -1,4 +1,4 @@
-### ex00
+### ex00 my_first_compilation
 ```c
 // What is compilation
 // Transforms a text file (code) into binary file.
@@ -11,7 +11,7 @@ int main(int ac, char **av) {
     return 0;
 }
 ```
-### ex01
+### ex01 my_first_variable_integer
 ```c
 #include <stdio.h>
 
@@ -19,6 +19,17 @@ int main() {
   int person_age = 34;
 
   printf("%d\n", person_age);
+  return 0;
+}
+```
+### ex02 my_first_variable_char
+```c
+#include <stdio.h>
+
+int main() {
+  char my_letter = 'c';
+
+  printf("%c\n", my_letter);
   return 0;
 }
 ```
