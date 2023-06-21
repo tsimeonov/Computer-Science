@@ -569,3 +569,22 @@ map.set(key, newValue)
 ```js
 map.delete(key)
 ```
+## 4.6.3 Iterating over Maps
+- Using the `for...of` loop
+```js
+const map = new Map();
+map.set("key1", "value1");
+map.set("key2", "value2");
+
+for (const [key, value] of map) {
+  console.log(key, value);
+}
+
+// Output: key1 value1 key2 value2
+```
+- Using the `forEach` method
+```js
+map.forEach((value, key) => {
+  console.log(key, value)
+})
+```
