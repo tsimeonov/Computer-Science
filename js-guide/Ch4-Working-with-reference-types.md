@@ -588,3 +588,13 @@ map.forEach((value, key) => {
   console.log(key, value)
 })
 ```
+### Iterating over the values of Maps
+```js
+const map = new Map();
+map.set("key1", "value1");
+map.set("key2", "value2");
+
+for (const value of map.values()) {
+  console.log(value);
+}
+```
