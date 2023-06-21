@@ -544,3 +544,28 @@ myMap2.set("key2", "value2");
 myMap2.set("key3", "value3");
 console.log(myMap2.get("key1")); // Output: value1
 ```
+## 4.6.2 Basic Operations
+- Creating a `Map`
+```js
+const map = new Map()
+```
+- Adding entries to the `Map`
+```js
+map.set(key, value)
+```
+- Getting the value of a specific key
+```js
+const value = map.get(key)
+```
+- Checking if a key exists in the `Map`
+```js
+const haskey = map.has(key)
+```
+- Updating the value of a key
+```js
+map.set(key, newValue)
+```
+- Deleting an entry from the `Map`
+```js
+map.delete(key)
+```
