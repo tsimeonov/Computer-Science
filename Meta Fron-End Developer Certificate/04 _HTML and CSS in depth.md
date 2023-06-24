@@ -1,5 +1,6 @@
-# User Input and Forms
-## Radio buttons
+# Week 1 
+## User Input and Forms
+### Radio buttons
 Radio buttons are a type of input element in HTML that allows users to selevt a single option from a redefined set of mutually exclusive options.
 
 <details>
@@ -28,6 +29,40 @@ Radio buttons are a type of input element in HTML that allows users to selevt a 
             </label>
         </fieldset>
         <button type="submit">Book a table</button>
+    </form>
+  ```
+</details>
+
+### Using interactive form elements
+
+<details>
+  <summary>Example</summary>
+  
+  ```html
+  <h1>Book a table</h1>
+    <form action="POST">
+        <div>
+            <label for="booking_date">Booking date</label>
+            <input type="date" id="booking_date" name="booking_date">
+        </div>
+        <div>
+            <label for="booking_people">Number of people</label>
+            <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4"
+                oninput="this.nextElementSibling.value = this.value">
+            <output>4</output>
+        </div>
+        <div>
+            <!-- Set up a data list -->
+            <label for="booking_location">Location</label>
+            <input id="booking_location" name="booking_location" list="locations">
+            <datalist id="locations">
+                <option value="Downtown"></option>
+                <option value="Uptown"></option>
+            </datalist>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
     </form>
   ```
 </details>
