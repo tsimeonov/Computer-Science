@@ -216,3 +216,8 @@ Typical use cases:
 - attribute selectors `[attr=value]`
 - nth-of-type and nth-child selectors
 - group selectors
+### 2.2.2 Combination selectors
+- descendant selectors (using space)
+- child selectors (>)
+- general sibling selectors (~)
+- adjacent sibling selectors (+)
