@@ -1,6 +1,6 @@
-# Week 1 
-## User Input and Forms
-### Radio buttons
+# 1. Week 1 
+## 1.1 User Input and Forms
+### 1.1.1 Radio buttons
 Radio buttons are a type of input element in HTML that allows users to selevt a single option from a redefined set of mutually exclusive options.
 
 <details>
@@ -33,7 +33,7 @@ Radio buttons are a type of input element in HTML that allows users to selevt a 
   ```
 </details>
 
-### Using interactive form elements
+### 1.1.2 Using interactive form elements
 
 <details>
   <summary>Example</summary>
@@ -67,7 +67,16 @@ Radio buttons are a type of input element in HTML that allows users to selevt a 
   ```
 </details>
 
-## Media Elements
-### Video and Audio
-### Embedded players
-### iFrames
+## 1.2 Media Elements
+### 1.2.1 Video and Audio
+### 1.2.2 Embedded players
+### 1.2.3 iFrames
+# 2. Week 2
+## 2.1 Creating Layouts
+### 2.1.1 CSS Web layout
+CSS web layout refers to the process of structuring ans styling the visual elements of a web page using CSS.
+CSS techniques for web layout:
+- Box model
+- CSS Grid
+- Flexbox
+- Responsive design
