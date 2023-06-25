@@ -80,3 +80,8 @@ CSS techniques for web layout:
 - CSS Grid
 - Flexbox
 - Responsive design
+### 2.1.2 Basic flexbox
+Typical use cases:
+- Search bar
+- Navigation bar
+- Image gallery
