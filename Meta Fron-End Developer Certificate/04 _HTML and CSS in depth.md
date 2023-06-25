@@ -85,3 +85,69 @@ Typical use cases:
 - Search bar
 - Navigation bar
 - Image gallery
+### 2.1.3 Flex Charts
+- flex-grow - specifies how much an item will grow compared to other flex items.
+- flex-shrink - specifies how much an item will shrink compared to other flex items.
+- flex-basis - specifies the initial length of the flexible item.
+<details>
+  <summary>Example</summary>
+  
+  ```html
+ <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .row {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .row .label {
+        flex: 0 0 auto;
+    }
+
+    .row .container {
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .row .dish {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .pasta {
+        background-color: #ee9972;
+    }
+
+    .pizza {
+        background-color: #f4ce14;
+    }
+
+    .borrito {
+        background-color: #495e57;
+    }
+</style>
+
+<body>
+
+    <body>
+        <div class="row">
+            <div class="label">Preffered dishes</div>
+            <div class="container">
+                <div class="dish pasta" style="flex-basis: 35%;">35%</div>
+                <div class="dish pizza" style="flex-basis: 50%;">50%</div>
+                <div class="dish borrito" style="flex-basis: 15%;">15%</div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</body>
+
+</html>
+  ```
+</details>
