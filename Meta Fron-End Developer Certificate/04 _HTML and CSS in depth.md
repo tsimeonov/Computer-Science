@@ -89,6 +89,7 @@ Typical use cases:
 - flex-grow - specifies how much an item will grow compared to other flex items.
 - flex-shrink - specifies how much an item will shrink compared to other flex items.
 - flex-basis - specifies the initial length of the flexible item.
+  
 <details>
   <summary>Example</summary>
   
@@ -153,3 +154,56 @@ Typical use cases:
 </details>
 
 ### 2.1.4 CSS Grid
+<details>
+  <summary>Example</summary>
+  
+  ```html
+ <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: grid;
+        height: 200px;
+        grid-template-areas: 'header header'
+            'nav main'
+            'footer footer';
+        grid-template-rows: 30px 1fr 30px;
+        grid-template-columns: 150px 1fr;
+    }
+
+    header {
+        grid-area: header;
+        background-color: lightsalmon;
+    }
+
+    .nav-bar {
+        grid-area: nav;
+        background-color: lightcoral;
+    }
+
+    main {
+        grid-area: main;
+        background-color: lightcyan;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: lightseagreen;
+    }
+</style>
+
+<body>
+
+    <body>
+        <header>Header</header>
+        <nav class="nav-bar">Navigation</nav>
+        <main>Main area</main>
+        <footer>Footer</footer>
+    </body>
+    <script src="app.js"></script>
+</body>
+  ```
+</details>
