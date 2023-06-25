@@ -207,3 +207,12 @@ Typical use cases:
 </body>
   ```
 </details>
+
+## 2.2 CSS Selectors
+### 2.2.1 Widely used selectors
+- element or type selector `<p>`
+- id selectors
+- class selectors
+- attribute selectors `[attr=value]`
+- nth-of-type and nth-child selectors
+- group selectors
