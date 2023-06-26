@@ -637,7 +637,7 @@ mySet.forEach((value) => {
   <summary>Example</summary>
 
 ```js
-/const today = new Date();
+const today = new Date();
 console.log(today.getMonth()); // Returns the current month (0-11)
 console.log(today.getFullYear()); // Returns the year in the format YYYY
 console.log(today.getDate()); // Returns the current day of the month (1-31)
