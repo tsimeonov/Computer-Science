@@ -630,8 +630,9 @@ mySet.forEach((value) => {
 });
 ```
 </details>
+
 # 4.8 Other global objects
-## Working with Date and Time information
+## 4.8.1 Working with Date and Time information
 <details>
   <summary>Example</summary>
 
