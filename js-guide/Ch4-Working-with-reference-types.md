@@ -598,3 +598,35 @@ for (const value of map.values()) {
   console.log(value);
 }
 ```
+# 4.7 Using Sets
+## 4.7.1 Creating Sets
+In JS, a `set` is a built-in object that allows you to store unique value of any type. It provides an unordered collection of elements where each element occurs only once.
+
+<details>
+  <summary>Example of setters and getters</summary>
+
+```js
+// Creating a set
+const mySet = new Set();
+
+// Adding elements to the Set
+mySet.add(1);
+mySet.add(1);
+mySet.add("Hello");
+mySet.add(true);
+
+// Checking the size of the Set
+console.log(mySet.size); // Output 3, 1 repeats, doens't count
+
+// Checking if an element exists in the Set
+console.log(mySet.has("Hello")); // Output: true
+
+// Removing an element from the Set
+mySet.delete(1);
+
+// Iterating over the elements of the Set
+mySet.forEach((value) => {
+  console.log(value); // Output: Hello true
+});
+```
+</details>
