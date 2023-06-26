@@ -603,7 +603,7 @@ for (const value of map.values()) {
 In JS, a `set` is a built-in object that allows you to store unique value of any type. It provides an unordered collection of elements where each element occurs only once.
 
 <details>
-  <summary>Example of setters and getters</summary>
+  <summary>Example</summary>
 
 ```js
 // Creating a set
