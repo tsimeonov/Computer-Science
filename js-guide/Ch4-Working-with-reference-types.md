@@ -668,3 +668,10 @@ console.log(Math.floor(4.7)); // 4
 
 # 4.9 Working with regular expressions
 Regular expresson are specific character patterns that are used to checj whether a text (or a string) contains a specific combination of characters.
+## 4.9.1 Defining regular expressions
+// Creating a Regular expression via the constructor function
+const regExp = new RegExp("abcde");
+
+// Creating a Regular expression using literal notaion
+const regExp2 = /abcde/;
+
