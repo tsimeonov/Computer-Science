@@ -681,3 +681,21 @@ const regExp2 = /abcde/;
 const regExp = /abcde/;
 console.log(regExp.test("abcdefghijklmnopqrstuvwxyz")); // Output true
 ```
+## 4.9.3 Using character classes
+You define a character class within a regular expression using square brackets: the opening square bracket starts the character class; the closing square bracket ends the character class. 
+
+<details>
+  <summary>Example</summary>
+
+```js
+const regExp = /[abcde]/;
+console.log(regExp.test("a")); // true
+console.log(regExp.test("f")); // false
+console.log(regExp.test("afghj")); // true
+console.log(regExp.test("fghij")); // false
+```
+</details>
+
+- simple class `[xyz]`  - One of the characters x, y or z
+- negation `[^xyz]` - none of the characters x, , or z but any other CharacterData
+- range `[a-zA-Z]` -  one of the characters between a and z or between A aqnd Z
