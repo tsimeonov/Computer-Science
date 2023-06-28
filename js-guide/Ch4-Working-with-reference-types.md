@@ -676,4 +676,8 @@ const regExp = new RegExp("abcde");
 // Creating a Regular expression using literal notaion
 const regExp2 = /abcde/;
 ```
-
+## 4.9.2 Testing charecters agains regular expression
+```js
+const regExp = /abcde/;
+console.log(regExp.test("abcdefghijklmnopqrstuvwxyz")); // Output true
+```
