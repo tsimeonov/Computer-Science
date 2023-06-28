@@ -699,3 +699,20 @@ console.log(regExp.test("fghij")); // false
 - simple class `[xyz]`  - One of the characters x, y or z
 - negation `[^xyz]` - none of the characters x, , or z but any other CharacterData
 - range `[a-zA-Z]` -  one of the characters between a and z or between A aqnd Z
+
+## 4.9.5 Using quantifiers
+in JS, they are used to specify the quantty or repetition of a character or group of characters.
+1. * (asterisk): Matches zero or more occurrences of the preceding element.
+Example: /a*b/ matches "ab", "aab", "aaab", and so on.
+2. + (plus): Matches one or more occurrences of the preceding element.
+Example: /a+b/ matches "ab", "aab", "aaab", but not "b" alone.
+3. ? (question mark): Matches zero or one occurrence of the preceding element. It denotes an optional element.
+Example: /a?b/ matches "ab" and "b", but not "aab".
+4. {n}: Matches exactly n occurrences of the preceding element.
+Example: /a{3}b/ matches "aaab" but not "aab" or "ab".
+5. {n,}: Matches n or more occurrences of the preceding element.
+Example: /a{2,}b/ matches "aab", "aaab", "aaaab", and so on.
+6. {n,m}: Matches between n and m occurrences of the preceding element (inclusive).
+Example: /a{2,4}b/ matches "aab", "aaab", and "aaaab", but not "ab" or "aaaaab".
+7. . (dot): Matches any single character except a newline.
+Example: /a.b/ matches "aab", "acb", "axb", and so on.
