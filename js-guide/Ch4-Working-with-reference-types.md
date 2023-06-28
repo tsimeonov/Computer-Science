@@ -633,6 +633,7 @@ mySet.forEach((value) => {
 
 # 4.8 Other global objects
 ## 4.8.1 Working with Date and Time information
+
 <details>
   <summary>Example</summary>
 
@@ -647,5 +648,20 @@ console.log(today.getDay()); // Returns the day of the week (starts on Sunday wi
 console.log(today.getHours()); // Returns the current hour of the day (0-23)
 console.log(today.getTime()); // Returns the milliseconds since 1/1/1970
 
+```
+</details>
+
+## 4.8.2 Performing complex calculations
+
+<details>
+  <summary>Example</summary>
+
+```js
+console.log(Math.min(0, 4711, 30, 5, -6, -40)); // Output: -40
+console.log(Math.max(0, 4711, 30, 5, -6, -40)); // Output 4711
+console.log(Math.random()); // Output a random number
+console.log(Math.round(4.6)); // 5
+console.log(Math.ceil(4.4)); // 5
+console.log(Math.floor(4.7)); // 4
 ```
 </details>
