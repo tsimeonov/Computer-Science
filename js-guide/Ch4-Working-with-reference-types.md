@@ -773,3 +773,5 @@ console.log(addFunction1(22, 55)); // 77
 console.log(addFunction1(33, 66)); // 99
 ```
 </details>
+
+## 4.10.3 Standard methods of each function
