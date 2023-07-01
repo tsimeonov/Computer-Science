@@ -32,26 +32,37 @@ person.bio();
 ```
 
 ## 1.2 Objects as object properties
+In JavaScript, it is possible to use objects as properties of another object. 
+
 <details>
   <summary>Example</summary>
   
 ```js
-const person1 = {
-  name: ["Bob", "Smith"],
+// Creating objects
+let address = {
+  street: '123 Main St',
+  city: 'Cityville',
+  country: 'Countryland'
 };
 
-const person2 = {
-  name: {
-    first: "Bob",
-    last: "Smith",
-  },
+let person = {
+  name: 'John Doe',
+  age: 25,
+  address: address
 };
 
-console.log(person1.name[0]);
-console.log(person1.name[1]);
+// Accessing object properties
+console.log(person.name); // Output: John Doe
+console.log(person.address.street); // Output: 123 Main St
+console.log(person.address.city); // Output: Cityville
+console.log(person.address.country); // Output: Countryland
 
-console.log(person2.name.first);
-console.log(person2.name.last);
+// Modifying object properties
+person.name = 'Jane Smith';
+person.address.city = 'Townsville';
+
+console.log(person.name); // Output: Jane Smith
+console.log(person.address.city); // Output: Townsville
 ```
 </details>
 
