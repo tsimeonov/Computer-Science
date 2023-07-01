@@ -775,3 +775,31 @@ console.log(addFunction1(33, 66)); // 99
 </details>
 
 ## 4.10.3 Standard methods of each function
+Functions are objects, which means that they can contain methods. By default, every function already provides three methods: `apply()` , `call()` and `bind()`.
+<details>
+  <summary>Example</summary>
+
+```js
+// apply()
+function greet(name) {
+  console.log(`Hello, ${name}`);
+}
+
+greet.apply(null, ["John"]); // Output: Hello, John
+
+// call()
+function greet(name) {
+  console.log(`Hello, ${name}`);
+}
+
+greet.call(null, "John"); // Output: Hello, John
+
+// bind()
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+let greetJohn = greet.bind(null, "John");
+greetJohn(); // Output: Hello, John!
+```
+</details>
