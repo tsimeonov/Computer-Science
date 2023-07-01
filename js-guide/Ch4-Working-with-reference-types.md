@@ -716,3 +716,13 @@ Example: /a{2,}b/ matches "aab", "aaab", "aaaab", and so on.
 Example: /a{2,4}b/ matches "aab", "aaab", and "aaaab", but not "ab" or "aaaaab".
 7. `.` (dot): Matches any single character except a newline.
 Example: /a.b/ matches "aab", "acb", "axb", and so on.
+
+## 4.6.6 Searching for occurrences 
+```js
+const text = "The phone number is +49 30 1234567";
+const regExp = /\+?\d{2}\s\d{2}\s\d{5,7}/;
+const result = regExp.exec(text);
+console.log(`Number is ${result[0]} found at index ${result.index}`);
+// Output: Number is +49 30 1234567 found at index 20
+```
+
