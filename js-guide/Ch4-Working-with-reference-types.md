@@ -717,7 +717,7 @@ Example: /a{2,4}b/ matches "aab", "aaab", and "aaaab", but not "ab" or "aaaaab".
 7. `.` (dot): Matches any single character except a newline.
 Example: /a.b/ matches "aab", "acb", "axb", and so on.
 
-## 4.6.6 Searching for occurrences 
+## 4.9.6 Searching for occurrences 
 ```js
 const text = "The phone number is +49 30 1234567";
 const regExp = /\+?\d{2}\s\d{2}\s\d{5,7}/;
@@ -725,4 +725,32 @@ const result = regExp.exec(text);
 console.log(`Number is ${result[0]} found at index ${result.index}`);
 // Output: Number is +49 30 1234567 found at index 20
 ```
+# 4.10 Functions as reference types
+## 4.10.1 Using functions as arguments
 
+<details>
+  <summary>Example</summary>
+
+```js
+// Passing functions as arguments of another function
+function function1(f) {
+  console.log("Function 1 start"); //Calling the passed function
+  f();
+  console.log("Function 1 end");
+}
+
+function function2() {
+  console.log("Function 2 start");
+  console.log("Function 2 end");
+}
+// Call wit ha function ising its name
+function1(function2);
+// function1 (function2()); // This does nit work
+
+// Call with an anonymous function as an argument
+function1(function () {
+  console.log(`Anonymous function start`);
+  console.log(`Anonymous function end`);
+});
+```
+</details>
