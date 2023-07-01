@@ -754,3 +754,22 @@ function1(function () {
 });
 ```
 </details>
+
+## 4.10.2 Using functions as return values
+<details>
+  <summary>Example</summary>
+
+```js
+// Functions as return values
+function createAddFunction() {
+  return function (x, y) {
+    return x + y;
+  };
+}
+
+const addFunction1 = createAddFunction();
+const addFunction2 = createAddFunction();
+console.log(addFunction1(22, 55)); // 77
+console.log(addFunction1(33, 66)); // 99
+```
+</details>
