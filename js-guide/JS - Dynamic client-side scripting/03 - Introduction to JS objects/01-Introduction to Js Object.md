@@ -24,3 +24,9 @@ console.log(person.bio()); // Bob Smith is 32 years old.
 console.log(person.introduceSelf()); // Hi! I'm Bob.
 ```
 </details>
+
+## 1.1 Dot Notation
+```js
+person.age;
+person.bio();
+```
