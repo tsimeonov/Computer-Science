@@ -30,3 +30,27 @@ console.log(person.introduceSelf()); // Hi! I'm Bob.
 person.age;
 person.bio();
 ```
+
+## 1.2 Objects as object properties
+<details>
+  <summary>Example</summary>
+  
+```js
+const person1 = {
+  name: ["Bob", "Smith"],
+};
+
+const person2 = {
+  name: {
+    first: "Bob",
+    last: "Smith",
+  },
+};
+
+console.log(person1.name[0]);
+console.log(person1.name[1]);
+
+console.log(person2.name.first);
+console.log(person2.name.last);
+```
+</details>
