@@ -54,3 +54,27 @@ console.log(person2.name.first);
 console.log(person2.name.last);
 ```
 </details>
+
+## 1.3 Bracket notaion
+Bracket notaion provides an alternative way to access object properties.
+
+<details>
+  <summary>Example</summary>
+  
+```js
+const person = {
+  name: ["Bob", "Smith"],
+  age: 32,
+};
+
+function logProperty(propertyName) {
+  console.log(person[propertyName]);
+}
+
+logProperty("name");
+// ["Bob", "Smith"]
+logProperty("age");
+// 32
+```
+</details>
+
