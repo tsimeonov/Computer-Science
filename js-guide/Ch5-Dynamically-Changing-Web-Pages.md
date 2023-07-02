@@ -157,3 +157,49 @@ if (tableCells.length > 0) {
 ```
 
 </details>
+
+## 5.2.4 Selecting Elements by Name
+
+<details>
+  <summary>Example</summary>
+
+```html
+<form action="#">
+  <label for="artist">Artist</label>
+  <input type="text" id="artist" name="artist" />
+  <br />
+  <label for="album">Album</label>
+  <input type="text" id="album" name="album" />
+  <br />
+  <p>Genre:</p>
+  <fieldset>
+    <input type="radio" id="st" name="genre" value="Stonerrock" />
+    <label for="st">Stonerrock</label>
+    <br />
+    <input type="radio" id="sp" name="genre" value="Spacerock" />
+    <label for="sp">Spacerock</label>
+    <br />
+    <input type="radio" id="ha" name="genre" value="Hardrock" />
+    <label for="ha">Hardrock</label>
+    <br />
+  </fieldset>
+</form>
+```
+
+```js
+// Accessing elements by elements names
+// Select all elements by name
+const inputElementsForGenre = document.getElementsByName("genre");
+// If at least one element is found
+if (inputElementsForGenre.length > 0) {
+  // Iterate all elements
+  for (let i = 0; i < inputElementsForGenre.length; i++) {
+    // assign element to a variable
+    const inputElement = inputElementsForGenre[i];
+    // Output: Stonerrock, Spacerock, Hardrock
+    console.log(inputElement.value);
+  }
+}
+```
+
+</details>
