@@ -3,3 +3,15 @@
 Distinction between software engineering and other engineering disciplines is the lack of quantitative techniques, called `metrics`.
 
 - computer-aided software engineering (CASE) referes to the use of software tools and methodologies to support various activities in software development and engineering.
+
+# 7.2 The software life cycle
+
+## 7.2.1 The cycle as a whole
+
+```mermaid
+stateDiagram-v2
+[*] --> Development
+Development --> Use
+Use --> Maintanance
+Maintanance --> Use
+```
