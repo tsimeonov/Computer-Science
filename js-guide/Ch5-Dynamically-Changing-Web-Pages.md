@@ -203,3 +203,47 @@ if (inputElementsForGenre.length > 0) {
 ```
 
 </details>
+
+## 5.2.5 Selecting Elements by Selector
+
+querySelector() returns only one element.
+
+```js
+const tableCell = document.querySelector("#main table td:nth-child(2)");
+tableCell.style.border = "1px solid red";
+```
+
+querySelectorAll() returns multiple elements.
+
+```js
+const tableCells = document.querySelectorAll("#main table td:nth-child(2)");
+if (tableCells.length > 0) {
+  for (let i = 0; i < tableCells.length; i++) {
+    const tableCell = tableCells[i];
+    tableCell.style.border = "1px solid red";
+  }
+}
+```
+
+<details>
+  <summary>Different Selectors in CSS (Table)</summary>
+
+| Selector |                                                              Description                                                              |
+| :------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
+|   [a]    |                                                 Selects elements with the attribute a                                                 |
+| [a='b']  |                                      Selects elements with the attribute a that has the value b                                       |
+| [a~='b'] |               Selects elements with the attribute a the value of which is a list of values, one of which is equal to b                |
+| [a^='b'] |                                Selects elements with the attribute a the value of which starts with b                                 |
+| [a$='b'] |                                 Selects elements with the attribute a the value of which ends with b                                  |
+| [a*='b'] |                          Selects elements with the attribute a the value of which contains b as a substring                           |
+| [a ='b'] | Selects elements with the attribute a the values of which are a series of values separated by minus signs, where the first value is b |
+|  :root   |                                                Selects the root element of a document                                                 |
+|          |                                                                                                                                       |
+|          |                                                                                                                                       |
+|          |                                                                                                                                       |
+|          |                                                                                                                                       |
+|          |                                                                                                                                       |
+|          |                                                                                                                                       |
+|          |                                                                                                                                       |
+
+</details>
