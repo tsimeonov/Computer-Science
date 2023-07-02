@@ -118,8 +118,19 @@ const mainElement = document.getElementById("main");
 <details>
   <summary>Example</summary>
 
-```html
-
+```js
+// Select all even table rows
+const tableRowsEven = document.getElementsByClassName("even");
+// if at least one element is found
+if (tableRowsEven.length > 0) {
+  // iterate all elements
+  for (let i = 0; i < tableRowsEven.length; i++) {
+    // Assign element to a variable
+    const tableRow = tableRowsEven[i];
+    // set new background color
+    tableRow.style.backgroundColor = "#ccc";
+  }
+}
 ```
 
 </details>
