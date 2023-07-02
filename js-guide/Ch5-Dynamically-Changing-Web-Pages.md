@@ -106,3 +106,18 @@ The different methods and properties for selecting elements
 |        lastChild         |           Returns the last child node for a node            |   Single node    |
 |        childNodes        |             Returns all child modes for a node              |  List of nodes   |
 |         children         |            Returns all child elements for a node            | List of elements |
+
+## 5.2.1 Selecting Elements by ID
+
+```js
+const mainElement = document.getElementById("main");
+```
+
+<details>
+  <summary>Example</summary>
+
+```html
+
+```
+
+</details>
