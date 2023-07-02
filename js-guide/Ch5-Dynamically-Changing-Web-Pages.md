@@ -134,3 +134,26 @@ if (tableRowsEven.length > 0) {
 ```
 
 </details>
+
+## 5.2.3 Selecting Elements by Element Name
+
+<details>
+  <summary>Example</summary>
+
+```js
+const tableCells = document.getElementsByTagName("td");
+// If at least one element is found
+if (tableCells.length > 0) {
+  // iterate all elements
+  for (let i = 0; i < tableCells.length; i++) {
+    // Assign element to a variable
+    const tableCell = tableCells[i];
+    // Se new font
+    tableCell.style.fontFamily = "Verdana";
+    // set new font size
+    tableCell.style.fontSize = "14px";
+  }
+}
+```
+
+</details>
