@@ -1,10 +1,10 @@
-# 5 Structure of a web page
+# 5.1 Structure of a web page
 
-## 5.1 Document Object Model
+## 5.1.1 Document Object Model
 
 Each time you access a webpage, the browser creates a corresponding model of the web page in memory, called the `Document Object Model (DOM)`. it represents the components of a web page hierarchically in a `tree representation`, also known as a `DOM tree`. A DOM tree, in turn is composed of `nodes`
 
-## 5.2 The different Types of Nodes
+## 5.1.2 The different Types of Nodes
 
 In total there are four main types of nodes (there are a few more, twelve in total but they are less relevant)
 
@@ -69,7 +69,7 @@ In total there are four main types of nodes (there are a few more, twelve in tot
 - `Attribute nodes` in the example the attribute nodes are `lang`, `id`, `summary`.
 - The text within the HTML elements is represented by its own type of node, called the `text node`. In the example, these are the nodes for the `Contacts`, `First name`, `Last name`.
 
-## 5.3 The Document Node
+## 5.1.3 The Document Node
 
 |       Property        |                      Description                      |
 | :-------------------: | :---------------------------------------------------: |
@@ -81,3 +81,28 @@ In total there are four main types of nodes (there are a few more, twelve in tot
 |    document.forms     |     Contains a list of all forms in the document      |
 |    document.image     |     Contains a list of all images in the document     |
 |    document.links     |     Contains a list of all links in the document      |
+
+# 5.2 Selecting Elements
+
+The different methods and properties for selecting elements
+
+|     Property/Method      |                         Description                         |   Return Code    |
+| :----------------------: | :---------------------------------------------------------: | :--------------: |
+|     getElementById()     |              Selects an element based on an ID              |  single element  |
+| getElementBy-ClassName() |           Selects elements based on a class name            | List of elements |
+| getElementsBy-TagName()  |     Selects all elements with the specific element name     | List of elements |
+|   getElementBy-Name()    |                Select elements by their name                | List of elements |
+|     querySelector()      | Returns the first element that matches a given CSS selector |  Single element  |
+|    querySelectorAll()    |    Returns all elements that match a given CSS selector     | List of elements |
+|      parentElement       |            Returns the parent element for a node            | List of elements |
+|       parent Node        |             Returns the parent node for a node              |   Single node    |
+| previousElement-Sibling  |       Returns the previous sibling element for a node       |  Single element  |
+|     previousSibling      |        Returns the previous sibling node for a node         |   Single Node    |
+|    nextElementSibling    |         Returns the next sibling element for a node         |  Single element  |
+|       nextSibling        |          Returns the next sibling node for a node           |   Single node    |
+|    firstElementChild     |         Returns the first child element for a node          |  Single element  |
+|        firstChild        |           Returns the first childnode for a node            |   Single node    |
+|     lastElementChild     |          Returns the last child element for a node          |  Single element  |
+|        lastChild         |           Returns the last child node for a node            |   Single node    |
+|        childNodes        |             Returns all child modes for a node              |  List of nodes   |
+|         children         |            Returns all child elements for a node            | List of elements |
