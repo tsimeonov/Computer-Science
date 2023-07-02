@@ -34,3 +34,8 @@ Implementaion --> Testing
 ## 7.2.3 Requirements analysis
 
 The software life cylce begins with the requirements analysis-the goal of which is to specify whtat services the proposed system will provide, to identify any conditions (time constaints, security and so on) on those services, and to define how the outside world will interact with the system.
+
+## 7.2.4 Design
+
+Whereas requirements analysis provides a description of the proposed software product, design involves creating a plan for the construction of the proposed system.
+From a layperson's perspective, requirements analysis is often equated with deciding `what` a software system is to do, whereas design is equated with deciding `how` the system will do it.
