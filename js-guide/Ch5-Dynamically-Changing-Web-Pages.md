@@ -24,7 +24,7 @@ In total there are four main types of nodes (there are a few more, twelve in tot
   <body>
     <main id="main">
       <h1>Contacts</h1>
-      <table id="table-list-table" summary="Contacts">
+      <table id="contact-list-table" summary="Contacts">
         <thead>
           <tr>
             <th id="table-header-first-name">First name</th>
@@ -36,22 +36,22 @@ In total there are four main types of nodes (there are a few more, twelve in tot
           <tr class="row odd">
             <td>John</td>
             <td>Doe</td>
-            <td>john.doe@gmail.com</td>
+            <td>john.doe@javascripthandbuch.de</td>
           </tr>
           <tr class="row even">
             <td>James</td>
             <td>Doe</td>
-            <td>james.doe@gmail.com</td>
+            <td>james.doe@javascripthandbuch.de</td>
           </tr>
           <tr class="row odd">
             <td>Peter</td>
             <td>Doe</td>
-            <td>peter.doe@gmail.com</td>
+            <td>peter.doe@javascripthandbuch.de</td>
           </tr>
           <tr class="row even">
             <td>Paul</td>
             <td>Doe</td>
-            <td>paul.doe@gmail.com</td>
+            <td>paul.doe@javascripthandbuch.de</td>
           </tr>
         </tbody>
       </table>
@@ -112,6 +112,8 @@ The different methods and properties for selecting elements
 ```js
 const mainElement = document.getElementById("main");
 ```
+
+## 5.2.2 Selecting Elements by Class
 
 <details>
   <summary>Example</summary>
