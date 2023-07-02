@@ -10,8 +10,21 @@ Distinction between software engineering and other engineering disciplines is th
 
 ```mermaid
 stateDiagram-v2
+direction LR
 [*] --> Development
 Development --> Use
 Use --> Maintanance
 Maintanance --> Use
+```
+
+### 7.2.2 The traditional development phase
+
+```mermaid
+stateDiagram-v2
+direction LR
+ra: requirements analysis
+ra:::yourState
+ra:::yourState --> Design
+Design --> Implementaion
+Implementaion --> Testing
 ```
