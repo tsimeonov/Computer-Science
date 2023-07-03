@@ -248,3 +248,21 @@ console.log(tbody.childElementCount); // 4
 console.log(tbody.childNodes.length); // 9
 console.log(tbody.hasChildNodes()); // true
 ```
+
+## 5.2.8 Selecting the sibling elements of an element
+
+There is the possibility to select the sibling nodes or sibling elements within one level of the DOM:
+
+- The `previousSibling` property contains the previous sibling node.
+- The `nextSibling` property contains the next sibling node.
+- The `previousElementSibling` property contains the previous sibling element.
+- The `nextElementSibling` property contains the next sibling element.
+
+```js
+// Accessing specific sibling nodes and sibling elements
+const tableCell = document.querySelector("tbody tr:nth-child(2)");
+console.log(tableCell.previousSibling); // Text node
+console.log(tableCell.nextSibling); // Text node
+console.log(tableCell.previousElementSibling); // <tr>
+console.log(tableCell.nextElementSibling); // <tr>
+```
