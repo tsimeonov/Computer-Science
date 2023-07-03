@@ -300,3 +300,14 @@ console.log(subListItems.length); // 4
 ```
 
 </details>
+
+## 5.2.10 Selecting Elements by Type
+
+|     Property     |                      Description                      |
+| :--------------: | :---------------------------------------------------: |
+| document.anchors |    Contains a list of all anchors of the web page     |
+|  document.forms  |     Contains a list of all forms on the web page      |
+| document.images  |     Contains a list of all images on the web page     |
+|  document.links  |     Contains a list of all links on the web page      |
+|  document.head   | Provides access to the <head> element of the web page |
+|  document.body   | Provides access to the <body> element of the web page |
