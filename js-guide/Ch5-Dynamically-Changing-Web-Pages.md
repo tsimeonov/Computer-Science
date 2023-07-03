@@ -266,3 +266,37 @@ console.log(tableCell.nextSibling); // Text node
 console.log(tableCell.previousElementSibling); // <tr>
 console.log(tableCell.nextElementSibling); // <tr>
 ```
+
+## 5.2.9 Calling selection methods on elements
+
+<details>
+  <summary>Example</summary>
+
+```html
+<main id="main-content">
+  <ul id="list-1">
+    <li>List entry 1</li>
+    <li>
+      List entry 2
+      <ul id="list-2">
+        <li>List entry 2.1</li>
+        <li>List entry 2.2</li>
+        <li>List entry 2.3</li>
+        <li>List entry 2.4</li>
+      </ul>
+    </li>
+    <li>List entry 3</li>
+    <li>List entry 4</li>
+  </ul>
+</main>
+```
+
+```js
+const allListItemElements = document.getElementsByTagName("li");
+console.log(allListItemElements.length); // 8
+const subList = document.getElementById("list-2");
+const subListItems = subList.getElementsByTagName("li");
+console.log(subListItems.length); // 4
+```
+
+</details>
