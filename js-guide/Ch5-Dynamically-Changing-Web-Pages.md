@@ -236,3 +236,15 @@ console.log(table.parentElement); // <main>
 ```
 
 It's important to understand that some of the preceding properties return nodes, while other properties return elements. The `parentNode`, `childNodes`, `firstChild`, `lastChild`. `previousSibling` and `nextSibling` propertie return nodes, while the `parentElement`, `children`, `firstElementChild`, `lastElementChild`, previ`previousElementChild` and `nextElementChild` properties return elements.
+
+## 5.2.7 Selecting the child element of an element
+
+The child elements of an element can be determined via the `children` property, the childre nodes via the `childNodes` property. Whether an element has child nodes can be detemined using the `hasChildNodes()` method, which returns a Boolean value. You can determine whether an element has child elements using the `childElementCount` property: this contains the number of child elements.
+
+```js
+const tbody = document.querySelector("tbody");
+console.log(tbody.children.length); // 4
+console.log(tbody.childElementCount); // 4
+console.log(tbody.childNodes.length); // 9
+console.log(tbody.hasChildNodes()); // true
+```
