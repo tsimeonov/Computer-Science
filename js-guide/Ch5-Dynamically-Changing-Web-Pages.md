@@ -225,25 +225,14 @@ if (tableCells.length > 0) {
 }
 ```
 
-<details>
-  <summary>Different Selectors in CSS (Table)</summary>
+## 5.2.6 Selecting the parent element of an element
 
-| Selector |                                                              Description                                                              |
-| :------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
-|   [a]    |                                                 Selects elements with the attribute a                                                 |
-| [a='b']  |                                      Selects elements with the attribute a that has the value b                                       |
-| [a~='b'] |               Selects elements with the attribute a the value of which is a list of values, one of which is equal to b                |
-| [a^='b'] |                                Selects elements with the attribute a the value of which starts with b                                 |
-| [a$='b'] |                                 Selects elements with the attribute a the value of which ends with b                                  |
-| [a*='b'] |                          Selects elements with the attribute a the value of which contains b as a substring                           |
-| [a ='b'] | Selects elements with the attribute a the values of which are a series of values separated by minus signs, where the first value is b |
-|  :root   |                                                Selects the root element of a document                                                 |
-|          |                                                                                                                                       |
-|          |                                                                                                                                       |
-|          |                                                                                                                                       |
-|          |                                                                                                                                       |
-|          |                                                                                                                                       |
-|          |                                                                                                                                       |
-|          |                                                                                                                                       |
+For the selection of parent node/elemenst, the `parentNode` and `parentElement` properties are available; for the selection of child nodes/elements, there are the `firstChild`, `firstElementChild`, `lastChild`, `lastElementChild`, `childrenNodes` and `clidren` properties; and for the selection of sibling nodes/elements the `previousSibling`, `previousElementSibling`, `nextSibling` and `nextElementSibling` properties are provided.
 
-</details>
+```js
+const table = document.querySelector("table");
+console.log(table.parentNode); // <main>
+console.log(table.parentElement); // <main>
+```
+
+It's important to understand that some of the preceding properties return nodes, while other properties return elements. The `parentNode`, `childNodes`, `firstChild`, `lastChild`. `previousSibling` and `nextSibling` propertie return nodes, while the `parentElement`, `children`, `firstElementChild`, `lastElementChild`, previ`previousElementChild` and `nextElementChild` properties return elements.
