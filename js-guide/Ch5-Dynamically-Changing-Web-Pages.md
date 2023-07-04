@@ -311,3 +311,17 @@ console.log(subListItems.length); // 4
 |  document.links  |     Contains a list of all links on the web page      |
 |  document.head   | Provides access to the <head> element of the web page |
 |  document.body   | Provides access to the <body> element of the web page |
+
+# 5.3 Working with Text Nodes
+
+The different methods and properties for modifying elements
+| Property/Method | Description |
+| :---------------: | :------------------------------------------------------------: |
+| textContent | This property allows you to access the text content of a node. |
+| nodeValue | This property allows you to access the contents of a node |
+| innerHTML | This property allows you to access the HTML content of a node |
+| createTextNode() | This method allows you to create text nodes |
+| createElement() | This method allows you to create elements |
+| createAttribute() | This methos allows you to create attribute nodes |
+| appendChild() | This method allows you to add nodes ot the DOM tree |
+| removeChild() | This method allows you to remove nodes from the DOM tree |
