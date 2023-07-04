@@ -325,3 +325,16 @@ The different methods and properties for modifying elements
 | createAttribute() | This methos allows you to create attribute nodes |
 | appendChild() | This method allows you to add nodes ot the DOM tree |
 | removeChild() | This method allows you to remove nodes from the DOM tree |
+
+## 5.3.1 Accessing the text content of an element
+
+```html
+<ul id="news">
+  <li><strong>Record news</strong>New album by <em>Ben Harper</em> released</li>
+</ul>
+```
+
+```js
+const textContent = document.querySelector("#news li:nth-child(1)").textContent;
+console.log(textContent); // Record newsNew album by Ben Harper released
+```
