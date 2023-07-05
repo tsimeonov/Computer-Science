@@ -345,3 +345,12 @@ console.log(textContent); // Record newsNew album by Ben Harper released
 const element = document.querySelector("#news li:nth-child(1)");
 element.textContent = "Record news"; // Record news
 ```
+
+## 5.3.3 Modifying the HTML below an element
+
+If you want to insert not only text but also HTML into an element, you can use the `innerHTML` property.
+
+```js
+const element = document.querySelector("#news li:nth-child(1)");
+element.innerHTML = "<string>Record news:</strong> New album by....";
+```
