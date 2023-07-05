@@ -338,3 +338,10 @@ The different methods and properties for modifying elements
 const textContent = document.querySelector("#news li:nth-child(1)").textContent;
 console.log(textContent); // Record newsNew album by Ben Harper released
 ```
+
+## 5.3.2 Modifying the text content of an element
+
+```js
+const element = document.querySelector("#news li:nth-child(1)");
+element.textContent = "Record news"; // Record news
+```
