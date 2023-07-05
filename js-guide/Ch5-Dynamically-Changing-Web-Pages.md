@@ -354,3 +354,11 @@ If you want to insert not only text but also HTML into an element, you can use t
 const element = document.querySelector("#news li:nth-child(1)");
 element.innerHTML = "<string>Record news:</strong> New album by....";
 ```
+
+## 5.3.4 Creating and adding text nodes
+
+```js
+const element = document.querySelector("#news");
+const textNode = document.createTextNode("Example");
+element.appendChild(textNode);
+```
