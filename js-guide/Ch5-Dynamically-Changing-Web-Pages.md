@@ -362,3 +362,115 @@ const element = document.querySelector("#news");
 const textNode = document.createTextNode("Example");
 element.appendChild(textNode);
 ```
+
+# 5.4 Working with elements
+
+## 5.4.1 Creating and adding elements
+
+<details>
+  <summary>Example</summary>
+
+```html
+<body onload="createTable()">
+  <main>
+    <table id="contact-table" summary="Contacts">
+      <thead>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>E-mail address</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+</body>
+```
+
+```js
+const contacts = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "john.doe@gmail.com",
+  },
+  {
+    firstName: "James",
+    lastName: "Doe",
+    email: "james.doe@gmail.com",
+  },
+  {
+    firstName: "Peter",
+    lastName: "Doe",
+    email: "peter.doe@gmail.com",
+  },
+];
+
+function createTable() {
+  const tableBody = document.querySelector("#contact-table tbody");
+  for (let i = 0; i < contacts.length; i++) {
+    // For the current contact ...
+    const contact = contacts[i];
+    // ... a new line is created.
+    // (1)
+    const tableRow = document.createElement("tr");
+    // Within the row, different cells are created ...
+    // (2)
+    const tableCellFirstName = document.createElement("td");
+    // ... and filled with values.
+    // (3)
+    const firstName = document.createTextNode(contact.firstName);
+    // (4)
+    tableCellFirstName.appendChild(firstName);
+    // (5)
+    const tableCellLastName = document.createElement("td");
+    // (6)
+    const lastName = document.createTextNode(contact.lastName);
+    // (7)
+    tableCellLastName.appendChild(lastName);
+    // (8)
+    const tableCellEmail = document.createElement("td");
+    // (9)
+    const email = document.createTextNode(contact.email);
+    // (10)
+    tableCellEmail.appendChild(email);
+    // (11)
+    tableRow.appendChild(tableCellFirstName);
+    // (12)
+    tableRow.appendChild(tableCellLastName);
+    // (13)
+    tableRow.appendChild(tableCellEmail);
+    // (14)
+    tableBody.appendChild(tableRow);
+  }
+}
+```
+
+</details>
+
+## 5.4.2 Removing elements and nodes
+
+Example of using removeChild() method
+
+```html
+<body>
+  <div id="parent">
+    <p>This is the parent div.</p>
+    <p>This is the child div.</p>
+  </div>
+  <button onclick="removeChildElement()">Remove Child Element</button>
+</body>
+```
+
+```js
+function removeChildElement() {
+  // Get the parent element
+  var parent = document.getElementById("parent");
+
+  // Get the child element
+  var child = document.querySelector("#parent p");
+
+  // Remove the child element from the parent
+  parent.removeChild(child);
+}
+```
