@@ -450,7 +450,7 @@ function createTable() {
 
 ## 5.4.2 Removing elements and nodes
 
-Example of using removeChild() method
+Each HTML Element is represented by Its own object type
 
 ```html
 <main id="main">
@@ -506,3 +506,23 @@ console.log(table.tFoot);
 ```
 
 </details>
+
+# 5.5 Working with attributes
+
+## 5.5.1 Reading the value of an attribute
+
+To access the value of an attribute, use the `getAttribute()` method on the respective method.
+
+```html
+<a href="#" id="home" class="link">Home</a>
+```
+
+```js
+const element = document.getElementById("home");
+// home
+console.log(element.getAttribute("id"));
+// link
+console.log(element.getAttribute("class"));
+// #
+console.log(element.getAttribute("href"));
+```
