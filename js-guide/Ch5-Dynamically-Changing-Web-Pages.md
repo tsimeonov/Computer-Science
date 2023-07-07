@@ -453,24 +453,56 @@ function createTable() {
 Example of using removeChild() method
 
 ```html
-<body>
-  <div id="parent">
-    <p>This is the parent div.</p>
-    <p>This is the child div.</p>
-  </div>
-  <button onclick="removeChildElement()">Remove Child Element</button>
-</body>
+<main id="main">
+  <h1>Contacts</h1>
+  <table id="contact-list-table" summary="Contacts">
+    <thead>
+      <tr>
+        <th id="table-header-first-name">First name</th>
+        <th id="table-header-last-name">Last name</th>
+        <th id="table-header-email">E-mail address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row odd">
+        <td>John</td>
+        <td>Doe</td>
+        <td>john.doe@gmail.com</td>
+      </tr>
+      <tr class="row even">
+        <td>James</td>
+        <td>Doe</td>
+        <td>james.doe@gmail.com</td>
+      </tr>
+      <tr class="row odd">
+        <td>Peter</td>
+        <td>Doe</td>
+        <td>peter.doe@gmail.com</td>
+      </tr>
+      <tr class="row even">
+        <td>Paul</td>
+        <td>Doe</td>
+        <td>paul.doe@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
 ```
 
 ```js
-function removeChildElement() {
-  // Get the parent element
-  var parent = document.getElementById("parent");
-
-  // Get the child element
-  var child = document.querySelector("#parent p");
-
-  // Remove the child element from the parent
-  parent.removeChild(child);
-}
+const table = document.querySelector("table");
+// HTMLTableElement
+console.log(Object.getPrototypeOf(table));
+// null
+console.log(table.caption);
+// thead
+console.log(table.tHead);
+// tbody
+console.log(table.tBodies);
+// [tr,tr,tr,tr]
+console.log(table.rows);
+// null
+console.log(table.tFoot);
 ```
+
+</details>
