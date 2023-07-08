@@ -75,3 +75,18 @@ function init() {
   element.onblur = checkAgeNotNegative;
 }
 ```
+
+# 6.2.3 Defining Event Listeners
+
+```js
+function init() {
+  const element = document.getElementById("age"); // Get element
+  element.addEventListener(
+    // Register event listener
+    "blur", // Name of the event
+    checkAgeNotNegative, // Name of the event listener
+    false // Event flow, details to follow later on
+  );
+}
+document.addEventListener("DOMContentLoaded", init);
+```
