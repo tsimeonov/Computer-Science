@@ -570,3 +570,20 @@ element.removeAttribute("href");
 console.log(element.getAttribute("class")); // null
 console.log(element.getAttribute("href")); // null
 ```
+
+## 5.5.5 Accessing CSS classes
+
+```js
+const element = document.getElementById("home");
+console.log(element.classList); // ['link']
+element.classList.add("active"); // Add class
+console.log(element.classList); // ['link', 'active']
+element.classList.remove("active"); // Remove class
+console.log(element.classList); // ['link']
+element.classList.toggle("active"); // Togle class
+console.log(element.classList); // ['link', 'active']
+element.classList.toggle("active"); // Togle class
+console.log(element.classList); // ['link', 'active']
+element.classList.contains("link"); // true
+console.log(element.classList.contains("link")); // true
+```
