@@ -542,3 +542,17 @@ console.log(element.getAttribute("class")); // link active
 console.log(element.getAttribute("href")); // navlink.html
 console.log(element.getAttribute("target")); // _blank
 ```
+
+## 5.5.2 Creating and Adding attribute nodes
+
+```html
+<a href="#" id="home" class="link">Home</a>
+```
+
+```js
+const element = document.getElementById("home");
+const attribute = document.createAttribute("target");
+attribute.value = "_blank";
+element.setAttributeNode(attribute);
+console.log(element.getAttribute("target")); // _blank
+```
