@@ -10,3 +10,32 @@ To trigger a function on user interactions within a web page, three steps are re
 1. Select the element on the page.
 2. Specify the event that is to be caught.
 3. Specify the function to be called.
+
+## 6.2.1 Defining an Event handler via HTML
+
+```html
+<div>
+  <label for="age"></label>
+  <input type="number" id="age" value="0" onblur="checkAgeNotNegative()" />
+</div>
+<div id="output"></div>
+```
+
+```js
+function checkAgeNotNegative() {
+  // Container for message
+  const output = document.getElementById("output");
+  // Input field for the age
+  const element = document.getElementById("age");
+  // Current age value
+  const age = element.value;
+  // If there is negative
+  if (age < 0) {
+    // Output an error message
+    output.textContent = "Age cannot be negative";
+  } else {
+    // delete message
+    output.textContent = "";
+  }
+}
+```
