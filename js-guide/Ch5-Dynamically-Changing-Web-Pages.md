@@ -526,3 +526,19 @@ console.log(element.getAttribute("class"));
 // #
 console.log(element.getAttribute("href"));
 ```
+
+## 5.5.2 Changing the value of an attribute or adding a new attribute
+
+```html
+<a href="#" id="home" class="link">Home</a>
+```
+
+```js
+const element = document.getElementById("home");
+element.setAttribute("class", "link active");
+element.setAttribute("href", "newlink.html");
+element.setAttribute("target", "_blank");
+console.log(element.getAttribute("class")); // link active
+console.log(element.getAttribute("href")); // navlink.html
+console.log(element.getAttribute("target")); // _blank
+```
