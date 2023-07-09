@@ -168,3 +168,15 @@ element.addEventListener("click", () => {
   // You can access the arquments directly
 });
 ```
+
+## 6.2.6 Removing event listeners
+
+```js
+const element = document.querySelector("#age");
+function myEventHandler() {
+  // The event handler codegoes here
+  element.addEventListener("click", myEventHandler);
+}
+
+element.removeEventListener("click", myEventHandler);
+```
