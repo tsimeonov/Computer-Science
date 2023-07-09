@@ -505,8 +505,6 @@ console.log(table.rows);
 console.log(table.tFoot);
 ```
 
-</details>
-
 # 5.5 Working with attributes
 
 ## 5.5.1 Reading the value of an attribute

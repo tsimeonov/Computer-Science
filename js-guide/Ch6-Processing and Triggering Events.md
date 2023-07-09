@@ -76,7 +76,7 @@ function init() {
 }
 ```
 
-# 6.2.3 Defining Event Listeners
+## 6.2.3 Defining Event Listeners
 
 ```js
 function init() {
@@ -90,3 +90,64 @@ function init() {
 }
 document.addEventListener("DOMContentLoaded", init);
 ```
+
+## 6.2.4 Defining multiple event listeners
+
+<details>
+  <summary>Example</summary>
+
+```html
+<div>
+  <label for="age"></label>
+  <input id="age" type="number" value="0" />
+</div>
+<div id="output"></div>
+```
+
+```js
+function checkAgeNotNegative(age) {
+  if (age < 0) {
+    showMessage("Age must be a number");
+  }
+}
+function checkAgeisNumber(age) {
+  // Check is a value is a valid number
+  if (!(!isNaN(parseFloat(age)) && isFinite(age))) {
+    showMessage("Age must be a number");
+  }
+}
+
+function clearMessage() {
+  showMessage("");
+}
+
+function showMessage(message) {
+  const output = document.querySelector("#output");
+  output.textContent = message;
+}
+
+function getAgeValue() {
+  const element = document.querySelector("#age");
+  const age = element.value;
+  return age;
+}
+
+function init() {
+  const element = document.querySelector("#age");
+  element.addEventListener("blur", clearMessage);
+  element.addEventListener("blur", function () {
+    // Anonymous function
+    const age = getAgeValue(); // get value for age
+    checkAgeNotNegative(age); // call the actual function
+  });
+  element.addEventListener("blur", function () {
+    // Anonymous function
+    const age = getAgeValue();
+    checkAgeNotNegative(age);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", init);
+```
+
+</details>
