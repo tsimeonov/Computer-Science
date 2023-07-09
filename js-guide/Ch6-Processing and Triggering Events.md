@@ -151,3 +151,20 @@ document.addEventListener("DOMContentLoaded", init);
 ```
 
 </details>
+
+## 6.2.5 Passing arguments to event listeners
+
+```js
+// Using an anonymous function
+const element = document.querySelector("#age");
+element.addEventListener("click", function () {
+  // The event handler code goes here
+  // Access the arquments using the 'arquments' object
+});
+
+// Using an arrow function
+element.addEventListener("click", () => {
+  // The event handler code goes here
+  // You can access the arquments directly
+});
+```
