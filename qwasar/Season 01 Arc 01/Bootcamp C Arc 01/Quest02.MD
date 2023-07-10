@@ -29,6 +29,7 @@ void my_swap(int* param_1, int* param_2) {
 // The strlen() function returns the number of characters
 int my_strlen(char* param_1) {
     int length = 0;
+    // Checks if the value pointed to by the param_1 is not the null character
     while (*param_1 != '\0') {
         length++;
         param_1++;
