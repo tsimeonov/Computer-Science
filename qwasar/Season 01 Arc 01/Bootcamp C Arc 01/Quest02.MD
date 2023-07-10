@@ -22,6 +22,9 @@ void my_swap(int* param_1, int* param_2) {
 ## ex02 - my_strlen.c
 
 ```c
+// Breakdown of `%d`
+// . `%` - The precent sign indicates that a format specidier is being used
+// . `d` - The `d` character specifies hat the corresponding argument should be treated as a signed decimal integer.
 // Reproduce the behavior of the function strlen
 // The strlen() function returns the number of characters
 int my_strlen(char* param_1) {
