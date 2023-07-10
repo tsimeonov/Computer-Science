@@ -45,3 +45,28 @@ int main() {
 }
 
 ```
+
+## ex03 - my_putstr.c
+
+```c
+#include <stdio.h>
+
+void my_putstr(char* param_1) {
+    if (param_1 == NULL) {
+        return;  // Return early if the pointer is NULL
+    }
+
+    int i = 0;
+    while (param_1[i] != '\0') {
+        putchar(param_1[i]);  // Print each character
+        i++;
+    }
+}
+
+int main() {
+    char* str = "Hello, world!";
+    my_putstr(str);
+
+    return 0;
+}
+```
