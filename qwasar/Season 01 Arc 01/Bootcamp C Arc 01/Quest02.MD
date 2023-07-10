@@ -19,3 +19,25 @@ void my_swap(int* param_1, int* param_2) {
     *param_2 = temp;      // Assign the stored value of param_1 to param_2
 }
 ```
+## ex02 - my_strlen.c
+
+```c
+// Reproduce the behavior of the function strlen
+// The strlen() function returns the number of characters
+int my_strlen(char* param_1) {
+    int length = 0;
+    while (*param_1 != '\0') {
+        length++;
+        param_1++;
+    }
+    return length;
+}
+
+int main() {
+    char str[] = "Hello, World!";
+    int length = my_strlen(str);
+    printf("Length of the string: %d\n", length);
+    return 0;
+}
+
+```
