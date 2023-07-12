@@ -70,3 +70,9 @@ int main() {
     return 0;
 }
 ```
+## ex04 - my_add.c
+```c
+int my_add(int param_1, int param_2) {
+    return param_1 + param_2;
+}
+```
