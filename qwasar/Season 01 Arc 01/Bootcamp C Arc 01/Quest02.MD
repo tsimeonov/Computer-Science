@@ -98,3 +98,15 @@ int my_mult(int param_1, int param_2) {
   printf("\n");
 }
 ```
+## ex08 - my_string_index.c
+```c
+int my_string_index(char* param_1, char param_2) {
+    int i;
+    for (i = 0; param_1[i] != '\0'; i++) {
+        if (param_1[i] == param_2) {
+            return i;  // Return the position when a match is found
+        }
+    }
+    return -1;  // Return -1 if the character is not found
+}
+```
