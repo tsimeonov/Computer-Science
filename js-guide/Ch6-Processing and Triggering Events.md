@@ -180,3 +180,5 @@ function myEventHandler() {
 
 element.removeEventListener("click", myEventHandler);
 ```
+
+## 6.2.8 Accessing information of an event
