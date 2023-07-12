@@ -88,3 +88,13 @@ int my_mult(int param_1, int param_2) {
     return param_1 * param_2;
 }
 ```
+## ex07 - my_string_formatting.c
+```c
+#include <stdio.h>
+#include <string.h>
+
+ void my_string_formatting(char* param_1, char* param_2, int param_3) {
+  printf("Hello, my name is %s %s, I'm %d.", param_1, param_2, param_3);
+  printf("\n");
+}
+```
