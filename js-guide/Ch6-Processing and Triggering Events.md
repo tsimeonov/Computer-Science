@@ -209,3 +209,51 @@ function init() {
 
 document.addEventListener("DOMContentLoaded", init);
 ```
+
+# 6.3 Different types of events
+
+## 6.3.1 Events when interacting with the mouse
+
+```html
+<div id="container">
+  <canvas id="canvas" width="400" height="400"></canvas>
+</div>
+```
+
+```js
+function init() {
+  const canvas = document.getElementById("canvas");
+  canvas.addEventListener("mousemove", handleMouseMove, false);
+  // Get drawing area
+  const context = canvas.getContext("2d");
+  // Notice start of path
+  let started = false;
+  function handleMouseMove(e) {
+    let x, y;
+    // If x position is specified anf not 0
+    if (e.clientX || e.clientX == 0) {
+      // remember x position
+      x = e.clientX;
+      // remember y position
+      y = e.clientY;
+    }
+    // If path not yet started
+    if (!started) {
+      // start path and
+      context.beginPath();
+      // move to position
+      context.moveTo(x, y);
+      // Notice that path has started
+      started = true;
+    }
+    // If path has started
+    else {
+      // move to position
+      context.lineTo(x, y);
+      // and draw connection
+      context.stroke();
+    }
+  }
+}
+document.addEventListener("DOMContentLoaded", init);
+```
