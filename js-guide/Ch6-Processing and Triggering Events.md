@@ -257,3 +257,60 @@ function init() {
 }
 document.addEventListener("DOMContentLoaded", init);
 ```
+
+## 6.3.2 Events when interacting with the keyboard and text fields
+
+<details>
+  <summary>Example</summary>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moving Element with Arrow Keys</title>
+    <style>
+      #movingElement {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        top: 50px;
+        left: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="movingElement"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const movingElement = document.getElementById("movingElement");
+        const stepSize = 10; // Adjust this value to control the movement speed
+
+        let currentPosition = {
+          top: 50,
+          left: 50,
+        };
+
+        document.addEventListener("keydown", function (event) {
+          if (event.key === "ArrowLeft") {
+            currentPosition.left -= stepSize;
+          } else if (event.key === "ArrowRight") {
+            currentPosition.left += stepSize;
+          } else if (event.key === "ArrowUp") {
+            currentPosition.top -= stepSize;
+          } else if (event.key === "ArrowDown") {
+            currentPosition.top += stepSize;
+          }
+
+          movingElement.style.top = currentPosition.top + "px";
+          movingElement.style.left = currentPosition.left + "px";
+        });
+      });
+    </script>
+  </body>
+</html>
+```
+
+</details>
