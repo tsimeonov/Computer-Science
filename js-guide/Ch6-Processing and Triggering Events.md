@@ -182,3 +182,30 @@ element.removeEventListener("click", myEventHandler);
 ```
 
 ## 6.2.8 Accessing information of an event
+
+```html
+<div>
+  <input id="button" type="button" value="Please click" />
+</div>
+<div id="output"></div>
+```
+
+```js
+function buttonClicked(event) {
+  console.log(event.bubbles); // true
+  console.log(event.cancelable); // true
+  console.log(event.currentTarget); // <input>
+  console.log(event.defaultPrevented); // false
+  console.log(event.target); // <input>
+  console.log(event.timeStamp); // 17463.69
+  console.log(event.type); // click
+  console.log(event.eventPhase); // 2
+}
+
+function init() {
+  const element = document.querySelector("#button");
+  element.addEventListener("click", buttonClicked, false);
+}
+
+document.addEventListener("DOMContentLoaded", init);
+```
