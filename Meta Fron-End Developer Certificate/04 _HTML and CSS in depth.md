@@ -378,3 +378,13 @@ Pseudo-element selectors
 |  ::first-line  |   `p::first-line { }`    |           Selects first line of every `<p>` element           |
 | ::placeholder  | `input::placeholder { }` | Selects input elements with "placeholder" attribute specified |
 |    ::marker    |      `::marker { }`      |                   Selects markers in a list                   |
+
+## 2.3. CSS Effects
+
+### 2.3.1 What is an effect
+
+Effect - a change which is a result or consequence of an action or other cause.
+Animation - graphics in motion transitioning over time.
+
+- popmotion library
+- framer-motion
