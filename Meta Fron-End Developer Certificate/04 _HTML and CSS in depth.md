@@ -253,6 +253,7 @@ Typical use cases:
 ### 2.2.3 Pseudo-classes
 
 Pseudo-classes are used to select and style elements based on their state or position in the document tree. They start with a colon `(:)` followed by the name of the pseudo-class.
+The order in which you need to write a pseudo-class rulles is LVHA (link,visited, hover active)
 
 ```
 // syntax
