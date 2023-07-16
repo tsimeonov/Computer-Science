@@ -314,3 +314,12 @@ document.addEventListener("DOMContentLoaded", init);
 ```
 
 </details>
+## 6.3.3 Events when working with forms
+There are also special events for working with forms. For example, corresponding events are triggered whenever the user modifies the text in an `input` or a `textarea` element.
+
+| Event  |                                     Description                                     | Object type |
+| :----: | :---------------------------------------------------------------------------------: | :---------: |
+| input  | Triggered when the value if an `<input>` or a `<textarea>` element has been changed |    Event    |
+| chabge |                      Triggered when a form has been submitted                       |    Event    |
+| submit |                      TTriggered when a form has been submitted                      |    Event    |
+| reset  |              Triggered when a form has been reset (via a reset button)              |    Event    |
