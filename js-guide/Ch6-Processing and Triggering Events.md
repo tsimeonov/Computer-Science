@@ -314,12 +314,25 @@ document.addEventListener("DOMContentLoaded", init);
 ```
 
 </details>
+
 ## 6.3.3 Events when working with forms
+
 There are also special events for working with forms. For example, corresponding events are triggered whenever the user modifies the text in an `input` or a `textarea` element.
 
 | Event  |                                     Description                                     | Object type |
 | :----: | :---------------------------------------------------------------------------------: | :---------: |
 | input  | Triggered when the value if an `<input>` or a `<textarea>` element has been changed |    Event    |
 | chabge |                      Triggered when a form has been submitted                       |    Event    |
-| submit |                      TTriggered when a form has been submitted                      |    Event    |
+| submit |                      Triggered when a form has been submitted                       |    Event    |
 | reset  |              Triggered when a form has been reset (via a reset button)              |    Event    |
+
+## 6.3.4 Events when focusing elements
+
+In addition, an event is triggered every time an element on a web page goes into focus (e.g by navigating to the elemsn using the `Tab` key).
+
+|   Event   |                                     Description                                      | Object type |
+| :-------: | :----------------------------------------------------------------------------------: | :---------: |
+|   focus   |                         Triggered when an element is focused                         | FocusEvent  |
+|   blur    |                        Triggered when an element loses focus                         | FocusEvent  |
+|  focusin  |  Triggere when an element is focused. Unlike the `focus` event, this event bubbles   | FocusEvent  |
+| focuesout | Triggere when an element is loses focus. Unlike the `blur` event, this event bubbles | FocusEvent  |
