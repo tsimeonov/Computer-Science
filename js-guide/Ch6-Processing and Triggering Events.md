@@ -336,3 +336,5 @@ In addition, an event is triggered every time an element on a web page goes into
 |   blur    |                        Triggered when an element loses focus                         | FocusEvent  |
 |  focusin  |  Triggere when an element is focused. Unlike the `focus` event, this event bubbles   | FocusEvent  |
 | focuesout | Triggere when an element is loses focus. Unlike the `blur` event, this event bubbles | FocusEvent  |
+
+## 6.3.5 General Events of the User Interface
