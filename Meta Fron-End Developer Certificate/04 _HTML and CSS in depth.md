@@ -421,3 +421,38 @@ Animation - graphics in motion transitioning over time.
   <div class="box"></div>
 </body>
 ```
+
+### 2.3.4 CSS animation
+
+- animation property - for creating complex animations
+- @keyframe rule - to control the execution of the steps of the animation
+
+```html
+ <style>
+        @keyframes bounce {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                transform: translate3d(640px, 0, 0);
+            }
+        }
+
+        #ball {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: lightblue;
+
+            animation: bounce 2s linear;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ball"></div>
+</body>
+```
