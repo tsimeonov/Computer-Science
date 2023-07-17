@@ -456,3 +456,13 @@ Animation - graphics in motion transitioning over time.
     <div id="ball"></div>
 </body>
 ```
+
+## 2.4. Debugging
+
+### 2.4.1 Common errors
+
+- Identify common errors in programming
+  - skill based errors
+  - rule based errors
+  - knowledge based errors
+- Explain good practices to avoid making errors
