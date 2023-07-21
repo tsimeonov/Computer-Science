@@ -466,3 +466,9 @@ Animation - graphics in motion transitioning over time.
   - rule based errors
   - knowledge based errors
 - Explain good practices to avoid making errors
+
+## 2.4.2 Handling errors
+
+- CSS handles errors differently
+- The code does not break or stop executing
+- Code with errors is ignored
