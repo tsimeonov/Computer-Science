@@ -472,3 +472,5 @@ Animation - graphics in motion transitioning over time.
 - CSS handles errors differently
 - The code does not break or stop executing
 - Code with errors is ignored
+
+## 2.4.3 Debugging tools
