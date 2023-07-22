@@ -438,3 +438,5 @@ A Selection of mobile device events
 # 6.5 Programmatically triggering events
 
 ## 6.5.1 Triggering simple events
+
+## 6.5.2 Triggering events wit passed arguments
