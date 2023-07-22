@@ -330,12 +330,12 @@ There are also special events for working with forms. For example, corresponding
 
 In addition, an event is triggered every time an element on a web page goes into focus (e.g by navigating to the elemsn using the `Tab` key).
 
-|   Event   |                                     Description                                      | Object type |
-| :-------: | :----------------------------------------------------------------------------------: | :---------: |
-|   focus   |                         Triggered when an element is focused                         | FocusEvent  |
-|   blur    |                        Triggered when an element loses focus                         | FocusEvent  |
-|  focusin  |  Triggere when an element is focused. Unlike the `focus` event, this event bubbles   | FocusEvent  |
-| focuesout | Triggere when an element is loses focus. Unlike the `blur` event, this event bubbles | FocusEvent  |
+|   Event   |                                      Description                                      | Object type |
+| :-------: | :-----------------------------------------------------------------------------------: | :---------: |
+|   focus   |                         Triggered when an element is focused                          | FocusEvent  |
+|   blur    |                         Triggered when an element loses focus                         | FocusEvent  |
+|  focusin  |  Triggered when an element is focused. Unlike the `focus` event, this event bubbles   | FocusEvent  |
+| focuesout | Triggered when an element is loses focus. Unlike the `blur` event, this event bubbles | FocusEvent  |
 
 ## 6.3.5 General Events of the User Interface
 
@@ -407,3 +407,14 @@ In addition, an event is triggered every time an element on a web page goes into
 ```
 
 </details>
+
+## 6.3.5 Events on mobile devices
+
+|       Event       |                                         Description                                         |      Object type       |
+| :---------------: | :-----------------------------------------------------------------------------------------: | :--------------------: |
+| orientationchange |                 Triggered when the orientation of the input device changes                  |         Event          |
+| deviceorientation |       Triggered when new data is available regarding the orientaton of the end device       | DeviceOrientationEvent |
+|    touchstart     |           Triggered when the input device (usually a finger) touches the dispaly            |       TouchEvent       |
+|     touchend      | Triggered when the input device stops touchng - when the finger is removed from the display |       TouchEvent       |
+|     touchmove     |               Triggered when the input device has been moved over the dispaly               |       TouchEvent       |
+|    touchcancel    |                Triggered when the tracking of the touch has been interrupted                |       TouchEvent       |
