@@ -410,11 +410,20 @@ In addition, an event is triggered every time an element on a web page goes into
 
 ## 6.3.5 Events on mobile devices
 
-|       Event       |                                         Description                                         |      Object type       |
+A Selection of mobile device events
+| Event | Description | Object type |
 | :---------------: | :-----------------------------------------------------------------------------------------: | :--------------------: |
-| orientationchange |                 Triggered when the orientation of the input device changes                  |         Event          |
-| deviceorientation |       Triggered when new data is available regarding the orientaton of the end device       | DeviceOrientationEvent |
-|    touchstart     |           Triggered when the input device (usually a finger) touches the dispaly            |       TouchEvent       |
-|     touchend      | Triggered when the input device stops touchng - when the finger is removed from the display |       TouchEvent       |
-|     touchmove     |               Triggered when the input device has been moved over the dispaly               |       TouchEvent       |
-|    touchcancel    |                Triggered when the tracking of the touch has been interrupted                |       TouchEvent       |
+| orientationchange | Triggered when the orientation of the input device changes | Event |
+| deviceorientation | Triggered when new data is available regarding the orientaton of the end device | DeviceOrientationEvent |
+| touchstart | Triggered when the input device (usually a finger) touches the dispaly | TouchEvent |
+| touchend | Triggered when the input device stops touchng - when the finger is removed from the display | TouchEvent |
+| touchmove | Triggered when the input device has been moved over the dispaly | TouchEvent |
+| touchcancel | Triggered when the tracking of the touch has been interrupted | TouchEvent |
+
+# 6.4 Understanding and influencing the flow of events
+
+## 6.4.1 Event phases
+
+1. Capturing phase
+2. Targeting phase
+3. Bubbling phase
