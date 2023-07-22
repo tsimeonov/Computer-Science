@@ -338,3 +338,72 @@ In addition, an event is triggered every time an element on a web page goes into
 | focuesout | Triggere when an element is loses focus. Unlike the `blur` event, this event bubbles | FocusEvent  |
 
 ## 6.3.5 General Events of the User Interface
+
+<details>
+  <summary>Fade in element with scrolling</summary>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moving Element with Arrow Keys</title>
+    <style>
+      #content {
+        height: 2000px;
+        border: thin solid black;
+        padding-left: 20px;
+        padding-top: 150px;
+        font-size: 22px;
+      }
+
+      .hide {
+        opacity: 0;
+      }
+
+      .show {
+        animation: fadein 2s;
+      }
+
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+      Hello
+      <span id="name" class="hide">John Doe</span>
+    </div>
+    <script>
+      function init() {
+        let scrollPosition = window.scrollY;
+        const nameElement = document.getElementById("name");
+
+        function handleScrollEvent(e) {
+          console.log(scrollPosition);
+          scrollPosition = window.scrollY;
+          if (scrollPosition > 5) {
+            nameElement.classList.remove("hide");
+            nameElement.classList.add("show");
+          } else {
+            nameElement.classList.remove("show");
+            nameElement.classList.add("hide");
+          }
+        }
+        window.addEventListener("scroll", handleScrollEvent);
+      }
+
+      document.addEventListener("DOMContentLoaded", init);
+    </script>
+  </body>
+</html>
+```
+
+</details>
