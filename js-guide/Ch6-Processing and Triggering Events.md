@@ -434,3 +434,7 @@ A Selection of mobile device events
 - The `preventDefault()` method, on the other hand can be used to prevent the browser's default actions from being executed when an event occurs.
 
 ## 6.4.3 Preventing dafault actions of events
+
+# 6.5 Programmatically triggering events
+
+## 6.5.1 Triggering simple events
