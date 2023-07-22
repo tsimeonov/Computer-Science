@@ -440,3 +440,5 @@ A Selection of mobile device events
 ## 6.5.1 Triggering simple events
 
 ## 6.5.2 Triggering events wit passed arguments
+
+## 6.5.3 Triggering dafault events
