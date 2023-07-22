@@ -427,3 +427,8 @@ A Selection of mobile device events
 1. Capturing phase
 2. Targeting phase
 3. Bubbling phase
+
+## 6.4.2 Interupting the event flow
+
+- The `stopProoagation()` method can be used to prevent the corresponding event from being propagated to the next element in the DOM tree.
+- The `preventDefault()` method, on the other hand can be used to prevent the browser's default actions from being executed when an event occurs.
