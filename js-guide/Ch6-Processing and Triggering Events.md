@@ -432,3 +432,5 @@ A Selection of mobile device events
 
 - The `stopProoagation()` method can be used to prevent the corresponding event from being propagated to the next element in the DOM tree.
 - The `preventDefault()` method, on the other hand can be used to prevent the browser's default actions from being executed when an event occurs.
+
+## 6.4.3 Preventing dafault actions of events
