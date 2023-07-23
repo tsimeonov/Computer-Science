@@ -96,3 +96,9 @@ function App() {
 
 export default App;
 ```
+
+### 2.5 The React project structure
+
+- `node_modules` folder - repository for all the modules in your React app.
+  It's automatically added when an npm package is installed.
+- `public` folder - contains the assets that will be displayed in the app.
