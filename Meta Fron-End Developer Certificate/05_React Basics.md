@@ -68,3 +68,31 @@ function Heading() {
 ```
 
 Transpiling - interpreting a programming language and translating it ti a specifix target language.
+
+### 2.4 Creating React Components
+
+1. Remove all code inside the function `App()` in the `App.js` file
+2. Create the `Header()` function
+
+```js
+function Header() {
+  return <h1>Hello, World</h1>;
+}
+```
+
+3. Type the `Header` funcion inside the `App` function
+
+```js
+import logo from "./logo.svg";
+import "./App.css";
+
+function Header() {
+  return <h1>Hello, World</h1>;
+}
+
+function App() {
+  return <Header />;
+}
+
+export default App;
+```
