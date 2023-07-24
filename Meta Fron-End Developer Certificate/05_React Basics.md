@@ -102,3 +102,206 @@ export default App;
 - `node_modules` folder - repository for all the modules in your React app.
   It's automatically added when an npm package is installed.
 - `public` folder - contains the assets that will be displayed in the app.
+- `src` folder - Contains all the essential components files required to ensure that a React app functions.
+
+Customizing the project
+
+Type the following in the terminal
+
+```js
+npm init react-app customizing-example
+```
+
+Inspect the `src` folder of the starter app
+
+```
+src /
+  App.js;
+  App.test.js;
+  index.css;
+  index.js;
+  logo.svg;
+  reportWebVitals.js;
+  setupTests.js;
+```
+
+Then simply add a components folder to it
+
+```
+src/
+  components/
+  App.js
+  App.test.js
+  index.css
+  index.js
+  logo.svg
+  reportWebVitals.js
+  setupTests.js
+```
+
+Add components is the components folder
+
+```
+src/
+    components/
+        Nav.js
+        Promo.js
+        Intro1.js
+        Intro2.js
+        Intro3.js
+        Footer.js
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+    reportWebVitals.js
+    setupTests.js
+```
+
+`Building Components`
+
+<details>
+  <summary>Building the components</summary>
+
+```js
+// The content in the Nav.js file
+function Nav() {
+  return (
+    <nav className="main-nav">
+      <ul>
+        <li>Home</li>
+        <li>Articles</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
+}
+
+export default Nav;
+```
+
+```js
+// The content in the Promo.js file
+function Promo() {
+  return (
+    <div className="promo-section">
+      <div>
+        <h1>Don't miss this deal!</h1>
+      </div>
+      <div>
+        <h2>
+          Subscribe to my newsletter and get all the shop items at 50% off!
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export default Promo;
+```
+
+```js
+// The content in the Intro1.js file
+function Intro1() {
+  return (
+    <div className="blog-post-intro">
+      <h2>I've become a React developer!</h2>
+      <div>
+        <p>
+          I've completed the React Basics course and I'm happy to announce that
+          I'm now a Junior React Developer!
+        </p>
+        <p className="link">Read more...</p>
+      </div>
+    </div>
+  );
+}
+
+export default Intro1;
+```
+
+```js
+// The content in the Intro2.js file
+function Intro2() {
+  return (
+    <div className="blog-post-intro">
+      <h2>Why I love front-end web development</h2>
+      <div>
+        <p>
+          In this blog post, I'll list 10 reasons why I love to work as a
+          front-end developer.
+        </p>
+        <p className="link">Read more...</p>
+      </div>
+    </div>
+  );
+}
+
+export default Intro2;
+```
+
+```js
+// The content in the Intro3.js file
+function Intro3() {
+  return (
+    <div className="blog-post-intro">
+      <h2>What's the best way to style your React apps?</h2>
+      <div>
+        <p>
+          There are so many options to choose from. Here's a high-level overview
+          of the popular ones.
+        </p>
+        <p className="link">Read more...</p>
+      </div>
+    </div>
+  );
+}
+
+export default Intro3;
+```
+
+```js
+// The contetn in the Footer.js
+function Footer() {
+  return (
+    <div className="copyright">
+      <p>Made with love by Myself</p>
+    </div>
+  );
+}
+
+export default Footer;
+```
+
+</details>
+
+Place the components in the `App.js `file
+
+```js
+import "./App.css";
+import Nav from "./components/Nav";
+import Intro1 from "./components/Intro1";
+import Intro2 from "./components/Intro2";
+import Intro3 from "./components/Intro3";
+import Footer from "./components/Footer";
+import React from "react";
+import ReactDOM from "react-dom";
+import Promo from "./components/Promo";
+
+function App() {
+  return (
+    <React.Fragment>
+      <Nav />
+      <Promo />
+      <Intro1 />
+      <Intro2 />
+      <Intro3 />
+      <Footer />
+    </React.Fragment>
+  );
+}
+
+export default App;
+```
