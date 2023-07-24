@@ -128,3 +128,17 @@ char* my_upcase(char* param_1)
     return param_1;
 }
 ```
+
+## ex10 - my_downcase
+```c
+char* my_downcase(char* param_1) {
+    char* ptr = param_1;
+    while (*ptr != '\0') {
+        if (*ptr >= 'A' && *ptr <= 'Z') {
+            *ptr = *ptr + 32; // Convert lowercase character to uppercase
+        }
+        ptr++;
+    }
+    return param_1;
+}
+```
