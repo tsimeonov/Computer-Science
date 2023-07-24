@@ -110,3 +110,21 @@ int my_string_index(char* param_1, char param_2) {
     return -1;  // Return -1 if the character is not found
 }
 ```
+## ex09 - my_upcase
+```c
+char* my_upcase(char* param_1)
+{
+    // A new poinrer 'ptr' is initialized and assigned to the starting address of the inout sting 'param_1'
+    char* ptr = param_1;
+    // Iterate through each character of the inout string until it reaches the null terminator '\0'
+    while (*ptr != '\0') {
+        // The condition in the if statementchecks if the ASCII value of the character dalls within the range of lowercasee letters ('a' to 'z')
+        if (*ptr >= 'a' && *ptr <= 'z') {
+            //If the character is a lowercase letter, it is converted to its uppercase version by subtracting 32 from its ASCII value. This works because the ASCII values of lowercase letters are consecutive and differ from their uppercase counterparts by 32. For example, the ASCII value of 'a' is 97, and the ASCII value of 'A' is 65, and the difference is 32.
+            *ptr = *ptr -32; 
+        }
+        ptr++;
+    }
+    return param_1;
+}
+```
