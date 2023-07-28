@@ -340,3 +340,27 @@ export { App };
 
 - Component - Small piece of functionality
 - Module - Series of components
+
+## 3. Component Use and Styling
+
+### 3.1 Principles of components
+
+```js
+// Javascript function
+
+// Function declaration with parameters
+function addNumbers(num1, num2) {
+  console.log(num1 * num2);
+}
+
+// Values passed as arguments
+addNumbers(2, 4);
+
+// Props - passing data from component to another
+
+import React from "react";
+
+export function App(props) {
+  return <h1>{props.title}</h1>;
+}
+```
