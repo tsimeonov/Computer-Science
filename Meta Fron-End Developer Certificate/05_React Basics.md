@@ -305,3 +305,38 @@ function App() {
 
 export default App;
 ```
+
+### 2.6 Importing components
+
+Modules - Stand-alone units of code that you can re-use again and again
+
+```
+components/
+  Header.js
+  Main.js
+  Footer.js
+```
+
+Modules:
+
+```js
+// import statement
+import { Header } from "Header.js";
+
+// export statement
+export default Header;
+```
+
+Exports - stand alone units of code that you can re-use again and again.
+
+```js
+// App.js
+// Default exports
+export default App;
+
+// Named exports
+export { App };
+```
+
+- Component - Small piece of functionality
+- Module - Series of components
