@@ -356,11 +356,66 @@ function addNumbers(num1, num2) {
 // Values passed as arguments
 addNumbers(2, 4);
 
-// Props - passing data from component to another
+// Props - passing data between components
 
 import React from "react";
 
 export function App(props) {
   return <h1>{props.title}</h1>;
 }
+```
+
+### 3.2 Using props in components
+
+```js
+// In the App.js
+import "./App.css";
+import React from "react";
+import Heeader from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import Main from "./components/Main";
+
+function App() {
+  return (
+    <React.Fragment>
+      <Heeader name="Anna" color="purple" />
+      <Main greet="Howdy" />
+      <Sidebar greet="Hi" />
+    </React.Fragment>
+  );
+}
+
+export default App;
+
+// In the components/Header.js
+import React from "react";
+
+function Heeader(props) {
+  console.log(props);
+  return (
+    <h1>
+      Hello from {props.name} {props.color}
+    </h1>
+  );
+}
+
+export default Heeader;
+
+// In the components/Main.js
+import React from "react";
+
+function Main(props) {
+  return <h1>{props.greet} from main</h1>;
+}
+
+export default Main;
+
+// In the components/sidebar.js
+import React from "react";
+
+function Sidebar(props) {
+  return <h1>{props.greet} from sidebar</h1>;
+}
+
+export default Sidebar;
 ```
