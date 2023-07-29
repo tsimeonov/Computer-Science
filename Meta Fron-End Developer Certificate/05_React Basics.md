@@ -419,3 +419,7 @@ function Sidebar(props) {
 
 export default Sidebar;
 ```
+
+### 3.3 Introducing JSX
+
+JSX - Write HTML directly inside JS code
