@@ -467,3 +467,20 @@ function Heeader(props) {
 
 export default Heeader;
 ```
+
+### 3.4 Embedded JSX expressions
+
+Embedded expressions - allow JS values to be inserted into HTML of React elements
+
+```js
+// Function
+function formatName(firstName, surname) {
+  return firstName + " " + surname;
+}
+
+// Embedded function outputs
+const result = <p>{formatName("Jane", "Wilson")}</p>;
+
+// HTML
+<p>Jane Wilson</p>;
+```
