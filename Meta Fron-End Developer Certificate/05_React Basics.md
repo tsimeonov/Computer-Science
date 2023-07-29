@@ -445,3 +445,25 @@ export default Heeader;
   background-color: lightblue;
 }
 ```
+
+A second way to add styles to components
+
+```js
+import React from "react";
+import "../index.css";
+
+const header = {
+  backgroundColor: "lightblue",
+};
+
+function Heeader(props) {
+  console.log(props);
+  return (
+    <h1 style={header}>
+      Hello from {props.name} {props.color}
+    </h1>
+  );
+}
+
+export default Heeader;
+```
