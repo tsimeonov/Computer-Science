@@ -484,3 +484,27 @@ const result = <p>{formatName("Jane", "Wilson")}</p>;
 // HTML
 <p>Jane Wilson</p>;
 ```
+
+### 3.5 Embedding in attributes
+
+```js
+import "./App.css";
+import React from "react";
+import image from "./logo192.png";
+
+function Image(props) {
+  const img = <img src={image} />;
+  return img;
+}
+
+function App() {
+  return (
+    <div>
+      <h1>Hello</h1>
+      <Image />
+    </div>
+  );
+}
+
+export default App;
+```
