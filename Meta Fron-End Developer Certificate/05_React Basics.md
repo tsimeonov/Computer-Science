@@ -423,3 +423,25 @@ export default Sidebar;
 ### 3.3 Introducing JSX
 
 JSX - Write HTML directly inside JS code
+
+```js
+import React from "react";
+import "../index.css";
+
+function Heeader(props) {
+  console.log(props);
+  return (
+    <h1 className="header">
+      Hello from {props.name} {props.color}
+    </h1>
+  );
+}
+
+export default Heeader;
+```
+
+```css
+.header {
+  background-color: lightblue;
+}
+```
