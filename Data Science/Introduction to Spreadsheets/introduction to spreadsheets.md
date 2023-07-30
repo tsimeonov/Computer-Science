@@ -31,3 +31,12 @@ Formulas
 Calculating percentages
 
 <img src="calculating-percentages.png" alt="Calculating Percentages" width="900px">
+
+## 1.3 Data Types and formatting
+
+Spreadsheet data types
+
+- Cell data types are automatically detected, but can also be manually assigned.
+- Data type determines:
+  - What operations can be performed on the cell value
+  - How the value be displayed
