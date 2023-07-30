@@ -524,3 +524,29 @@ Event Groups
 - Keyboard events
 - Mouse events
   ...... and more!
+
+### 1.2 Common event handling
+
+```js
+// In the App.js
+import React from "react";
+import Btn from "./Btn";
+
+function App() {
+  return <Btn />;
+}
+
+export default App;
+
+// In the Btn.js
+const clickHandler = () => {
+  console.log("Clicked");
+};
+
+function Btn() {
+  return <button onClick={clickHandler}>Click me, if you dare!</button>;
+}
+
+export default Btn;
+
+```
