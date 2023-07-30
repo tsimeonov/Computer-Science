@@ -566,3 +566,5 @@ export default Btn;
 // In React
 <button onClick={clickHandler}>Click me</button>
 ```
+
+### 1.4 User events
