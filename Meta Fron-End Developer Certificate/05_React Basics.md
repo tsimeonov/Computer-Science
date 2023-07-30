@@ -514,3 +514,13 @@ export default App;
 ## 1. Dynamic events and how to handle them
 
 ### 1.1 Types of events
+
+The click handling attribute for HTML is `onclick` and for JSX is `onClick`
+
+Event Groups
+
+- Clipboard events
+- Composition events
+- Keyboard events
+- Mouse events
+  ...... and more!
