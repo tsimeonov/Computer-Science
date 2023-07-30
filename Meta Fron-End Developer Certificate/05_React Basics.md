@@ -568,3 +568,38 @@ export default Btn;
 ```
 
 ### 1.4 User events
+
+## 2. Data and Events
+
+### 2.1 Parent-child data flow
+
+```js
+// Promo component => parent component
+const data = {
+  heading: '99% off all items!'
+  callToAction: 'Everything must go'
+}
+
+function Promo() {
+  return (
+    <div>
+      <PromoHeading
+      heading={data.heading}
+      callToAction={data.callToAction}
+      />
+    </div>
+  );
+}
+
+export default Promo;
+
+// PromoHeading component => child component
+function PromoHeading(props) {
+  return (
+    <h1>{props.heading}</h1>;
+    <h2>{props.callToAction}</h2>;
+  )
+}
+
+export default PromoHeading;
+```
