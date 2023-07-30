@@ -550,3 +550,19 @@ function Btn() {
 export default Btn;
 
 ```
+
+### 1.3 Syntax for handlers
+
+`Event` - Click a button
+`Event Handler` - onClick
+`Action` - Open menu
+
+```html
+<!-- In html -->
+<button id="btn" onclick="clickHandler()">Click me</button>
+```
+
+```js
+// In React
+<button onClick={clickHandler}>Click me</button>
+```
