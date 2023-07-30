@@ -508,3 +508,9 @@ function App() {
 
 export default App;
 ```
+
+# Week 2
+
+## 1. Dynamic events and how to handle them
+
+### 1.1 Types of events
