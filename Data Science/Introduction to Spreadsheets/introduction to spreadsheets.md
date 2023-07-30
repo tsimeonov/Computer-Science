@@ -40,3 +40,13 @@ Spreadsheet data types
 - Data type determines:
   - What operations can be performed on the cell value
   - How the value be displayed
+
+# 2. Cell References
+
+Cell references point to cells and retrieve their values
+
+Circular references - a cell reference that directly or indirectly references itself.
+
+<img src="/Introduction to Spreadsheets/circular reference.png" width="200px">
+
+## 2.1 Calculations with cell references
