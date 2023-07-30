@@ -50,3 +50,14 @@ Circular references - a cell reference that directly or indirectly references it
 <img src="/Introduction to Spreadsheets/circular reference.png" width="200px">
 
 ## 2.1 Calculations with cell references
+
+## 2.2 Absolute references
+
+Relative references - change when copied
+Absolute references - don't change when copied
+
+<img src="./absolute-reference.png" width="900px">
+
+Absolute references: fixing rows
+
+- `Partial absolute references` only change when copied in one direction
