@@ -603,3 +603,16 @@ function PromoHeading(props) {
 
 export default PromoHeading;
 ```
+
+### 2.2 Children and data
+
+Parent component =======> Data flow ===========> Child component
+
+```mermaid
+flowchart TD
+    Data --> Props
+    Data --> State
+```
+
+Props data is data outside the component and cannot mutate.
+State data is data inside the component and the compoent can control and mutate the data.
