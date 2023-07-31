@@ -616,3 +616,30 @@ flowchart TD
 
 Props data is data outside the component and cannot mutate.
 State data is data inside the component and the compoent can control and mutate the data.
+
+### 2.3 What are hooks?
+
+Hooks - functions that let you hook into React state and lifecycle features from components.
+
+To use hooks follows the steps:
+
+1. Import the `useState`
+
+```js
+import React, { useState } from "react";
+```
+
+2. Declare a state variable
+
+```js
+const [state, setState] = useState(initialState);
+
+// Provide any name using array destructuring
+// Now there is a state variable `showMenu` and inital value of `showMenu` to false.
+const [showMenu, setShowMenu] = useState(false);
+
+// Witout array destructuring
+let menuState = useState(false);
+let showMenu = menuState[0]; // Access first item in array
+let setShowMenu = menuState[1]; // Access second item in array
+```
