@@ -643,3 +643,43 @@ let menuState = useState(false);
 let showMenu = menuState[0]; // Access first item in array
 let setShowMenu = menuState[1]; // Access second item in array
 ```
+
+### 2.4 What is state?
+
+State - Data in a component that determines behaviour.
+
+```mermaid
+flowchart LR
+    Component_created["Component created"] --> Inital_state["Initial state"]
+    Inital_state["Initial state"]  --> Component_properties_initialized["Component properties initialized"]
+
+```
+
+```js
+// Stateless Component
+function App() {
+  // Renders text directly
+  return <h1>A completely stateless component!</h1>;
+}
+
+// Stateful component
+functio App() {
+  const [word, setWord] = React.useState('Hello')
+  console.log(React.useState('Hello'))
+  // Output: 0: 'hello' 1: f()
+
+  return (
+    <div>
+    // Renders text contained in a variable
+      <h1>A state value: {word}</h1>
+    </div>
+  )
+}
+
+// ES6 array destructuring
+
+let fruits = ['apple', 'pear', 'plum']
+
+const fruits = ['apple', 'pear', 'plum'];
+const [fruit1, fruit2, fruit3] = fruits;
+```
