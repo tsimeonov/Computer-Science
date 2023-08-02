@@ -43,3 +43,19 @@ Field names should...
 - They are unique and often numbers
 
 <img src="./unique identifiers.png" width="650px">
+
+## 1.3 Data
+
+<h4>Strings</h4>
+Strings - A string is a sequence of characters such as letters or punctuation.
+`varchar` is a flexible and popular string data type is SQL.
+
+<h4>Integers</h4>
+Integers store whole numbers.
+
+`INT` is a flexible and popular integer data type in SQL.
+
+<h4>Floats</h4>
+Floats store numbers that include a fractional part.
+
+`NUMERIC` is a flexible and popular float datat type in SQL.
