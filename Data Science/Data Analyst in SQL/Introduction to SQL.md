@@ -59,3 +59,30 @@ Integers store whole numbers.
 Floats store numbers that include a fractional part.
 
 `NUMERIC` is a flexible and popular float datat type in SQL.
+
+# 2. Querying
+
+## 2.1 Introduction to queries
+
+Common keywords: `SELECT`, `FROM`
+
+```sql
+SELECT name
+FROM patrons;
+```
+
+Query results often called `result` set.
+
+<h4>Selecting multiple fields</h4>
+
+```sql
+SELECT card_name, name
+FROM patrons;
+```
+
+<h4>Selecting all fields</h4>
+
+```sql
+SELECT *
+FROM patrons;
+```
