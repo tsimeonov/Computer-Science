@@ -86,3 +86,57 @@ FROM patrons;
 SELECT *
 FROM patrons;
 ```
+
+## 2.2 Writing queries
+
+<h4>Aliasing</h4>
+
+Use `aliasing` to rename columns.
+
+```sql
+SELECT name AS first_name, year_hired
+FROM employees;
+```
+
+| first_name | year_hired |
+| ---------- | ---------- |
+| Darius     | 2000       |
+| Raven      | 2017       |
+| Maggie     | 2022       |
+
+<h4>Selecting distinct records</h4>
+
+```sql
+SELECT DISTINCT year_hired
+FROM employees;
+```
+
+| year_hired |
+| ---------- |
+| 2020       |
+| 2017       |
+| 2022       |
+
+<h4>Views</h4>
+
+- A `view` is a virtual table that is the result of a saved `SELECT` statement.
+- When accessed, views automatically update in response to updates in the underlying data.
+
+```sql
+CREATE VIEW employee_hire_years AS
+SELECT id, name, year_hired
+FROM employees;
+```
+
+<h4>Using views</h4>
+
+```sql
+SELECT id, name
+FROM employee_hire_years
+```
+
+| id    | name   |
+| ----- | ------ |
+| 54378 | Darius |
+| 94722 | Raven  |
+| 45783 | Amy    |
