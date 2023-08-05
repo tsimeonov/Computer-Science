@@ -133,3 +133,26 @@ SELECT title, "release year", country
 FROM films
 LIMIT 3;
 ```
+
+# 2. Filtering Records
+
+## 2.1 Filtering numbers
+
+<h6>Comparison aperators</h6>
+
+- `>` Greater than or after
+- `<` Less than or before
+- `=` Equal to
+- `>=` Greater than or equal to
+- `<=` Less than or equal to
+- `<>` Not equal to
+
+<h6>Order of execution</h6>
+
+```sql
+-- Written code:
+SELECT item
+FROM coats
+WHERE color = 'green'
+LIMIT 5;
+```
