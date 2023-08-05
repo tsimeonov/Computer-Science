@@ -75,3 +75,20 @@ FROM people;
 
 - `COUNT()` includes duplicates.
 - `DISTINCT` excludes duplicates.
+
+## 1.2 Query execution
+
+<h6>Order of execution</h6>
+
+- SQL in not processed in its written order
+
+```sql
+-- Order of execution
+SELECT name -- Secondexecution
+FROM people -- First execution
+LIMIT 10; -- Third execution
+```
+
+- `LIMIT` limits how many rewults we return
+- Good to know processing order for debuggign and aliasing
+- Aliases are declared in the `SELECT` statement
