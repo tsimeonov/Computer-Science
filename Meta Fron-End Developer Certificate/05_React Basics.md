@@ -683,3 +683,50 @@ let fruits = ['apple', 'pear', 'plum']
 const fruits = ['apple', 'pear', 'plum'];
 const [fruit1, fruit2, fruit3] = fruits;
 ```
+
+### 2.5 Observe state
+
+<h6>useState Hook</h6>
+
+```js
+const [data, setDate] = React.useState(new Date());
+// date - used to access date state
+// setDate - used to update state
+```
+
+<details>
+  <summary>Example</summary>
+
+```js
+// In the App.js
+import "./App.css";
+import React from "react";
+import Heading from "./Heading";
+
+function App() {
+  const [word, setWord] = React.useState("Eat");
+
+  function handleClick() {
+    setWord("Drink");
+  }
+
+  return (
+    <div className="App">
+      <Heading message={`${word} at Little Lemon`} />
+      <button onClick={handleClick}>Click here</button>
+    </div>
+  );
+}
+
+export default App;
+
+// In the Heading.js
+function Heading(props) {
+  return <h1>{props.message}</h1>;
+}
+
+export default Heading;
+
+```
+
+</details>
