@@ -92,3 +92,44 @@ LIMIT 10; -- Third execution
 - `LIMIT` limits how many rewults we return
 - Good to know processing order for debuggign and aliasing
 - Aliases are declared in the `SELECT` statement
+
+## 1.3 SQL style
+
+<h6>SQL Formatting</h6>
+
+- Formatting is not required
+
+```sql
+select title, release_year, country from filmls limit 3;
+```
+
+|   title    | release_year | country |
+| :--------: | :----------: | :-----: |
+|  Avengers  |     2012     |   USA   |
+| Avengers 2 |     2014     |   USA   |
+| Avengers 3 |     2018     |   USA   |
+
+<h6>Best practices</h6>
+
+```sql
+SELECT title, release_year, country
+FROM filmls
+LIMIT 3;
+```
+
+|   title    | release_year | country |
+| :--------: | :----------: | :-----: |
+|  Avengers  |     2012     |   USA   |
+| Avengers 2 |     2014     |   USA   |
+| Avengers 3 |     2018     |   USA   |
+
+<h6>Dealing with non-standard field names</h6>
+
+- `release year` instead of `release_year`
+- Put non-standard field names in double-quotes
+
+```sql
+SELECT title, "release year", country
+FROM films
+LIMIT 3;
+```
