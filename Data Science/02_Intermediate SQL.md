@@ -156,3 +156,39 @@ FROM coats
 WHERE color = 'green'
 LIMIT 5;
 ```
+
+## 2.2 Multiple criteria
+
+<h6>Multiple criteria</h6>
+
+- `OR`, `AND` and `BETWEEN`
+
+```sql
+SELECT *
+FROM coats
+WHERE color = 'yellow' OR length = 'short';
+```
+
+```sql
+SELECT *
+FROM coats
+WHERE color = 'yellow' AND length = 'short';
+```
+
+```sql
+SELECT *
+FROM coats
+WHERE buttons BETWEEN 1 AND 5;
+```
+
+<h6>AND, OR</h6>
+
+- Silter films released in 1995 or 1995, and certified PF or R
+- Enclose individual clauses in parentheses
+
+```sql
+SELECT title
+FROM films
+WHERE (release_year = 199 OR release_year = 1995)
+    AND (certification = 'PG' OR certification = 'R')
+```
