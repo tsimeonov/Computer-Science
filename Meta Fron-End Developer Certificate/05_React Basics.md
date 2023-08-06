@@ -775,3 +775,6 @@ flowchart TD
 ## 1. Linking and Routing
 
 ### 1.1 Basic Types of navigation
+
+Website navigation - Browse through various pages or links from a single component.
+`react-router-dom` - is a popular library in the React ecosystem that provides a declarative way to navigate and handdle routing within a single page application (SPA).
