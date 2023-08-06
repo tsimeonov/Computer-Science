@@ -192,3 +192,80 @@ FROM films
 WHERE (release_year = 199 OR release_year = 1995)
     AND (certification = 'PG' OR certification = 'R')
 ```
+
+## 2.3 Filtering text
+
+- Filter a pattern rather than specific text
+- `LIKE`
+- `NOT LIKE`
+- `IN`
+
+<h6>LIKE</h6>
+
+Used to search for a pattern in a field
+
+`%` match zero, one or many characters
+
+```sql
+SELECT name
+FROM people
+WHERE name LIKE 'Ade%';
+```
+
+|    name    |
+| :--------: |
+|  Avengers  |
+| Avengers 2 |
+| Avengers 3 |
+
+`_` match a singe character
+
+```sql
+SELECT name
+FROM people
+WHERE name LIKE 'Ev_';
+```
+
+| name |
+| :--: |
+| Eve  |
+
+<h6>Wildcard position</h6>
+
+```sql
+SELECT name
+FROM people
+-- Find results that end on r
+WHERE name LIKE '%r';
+```
+
+|     name      |
+| :-----------: |
+|  A.J Langer   |
+| Aaron Seltzer |
+| Aaron Seltzer |
+
+```sql
+SELECT name
+FROM people
+-- Find results which the third character is t
+WHERE name LIKE '__t%';
+```
+
+|  name   |
+| :-----: |
+| Aitana  |
+| Anthony |
+
+<h6>WHERE, In</h6>
+
+```sql
+SELECT title
+FROM films
+WHERE release_year IN (1920, 1930, 1940);
+```
+
+|     title     |
+| :-----------: |
+| Over the Hill |
+| Hell's angels |
