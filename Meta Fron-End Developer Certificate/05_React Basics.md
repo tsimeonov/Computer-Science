@@ -769,3 +769,9 @@ flowchart TD
     Stateful --> |State sent via props| Stateless_2
     Stateful --> |State sent via props| Stateless_3
 ```
+
+# Week 3
+
+## 1. Linking and Routing
+
+### 1.1 Basic Types of navigation
