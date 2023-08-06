@@ -757,3 +757,15 @@ flowchart LR
 
 `Context provider` - Component that stores the state
 `Context Consumer` - Component that will use the state
+
+### 2.8 Stateful vs. stateless
+
+Stateless - State needed to work
+Stateful - State must be maintained to work
+
+```mermaid
+flowchart TD
+    Stateful %%{`wef`}%% Stateless_1
+    Stateful --> Stateless_2
+    Stateful --> Stateless_3
+```
