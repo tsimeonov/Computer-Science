@@ -765,7 +765,7 @@ Stateful - State must be maintained to work
 
 ```mermaid
 flowchart TD
-    Stateful %%{`wef`}%% Stateless_1
-    Stateful --> Stateless_2
-    Stateful --> Stateless_3
+    Stateful --> |State sent via props| Stateless_1
+    Stateful --> |State sent via props| Stateless_2
+    Stateful --> |State sent via props| Stateless_3
 ```
