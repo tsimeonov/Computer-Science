@@ -735,3 +735,25 @@ export default Heading;
 
 Prop drilling - is a commonly used term to describe having to pass props in several layers of components.
 Global state - whenever there are states that have to be used in varuious places in the app, that needs to be a global state.
+
+### 2.7 React state management
+
+Passing Props
+
+```mermaid
+flowchart LR
+    1 --> ...
+    ... --> ....
+    .... --> 2
+
+```
+
+Context API
+
+```mermaid
+flowchart LR
+    1 --> 2
+```
+
+`Context provider` - Component that stores the state
+`Context Consumer` - Component that will use the state
