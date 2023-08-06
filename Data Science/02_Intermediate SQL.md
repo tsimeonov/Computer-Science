@@ -269,3 +269,42 @@ WHERE release_year IN (1920, 1930, 1940);
 | :-----------: |
 | Over the Hill |
 | Hell's angels |
+
+## 2.4 NULL values
+
+<h6>Missing values</h6>
+
+- `COUNT(field_name)` includes only mom-missing values
+- `COUNT(*)` includes missing values
+
+`NULL`
+
+- Missing values:
+- Human error
+- Information not available
+- Unknown
+
+<h6>IS NULL</h6>
+
+```sql
+SELECT name
+FROM people
+WHERE birthdate IS NULL;
+```
+
+|     name      |
+| :-----------: |
+| A. Raven Cruz |
+| A.J. DeLucia  |
+
+# 3. Aggregate Functions
+
+## 3.1 Summarizing data
+
+Aggregate functions return a single value
+
+- `AVG()`
+- `SUM()`
+- `MIN()`
+- `MAX()`
+- `COUNT()`
