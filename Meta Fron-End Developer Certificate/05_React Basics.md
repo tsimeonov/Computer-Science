@@ -730,3 +730,8 @@ export default Heading;
 ```
 
 </details>
+
+### 2.6 Managing state
+
+Prop drilling - is a commonly used term to describe having to pass props in several layers of components.
+Global state - whenever there are states that have to be used in varuious places in the app, that needs to be a global state.
