@@ -801,3 +801,5 @@ function IsItSummerYet() {
 // Else return "Let's watch"
 // In this case it retruns "Let's go to the beach"
 ```
+
+## 2. Using Assets in React
