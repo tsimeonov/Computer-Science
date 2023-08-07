@@ -782,3 +782,5 @@ Website navigation - Browse through various pages or links from a single compone
 ### 1.2 The navbar
 
 React router - A library that gives you more control over the routing of components.
+
+### 1.3 Conditional rendering
