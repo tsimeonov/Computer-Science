@@ -778,3 +778,7 @@ flowchart TD
 
 Website navigation - Browse through various pages or links from a single component.
 `react-router-dom` - is a popular library in the React ecosystem that provides a declarative way to navigate and handdle routing within a single page application (SPA).
+
+### 1.2 The navbar
+
+React router - A library that gives you more control over the routing of components.
