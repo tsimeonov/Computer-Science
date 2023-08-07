@@ -784,3 +784,20 @@ Website navigation - Browse through various pages or links from a single compone
 React router - A library that gives you more control over the routing of components.
 
 ### 1.3 Conditional rendering
+
+```js
+function IsItSummerYet() {
+  const summer = true;
+
+  return(
+    {summer
+    ? <h1>Let's go to the beach</h1>
+    : <h1>Let's watch</h1>
+    }
+  )
+}
+
+// If the condition is true return "Let's go to the beach"
+// Else return "Let's watch"
+// In this case it retruns "Let's go to the beach"
+```
