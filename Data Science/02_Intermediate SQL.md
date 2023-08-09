@@ -308,3 +308,30 @@ Aggregate functions return a single value
 - `MIN()`
 - `MAX()`
 - `COUNT()`
+
+## 3.2 Summarizing subsets
+
+<h6>Using WHERE with aggregate functions</h6>
+
+```sql
+SELECT AVG(budget) AS abg_budget
+FROM films
+WHERE release_year >= 2010;
+```
+
+|    avg_budget    |
+| :--------------: |
+| 4123213.2311.... |
+
+<h6>ROUND()</h6>
+
+```sql
+-- ROUND() to a whole number
+SELECT ROUND (AVG(budget), 0) AS avg_budget
+FROM films
+WHERE release_year >= 2010;
+```
+
+| avg_budget |
+| :--------: |
+|  4123213   |
