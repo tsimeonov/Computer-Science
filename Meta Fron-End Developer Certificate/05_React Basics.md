@@ -821,3 +821,5 @@ function showAnimal() {
 
 export default showAnimal;
 ```
+
+### 2.2 Using embedded assets
