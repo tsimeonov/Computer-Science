@@ -823,3 +823,5 @@ export default showAnimal;
 ```
 
 ### 2.2 Using embedded assets
+
+### 2.3 Audio and Video
