@@ -825,3 +825,32 @@ export default showAnimal;
 ### 2.2 Using embedded assets
 
 ### 2.3 Audio and Video
+
+### 2.4 Creating an audio / video component
+
+```js
+// 1
+npm install react-player
+// 2
+import ReactPlayer from "react-player";
+// 3
+import React from "react";
+import ReactPlayer from "react-player/youtube";
+
+const App = () => {
+  return (
+    <div>
+      <MyVideo />
+    </div>
+  );
+};
+
+const MyVideo = () => {
+  return (
+    <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+  );
+};
+
+export default App;
+
+```
