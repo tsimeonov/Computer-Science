@@ -348,3 +348,103 @@ WHERE release_year >= 2010;
 # 4. Sorting and Grouping
 
 ## 4.1 Sorting results
+
+<h6>ORDER BY</h6>
+
+```sql
+SELECT title, budget
+FROM films
+ORDER BY budget;
+```
+
+|      title      | budget |
+| :-------------: | :----: |
+|    Tarnation    |  218   |
+| The mongol king |  3250  |
+
+---
+
+<h6>ASCending</h6>
+
+```sql
+SELECT title, budget
+FROM films
+ORDER BY budget ASC;
+```
+
+|      title      | budget |
+| :-------------: | :----: |
+|    Tarnation    |  218   |
+| The mongol king |  3250  |
+
+---
+
+<h6>DESCending</h6>
+
+```sql
+SELECT title, budget
+FROM films
+ORDER BY budget DESC;
+```
+
+|      title      | budget |
+| :-------------: | :----: |
+|    Tarnation    |  null  |
+| The mongol king |  null  |
+
+```sql
+SELECT title, budget
+FROM films
+WHERE budget IS NOT NULL
+ORDER BY budget DESC;
+```
+
+|     title      |  budget   |
+| :------------: | :-------: |
+|    The host    | 123131231 |
+| Lady Vengeance | 323423423 |
+
+---
+
+<h6>ORDER BY multiple fields</h6>
+
+- ORDER BY field_one, field_two
+
+```sql
+SELECT title, wins
+FROM best_movies
+ORDER BY wins DESC;
+```
+
+|  title  | wins |
+| :-----: | :--: |
+|  LOTR   |  11  |
+| Titanic |  11  |
+
+- Think of `field_two` as a tie-breaker
+
+```sql
+SELECT title, wins, imdb_score
+FROM best_movies
+ORDER BY wins DESC, imdb_score DESC;
+```
+
+|  title  | wins | imdb_score |
+| :-----: | :--: | :--------: |
+|  LOTR   |  11  |     9      |
+| Titanic |  11  |    7.9     |
+
+---
+
+<h6>Different orders</h6>
+
+```sql
+SELECT birthdate, name
+FROM people
+ORDER BY birthdate, name DESC;
+```
+
+| birthdate  |     name     |
+| :--------: | :----------: |
+| 1990-01-01 | Robert Brown |
+| 1990-02-02 |  Anne Smith  |
