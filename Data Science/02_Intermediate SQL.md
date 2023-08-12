@@ -335,3 +335,11 @@ WHERE release_year >= 2010;
 | avg_budget |
 | :--------: |
 |  4123213   |
+
+## 3.3 Aliasing and arithmetic
+
+<h6></hr>
+-   Step 1: `FROM`
+-   Step 2: `WHERE`
+-   Step 3: `SELECT` (aliases are defined here)
+-   Step 4: `LIMIT`
