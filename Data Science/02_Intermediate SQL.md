@@ -338,8 +338,13 @@ WHERE release_year >= 2010;
 
 ## 3.3 Aliasing and arithmetic
 
-<h6></hr>
--   Step 1: `FROM`
--   Step 2: `WHERE`
--   Step 3: `SELECT` (aliases are defined here)
--   Step 4: `LIMIT`
+<h6>Order of execution</h6>
+
+- Step 1: `FROM`
+- Step 2: `WHERE`
+- Step 3: `SELECT` (aliases are defined here)
+- Step 4: `LIMIT`
+
+# 4. Sorting and Grouping
+
+## 4.1 Sorting results
