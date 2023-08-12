@@ -803,3 +803,21 @@ function IsItSummerYet() {
 ```
 
 ## 2. Using Assets in React
+
+### 2.1 What is an asset and where does it live?
+
+```js
+// 1. Import an asset
+import cat from "./assets/images/cat.jpg";
+
+// 2. use an asset (name reference)
+function showAnimal() {
+  return (
+    <div>
+      <img src={cat} alt="A picture of a cat" />
+    </div>
+  );
+}
+
+export default showAnimal;
+```
