@@ -448,3 +448,58 @@ ORDER BY birthdate, name DESC;
 | :--------: | :----------: |
 | 1990-01-01 | Robert Brown |
 | 1990-02-02 |  Anne Smith  |
+
+## 4.2 Grouping data
+
+<h6>GROUP BY single fields</h6>
+
+```sql
+SELECT certification, COUNT(title) AS title_count
+FROM films
+GROUP BY certification;
+```
+
+| certification | title_count |
+| :-----------: | :---------: |
+|    Unrated    |     62      |
+|       M       |      5      |
+
+---
+
+<h6>GROUP BY multiple fields</h6>
+
+```sql
+SELECT certification, language, COUNT(title) AS title_count
+FROM films
+GROUP BY certification, language;
+```
+
+| certification | language | title_count |
+| :-----------: | :------: | :---------: |
+|    Unrated    |   null   |      4      |
+|       M       | Japanese |      2      |
+
+<h6>GROUP BY witg ORDER BY</h6>
+
+```sql
+SELECT certification, COUNT(title) AS title_count
+FROM films
+GROUP BY certification;
+```
+
+| certification | title_count |
+| :-----------: | :---------: |
+|    Unrated    |     62      |
+|       M       |      5      |
+
+```sql
+SELECT certification, COUNT(title) AS title_count
+FROM films
+GROUP BY certification
+ORDER BY title_count DESC;
+```
+
+| certification | title_count |
+| :-----------: | :---------: |
+|       R       |    2131     |
+|     PG-13     |    1345     |
