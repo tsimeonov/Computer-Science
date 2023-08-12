@@ -479,6 +479,8 @@ GROUP BY certification, language;
 |    Unrated    |   null   |      4      |
 |       M       | Japanese |      2      |
 
+---
+
 <h6>GROUP BY witg ORDER BY</h6>
 
 ```sql
@@ -503,3 +505,75 @@ ORDER BY title_count DESC;
 | :-----------: | :---------: |
 |       R       |    2131     |
 |     PG-13     |    1345     |
+
+## 4.3 Filtering grouped data
+
+<h6>HAVING</h6>
+
+```sql
+SELECT release_year, COUNT(title) AS title_count
+FROM films
+GROUP BY release_year
+HAVING COUNT(title) > 10;
+```
+
+| release_year | title_count |
+| :----------: | :---------: |
+|     1988     |     31      |
+|     null     |     42      |
+
+---
+
+<h6>Order of execution</h6>
+
+```sql
+-- Writte code
+SELECT certification, COUNT(title) AS title_count
+FROM films
+WHERE certification IN ('G','PG','PG-13')
+GROUP BY certification
+HAVING COUNT(title) > 500
+ORDER BY title_count DESC
+LIMIT 3;
+
+-- Order of execution
+SELECT certification, COUNT(title) AS title_count --5
+FROM films  -- 1
+WHERE certification IN ('G','PG','PG-13') -- 2
+GROUP BY certification -- 3
+HAVING COUNT(title) > 500 -- 4
+ORDER BY title_count DESC --6
+LIMIT 3; -- 7
+```
+
+---
+
+<h6>HAVING vs WHERE</h6>
+
+- `WHERE` filters individual records, `HAVING` filters grouped records.
+- What films were released in the year 2000?
+
+```sql
+SELECT title
+FROM films
+WHERE release_year = 2000;
+```
+
+|     title      |
+| :------------: |
+| 101 Dalmatians |
+|    28 Days     |
+
+- In what years was the average film duration over two hours?
+
+```sql
+SELECT release_year
+FROM films
+GROUP BY release_year
+HAVING AVG(duration) > 120;
+```
+
+| release_year |
+| :----------: |
+|     1954     |
+|     1959     |
