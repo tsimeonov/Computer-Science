@@ -21,7 +21,7 @@ Table names should...
 
 A record is a row that holds data on on individual observation.
 
-<img src="./01 Introduction to SQL/record.png" width="650px">
+<img src="./record.png" width="650px">
 
 <h5>Fields</h5>
 
@@ -35,14 +35,14 @@ Field names should...
 - be different from other field names
 - be different from the table name
 
-<img src="./01 Introduction to SQL/fields.png" width="650px">
+<img src="./fields.png" width="650px">
 
 <h5>Unique identifiers</h5>
 
 - Unique identifiers are used to identify records in a table.
 - They are unique and often numbers
 
-<img src="./01 Introduction to SQL/unique identifiers.png" width="650px">
+<img src="./unique identifiers.png" width="650px">
 
 ## 1.3 Data
 
