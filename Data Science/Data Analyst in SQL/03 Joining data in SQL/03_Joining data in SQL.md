@@ -5,11 +5,11 @@
 - `key` - field tha uniquely identifies each record.
 - `INNER JOIN` looks for records in both tables which match on a given field.
 
-<img src="./Data Analyst in SQL/03 Joining data in SQL/join_data.png" width="650px">
+<img src="./join_data.png" width="650px">
 
 The leadership Database schema
 
-<img src="./Data Analyst in SQL/03 Joining data in SQL/data base schema.png" width="650px">
+<img src="./data base schema.png" width="650px">
 
 ---
 
@@ -104,3 +104,56 @@ flowchart LR
     E[Dutch] --> F(The Netherlands)
     E --> D(Belgium)
 ```
+
+## 1.3 Multiple joins
+
+<h6>What to join first?</h6>
+
+```sql
+SELECT p1.country, p1.continent, president, prime_minister
+FROM prime_minister AS p1
+INNER JOIN presidents AS p2
+USING(country)
+```
+
+| country  | continent |  prime_minister  |        president        |
+| :------: | :-------: | :--------------: | :---------------------: |
+|  Egypt   |  Africa   | Mostafa Madbouly |  Abdel Fattah el-Sisi   |
+|  Egypt   |  Europe   |  António Costa   | Marcelo Rebelo de Sousa |
+| Portugal |   Asia    |  Shehbaz Sharif  |     Ram Nath Kovind     |
+
+---
+
+<h6>Chaining joins</h6>
+
+```sql
+-- SQL query for chaining inner joins
+
+SELECT
+    p1.country,
+    p1.continent,
+    president,
+    prime_minister,
+    pm_start
+FROM prime_minister AS p1
+INNER JOIN presidents AS p2
+USING(country)
+INNER JOIN prime_minister_terms AS p3
+USING(prime_minister)
+```
+
+---
+
+<h6>joining on multiple keys</h6>
+
+```sql
+SELECT *
+FROM left_table
+INNER JOIN right_table
+ON left_table.id = right_table.id
+    AND left_table.date = right_table.date
+```
+
+Diagram for an `INNER JOIN` `ON` the `id` AND `date` field
+
+<img src="./join on multiple leys.png" width="750px">
