@@ -157,3 +157,5 @@ ON left_table.id = right_table.id
 Diagram for an `INNER JOIN` `ON` the `id` AND `date` field
 
 <img src="./join on multiple leys.png" width="750px">
+
+# 2. Outer, Cross Joins and Self Joins
