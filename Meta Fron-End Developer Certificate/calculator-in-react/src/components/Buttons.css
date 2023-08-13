@@ -1,0 +1,15 @@
+.btns {
+  margin-top: 20px;
+}
+
+button {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid lightgray;
+}
+
+.reset-input,
+.reset-result {
+  background-color: rgb(237, 103, 69);
+  color: white;
+}
