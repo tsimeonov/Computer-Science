@@ -359,3 +359,127 @@ Input: ["aBc"]
 Output:
 Return Value: [3]
 ```
+
+## ex04
+
+Create a function that combines an array of strings from separator characters.
+
+```c
+["Hello", "World", "!"] && ' '
+=> "Hello World !"
+```
+
+You will receive two parameters, an array with all the strings and a separator.
+
+The function should return a string where all the strings from the array are joined with the separator.
+
+<details>
+  <summary>Solution for my_join.c</summary>
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#ifndef STRUCT_STRING_ARRAY
+#define STRUCT_STRING_ARRAY
+typedef struct s_string_array
+{
+    int size;
+    char** array;
+} string_array;
+#endif
+
+// Function to join strings in a string array with a separator
+char* my_join(string_array* arr, char* separator) {
+    if (arr == NULL || arr->array == NULL || separator == NULL) {
+        return NULL;  // Return NULL if any input is invalid
+    }
+
+    int total_length = 0;
+
+    // Calculate the total length required for the joined string
+    for (int i = 0; i < arr->size; i++) {
+        total_length += strlen(arr->array[i]);
+    }
+
+    // Account for separator lengths and null terminator
+    total_length += (arr->size - 1) * strlen(separator) + 1;
+
+    // Allocate memory for the result string
+    char* result = (char*)malloc(total_length * sizeof(char));
+    if (result == NULL) {
+        return NULL;  // Memory allocation failed
+    }
+
+    // Initialize the result string
+    result[0] = '\0';
+
+    // Append each string with separator to the result
+    for (int i = 0; i < arr->size; i++) {
+        strcat(result, arr->array[i]);
+        if (i < arr->size - 1) {
+            strcat(result, separator);
+        }
+    }
+
+    return result;  // Return the joined string
+}
+
+int main() {
+    // Create a string_array example
+    string_array arr = {
+        .size = 3,
+        .array = {"Hello", "World", "!"}
+    };
+
+    // Separator
+    char separator[] = " ";
+
+    // Use the my_join function to join strings
+    char* joined = my_join(&arr, separator);
+    if (joined != NULL) {
+        printf("%s\n", joined);  // Print the joined string
+        free(joined);  // Free memory for the joined string
+    }
+
+    return 0;  // Return 0 to indicate successful execution
+}
+
+```
+
+</details>
+
+---
+
+Example 00
+
+```c
+Input: ["abc", "def", "gh", "!"] && "-"
+Output:
+Return Value: "abc-def-gh-!"
+```
+
+Example 01
+
+```c
+Input: ["abc", "def", "gh", "!"] && "blah"
+Output:
+Return Value: "abcblahdefblahghblah!"
+```
+
+Example 02
+
+```c
+Input: ["abc", "def", "gh", "!"] && ""
+Output:
+Return Value: "abcdefgh!"
+```
+
+Example 03
+
+```c
+Input: [] && " "
+Output:
+Return Value: nil
+```
