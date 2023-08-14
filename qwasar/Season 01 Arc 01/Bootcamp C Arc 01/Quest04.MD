@@ -74,8 +74,6 @@ Output:
 Return Value: [10]
 ```
 
----
-
 ## ex01
 
 Let's allocate a string (or array of characters).
@@ -482,4 +480,135 @@ Example 03
 Input: [] && " "
 Output:
 Return Value: nil
+```
+
+## ex05
+
+`Instructions`
+Your ship simulator must take in a string of letters that represent a planned flight path for a given rocket ship.
+
+In a ship’s flight path there are only 3 valid options for movement; R for turning right, L for turning left and A for advancing.
+
+If, for example, you receive “RRALAA” as your flight path, you should interpret it as the following:
+Turn right, turn right, advance, turn left, advance, advance
+Once given this initial flight path, your program must return the x,y coordinates of a ship’s final destination as well as it’s orientation relative to the starting point.
+
+Orientation is represented as left, right, up or down.
+
+Space is infinite, so the x,y coordinates you return could be placed on a seemingly infinite grid and can be negative or positive values.
+
+So let's say an upward-facing rocket ship leaves its starting point of 0,0 and is given the flight path of “RRALAA”, its final location will be 2,-1 and it will be facing right.
+
+Your Job
+You must create a function that takes in a flight path of a rocket ship as a string of letters and returns the following format:
+"{x: X, y: Y, direction: 'DIRECTION'}"
+X,Y represent the ending coordinates of your ship and direction represents its final direction.
+
+`Notes`
+Function my_spaceship returns a STRING.
+
+<details>
+  <summary>Solution for my_spaceship.c</summary>
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Define a structure to represent spaceship coordinates and direction
+typedef struct {
+    int x;
+    int y;
+    const char *direction;
+} Spaceship;
+
+// Function to simulate spaceship movement and orientation
+Spaceship* my_spaceship(const char* flight_path) {
+    int x = 0;
+    int y = 0;
+    const char* direction = "up";
+
+    // Iterate through the flight path string
+    for (int i = 0; flight_path[i]; i++) {
+        switch (flight_path[i]) {
+            case 'R':
+                if (strcmp(direction, "up") == 0) direction = "right";
+                else if (strcmp(direction, "right") == 0) direction = "down";
+                else if (strcmp(direction, "down") == 0) direction = "left";
+                else if (strcmp(direction, "left") == 0) direction = "up";
+                break;
+            case 'L':
+                if (strcmp(direction, "up") == 0) direction = "left";
+                else if (strcmp(direction, "right") == 0) direction = "up";
+                else if (strcmp(direction, "down") == 0) direction = "right";
+                else if (strcmp(direction, "left") == 0) direction = "down";
+                break;
+            case 'A':
+                if (strcmp(direction, "up") == 0) y--;
+                else if (strcmp(direction, "right") == 0) x++;
+                else if (strcmp(direction, "down") == 0) y++;
+                else if (strcmp(direction, "left") == 0) x--;
+                break;
+        }
+    }
+
+    // Allocate memory for the result and populate it
+    Spaceship* result = (Spaceship*)malloc(sizeof(Spaceship));
+    result->x = x;
+    result->y = y;
+    result->direction = direction;
+
+    return result;
+}
+
+// Example usage
+int main() {
+    const char* input = "RAALALL";
+    Spaceship* result = my_spaceship(input);
+
+    // Print the result
+    printf("{x: %d, y: %d, direction: '%s'}\n", result->x, result->y, result->direction);
+
+    // Free allocated memory
+    free(result);
+
+    return 0;
+}
+
+```
+
+</details>
+
+---
+
+Example 00
+
+```c
+Input: "RAALALL"
+Output:
+Return Value: "{x: 2, y: -1, direction: 'down'}"
+```
+
+Example 01
+
+```c
+Input: "AAAA"
+Output:
+Return Value: "{x: 0, y: -4, direction: 'up'}"
+```
+
+Example 2
+
+```c
+Input: ""
+Output:
+Return Value: "{x: 0, y: 0, direction: 'up'}"
+```
+
+Example 3
+
+```c
+Input: "RAARA"
+Output:
+Return Value: "{x: 2, y: 1, direction: 'down'}"
 ```
