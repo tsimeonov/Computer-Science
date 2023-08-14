@@ -36,7 +36,7 @@ char* reverse_string(char* str) {
 
 ## ex01
 
-Description: Reproduce the behavior of the function strcmp.
+Reproduce the behavior of the function strcmp.
 The strcmp() function compares string1 with string2 to see if there are equals.
 
 <details>
@@ -73,6 +73,45 @@ int my_strcmp(char* str1, char* str2) {
 }
 
 int main()
+```
+
+</details>
+
+## ex02
+
+Reproduce the behavior of the function strcpy.
+The strcpy() and strncpy() functions copy the string source (src) to destination (dst).
+
+<details>
+  <summary>my_strcpy.c</summary>
+
+```c
+#include <stdio.h>
+
+char* my_strcpy(char* dst, const char* src) {
+    // Copy each character from src to dst until the null terminator is reached.
+    while (*src != '\0') {
+        *dst = *src; // Copy the character
+        dst++;      // Move to the next position in dst
+        src++;      // Move to the next character in src
+    }
+
+    // Add the null terminator to the end of the copied string.
+    *dst = '\0';
+
+    // Return the destination string.
+    return dst;
+}
+
+int main() {
+    char dst[100] = {0};
+    char *src = "Hello";
+
+    printf("my_strcpy -> %s\n", my_strcpy(dst, src));
+
+    return 0;
+}
+
 ```
 
 </details>
