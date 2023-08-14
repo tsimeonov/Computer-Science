@@ -216,3 +216,53 @@ int main() {
 ```
 
 </details>
+
+## ex05
+
+Searches for the last occurrence of the character c (an unsigned char) in the string pointed to by the argument str. The terminating null character is considered to be part of the string. Returns a pointer pointing to the last matching character, or null if no match was found.
+
+<details>
+  <summary>my_strrchr.c</summary>
+
+```c
+#include <stdio.h>
+
+// Function to search for the last occurrence of a character in a string
+char* my_strrchr(char* str, char c) {
+    char* lastMatch = NULL;
+
+    // Iterate through the string until the end is reached
+    while (*str != '\0') {
+        // Check if the current character matches the specified character
+        if (*str == c) {
+            lastMatch = str;
+        }
+        // Move to the next character in the string
+        str++;
+    }
+
+    // Return the pointer to the last matching character (or NULL if no match was found)
+    return lastMatch;
+}
+
+// Main function to test the my_strrchr function
+int main() {
+    char str[] = "abcabc";
+    char c = 'b';
+    char* result = my_strrchr(str, c);
+
+    printf("Input: \"%s\"\n", str);
+    printf("Character to find: '%c'\n", c);
+
+    // Check if a matching character was found
+    if (result != NULL) {
+        printf("Last Matching Character: '%c'\n", *result);
+    } else {
+        printf("No Matching Character Found\n");
+    }
+
+    return 0;
+}
+```
+
+</details>
