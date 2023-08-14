@@ -327,3 +327,61 @@ int main() {
 ```
 
 </details>
+
+## ex07
+
+Structures in C are similar to the concept of `package`.
+
+You can have multiple object inside your package and with a `struct` you can have multiple variable in it.
+
+A `struct` is a type.
+
+You are defining a `struct` of type `struct s_box` which will contains variables.
+
+In this exercise you will receive a struct integer_array.
+You have to print its size and its content following this format: size\narray[0]\narray[1]...
+Iterate throught the variable size to iterate throught the struct.
+
+If the size is 0, just print 0\n.
+
+You can use printf() to print.
+
+<details>
+  <summary>my_first_struct.c</summary>
+
+```c
+#include <stdio.h>
+
+#ifndef STRUCT_INTEGER_ARRAY
+#define STRUCT_INTEGER_ARRAY
+typedef struct s_integer_array
+{
+    int size;
+    int* array;
+} integer_array;
+#endif
+
+// Function to print the size and content of an integer_array
+void my_first_struct(integer_array* param_1) {
+    printf("%d\n", param_1->size);  // Print the size of the array
+
+    if (param_1->size == 0) {
+        return;  // If size is 0, print nothing else
+    }
+
+    for (int i = 0; i < param_1->size; i++) {
+        printf("%d\n", param_1->array[i]);  // Print each element of the array
+    }
+}
+
+// Example usage
+int main() {
+    int values[] = {1, 2, 3, 4, 5};
+    integer_array arr = {.size = 5, .array = values};
+    my_first_struct(&arr);  // Call the function with the example array
+
+    return 0;
+}
+```
+
+</details>
