@@ -211,3 +211,39 @@ Note. `RIGHT JOIN` can also bewritten as `RIGHT OUTER JOIN`
 - `RIGHT JOIN` is less commonly used than `LEFT JOIN`
 - Any `RIGHT JOIN` can be-rewritten as a `LEFT JOIN`
 - `LEFT JOIN` feels more intuitive to users when typing from left to right.
+
+## 2.2 FULL JOINs
+
+<h6>FULL JOIN initial diagram</h6>
+
+- A `FULL JOIN` combines a `LEFT JOIN` and a `RIGHT JOIN`.
+
+Diagram for a `FULL JOIN` `ON` the `id` field
+
+<img src="./full join.png" width="750px">
+
+---
+
+<h6>FULL JOIN syntax</h6>
+
+```sql
+SELECT  left_table.id AS L_id,
+        right_table_id AS R_id,
+        left_table.val AS L_val,
+        right_table.val AS R_val
+FROM left_table
+FULL JOIN right_table
+USING (id)
+```
+
+---
+
+<h6>FULL JOIN example using leaders database</h6>
+
+```sql
+SELECT p1.country AS country, prime_ministers, president
+FROM prime_ministers AS p1
+FULL JOIN presidents AS p2
+ON p1.country = p2.country
+LIMIT 10;
+```
