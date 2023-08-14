@@ -159,3 +159,55 @@ Diagram for an `INNER JOIN` `ON` the `id` AND `date` field
 <img src="./join on multiple leys.png" width="750px">
 
 # 2. Outer Joins, Cross Joins and Self Joins
+
+## 2.1 LEFT and RIGHT JOINs
+
+<h6>LEFT JOIN initial diagram</h6>
+
+- `LEFT JOIN` will return all records in the left table, and those records in the right table that match on the joining filed provided.
+
+Diagram for a `LEFT JOIN `On the `id` field.
+
+<img src="./left join.png" width="750px">
+
+---
+
+<h6>LEFT JOIN syntax</h6>
+
+```sql
+SELECT p1.country, prime_minister, president
+FROM prime_minister AS p1
+LEFT JOIN presidents AS p2
+USING(country)
+```
+
+Note. `LEFT JOIN` can also be written as `LEFT OUTER JOIN`.
+
+---
+
+<h6>RIGHT JOIN</h6>
+
+Diagram for a `RIGHT JOIN` `ON` the `id` field.
+
+<img src="./right join.png" width="750px">
+
+---
+
+<h6>RIGHT JOIN syntax</h6>
+
+```sql
+SELECT *
+FROM left_table
+RIGHT JOIN right_table
+ON left_table.id = right_table.id
+```
+
+Note. `RIGHT JOIN` can also bewritten as `RIGHT OUTER JOIN`
+
+---
+
+<h6>LEFT JOIN or RIGHT JOIN?</h6>
+
+- `RIGHT JOIN` is less commonly used than `LEFT JOIN`
+- Any `RIGHT JOIN` can be-rewritten as a `LEFT JOIN`
+- `LEFT JOIN` feels more intuitive to users when typing from left to right.
