@@ -154,3 +154,93 @@ Input: ""
 Output:
 Return Value: ""
 ```
+
+## ex02
+
+["Hello", "World", "."]
+
+Create a function that displays the content of an array of strings.
+One word per line.
+
+Each word will be followed by a newline, including the last one.
+
+(You can't use printf, time to reuse your my_putstr function ;-))
+
+<details>
+  <summary>Solution for my_print_words_array.c</summary>
+
+```c
+#include <unistd.h>
+
+#ifndef STRUCT_STRING_ARRAY
+#define STRUCT_STRING_ARRAY
+typedef struct s_string_array
+{
+    int size;
+    char** array;
+} string_array;
+#endif
+
+// Function to print a string using the write system call
+void my_putstr(char* str) {
+    while (*str != '\0') {
+        write(1, str, 1);
+        str++;
+    }
+}
+
+// Function to print the content of an array of strings
+void my_print_words_array(string_array* arr) {
+    for (int i = 0; i < arr->size; i++) {
+        my_putstr(arr->array[i]);  // Print each word followed by a newline
+        my_putstr("\n");
+    }
+}
+
+int main() {
+    string_array arr = {
+        .size = 3,
+        .array = {"Hello", "World", "."}
+    };
+
+    my_print_words_array(&arr);
+
+    return 0;
+}
+
+```
+
+</details>
+
+---
+
+Example 00
+
+```c
+Input: ["abc", "def", "gh"]
+Output: abc
+def
+gh
+
+Return Value: nil
+```
+
+Example 01
+
+```c
+Input: ["123"]
+Output: 123
+
+Return Value: nil
+```
+
+Example 02
+
+```c
+Input: ["", "", "hello"]
+Output:
+
+hello
+
+Return Value: nil
+```
