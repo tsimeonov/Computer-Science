@@ -385,3 +385,90 @@ int main() {
 ```
 
 </details>
+
+## ex08
+
+Let's create a function which will tell us if an array is sorted or not. What is `sorted`? :-)
+
+Write a function that takes an integer array as a parameter (input) and returns a boolean (true/false).
+
+Your function should return `true` if the integer array is sorted in either ASC(ascending) or DESC(descending) order.
+Your function should return `false` if the integer array is not sorted.
+
+Numbers will be from -2_000_000 to 2_000_000
+The array might have duplicates.
+
+<details>
+  <summary>Solution for my_is_sort.c</summary>
+
+```c
+#include <stdbool.h>
+
+// Definition of the integer_array structure
+#ifndef STRUCT_INTEGER_ARRAY
+#define STRUCT_INTEGER_ARRAY
+typedef struct s_integer_array
+{
+    int size;
+    int* array;
+} integer_array;
+#endif
+
+// Function to check if an integer array is sorted
+bool my_is_sort(integer_array* arr) {
+    int size = arr->size;
+    int* array = arr->array;
+
+    bool isAscending = true;
+    bool isDescending = true;
+
+    // Check if the array is sorted in ascending or descending order
+    for (int i = 1; i < size; i++) {
+        if (array[i] < array[i - 1]) {
+            isAscending = false;
+        }
+        if (array[i] > array[i - 1]) {
+            isDescending = false;
+        }
+    }
+
+    return isAscending || isDescending;
+}
+
+```
+
+</details>
+
+---
+
+Example 00
+
+```c
+Input: [1, 1, 2]
+Output:
+Return Value: true
+```
+
+Example 01
+
+```c
+Input: [2, 1, -1]
+Output:
+Return Value: true
+```
+
+Example 02
+
+```c
+Input: [4, 7, 0, 3]
+Output:
+Return Value: false
+```
+
+Example 03
+
+```c
+Input: []
+Output:
+Return Value: true
+```
