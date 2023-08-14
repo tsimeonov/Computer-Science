@@ -9,7 +9,7 @@ If `min` value is greater or equal to `max`'s value, a null pointer should be re
 Don't worry about "free", it will be done in our main().
 
 <details>
-  <summary>my_range.c</summary>
+  <summary>Solution for my_range.c</summary>
 
 ```c
 #include <stdlib.h>
@@ -44,22 +44,113 @@ int main() {
 
     return 0;
 }
+```
 
-// Example 00
-// Input: 1 && 4
-// Output:
-// Return Value: [1, 2, 3]
+</details>
 
-// Example 01
-// Input: 7 && 10
-// Output:
-// Return Value: [7, 8, 9]
+---
 
-// Example 02
-// Input: 10 && 11
-// Output:
-// Return Value: [10]
+Example 00
+
+```c
+Input: 1 && 4
+Output:
+Return Value: [1, 2, 3]
+```
+
+Example 01
+
+```c
+Input: 7 && 10
+Output:
+Return Value: [7, 8, 9]
+```
+
+Example 0
+
+```c
+Input: 10 && 11
+Output:
+Return Value: [10]
+```
+
+---
+
+## ex01
+
+Let's allocate a string (or array of characters).
+
+We have the string: "abc" and we want a copy in a new part of memory that you will have to `malloc`.
+
+(Reproduce the behavior of strdup from `man strdup`)
+
+<details>
+  <summary>Solution for my_strdup.c</summary>
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Replicates the behavior of the strdup function.
+// Creates a copy of the input string in a new memory location.
+// Returns a pointer to the new copied string.
+char* my_strdup(char* str) {
+    if (str == NULL) {
+        return NULL;  // Return null if the input string is null
+    }
+
+    // Allocate memory for the new string, including space for the null terminator
+    char* new_str = (char*)malloc(strlen(str) + 1);
+
+    if (new_str != NULL) {
+        strcpy(new_str, str);  // Copy the input string to the new memory location
+    }
+
+    return new_str;
+}
+
+int main() {
+    char* original_str = "abc";
+    char* copied_str = my_strdup(original_str);
+
+    if (copied_str != NULL) {
+        printf("Original String: %s\n", original_str);
+        printf("Copied String: %s\n", copied_str);
+        free(copied_str);  // Free the allocated memory
+    } else {
+        printf("Memory allocation failed.\n");
+    }
+
+    return 0;
+}
 
 ```
 
 </details>
+
+---
+
+Example 00
+
+```c
+Input: "abc"
+Output:
+Return Value: "abc"
+```
+
+Example 01
+
+```c
+Input: "RaInB0"
+Output:
+Return Value: "RaInB0"
+```
+
+Example 02
+
+```c
+Input: ""
+Output:
+Return Value: ""
+```
