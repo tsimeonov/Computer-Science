@@ -266,3 +266,64 @@ int main() {
 ```
 
 </details>
+
+## ex06
+
+Implement `strStr()`.
+
+It should return a pointer to the first occurrence of a needle in a haystack, or NULL if the needle is not part of the haystack.
+
+<details>
+  <summary>my_strstr.c</summary>
+
+```c
+#include <stdio.h>
+
+// Function to implement strStr()
+char* my_strstr(char* haystack, char* needle) {
+    if (*needle == '\0') {
+        return haystack;  // Return haystack if needle is an empty string
+    }
+
+    while (*haystack != '\0') {
+        char* hayPtr = haystack;
+        char* needlePtr = needle;
+
+        // Compare characters in haystack and needle
+        while (*needlePtr != '\0' && *hayPtr == *needlePtr) {
+            hayPtr++;
+            needlePtr++;
+        }
+
+        // Check if entire needle is found in haystack
+        if (*needlePtr == '\0') {
+            return haystack;  // Return pointer to the beginning of needle in haystack
+        }
+
+        haystack++;  // Move to the next character in haystack
+    }
+
+    return NULL;  // Return NULL if needle is not found in haystack
+}
+
+// Main function to test the my_strstr function
+int main() {
+    char haystack[] = "Hello, world!";
+    char needle[] = "world";
+
+    char* result = my_strstr(haystack, needle);
+
+    printf("Haystack: \"%s\"\n", haystack);
+    printf("Needle: \"%s\"\n", needle);
+
+    if (result != NULL) {
+        printf("Needle found at index: %ld\n", result - haystack);
+    } else {
+        printf("Needle not found in haystack\n");
+    }
+
+    return 0;
+}
+```
+
+</details>
