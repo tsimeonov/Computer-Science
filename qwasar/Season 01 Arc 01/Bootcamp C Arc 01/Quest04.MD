@@ -244,3 +244,118 @@ hello
 
 Return Value: nil
 ```
+
+## ex03
+
+Count the size of each elements in an array.
+
+Create a function `my_count_on_it` that receives a string array as a parameter and returns an array with the length of each string.
+
+<details>
+  <summary>Solution for my_count_on_it.c</summary>
+
+```c
+#include <stdlib.h>  // Include necessary headers
+
+#ifndef STRUCT_STRING_ARRAY
+#define STRUCT_STRING_ARRAY
+typedef struct s_string_array
+{
+    int size;
+    char** array;
+} string_array;
+#endif
+
+#ifndef STRUCT_INTEGER_ARRAY
+#define STRUCT_INTEGER_ARRAY
+typedef struct s_integer_array
+{
+    int size;
+    int* array;
+} integer_array;
+#endif
+
+// Function to count the length of each string in the string array
+integer_array* my_count_on_it(string_array* arr) {
+    if (arr == NULL) {
+        return NULL;  // Return NULL if input array is NULL
+    }
+
+    // Allocate memory for the result array
+    integer_array* result = (integer_array*)malloc(sizeof(integer_array));
+    if (result == NULL) {
+        return NULL;  // Memory allocation failed
+    }
+
+    // Set the size of the result array
+    result->size = arr->size;
+
+    // Allocate memory for the result array's integer values
+    result->array = (int*)malloc(arr->size * sizeof(int));
+    if (result->array == NULL) {
+        free(result);  // Free memory if array allocation failed
+        return NULL;
+    }
+
+    // Loop through each string in the input array and calculate its length
+    for (int i = 0; i < arr->size; i++) {
+        int length = 0;
+        while (arr->array[i][length] != '\0') {
+            length++;
+        }
+        result->array[i] = length;  // Store the length in the result array
+    }
+
+    return result;  // Return the integer_array containing lengths
+}
+
+int main() {
+    // Create a string_array example
+    string_array arr = {
+        .size = 3,
+        .array = {"Hello", "World", "."}
+    };
+
+    // Use the my_count_on_it function to get lengths of strings
+    integer_array* lengths = my_count_on_it(&arr);
+    if (lengths != NULL) {
+        // Print the lengths of each string
+        for (int i = 0; i < lengths->size; i++) {
+            printf("%d\n", lengths->array[i]);
+        }
+        free(lengths->array);  // Free memory for the integer array
+        free(lengths);  // Free memory for the integer_array
+    }
+
+    return 0;  // Return 0 to indicate successful execution
+}
+
+```
+
+</details>
+
+---
+
+Example 00
+
+```c
+Input: ["This", "is", "the", "way"]
+Output:
+Return Value: [4, 2, 3, 3]
+```
+
+Example 01
+
+```c
+Input: ["aBc", "AbcE Fgef1"]
+Output:
+Return Value: [3, 10]
+```
+
+Example 02
+
+```c
+Input: ["aBc"]
+Output:
+Return Value: [3]
+```
