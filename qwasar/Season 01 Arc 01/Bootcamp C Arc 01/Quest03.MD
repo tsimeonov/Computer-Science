@@ -115,3 +115,47 @@ int main() {
 ```
 
 </details>
+
+## ex03
+
+Reproduce the behavior of the function strncpy.
+
+<details>
+  <summary>my_strncpy.c</summary>
+
+```c
+#include <stdio.h>
+
+char* my_strncpy(char* dst, const char* src, int n) {
+    int i;
+    // Copy each character from src to dst up to n characters or until the null terminator is reached.
+    for (i = 0; i < n && *src != '\0'; i++) {
+        *dst = *src; // Copy the character
+        dst++;      // Move to the next position in dst
+        src++;      // Move to the next character in src
+    }
+
+    // Fill any remaining positions in dst with null characters if n is not reached.
+    for (; i < n; i++) {
+        *dst = '\0';
+        dst++;
+    }
+
+    // Return the destination string.
+    return dst;
+}
+
+int main() {
+    char dst[10] = {0};
+    char *src = "Hello";
+    int n = 3;
+
+    printf("my_strncpy -> %s\n", my_strncpy(dst, src, n));
+
+    return 0;
+}
+
+
+```
+
+</details>
