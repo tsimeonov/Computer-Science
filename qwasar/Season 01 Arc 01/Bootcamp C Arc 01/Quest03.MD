@@ -1,5 +1,7 @@
 ## ex00
 
+Write a program that takes a string as an argument and returns it reversed.
+
 <details>
   <summary>reverse_string.c</summary>
 
@@ -28,6 +30,49 @@ char* reverse_string(char* str) {
     // Return the reversed string
     return str;
 }
+```
+
+</details>
+
+## ex01
+
+Description: Reproduce the behavior of the function strcmp.
+The strcmp() function compares string1 with string2 to see if there are equals.
+
+<details>
+
+  <summary>my_strcmp.c</summary>
+
+```c
+
+#include <stdio.h>
+
+// Define a function called my_strcmp that takes two char pointers as parameters.
+int my_strcmp(char* str1, char* str2) {
+    // Iterate through the strings while both are not at the end ('\0').
+    while (*str1 != '\0' && *str2 != '\0') {
+        // Compare the characters at the current positions in both strings.
+        if (*str1 != *str2) {
+            // If the characters are different, return the difference between their ASCII values.
+            // This will indicate whether str1 comes before or after str2 in lexicographic order.
+            return (*str1 - *str2);
+        }
+        // Move to the next character in each string.
+        str1++;
+        str2++;
+    }
+
+    // If both strings are completely equal, they have the same characters in the same order.
+    if (*str1 == *str2) {
+        // Return 0 to indicate equality.
+        return 0;
+    }
+
+    // If one string is longer than the other, return the difference in lengths.
+    return (*str1 - *str2);
+}
+
+int main()
 ```
 
 </details>
