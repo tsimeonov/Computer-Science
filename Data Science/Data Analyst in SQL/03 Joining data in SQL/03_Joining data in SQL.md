@@ -247,3 +247,19 @@ FULL JOIN presidents AS p2
 ON p1.country = p2.country
 LIMIT 10;
 ```
+
+## 2.3 Crossing into CROSS JOIN
+
+`CROSS JOIN` crates all possible combinations of two tables.
+
+<img src="./cross join.png" width="350px">
+
+---
+
+<h6>CROSS JOIN syntax</h6>
+
+```sql
+SELECT id1, id2
+FROM table1
+CROSS JOIN table2
+```
