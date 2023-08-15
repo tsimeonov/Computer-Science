@@ -272,3 +272,45 @@ CROSS JOIN table2
 # 3. Set theory for SQL Joins
 
 ## 3.1 Set theory for SQL Joins
+
+<h6>Venn diagrams and set theory</h6>
+
+<img src="./set theory.png" width="450px">
+
+---
+
+<h6>UNION diagram</h6>
+
+- `UNION` takes two tables as input, and returns all records from both tables.
+
+<img src="./union diagram.png" width="500px">
+
+---
+
+<h6>UNION ALL diagram</h6>
+
+- `UNION ALL` takes two tables and returns all records from both tables, including duplicates.
+
+<img src="./union all.png" width="500px">
+
+---
+
+<h6>UNION and UNION ALL syntax</h6>
+
+```sql
+SELECT *
+FROM left_table
+UNION
+SELECT *
+FROM right_table
+```
+
+<h6>UNION ALL syntax</h6>
+
+```sql
+SELECT *
+FROM left_table
+UNION ALL
+SELECT *
+FROM right_table
+```
