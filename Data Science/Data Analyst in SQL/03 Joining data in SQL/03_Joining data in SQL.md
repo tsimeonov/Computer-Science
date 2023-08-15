@@ -314,3 +314,55 @@ UNION ALL
 SELECT *
 FROM right_table
 ```
+
+## 3.2 At the INTERSECT
+
+<h6>INTERSECT Venn diagram</h6>
+
+<img src="./intersect.png" width="600px">
+
+---
+
+<h6>INTERSECT diagram</h6>
+
+<img src="./intersect diagram.png" width="600px">
+
+---
+
+<h6>INTERSECT syntax</h6>
+
+```sql
+SELECT id, val
+FROM left_table
+INTERSECT
+SELECT id, val
+FROM right_table
+```
+
+---
+
+<h6>INTERSECT vs. INNER JOIN on two columns</h6>
+
+INTERSECT syntax
+
+```sql
+SELECT *
+FROM left_table
+INTERSECT
+SELECT *
+FROM right_table
+```
+
+<img src="./intersect diagram.png" width="400px">
+
+INNER JOIN syntax
+
+```sql
+SELECT *
+FROM left_table
+INNER JOIN right_table
+ON left.id = right.id
+    AND left.val = right.val
+```
+
+<img src="./inner join.png" width="400px">
