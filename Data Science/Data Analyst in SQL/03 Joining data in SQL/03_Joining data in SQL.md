@@ -263,3 +263,12 @@ SELECT id1, id2
 FROM table1
 CROSS JOIN table2
 ```
+
+## 2.4 SELF JOINS
+
+- `SELF JOINS` are tables joined with themselves
+- They can be used to compare parts of the same table
+
+# 3. Set theory for SQL Joins
+
+## 3.1 Set theory for SQL Joins
