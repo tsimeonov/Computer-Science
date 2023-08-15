@@ -366,3 +366,27 @@ ON left.id = right.id
 ```
 
 <img src="./inner join.png" width="400px">
+
+## 3.3 EXCEPT
+
+<h6>EXCEPT Venn diagram</h6>
+
+<img src="./except.png" width="600px">
+
+---
+
+<h6>EXCEPT diagram</h6>
+
+<img src="./except diagram.png" width="500px">
+
+---
+
+<h6>EXCEPT syntax</h6>
+
+```sql
+SELECT monarch, country
+FROM monarchs
+EXCEPT
+SELECT prime_minister, country
+FROM prime_ministers
+```
