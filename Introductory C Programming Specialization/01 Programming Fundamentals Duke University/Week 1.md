@@ -5,3 +5,5 @@
 ### 1.2 Overview of the seven steps
 
 <img src="./the seven steps.png" width="750px">
+
+## 2. The first four steps
