@@ -390,3 +390,5 @@ EXCEPT
 SELECT prime_minister, country
 FROM prime_ministers
 ```
+
+## 4. Subqueries
