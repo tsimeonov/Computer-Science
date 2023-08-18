@@ -392,3 +392,52 @@ FROM prime_ministers
 ```
 
 ## 4. Subqueries
+
+### 4.1 Subquerying with semni joins and anti joins
+
+<h6>Semi join</h6>
+
+A `semi join` chooses records in the first table where a condition is met in the second table.
+
+<img src="./semi join.png" width="600px">
+
+---
+
+<h6>Finish the semi join (an intro to subqueries)</h6>
+
+```sql
+SELECT president, country, continent
+FROM prsident
+WHERE country IN
+    (SELECT country
+    FROM states
+    WHERE indep_year < 1800);
+```
+
+|        president        | country  | continent |
+| :---------------------: | :------: | :-------: |
+| Marcelo Rebelo de Sousa | Portugal |  Europe   |
+
+---
+
+<h6>Anti join</h6>
+
+<img src="./anti join.png" width="600px">
+
+---
+
+<h6>An anti join with the presidents</h6>
+
+```sql
+SELECT president, country, continent
+FROM prsident
+WHERE continent LIKE '%America'
+  AND country NOT IN
+    (SELECT country
+    FROM states
+    WHERE indep_year < 1800);
+```
+
+| country |   president   |
+| :-----: | :-----------: |
+| Uruguay | Gabriel Boric |
