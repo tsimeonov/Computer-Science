@@ -441,3 +441,39 @@ WHERE continent LIKE '%America'
 | country |   president   |
 | :-----: | :-----------: |
 | Uruguay | Gabriel Boric |
+
+### 4.2 Subqueries inside WHERE and SELECT
+
+<h6>Syntax for subqueries inside WHERE</h6>
+
+- All semi joins and nto joins we have seen included a subquery in `WHERE`
+- `WHERE` is the most common place for subqueries
+
+Syntax for query using `WHERE IN` statement
+
+```sql
+SELECT *
+FROM some_table
+WHEREsome_numeric_field IN (4,8,12)
+```
+
+---
+
+<h6>Subqueries inside SELECT<h/6>
+
+```sql
+SELECT DISTINCT continent,
+    (SELECT COUNT(*)
+    FROM monarchs
+    WHERE states.continent = monarch.continent) AS monarch_count
+FROM states;
+```
+
+| continent | monarch_count |
+| :-------: | :-----------: |
+|  Africa   |       0       |
+|   Asia    |       2       |
+|  Europe   |       2       |
+|  Oceania  |       0       |
+
+....
