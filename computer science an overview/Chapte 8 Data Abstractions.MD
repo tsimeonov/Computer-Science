@@ -31,3 +31,15 @@ We refer to its immediate descendats as its `children` and its immediate ancesto
 ## 8.2 Related Concepts
 
 <h6>Abstraction Again</h6>
+
+---
+
+<h6>Static vs Dynamic Structures</h6>
+An important distinction in constructing abstract data structures is whether the structure being simulated is static or dynamic, that is, whether the shape or size of the structre changes over time.
+
+<h6>Garbage collection</h6>
+
+As dynamic data structures grow and shrink, storage space is used and released. The proces of reclaiming unused storage space for future use is knows as `garbage collection`.
+If garbage collection fails to reclaim storage space, the available space will slowly dqindle away, a phenomenin knows as `memory leak`.
+
+---
