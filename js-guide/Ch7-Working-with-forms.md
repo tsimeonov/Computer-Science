@@ -66,3 +66,18 @@ inputPassword.addEventListener("change", function (e) {
 ```
 
 </details>
+
+## 7.1.4 Reading the value of checkboxes
+
+<details>
+  <summary>Access to a Checkbox</summary>
+
+```js
+const checkbox = document.getElemtByOd("remember");
+checkbox.addEventListener("change", (e) => {
+  console.log(checkbox.value); // by default, the 'on' value
+  console.log(checkbox.checked); // true or false
+});
+```
+
+</details>
