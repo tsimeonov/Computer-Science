@@ -48,3 +48,21 @@ document.addEventListener("DOMContentLoaded", init);
 ```
 
 </details>
+
+## 7.1.3 Reading the value of text fields and password fields
+
+<details>
+  <summary>Listing 7.4 Access to the values of text and password fields</summary>
+
+```js
+const inputUsername = document.getElementById("username");
+const inputPassword = document.getElementById("password");
+inputUsername.addEventListener("change", function (e) {
+  console.log(this.value); // entered value
+});
+inputPassword.addEventListener("change", function (e) {
+  console.log(this.value); // entered value
+});
+```
+
+</details>
