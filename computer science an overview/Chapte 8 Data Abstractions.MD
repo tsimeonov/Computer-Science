@@ -29,3 +29,5 @@ Each position in a tree is called a `node`. The node at the top is called the `r
 We refer to its immediate descendats as its `children` and its immediate ancestor as its `parent`. A tree in which each parent has no more than two children is called a binary tree.
 
 ## 8.2 Related Concepts
+
+<h6>Abstraction Again</h6>
