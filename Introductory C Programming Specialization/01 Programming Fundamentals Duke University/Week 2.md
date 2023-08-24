@@ -6,3 +6,4 @@
 
 ## 2.1 Using functions for abstraction
 
+## 2.2 Execution of function calls
