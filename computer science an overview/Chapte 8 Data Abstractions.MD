@@ -43,3 +43,7 @@ As dynamic data structures grow and shrink, storage space is used and released. 
 If garbage collection fails to reclaim storage space, the available space will slowly dqindle away, a phenomenin knows as `memory leak`.
 
 ---
+
+<h6>Pointers</h6>
+
+A pointer is a variable that stores the memory address of another variable. It `points` to the memory location of that data rather than directly containing the dat itself.
