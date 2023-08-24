@@ -49,3 +49,7 @@ If garbage collection fails to reclaim storage space, the available space will s
 A pointer is a variable that stores the memory address of another variable. It `points` to the memory location of that data rather than directly containing the dat itself.
 
 ## 8.3 Implementing data structures
+
+<h6>Storing arrays</h6>
+
+---
