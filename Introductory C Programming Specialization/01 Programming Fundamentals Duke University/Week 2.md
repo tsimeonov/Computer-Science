@@ -4,3 +4,5 @@
 
 # 2. Functions 
 
+## 2.1 Using functions for abstraction
+
