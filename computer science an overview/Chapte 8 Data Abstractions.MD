@@ -57,3 +57,7 @@ A pointer is a variable that stores the memory address of another variable. It `
 <h6>Storing Aggregates</h6>
 
 ---
+
+<h6>Storing Lists</h6>
+
+---
