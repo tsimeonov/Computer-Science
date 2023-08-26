@@ -477,3 +477,23 @@ FROM states;
 |  Oceania  |       0       |
 
 ....
+
+### 4.3 Subqueries inside FROM
+
+```sql
+-- Query to return continents with monarchs and the year the most recent country gained independende
+SELECT DISTINCT monarchs.continet, sub.most_recent
+FROM monarchs,
+    (SELECT
+        continent,
+        MAX(indep_year) AS most_recent
+    FROM states
+    GRPUP BY continent) AS sub
+WHERE monarchs.continent = sub.continent
+ORDER BY continent;
+```
+
+| continent | most_recent |
+| :-------: | :---------: |
+|  Africa   |    1994     |
+|   Asia    |    1814     |
