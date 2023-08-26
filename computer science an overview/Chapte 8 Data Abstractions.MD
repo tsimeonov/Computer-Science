@@ -87,3 +87,5 @@ An `abstract datat type (ADT)` is a user-defined data type that can include both
 Lists and other collection can be treated as abstract data types (ADTs) in developing programs.
 
 ## 8.6 Classes and objects
+
+## 8.7 Pointers in Machine language
