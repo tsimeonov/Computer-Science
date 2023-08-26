@@ -63,3 +63,18 @@ A pointer is a variable that stores the memory address of another variable. It `
 ---
 
 ## 8.4 A short case study
+
+## 8.5 Customized data types
+
+<h6>User defined data types</h6>
+
+User defined datat ypes refer to the abolity in programming languages to create new data types based on the built-in or primitive data types offered by the language.
+IN languages like C and C++, you can define your own datatypes using `struct` and `class`.
+
+```c
+// Defining a user-defined data type in C
+struct Person {
+    char name[50];
+    int age;
+}
+```
