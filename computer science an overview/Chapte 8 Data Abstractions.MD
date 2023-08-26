@@ -85,3 +85,5 @@ struct Person {
 
 An `abstract datat type (ADT)` is a user-defined data type that can include both data (representation) and functions (behavior).
 Lists and other collection can be treated as abstract data types (ADTs) in developing programs.
+
+## 8.6 Classes and objects
