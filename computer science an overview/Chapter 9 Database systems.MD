@@ -18,3 +18,11 @@ Metadata can be descriptive data about an image, a WEeb page, or other complex o
 
 A `schema` is description of the entire database structure that is used by the database software to maintain the database.
 A `subschema` is a description of only that portion of the database relevant to the particulare user's needs.
+
+---
+
+<h6>Database management systems</h6>
+
+<img src="./images/database layers.png" style="border-radius: 5px;" width="850px">
+
+The actual manipulation of the database is accomplished by the `database management system (DBMS)`
