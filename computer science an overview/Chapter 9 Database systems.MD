@@ -31,4 +31,9 @@ The actual manipulation of the database is accomplished by the `database managem
 
 <h6>Database models</h6>
 
-The conceptual view of the database is called the `databas model`.
+The conceptual view of the database is called the `database model`.
+
+## 9.2 The relational model
+
+`relations` data stored in rectangular tables.
+A row in relation is calles a `tupple`. Columns is a relation are referred to as `attributes` because each entry in a column describes some characterristic, or attribute.
