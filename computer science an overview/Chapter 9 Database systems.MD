@@ -48,4 +48,4 @@ A row in relation is calles a `tupple`. Columns is a relation are referred to as
 
 ---
 
-<h6>SGL</h6>
+<h6>SQL</h6>
