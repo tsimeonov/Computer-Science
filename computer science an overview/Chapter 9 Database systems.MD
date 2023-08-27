@@ -37,3 +37,11 @@ The conceptual view of the database is called the `database model`.
 
 `relations` data stored in rectangular tables.
 A row in relation is calles a `tupple`. Columns is a relation are referred to as `attributes` because each entry in a column describes some characterristic, or attribute.
+
+---
+
+<h6>Issues of relational database</h6>
+
+---
+
+<h6>Relational Operations</h6>
