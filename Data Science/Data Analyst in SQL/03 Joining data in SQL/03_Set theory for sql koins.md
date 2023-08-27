@@ -488,7 +488,7 @@ FROM monarchs,
         continent,
         MAX(indep_year) AS most_recent
     FROM states
-    GRPUP BY continent) AS sub
+    GROUP BY continent) AS sub
 WHERE monarchs.continent = sub.continent
 ORDER BY continent;
 ```
