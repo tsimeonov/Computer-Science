@@ -45,3 +45,7 @@ A row in relation is calles a `tupple`. Columns is a relation are referred to as
 ---
 
 <h6>Relational Operations</h6>
+
+---
+
+<h6>SGL</h6>
