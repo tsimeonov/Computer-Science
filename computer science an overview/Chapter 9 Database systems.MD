@@ -26,3 +26,9 @@ A `subschema` is a description of only that portion of the database relevant to 
 <img src="./images/database layers.png" style="border-radius: 5px;" width="850px">
 
 The actual manipulation of the database is accomplished by the `database management system (DBMS)`
+
+---
+
+<h6>Database models</h6>
+
+The conceptual view of the database is called the `databas model`.
