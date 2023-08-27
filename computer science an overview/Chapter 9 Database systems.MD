@@ -11,3 +11,10 @@ Insight and knowledge can be obtained from translating and transforming digitall
 Large data sets include data such as transsactions, measurenebts, text, sound, images and video.
 Metadata is data about data.
 Metadata can be descriptive data about an image, a WEeb page, or other complex objects.
+
+---
+
+<h6>The role of schemas</h6>
+
+A `schema` is description of the entire database structure that is used by the database software to maintain the database.
+A `subschema` is a description of only that portion of the database relevant to the particulare user's needs.
