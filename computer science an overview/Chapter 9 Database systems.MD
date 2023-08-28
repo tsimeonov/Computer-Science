@@ -69,3 +69,9 @@ The point at which all steps in a transaction have been recorded in the log is c
 <h6>Sequential Files</h6>
 
 A `sequential file` is a file that is accessed in a serial manner from its beginning to its end as though the information in the file were arranged in one long row.
+
+---
+
+<h6>Indexed files</h6>
+
+Indexed files, often referred to as indexed sequential files or ISAM (Indexed Sequential Access Method) files, are a type of data storage and access method used in computer programming and database systems. Indexed files provide a way to efficiently access and retrieve data records from large datasets by using indexes, which are data structures that store key-value pairs to facilitate quick data retrieval.
