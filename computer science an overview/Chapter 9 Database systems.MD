@@ -49,3 +49,5 @@ A row in relation is calles a `tupple`. Columns is a relation are referred to as
 ---
 
 <h6>SQL</h6>
+
+## 9.3 Object-Oriented databases
