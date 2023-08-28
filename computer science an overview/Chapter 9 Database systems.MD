@@ -59,3 +59,7 @@ Scalability of systems is an important consideration when data sets are large.
 <h6>The commit/rollback protocol</h6>
 
 The point at which all steps in a transaction have been recorded in the log is called the `commit point`.
+
+---
+
+<h6>Locking</h6>
