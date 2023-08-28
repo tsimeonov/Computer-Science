@@ -55,3 +55,7 @@ A row in relation is calles a `tupple`. Columns is a relation are referred to as
 ## 9.4 Maintaining database integrity
 
 Scalability of systems is an important consideration when data sets are large.
+
+<h6>The commit/rollback protocol</h6>
+
+The point at which all steps in a transaction have been recorded in the log is called the `commit point`.
