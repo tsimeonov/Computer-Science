@@ -75,3 +75,9 @@ A `sequential file` is a file that is accessed in a serial manner from its begin
 <h6>Indexed files</h6>
 
 Indexed files, often referred to as indexed sequential files or ISAM (Indexed Sequential Access Method) files, are a type of data storage and access method used in computer programming and database systems. Indexed files provide a way to efficiently access and retrieve data records from large datasets by using indexes, which are data structures that store key-value pairs to facilitate quick data retrieval.
+
+---
+
+<h6>Hash files</h6>
+
+Hash files, also known as hashed files, are a type of data storage and access method used in computer programming and database systems. They provide a way to quickly access and retrieve data records based on a unique identifier, known as a hash key.
