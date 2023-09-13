@@ -34,3 +34,9 @@ A bit cvan be used in a very limited way to represent numbers. Depending on whet
 Two bytes used for large number
 
 ---
+
+<h6>Storing Characters</h6>
+
+Any piece of data that is stored in a computers' memory must be stored as a binary number. That includes characters, such as letters and punctuation marks. When a character is stored in memory, it is first converted to a numeric code.
+
+<img src="./img/letter a representation.png" width="700">
