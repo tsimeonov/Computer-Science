@@ -20,3 +20,17 @@ All data that is stored in a computer is converted to dequences of 0s and 1s.
 A computers' memory is divided into tiny storage locations known as `bytes`. One byte is only enough memory to store a letter of the alphabet or a small number. Each byte is divided into eight smaller locations known as bits.
 
 <img src="./img/bit representation.png" width="700">
+
+---
+
+<h6>Storing Numbers</h6>
+
+A bit cvan be used in a very limited way to represent numbers. Depending on whether the bit is turned on or off, it can represent one of two fifferent values.
+
+<img src="./img/determine the value of.png" width="250">
+
+<img src="./img/using two bytes.png" width="700">
+
+Two bytes used for large number
+
+---
