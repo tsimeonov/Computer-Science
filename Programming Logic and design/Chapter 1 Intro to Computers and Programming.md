@@ -39,4 +39,10 @@ Two bytes used for large number
 
 Any piece of data that is stored in a computers' memory must be stored as a binary number. That includes characters, such as letters and punctuation marks. When a character is stored in memory, it is first converted to a numeric code.
 
-<img src="./img/letter a representation.png" width="700">
+<img src="./img/letter a representation.png" width="500">
+
+---
+
+<h6>Advanced Number Storage</h6>
+
+Negative numbers are encoded using a technique known as `two's complement`, and real numbers are encoded in `floating-point notation`. These two encoding schemes are used to convert negative numbers and real numbers to binary format.
