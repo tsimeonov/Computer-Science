@@ -13,3 +13,10 @@ The term `hardware` refers to all of the physical devices, or `components` that 
 - Secondary storage devices - A type of data that can hold memory for long periods of time, even when there is no power to the computer.
 - Input devices - Any data that the computer collects from people or other devices.
 - Output devices - Data the computer produces for people or other devices.
+
+## 1.3 How computers store data
+
+All data that is stored in a computer is converted to dequences of 0s and 1s.
+A computers' memory is divided into tiny storage locations known as `bytes`. One byte is only enough memory to store a letter of the alphabet or a small number. Each byte is divided into eight smaller locations known as bits.
+
+<img src="./img/bit representation.png" width="700">
