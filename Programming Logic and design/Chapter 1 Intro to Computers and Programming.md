@@ -54,3 +54,15 @@ Negative numbers are encoded using a technique known as `two's complement`, and 
 Computers are often referred to as digital devices. The term `digital` can be used to describe anything that uses binary numbers. Digital data is data that is stored in binary, and a `digital device` is any device that works with binary data.
 
 ## 1.4 How a Program works
+
+A program is nothing more than a list of instructions that cause the CPU to perform operations.
+CPU's only understand instructions that are written in `machine language` and machine language instructions are always written in binary.
+The entire set of instructions that a CPU can execute is known as the CPU's `instruction set`.
+
+When a CPU executes the instructions in a program, it is engaged in a process that us known as the `fetch-decode-execute cycle`.
+
+1. `Fetch` - The first step of the cycle is to fetch, or read the next instruction from memory into the CPU.
+2. `Decode` - In this step the CPU decodes the instruction that was just fetched from memory, to determine which operation it should perform.
+3. `Execute` - The last step in the cylcle is to execute or perform the operation.
+
+<img src="./img/fetch-decode-execute cylcle.png" width="600">
