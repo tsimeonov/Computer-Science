@@ -49,6 +49,8 @@ Negative numbers are encoded using a technique known as `two's complement`, and 
 
 ---
 
-<h6>Other rtypes of data</h6>
+<h6>Other types of data</h6>
 
 Computers are often referred to as digital devices. The term `digital` can be used to describe anything that uses binary numbers. Digital data is data that is stored in binary, and a `digital device` is any device that works with binary data.
+
+## 1.4 How a Program works
