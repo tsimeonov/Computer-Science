@@ -66,3 +66,23 @@ When a CPU executes the instructions in a program, it is engaged in a process th
 3. `Execute` - The last step in the cylcle is to execute or perform the operation.
 
 <img src="./img/fetch-decode-execute cylcle.png" width="600">
+
+---
+
+<h6>From Macine Language to Assembly Language</h6>
+
+Although a computer's CPU only understands machine language, it is impractical for people to write programs in machine language. For this reason `assembly language` was created in the early days of computing as an alternative to machine language. Instead of using binary numbers for instructions, assembly language uses short words that are known as `mnemonics`.
+Assenbly language programs cannot be executed by the CPu, however. The CPU only understands machine language, so a special program known as an `assenbler` is used to translate an assembly language program to machine language program.
+
+<img src="./img/assembly to machine code.png" width="600">
+
+---
+
+<h6>High-Level Languages</h6>
+
+Because assembly language is so close in nature to machine language, it is referred to as a `low-level language`.
+In the 1950s, a new generation of programming languages known as `high-level languages` began to appear. A high-level language allows you to create powerful and complex programs without knowing how the CPu works, and without writting large numbers of low-level instructions.
+Each high-level language has its own set of words that the programmer must learn in order to use the language. The words that make up a high-level programming language are known as `key words` or `resered words`.
+In addition to key words, programming languages have `operators` that perform various operations on data.
+In addition to key words and operators, each language also has its own `syntax`, which is a set of rules that must be strictly followed when writting a program.
+The individual instructions that you use to write a program in a high-level programming language are called `statements`.
