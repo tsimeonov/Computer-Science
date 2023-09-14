@@ -121,3 +121,9 @@ The programs that control and manage the basic operations of a computer are gene
 - Operating Systems
 - Utility Programs
 - Software Development Tools
+
+---
+
+<h6>Application Software</h6>
+
+Programs that make a computer useful for everyday tasks are known as `application swoftware`. These are the programs that people normally spend most of their time running on their computers.
