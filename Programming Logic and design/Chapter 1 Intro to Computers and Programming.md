@@ -107,3 +107,7 @@ The statements that a programmer writtes in a high-level language are called `so
 <h6>Integrated Development Environments</h6>
 
 IDE - stands for `Integrated Development Environments`
+
+## 1.5 Types of Software
+
+Programs generally fall into one of two categories: system software or application software. System software is the set of programs that control or enhance the operation of a computer. Applicatio software makes a computer useful for everydat tasks.
