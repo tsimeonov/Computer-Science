@@ -111,3 +111,13 @@ IDE - stands for `Integrated Development Environments`
 ## 1.5 Types of Software
 
 Programs generally fall into one of two categories: system software or application software. System software is the set of programs that control or enhance the operation of a computer. Applicatio software makes a computer useful for everydat tasks.
+
+---
+
+<h6>System Software</h6>
+
+The programs that control and manage the basic operations of a computer are generally referred to as `system software`. System software typically includes the following types of programs:
+
+- Operating Systems
+- Utility Programs
+- Software Development Tools
