@@ -86,3 +86,18 @@ Each high-level language has its own set of words that the programmer must learn
 In addition to key words, programming languages have `operators` that perform various operations on data.
 In addition to key words and operators, each language also has its own `syntax`, which is a set of rules that must be strictly followed when writting a program.
 The individual instructions that you use to write a program in a high-level programming language are called `statements`.
+
+---
+
+<h6>Compilers and Interpreters</h6>
+
+Once a program has been written in a high-level language, the programmer will use a compiler or an interpreter to make the translation.
+A `compiler` is a program that transplates a high-level language program into a separate machine language program.
+
+<img src="./img/compiler.png" width="700">
+
+An `interpreter` is a program that both translates and executes the instructions in a high-level language program.
+
+<img src="./img/interpreter.png" width="700">
+
+The statements that a programmer writtes in a high-level language are called `source code` or simply `code`.
