@@ -101,3 +101,9 @@ An `interpreter` is a program that both translates and executes the instructions
 <img src="./img/interpreter.png" width="700">
 
 The statements that a programmer writtes in a high-level language are called `source code` or simply `code`.
+
+---
+
+<h6>Integrated Development Environments</h6>
+
+IDE - stands for `Integrated Development Environments`
