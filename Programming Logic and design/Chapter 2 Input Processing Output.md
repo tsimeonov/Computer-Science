@@ -13,3 +13,9 @@ The program development cycle
    `software requirement` - A single function that the program must perform in order to satisfy the customer.
 2. Determine the steps that must be taken to perform the task
    `algorithm` - A set of well-defined logical steps that must be taken in order to perform a task.
+
+---
+
+<h6>Pseudocode</h6>
+
+`pseudocode` - An informal language that has no syntax rules, and it is not meant to be compiled or executed.
