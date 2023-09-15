@@ -43,3 +43,5 @@ Input is data that the program receives.
 IPO stands for input, processing and output and an `IPO chart` describes the input, processing and output of a program.
 
 <img src="./img/ipo chart.png" width="500">
+
+---
