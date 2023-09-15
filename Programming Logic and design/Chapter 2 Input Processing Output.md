@@ -62,3 +62,9 @@ A structurem also called a `control structure`, is a logical design that control
 In programming terms, a sequence of characters that is used as data is called a `string`. When a string appears in the actual code of a program it is called a `string literal`.
 
 ---
+
+<h6>Variables and Input</h6>
+
+A `variable` is a storage location in memory that is represented by a name.
+
+---
