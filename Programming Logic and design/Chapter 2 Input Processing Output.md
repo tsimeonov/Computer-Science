@@ -45,3 +45,12 @@ IPO stands for input, processing and output and an `IPO chart` describes the inp
 <img src="./img/ipo chart.png" width="500">
 
 ---
+
+<h6>Displaying Screen Output</h6>
+
+---
+
+<h6>Sequence Structures</h6>
+
+A set of statements tht executes in the order that they appear is called a `sequence structure`.
+A structurem also called a `control structure`, is a logical design that controls the order in which a set of statements executes.
