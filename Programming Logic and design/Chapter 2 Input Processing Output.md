@@ -35,3 +35,11 @@ Between the terminal symbols are parallelograms, which are used for both `input 
 
 Output is data that us generated and displayed by the program.
 Input is data that the program receives.
+
+---
+
+<h6>IPO Charts</h6>
+
+IPO stands for input, processing and output and an `IPO chart` describes the input, processing and output of a program.
+
+<img src="./img/ipo chart.png" width="500">
