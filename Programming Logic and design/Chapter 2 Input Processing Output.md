@@ -54,3 +54,11 @@ IPO stands for input, processing and output and an `IPO chart` describes the inp
 
 A set of statements tht executes in the order that they appear is called a `sequence structure`.
 A structurem also called a `control structure`, is a logical design that controls the order in which a set of statements executes.
+
+---
+
+<h6>Strings and String Literals</h6>
+
+In programming terms, a sequence of characters that is used as data is called a `string`. When a string appears in the actual code of a program it is called a `string literal`.
+
+---
