@@ -86,3 +86,7 @@ A `variable` is a storage location in memory that is represented by a name.
 <h6>Variable Assignment</h6>
 
 ---
+
+<h6>Performing Calculations</h6>
+
+A programmer's tools for performing calculations are `math operators`.
