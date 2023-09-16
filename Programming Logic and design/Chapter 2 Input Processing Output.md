@@ -52,7 +52,7 @@ IPO stands for input, processing and output and an `IPO chart` describes the inp
 
 <h6>Sequence Structures</h6>
 
-A set of statements tht executes in the order that they appear is called a `sequence structure`.
+A set of statements that executes in the order that they appear is called a `sequence structure`.
 A structurem also called a `control structure`, is a logical design that controls the order in which a set of statements executes.
 
 ---
@@ -78,3 +78,11 @@ A `variable` is a storage location in memory that is represented by a name.
 ---
 
 <h6>String Input</h6>
+
+---
+
+## 2.3 Variable Assignment and Calculations
+
+<h6>Variable Assignment</h6>
+
+---
