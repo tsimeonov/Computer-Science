@@ -74,3 +74,7 @@ A `variable` is a storage location in memory that is represented by a name.
 - Variable names must be one word. They cannot contain spaces
 - In most languages, punctuation characters cannot be used in variable names.
 - In most languages, the first character of a variable name cannot be a number.
+
+---
+
+<h6>String Input</h6>
