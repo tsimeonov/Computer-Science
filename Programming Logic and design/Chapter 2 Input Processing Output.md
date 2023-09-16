@@ -68,3 +68,9 @@ In programming terms, a sequence of characters that is used as data is called a 
 A `variable` is a storage location in memory that is represented by a name.
 
 ---
+
+<h6>Variable Names</h6>
+
+- Variable names must be one word. They cannot contain spaces
+- In most languages, punctuation characters cannot be used in variable names.
+- In most languages, the first character of a variable name cannot be a number.
