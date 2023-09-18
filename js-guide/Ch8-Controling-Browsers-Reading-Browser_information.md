@@ -10,3 +10,7 @@ While the DOM focuses on the web page's structure and content, the BOM focuses o
 <img src="./img/size and position.png" width="500px" />
 
 The `outerHeight` and `outerWidth` properties represent the height and width of the browser window, including all displayes browser bars. The `innerHeight` and `innerWidth` properties, on the othr hand, represent the height and width without the browser bars, but including scrollbars.
+
+## 8.2.2 Changing the size and posotion of a Browser window
+
+The `moveBy()` method can be used to move a browser window horizontally and vertically by a specified number of pixels, and the `moveTo()` methof can be used to move the window to a specific position. Via the `resizeBy()` method, you can scale a browser window by a certain factor, and via the `resizeTo()` methof you can scale to a certain size.
