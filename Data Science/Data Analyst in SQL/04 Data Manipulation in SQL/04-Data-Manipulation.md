@@ -126,3 +126,58 @@ WHERE CASE WHEN hometeam_id = 8455 AND home_goal > away_goal
 | 2011-08-14 | 2011/2012 | Chelsea home win! |
 | 2011-08-14 | 2011/2012 | Chelsea home win! |
 | 2011-08-14 | 2011/2012 | Chelsea home win! |
+
+---
+
+### 1.3 CASE WHEN with aggregate functions
+
+<h6>In CASE you need to aggregate</h6>
+
+- `CASE` statements are great for
+  - Categorizing data
+  - Filtering data
+  - Aggregating data
+
+---
+
+<h6>CASE WHEN with COUNT</h6>
+
+```sql
+SELECT
+    season,
+    COUNT(CASE WHEN hometeam_id = 8650 AND home_goal > away_goal
+          THEN id END) AS home_wins,
+    COUNT (CASE WHEN awayteam_id = 8650 AND away_goal > home_goal
+           THEN id END) AS away_wins
+FROM match
+GROUP BY season;
+```
+
+|  season   | home_wins | away_wins |
+| :-------: | :-------: | :-------: |
+| 2011/2012 |     6     |     8     |
+| 2011/2012 |     9     |     7     |
+| 2011/2012 |    16     |    10     |
+
+---
+
+<h6>Percentages with CASE and AVG</h6>
+
+```sql
+SELECT
+    season,
+    ROUND(AVG(CASE WHEN hometeam_id = 8455 AND home_goal > away_goal THEN 1
+              WHEN hometeam_id = 8455 AND home_goal < away_goal THEN 0
+              END), 2) AS pct_homewins,
+    ROUND(AVG(CASE WHEN awayteam_id = 8455 AND away_goal > home_goal THEN 1
+              WHEN awayteam_id = 8455 AND away_goal < home_goal THEN 0
+              END), 2) AS pct_awaywins
+FROM match
+GROUP BY season;
+```
+
+|  season   | pct_homewins | pct_awaywins |
+| :-------: | :----------: | :----------: |
+| 2011/2012 |     0.75     |     0.5      |
+| 2011/2012 |     0.86     |     0.67     |
+| 2011/2012 |     0.94     |     0.67     |
