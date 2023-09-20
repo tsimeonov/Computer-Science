@@ -199,3 +199,14 @@ FROM (SELECT column
 ```
 
 - Useful for intermediary transformations
+
+---
+
+<h6>What do you do with subqueries?</h6>
+
+- Can be in any part of a query
+  - `SELECT`, `FROM`, `WHERE`, `GROUP BY`
+- Can return a variety of information
+  - Scalar quantities (`3.14158`, `-2`, `0.001`)
+  - A list (`id = (12, 25, 392, 401, 939)`)
+  - A table
