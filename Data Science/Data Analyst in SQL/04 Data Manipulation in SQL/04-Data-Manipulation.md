@@ -210,3 +210,14 @@ FROM (SELECT column
   - Scalar quantities (`3.14158`, `-2`, `0.001`)
   - A list (`id = (12, 25, 392, 401, 939)`)
   - A table
+
+---
+
+<h6>Why subqueries?</h6>
+
+- Comparing groups to summarized values
+  - How did Liverpool compare to the English Premier League's average performance for that year?
+- Reshaping data
+  - What is the highest montly average of goals scored in the Bundesliga?
+- Combining data that connot be joined
+  - How do you get both the home and away team names into a table of match results?
