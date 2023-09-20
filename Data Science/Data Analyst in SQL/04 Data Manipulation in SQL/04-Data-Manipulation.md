@@ -181,3 +181,21 @@ GROUP BY season;
 | 2011/2012 |     0.75     |     0.5      |
 | 2011/2012 |     0.86     |     0.67     |
 | 2011/2012 |     0.94     |     0.67     |
+
+---
+
+## 2. Short and Simple subqueries
+
+### 2.1 Where are subquery?
+
+<h6>What is a subquery?</h6>
+
+- A query nested inside another query
+
+```sql
+SELECT column
+FROM (SELECT column
+      FROM table) AS subquery;
+```
+
+- Useful for intermediary transformations
