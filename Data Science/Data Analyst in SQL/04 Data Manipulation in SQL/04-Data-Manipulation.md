@@ -242,3 +242,20 @@ SELECT AVG(home_goal) FROM match;
 ```
 
 ---
+
+<h6>Subqueries in the WHERE clause</h6>
+
+- Whish matches in the 2012/2013 season scored home goals higher than overall average?
+
+```sql
+SELECT data, hometeam_id, awayteam_id, home_goal, away_goal
+FROM match
+WHERE season = '2012/2013'
+    AND home_goal > (SELECT AVG(home_goal)
+                     FROM match);
+```
+
+|    date    | hometeam_id | awayteam_id | home_goal | away_goal |
+| :--------: | :---------: | :---------: | :-------: | :-------: |
+| 2012-07-28 |    9998     |    1773     |     5     |     2     |
+| 2012-07-28 |    9987     |    9984     |     3     |     3     |
