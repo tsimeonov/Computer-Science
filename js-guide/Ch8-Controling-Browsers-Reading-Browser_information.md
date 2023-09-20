@@ -14,3 +14,8 @@ The `outerHeight` and `outerWidth` properties represent the height and width of 
 ## 8.2.2 Changing the size and posotion of a Browser window
 
 The `moveBy()` method can be used to move a browser window horizontally and vertically by a specified number of pixels, and the `moveTo()` methof can be used to move the window to a specific position. Via the `resizeBy()` method, you can scale a browser window by a certain factor, and via the `resizeTo()` methof you can scale to a certain size.
+
+## 8.2.3 Accessing Display information of the browser bars
+
+<img src="./img/structure of a browser window.png" width="500px" />
+Structure of a browser window
