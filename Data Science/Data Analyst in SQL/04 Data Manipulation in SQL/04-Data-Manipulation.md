@@ -259,3 +259,28 @@ WHERE season = '2012/2013'
 | :--------: | :---------: | :---------: | :-------: | :-------: |
 | 2012-07-28 |    9998     |    1773     |     5     |     2     |
 | 2012-07-28 |    9987     |    9984     |     3     |     3     |
+
+---
+
+<h6>Subquery filtering list with IN</h6>
+
+- Which teams are part of Poland's league?
+
+```sql
+SELECT
+    team_long_name,
+    team_short_name AS abbr
+FROM team
+WHERE
+    team_api_id IN
+    (SELECT hometeam_id
+    FROM match
+    WHERE country_id = 15722);
+```
+
+| team_long_name | abbr |
+| :------------: | :--: |
+|  Rucg Chorzow  | CHO  |
+|  Jagiellonia   | BIA  |
+
+---
