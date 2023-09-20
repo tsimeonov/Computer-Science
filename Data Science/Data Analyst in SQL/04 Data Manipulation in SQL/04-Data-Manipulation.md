@@ -221,3 +221,24 @@ FROM (SELECT column
   - What is the highest montly average of goals scored in the Bundesliga?
 - Combining data that connot be joined
   - How do you get both the home and away team names into a table of match results?
+
+---
+
+<h6>Simple subqueries</h6>
+
+- Can be evaluated independently from the outer query
+
+```sql
+SELECT home_goal
+FROM match
+WHERE home_goal > (
+    SELECT AVG(home_goal)
+    FROM match);
+SELECT AVG(home_goal) FROM match;
+```
+
+```sql
+1.560124214
+```
+
+---
