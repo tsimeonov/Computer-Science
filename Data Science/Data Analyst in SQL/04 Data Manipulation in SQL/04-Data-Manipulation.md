@@ -332,3 +332,12 @@ LIMIT 3;
 ---
 
 ### 2.2 Subqueries in SELECT
+
+<h6>SELECTing what?</h6>
+
+- Returns a single value
+  - Include aggregate values to compare to individual values
+- Used in mathematical calculations
+  - Deviation from the average
+
+---
