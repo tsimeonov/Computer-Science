@@ -359,3 +359,26 @@ GROUP BY season;
 | 2011/2012 |  3260   |     12837     |
 
 ---
+
+<h6>SELECT subqueries for mathematical calculations</h6>
+
+```sql
+SELECT AVG(home_goal + away_goal)
+FROM match
+WHERE season = '2011/2012'
+```
+
+```sql
+2.73
+```
+
+```sql
+SELECT
+  date,
+  (home_goal + away_goal) AS goals,
+  (home_goal + away_goal) - 2.72 AS diff
+FROM match
+WHERE season = '2011/2012';
+```
+
+---
