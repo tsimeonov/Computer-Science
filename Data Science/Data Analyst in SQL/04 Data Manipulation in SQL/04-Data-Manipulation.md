@@ -330,3 +330,5 @@ LIMIT 3;
   - Include a joining columns in both tables!
 
 ---
+
+### 2.2 Subqueries in SELECT
