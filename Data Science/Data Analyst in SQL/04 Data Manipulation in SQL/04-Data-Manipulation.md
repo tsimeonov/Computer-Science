@@ -382,3 +382,12 @@ WHERE season = '2011/2012';
 ```
 
 ---
+
+<h6>SELECT subqueries -- things to keep in mind</h6>
+
+- Need to rerurn a SINGLE value
+  - Will generate an error otherwise
+- Make sure you have all filters in the right place
+  - Properly filter both the main and the subquery!
+
+---
