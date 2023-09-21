@@ -74,4 +74,32 @@ let user = {
 };
 ```
 
-That is called a `trailing` or `hanging` comma. Makes it easier to add/remove/move around properties, because all lines become alike/
+That is called a `trailing` or `hanging` comma. Makes it easier to add/remove/move around properties, because all lines become alike.
+
+## 4.3 Square brackets
+
+For multiword properties, the dot access doesn't work:
+
+```js
+// this woul give a syntax error
+user.likes birds = true;
+```
+
+JS doesn't understand that. It thinks that we address user.likes, and then gives a syntax error when comes across unexpected `birds`.
+
+The dot requires the ky to be valid variable identifier. That implies: contains no spaces, doesn;t start with a digit and doesn't include special characters (`$` and `_` are allowed).
+
+There is an alternative "sqare bracket notation" that works with any string:
+
+```js
+let user = {};
+
+// set
+user["likes birds"] = true;
+
+// get
+alert(user["likes birds"]); // true;
+
+// delete
+delete user["likes birds"];
+```
