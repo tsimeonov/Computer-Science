@@ -296,3 +296,27 @@ WHERE
     2. Get the 3 highest of the `AVG` values
 
 ---
+
+<h6>...to main queries!</h6>
+
+```sql
+SELECT team, home_avg
+FROM (SELECT
+        t.team_long_name AS team,
+        AVG(m.home_goal) AS home_avg
+      FROM match AS m
+      LEFT JOIN team AS t
+      ON m.hometeam_id = t.team_api_id
+      WHERE season = '2011/2012'
+      GROUP BY team) AS subquery
+ORDER BY home_avg DESC
+LIMIT 3;
+```
+
+|     team     | home_avg |
+| :----------: | :------: |
+| FC Barcelona |  3.9321  |
+| Real Madrid  |  3.6543  |
+|     PSV      |  3.3434  |
+
+---
