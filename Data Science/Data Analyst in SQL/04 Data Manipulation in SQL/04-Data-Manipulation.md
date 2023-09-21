@@ -284,3 +284,15 @@ WHERE
 |  Jagiellonia   | BIA  |
 
 ---
+
+<h6>Subqueries in the FROM statement</h6>
+
+- Restructuring and transforming your data
+  - Transforming data from long to wide before selecting
+  - Prefiltering data
+- Calculating aggregates of aggregates
+  - Which 3 teams has the highest average of home goals scored?
+    1. Calcilate the `AVG` for each team
+    2. Get the 3 highest of the `AVG` values
+
+---
