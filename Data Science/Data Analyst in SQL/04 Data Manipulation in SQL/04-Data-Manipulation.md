@@ -341,3 +341,21 @@ LIMIT 3;
   - Deviation from the average
 
 ---
+
+<h6>Subqueries in SELECT</h6>
+
+```sql
+SELECT
+  season,
+  COUNT(id) AS matches,
+  (SELECT COUNT(id) FROM match) AS total_matches
+FROM match
+GROUP BY season;
+```
+
+|  season   | matches | total_matches |
+| :-------: | :-----: | :-----------: |
+| 2011/2012 |  3200   |     12837     |
+| 2011/2012 |  3260   |     12837     |
+
+---
