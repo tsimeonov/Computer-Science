@@ -320,3 +320,13 @@ LIMIT 3;
 |     PSV      |  3.3434  |
 
 ---
+
+<h6>Things to remember</h6>
+
+- You can create multiple subqueries in one `FROM` statement
+- Alias them!
+- Join them!
+- You can join a sunquery to a table in `FROM`
+  - Include a joining columns in both tables!
+
+---
