@@ -394,4 +394,8 @@ WHERE season = '2011/2012';
 
 ### 2.3 Subqueries everywhere! And best practices!
 
-<h6>As </h6>
+<h6>As many subqueries as you want...</h6>
+
+- Can include multiple subqueries in `SELECT`, `FROM`, `WHERE`
+
+---
