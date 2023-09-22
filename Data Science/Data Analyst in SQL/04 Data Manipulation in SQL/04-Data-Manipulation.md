@@ -412,3 +412,20 @@ SELECT
 FROM table1
 WHERE col1 = 2;
 ```
+
+---
+
+<h6>Annotate yuor queries</h6>
+
+```sql
+-- This query filters fro col1 = 2
+-- and only selects data from tabel1
+SELECT
+  col1,
+  col2,
+  col3
+FROM table1
+WHERE col1 = 2;
+```
+
+---
