@@ -76,6 +76,8 @@ let user = {
 
 That is called a `trailing` or `hanging` comma. Makes it easier to add/remove/move around properties, because all lines become alike.
 
+---
+
 ## 4.1.2 Square brackets
 
 For multiword properties, the dot access doesn't work:
@@ -103,3 +105,5 @@ alert(user["likes birds"]); // true;
 // delete
 delete user["likes birds"];
 ```
+
+---
