@@ -399,3 +399,16 @@ WHERE season = '2011/2012';
 - Can include multiple subqueries in `SELECT`, `FROM`, `WHERE`
 
 ---
+
+<h6>Format your queries</h6>
+
+- Line up `SELECT`, `FROM`, `WHERE` and `GROUP BY`
+
+```sql
+SELECT
+  col1,
+  col2,
+  col3
+FROM table1
+WHERE col1 = 2;
+```
