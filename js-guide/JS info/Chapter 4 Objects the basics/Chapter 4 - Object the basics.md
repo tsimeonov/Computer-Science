@@ -110,7 +110,7 @@ delete user["likes birds"];
 
 ## 4.1.3 Property value shorthand
 
-In real code, we often use existing variables as vakues for property names.
+In real code, we often use existing variables as values for property names.
 
 ```js
 function makeUser(name, age) {
@@ -147,3 +147,5 @@ let user = {
   age: 30,
 };
 ```
+
+---
