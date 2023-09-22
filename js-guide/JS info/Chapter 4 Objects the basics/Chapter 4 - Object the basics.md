@@ -9,7 +9,7 @@ let user = new Object(); // "object constructor" syntax
 let user = {}; // "object literal" syntax
 ```
 
-## 4.2 Literals and properties
+## 4.1.1 Literals and properties
 
 ```js
 ket user = {        // an object
@@ -76,7 +76,7 @@ let user = {
 
 That is called a `trailing` or `hanging` comma. Makes it easier to add/remove/move around properties, because all lines become alike.
 
-## 4.3 Square brackets
+## 4.1.2 Square brackets
 
 For multiword properties, the dot access doesn't work:
 
