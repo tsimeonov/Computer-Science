@@ -391,3 +391,7 @@ WHERE season = '2011/2012';
   - Properly filter both the main and the subquery!
 
 ---
+
+### 2.3 Subqueries everywhere! And best practices!
+
+<h6>As </h6>
