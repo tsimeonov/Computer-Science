@@ -415,7 +415,7 @@ WHERE col1 = 2;
 
 ---
 
-<h6>Annotate yuor queries</h6>
+<h6>Annotate your queries</h6>
 
 ```sql
 -- This query filters fro col1 = 2
@@ -427,5 +427,14 @@ SELECT
 FROM table1
 WHERE col1 = 2;
 ```
+
+---
+
+<h6>Is that subquery necessary?</h6>
+
+- Subqueries require computing power
+  - How big is your database?
+  - How big is the table you're querying from?
+- Is the subquery actually necessary?
 
 ---
