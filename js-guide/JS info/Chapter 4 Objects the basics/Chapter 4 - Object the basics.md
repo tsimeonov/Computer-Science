@@ -107,3 +107,43 @@ delete user["likes birds"];
 ```
 
 ---
+
+## 4.1.3 Property value shorthand
+
+In real code, we often use existing variables as vakues for property names.
+
+```js
+function makeUser(name, age) {
+  return {
+    name: name,
+    age: age,
+    // ....other properties
+  };
+}
+
+let user = makeuser("John", 30);
+alert(user.name); // John
+```
+
+In the example above, properties have the same names as variables. The use-case of making a property from a variable is so common, that there's a special value shorthand to make it shorter.
+
+Instead of `name:name` we can just write `name`, like this:
+
+```js
+function makeUser(name, age) {
+  return {
+    name, // same as name:name
+    age, // same as age:age
+    // ....
+  };
+}
+```
+
+We can use both normal properties and shorthand in the same object:
+
+```js
+let user = {
+  name, // same as name:name
+  age: 30,
+};
+```
