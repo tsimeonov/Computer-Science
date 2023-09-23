@@ -150,7 +150,7 @@ let user = {
 
 ---
 
-## 4.1.4 Propery names limitations
+## 4.1.4 Property names limitations
 
 As we already know, a variable cannot have a name equal to one of the language-reserved words like "for", "let", "return" etc.
 
@@ -163,6 +163,37 @@ let obj = {
 };
 
 alert(obj.for + obj.let + obj.return);
+```
+
+---
+
+## 4.1.5 Property existence test, "in" operator
+
+A notable feature of objects in JS, is that it's possible to access any property. There will be no error if the property doesn't exist!
+
+Reading a non-existing property just returns `undefinded`.
+
+```js
+let user = {};
+
+alert(user.noSuchProperty === undefined); // true means "no such property"
+```
+
+There is a specicial operator `"in"` for that.
+
+The syntax is
+
+```js
+"key" in object;
+```
+
+For example:
+
+```js
+let user = { age: 30 };
+
+let age = "age";
+alert(key in user); // true, property "age" exists
 ```
 
 ---
