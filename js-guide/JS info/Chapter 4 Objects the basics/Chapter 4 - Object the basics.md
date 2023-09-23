@@ -151,3 +151,18 @@ let user = {
 ---
 
 ## 4.1.4 Propery names limitations
+
+As we already know, a variable cannot have a name equal to one of the language-reserved words like "for", "let", "return" etc.
+
+```js
+// These properties are all right
+let obj = {
+  for: 1,
+  let: 2,
+  return: 3,
+};
+
+alert(obj.for + obj.let + obj.return);
+```
+
+---
