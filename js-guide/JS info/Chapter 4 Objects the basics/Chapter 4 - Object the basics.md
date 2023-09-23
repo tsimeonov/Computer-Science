@@ -149,3 +149,5 @@ let user = {
 ```
 
 ---
+
+## 4.1.4 Propery names limitations
