@@ -226,3 +226,57 @@ for (let key in user) {
 ```
 
 ---
+
+<h6>Ordered like an object</h6>
+
+Are objects ordered?
+The short answer is: "ordered in a special fashion": integer properties are sorted, others appear in creation order.
+
+As an example, let's consider an object withe the phone codes:
+
+```js
+let codes = {
+  49: "Germany",
+  41: "Switzerland",
+  44: "Great Britain",
+  //.....
+  1: "USA",
+};
+
+for (let code in codes) {
+  alert(code); // 1, 41, 44, 49
+}
+```
+
+... On the other hand, if the keys are non-integer, then they are listed in the creation order
+
+```js
+let user = {
+  name: "John",
+  surname: "Smith",
+};
+user.age = 25; // add one more
+
+// non-integer properties are listed in the creation order
+for (let prop in user) {
+  alert(prop); // name, surname, age
+}
+```
+
+So to fix the issue with the phone codes, we can "cheat" by making the coeds the non-integer. Adding a `"+"` sign before each code is enough.
+
+```js
+let codes = {
+  "+49": "Germany",
+  "+41": "Switzerland",
+  "+44": "Great Britain",
+  // ..,
+  "+1": "USA",
+};
+
+for (let code in codes) {
+  alert(+code); // 49, 41, 44, 1
+}
+```
+
+---
