@@ -7,3 +7,7 @@
 <h6>What is programming? What is p5.js</h6>
 
 Commands are the smallest building blocks of your program.
+
+---
+
+<h6>Running your first program with Brackets</h6>
