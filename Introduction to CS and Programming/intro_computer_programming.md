@@ -17,3 +17,11 @@ Commands are the smallest building blocks of your program.
 <h6>Learn by hacking</h6>
 
 ---
+
+<h6>2D coordinate systems</h6>
+
+Computer screens are made up of tiny dots.
+These dots are called pixels.
+The pixels are arrabged into a grid.
+
+---
