@@ -27,3 +27,5 @@ The pixels are arrabged into a grid.
 ---
 
 ### 1.2 Code Philosophy
+
+### 1.3 Getting starting with Sleuth
