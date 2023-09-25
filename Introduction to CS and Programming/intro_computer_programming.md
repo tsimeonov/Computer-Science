@@ -25,3 +25,5 @@ These dots are called pixels.
 The pixels are arrabged into a grid.
 
 ---
+
+### 1.2 Code Philosophy
