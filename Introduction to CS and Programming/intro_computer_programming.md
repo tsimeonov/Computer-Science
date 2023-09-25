@@ -11,3 +11,9 @@ Commands are the smallest building blocks of your program.
 ---
 
 <h6>Running your first program with Brackets</h6>
+
+---
+
+<h6>Learn by hacking</h6>
+
+---
