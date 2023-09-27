@@ -33,3 +33,7 @@ The pixels are arrabged into a grid.
 ## Week 2
 
 ### Lesson 2.1 Drawing functions
+
+<h6>RGB colours</h6>
+
+---
