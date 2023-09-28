@@ -37,3 +37,7 @@ The pixels are arrabged into a grid.
 <h6>RGB colours</h6>
 
 ---
+
+<h6>Fill, stroke, noFill</h6>
+
+---
