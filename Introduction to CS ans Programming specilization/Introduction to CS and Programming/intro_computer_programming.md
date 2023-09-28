@@ -41,3 +41,7 @@ The pixels are arrabged into a grid.
 <h6>Fill, stroke, noFill</h6>
 
 ---
+
+<h6>setup, dwaw and programme flow</h6>
+
+---
