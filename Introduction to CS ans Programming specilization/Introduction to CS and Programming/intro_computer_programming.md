@@ -42,6 +42,11 @@ The pixels are arrabged into a grid.
 
 ---
 
-<h6>setup, dwaw and programme flow</h6>
+<h6>setup, draw and programme flow</h6>
+
+---
+
+<h6>Shapes: ellipse, rectangle, line, triangle, point
+</h6>
 
 ---
