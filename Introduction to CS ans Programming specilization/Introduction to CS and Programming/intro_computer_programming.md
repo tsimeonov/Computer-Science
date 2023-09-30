@@ -50,3 +50,5 @@ The pixels are arrabged into a grid.
 </h6>
 
 ---
+
+### Lesson 2.2 The console and debugging
