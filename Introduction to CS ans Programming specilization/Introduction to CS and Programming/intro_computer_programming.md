@@ -56,3 +56,7 @@ The pixels are arrabged into a grid.
 <h6>How to access and use the consolde to view errors</h6>
 
 ---
+
+<h6>Debugging syntax errors</h6>
+
+---
