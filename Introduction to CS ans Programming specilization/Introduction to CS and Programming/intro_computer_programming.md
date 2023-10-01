@@ -69,6 +69,8 @@ The pixels are arrabged into a grid.
 
 ## Week 3
 
+### Lesson 3.1 Interactionwith built in variables and events
+
 <h6>Built-in variables: mouseX, mouseY</h6>
 
 ---
