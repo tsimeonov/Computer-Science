@@ -80,3 +80,7 @@ The pixels are arrabged into a grid.
 ---
 
 ### Lesson 3.2 User-defined variables and objects
+
+<h6>Create you own variables: var, initialising and assigning</h6>
+
+---
