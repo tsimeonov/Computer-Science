@@ -84,3 +84,14 @@ The pixels are arrabged into a grid.
 <h6>Create you own variables: var, initialising and assigning</h6>
 
 ---
+
+<h6>Tips for naming variables</h6>
+
+- avoid keywords
+- avoid long variable names
+- avoid abstract names
+- use camelCasing
+- use underscoring
+- combine both examples
+
+---
