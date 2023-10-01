@@ -60,3 +60,5 @@ The pixels are arrabged into a grid.
 <h6>Debugging syntax errors</h6>
 
 ---
+
+### Lesson 2.3 Asking for help
