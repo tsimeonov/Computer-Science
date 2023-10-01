@@ -95,3 +95,7 @@ The pixels are arrabged into a grid.
 - combine both examples
 
 ---
+
+<h6>Objects</h6>
+
+---
