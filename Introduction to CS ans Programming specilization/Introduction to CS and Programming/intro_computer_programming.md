@@ -72,3 +72,7 @@ The pixels are arrabged into a grid.
 <h6>Built-in variables: mouseX, mouseY</h6>
 
 ---
+
+<h6>Built-in Events: mousePressed, keyPressed</h6>
+
+---
