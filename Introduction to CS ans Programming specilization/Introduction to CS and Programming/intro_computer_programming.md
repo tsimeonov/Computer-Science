@@ -30,6 +30,8 @@ The pixels are arrabged into a grid.
 
 ### 1.3 Getting starting with Sleuth
 
+---
+
 ## Week 2
 
 ### Lesson 2.1 Drawing functions
@@ -62,3 +64,7 @@ The pixels are arrabged into a grid.
 ---
 
 ### Lesson 2.3 Asking for help
+
+---
+
+## Week 3
