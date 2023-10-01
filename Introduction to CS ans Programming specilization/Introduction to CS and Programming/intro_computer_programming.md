@@ -52,3 +52,7 @@ The pixels are arrabged into a grid.
 ---
 
 ### Lesson 2.2 The console and debugging
+
+<h6>How to access and use the consolde to view errors</h6>
+
+---
