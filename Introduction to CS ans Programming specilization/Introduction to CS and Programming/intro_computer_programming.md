@@ -68,3 +68,7 @@ The pixels are arrabged into a grid.
 ---
 
 ## Week 3
+
+<h6>Built-in variables: mouseX, mouseY</h6>
+
+---
