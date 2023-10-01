@@ -69,7 +69,7 @@ The pixels are arrabged into a grid.
 
 ## Week 3
 
-### Lesson 3.1 Interactionwith built in variables and events
+### Lesson 3.1 Interaction with built in variables and events
 
 <h6>Built-in variables: mouseX, mouseY</h6>
 
@@ -78,3 +78,5 @@ The pixels are arrabged into a grid.
 <h6>Built-in Events: mousePressed, keyPressed</h6>
 
 ---
+
+### Lesson 3.2 User-defined variables and objects
