@@ -12,6 +12,10 @@
 
 <h6>Abstraction</h6>
 
-Abstraction - a representation of key features, without unnecessary details.
+Abstraction - a simplified representaion or way of thinking about a piece of software ot other computing technology.
+
+---
+
+<h6>Abstraction in data representations</h6>
 
 ---
