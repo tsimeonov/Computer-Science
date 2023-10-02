@@ -103,3 +103,9 @@ The pixels are arrabged into a grid.
 <h6>Working with operators</h6>
 
 ---
+
+<h6>Mathematical functions: random, min, max</h6>
+
+---
+
+### Lesson 3.3 Working with variables
