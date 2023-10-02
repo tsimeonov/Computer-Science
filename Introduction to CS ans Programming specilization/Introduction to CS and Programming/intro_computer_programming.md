@@ -99,3 +99,7 @@ The pixels are arrabged into a grid.
 <h6>Objects</h6>
 
 ---
+
+<h6>Working with operators</h6>
+
+---
