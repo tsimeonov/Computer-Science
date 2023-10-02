@@ -109,3 +109,7 @@ The pixels are arrabged into a grid.
 ---
 
 ### Lesson 3.3 Working with variables
+
+<h6>Inspecting variables in the console</h6>
+
+---
