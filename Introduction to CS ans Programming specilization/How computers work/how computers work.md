@@ -16,6 +16,12 @@ Abstraction - a simplified representaion or way of thinking about a piece of sof
 
 ---
 
-<h6>Abstraction in data representations</h6>
+#### Lesson 1.1.2 Abstraction in data representations
+
+---
+
+#### Lesson 1.1.3 Notional machines
+
+A notional machine is a simpified version of how computer program works.
 
 ---
