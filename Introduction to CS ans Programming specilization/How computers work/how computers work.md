@@ -51,3 +51,7 @@ A notional machine is a simpified version of how computer program works.
 #### 2.1.7 Why does turning it off and on again work?
 
 ---
+
+### Lesson 2.2 Modularity and applications
+
+---
