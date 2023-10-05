@@ -25,3 +25,7 @@ Abstraction - a simplified representaion or way of thinking about a piece of sof
 A notional machine is a simpified version of how computer program works.
 
 ---
+
+#### Lesson 1.1.5 CPU and memory
+
+---
