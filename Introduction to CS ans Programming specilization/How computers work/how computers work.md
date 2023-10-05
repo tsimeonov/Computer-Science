@@ -29,3 +29,5 @@ A notional machine is a simpified version of how computer program works.
 #### Lesson 1.1.5 CPU and memory
 
 ---
+
+## Week 2
