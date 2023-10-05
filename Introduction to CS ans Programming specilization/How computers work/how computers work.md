@@ -34,4 +34,12 @@ A notional machine is a simpified version of how computer program works.
 
 ### Lesson 2.1 State
 
+---
+
 #### 2.1.1 The deep secret of computer science
+
+---
+
+#### 2.1.3 State
+
+---
