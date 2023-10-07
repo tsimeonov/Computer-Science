@@ -73,3 +73,5 @@ Data - an additional code file that supports an application.
 #### Lesson 2.2.6 Debugging
 
 ---
+
+## Week 3
