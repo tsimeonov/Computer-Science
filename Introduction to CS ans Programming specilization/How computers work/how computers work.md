@@ -63,3 +63,9 @@ A notional machine is a simpified version of how computer program works.
 #### Lesson 2.2.3 Modularity
 
 ---
+
+#### Lesson 2.2.4 Applications
+
+Data - an additional code file that supports an application.
+
+---
