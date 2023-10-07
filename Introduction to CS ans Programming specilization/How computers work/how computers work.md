@@ -75,3 +75,5 @@ Data - an additional code file that supports an application.
 ---
 
 ## Week 3
+
+### 3.1.1 Networks
