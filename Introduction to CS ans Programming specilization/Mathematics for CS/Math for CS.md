@@ -8,6 +8,8 @@
 
 ---
 
-##### 1. Overview of using Numerical Mathematics in Computing
+##### 01. Overview of using Numerical Mathematics in Computing
 
 ---
+
+#### Lesson 1.0 Introduction to number bases and modular arithmetic
