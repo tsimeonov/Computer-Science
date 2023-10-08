@@ -113,3 +113,7 @@ The encryption process has two elements. One is the algorithm itself. An encrypt
 #### 4.1.1 Websites
 
 ---
+
+#### 4.1.2 Networks and the Web
+
+---
