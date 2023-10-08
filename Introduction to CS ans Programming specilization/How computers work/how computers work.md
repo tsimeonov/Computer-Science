@@ -129,3 +129,7 @@ The encryption process has two elements. One is the algorithm itself. An encrypt
 #### 4.1.5 Clients and servers
 
 ---
+
+#### 4.1.6 Embedding and APIs
+
+---
