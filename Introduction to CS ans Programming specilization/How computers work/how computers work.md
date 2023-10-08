@@ -89,3 +89,5 @@ The languages used for network communication are colled protocols.
 A router connects together two networks, forwarding messages from one network to the other.
 
 ---
+
+## 3.2.1 Security threats
