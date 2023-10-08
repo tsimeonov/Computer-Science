@@ -96,8 +96,12 @@ A router connects together two networks, forwarding messages from one network to
 
 ---
 
-#### 3.2.2 Encryption
+#### 3.2.3 Encryption
 
 The encryption process has two elements. One is the algorithm itself. An encryption algorithm is a series of mathematical operations that converts text into another form. In the case of Caesar's code, the algorithm is the idea of shifting letters of the alphabet. The second part is something called a key. This is normally a number that controls how the encryption algorithm works.
+
+---
+
+#### 3.3.4 Security defences
 
 ---
