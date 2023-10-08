@@ -105,3 +105,5 @@ The encryption process has two elements. One is the algorithm itself. An encrypt
 #### 3.3.4 Security defences
 
 ---
+
+## Week 4
