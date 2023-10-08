@@ -90,4 +90,8 @@ A router connects together two networks, forwarding messages from one network to
 
 ---
 
-## 3.2.1 Security threats
+### 3.2 Security threats
+
+#### 3.2.1 Security threats
+
+---
