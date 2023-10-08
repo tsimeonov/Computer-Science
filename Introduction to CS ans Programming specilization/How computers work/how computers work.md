@@ -76,8 +76,16 @@ Data - an additional code file that supports an application.
 
 ## Week 3
 
-### 3.1.1 Networks
+### Lessin 3.1 Networs
+
+#### 3.1.1 Networks
 
 The languages used for network communication are colled protocols.
+
+---
+
+#### 3.1.2 The internet
+
+A router connects together two networks, forwarding messages from one network to the other.
 
 ---
