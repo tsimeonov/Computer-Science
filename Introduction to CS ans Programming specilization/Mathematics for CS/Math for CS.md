@@ -6,7 +6,7 @@
 
 #### Lesson 0 Introduction
 
-##### 01. Overview of using Numerical Mathematics in Computing
+<h6>Overview of using Numerical Mathematics in Computing</h6>
 
 ---
 
@@ -17,3 +17,7 @@ Steganography - hiding secret information within a public non-secret imge or tex
 ---
 
 #### Lesson 1.1 Number bases
+
+<h6>Introduction to number bases</h6>
+
+---
