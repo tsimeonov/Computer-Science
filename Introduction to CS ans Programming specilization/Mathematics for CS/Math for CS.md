@@ -21,3 +21,7 @@ Steganography - hiding secret information within a public non-secret imge or tex
 <h6>Introduction to number bases</h6>
 
 ---
+
+<h6>Place value for integers: binary to decimal</h6>
+
+---
