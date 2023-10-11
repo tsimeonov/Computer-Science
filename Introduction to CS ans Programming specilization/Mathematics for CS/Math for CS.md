@@ -25,3 +25,15 @@ Steganography - hiding secret information within a public non-secret imge or tex
 <h6>Place value for integers: binary to decimal</h6>
 
 ---
+
+<h6>Place value for integers: decimal to binary</h6>
+
+---
+
+<h6>Place value for fractional numbers: binary</h6>
+
+---
+
+<h6>Rational and irrational numbers: decimal and binary</h6>
+
+---
