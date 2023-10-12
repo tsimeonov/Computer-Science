@@ -44,6 +44,10 @@ Steganography - hiding secret information within a public non-secret imge or tex
 
 ---
 
+<h6>Subtraction in binary</h6>
+
+---
+
 12.56 = 314/25
 12.333 = 37/3
 0.0011
