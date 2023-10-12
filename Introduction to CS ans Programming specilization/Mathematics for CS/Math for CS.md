@@ -37,3 +37,13 @@ Steganography - hiding secret information within a public non-secret imge or tex
 <h6>Rational and irrational numbers: decimal and binary</h6>
 
 ---
+
+#### Lesson 1.2 Arithmetic in binary
+
+12.56 = 314/25
+12.333 = 37/3
+0.0011
+
+1. 'yes,314,25' is correct
+2. 'yes,37,37' is correct
+3. 0.(0011)
