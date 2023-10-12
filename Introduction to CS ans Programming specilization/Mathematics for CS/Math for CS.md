@@ -40,6 +40,10 @@ Steganography - hiding secret information within a public non-secret imge or tex
 
 #### Lesson 1.2 Arithmetic in binary
 
+<h6>Addition in binary</h6>
+
+---
+
 12.56 = 314/25
 12.333 = 37/3
 0.0011
