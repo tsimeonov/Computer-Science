@@ -48,10 +48,6 @@ Steganography - hiding secret information within a public non-secret imge or tex
 
 ---
 
-12.56 = 314/25
-12.333 = 37/3
-0.0011
+<h6>Multiplication in binary</h6>
 
-1. 'yes,314,25' is correct
-2. 'yes,37,37' is correct
-3. 0.(0011)
+---
