@@ -51,3 +51,7 @@ Steganography - hiding secret information within a public non-secret imge or tex
 <h6>Multiplication in binary</h6>
 
 ---
+
+### Week 2
+
+---
