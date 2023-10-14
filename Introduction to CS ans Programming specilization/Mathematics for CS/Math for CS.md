@@ -55,3 +55,5 @@ Steganography - hiding secret information within a public non-secret imge or tex
 ### Week 2
 
 ---
+
+#### Lesson 2.1 Octal and hexadecimal
