@@ -43,3 +43,10 @@ export default function App() {
 </details>
 
 ---
+
+<h5>Render a simple list component</h5>
+
+JSX -> Syntax extension for React
+Component -> function that returns a JSX
+
+---
