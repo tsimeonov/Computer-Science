@@ -69,3 +69,56 @@ alert(a == b); // false
 ```
 
 ---
+
+### Chapter 4.3 Cloning and merginf, Object.assign
+
+Object can be duplicated by iterating over its properties and copying them on the primitive level.
+
+```js
+let user = {
+  name: "John",
+  age: 30,
+};
+
+let clone = {}; // the new empty object
+
+// let's copy all user properties into it
+for (let key in user) {
+  clone[key] = user[key];
+}
+
+// now clone is a fully independent object with the same content
+clone.name = "Pete"; // changed the data in it
+
+alert(user.name); // still John in the original object
+```
+
+We can also use the method `Object.assign`
+
+The syntax is:
+
+```js
+Object.assign(dest, ...sources);
+```
+
+- The first argument `dest` is a target object.
+- Further arguments is a list of source objects.
+
+It copies the properties of all source objects into the target `dest`, and then returns it as the result.
+
+```js
+let user = { name: "John" };
+
+let permissions1 = { canView: true };
+let permissions2 = { canEdit: true };
+
+// copies all properties from permissions1 and permissions2 into user
+Object.assign(user, permissions1, permissions2);
+
+// now user = {name: "John", canView: true, canEdit: true}
+alert(user.name); // John
+alert(user.canView); // true
+alert(user.canEdit); // true
+```
+
+---
