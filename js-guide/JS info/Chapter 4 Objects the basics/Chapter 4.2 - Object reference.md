@@ -42,3 +42,30 @@ let admin = user; // copy the reference
 <img src="../img/multiple objects.png" width="450px"/>
 
 As you can see, there's still one object, but now with variables that reference it.
+
+---
+
+### Chapter 4.2.2 Comparison by reference
+
+Two objects are equal only if they are the same object.
+
+For instance, here `a` and `b` reference the same object, thus they are equal:
+
+```js
+let a = {};
+let b = a; // copy the reference
+
+alert(a == b); // true, both variables reference the same object
+alert(a === b); // true
+```
+
+And here two independent objects are not equal, even though they look alike (bot are empty)
+
+```js
+let a = {};
+let b = {}; // two independent objects
+
+alert(a == b); // false
+```
+
+---
