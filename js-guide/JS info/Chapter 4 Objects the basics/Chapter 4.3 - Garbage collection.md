@@ -60,3 +60,34 @@ user = null;
 ```
 
 ...Then the object is still reachable via `admin` global vatiable, so it must stay in memory. If we overwritte `admin` too, then it can be removed.
+
+## 4.3.4 Interlinked objects
+
+No a more complex example. The family:
+
+```js
+function marry(man, woman) {
+  woman.husband = man;
+  man.wife = woman;
+
+  return {
+    father: man,
+    mother: woman,
+  };
+}
+
+let family = marry(
+  {
+    name: "John",
+  },
+  {
+    name: "Ann",
+  }
+);
+```
+
+Function `marty` "marries" two objects by giving them references to each other and returns a new object that contains them both.
+
+The resulting memory structure:
+
+<img src="../img/interlinked objects.png"/>
