@@ -90,4 +90,15 @@ Function `marty` "marries" two objects by giving them references to each other a
 
 The resulting memory structure:
 
-<img src="../img/interlinked objects.png"/>
+<img src="../img/interlinked objects.png" width="400px"/>
+
+As of now, all objects are reachable.
+
+Now let's remove two references:
+
+```js
+delete family.father;
+delete family.mother.husband;
+```
+
+<img src="../img/remove reference.png" width="400px"/>
