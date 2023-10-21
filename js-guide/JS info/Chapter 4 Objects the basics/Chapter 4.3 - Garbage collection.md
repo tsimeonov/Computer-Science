@@ -102,3 +102,10 @@ delete family.mother.husband;
 ```
 
 <img src="../img/remove reference.png" width="400px"/>
+
+It's not enough to delete only one of these two references, because all objects would still be reachable.
+But if we delete both, then we can see that John has no incomming reference any more:
+
+<img src="../img/remove reference 2.png" width="450px"/>
+
+Outgoing references do not matter. Only incoming ones can make an object reachable. So John is now unreachable and will be removed from the memory with all its data that also beecame unaccessible.
