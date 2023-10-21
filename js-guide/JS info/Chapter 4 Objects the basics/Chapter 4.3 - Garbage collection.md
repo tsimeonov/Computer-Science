@@ -23,7 +23,7 @@ let user = {
 };
 ```
 
-<img src="./img/a_simple_example.png" width="200px"/>
+<img src="../img/a_simple_example.png" width="200px"/>
 
 Here thearrow depicts an object reference. The global variable `"user"` references the object `{name" "John"}`.
 
@@ -33,7 +33,7 @@ If the value of `user` is overwritten, the reference is lost:
 user = null;
 ```
 
-<img src="./img/a simple example 2.png" width="250px"/>
+<img src="../img/a simple example 2.png" width="250px"/>
 
 Now John becomes unreachable. There's no way to access it, no reference to it.
 Garbage collector will junk the data and free the memory.
