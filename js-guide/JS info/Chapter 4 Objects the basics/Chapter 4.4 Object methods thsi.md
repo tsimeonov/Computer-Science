@@ -37,3 +37,25 @@ Then we can call it as `user.sayHi()`. The user can now speak!
 A function that is a property of an object is called its method.
 
 So, here we've got a method `sayHi` of the object `user`.
+
+## 4.4.3 Method shorthand
+
+There exists a shorter syntax for methods in an object literal:
+
+```js
+user = {
+  sayHi: function () {
+    alert("Hello");
+  },
+};
+
+// method shorthand looks better, right?
+user = {
+  sayHi() {
+    // same as "sayHi: function () {......}"
+    alert("Hello");
+  },
+};
+```
+
+As demonstrated, we can omit `"function"` and just write `sayHi()`
