@@ -59,3 +59,25 @@ user = {
 ```
 
 As demonstrated, we can omit `"function"` and just write `sayHi()`
+
+## 4.4.4 "this" in method
+
+It's comman that ab object method needs to access the information stored in the object to do its job.
+
+`To access the object, a method can use the "this" keyword`.
+
+```js
+let user = {
+  name: "John",
+  age: 30,
+
+  sayHi() {
+    // "this" is the "current object"
+    alert(this.name);
+  },
+};
+
+user.sayHi(); // John
+```
+
+Here during the execution of `user.sayHi()`, the value of `this` will be `user`
