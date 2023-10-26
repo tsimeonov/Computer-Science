@@ -81,3 +81,21 @@ user.sayHi(); // John
 ```
 
 Here during the execution of `user.sayHi()`, the value of `this` will be `user`
+
+### 4.4.5 Arrow functions have no "this"
+
+Arrow functions are special: thy don't have their "own" `this`.
+If we reference `this` from such a function, it's taken from outer "normal" function.
+For instance, here `arrow()` uses `this` from the outer `user.sayHi()` method.
+
+```js
+let user = {
+  firstName: "Ilya",
+  sayHi() {
+    let arrow = () => alert(this.firstName);
+    arrow();
+  },
+};
+
+user.sayHi(); // Ilya
+```
