@@ -49,3 +49,28 @@ let user = {
   isAdmin: false,
 };
 ```
+
+### 4.5.2 Methods in constructor
+
+Using constructor functions to create objects gives a great deal of flexibility. The constructor function may have parameters that define how to construct the object, and waht to put in it.
+Of course, we can add to `this` not only properties, but methods as well.
+For instance, `new User(name)` below creates an object with the given `name` and the method `sayHi`
+
+```js
+function User(name) {
+  this.name = name;
+
+  this.sayHi = function () {
+    alert("My name is: " + this.name);
+  };
+}
+
+let john = new User("John");
+
+john.sayHi(); // my name is: John
+
+// john = {
+//   name: "John",
+//   sayHi: function() {....}
+// }
+```
