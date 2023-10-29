@@ -76,3 +76,20 @@ AND’ing the whole path to the property ensures that all components exist (if n
 As you can see, property names are still duplicated in the code. E.g. in the code above, `user.address` appears three times.
 
 That’s why the optional chaining `?.` was added to the language. To solve this problem once and for all!
+
+### 4.6.2 Optional chaining
+
+The optional chaining `?.` stops the evaluation if the value before `?.` is `undefined` or `null` and returns `undefined`.
+
+In other words, `value?.prop`:
+
+- works as `value.prop`, if `value` exists.
+- otherwise (when `value` is `undefined/null`) it returns `undefined`.
+
+Here's the safe way to access `user.address.street` using `?.`
+
+```js
+let user = {}; // user has no address
+
+alert(user?.address?.street); // undefined (no error)
+```
