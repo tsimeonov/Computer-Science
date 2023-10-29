@@ -144,3 +144,14 @@ let user2 = null;
 alert(user1?.[key]); // John
 alert(user2?.[key]); // undefined
 ```
+
+### 4.6.5 Summary
+
+The optional chaining `?.` syntax has three forms:
+
+1. `obj?.prop` - returns `onj.prop` if `obj` exists, otherwise `undefined`.
+2. `obj?.[prop]` - returns `obj[prop]` if `obj` exists, otherwise `undefined`.
+3. `obj.method?.()` - calls `obj.method()` if `onj.method` exists, otherwise returns `undefined`.
+
+As we can see, all of them are straightforward and simple to use. The `?.` checjs the left part for `null/undefined` and allows the evaluation to proceed if it's not so.
+A chain of `?.` aloows to safelt access nested properties.
