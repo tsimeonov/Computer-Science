@@ -108,3 +108,39 @@ user?.sayHi(x++); // no "user", so the execution doesn't reach sayHi call and x+
 
 alert(x); // 0, value not incremented
 ```
+
+### 4.6.4 Other variants: ?.(), ?.[]
+
+The optional chaining `?.` is not an operator, but a special syntax construct, that also works with functions and square brackets.
+
+For example, `?.()` is used to call a function that may not exist.
+
+In the code below, some of our users have `admin` method, and some don't:
+
+```js
+let userAdmin = {
+  admin() {
+    alert("I am admin");
+  },
+};
+
+let userGuest = {};
+
+userAdmin.admin?.(); // I am admin
+userGuest.admin?.(); // nothing happens (no such method)
+```
+
+The `?.[]` syntax also works, if we'd like to use brackets `[]` to access properties instead of `.`. Similar to previous case, it allows to safely read a property from an object that may not exist.
+
+```js
+let key = "firstName";
+
+let user1 = {
+  firstName: "John",
+};
+
+let user2 = null;
+
+alert(user1?.[key]); // John
+alert(user2?.[key]); // undefined
+```
