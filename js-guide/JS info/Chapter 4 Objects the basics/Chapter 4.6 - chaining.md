@@ -93,3 +93,18 @@ let user = {}; // user has no address
 
 alert(user?.address?.street); // undefined (no error)
 ```
+
+### 4.6.3 Short-circuiting
+
+As it was said before, the `?.` immediately stops ("short-circuits") tje evaluation if the left part doens't exist.
+
+So, if there are any further calls or operations to the right of `?.`, they won't be made.
+
+```js
+let user = null;
+let x = 0;
+
+user?.sayHi(x++); // no "user", so the execution doesn't reach sayHi call and x++
+
+alert(x); // 0, value not incremented
+```
