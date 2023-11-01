@@ -32,3 +32,27 @@ let id2 = Symbol("id");
 
 alert(id1 === id2); // false
 ```
+
+### 4.7.2 "Hidden" properties
+
+Symbols allow us to create "hidden" properties of an object, that no other part of code can accidentally access or overwrite.
+
+For instance, if we're working with `user` objects, that belongs to a third-party code.
+We'd like to add identifiers to them.
+
+```js
+let user = {
+  // belongs to another code
+  name: "John",
+};
+
+let id = Symbol("id");
+
+user[id] = 1;
+
+alert(user[id]); // we can access the data using the symbol as the key
+```
+
+What's the benefit of using `Symbol("id")` over a string "id"?
+
+As `user` objects belong to another codebase, it's unsafe to add fields to them, since we might affect pre-defined behavior in that other codebase. However, symbols cannot be accessed accidentally. The third-pary code won't be aware of newly defined symbols, so it's safe to add symbols to the `user` objects.
