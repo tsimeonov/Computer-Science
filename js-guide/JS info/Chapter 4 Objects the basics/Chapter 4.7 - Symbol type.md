@@ -88,3 +88,18 @@ for (let key in user) alert(key); // name, age (no symbols)
 // the direct access by the symbol works
 alert( "Direct: " + user[id] ); // Direct: 123
 ```
+
+### 4.7.4 Global symbols
+
+As we've seen, usually all symbols are different, even if they have the same name. But sometimes we want same-named symbols to be the same entities. For insance, different parts of our application want to access symbol `"id"` meaning exactly the same property.
+
+```js
+// read from the global registry
+let id = Symbol.for("id"); // if the symbol did not exist, it is created
+
+// read it again (maybe from another part of the code)
+let idAgain = Symbol.for("id");
+
+// the same symbol
+alert(id === idAgain); // true
+```
