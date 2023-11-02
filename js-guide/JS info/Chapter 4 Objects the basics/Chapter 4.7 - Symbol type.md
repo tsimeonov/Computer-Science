@@ -57,7 +57,7 @@ What's the benefit of using `Symbol("id")` over a string "id"?
 
 As `user` objects belong to another codebase, it's unsafe to add fields to them, since we might affect pre-defined behavior in that other codebase. However, symbols cannot be accessed accidentally. The third-pary code won't be aware of newly defined symbols, so it's safe to add symbols to the `user` objects.
 
-### 4.7.2 Symbols in an object literal 
+### 4.7.3 Symbols in an object literal 
 
 If we want to use a symbol in an object literal `{...}`, we need square brackets around it.
 
@@ -70,3 +70,21 @@ let user = {
 }
 ````
 That's because we need the value from the variable `id` as the key, not the string "id".
+
+### 4.7.4 Symbols are skipped by for...in
+
+Symbolic properties do not participate in `for...in` loop.
+
+```js
+let id = Symbol("id");
+let user = {
+  name: "John",
+  age: 30,
+  [id]: 123
+};
+
+for (let key in user) alert(key); // name, age (no symbols)
+
+// the direct access by the symbol works
+alert( "Direct: " + user[id] ); // Direct: 123
+```
