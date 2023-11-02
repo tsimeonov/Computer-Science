@@ -56,3 +56,17 @@ alert(user[id]); // we can access the data using the symbol as the key
 What's the benefit of using `Symbol("id")` over a string "id"?
 
 As `user` objects belong to another codebase, it's unsafe to add fields to them, since we might affect pre-defined behavior in that other codebase. However, symbols cannot be accessed accidentally. The third-pary code won't be aware of newly defined symbols, so it's safe to add symbols to the `user` objects.
+
+### 4.7.2 Symbols in an object literal 
+
+If we want to use a symbol in an object literal `{...}`, we need square brackets around it.
+
+```js
+let id = Symbol("id");
+
+let user = {
+  name: "John",
+  [id]:123 // not "id": 123
+}
+````
+That's because we need the value from the variable `id` as the key, not the string "id".
