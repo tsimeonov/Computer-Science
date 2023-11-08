@@ -113,5 +113,13 @@ There exist many "system" symbols tha JS uses internally, and we can use them to
 - `Symbol.iterator`
 - ...and so on.
 
+### 4.7.6 Summary
 
+`Symbol` is a primitive type for unique identifiers.
+Symbols are created with `Symbol()` call with an optional description (name).
+Symbols are always different valuws, even if they have the same name. If we want same-named symbols to be equal, then we should use the global registry: `Symbol.for(key)` returns (creates if needed) a global symbol withe `key` as the name. 
+
+Symbols have two main use cases:
+1. "Hidden" object properties.
+2. Therea are many system symbols used by JS which are accessible as `Symbol.*`. We can use them to alter some built-in behaviours.
 
