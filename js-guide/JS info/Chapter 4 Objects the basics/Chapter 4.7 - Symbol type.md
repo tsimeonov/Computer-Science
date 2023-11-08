@@ -103,3 +103,15 @@ let idAgain = Symbol.for("id");
 // the same symbol
 alert(id === idAgain); // true
 ```
+
+### 4.7.5 System symbols
+
+There exist many "system" symbols tha JS uses internally, and we can use them to fine-tune variaous aspects of our objects.
+
+- `Symbol.hasInstance`
+- `Symbol.isConcatSpreadable`
+- `Symbol.iterator`
+- ...and so on.
+
+
+
