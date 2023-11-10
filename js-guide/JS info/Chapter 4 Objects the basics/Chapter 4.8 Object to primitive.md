@@ -42,3 +42,17 @@ let delta = date1 - dawte2;
 // less/greater comparison
 let greater = user1 > user2;
 ```
+
+`defaults`
+
+Occurs in rare cases when the operator is "not sure" what type to expect.
+
+```js
+// binary plus uses the "dafault" hint
+let total = obj1 + obj2;
+
+// obj == number uses the "default" hint
+if (user == 1) {...}
+```
+
+The greater and less comparison operators, such as `< > `, can work with both string and numbers too. Still, they use the `"number"` hint, not `"default"`.
