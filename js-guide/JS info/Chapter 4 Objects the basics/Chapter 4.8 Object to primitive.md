@@ -10,3 +10,19 @@ That's an important limitaion: the result of `obj1 + obj2` (or another math oper
 1. There's no conversion to boolean. All objects are `true` in a boolean context, as simple as that. There exist only numeric and string conversions.
 2. The numeric conversion happens when we substract abjects or apply methematical functions. For instance, `Date` objects can be substracted, and the result of `date1 - date2` is the time difference between two dates.
 3. As for the string conversion - it usually happens when we output an object with `alert(obj)` and in similar context.
+
+### 4.8.2 Hints
+
+There are three variants of type conversion, that happen in various situations.
+They are called "hints".
+
+`string`
+For an object-to-string conversion, when we're doing an operaion on an object that expects a string, like `alert`:
+
+```js
+//output
+alert(obj);
+
+// using object as a property key
+anotherObj[obj] = 123;
+```
