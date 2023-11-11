@@ -54,5 +54,7 @@ Component -> function that returns a JSX
 <h5>What are Keys in React?</h5>
 
 - Use keys to identify and distinguish between list of elements
+  When computing a change, React applies it's stiffening algorithm to calculate the minumum number of changes that are necessary to perform an update in your tree of components.
+  Keys are indentifiers taht identify changes, added or removed list items
 - Determine the appropriate key
 - Understand the implications of using keys incorrectly
