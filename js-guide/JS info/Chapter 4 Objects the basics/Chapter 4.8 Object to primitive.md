@@ -56,3 +56,15 @@ if (user == 1) {...}
 ```
 
 The greater and less comparison operators, such as `< > `, can work with both string and numbers too. Still, they use the `"number"` hint, not `"default"`.
+
+### 4.8.3 Symbol.toPrimitive
+
+There's a built-in symbol named `Symbol.toPtimitive` that should be used to name the vonversion method:
+
+```js
+obj[Symbol.toPrimitive] = function (hint) {
+  // here goes the code to conveert this object to a primitive
+  // it must return a primitive value
+  // hint = one of "sring", "number", "default"
+};
+```
