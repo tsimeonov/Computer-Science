@@ -59,3 +59,10 @@ Component -> function that returns a JSX
 - Determine the appropriate key
   Use stable identifiers(Unique IDs)
 - Understand the implications of using keys incorrectly
+  If used incorrectly may couse negative affect on performance and user interface glitches.
+
+Keys instruct React about whetner a specific elemt's internal state should be preserved or not.
+Keys help React determine which items have changed, are added or are removed.
+Keys instruct React how to treat a specific element when an update occurs.
+
+---
