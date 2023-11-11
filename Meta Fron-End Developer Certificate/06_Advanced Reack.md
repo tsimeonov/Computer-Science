@@ -50,3 +50,9 @@ JSX -> Syntax extension for React
 Component -> function that returns a JSX
 
 ---
+
+<h5>What are Keys in React?</h5>
+
+- Use keys to identify and distinguish between list of elements
+- Determine the appropriate key
+- Understand the implications of using keys incorrectly
