@@ -57,4 +57,5 @@ Component -> function that returns a JSX
   Keys are indentifiers that identify changes, added or removed list items.
   Instructors - Instruct treatment of elents when updawts happen
 - Determine the appropriate key
+  Use stable identifiers(Unique IDs)
 - Understand the implications of using keys incorrectly
