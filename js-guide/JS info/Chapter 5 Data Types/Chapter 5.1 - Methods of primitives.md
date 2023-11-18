@@ -27,3 +27,8 @@ let numObj = new Number(num); // Wrapping the primitive number in a Number objec
 
 console.log(numObj.toFixed(2)); // Using the toFixed method available to numbers
 ```
+
+Summary:
+
+- Primitives except `null` and `undefined` provide many helphul methods. We will study those in the upcomming chapters.
+- Formally. these methods work via temporary objects, but JS engines are well tuned to optimaze that internally, so they are not expensive to call
