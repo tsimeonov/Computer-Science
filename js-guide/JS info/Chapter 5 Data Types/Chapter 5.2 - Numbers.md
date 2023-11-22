@@ -16,3 +16,12 @@ We also can use underscore `_` as the separator:
 ```js
 let billion = 1_000_000_000;
 ```
+
+Here the underscore `_` plays the role of the "syntactic sugar", it makes the number more readable. The JS engine simply ingnores `_` between digits, so it's exactly the same one billion as above.
+
+In JS, we can shorten a number by appending the letter `"e"` to it and specifying the zeroes count:
+
+```js
+let billion = 1e9; // 1 billion, literally: 1 and 9 zeroes
+alert(7.3e9); // 7.3 billions
+```
