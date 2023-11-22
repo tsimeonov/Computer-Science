@@ -25,3 +25,11 @@ In JS, we can shorten a number by appending the letter `"e"` to it and specifyin
 let billion = 1e9; // 1 billion, literally: 1 and 9 zeroes
 alert(7.3e9); // 7.3 billions
 ```
+
+Now lets write something small. Say, 1 microsecond (1 milionth of a second).
+
+Just like before, using `"e"` can help.
+
+```js
+let mcs = 1e-6; // five zeroes to the left from 1
+```
