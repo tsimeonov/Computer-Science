@@ -57,3 +57,11 @@ alert(num.toString(2)); // 11111111
 The `base` can vary from `2` to `36`. By default it's `10`.
 
 ### 5.2.4 Rounding
+
+One of the most used operations when working with numbers is rounding.
+
+There are several buit-in functions for rounding:
+
+`Math.floor`
+
+Rounds down: `3.1` becomes `3`, and `-1.1` becomes `-2`
