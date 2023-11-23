@@ -33,3 +33,5 @@ Just like before, using `"e"` can help.
 ```js
 let mcs = 1e-6; // five zeroes to the left from 1
 ```
+
+### 5.2.2 Hex, binary and the octal numbers
