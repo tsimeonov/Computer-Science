@@ -38,3 +38,8 @@ let mcs = 1e-6; // five zeroes to the left from 1
 
 Hexadecimal numbers are widely used in JS to represent colors, encode characters and for many other things. So naturally, there exists a shorter way to write them:
 `0x` and then the number.
+
+```js
+alert(0xff); //255
+alert(0xff); // 255 (the same, case doesn't matter)
+```
