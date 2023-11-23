@@ -43,3 +43,7 @@ Hexadecimal numbers are widely used in JS to represent colors, encode characters
 alert(0xff); //255
 alert(0xff); // 255 (the same, case doesn't matter)
 ```
+
+### 5.2.3 toString(base)
+
+The method `num.toString(base)` returns a string representation of `num` in the numeral system with the given `base`.
