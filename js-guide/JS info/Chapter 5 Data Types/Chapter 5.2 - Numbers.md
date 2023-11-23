@@ -47,3 +47,11 @@ alert(0xff); // 255 (the same, case doesn't matter)
 ### 5.2.3 toString(base)
 
 The method `num.toString(base)` returns a string representation of `num` in the numeral system with the given `base`.
+
+```js
+let num = 255;
+alert(num.toString(16)); // ff
+alert(num.toString(2)); // 11111111
+```
+
+The `base` can vary from `2` to `36`. By default it's `10`.
