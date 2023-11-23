@@ -65,3 +65,7 @@ There are several buit-in functions for rounding:
 `Math.floor`
 
 Rounds down: `3.1` becomes `3`, and `-1.1` becomes `-2`
+
+`Math.ceil`
+
+Rounds down: `3.1` becomes `4`, and `-1.1` becomes `-1`
