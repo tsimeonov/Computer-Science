@@ -35,3 +35,6 @@ let mcs = 1e-6; // five zeroes to the left from 1
 ```
 
 ### 5.2.2 Hex, binary and the octal numbers
+
+Hexadecimal numbers are widely used in JS to represent colors, encode characters and for many other things. So naturally, there exists a shorter way to write them:
+`0x` and then the number.
