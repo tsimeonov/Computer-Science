@@ -55,3 +55,5 @@ alert(num.toString(2)); // 11111111
 ```
 
 The `base` can vary from `2` to `36`. By default it's `10`.
+
+### 5.2.4 Rounding
