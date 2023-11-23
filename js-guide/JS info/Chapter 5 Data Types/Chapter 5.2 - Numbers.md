@@ -69,3 +69,7 @@ Rounds down: `3.1` becomes `3`, and `-1.1` becomes `-2`
 `Math.ceil`
 
 Rounds down: `3.1` becomes `4`, and `-1.1` becomes `-1`
+
+`Math.round`
+
+Rounds to the nearest integer: `3.1 ` becomes `3`, `3.6` becomes `4` the middle case: `3.5` rounds up to `4` too.
