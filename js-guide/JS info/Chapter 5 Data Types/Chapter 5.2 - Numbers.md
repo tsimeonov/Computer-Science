@@ -82,3 +82,5 @@ Internally, a number is represented in 64-bit fortmat `IEEE-754`, so there are e
 ```js
 alert(1e500); // Infinity
 ```
+
+### 5.2.6 Test: isFinite and isNaN
