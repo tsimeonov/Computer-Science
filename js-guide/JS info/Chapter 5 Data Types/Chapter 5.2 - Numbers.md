@@ -101,3 +101,10 @@ alert( parseFloat('12.3.4') ); // 12.3, the second point stops the reading
 
 ### 5.2.7 Other math functions
 
+`Math.random()`
+
+```js
+alert( Math.random() ); // 0.1234567894322
+alert( Math.random() ); // 0.5435252343232
+alert( Math.random() ); // ... (any random numbers)
+```
