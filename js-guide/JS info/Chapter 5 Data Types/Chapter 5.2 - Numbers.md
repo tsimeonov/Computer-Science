@@ -99,3 +99,5 @@ alert( parseInt('12.3') ); // 12, only the integer part is returned
 alert( parseFloat('12.3.4') ); // 12.3, the second point stops the reading
 ```
 
+### 5.2.7 Other math functions
+
