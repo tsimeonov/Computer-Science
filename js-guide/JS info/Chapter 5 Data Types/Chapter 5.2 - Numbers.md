@@ -84,3 +84,9 @@ alert(1e500); // Infinity
 ```
 
 ### 5.2.6 Test: isFinite and isNaN
+
+Remember these two special numeric values?
+-  `Infinity` and `-Infinity` is a special numeric value that is greater (less) than anything.
+-  `NaN` represent an error.
+
+
