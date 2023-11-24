@@ -75,3 +75,6 @@ Rounds down: `3.1` becomes `4`, and `-1.1` becomes `-1`
 Rounds to the nearest integer: `3.1 ` becomes `3`, `3.6` becomes `4` the middle case: `3.5` rounds up to `4` too.
 
 ### 5.2.5 Imprecise calculations
+
+Internally, a number is represented in 64-bit fortmat `IEEE-754`, so there are exactly 64 bits to store a number:
+52 of them ar used to sotre the digits, 11 of them store the postion of th decimal oint, and 1 bit is for the sign.
