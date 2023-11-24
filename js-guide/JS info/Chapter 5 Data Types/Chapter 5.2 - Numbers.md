@@ -108,3 +108,5 @@ alert( Math.random() ); // 0.1234567894322
 alert( Math.random() ); // 0.5435252343232
 alert( Math.random() ); // ... (any random numbers)
 ```
+
+`Math.max() and Math.min()`
