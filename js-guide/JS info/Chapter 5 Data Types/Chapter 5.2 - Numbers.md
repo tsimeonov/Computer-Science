@@ -78,3 +78,7 @@ Rounds to the nearest integer: `3.1 ` becomes `3`, `3.6` becomes `4` the middle 
 
 Internally, a number is represented in 64-bit fortmat `IEEE-754`, so there are exactly 64 bits to store a number:
 52 of them ar used to sotre the digits, 11 of them store the postion of th decimal oint, and 1 bit is for the sign.
+
+```js
+alert(1e500); // Infinity
+```
