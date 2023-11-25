@@ -86,17 +86,18 @@ alert(1e500); // Infinity
 ### 5.2.6 Test: isFinite and isNaN
 
 Remember these two special numeric values?
--  `Infinity` and `-Infinity` is a special numeric value that is greater (less) than anything.
--  `NaN` represent an error.
+
+- `Infinity` and `-Infinity` is a special numeric value that is greater (less) than anything.
+- `NaN` represent an error.
 
 ### 5.2.7 parseInt and parseFloat
 
 ```js
-alert( parseInt('100px') ); // 100
-alert( parseFloat('12.5em') ); // 12.5
+alert(parseInt("100px")); // 100
+alert(parseFloat("12.5em")); // 12.5
 
-alert( parseInt('12.3') ); // 12, only the integer part is returned
-alert( parseFloat('12.3.4') ); // 12.3, the second point stops the reading
+alert(parseInt("12.3")); // 12, only the integer part is returned
+alert(parseFloat("12.3.4")); // 12.3, the second point stops the reading
 ```
 
 ### 5.2.7 Other math functions
@@ -104,14 +105,16 @@ alert( parseFloat('12.3.4') ); // 12.3, the second point stops the reading
 `Math.random()`
 
 ```js
-alert( Math.random() ); // 0.1234567894322
-alert( Math.random() ); // 0.5435252343232
-alert( Math.random() ); // ... (any random numbers)
+alert(Math.random()); // 0.1234567894322
+alert(Math.random()); // 0.5435252343232
+alert(Math.random()); // ... (any random numbers)
 ```
 
 `Math.max() and Math.min()`
 
 ```js
-alert( Math.max(3, 5, -10, 0, 1) ); // 5
-alert( Math.min(1, 2) ); // 1
+alert(Math.max(3, 5, -10, 0, 1)); // 5
+alert(Math.min(1, 2)); // 1
 ```
+
+### 5.2.7 Summary
