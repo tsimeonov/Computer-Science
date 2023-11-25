@@ -136,3 +136,7 @@ For regular numbers tests:
 - `isNaN(value)` converts its argument to a number and then tests it for being `NaN`.
 - `Number.isNaN(value)` checks whether its argument belongs to the `number` type, and if so, tests it for being `NaN`
 - `isFinite(value)` converts its argument to a numer and then tests it for not being `NaN/Infinity/-Infinity`.
+
+For converting values like `12pt` and `100px` to a number:
+
+- Use `parseInt/parseFloat` for the "soft" conversion, which reads a number from a string and then returns the value they could read before the error.
