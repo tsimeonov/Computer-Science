@@ -125,6 +125,7 @@ To write numbers with many zeroes:
 - A negaive number after `e` causes the number to be divided by 1 with given zeroes.
   E.g. `123e-6` means `0.000123` (`123`` milionths).
 
-  For different numeral systems:
+For different numeral systems:
 
-  - Can write numbers in the hex (`0x`), octal (`0o`) and binary (`0b`) systems.
+- Can write numbers in the hex (`0x`), octal (`0o`) and binary (`0b`) systems.
+- `parseInt(str, base)` parses the string `str` into an integer in numeral system with given `base`, `2 <= base <= 36.`
