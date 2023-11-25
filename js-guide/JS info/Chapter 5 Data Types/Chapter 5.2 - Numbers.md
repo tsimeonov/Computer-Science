@@ -132,3 +132,5 @@ For different numeral systems:
 - `num.toString(base)` converts a number to a string in the numeral system with the given `base`.
 
 For regular numbers tests:
+
+- `isNaN(value)` converts its argument to a number and then tests it for being `NaN`.
