@@ -140,3 +140,7 @@ For regular numbers tests:
 For converting values like `12pt` and `100px` to a number:
 
 - Use `parseInt/parseFloat` for the "soft" conversion, which reads a number from a string and then returns the value they could read before the error.
+
+For fractions:
+
+- Round using Math.floor, Math.ceil, Math.trunc, Math.round or num.toFixed(precision).
