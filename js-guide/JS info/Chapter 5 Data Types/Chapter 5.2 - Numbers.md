@@ -118,3 +118,7 @@ alert(Math.min(1, 2)); // 1
 ```
 
 ### 5.2.7 Summary
+
+To write numbers with many zeroes:
+
+- Append `"e"` with the zeroes count to the number. Like `123e6` is the same as `123` with 6 zeroes `123000000`
