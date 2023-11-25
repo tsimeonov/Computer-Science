@@ -135,3 +135,4 @@ For regular numbers tests:
 
 - `isNaN(value)` converts its argument to a number and then tests it for being `NaN`.
 - `Number.isNaN(value)` checks whether its argument belongs to the `number` type, and if so, tests it for being `NaN`
+- `isFinite(value)` converts its argument to a numer and then tests it for not being `NaN/Infinity/-Infinity`.
