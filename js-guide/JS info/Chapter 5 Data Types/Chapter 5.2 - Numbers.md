@@ -129,3 +129,4 @@ For different numeral systems:
 
 - Can write numbers in the hex (`0x`), octal (`0o`) and binary (`0b`) systems.
 - `parseInt(str, base)` parses the string `str` into an integer in numeral system with given `base`, `2 <= base <= 36.`
+- `num.toString(base)` converts a number to a string in the numeral system with the given `base`.
