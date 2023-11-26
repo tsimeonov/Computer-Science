@@ -30,3 +30,5 @@ There are other, less common special characters:
 | `\'`,`\"`,`\` |   Quotes    |
 |     `\\`      |  Backslash  |
 |     `\t`      |     Tab     |
+
+### 5.3.3 String length
