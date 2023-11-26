@@ -21,3 +21,11 @@ let guestList = "Guests:\n * John\n * Pete\n * Mary";
 
 alert(guestList); // a multiline list of guests, same as above
 ```
+
+There are other, less common special characters:
+
+| Character | Description |
+| :-------: | :---------: |
+|   `\n`    |  New Line   |
+|           |             |
+|           |             |
