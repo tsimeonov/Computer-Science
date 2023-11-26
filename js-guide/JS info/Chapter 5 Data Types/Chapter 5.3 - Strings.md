@@ -24,8 +24,8 @@ alert(guestList); // a multiline list of guests, same as above
 
 There are other, less common special characters:
 
-| Character | Description |
-| :-------: | :---------: |
-|   `\n`    |  New Line   |
-|           |             |
-|           |             |
+|   Character   | Description |
+| :-----------: | :---------: |
+|     `\n`      |  New Line   |
+| `\'`,`\"`,`\` |   Quotes    |
+|               |             |
