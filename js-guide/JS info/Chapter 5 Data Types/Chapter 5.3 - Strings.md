@@ -11,3 +11,5 @@ let double = "double-quoted";
 
 let backticks = `backticks`;
 ```
+
+### 5.3.2 Special characters
