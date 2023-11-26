@@ -15,3 +15,9 @@ let backticks = `backticks`;
 ### 5.3.2 Special characters
 
 It is still possible to create multiline strings with single and double quotes by using a so-called "newline character", written as `\n`, which denotes a line break:
+
+```js
+let guestList = "Guests:\n * John\n * Pete\n * Mary";
+
+alert(guestList); // a multiline list of guests, same as above
+```
