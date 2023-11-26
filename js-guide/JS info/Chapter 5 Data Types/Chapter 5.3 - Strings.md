@@ -34,3 +34,7 @@ There are other, less common special characters:
 ### 5.3.3 String length
 
 The `length` property has th string length:
+
+```js
+alert(`My\n`.length); // 3
+```
