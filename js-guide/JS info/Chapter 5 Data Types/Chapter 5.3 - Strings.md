@@ -29,3 +29,4 @@ There are other, less common special characters:
 |     `\n`      |  New Line   |
 | `\'`,`\"`,`\` |   Quotes    |
 |     `\\`      |  Backslash  |
+|     `\t`      |     Tab     |
