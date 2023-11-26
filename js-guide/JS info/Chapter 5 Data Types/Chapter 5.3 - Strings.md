@@ -32,3 +32,5 @@ There are other, less common special characters:
 |     `\t`      |     Tab     |
 
 ### 5.3.3 String length
+
+The `length` property has th string length:
