@@ -38,3 +38,5 @@ The `length` property has th string length:
 ```js
 alert(`My\n`.length); // 3
 ```
+
+### 5.3.4 Accessing characters
