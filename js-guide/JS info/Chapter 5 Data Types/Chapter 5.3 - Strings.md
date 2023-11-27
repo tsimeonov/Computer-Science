@@ -42,3 +42,15 @@ alert(`My\n`.length); // 3
 ### 5.3.4 Accessing characters
 
 To get a character at position `pos`, use square brackets `[pos]` or call the method str.t(pos). The first character starts from the zero postion.
+
+```js
+let str = `Hello`;
+
+// the first character
+alert(str[0]); // H
+alert(str.at(0)); // H
+
+// the last character
+alert(str[str.length - 1]); // o
+alert(str.at(-1));
+```
