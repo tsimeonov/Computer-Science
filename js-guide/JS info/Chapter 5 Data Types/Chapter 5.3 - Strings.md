@@ -54,3 +54,5 @@ alert(str.at(0)); // H
 alert(str[str.length - 1]); // o
 alert(str.at(-1));
 ```
+
+### 5.3.4 String are immutable
