@@ -73,3 +73,5 @@ let str = "Hi";
 str = "h" + str[1]; // replace the string
 alert(str); // hi
 ```
+
+### 5.3.5 Changing the case
