@@ -67,3 +67,9 @@ alert(str[0]); // doesn't work
 ```
 
 The usual workaround is to create a whole new string and assign it to `str` instead of the old one.
+
+```js
+let str = "Hi";
+str = "h" + str[1]; // replace the string
+alert(str); // hi
+```
