@@ -75,3 +75,10 @@ alert(str); // hi
 ```
 
 ### 5.3.5 Changing the case
+
+Methods toLowerCase() and toUpperCase() change the case:
+
+```js
+alert("Interface".toUpperCase()); // INTERFACE
+alert("Interface".toLowerCase()); // interface
+```
