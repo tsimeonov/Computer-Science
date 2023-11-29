@@ -56,3 +56,12 @@ alert(str.at(-1));
 ```
 
 ### 5.3.4 String are immutable
+
+Strings can't be changed in JS. It's impossible to change a character.
+
+```js
+let str = "Hi";
+
+str[0] = "h"; // error
+alert(str[0]); // doesn't work
+```
