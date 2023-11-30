@@ -103,3 +103,9 @@ alert(str.indexOf("id")); // 1, "id" is found at the position 1 (..idget with id
 `includes, startWith, endsWith`
 
 The more moedern method str.includes(substr, pos) returns `true/false` depending on whether `str` contains zsubstr within.
+
+```js
+alert("Widget with id".includes("Widget")); // true
+
+alert("Hello".includes("Bye")); // false
+```
