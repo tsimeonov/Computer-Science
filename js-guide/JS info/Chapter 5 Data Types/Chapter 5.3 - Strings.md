@@ -90,3 +90,12 @@ There are multiple ways to look for a substring within a string.
 `str.indexOf`
 
 This method looks the `substr` in `str`, starting from the given position `pos`, and returns the position where the match was founf or `-1` if nothing can be found.
+
+```js
+let str = "Widget with id";
+
+alert(str.indexOf("Widget")); // 0, because 'Widget' is found at the beginning
+alert(str.indexOf("widget")); // -1, not found, the search is case-sensitive
+
+alert(str.indexOf("id")); // 1, "id" is found at the position 1 (..idget with id)
+```
