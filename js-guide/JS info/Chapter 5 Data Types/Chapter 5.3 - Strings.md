@@ -84,3 +84,5 @@ alert("Interface".toLowerCase()); // interface
 ```
 
 ### 5.3.6 Searching for a substring
+
+There are multiple ways to look for a substring within a string.
