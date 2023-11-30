@@ -88,3 +88,5 @@ alert("Interface".toLowerCase()); // interface
 There are multiple ways to look for a substring within a string.
 
 `str.indexOf`
+
+This method looks the `substr` in `str`, starting from the given position `pos`, and returns the position where the match was founf or `-1` if nothing can be found.
