@@ -82,3 +82,5 @@ Methods toLowerCase() and toUpperCase() change the case:
 alert("Interface".toUpperCase()); // INTERFACE
 alert("Interface".toLowerCase()); // interface
 ```
+
+### 5.3.6 Searching for a substring
