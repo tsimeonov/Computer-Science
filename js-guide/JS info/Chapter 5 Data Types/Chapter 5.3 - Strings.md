@@ -113,3 +113,7 @@ alert("Hello".includes("Bye")); // false
 ### 5.4.7 Getting a substring
 
 There are 3 methods in JS to get a substring: `subsring`, `substr` and `slice`.
+
+`str.substring(start [, end])`;
+
+Returns the part of the string between `start` and `end` (not including `end`),
