@@ -117,3 +117,11 @@ There are 3 methods in JS to get a substring: `subsring`, `substr` and `slice`.
 `str.substring(start [, end])`;
 
 Returns the part of the string between `start` and `end` (not including `end`),
+
+```js
+let str = "stringify";
+
+// these are same for substring
+alert(str.substring(2, 6)); // "ring"
+alert(str.substring(6, 2)); // "ring
+```
