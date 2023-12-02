@@ -125,3 +125,5 @@ let str = "stringify";
 alert(str.substring(2, 6)); // "ring"
 alert(str.substring(6, 2)); // "ring
 ```
+
+`str.substr(start [, length])`
