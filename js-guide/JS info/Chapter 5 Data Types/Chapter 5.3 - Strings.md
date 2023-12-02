@@ -146,3 +146,9 @@ Although, there are some oddities.
 ```js
 alert("a" > `Z`); // true
 ```
+
+2. Letters with diacritical marks are "out of order"
+
+```js
+alert("Österreich" > "Zealand"); // true
+```
