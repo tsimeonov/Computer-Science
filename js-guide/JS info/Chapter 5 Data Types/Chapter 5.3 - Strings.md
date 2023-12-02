@@ -136,3 +136,5 @@ alert(str.substr(2, 4)); // "ring", from the 2nd position get 4 characters.
 ```
 
 ### 5.4.8 Comparing strings
+
+Strings are compared character-by-character in alphabetical order.
