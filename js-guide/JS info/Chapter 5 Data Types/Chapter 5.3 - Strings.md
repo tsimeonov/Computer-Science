@@ -129,3 +129,8 @@ alert(str.substring(6, 2)); // "ring
 `str.substr(start [, length])`
 
 Returns the part of the string from `start`, with the given `length`.
+
+```js
+let str = "stringify";
+alert(str.substr(2, 4)); // "ring", from the 2nd position get 4 characters.
+```
