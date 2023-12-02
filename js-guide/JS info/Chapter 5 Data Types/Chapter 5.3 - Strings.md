@@ -152,3 +152,5 @@ alert("a" > `Z`); // true
 ```js
 alert("Österreich" > "Zealand"); // true
 ```
+
+`Correct comparisons`
