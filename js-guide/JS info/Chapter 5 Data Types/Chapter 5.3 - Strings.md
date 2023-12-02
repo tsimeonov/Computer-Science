@@ -109,3 +109,5 @@ alert("Widget with id".includes("Widget")); // true
 
 alert("Hello".includes("Bye")); // false
 ```
+
+### 5.4.7 Getting a substring
