@@ -127,3 +127,5 @@ alert(str.substring(6, 2)); // "ring
 ```
 
 `str.substr(start [, length])`
+
+Returns the part of the string from `start`, with the given `length`.
