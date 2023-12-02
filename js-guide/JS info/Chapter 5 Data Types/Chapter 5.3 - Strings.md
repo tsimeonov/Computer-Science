@@ -156,3 +156,7 @@ alert("Österreich" > "Zealand"); // true
 `Correct comparisons`
 
 The "right" algorith to do string comparisons is more complex than it may seem, because alphabets are different for different languages.
+
+```js
+alert("Österreich".localeCompare("Zealand")); // -1
+```
