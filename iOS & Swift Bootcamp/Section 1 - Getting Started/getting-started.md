@@ -17,3 +17,4 @@ There is essentially only three components for every single mobile app.
 - Step 4 - Test
 - Step 5 - Publish
 - Step 6 - Market
+- Step 7- Update
