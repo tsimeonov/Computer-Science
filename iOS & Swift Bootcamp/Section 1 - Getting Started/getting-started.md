@@ -9,4 +9,6 @@ There is essentially only three components for every single mobile app.
 ---
 
 <h5>How to make an app</h5>
+
 - Step 0 - Why
+- Step 1 - idea
