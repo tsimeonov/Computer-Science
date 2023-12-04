@@ -13,3 +13,4 @@ There is essentially only three components for every single mobile app.
 - Step 0 - Why
 - Step 1 - Idea (minumal viable product)
 - Step 2 - Design
+- Step 3 - Development
