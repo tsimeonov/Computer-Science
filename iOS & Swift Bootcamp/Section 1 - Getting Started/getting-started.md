@@ -7,3 +7,5 @@ There is essentially only three components for every single mobile app.
 3. The third components is the data stored in the app.
 
 ---
+
+<h5>How to make an app</h5>
