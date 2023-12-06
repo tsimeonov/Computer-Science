@@ -2,4 +2,10 @@
 
 ---
 
-<h6>Let's create a brand new Xcode Project</h6>
+<h5>Let's create a brand new Xcode Project</h5>
+
+---
+
+<h5>A Walkthrough of the Xcode Development Environment</h5>
+
+---
