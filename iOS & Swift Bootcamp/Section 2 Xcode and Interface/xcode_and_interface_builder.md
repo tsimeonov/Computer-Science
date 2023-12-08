@@ -13,3 +13,10 @@
 <h5>Let's design the user interface</h5>
 
 ---
+
+<h5>Let's incorporate some image assets</h5>
+
+1x,2x, 3x images
+2x is 2 times larger than 1x.
+
+---
