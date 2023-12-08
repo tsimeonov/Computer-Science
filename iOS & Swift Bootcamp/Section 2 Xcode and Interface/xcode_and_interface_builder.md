@@ -27,3 +27,7 @@
 <h5>How to design and add an App Icon</h5>
 
 ---
+
+<h5>Run your app on your Iphone or simulator</h5>
+
+---
