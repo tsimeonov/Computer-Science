@@ -18,5 +18,12 @@
 
 1x,2x, 3x images
 2x is 2 times larger than 1x.
+1x = 100x100px
+2x = 200x200px
+3x = 300x300px
+
+---
+
+<h5>How to design and add an App Icon</h5>
 
 ---
