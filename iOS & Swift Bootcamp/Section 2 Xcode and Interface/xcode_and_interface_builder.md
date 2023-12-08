@@ -9,3 +9,7 @@
 <h5>A Walkthrough of the Xcode Development Environment</h5>
 
 ---
+
+<h5>Let's design the user interface</h5>
+
+---
