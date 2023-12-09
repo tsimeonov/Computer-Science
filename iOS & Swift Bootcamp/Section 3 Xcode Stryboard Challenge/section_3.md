@@ -15,4 +15,7 @@
 
 <h5>Step 3: Add an Image View to the Storyboard</h5>
 
+- Again using the Object Library, find an `Image View` and drop ot onto the canvas.
+- The Image view needs to display an image.
+
 ---
