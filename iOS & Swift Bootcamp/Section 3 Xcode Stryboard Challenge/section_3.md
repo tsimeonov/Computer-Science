@@ -20,4 +20,6 @@
 - Again using the Object Library, find an `Image View` and drop ot onto the canvas.
 - The Image view needs to display an image.
 
+## <img src="./step 3 image.png" width="250px"/>
+
 ---
