@@ -10,3 +10,9 @@
 - Set the Lavel text as `I Am Poor` or anything else you wish.
 - Change the Label's `font` and `font size` and `colour`.
 - Resize to make the label fit the text.
+
+---
+
+<h5>Step 3: Add an Image View to the Storyboard</h5>
+
+---
