@@ -20,4 +20,10 @@ main -> adjust editor options -> assistant
 @IBOutlet weak var diceImageView1: UIImageView! // Interface buider outlet
 ```
 
+use the #imageLiteral
+
+```swift
+diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
+```
+
 ---
