@@ -20,6 +20,10 @@
 - Again using the Object Library, find an `Image View` and drop ot onto the canvas.
 - The Image view needs to display an image.
 
-## <img src="./step 3 image.png" width="250px"/>
+<img src="./step 3 image.png" width="250px"/>
+
+---
+
+<h5>Step 4: Add an App Icon</h5>
 
 ---
