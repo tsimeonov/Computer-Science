@@ -11,6 +11,8 @@
 - Change the Label's `font` and `font size` and `colour`.
 - Resize to make the label fit the text.
 
+<img src="./Step 2 add label.png" width="250px"/>
+
 ---
 
 <h5>Step 3: Add an Image View to the Storyboard</h5>
