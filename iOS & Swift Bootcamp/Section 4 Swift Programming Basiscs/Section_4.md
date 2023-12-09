@@ -3,3 +3,9 @@
 ---
 
 <h5>How to Design your app</h5>
+
+- Aspect fit
+- Scale to fill
+- Aspect fill
+
+---
