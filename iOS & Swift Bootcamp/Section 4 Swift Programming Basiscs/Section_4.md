@@ -41,3 +41,5 @@ class ViewController: UIViewController {
 ```
 
 ---
+
+<h5>Responding to user interactions</h5>
