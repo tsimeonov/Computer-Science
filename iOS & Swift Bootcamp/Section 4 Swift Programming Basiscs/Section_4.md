@@ -118,3 +118,9 @@ Basic Data Types
 ```swift
 12.345
 ```
+
+- Double
+
+```swift
+3.14334242
+```
