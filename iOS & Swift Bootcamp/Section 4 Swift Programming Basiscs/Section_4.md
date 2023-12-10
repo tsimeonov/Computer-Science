@@ -79,3 +79,7 @@ class ViewController: UIViewController {
 ```
 
 ---
+
+<h5>How to randomise the Dice Images</h5>
+
+---
