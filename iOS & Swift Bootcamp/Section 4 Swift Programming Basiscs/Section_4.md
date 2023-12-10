@@ -98,3 +98,5 @@ let diceArray = [ #imageLiteral(resourceName: "DiceOne"), #imageLiteral(resource
 <h5>Constants, the range operator and randomisation</h5>
 
 Constants once created do not change their value.
+
+Basic Data Types
