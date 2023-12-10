@@ -119,8 +119,14 @@ Basic Data Types
 12.345
 ```
 
-- Double
+- Double, has double the amount of accuracy of a float
 
 ```swift
 3.14334242
+```
+
+- Bool (Boolean)
+
+```swift
+true / false
 ```
