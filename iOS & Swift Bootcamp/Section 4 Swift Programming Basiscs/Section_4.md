@@ -112,3 +112,9 @@ Basic Data Types
 ```swift
 12
 ```
+
+- Float (Floating Point Number)
+
+```swift
+12.345
+```
