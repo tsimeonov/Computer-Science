@@ -43,3 +43,13 @@ class ViewController: UIViewController {
 ---
 
 <h5>Responding to user interactions</h5>
+
+```swift
+@IBAction // Interface Builder Action
+```
+
+---
+
+<h5>Storting data using variables and arrays</h5>
+
+---
