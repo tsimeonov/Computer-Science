@@ -100,3 +100,15 @@ let diceArray = [ #imageLiteral(resourceName: "DiceOne"), #imageLiteral(resource
 Constants once created do not change their value.
 
 Basic Data Types
+
+- String - a string of characters
+
+```swift
+"Todor"
+```
+
+- Int (Integer)
+
+```swift
+12
+```
