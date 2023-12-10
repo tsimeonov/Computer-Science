@@ -82,4 +82,15 @@ class ViewController: UIViewController {
 
 <h5>How to randomise the Dice Images</h5>
 
+```swift
+print(Int.random(in: 1...10)) // show random number between 1 to 10
+```
+
+```swift
+let diceArray = [ #imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix") ]
+
+        diceImageView1.image = diceArray.randomElement()
+        diceImageView2.image = diceArray.randomElement()
+```
+
 ---
