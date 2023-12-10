@@ -52,4 +52,6 @@ class ViewController: UIViewController {
 
 <h5>Storting data using variables and arrays</h5>
 
+An array is ordered sequence of items.
+
 ---
