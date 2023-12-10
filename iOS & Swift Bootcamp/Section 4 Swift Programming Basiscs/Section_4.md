@@ -94,3 +94,5 @@ let diceArray = [ #imageLiteral(resourceName: "DiceOne"), #imageLiteral(resource
 ```
 
 ---
+
+<h5>Constants, the range operator and randomisation</h5>
