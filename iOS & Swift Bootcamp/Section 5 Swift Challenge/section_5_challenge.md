@@ -9,3 +9,11 @@
 <h5>Step 3: Link up the design with code</h5>
 
 ---
+
+<h5>Step 4: Use code to change the 8 ball Image</h5>
+
+---
+
+<h5>Step 5: Make the Ball Image Random</h5>
+
+---
