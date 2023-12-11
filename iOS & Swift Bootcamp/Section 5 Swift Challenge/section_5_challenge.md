@@ -5,3 +5,7 @@
 <h5>Step 2: Design the user interface</h5>
 
 ---
+
+<h5>Step 3: Link up the design with code</h5>
+
+---
