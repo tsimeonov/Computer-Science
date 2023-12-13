@@ -2,6 +2,10 @@
 
 ---
 
-<h5>Why so we needd Auto Layout?</h5>
+<h5>Why so we need Auto Layout?</h5>
+
+---
+
+<h5>Size classes explained</h5>
 
 ---
