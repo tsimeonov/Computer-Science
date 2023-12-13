@@ -9,3 +9,7 @@
 <h5>Size classes explained</h5>
 
 ---
+
+<h5>Setting constraints and working with the safe area</h5>
+
+---
