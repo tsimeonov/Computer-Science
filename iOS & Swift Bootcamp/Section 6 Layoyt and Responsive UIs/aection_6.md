@@ -18,4 +18,9 @@ AppBreweryBackground --> add new constraints --> superview trailing
 
 <h5>How to use Alignment and Pinning</h5>
 
+- Horizontal in container
+- Vertical in Container
+
+in combunation with the new constraint
+
 ---
