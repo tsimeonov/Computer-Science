@@ -21,6 +21,6 @@ AppBreweryBackground --> add new constraints --> superview trailing
 - Horizontal in container
 - Vertical in Container
 
-in combunation with the new constraint
+in combunation with the pinning constraint
 
 ---
