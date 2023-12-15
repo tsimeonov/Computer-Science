@@ -12,4 +12,6 @@
 
 <h5>Setting constraints and working with the safe area</h5>
 
+AppBreweryBackground --> add new constraints --> superview trailing
+
 ---
