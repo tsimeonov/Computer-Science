@@ -31,3 +31,7 @@ editor --> embed in --> view
 Embed in --> view
 
 ---
+
+<h5>Stack views</h5>
+
+---
