@@ -27,4 +27,7 @@ in combunation with the pinning constraint
 
 <h5>Working with containers and subviews</h5>
 
+editor --> embed in --> view
+Embed in --> view
+
 ---
