@@ -15,9 +15,18 @@ Xylophone - music app
 <h5>The 5 step approach to solve any programming problem</h5>
 
 1. Google
+
+```
+<What i want my app to do> + <Which programming language> + <Which resource>
+```
+
+example: Play sound Swift StackOverflow
+
 2. Stack Overflow
 3. Implement
 4. Docs
+   Hold the options key and click on the keyword for quick look at the documentaion.
+
 5. Customise
 
 ---
