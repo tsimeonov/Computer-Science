@@ -43,5 +43,6 @@ Selector all the stack views --> background --> defaultgit
 
 1. Stack view the four buttons `%`, `+/-`, `AC`, `/` in a row
 2. Stack view the four buttons `7`, `8`, `9`, `x` in a row
+3. Stack view the four buttons `4`, `5`, `6`, `-` in a row
 
 ---
