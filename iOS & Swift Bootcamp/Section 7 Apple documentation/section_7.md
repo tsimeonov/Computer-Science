@@ -30,3 +30,7 @@ example: Play sound Swift StackOverflow
 5. Customise
 
 ---
+
+<h5>Functions and scope</h5>
+
+---
