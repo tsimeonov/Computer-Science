@@ -7,3 +7,7 @@
 Xylophone - music app
 
 ---
+
+<h5>Setting up the Xylophen Project</h5>
+
+---
