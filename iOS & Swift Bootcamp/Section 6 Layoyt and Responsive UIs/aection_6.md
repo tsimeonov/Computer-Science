@@ -48,11 +48,13 @@ Selector all the stack views --> background --> defaultgit
 5. Stack view the three buttons `0`, `.`, `=`, in a row
 6. Select all the stack views and create a new stack view
 7. Select the top most stack view and add constrain of 0 all around.
-8. Select the first stack view
+8. with the first stack view
    - Adjust the alignement to Fill
    - Distribution to fill equally
    - Spacing to 1
 9. Select all the stack views
    - Distribution - Fill equally
+10. Select the `.` and `=` and create a stack view, then change the fill to fill equally.
+11. Add the label to its own view container. Add new constraints 0,20,0,20.
 
---
+---
