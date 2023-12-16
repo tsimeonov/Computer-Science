@@ -11,3 +11,7 @@ Xylophone - music app
 <h5>Setting up the Xylophone Project</h5>
 
 ---
+
+<h5>The 5 step approach to solve any programming problem</h5>
+
+---
