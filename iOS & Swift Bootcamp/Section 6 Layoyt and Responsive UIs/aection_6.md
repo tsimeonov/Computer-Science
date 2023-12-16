@@ -45,6 +45,7 @@ Selector all the stack views --> background --> defaultgit
 2. Stack view the four buttons `7`, `8`, `9`, `x` in a row
 3. Stack view the four buttons `4`, `5`, `6`, `-` in a row
 4. Stack view the four buttons `1`, `2`, `3`, `+` in a row
-5. Stack view the four buttons `0`, `.`, `=`, in a row
+5. Stack view the three buttons `0`, `.`, `=`, in a row
+6. Select all the stack views and create a new stack view
 
 ---
