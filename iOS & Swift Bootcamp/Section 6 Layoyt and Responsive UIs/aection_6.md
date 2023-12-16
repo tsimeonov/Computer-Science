@@ -41,6 +41,7 @@ Selector all the stack views --> background --> defaultgit
 
 <h5>Auto Layout Challenge</h5>
 
-1. Stack view the four buttons `%`, `+/-`, `AC`, `/`
+1. Stack view the four buttons `%`, `+/-`, `AC`, `/` in a row
+2. Stack view the four buttons `7`, `8`, `9`, `x` in a row
 
 ---
