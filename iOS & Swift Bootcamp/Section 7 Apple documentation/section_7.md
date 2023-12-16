@@ -14,4 +14,10 @@ Xylophone - music app
 
 <h5>The 5 step approach to solve any programming problem</h5>
 
+1. Google
+2. Stack Overflow
+3. Implement
+4. Docs
+5. Customise
+
 ---
