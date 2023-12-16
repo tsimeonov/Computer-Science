@@ -38,3 +38,7 @@ Editor --> embed in --> stack view
 Selector all the stack views --> background --> defaultgit
 
 ---
+
+<h5>Auto Layout Challenge</h5>
+
+---
