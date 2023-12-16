@@ -4,4 +4,6 @@
 
 <h5>What you'll make by the end of this module</h5>
 
+Xylophone - music app
+
 ---
