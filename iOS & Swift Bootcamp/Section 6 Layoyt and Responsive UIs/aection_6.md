@@ -47,5 +47,10 @@ Selector all the stack views --> background --> defaultgit
 4. Stack view the four buttons `1`, `2`, `3`, `+` in a row
 5. Stack view the three buttons `0`, `.`, `=`, in a row
 6. Select all the stack views and create a new stack view
+7. Select the top most stack view and add constrain of 0 all around.
+8. Select the first stack view
+   - Adjust the alignement to Fill
+   - Distribution to fill equally
+   - Spacing to 1
 
 ---
