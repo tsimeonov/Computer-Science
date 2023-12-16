@@ -33,4 +33,19 @@ example: Play sound Swift StackOverflow
 
 <h5>Functions and scope</h5>
 
+Creating the function
+
+```swift
+func getMilk () {
+   // do stuff
+}
+
+```
+
+Calling the function
+
+```swift
+getMilk()
+```
+
 ---
