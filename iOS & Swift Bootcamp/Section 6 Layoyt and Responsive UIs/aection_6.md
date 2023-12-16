@@ -52,5 +52,7 @@ Selector all the stack views --> background --> defaultgit
    - Adjust the alignement to Fill
    - Distribution to fill equally
    - Spacing to 1
+9. Select all the stack views
+   - Distribution - Fill equally
 
----
+--
