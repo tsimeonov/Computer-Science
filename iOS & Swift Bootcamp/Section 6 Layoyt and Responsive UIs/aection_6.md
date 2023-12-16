@@ -34,4 +34,7 @@ Embed in --> view
 
 <h5>Stack views</h5>
 
+Editor --> embed in --> stack view
+Selector all the stack views --> background --> defaultgit
+
 ---
