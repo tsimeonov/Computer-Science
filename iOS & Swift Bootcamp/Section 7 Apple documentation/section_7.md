@@ -55,3 +55,15 @@ getMilk()
 Click and drag the round icon to the buttons you want to use.
 
 ---
+
+<h5>Functions with Inputs ant Type Inference<h5>
+
+Create a function with Input
+
+```swift
+func myFunction (parameter: DataType) {
+   // Do something with input
+}
+```
+
+---
