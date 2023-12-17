@@ -6,4 +6,15 @@
 
 Destructing - allows you to unpack values from arrays and objects into separate variables.
 
+Example without destructuring
+
+```js
+const arr = [2, 3, 4];
+const a = arr[0];
+const b = arr[1];
+const c = arr[2];
+
+console.log(a, b, c);
+```
+
 ---
