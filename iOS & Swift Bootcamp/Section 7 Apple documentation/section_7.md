@@ -66,4 +66,21 @@ func myFunction (parameter: DataType) {
 }
 ```
 
+Assign a data type to a variable
+
+```swift
+val myAge: String = "Three"
+```
+
+Creating the function
+
+```swift
+func getMilk (bottles Int) {
+   var cost = bottles * 1.5
+}
+
+// bottles --> Name
+// Int --> Data type
+```
+
 ---
