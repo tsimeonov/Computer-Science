@@ -40,3 +40,10 @@ console.log(x, y, z);
 
 const [first, , third] = restaurant.categories;
 console.log(first, third);
+
+let [main, secondary] = restaurant.categories;
+
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log(main, secondary);

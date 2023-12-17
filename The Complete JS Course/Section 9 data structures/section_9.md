@@ -68,4 +68,17 @@ const [first, , third] = restaurant.categories;
 console.log(first, third); // Italian Vegetarian
 ```
 
+Switch the position of the two variables
+
+```js
+// Example whitout destructiring
+
+let [main, secondary] = restaurant.categories;
+
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log(main, secondary); // Pizzeria Italian
+```
+
 ---
