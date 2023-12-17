@@ -83,4 +83,10 @@ func getMilk (bottles Int) {
 // Int --> Data type
 ```
 
+Calling the function
+
+```swift
+getMilk(bottles: 2)
+```
+
 ---
