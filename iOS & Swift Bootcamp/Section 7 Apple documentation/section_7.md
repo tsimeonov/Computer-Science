@@ -49,3 +49,7 @@ getMilk()
 ```
 
 ---
+
+<h5>Linking multiple buttons to the same IBAction</h5>
+
+--
