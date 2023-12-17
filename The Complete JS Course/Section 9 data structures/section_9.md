@@ -58,7 +58,14 @@ Show the first and second element
 
 ```js
 const [first, second] = restaurant.categories;
-console.log(first, second); // Italia Pizzeria
+console.log(first, second); // Italian Pizzeria
+```
+
+Show the first and third element
+
+```js
+const [first, , third] = restaurant.categories;
+console.log(first, third); // Italian Vegetarian
 ```
 
 ---
