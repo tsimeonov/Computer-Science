@@ -4,4 +4,6 @@
 
 <h5>Destructing arrays</h5>
 
+Destructing - allows you to unpack values from arrays and objects into separate variables.
+
 ---
