@@ -96,4 +96,18 @@ getMilk(bottles: 2)
 
 <h5>Play different sounds for different buttons</h5>
 
+```swift
+    @IBAction func keyPressed(_ sender: UIButton) {
+
+        playSound(soundName: sender.currentTitle!)
+    }
+
+    func playSound(soundName: String) {
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+
+    }
+```
+
 ---
