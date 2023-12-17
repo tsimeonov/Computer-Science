@@ -17,4 +17,11 @@ const c = arr[2];
 console.log(a, b, c);
 ```
 
+Example with destructuring
+
+```js
+const [x, y, z] = arr;
+console.log(x, y, z);
+```
+
 ---
