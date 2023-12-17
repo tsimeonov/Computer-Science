@@ -52,4 +52,6 @@ getMilk()
 
 <h5>Linking multiple buttons to the same IBAction</h5>
 
---
+Click and drag the round icon to the buttons you want to use.
+
+---
