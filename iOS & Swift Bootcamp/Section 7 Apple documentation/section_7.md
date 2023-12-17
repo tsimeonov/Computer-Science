@@ -87,6 +87,9 @@ Calling the function
 
 ```swift
 getMilk(bottles: 2)
+
+// parameter --> bottles
+// argument --> 2
 ```
 
 ---
