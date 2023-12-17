@@ -37,3 +37,6 @@ console.log(a, b, c);
 
 const [x, y, z] = arr;
 console.log(x, y, z);
+
+const [first, second] = restaurant.categories;
+console.log(first, second);
