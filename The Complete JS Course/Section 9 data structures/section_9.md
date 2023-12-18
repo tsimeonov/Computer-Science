@@ -79,6 +79,13 @@ const temp = main;
 main = secondary;
 secondary = temp;
 console.log(main, secondary); // Pizzeria Italian
+
+// Example with destructuring
+
+let [main, secondary] = restaurant.categories;
+
+[main, secondary] = [secondary, main];
+console.log(main, secondary); // Pizzeria Italian
 ```
 
 ---
