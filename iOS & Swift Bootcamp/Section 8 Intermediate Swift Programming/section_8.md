@@ -17,3 +17,7 @@ if trafficLight == "green" {
 ```
 
 ---
+
+<h5>Swith Statement</h5>
+
+---
