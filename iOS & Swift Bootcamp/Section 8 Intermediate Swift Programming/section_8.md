@@ -20,4 +20,17 @@ if trafficLight == "green" {
 
 <h5>Swith Statement</h5>
 
+```swift
+switch hardness {
+    case "Soft":
+        print(5)
+    case "Medium":
+        print(7)
+    case "Hard":
+        print(12)
+    default:
+    print("Error")
+}
+```
+
 ---
