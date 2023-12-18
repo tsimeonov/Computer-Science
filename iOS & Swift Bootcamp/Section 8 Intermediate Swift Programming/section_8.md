@@ -54,4 +54,9 @@ a..<b
 var dictionary = ["Brewery": "a place where beer is made"]
 ```
 
+```swift
+// Creating the Dictionary
+var dict : [String : Int] = ["Angela": 2343242, "Philip": 224124]
+```
+
 ---
