@@ -33,4 +33,17 @@ switch hardness {
 }
 ```
 
+Swift range operator
+
+```swift
+// closed range
+a...b
+
+// half-open range
+a..<b
+
+// One sided range
+...b
+```
+
 ---
