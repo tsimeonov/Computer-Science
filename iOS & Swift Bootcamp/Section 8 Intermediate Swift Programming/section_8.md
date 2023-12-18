@@ -5,3 +5,15 @@
 ---
 
 <h5>If/Else control flow</h5>
+
+```swift
+if trafficLight == "green" {
+    go ()
+} else if trafficLight == "amber" {
+    slowDown()
+} else {
+    stop()
+}
+```
+
+---
