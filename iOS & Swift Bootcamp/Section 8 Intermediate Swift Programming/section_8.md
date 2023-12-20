@@ -76,4 +76,6 @@ var hardness: String?
 var player1Username: String? = nil
 player1Username = "jackbaur"
 print(player1Username) // Output Optional("jackbaur")
+// Unwrapping the Optional
+print(player1Username?) // Output jackbaur
 ```
