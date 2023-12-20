@@ -71,3 +71,9 @@ var hardness: String?
 // String is a data Type
 // By adding a ? at the end it becomes opotional, meaning it can be empty
 ```
+
+```swift
+var player1Username: String? = nil
+player1Username = "jackbaur"
+print(player1Username) // Output Optional("jackbaur")
+```
