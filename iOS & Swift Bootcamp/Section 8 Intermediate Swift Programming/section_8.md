@@ -65,3 +65,9 @@ dict["Angela"] // output: 2343242
 ---
 
 <h5>Defining and Unwrapping options</h5>
+
+```swift
+var hardness: String?
+// String is a data Type
+// By adding a ? at the end it becomes opotional, meaning it can be empty
+```
