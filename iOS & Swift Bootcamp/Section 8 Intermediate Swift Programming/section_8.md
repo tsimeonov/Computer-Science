@@ -63,3 +63,5 @@ dict["Angela"] // output: 2343242
 ```
 
 ---
+
+<h5>Defining and Unwrapping options</h5>
