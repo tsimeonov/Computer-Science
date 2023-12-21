@@ -144,3 +144,7 @@ in the `@IBaction hardnessSelected` add the following
 <h5>Calculating the Progress Percentage</h5>
 
 ---
+
+<h5>Using the 5 step approach to debug our App</h5>
+
+---
