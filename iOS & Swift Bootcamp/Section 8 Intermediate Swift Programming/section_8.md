@@ -140,3 +140,7 @@ in the `@IBaction hardnessSelected` add the following
 ```
 
 ---
+
+<h5>Calculating the Progress Percentage</h5>
+
+---
