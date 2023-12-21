@@ -121,3 +121,5 @@ class ViewController: UIViewController {
 ```
 
 ---
+
+<h5>Showing the Timer to the User with a Progress Views</h5>
