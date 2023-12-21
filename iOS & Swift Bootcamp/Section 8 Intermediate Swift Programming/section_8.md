@@ -123,3 +123,20 @@ class ViewController: UIViewController {
 ---
 
 <h5>Showing the Timer to the User with a Progress Views</h5>
+
+Drag the Progress Bar to the `UIViewController`
+
+```swift
+ @IBOutlet weak var progressBar: UIProgressView!
+```
+
+in the `@IBaction hardnessSelected` add the following
+
+```swift
+@IBAction func hardnessSelected (_ sender: UIButton) {
+
+        progressBar.progress = 1.0
+}
+```
+
+---
