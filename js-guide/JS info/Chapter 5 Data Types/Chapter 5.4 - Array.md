@@ -13,3 +13,15 @@ There are two syntaxes for creating an empty array.
 let arr = new Array();
 let arr = [];
 ```
+
+Array elements are numbered, starting with zero.
+
+We can get an element by its number in square brackets:
+
+```js
+let fruits = ["Apple", "Orange", "Plum"];
+
+alert(fruits[0]); // Apple
+alert(fruits[1]); // Orange
+alert(fruits[2]); // Plum
+```
