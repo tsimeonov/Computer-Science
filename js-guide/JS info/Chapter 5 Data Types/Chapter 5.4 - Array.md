@@ -6,3 +6,10 @@ It's not convenietnt to use an object here, because it provides no methods to ma
 ---
 
 <h5>Declaration</h5>
+
+There are two syntaxes for creating an empty array.
+
+```js
+let arr = new Array();
+let arr = [];
+```
