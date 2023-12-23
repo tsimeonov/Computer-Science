@@ -151,5 +151,6 @@ in the `@IBaction hardnessSelected` add the following
 2. What happened instead?
 3. What does your expectation depend upon?
 4. How can we test the things our expectations depend on?
+5. Fix our code to make reality match expectations
 
 ---
