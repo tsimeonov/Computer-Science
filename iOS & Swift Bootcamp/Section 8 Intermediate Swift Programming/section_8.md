@@ -150,5 +150,6 @@ in the `@IBaction hardnessSelected` add the following
 1. What did you expect your dode to do?
 2. What happened instead?
 3. What does your expectation depend upon?
+4. How can we test the things our expectations depend on?
 
 ---
