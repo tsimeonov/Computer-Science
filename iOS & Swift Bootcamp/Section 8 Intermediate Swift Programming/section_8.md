@@ -147,4 +147,6 @@ in the `@IBaction hardnessSelected` add the following
 
 <h5>Using the 5 step approach to debug our App</h5>
 
+1. What did you expect your dode to do?
+
 ---
