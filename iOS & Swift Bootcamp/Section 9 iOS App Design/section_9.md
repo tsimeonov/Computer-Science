@@ -8,3 +8,9 @@ What is covered in this section
 - Learn about design patterns and use the Model View Controller pattern.
 - Learn about Swift Functions that can have outputs.
 - Understand immutability.
+
+---
+
+<h5>Setting up the Quizzler Project and SWhowing the Questions</h5>
+
+---
