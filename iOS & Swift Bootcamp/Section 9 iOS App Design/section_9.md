@@ -56,4 +56,10 @@ let quiz = [
 questionNumber = 0;
 ```
 
+- Update the `questionLabel.text`
+
+```swift
+questionLabel.text = quiz[questionNumber]
+```
+
 ---
