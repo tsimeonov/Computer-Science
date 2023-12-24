@@ -40,4 +40,14 @@ class ViewController: UIViewController {
 }
 ```
 
+- Next step is creating an array `quiz`
+
+```swift
+let quiz = [
+  "Four + Two is equal to Six",
+  "Five - Three is greater that One",
+  "Three + Eight is less tahn Ten"
+]
+```
+
 ---
