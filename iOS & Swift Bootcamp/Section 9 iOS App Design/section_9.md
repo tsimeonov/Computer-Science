@@ -13,4 +13,11 @@ What is covered in this section
 
 <h5>Setting up the Quizzler Project and SWhowing the Questions</h5>
 
+<p style="color: FireBrick">Start by linking the code with the design</p>
+
+- Create an `IBOutlet` from my Qestion label as well as my progress view. inside the `UIViewController`
+  - name the Question label `questionLabel`
+  - name the Preogress view `progressView`
+- Do the same for the true and false buttons. Named them `trueButton` and `falseButton`.
+
 ---
