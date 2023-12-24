@@ -75,10 +75,15 @@ func updateUI () {
 <h5>Checking Answers using 2-Dimensional Arrays</h5>
 
 ```swift
-// 1D array
+// 1D Array
   "Four + Two is equal to Six"
   "Five - Three is greater that One"
   "Three + Eight is less tahn Ten"
+
+// 2D Array
+  "Four + Two is equal to Six",         "True"
+  "Five - Three is greater that One",   "False"
+  "Three + Eight is less tahn Ten"      "False"
 ```
 
 --
