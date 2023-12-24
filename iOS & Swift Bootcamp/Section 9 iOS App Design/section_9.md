@@ -101,7 +101,32 @@ func updateUI () {
 ```swift
 // create the var in the `answerButtonPressed`
 
-let userAnswer = sender.currentTitle
+let userAnswer = sender.currentTitle // True, falses
+```
+
+- Create var `actualAnswer`
+
+```swift
+let actualAnswer = quiz[questionNumber][1]
+```
+
+- Create an if statement
+
+```swift
+if userAnswer == actualAnswer {
+  print("Right")
+} else {
+  print("Wrong")
+}
+```
+
+- Create another if statement
+
+```swift
+if questionNumber + 1 < quiz.count {
+  questionNumber += 1
+}
+
 ```
 
 --
