@@ -13,10 +13,12 @@ class ViewController: UIViewController {
       "Three + Eight is less tahn Ten"
     ]
     
+    var questionNumber = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        questionLabel.text = "four + two is equal to six"
+        questionLabel.text = quiz[questionNumber]
     }
 
     @IBAction func answerButtonPressed(_ sender: UIButton) {
