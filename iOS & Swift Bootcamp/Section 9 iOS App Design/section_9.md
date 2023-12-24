@@ -96,4 +96,12 @@ func updateUI () {
     ]
 ```
 
+- Figure out what the user choose by creating a new variable `userAnswer`
+
+```swift
+// create the var in the `answerButtonPressed`
+
+let userAnswer = sender.currentTitle
+```
+
 --
