@@ -86,4 +86,14 @@ func updateUI () {
   "Three + Eight is less tahn Ten"      "False"
 ```
 
+- Update the code
+
+```swift
+  let quiz = [
+      ["Four + Two is equal to Six", "True"],
+      ["Five - Three is greater that One", "True"],
+      ["Three + Eight is less tahn Ten", "False"]
+    ]
+```
+
 --
