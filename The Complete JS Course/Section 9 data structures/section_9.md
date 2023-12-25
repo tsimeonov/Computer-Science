@@ -6,7 +6,7 @@
 
 Destructing - allows you to unpack values from arrays and objects into separate variables.
 
-Example without destructuring
+<span style="color: #FAA5A5">Example without destructuring</span>
 
 ```js
 const arr = [2, 3, 4];
@@ -17,7 +17,7 @@ const c = arr[2];
 console.log(a, b, c);
 ```
 
-Example with destructuring
+<span style="color: #FAA5A5">Example with destructuring</span>
 
 ```js
 const [x, y, z] = arr;
@@ -54,21 +54,21 @@ const restaurant = {
 
 </details>
 
-Show the first and second element
+<span style="color: #FAA5A5">Show the first and second element</span>
 
 ```js
 const [first, second] = restaurant.categories;
 console.log(first, second); // Italian Pizzeria
 ```
 
-Show the first and third element
+<span style="color: #FAA5A5">Show the first and third element</span>
 
 ```js
 const [first, , third] = restaurant.categories;
 console.log(first, third); // Italian Vegetarian
 ```
 
-Switch the position of the two variables
+<span style="color: #FAA5A5">Switch the position of the two variables</span>
 
 ```js
 // Example whitout destructiring
