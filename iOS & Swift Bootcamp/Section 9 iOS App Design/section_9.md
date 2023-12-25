@@ -152,3 +152,30 @@ struct MyStruct {}
 // Initialisng the Structure
 MyStruct()
 ```
+
+<details>
+  <summary>Struct Example</summary>
+
+```swift
+struct Town {
+  let name = "Todorland"
+  var citizens = ["Todor", "Batman"]
+  var resources = ["Grain": 100, "Ore": 42, "Wool": 42]
+
+  func fortify() {
+      print("Defences increased!")
+  }
+}
+
+var myTown = Town()
+
+print(myTown.citizens) // ["Todor", "Batman"]
+print("\(myTown.name) has \(myTown.resources["Grain"]!) bags of grain")
+
+myTown.citizens.append("John Wick")
+print(myTown.citizens) // ["Todor", "Batman", "John Wick"]
+
+myTown.fortify()
+```
+
+</details>
