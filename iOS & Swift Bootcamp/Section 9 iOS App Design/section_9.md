@@ -129,4 +129,16 @@ if questionNumber + 1 < quiz.count {
 
 ```
 
---
+- Reseet the `questionNumer` back to 0
+
+```swift
+if questionNumber + 1 < quiz.count {
+  questionNumber += 1
+} else {
+  questionNumber = 0
+}
+```
+
+---
+
+<h5>Structures, Methods and Properties</h5>
