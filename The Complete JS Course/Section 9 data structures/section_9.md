@@ -88,4 +88,22 @@ let [main, secondary] = restaurant.categories;
 console.log(main, secondary); // Pizzeria Italian
 ```
 
+<h5 style="color: #F27171">Add a method "order" to the object "restaurant"</h5>
+
+```js
+const restaurant = {
+  name: "Classico Italiano",
+  location: "Via Angelo Tavanti 23, Firenze, Italy",
+  categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
+  starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
+  mainMenu: ["Pizza", "Pasta", "Risotto"],
+
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
+};
+
+console.log(restaurant.order(2, 0)); // ["Garlic Bread", "Pizza"]
+```
+
 ---
