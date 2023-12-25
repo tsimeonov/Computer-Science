@@ -88,7 +88,7 @@ let [main, secondary] = restaurant.categories;
 console.log(main, secondary); // Pizzeria Italian
 ```
 
-<h5 style="color: #F27171">Add a method "order" to the object "restaurant"</h5>
+<span style="color: #FAA5A5">Add a method "order" to the object "restaurant"</span>
 
 ```js
 const restaurant = {
@@ -110,7 +110,7 @@ const [start, main] = restaurant.order(2, 0);
 console.log(start, main); // Garlic Bread Pizza
 ```
 
-<h5 style="color: #F27171">Nested array</h5>
+<span style="color: #FAA5A5">Nested array</span>
 
 ```js
 const nested = [2, 4, [5, 6]];
@@ -124,5 +124,9 @@ const nested = [2, 4, [5, 6]];
 const [i, , [j, k]] = nested;
 console.log(i, j, k); // 2 5 6
 ```
+
+---
+
+<h5 style="color: #FC3C3C">Destructing Objects</h5>
 
 ---
