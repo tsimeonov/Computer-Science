@@ -188,4 +188,7 @@ Struct = Blueprint
 ```swift
 // Creating the initialiser
 init() {}
+
+// Using the initialiser
+StructureName()
 ```
