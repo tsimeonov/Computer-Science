@@ -148,4 +148,7 @@ Structures help us create custom data types.
 ```swift
 // Defining the Structure
 struct MyStruct {}
+
+// Initialisng the Structure
+MyStruct()
 ```
