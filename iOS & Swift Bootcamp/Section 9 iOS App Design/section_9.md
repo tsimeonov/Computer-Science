@@ -142,3 +142,10 @@ if questionNumber + 1 < quiz.count {
 ---
 
 <h5>Structures, Methods and Properties</h5>
+
+Structures help us create custom data types.
+
+```swift
+// Defining the Structure
+struct MyStruct {}
+```
