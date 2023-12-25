@@ -104,6 +104,10 @@ const restaurant = {
 };
 
 console.log(restaurant.order(2, 0)); // ["Garlic Bread", "Pizza"]
+// Destructring example
+// Receiving two retirn values from a function
+const [start, main] = restaurant.order(2, 0);
+console.log(start, main); // Garlic Bread Pizza
 ```
 
 ---
