@@ -221,3 +221,33 @@ print(anotherTown.citizens)
 ```
 
 </details>
+
+<details>
+  <summary>Init using "self" Example</summary>
+
+```swift
+struct Town {
+    let name: String
+    var citizens: [String]
+    var resources: [String: Int]
+
+    // Create the initialiser
+    init(name: String, citizens: [String], resources: [String: Int]) {
+        self.name = name
+        self.citizens = citizens
+        self.resources = resources
+    }
+
+    func fortify() {
+        print("Defences increased!")
+    }
+}
+
+var anotherTown = Town(name: "Island", citizens: ["Tom Hanks"], resources: ["Coconuts": 100])
+anotherTown.citizens.append("Wilson")
+print(anotherTown.citizens)
+
+
+```
+
+</details>
