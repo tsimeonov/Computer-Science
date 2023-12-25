@@ -254,4 +254,6 @@ print(anotherTown.citizens)
 
 ---
 
-<h5>Crating a Question Struct</h5>
+<h5>Creating a Question Struct</h5>
+
+Create a new file swift file called `Question`.
