@@ -264,3 +264,13 @@ struct Question {
   let answer: String
 }
 ```
+
+Initialize the Question struct in the `Main` file.
+
+```swift
+let quiz = [
+  Question(text: "Four + Two is equal to Six", answer: "True"),
+  Question(text: "Five - Three is greater that One", answer: "True"),
+  Question(text: "Three + Eight is less tahn Ten", answer: "False")
+]
+```
