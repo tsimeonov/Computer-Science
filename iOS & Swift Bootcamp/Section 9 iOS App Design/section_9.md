@@ -176,6 +176,16 @@ myTown.citizens.append("John Wick")
 print(myTown.citizens) // ["Todor", "Batman", "John Wick"]
 
 myTown.fortify()
+
+// The name, citizens and the resources are the properties of the struct
+// fortifty is the method of the struct
 ```
 
 </details>
+
+Struct = Blueprint
+
+```swift
+// Creating the initialiser
+init() {}
+```
