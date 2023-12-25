@@ -251,3 +251,7 @@ print(anotherTown.citizens)
 ```
 
 </details>
+
+---
+
+<h5>Crating a Question Struct</h5>
