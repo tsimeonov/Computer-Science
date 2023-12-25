@@ -257,3 +257,10 @@ print(anotherTown.citizens)
 <h5>Creating a Question Struct</h5>
 
 Create a new file swift file called `Question`.
+
+```swift
+struct Question {
+  let text: String
+  let answer: String
+}
+```
