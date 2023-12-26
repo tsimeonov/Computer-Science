@@ -184,4 +184,24 @@ const { menu = [], starterMenu: starters = [] } = restaurant;
 console.log(menu, starters); // [] ["Focaccia", "Bruschetta", "Garlic B...]
 ```
 
+<span style="color: #FAA5A5">Mutating variables while destructing objects</span>
+
+```js
+let a = 111;
+let b = 999;
+const obj = { a: 23, b: 7, c: 14 };
+
+({ a, b } = obj);
+console.log(a, b); // Output 23 7
+```
+
+<span style="color: #FAA5A5">Nested Objects</span>
+
+```js
+const {
+  fri: { open, close },
+} = openingHours;
+console.log(open, close); // 11 23
+```
+
 ---
