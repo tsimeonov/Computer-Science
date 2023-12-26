@@ -176,4 +176,12 @@ const {
 console.log(restaurantName, hours, tags);
 ```
 
+<span style="color: #FAA5A5">Set a default value</span>
+
+```js
+// Rename the `starterMenu` to `starters`, set the default value to an empty array
+const { menu = [], starterMenu: starters = [] } = restaurant;
+console.log(menu, starters); // [] ["Focaccia", "Bruschetta", "Garlic B...]
+```
+
 ---
