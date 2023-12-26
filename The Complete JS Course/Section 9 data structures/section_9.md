@@ -296,4 +296,13 @@ restaurant.orderDelivery({
 
 <h5 style="color: #FC3C3C">The Spread Operator (...)</h5>
 
+<span style="color: #FAA5A5">Using the spread operator</span>
+
+```js
+const arr = [7, 8, 9];
+// Creating arrays inefficiently, adding two elemetns in the begining
+const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
+console.log(badNewArr);
+```
+
 ---
