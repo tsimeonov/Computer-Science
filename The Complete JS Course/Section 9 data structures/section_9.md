@@ -293,3 +293,7 @@ restaurant.orderDelivery({
 ```
 
 ---
+
+<h5 style="color: #FC3C3C">The Spread Operator (...)</h5>
+
+---
