@@ -157,4 +157,12 @@ const restaurant = {
 };
 ```
 
+<span style="color: #FAA5A5">Destructing Objects</span>
+
+```js
+// Destruct the restaurant object
+const { name, openingHours, categories } = restaurant;
+console.log(name, openingHours, categories);
+```
+
 ---
