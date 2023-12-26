@@ -303,6 +303,10 @@ const arr = [7, 8, 9];
 // Creating arrays inefficiently, adding two elemetns in the begining
 const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
 console.log(badNewArr);
+
+// Using the spread operator
+const newArr = [1, 2, ...arr];
+console.log(newArr);
 ```
 
 ---
