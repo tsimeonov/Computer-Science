@@ -165,4 +165,15 @@ const { name, openingHours, categories } = restaurant;
 console.log(name, openingHours, categories);
 ```
 
+<span style="color: #FAA5A5">Change the variable name to be different from the property name</span>
+
+```js
+const {
+  name: restaurantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+console.log(restaurantName, hours, tags);
+```
+
 ---
