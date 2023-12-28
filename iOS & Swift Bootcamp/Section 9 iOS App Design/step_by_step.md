@@ -27,3 +27,11 @@ The clearing of the button happens, so fast that the user is unable to see the c
 ```swift
 Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
 ```
+
+- Step ...
+
+Complete the `progressBar`
+
+```swift
+progressBar.progress = Float(questionNumber) / Float(quiz.count)
+```

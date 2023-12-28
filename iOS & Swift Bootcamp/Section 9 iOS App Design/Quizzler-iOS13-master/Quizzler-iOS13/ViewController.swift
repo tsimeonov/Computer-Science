@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var trueButton: UIButton!
     @IBOutlet weak var falseButton: UIButton!
@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         questionLabel.text = quiz[questionNumber].text
         trueButton.backgroundColor = UIColor.clear
         falseButton.backgroundColor = UIColor.clear
+        progressBar.progress = Float(questionNumber) / Float(quiz.count)
     }
 }
 
