@@ -11,3 +11,13 @@ if userAnswer == actualAnswer {
     sender.backgroundColor = UIColor.red
 }
 ```
+
+Right now the `backgroudColor` stays on the button, to clear it follow the code:
+
+```swift
+func updateUI () {
+    questionLabel.text = quiz[questionNumber].text
+    trueButton.backgroundColor = UIColor.clear
+    falseButton.backgroundColor = UIColor.clear
+}
+```
