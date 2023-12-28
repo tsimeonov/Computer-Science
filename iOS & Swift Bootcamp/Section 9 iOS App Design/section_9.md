@@ -274,3 +274,9 @@ let quiz = [
   Question(text: "Three + Eight is less tahn Ten", answer: "False")
 ]
 ```
+
+---
+
+<h5>Giving the user feedback and working with a ProgressView</h5>
+
+---
