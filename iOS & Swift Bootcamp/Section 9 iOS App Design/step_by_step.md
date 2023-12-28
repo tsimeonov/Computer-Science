@@ -35,3 +35,9 @@ Complete the `progressBar`
 ```swift
 progressBar.progress = Float(questionNumber) / Float(quiz.count)
 ```
+
+You need to add `+1`, so the progress bar can represent that we are currently working on qestion 1.
+
+```swift
+progressBar.progress = Float(questionNumber + 1) / Float(quiz.count)
+```
