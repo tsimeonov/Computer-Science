@@ -65,3 +65,9 @@ alert(arr[1].name); // John
 // get the function at index 3 and run it
 arr[3](); // hello
 ```
+
+---
+
+<h5>Get last elements with "at"</h5>
+
+---
