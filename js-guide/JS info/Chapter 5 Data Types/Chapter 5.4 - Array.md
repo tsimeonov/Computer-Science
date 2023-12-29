@@ -38,3 +38,10 @@ The total count of the elements in the array is its `length`:
 let fruits = ["Apple", "Orange", "PLum"];
 alert(fruits.lengt); // 3
 ```
+
+We can also use `alert` to show the whole array.
+
+```js
+let fruits = ["Apple", "Orange", "Plum"];
+alert(fruits); // Apple, Orange, Plum
+```
