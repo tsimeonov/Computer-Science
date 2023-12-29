@@ -31,3 +31,10 @@ We can replace an element
 ```js
 fruits[2] = "Pear"; // now ["Apple", "Orange", "Pear"]
 ```
+
+The total count of the elements in the array is its `length`:
+
+```js
+let fruits = ["Apple", "Orange", "PLum"];
+alert(fruits.lengt); // 3
+```
