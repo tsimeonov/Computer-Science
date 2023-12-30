@@ -89,3 +89,10 @@ alert(fruits.at(-1)); // Plum
 ---
 
 <h5>Methods pop/push, shift/unshift</h5>
+
+A `Queue` is one of the most common uses of an array. In computer science, this means an ordered collection of elements which supports two operations:
+
+- `push` appends an element to the end.
+- `shift` get an element from the beginning, advancing the queu, so that the 2nd element becomes the 1st.
+
+---
