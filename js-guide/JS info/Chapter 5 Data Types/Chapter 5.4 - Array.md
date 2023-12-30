@@ -77,4 +77,13 @@ let fruits = ["Apple", "Orange", "Plum"];
 alert(fruits[fruits.length - 1]); // Plum
 ```
 
+There is a shorter syntax `fruits.at(-1)`
+
+```js
+let fruits = ["Apple", "Orange", "Plum"];
+
+// same as fruits[fruits.length-1]
+alert(fruits.at(-1)); // Plum
+```
+
 ---
