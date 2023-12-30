@@ -107,4 +107,16 @@ alert(fruits); // Apple, Orange
 
 Both `fruits.po()` and `fruits.at(-1)` returns the last element of the array, but `fruits.pop()` aldo modifies the array by removing it.
 
+<h5>push</h5>
+
+Append the element to the end of the array.
+
+```js
+let fruits = ["apple", orange];
+
+fruits.push("pear");
+
+alert(fruits); // apple, orange. pear
+```
+
 ---
