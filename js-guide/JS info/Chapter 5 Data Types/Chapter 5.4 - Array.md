@@ -87,3 +87,5 @@ alert(fruits.at(-1)); // Plum
 ```
 
 ---
+
+<h5>Methods pop/push, shift/unshift</h5>
