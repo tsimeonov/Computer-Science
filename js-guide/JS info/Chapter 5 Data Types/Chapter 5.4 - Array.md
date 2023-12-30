@@ -70,4 +70,11 @@ arr[3](); // hello
 
 <h5>Get last elements with "at"</h5>
 
+We can explicitly calculate the last element index and then access it
+
+```js
+let fruits = ["Apple", "Orange", "Plum"];
+alert(fruits[fruits.length - 1]); // Plum
+```
+
 ---
