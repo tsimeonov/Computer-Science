@@ -95,4 +95,16 @@ A `Queue` is one of the most common uses of an array. In computer science, this 
 - `push` appends an element to the end.
 - `shift` get an element from the beginning, advancing the queu, so that the 2nd element becomes the 1st.
 
+<h5>pop</h5>
+
+Extrachts the last eleemnt of the array and returns it:
+
+```js
+let fruits = ["Apple", "Orange", "Plum"];
+alert(fruits.pop()); // remove "Pear" and alert it
+alert(fruits); // Apple, Orange
+```
+
+Both `fruits.po()` and `fruits.at(-1)` returns the last element of the array, but `fruits.pop()` aldo modifies the array by removing it.
+
 ---
