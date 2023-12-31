@@ -298,3 +298,7 @@ The project is split in three main components
 <img src="./mvc.png" width="500px"/>
 
 ---
+
+<h5>Implementing the MVC design pattern</h5>
+
+---
