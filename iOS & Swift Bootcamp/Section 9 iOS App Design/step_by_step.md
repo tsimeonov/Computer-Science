@@ -1,6 +1,6 @@
 <h2>Step by Step Guide for creating the Quiz App</h2>
 
-<p style="color: FireBrick">Start by linking the code with the design</p>
+<p style="color: FireBrick">Step 1: Start by linking the code with the design</p>
 
 - Create an `IBOutlet` from my Qestion label as well as my progress view. inside the `UIViewController`
   - name the Question label `questionLabel`
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 }
 ```
 
-- Next step is creating an array `quiz`
+<p style="color: FireBrick">Step 2: Creating an array `quiz`</p>
 
 ```swift
 let quiz = [
