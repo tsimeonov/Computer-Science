@@ -279,4 +279,10 @@ let quiz = [
 
 <h5>Giving the user feedback and working with a ProgressView</h5>
 
+Related to Step 4 in the step by step guide.
+
+---
+
+<h5>Understanding the MVC design pattern</h5>
+
 ---
