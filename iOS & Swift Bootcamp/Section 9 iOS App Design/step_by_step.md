@@ -98,3 +98,12 @@ You need to add `+1`, so the progress bar can represent that we are currently wo
 ```swift
 progressBar.progress = Float(questionNumber + 1) / Float(quiz.count)
 ```
+
+<p style="color: FireBrick">Step 5: Start implementig the MVC Design Pattern</p>
+
+- Right click on the `Question.swift` and select `New Group from Selection`
+- Rename the folder `Model`
+- Right click on the `Main.storyboard` and select `New Group from Selection`
+- Rename the folder `View`
+- Right click on the `ViewController.swift` and select `New Group from Selection`
+- Rename the folder `Controller`
