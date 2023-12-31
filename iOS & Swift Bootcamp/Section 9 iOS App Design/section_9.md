@@ -285,4 +285,7 @@ Related to Step 4 in the step by step guide.
 
 <h5>Understanding the MVC design pattern</h5>
 
+Design patterns - can help us get organized and structure our code in a better way.
+Design pattern is a proven solution to a common problem (usually the common problem is complexity)
+
 ---
