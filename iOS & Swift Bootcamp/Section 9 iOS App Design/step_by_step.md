@@ -1,5 +1,62 @@
 <h2>Step by Step Guide for creating the Quiz App</h2>
 
+<p style="color: FireBrick">Start by linking the code with the design</p>
+
+- Create an `IBOutlet` from my Qestion label as well as my progress view. inside the `UIViewController`
+  - name the Question label `questionLabel`
+  - name the Preogress view `progressView`
+- Do the same for the true and false buttons. Named them `trueButton` and `falseButton`.
+- Add IBAction when eiher the true or false button gets pressed.
+  - Add the true button and false buttons, name it `answerButtonPressed`.
+
+```swift
+class ViewController: UIViewController {
+
+    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var trueButton: UIButton!
+    @IBOutlet weak var falseButton: UIButton!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func answerButtonPressed(_ sender: UIButton) {
+    }
+}
+```
+
+- Next step is creating an array `quiz`
+
+```swift
+let quiz = [
+  "Four + Two is equal to Six",
+  "Five - Three is greater that One",
+  "Three + Eight is less tahn Ten"
+]
+```
+
+- Track which question the user is currently reading by creaating a variable `questionNumber`
+
+```swift
+questionNumber = 0;
+```
+
+- Update the `questionLabel.text`
+
+```swift
+questionLabel.text = quiz[questionNumber]
+```
+
+- Create a new function `updateUi`
+
+```swift
+func updateUI () {
+  questionLabel.text = quiz[questionNumber]
+}
+```
+
 - Step ...
 
 Remove the `print` stetements from the function `answerButtonPressed` and add the following:
