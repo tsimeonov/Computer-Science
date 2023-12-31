@@ -288,4 +288,13 @@ Related to Step 4 in the step by step guide.
 Design patterns - can help us get organized and structure our code in a better way.
 Design pattern is a proven solution to a common problem (usually the common problem is complexity)
 
+MVC (model view controller) design pattern
+The project is split in three main components
+
+- The model (data & logic)
+- The view (user intrerface)
+- The controller (mediator)
+
+<img src="./mvc.png" width="500px"/>
+
 ---
