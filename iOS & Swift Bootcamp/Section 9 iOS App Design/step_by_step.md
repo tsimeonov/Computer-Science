@@ -85,7 +85,7 @@ The clearing of the button happens, so fast that the user is unable to see the c
 Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
 ```
 
-- Step ...
+<p style="color: FireBrick">Step 4</p>
 
 Complete the `progressBar`
 
