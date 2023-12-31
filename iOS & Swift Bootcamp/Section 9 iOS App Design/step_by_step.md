@@ -57,7 +57,7 @@ func updateUI () {
 }
 ```
 
-- Step ...
+<p style="color: FireBrick">Step 3</p>
 
 Remove the `print` stetements from the function `answerButtonPressed` and add the following:
 
