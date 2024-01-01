@@ -318,4 +318,9 @@ func getMilk (money: Int) -> Int {
 // `change` - Return value
 ```
 
+```swift
+// Calling the function
+var change = getMilk(4)
+```
+
 ---
