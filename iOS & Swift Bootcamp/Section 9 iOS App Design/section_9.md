@@ -333,4 +333,23 @@ var change = getMilk(4)
 
 <h5>Immutability</h5>
 
+```swift
+// questionNumbe is the property of the QuizBrain
+// checkAnswer is the method of the QuizBrain
+
+struct QuizBrain() {
+  var questionNumber = 0
+
+  func checkAnswer(userAnswer: String) -> Bool{
+    if userAnswer == quiz[questionNumber].answer {
+      // User got it right
+      return true
+    } else {
+      // User got it wrong
+      return false
+    }
+  }
+}
+```
+
 ---
