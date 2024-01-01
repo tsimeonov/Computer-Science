@@ -217,4 +217,20 @@ func getProgress () -> Float{
 progressView.progress = quizBrain.getProgress()
 ```
 
+- Cut out the quiz progression functionality from the `main`
+
+```swift
+if questionNumber + 1 < quiz.count {
+    questionNumber += 1
+} else {
+    questionNumber = 0
+}
+```
+
+- Add the `quizBrain.nextQuestion()` to the `Main`
+
+```swift
+quizBrain.nextQuestion()
+```
+
 ---
