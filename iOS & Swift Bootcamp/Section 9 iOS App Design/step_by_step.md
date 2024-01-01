@@ -202,4 +202,13 @@ Inside the `Main` edit the `updateUI` function:
 questionLabel.text = quizBrain.getQuestionText()
 ```
 
+- Create a new function `getProgress()` inside the `QuizBrain`
+
+```swift
+func getProgress () -> Float{
+    let progress = Float(questionNumber + 1) / Float(quiz.count)
+    return progress
+}
+```
+
 ---
