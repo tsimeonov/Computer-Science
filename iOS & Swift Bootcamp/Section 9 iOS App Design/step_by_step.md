@@ -233,4 +233,16 @@ if questionNumber + 1 < quiz.count {
 quizBrain.nextQuestion()
 ```
 
+- Mark the function `nextQestion` with mutating keyword
+
+```swift
+mutating func nextQuestion() {
+  if questionNumber + 1 < quiz.count {
+      questionNumber += 1
+  } else {
+      questionNumber = 0
+  }
+}
+```
+
 ---
