@@ -305,4 +305,17 @@ The project is split in three main components
 
 <h5>Functions with Outputs and Return Types</h5>
 
+```swift
+// Creating the function
+func getMilk (money: Int) -> Int {
+  let change = money  2;
+  return change;
+}
+
+// `->` - Return arrow
+// `Int` - Return type
+// `return` - Return keyword
+// `change` - Return value
+```
+
 ---
