@@ -211,4 +211,10 @@ func getProgress () -> Float{
 }
 ```
 
+- Update the `updateUI` function in the `Main`
+
+```swift
+progressView.progress = quizBrain.getProgress()
+```
+
 ---
