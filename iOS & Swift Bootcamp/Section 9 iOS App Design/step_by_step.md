@@ -164,4 +164,20 @@ quizBrain.checkAnswer(userAnswer: userAnswer)
 let userAnswer = sender.currentTitle!
 ```
 
+<p style="color: FireBrick">Step 7</p>
+
+- Modify the `checkAnswer` function to allow for an output `Bool`
+
+```swift
+func checkAnswer(userAnswer: String) -> Bool{
+  if userAnswer == quiz[questionNumber].answer {
+      // User got it right
+      return true
+  } else {
+      // User got it wrong
+      return false
+  }
+}
+```
+
 ---
