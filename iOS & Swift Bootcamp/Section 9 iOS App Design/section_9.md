@@ -301,6 +301,8 @@ The project is split in three main components
 
 <h5>Implementing the MVC design pattern</h5>
 
+Refer to step 5 and 6.
+
 ---
 
 <h5>Functions with Outputs and Return Types</h5>
@@ -322,5 +324,9 @@ func getMilk (money: Int) -> Int {
 // Calling the function
 var change = getMilk(4)
 ```
+
+---
+
+<h5>Refactoring to Implement the MVC Design Pattern</h5>
 
 ---
