@@ -302,3 +302,7 @@ The project is split in three main components
 <h5>Implementing the MVC design pattern</h5>
 
 ---
+
+<h5>Functions with Outputs and Return Types</h5>
+
+---
