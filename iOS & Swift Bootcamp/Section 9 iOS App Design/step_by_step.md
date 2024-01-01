@@ -180,4 +180,26 @@ func checkAnswer(userAnswer: String) -> Bool{
 }
 ```
 
+- Create a var `userGotItRight`
+
+```swift
+let userGotItRight = quizBrain.checkAnswer(userAnswer: userAnswer)
+```
+
+- Remove the `userAnswer == actualAnswer` from the if statement and type `userGotItRight`
+
+- Create a new function `getQuestionText` with an output of `String` inside the `QuizBrain`
+
+```swift
+func getQuestionText () -> String  {
+  return quiz[questionNumber].text
+}
+```
+
+Inside the `Main` edit the `updateUI` function:
+
+```swift
+questionLabel.text = quizBrain.getQuestionText()
+```
+
 ---
