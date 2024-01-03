@@ -119,4 +119,24 @@ fruits.push("pear");
 alert(fruits); // apple, orange. pear
 ```
 
+<h5>shift</h5>
+
+Extract the first element of the array and rerurns it.
+
+```js
+let fruits = ["Apple", "Orange", "Pear"];
+alert(fruits.shift()); // remove Apple ad alert it
+alert(fruits); // Orange, Pear
+```
+
+<h5>unshift</h5>
+
+Add the element to the beginning of the array:
+
+```js
+let fruits = ["Orange", "Pear"];
+fruits.unshift("Apple");
+alert(fruits); // Apple, Orange, Pear
+```
+
 ---
