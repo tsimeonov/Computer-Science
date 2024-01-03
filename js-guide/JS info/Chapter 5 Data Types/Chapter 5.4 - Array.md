@@ -147,4 +147,6 @@ alert(fruits); // Apple, Orange, Pear
 
 <h5>Performance</h5>
 
+Methods `push/pop` run fast, while `shift/unshift` are slow.
+
 ---
