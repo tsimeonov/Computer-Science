@@ -144,3 +144,7 @@ alert(fruits); // Apple, Orange, Pear
 <h5>Internals</h5>
 
 ---
+
+<h5>Performance</h5>
+
+---
