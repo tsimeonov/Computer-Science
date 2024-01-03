@@ -95,7 +95,7 @@ A `Queue` is one of the most common uses of an array. In computer science, this 
 - `push` appends an element to the end.
 - `shift` get an element from the beginning, advancing the queu, so that the 2nd element becomes the 1st.
 
-<h5>pop</h5>
+<p>pop</p>
 
 Extrachts the last eleemnt of the array and returns it:
 
@@ -107,7 +107,7 @@ alert(fruits); // Apple, Orange
 
 Both `fruits.po()` and `fruits.at(-1)` returns the last element of the array, but `fruits.pop()` aldo modifies the array by removing it.
 
-<h5>push</h5>
+<p>push</p>
 
 Append the element to the end of the array.
 
@@ -119,7 +119,7 @@ fruits.push("pear");
 alert(fruits); // apple, orange. pear
 ```
 
-<h5>shift</h5>
+<p>shift</p>
 
 Extract the first element of the array and rerurns it.
 
@@ -129,7 +129,7 @@ alert(fruits.shift()); // remove Apple ad alert it
 alert(fruits); // Orange, Pear
 ```
 
-<h5>unshift</h5>
+<p>unshift</p>
 
 Add the element to the beginning of the array:
 
