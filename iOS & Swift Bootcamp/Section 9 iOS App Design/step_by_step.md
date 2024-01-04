@@ -252,3 +252,8 @@ mutating func nextQuestion() {
   - Change the text color to white
 - Create an `IBAutlet` that links the label to the `ViewController`
 - Name the label `scoreLabel`
+- Go under the `/Controller/ViewController` under the `updateUI()`type the following
+
+```swift
+scoreLabel.text = "Score: \(quizBrain.getScore())"
+```
