@@ -251,3 +251,4 @@ mutating func nextQuestion() {
 - Modify the properties of the label
   - Change the text color to white
 - Create an `IBAutlet` that links the label to the `ViewController`
+- Name the label `scoreLabel`
