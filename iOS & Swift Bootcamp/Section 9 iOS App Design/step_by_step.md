@@ -246,3 +246,5 @@ mutating func nextQuestion() {
 ```
 
 <p style="color: FireBrick">Step 8</p>
+
+- Add a `label` and place it under the `Stack View`
