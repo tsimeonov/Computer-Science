@@ -355,3 +355,7 @@ struct QuizBrain() {
 Things narked with `var` are mutable, things marked with `let` are immutable.
 
 ---
+
+<h5>Using mutability functions to track the score</h5>
+
+---
