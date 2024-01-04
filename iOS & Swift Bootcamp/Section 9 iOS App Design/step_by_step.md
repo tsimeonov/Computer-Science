@@ -249,3 +249,4 @@ mutating func nextQuestion() {
 
 - Add a `label` and place it under the `Stack View`
 - Modify the properties of the label
+  - Change the text color to white
