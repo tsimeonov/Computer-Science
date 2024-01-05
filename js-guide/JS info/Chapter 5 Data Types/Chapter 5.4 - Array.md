@@ -176,4 +176,6 @@ for (let fruit of fruits) {
 
 ---
 
-<><>
+<h5>new Array()</h5>
+
+---
