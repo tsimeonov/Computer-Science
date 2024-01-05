@@ -150,3 +150,7 @@ alert(fruits); // Apple, Orange, Pear
 Methods `push/pop` run fast, while `shift/unshift` are slow.
 
 ---
+
+<h5>Loops</h5>
+
+---
