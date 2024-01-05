@@ -153,4 +153,14 @@ Methods `push/pop` run fast, while `shift/unshift` are slow.
 
 <h5>Loops</h5>
 
+One of the oldest ways to cycle array items is the `for` loop over indexes:
+
+```js
+let arr = ["Apple", "Orange", "Pear"];
+
+for (let i = 0; i < arr.length; i++) {
+  alert(arr[i]);
+}
+```
+
 ---
