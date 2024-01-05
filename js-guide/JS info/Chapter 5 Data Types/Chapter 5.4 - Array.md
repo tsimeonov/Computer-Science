@@ -178,4 +178,12 @@ for (let fruit of fruits) {
 
 <h5>new Array()</h5>
 
+There is one more syntax to create an array:
+
+```js
+let arr = new Array("Apple", "Pear", "etc");
+```
+
+It's rarely used, because square brackets `[]` are shorter.
+
 ---
