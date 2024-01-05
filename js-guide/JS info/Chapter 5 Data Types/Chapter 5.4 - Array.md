@@ -166,7 +166,7 @@ for (let i = 0; i < arr.length; i++) {
 But for arrays there is another form of loop, `for..of`
 
 ```js
-let arr = ["Apple", "Orange", "Pear"];
+let fruits = ["Apple", "Orange", "Pear"];
 
 // iterates over array elements
 for (let fruit of fruits) {
@@ -175,3 +175,5 @@ for (let fruit of fruits) {
 ```
 
 ---
+
+<><>
