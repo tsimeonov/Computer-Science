@@ -203,3 +203,7 @@ alert(matrixp[1][1]); // 5, the central element
 ```
 
 ---
+
+<h5>toString()</h5>
+
+---
