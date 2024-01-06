@@ -187,3 +187,7 @@ let arr = new Array("Apple", "Pear", "etc");
 It's rarely used, because square brackets `[]` are shorter.
 
 ---
+
+<h5>Multidimensional  arrays</h5>
+
+---
