@@ -210,4 +210,13 @@ alert(matrixp[1][1]); // 5, the central element
 
 <h5>Don't compare arrays with ==</h5>
 
+Arrays in JS, unlike some other programming languages, shouldn't be compared with `==`.
+
+When we compare arrays with `==`, they are never the same, unless we compare two variables that reference exactly the same array.
+
+```js
+alert([] == []); // false
+alert([0] == [0]); // false
+```
+
 ---
