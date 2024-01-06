@@ -207,3 +207,7 @@ alert(matrixp[1][1]); // 5, the central element
 <h5>toString()</h5>
 
 ---
+
+<h5>Don't compare arrays with ==</h5>
+
+---
