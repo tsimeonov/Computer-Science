@@ -190,4 +190,16 @@ It's rarely used, because square brackets `[]` are shorter.
 
 <h5>Multidimensional  arrays</h5>
 
+Arrays can have items that are also arrays. We can use it for multidimensional arrays, for example to store matrices:
+
+```js
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+alert(matrixp[1][1]); // 5, the central element
+```
+
 ---
