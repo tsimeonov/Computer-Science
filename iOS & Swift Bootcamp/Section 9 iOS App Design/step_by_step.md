@@ -263,3 +263,18 @@ scoreLabel.text = "Score: \(quizBrain.getScore())"
 ```swfit
 var score = 0;
 ```
+
+- Increase the score by 1, if the user got the answer right. Place it in the `checkAnswer` function
+
+```swift
+mutating func checkAnswer(userAnswer: String) -> Bool{
+  if userAnswer == quiz[questionNumber].answer {
+      // User got it right
+      score += 1
+      return true
+  } else {
+      // User got it wrong
+      return false
+  }
+}
+```
