@@ -286,3 +286,16 @@ func getScore() -> Int {
   return score
 }
 ```
+
+- Reset the `score` to 0 when the quiz restarts.
+
+```swift
+mutating func nextQuestion() {
+  if questionNumber + 1 < quiz.count {
+      questionNumber += 1
+  } else {
+      questionNumber = 0
+      score = 0
+  }
+}
+```
