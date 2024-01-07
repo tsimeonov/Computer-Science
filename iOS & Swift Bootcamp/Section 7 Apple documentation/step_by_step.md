@@ -64,3 +64,5 @@ func playSound() {
 ```swift
 var player: AVAudioPlayer!
 ```
+
+- Good to know information about the `!` and `?`
