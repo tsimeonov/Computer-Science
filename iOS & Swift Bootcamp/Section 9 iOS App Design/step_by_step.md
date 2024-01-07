@@ -257,3 +257,9 @@ mutating func nextQuestion() {
 ```swift
 scoreLabel.text = "Score: \(quizBrain.getScore())"
 ```
+
+- Create a variable `score`. Place it under the `questionNumer` in the `quizBrain`
+
+```swfit
+var score = 0;
+```
