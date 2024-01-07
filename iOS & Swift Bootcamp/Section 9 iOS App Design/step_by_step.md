@@ -278,3 +278,11 @@ mutating func checkAnswer(userAnswer: String) -> Bool{
   }
 }
 ```
+
+- Create a new function `getScore` that returns an Integer
+
+```swift
+func getScore() -> Int {
+  return score
+}
+```
