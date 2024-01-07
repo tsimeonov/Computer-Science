@@ -51,3 +51,4 @@ func playSound() {
 ```
 
 - Rename the `"SoundName"` to `"C"` and the `mp3` to `wav`
+- Call the `playSound()`from the `keyPressed()`
