@@ -58,3 +58,9 @@ func playSound() {
     player.play()
 }
 ```
+
+- Change the `?` to `!` in the `player` variable
+
+```swift
+var player: AVAudioPlayer!
+```
