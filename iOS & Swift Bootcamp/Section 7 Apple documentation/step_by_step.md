@@ -74,3 +74,7 @@ let optionalString: String? = "Hello"
 let unwrappedString = optionalString!   // force-unwrapping the optional
 print(unwrappedString) // This will print "Hello"
 ```
+
+<h5 style="color: FireBrick">Step 3: Link all the buttons</h5>
+
+- Drag the line that appers from clicking on the circle next to the `IBAction func keyPressed()`
