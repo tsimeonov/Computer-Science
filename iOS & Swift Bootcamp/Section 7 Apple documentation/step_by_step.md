@@ -66,3 +66,11 @@ var player: AVAudioPlayer!
 ```
 
 - Good to know information about the `!` and `?`
+
+The exclamation mark `!` is used as a force-unwrapping operator when dealing with optionals. For instance, if a variable is an optional string (`String?`) and you want to force-unwrap it to access its underlying value, you would `!` at the end of the variable to force-unwrap it.
+
+```swift
+let optionalString: String? = "Hello"
+let unwrappedString = optionalString!   // force-unwrapping the optional
+print(unwrappedString) // This will print "Hello"
+```
