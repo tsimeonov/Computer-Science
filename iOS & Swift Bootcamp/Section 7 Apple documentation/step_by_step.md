@@ -4,3 +4,8 @@
 
 - Link the first button `C` to the `ViewController`. Hold the `control ^` key on the keyboard and the the button to the `ViewController`.
 - Name the action `keyPressed` and change thet type to `UIButton`.
+
+```swift
+@IBAction func keyPressed(_ sender: UIButton) {
+}
+```
