@@ -17,3 +17,9 @@
 ```swift
 import AVFoundation
 ```
+
+- Create a variable `player` and specify the data type `AVAudioPlayer`
+
+```swift
+var player: AVAudioPlayer
+```
