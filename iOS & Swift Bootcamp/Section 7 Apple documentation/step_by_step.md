@@ -9,3 +9,11 @@
 @IBAction func keyPressed(_ sender: UIButton) {
 }
 ```
+
+<h5 style="color: FireBrick">Step 2: How to play sound using Swift</h5>
+
+- import the `AVFoundation` in the project.
+
+```swift
+import AVFoundation
+```
