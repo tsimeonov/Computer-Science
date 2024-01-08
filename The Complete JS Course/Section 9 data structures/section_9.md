@@ -322,6 +322,10 @@ console.log(newMenu); // (4) ["Pizza", "Pasta", "Risotto", "Gnocc...]
 ```js
 // Copy array
 const mainMenuCopy = [...restaurant.mainMenu];
+
+// Join 2 arrays, containng both the mainMenu and the starterMenu
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu); // ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad", "Pizza", "Pasta", "Risotto"]
 ```
 
 ---
