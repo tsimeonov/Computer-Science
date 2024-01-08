@@ -311,4 +311,10 @@ console.log(newArr);
 
 <span style="color: #FAA5a5">Add one more element to an array</span>
 
+```js
+// Create an array with one more food item in the mainMenu
+const newMenu = [...restaurant.mainMenu, "Gnocci"];
+console.log(newMenu); // (4) ["Pizza", "Pasta", "Risotto", "Gnocc...]
+```
+
 ---
