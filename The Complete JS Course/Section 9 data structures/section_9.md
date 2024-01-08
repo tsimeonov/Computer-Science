@@ -317,4 +317,6 @@ const newMenu = [...restaurant.mainMenu, "Gnocci"];
 console.log(newMenu); // (4) ["Pizza", "Pasta", "Risotto", "Gnocc...]
 ```
 
+<span style="color: #FAA5a5">Merge two arrays together</span>
+
 ---
