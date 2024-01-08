@@ -309,4 +309,6 @@ const newArr = [1, 2, ...arr];
 console.log(newArr);
 ```
 
+<span style="color: #FAA5a5">Add one more element to an array</span>
+
 ---
