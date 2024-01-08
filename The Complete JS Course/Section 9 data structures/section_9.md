@@ -319,4 +319,9 @@ console.log(newMenu); // (4) ["Pizza", "Pasta", "Risotto", "Gnocc...]
 
 <span style="color: #FAA5a5">Merge two arrays together</span>
 
+```js
+// Copy array
+const mainMenuCopy = [...restaurant.mainMenu];
+```
+
 ---
