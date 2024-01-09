@@ -90,3 +90,10 @@ func playSound(soundName: String) {
     player.play()
 }
 ```
+
+- Add an argument to the `playSound` function
+
+```swift
+playSound(soundName: sender.titleLabel!.text!)
+// Or playSound(soundName: sender.currentTitle!)
+```
