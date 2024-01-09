@@ -80,3 +80,13 @@ print(unwrappedString) // This will print "Hello"
 - Drag the line that appers from clicking on the circle next to the `IBAction func keyPressed()`
 
 <h5 style="color: FireBrick">Step 4: Playing different sounds</h5>
+
+- Modify the function `playSound` to accept an argument `soundName` with a data type of String.
+
+```swift
+func playSound(soundName: String) {
+    let url = Bundle.main.url (forResource: soundName, withExtension: "wav")
+    player = try! AVAudioPlayer(contentsOf: url!)
+    player.play()
+}
+```
