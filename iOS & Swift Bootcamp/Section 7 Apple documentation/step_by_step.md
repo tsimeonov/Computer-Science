@@ -81,7 +81,7 @@ print(unwrappedString) // This will print "Hello"
 
 <h5 style="color: FireBrick">Step 4: Playing different sounds</h5>
 
-- Modify the function `playSound` to accept an argument `soundName` with a data type of String.
+- Modify the function `playSound` with a parameter of `soundName` with a data type of String.
 
 ```swift
 func playSound(soundName: String) {
