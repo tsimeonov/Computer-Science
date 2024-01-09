@@ -78,3 +78,5 @@ print(unwrappedString) // This will print "Hello"
 <h5 style="color: FireBrick">Step 3: Link all the buttons</h5>
 
 - Drag the line that appers from clicking on the circle next to the `IBAction func keyPressed()`
+
+<h5 style="color: FireBrick">Step 4: Playing different sounds</h5>
