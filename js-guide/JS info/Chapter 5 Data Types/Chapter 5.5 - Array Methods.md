@@ -10,3 +10,16 @@ We already know methods that add and remove items from the beginning or the end:
 - `arr.unshift(...items) `– adds items to the beginning.
 
 <h5>splice</h5>
+
+How to delete an element from an array?
+
+The arrays ar objects, so we can try to use `delete`.
+
+```js
+let arr = ["I", "go", "home"];
+delete arr[1]; // remove "go"
+alert(arr[1]); // undefined
+
+// now arr = ["I", , "home"]
+alert(arr.length); // 3
+```
