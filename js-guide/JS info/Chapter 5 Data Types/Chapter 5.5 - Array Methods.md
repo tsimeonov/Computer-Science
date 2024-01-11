@@ -23,3 +23,5 @@ alert(arr[1]); // undefined
 // now arr = ["I", , "home"]
 alert(arr.length); // 3
 ```
+
+The element is removed, but the array still has 3 elements, we can see that `arr.length == 3`
