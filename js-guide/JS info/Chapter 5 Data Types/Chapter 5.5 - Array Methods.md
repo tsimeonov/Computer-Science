@@ -33,3 +33,17 @@ the syntax is :
 ```js
 arr.aplice(start[, deleteCount, elem1, ..., elemN]);
 ```
+
+It modifies `arr` starting from the index `start`: removes `deleteCount` elements and then inserts `elem1, ..., elemN` at their place.
+
+This method is easy to graps by examples.
+
+Let's start with the deletion:
+
+```js
+let arr = ["I", "study", "Javascript"];
+
+arr.splice(1, 1); // from index 1 remove 1 element
+
+alert(arr); // ["I", "Javascript"]
+```
