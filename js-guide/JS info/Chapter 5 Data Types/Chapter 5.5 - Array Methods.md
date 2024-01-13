@@ -60,3 +60,11 @@ alert(arr); // now ["Let's", "dance", "right", "now"]
 ```
 
 <h5>slice</h5>
+
+The method `arr.slice` is much simpler than similar-looking `arr.splice`.
+
+The syntax is:
+
+```js
+arr.slice([start], [end]);
+```
