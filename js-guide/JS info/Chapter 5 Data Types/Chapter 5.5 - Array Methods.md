@@ -58,3 +58,5 @@ arr.splice(0, 3, "Let's", "dance");
 
 alert(arr); // now ["Let's", "dance", "right", "now"]
 ```
+
+<h5>slice</h5>
