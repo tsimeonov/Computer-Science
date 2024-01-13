@@ -68,3 +68,15 @@ The syntax is:
 ```js
 arr.slice([start], [end]);
 ```
+
+It returns a new array copying to it all items from index `start` to `end` (not including `end`).
+Both `start` and `end` can be neggative, in that case posiotn from arrat end is assumed.
+
+For instance:
+
+```js
+let arr = ["t", "e", "s", "t"];
+
+alert(arr.slice(1, 3)); // e, s (copy from 1 to 3)
+alert(arr.slice(-2)); // s,t (copy from -2 till the end)
+```
