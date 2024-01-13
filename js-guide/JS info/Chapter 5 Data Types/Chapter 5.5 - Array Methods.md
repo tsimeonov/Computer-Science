@@ -25,3 +25,11 @@ alert(arr.length); // 3
 ```
 
 The element is removed, but the array still has 3 elements, we can see that `arr.length == 3`
+
+The `arr.splice` method is a swiss army knife for arrays. It can do everything: insert, remove and replace elements.
+
+the syntax is :
+
+```js
+arr.aplice(start[, deleteCount, elem1, ..., elemN]);
+```
