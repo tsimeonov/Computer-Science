@@ -299,3 +299,5 @@ mutating func nextQuestion() {
   }
 }
 ```
+
+<p style="color: FireBrick">Step 9: Change button opacity</p>
