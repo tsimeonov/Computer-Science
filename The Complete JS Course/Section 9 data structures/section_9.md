@@ -328,4 +328,6 @@ const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu); // ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad", "Pizza", "Pasta", "Risotto"]
 ```
 
+<span style="color: #FAA5a5">Iterables</span>
+
 ---
