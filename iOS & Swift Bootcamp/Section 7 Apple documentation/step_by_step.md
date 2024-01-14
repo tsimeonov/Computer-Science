@@ -97,3 +97,15 @@ func playSound(soundName: String) {
 playSound(soundName: sender.titleLabel!.text!)
 // Or playSound(soundName: sender.currentTitle!)
 ```
+
+<p style="color: FireBrick">Step 5: Change button opacity</p>
+
+Add the code to the `keyPressed` function
+
+```swift
+//Code should execute after 0.2 second delay.
+  DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+    //Bring's sender's opacity back up to fully opaque.
+    sender.alpha = 1.0
+}
+```

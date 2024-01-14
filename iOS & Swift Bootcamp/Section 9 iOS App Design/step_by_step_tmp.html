@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>step_by_step.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2>Step by Step Guide for creating the Quiz App</h2>
+<p style="color: FireBrick">Step 1: Start by linking the code with the design</p>
+<ul>
+<li>Create an <code>IBOutlet</code> from my Qestion label as well as my progress view. inside the <code>UIViewController</code>
+<ul>
+<li>name the Question label <code>questionLabel</code></li>
+<li>name the Preogress view <code>progressView</code></li>
+</ul>
+</li>
+<li>Do the same for the true and false buttons. Named them <code>trueButton</code> and <code>falseButton</code>.</li>
+<li>Add IBAction when eiher the true or false button gets pressed.
+<ul>
+<li>Add the true button and false buttons, name it <code>answerButtonPressed</code>.</li>
+</ul>
+</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ViewController</span>: <span class="hljs-title">UIViewController</span> </span>{
+
+    <span class="hljs-meta">@IBOutlet</span> <span class="hljs-keyword">weak</span> <span class="hljs-keyword">var</span> progressView: <span class="hljs-type">UIProgressView!</span>
+    <span class="hljs-meta">@IBOutlet</span> <span class="hljs-keyword">weak</span> <span class="hljs-keyword">var</span> questionLabel: <span class="hljs-type">UILabel!</span>
+    <span class="hljs-meta">@IBOutlet</span> <span class="hljs-keyword">weak</span> <span class="hljs-keyword">var</span> trueButton: <span class="hljs-type">UIButton!</span>
+    <span class="hljs-meta">@IBOutlet</span> <span class="hljs-keyword">weak</span> <span class="hljs-keyword">var</span> falseButton: <span class="hljs-type">UIButton!</span>
+
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">viewDidLoad</span><span class="hljs-params">()</span></span> {
+        <span class="hljs-keyword">super</span>.viewDidLoad()
+        <span class="hljs-comment">// Do any additional setup after loading the view.</span>
+    }
+
+    <span class="hljs-meta">@IBAction</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">answerButtonPressed</span><span class="hljs-params">(<span class="hljs-number">_</span> sender: UIButton)</span></span> {
+    }
+}
+</div></code></pre>
+<p style="color: FireBrick">Step 2: Creating an array `quiz`</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">let</span> quiz = [
+  <span class="hljs-string">"Four + Two is equal to Six"</span>,
+  <span class="hljs-string">"Five - Three is greater that One"</span>,
+  <span class="hljs-string">"Three + Eight is less tahn Ten"</span>
+]
+</div></code></pre>
+<ul>
+<li>Track which question the user is currently reading by creaating a variable <code>questionNumber</code></li>
+</ul>
+<pre class="hljs"><code><div>questionNumber = <span class="hljs-number">0</span>;
+</div></code></pre>
+<ul>
+<li>Update the <code>questionLabel.text</code></li>
+</ul>
+<pre class="hljs"><code><div>questionLabel.text = quiz[questionNumber]
+</div></code></pre>
+<ul>
+<li>Create a new function <code>updateUi</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">updateUI</span> <span class="hljs-params">()</span></span> {
+  questionLabel.text = quiz[questionNumber]
+}
+</div></code></pre>
+<p style="color: FireBrick">Step 3</p>
+<p>Remove the <code>print</code> stetements from the function <code>answerButtonPressed</code> and add the following:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> userAnswer == actualAnswer {
+    sender.backgroundColor = <span class="hljs-type">UIColor</span>.green
+} <span class="hljs-keyword">else</span> {
+    sender.backgroundColor = <span class="hljs-type">UIColor</span>.red
+}
+</div></code></pre>
+<p>Right now the <code>backgroudColor</code> stays on the button, to clear it follow the code:</p>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">updateUI</span> <span class="hljs-params">()</span></span> {
+    questionLabel.text = quiz[questionNumber].text
+    trueButton.backgroundColor = <span class="hljs-type">UIColor</span>.clear
+    falseButton.backgroundColor = <span class="hljs-type">UIColor</span>.clear
+}
+</div></code></pre>
+<p>The clearing of the button happens, so fast that the user is unable to see the color of the button <code>green</code> or <code>red</code>.</p>
+<pre class="hljs"><code><div><span class="hljs-type">Timer</span>.scheduledTimer(timeInterval: <span class="hljs-number">0.2</span>, target: <span class="hljs-keyword">self</span>, selector: #selector(updateUI), userInfo: <span class="hljs-literal">nil</span>, repeats: <span class="hljs-literal">false</span>)
+</div></code></pre>
+<p style="color: FireBrick">Step 4</p>
+<p>Complete the <code>progressBar</code></p>
+<pre class="hljs"><code><div>progressBar.progress = <span class="hljs-type">Float</span>(questionNumber) / <span class="hljs-type">Float</span>(quiz.<span class="hljs-built_in">count</span>)
+</div></code></pre>
+<p>You need to add <code>+1</code>, so the progress bar can represent that we are currently working on qestion 1.</p>
+<pre class="hljs"><code><div>progressBar.progress = <span class="hljs-type">Float</span>(questionNumber + <span class="hljs-number">1</span>) / <span class="hljs-type">Float</span>(quiz.<span class="hljs-built_in">count</span>)
+</div></code></pre>
+<p style="color: FireBrick">Step 5: Start implementig the MVC Design Pattern</p>
+<ul>
+<li>Right click on the <code>Question.swift</code> and select <code>New Group from Selection</code></li>
+<li>Rename the folder <code>Model</code></li>
+<li>Right click on the <code>Main.storyboard</code> and select <code>New Group from Selection</code></li>
+<li>Rename the folder <code>View</code></li>
+<li>Right click on the <code>ViewController.swift</code> and select <code>New Group from Selection</code></li>
+<li>Rename the folder <code>Controller</code></li>
+</ul>
+<p style="color: FireBrick">Step 6</p>
+<ul>
+<li>Right click on the <code>Model</code> folder, and select <code>New File...</code>, name the file <code>QuizBrain</code> which it will handle the logic.</li>
+<li>Move the <code>quiz</code> array from the <code>Main</code> to <code>QuizBrain</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">QuizBrain</span> </span>{
+    <span class="hljs-keyword">let</span> quiz = [
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"A slug's blood is green."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"Approximately one quarter of human bones are in the feet."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"The total surface area of two human lungs is approximately 70 square metres."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place."</span>, a: <span class="hljs-string">"False"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"It is illegal to pee in the Ocean in Portugal."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"You can lead a cow down stairs but not up stairs."</span>, a: <span class="hljs-string">"False"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"Google was originally called 'Backrub'."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"Buzz Aldrin's mother's maiden name was 'Moon'."</span>, a: <span class="hljs-string">"True"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant."</span>, a: <span class="hljs-string">"False"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"No piece of square dry paper can be folded in half more than 7 times."</span>, a: <span class="hljs-string">"False"</span>),
+        <span class="hljs-type">Question</span>(q: <span class="hljs-string">"Chocolate affects a dog's heart and nervous system; a few ounces are enough to kill a small dog."</span>, a: <span class="hljs-string">"True"</span>)
+    ]
+}
+</div></code></pre>
+<ul>
+<li>Move the <code>questionNumber</code> from the <code>Main</code> to <code>QuizBrain</code></li>
+<li>Create a new variable <code>quizBrain</code> in the <code>UIViewController</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">var</span> quizBrain = <span class="hljs-type">QuizBrain</span>()
+</div></code></pre>
+<ul>
+<li>Create a function <code>checkAnswer</code>, the parameter is a String in the <code>QuizBrain</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">checkAnswer</span><span class="hljs-params">(userAnswer: String)</span></span> {
+}
+</div></code></pre>
+<ul>
+<li>Remove the and replace the code:</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-comment">// Remove the code</span>
+<span class="hljs-keyword">let</span> actualAnswer = quiz[questionNumber].answer
+</div></code></pre>
+<pre class="hljs"><code><div><span class="hljs-comment">// Add this code</span>
+quizBrain.checkAnswer(userAnswer: userAnswer)
+</div></code></pre>
+<ul>
+<li>Add the <code>!</code> to the end of</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">let</span> userAnswer = sender.currentTitle!
+</div></code></pre>
+<p style="color: FireBrick">Step 7</p>
+<ul>
+<li>Modify the <code>checkAnswer</code> function to allow for an output <code>Bool</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">checkAnswer</span><span class="hljs-params">(userAnswer: String)</span></span> -&gt; <span class="hljs-type">Bool</span>{
+  <span class="hljs-keyword">if</span> userAnswer == quiz[questionNumber].answer {
+      <span class="hljs-comment">// User got it right</span>
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+  } <span class="hljs-keyword">else</span> {
+      <span class="hljs-comment">// User got it wrong</span>
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+  }
+}
+</div></code></pre>
+<ul>
+<li>Create a var <code>userGotItRight</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">let</span> userGotItRight = quizBrain.checkAnswer(userAnswer: userAnswer)
+</div></code></pre>
+<ul>
+<li>
+<p>Remove the <code>userAnswer == actualAnswer</code> from the if statement and type <code>userGotItRight</code></p>
+</li>
+<li>
+<p>Create a new function <code>getQuestionText</code> with an output of <code>String</code> inside the <code>QuizBrain</code></p>
+</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">getQuestionText</span> <span class="hljs-params">()</span></span> -&gt; <span class="hljs-type">String</span>  {
+  <span class="hljs-keyword">return</span> quiz[questionNumber].text
+}
+</div></code></pre>
+<p>Inside the <code>Main</code> edit the <code>updateUI</code> function:</p>
+<pre class="hljs"><code><div>questionLabel.text = quizBrain.getQuestionText()
+</div></code></pre>
+<ul>
+<li>Create a new function <code>getProgress()</code> inside the <code>QuizBrain</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">getProgress</span> <span class="hljs-params">()</span></span> -&gt; <span class="hljs-type">Float</span>{
+    <span class="hljs-keyword">let</span> progress = <span class="hljs-type">Float</span>(questionNumber + <span class="hljs-number">1</span>) / <span class="hljs-type">Float</span>(quiz.<span class="hljs-built_in">count</span>)
+    <span class="hljs-keyword">return</span> progress
+}
+</div></code></pre>
+<ul>
+<li>Update the <code>updateUI</code> function in the <code>Main</code></li>
+</ul>
+<pre class="hljs"><code><div>progressView.progress = quizBrain.getProgress()
+</div></code></pre>
+<ul>
+<li>Cut out the quiz progression functionality from the <code>main</code></li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> questionNumber + <span class="hljs-number">1</span> &lt; quiz.<span class="hljs-built_in">count</span> {
+    questionNumber += <span class="hljs-number">1</span>
+} <span class="hljs-keyword">else</span> {
+    questionNumber = <span class="hljs-number">0</span>
+}
+</div></code></pre>
+<ul>
+<li>Add the <code>quizBrain.nextQuestion()</code> to the <code>Main</code></li>
+</ul>
+<pre class="hljs"><code><div>quizBrain.nextQuestion()
+</div></code></pre>
+<ul>
+<li>Mark the function <code>nextQestion</code> with mutating keyword</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">mutating</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">nextQuestion</span><span class="hljs-params">()</span></span> {
+  <span class="hljs-keyword">if</span> questionNumber + <span class="hljs-number">1</span> &lt; quiz.<span class="hljs-built_in">count</span> {
+      questionNumber += <span class="hljs-number">1</span>
+  } <span class="hljs-keyword">else</span> {
+      questionNumber = <span class="hljs-number">0</span>
+  }
+}
+</div></code></pre>
+<p style="color: FireBrick">Step 8</p>
+<ul>
+<li>Add a <code>label</code> and place it under the <code>Stack View</code></li>
+<li>Modify the properties of the label
+<ul>
+<li>Change the text color to white</li>
+</ul>
+</li>
+<li>Create an <code>IBAutlet</code> that links the label to the <code>ViewController</code></li>
+<li>Name the label <code>scoreLabel</code></li>
+<li>Go under the <code>/Controller/ViewController</code> under the <code>updateUI()</code>type the following</li>
+</ul>
+<pre class="hljs"><code><div>scoreLabel.text = <span class="hljs-string">"Score: \(quizBrain.getScore())"</span>
+</div></code></pre>
+<ul>
+<li>Create a variable <code>score</code>. Place it under the <code>questionNumer</code> in the <code>quizBrain</code></li>
+</ul>
+<pre class="hljs"><code><div>var score = 0;
+</div></code></pre>
+<ul>
+<li>Increase the score by 1, if the user got the answer right. Place it in the <code>checkAnswer</code> function</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">mutating</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">checkAnswer</span><span class="hljs-params">(userAnswer: String)</span></span> -&gt; <span class="hljs-type">Bool</span>{
+  <span class="hljs-keyword">if</span> userAnswer == quiz[questionNumber].answer {
+      <span class="hljs-comment">// User got it right</span>
+      score += <span class="hljs-number">1</span>
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+  } <span class="hljs-keyword">else</span> {
+      <span class="hljs-comment">// User got it wrong</span>
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+  }
+}
+</div></code></pre>
+<ul>
+<li>Create a new function <code>getScore</code> that returns an Integer</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">getScore</span><span class="hljs-params">()</span></span> -&gt; <span class="hljs-type">Int</span> {
+  <span class="hljs-keyword">return</span> score
+}
+</div></code></pre>
+<ul>
+<li>Reset the <code>score</code> to 0 when the quiz restarts.</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-keyword">mutating</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">nextQuestion</span><span class="hljs-params">()</span></span> {
+  <span class="hljs-keyword">if</span> questionNumber + <span class="hljs-number">1</span> &lt; quiz.<span class="hljs-built_in">count</span> {
+      questionNumber += <span class="hljs-number">1</span>
+  } <span class="hljs-keyword">else</span> {
+      questionNumber = <span class="hljs-number">0</span>
+      score = <span class="hljs-number">0</span>
+  }
+}
+</div></code></pre>
+<p style="color: FireBrick">Step 9: Change button opacity</p>
+<p>Add the code to the <code>keyPressed</code> function</p>
+<pre class="hljs"><code><div><span class="hljs-comment">//Code should execute after 0.2 second delay.</span>
+  <span class="hljs-type">DispatchQueue</span>.main.asyncAfter(deadline: .now() + <span class="hljs-number">0.2</span>) {
+    <span class="hljs-comment">//Bring's sender's opacity back up to fully opaque.</span>
+    sender.alpha = <span class="hljs-number">1.0</span>
+}
+</div></code></pre>
+
+</body>
+</html>
