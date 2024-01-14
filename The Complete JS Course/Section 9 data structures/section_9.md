@@ -404,4 +404,12 @@ console.log(ingredients);
 restaurant.orderPasta(...ingredients);
 ```
 
+Example with Objects
+
+```js
+// Objects
+const newRestaurant = { foundedIn: 1998, ...restaurant, founder: "Guiseppe" };
+console.log(newRestaurant);
+```
+
 ---
