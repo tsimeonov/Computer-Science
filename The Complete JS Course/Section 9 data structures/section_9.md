@@ -389,4 +389,19 @@ restaurant.orderDelivery({
 });
 ```
 
+Create a new array that execpts promts from the user.
+Call the `orderPasta` method
+
+```js
+const ingredients = [
+  prompt(`Let\s make pasta! Ingredient 1?`),
+  prompt(`Let\s make pasta! Ingredient 2?`),
+  prompt(`Let\s make pasta! Ingredient 3?`),
+];
+
+console.log(ingredients);
+
+restaurant.orderPasta(...ingredients);
+```
+
 ---
