@@ -410,6 +410,11 @@ Example with Objects
 // Objects
 const newRestaurant = { foundedIn: 1998, ...restaurant, founder: "Guiseppe" };
 console.log(newRestaurant);
+
+const restaurantCopy = { ...restaurant };
+restaurantCopy.name = "Ristorante Roma";
+console.log(restaurantCopy.name); // Output: Ristorante Roma
+console.log(restaurant.name); // Output: Classico Italiano
 ```
 
 ---
