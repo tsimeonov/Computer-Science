@@ -340,4 +340,6 @@ const letters = [...str, "", "s."];
 console.log(letters);
 ```
 
+<span style="color: #FAA5a5">Function that accepts multiple arguments and uses the spread operator to pass those arguments</span>
+
 ---
