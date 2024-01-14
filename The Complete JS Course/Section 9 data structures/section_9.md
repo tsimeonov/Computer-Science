@@ -330,4 +330,14 @@ console.log(menu); // ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"
 
 <span style="color: #FAA5a5">Iterables</span>
 
+Iterables are: arrays, strings, maps, sets. NOT objects
+
+Example with a string:
+
+```js
+const str = "Todor";
+const letters = [...str, "", "s."];
+console.log(letters);
+```
+
 ---
