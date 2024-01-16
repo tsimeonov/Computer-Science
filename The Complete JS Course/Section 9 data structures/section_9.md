@@ -430,3 +430,8 @@ The use cases for the spread operator are:
 - Pass multiple values into a function.
 
 The spread operator is to unpack an array while rest is to pack elements into an array.
+
+```js
+// SPREAD, because in RIGHT side of =
+const arr = [1, 2, ...[3, 4]];
+```
