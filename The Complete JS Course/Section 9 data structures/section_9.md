@@ -418,3 +418,5 @@ console.log(restaurant.name); // Output: Classico Italiano
 ```
 
 ---
+
+<h5 style="color: #FC3C3C">Rest Pattern and Parameters</h5>
