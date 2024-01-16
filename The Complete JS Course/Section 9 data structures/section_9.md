@@ -441,3 +441,12 @@ console.log(a, b, others); // Output: 1 2 (3) [3, 4, 5]
 ```
 
 <span style="color: #FAA5a5">Example with the `restaurant` object</span>
+
+```js
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu,
+];
+
+console.log(pizza, risotto, otherFood); // Pizza Risotto (4) ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad']
+```
