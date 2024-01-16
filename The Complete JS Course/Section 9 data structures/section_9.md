@@ -420,3 +420,13 @@ console.log(restaurant.name); // Output: Classico Italiano
 ---
 
 <h5 style="color: #FC3C3C">Rest Pattern and Parameters</h5>
+
+Rest pattern looks exactly like the spread operator.
+So it has the same syntax with the three dots.
+
+The use cases for the spread operator are:
+
+- Use the spread opeartor to nuild new arrays.
+- Pass multiple values into a function.
+
+The spread operator is to unpack an array while rest is to pack elements into an array.
