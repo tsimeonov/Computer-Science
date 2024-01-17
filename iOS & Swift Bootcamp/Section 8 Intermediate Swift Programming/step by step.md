@@ -12,6 +12,6 @@ There are a few options:
 The next action is to create an IBaction called `hardnessSelected` and link the three buttons `Soft`, `Medium` and `Hard`.
 
 ```swift
-// Add this piece of code to print the title of the buttons when clicked
+// Add this piece of code to print the title of the buttons when clicked.
  print(sender.currentTitle!)
 ```
