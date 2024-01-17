@@ -7,7 +7,7 @@ class ViewController: UIViewController {
     let hardTime = 12
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
-        print(sender.currentTitle!)
+        let hardness = sender.currentTitle
     }
     
 

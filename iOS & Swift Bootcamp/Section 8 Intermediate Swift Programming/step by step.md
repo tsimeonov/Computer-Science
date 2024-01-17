@@ -23,3 +23,9 @@ let softTime = 5
 let midiumTIme = 7
 let hardTime = 12
 ```
+
+Create a new variable `hardness`, remove the print statment from before and replace it with the following
+
+```swift
+let hardness = sender.currentTitle
+```
