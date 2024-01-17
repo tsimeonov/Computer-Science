@@ -15,3 +15,11 @@ The next action is to create an IBaction called `hardnessSelected` and link the 
 // Add this piece of code to print the title of the buttons when clicked.
  print(sender.currentTitle!)
 ```
+
+Create three variables `softTime`, `mediumTime` and `hardTime`.
+
+```swift
+let softTime = 5
+let midiumTIme = 7
+let hardTime = 12
+```
