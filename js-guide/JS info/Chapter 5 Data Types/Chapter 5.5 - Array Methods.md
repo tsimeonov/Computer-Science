@@ -82,3 +82,9 @@ alert(arr.slice(-2)); // s,t (copy from -2 till the end)
 ```
 
 <h5>concat</h5>
+
+The method `arr.concat` creates a new array that includes values from other arrays and additional items.
+
+```js
+arr.concat(arg1, arg2...)
+```
