@@ -103,3 +103,5 @@ alert(arr.concat([3, 4], [5, 6])); // 1,2,3,4,5,6
 // Create an array from arr and [3,4], then add values 5 and 6
 alert(arr.concat([3, 4], 5, 6)); // 1,2,3,4,5,6
 ```
+
+<h5 style="color: FireBrick;">Iterate: forEach</h5>
