@@ -122,3 +122,11 @@ For instance, this shows each element of the array.
 // for each element call alert
 ["Bilbo", "Gandalf", "Nazgul"].forEach(alert);
 ```
+
+And this code is more elaborate about theit position in the target array:
+
+```js
+["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
+  alert(`${item} is at index ${index} in ${array}`);
+});
+```
