@@ -105,3 +105,13 @@ alert(arr.concat([3, 4], 5, 6)); // 1,2,3,4,5,6
 ```
 
 <h5 style="color: FireBrick;">Iterate: forEach</h5>
+
+The `arr.forEach` method allows to run a function for every element of the array.
+
+The syntax:
+
+```js
+arr.forEach(function (item, index, array) {
+  // ... do something with item
+});
+```
