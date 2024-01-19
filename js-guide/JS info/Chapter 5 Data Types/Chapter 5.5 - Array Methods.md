@@ -115,3 +115,10 @@ arr.forEach(function (item, index, array) {
   // ... do something with item
 });
 ```
+
+For instance, this shows each element of the array.
+
+```js
+// for each element call alert
+["Bilbo", "Gandalf", "Nazgul"].forEach(alert);
+```
