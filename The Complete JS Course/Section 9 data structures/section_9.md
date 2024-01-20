@@ -480,4 +480,8 @@ orderPizza: function (mainIngredient, ...otherIngredients) {
   console.log(mainIngredient);
   console.log(otherIngredients);
 },
+
+restaurant.orderPizza("mushroom", "onion", "olives", "spinach");
+// The output is mushroom
+// followed by an array ['onion', 'olives', 'spinach']
 ```
