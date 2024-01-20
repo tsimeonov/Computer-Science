@@ -473,7 +473,7 @@ add(2, 5, 6);
 add(2, 35, 11, 12);
 ```
 
-Add a function called `orderPizza` to the `restaurant` object.
+<span style="color: #FAA5a5">Add a function called `orderPizza` to the `restaurant` object.</span>
 
 ```js
 orderPizza: function (mainIngredient, ...otherIngredients) {
