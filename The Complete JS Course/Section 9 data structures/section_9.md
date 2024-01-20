@@ -450,4 +450,8 @@ const [pizza, , risotto, ...otherFood] = [
 ];
 
 console.log(pizza, risotto, otherFood); // Pizza Risotto (4) ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad']
+
+// Object
+const { sat, ...weekDays } = restaurant.openingHours;
+console.log(weekDays); // Output: {thu, fri}
 ```
