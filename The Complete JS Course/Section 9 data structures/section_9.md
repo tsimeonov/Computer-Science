@@ -485,3 +485,5 @@ restaurant.orderPizza("mushroom", "onion", "olives", "spinach");
 // The output is mushroom
 // followed by an array ['onion', 'olives', 'spinach']
 ```
+
+<h5 style="color: #FC3C3C">Short Ciruiting (&& and ||)</h5>
