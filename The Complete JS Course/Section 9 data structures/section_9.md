@@ -456,7 +456,7 @@ const { sat, ...weekDays } = restaurant.openingHours;
 console.log(weekDays); // Output: {thu, fri}
 ```
 
-Using the Rest Operator with functions
+<span style="color: #FAA5a5">Using the Rest Operator with functions</span>
 
 ```js
 // Using the Rest parameter with function
