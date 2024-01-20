@@ -455,3 +455,20 @@ console.log(pizza, risotto, otherFood); // Pizza Risotto (4) ['Focaccia', 'Brus
 const { sat, ...weekDays } = restaurant.openingHours;
 console.log(weekDays); // Output: {thu, fri}
 ```
+
+Using the Rest Operator with functions
+
+```js
+// Using the Rest parameter with function
+const add = function (...numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  console.log(sum);
+};
+
+add(2, 3);
+add(2, 5, 6);
+add(2, 35, 11, 12);
+```
