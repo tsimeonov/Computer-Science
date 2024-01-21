@@ -494,3 +494,4 @@ Logical operators can have three properties.
 
 - They can use ANY data type
 - Return ANY data type
+- Short-circuiting (short circuiting evaluation)
