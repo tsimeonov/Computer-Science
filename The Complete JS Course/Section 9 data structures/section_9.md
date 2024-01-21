@@ -495,3 +495,11 @@ Logical operators can have three properties.
 - They can use ANY data type
 - Return ANY data type
 - Short-circuiting (short circuiting evaluation)
+
+```js
+// Examples
+console.log(3 || "Todor"); // Output 3
+console.log("" || "Todor"); // Output "Todor"
+console.log(true || 0); // Output true
+console.log(undefined || null); // Output null
+```
