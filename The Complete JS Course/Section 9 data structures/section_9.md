@@ -489,3 +489,7 @@ restaurant.orderPizza("mushroom", "onion", "olives", "spinach");
 <h5 style="color: #FC3C3C">Short Ciruiting (&& and ||)</h5>
 
 <span style="color: #FAA5a5">Logical operators properties</span>
+
+Logical operators can have three properties.
+
+- They can use ANY data type
