@@ -493,3 +493,4 @@ restaurant.orderPizza("mushroom", "onion", "olives", "spinach");
 Logical operators can have three properties.
 
 - They can use ANY data type
+- Return ANY data type
