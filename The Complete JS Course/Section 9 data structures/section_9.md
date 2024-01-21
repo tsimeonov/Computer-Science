@@ -506,8 +506,10 @@ console.log(undefined || null); // Output null
 
 <span style="color: #FAA5a5">Ternary Operator vs short-circuiting</span>
 
+```js
 // Using the Ternary Operator
 
 restaurant.numGuests = 23;
 const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
-console.log(guests1)
+console.log(guests1);
+```
