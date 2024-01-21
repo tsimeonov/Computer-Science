@@ -512,4 +512,9 @@ console.log(undefined || null); // Output null
 restaurant.numGuests = 23;
 const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
 console.log(guests1);
+
+// Short-circuing using the OR operator
+
+const guests2 = restaurant.numGuests || 10;
+console.log(guests2); // Output: 10
 ```
