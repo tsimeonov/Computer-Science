@@ -503,3 +503,11 @@ console.log("" || "Todor"); // Output "Todor"
 console.log(true || 0); // Output true
 console.log(undefined || null); // Output null
 ```
+
+<span style="color: #FAA5a5">Ternary Operator vs short-circuiting</span>
+
+// Using the Ternary Operator
+
+restaurant.numGuests = 23;
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guests1)
