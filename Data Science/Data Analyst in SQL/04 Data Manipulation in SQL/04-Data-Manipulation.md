@@ -446,3 +446,24 @@ WHERE col1 = 2;
 - Uses values from the `outer` query to generate a result.
 - Re-run for every row generated in the final data set
 - Used for advanced joining, filtering and evaluating data
+
+A correlated example
+
+```sql
+SELECT
+  s.stage,
+  ROUND (s.avg_goals, 2) AS avg_goal,
+  (SELECT AVG(home_goal + away_goal)
+  FROM match
+  WHERE season = '2012/2013') AS overall_avg
+FROM
+  (SELECT
+    stage,
+    AVG(home_goal + away_goal) AS avg_goals
+  FROM match
+  WHERE season = '2012/2013'
+  GROUP BY stage) AS s
+WHERE s.avg_goals > (SELECT AVG(home_goal + away_goal)
+                    FROM match AS m
+                    WHERE s.stage > m.stage);
+```
