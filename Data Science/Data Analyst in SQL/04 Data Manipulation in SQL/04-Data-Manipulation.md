@@ -442,3 +442,7 @@ WHERE col1 = 2;
 ## 3. Correlated queries, nested queries and common table expression
 
 ### 3.1 Correlated subqueries
+
+- Uses values from the `outer` query to generate a result.
+- Re-run for every row generated in the final data set
+- Used for advanced joining, filtering and evaluating data
