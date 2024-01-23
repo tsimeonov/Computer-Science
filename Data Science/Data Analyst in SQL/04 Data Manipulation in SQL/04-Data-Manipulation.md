@@ -440,3 +440,5 @@ WHERE col1 = 2;
 ---
 
 ## 3. Correlated queries, nested queries and common table expression
+
+### 3.1 Correlated subqueries
