@@ -438,3 +438,5 @@ WHERE col1 = 2;
 - Is the subquery actually necessary?
 
 ---
+
+## 3. Correlated queries, nested queries and common table expression
