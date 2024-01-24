@@ -529,3 +529,5 @@ console.log(1 && "Todor"); // Output: "Todor"
 
 console.log("Hello" && 34 && null && "World"); // Output: "nul"
 ```
+
+<h5 style="color: #FC3C3C">The nullish coalescing operator (??)</h5>
