@@ -496,8 +496,10 @@ Logical operators can have three properties.
 - Return ANY data type
 - Short-circuiting (short circuiting evaluation)
 
+<span style="color: #FAA5a5">Examples with the OR Operator</span>
+
 ```js
-// Examples
+// Examples with the OR operator
 console.log(3 || "Todor"); // Output 3
 console.log("" || "Todor"); // Output "Todor"
 console.log(true || 0); // Output true
