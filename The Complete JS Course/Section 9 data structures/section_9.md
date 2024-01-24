@@ -520,3 +520,5 @@ console.log(guests1);
 const guests2 = restaurant.numGuests || 10;
 console.log(guests2); // Output: 10
 ```
+
+<span style="color: #FAA5a5">Examples with the AND Operator</span>
