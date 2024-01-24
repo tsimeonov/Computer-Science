@@ -522,3 +522,10 @@ console.log(guests2); // Output: 10
 ```
 
 <span style="color: #FAA5a5">Examples with the AND Operator</span>
+
+```js
+console.log(0 && "Todor"); // Output: 0
+console.log(1 && "Todor"); // Output: "Todor"
+
+console.log("Hello" && 34 && null && "World"); // Output: "nul"
+```
