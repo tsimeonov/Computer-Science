@@ -132,3 +132,5 @@ And this code is more elaborate about theit position in the target array:
 ```
 
 <h5 style="color: FireBrick;">Searching in array</h5>
+
+indexOf/lastIndexOf and includes
