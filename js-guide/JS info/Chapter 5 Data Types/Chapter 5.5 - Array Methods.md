@@ -134,3 +134,13 @@ And this code is more elaborate about theit position in the target array:
 <h5 style="color: FireBrick;">Searching in array</h5>
 
 indexOf/lastIndexOf and includes
+
+```js
+let arr = [1, 0, false];
+
+alert( arr.indexOf(0) ); // 1
+alert( arr.indexOf(false) ); // 2
+alert( arr.indexOf(null) ); // -1
+
+alert( arr.includes(1) ); // true
+```
