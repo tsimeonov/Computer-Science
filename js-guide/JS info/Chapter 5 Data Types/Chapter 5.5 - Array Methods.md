@@ -144,3 +144,5 @@ alert( arr.indexOf(null) ); // -1
 
 alert( arr.includes(1) ); // true
 ```
+
+find and findIndex/findLastIndex
