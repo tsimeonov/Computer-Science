@@ -34,4 +34,6 @@ let hardness = sender.currentTitle
 
 ```swift
 let eggTimes = ["Soft": 300, "Medium": 420, "Hard": 720];
+
+var secondsRemaining = 60
 ```
