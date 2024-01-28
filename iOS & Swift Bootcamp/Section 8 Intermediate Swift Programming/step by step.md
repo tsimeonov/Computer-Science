@@ -31,3 +31,7 @@ let hardness = sender.currentTitle
 ```
 
 <h5 style="color: FireBrick">Step 1: Create the timer</h5>
+
+```swift
+let eggTimes = ["Soft": 300, "Medium": 420, "Hard": 720];
+```
