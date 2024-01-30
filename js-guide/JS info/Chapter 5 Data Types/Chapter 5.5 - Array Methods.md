@@ -161,3 +161,16 @@ let result = arr.find(function(item, index, array) {
 ```
 
 filter
+
+The find method looks for a single (first) element that makes the function return true.
+
+If there may be many, we can use `arr.filter(fn)`.
+
+The syntax is similar to find, but filter returns an array of all matching elements:
+
+```js
+let results = arr.filter(function(item, index, array) {
+  // if true item is pushed to results and the iteration continues
+  // returns empty array if nothing found
+});
+```
