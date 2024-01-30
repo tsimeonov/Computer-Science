@@ -146,3 +146,16 @@ alert( arr.includes(1) ); // true
 ```
 
 find and findIndex/findLastIndex
+
+Imagine we have an array of objects. How do we find an object with the specific condition?
+
+Here the `arr.find(fn)` method comes in handy.
+
+The syntax is:
+
+```js
+let result = arr.find(function(item, index, array) {
+  // if true is returned, item is returned and iteration is stopped
+  // for falsy scenario returns undefined
+});
+```
