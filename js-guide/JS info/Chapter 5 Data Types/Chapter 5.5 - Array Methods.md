@@ -159,3 +159,5 @@ let result = arr.find(function(item, index, array) {
   // for falsy scenario returns undefined
 });
 ```
+
+filter
