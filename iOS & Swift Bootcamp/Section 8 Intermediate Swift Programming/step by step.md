@@ -56,3 +56,9 @@ Outside the `IBAction` type the following:
     }
 }
 ```
+
+Create a new variable `timer`
+
+```swift
+let timer = Timer()
+```
