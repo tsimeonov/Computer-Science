@@ -10,6 +10,9 @@ class ViewController: UIViewController {
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
+        timer.invalidate()
+        
+        
         let hardness = sender.currentTitle! // Soft, Medium, Hard
         
         secondsRemaining = eggTimes[hardness]!
