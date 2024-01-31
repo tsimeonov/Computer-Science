@@ -45,3 +45,14 @@ secondsRemaining = eggTimes[hardness!]!
 
 Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo:nil, repeats: <#T##Bool#>)
 ```
+
+Outside the `IBAction` type the following:
+
+```swift
+@objc func updateTimer() {
+    if secondsRemaining > 0 {
+        print("\(secondsRemaining) seconds")
+        secondsRemaining -= 1
+    }
+}
+```
