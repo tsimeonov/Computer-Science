@@ -63,6 +63,12 @@ Create a new variable `timer`
 let timer = Timer()
 ```
 
+Invalidate the `timer`, stop it and cancel it, so that the next time we create a timer, we acually create a brand new one.
+
+```swift
+timer.invalidate()
+```
+
 Assing the `timer` varialbe to the `Timer()`
 
 ```swift
