@@ -62,3 +62,9 @@ Create a new variable `timer`
 ```swift
 let timer = Timer()
 ```
+
+Assing the `timer` varialbe to the `Timer()`
+
+```swift
+timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo:nil, repeats: <#T##Bool#>)
+```
