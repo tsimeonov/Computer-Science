@@ -2,10 +2,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let softTime = 5
-    let mediumTIme = 7
-    let hardTime = 12
-    
     let eggTimes = ["Soft": 5, "medium": 7, "hard": 12]
     
     var secondsRemaining = 60
@@ -14,18 +10,16 @@ class ViewController: UIViewController {
         
         let hardness = sender.currentTitle // Soft, Medium, Hard
         
-        secondsRemaining = eggTimes[hardness]!
+        secondsRemaining = eggTimes[hardness!]!
         
-        
-        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { (Timer) in
-            if self.secondsRemaining > 0 {
-                    print ("\(self.secondsRemaining) seconds")
-                    self.secondsRemaining -= 1
-                } else {
-                    Timer.invalidate()
-                }
-            }
-        
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo:nil, repeats: <#T##Bool#>)
+    }
+    
+    @objc func updateTimer() {
+        if secondsRemaining > 0 {
+            print("\(secondsRemaining) seconds")
+            secondsRemaining -= 1
+        }
     }
     
 }

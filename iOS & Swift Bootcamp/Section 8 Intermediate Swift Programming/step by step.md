@@ -37,3 +37,11 @@ let eggTimes = ["Soft": 300, "Medium": 420, "Hard": 720];
 
 var secondsRemaining = 60
 ```
+
+Type the following in the `IBAction hardnessSelected`
+
+```swift
+secondsRemaining = eggTimes[hardness!]!
+
+Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo:nil, repeats: <#T##Bool#>)
+```
