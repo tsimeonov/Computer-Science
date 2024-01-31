@@ -27,7 +27,7 @@ let hardTime = 12
 Create a new variable `hardness`, remove the print statment from before and replace it with the following
 
 ```swift
-let hardness = sender.currentTitle
+let hardness = sender.currentTitle!
 ```
 
 <h5 style="color: FireBrick">Step 1: Create the timer</h5>
