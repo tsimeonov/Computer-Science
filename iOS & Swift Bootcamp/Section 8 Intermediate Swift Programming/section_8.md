@@ -130,7 +130,7 @@ Drag the Progress Bar to the `UIViewController`
  @IBOutlet weak var progressBar: UIProgressView!
 ```
 
-in the `@IBaction hardnessSelected` add the following
+in the `@IBAction hardnessSelected` add the following
 
 ```swift
 @IBAction func hardnessSelected (_ sender: UIButton) {
