@@ -37,7 +37,7 @@ let quiz = [
 ]
 ```
 
-- Track which question the user is currently reading by creaating a variable `questionNumber`
+- Track which question the user is currently reading by creating a variable `questionNumber`
 
 ```swift
 questionNumber = 0;
