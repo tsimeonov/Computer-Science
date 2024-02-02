@@ -5,7 +5,7 @@
 - Create an `IBOutlet` from my Qestion label as well as my progress view. inside the `UIViewController`
   - name the Question label `questionLabel`
   - name the Progress view `progressView`
-- Do the same for the true and false buttons. Named them `trueButton` and `falseButton`.
+- Do the same for the true and false buttons. Name them `trueButton` and `falseButton`.
 - Add IBAction when eiher the true or false button gets pressed.
   - Add the true button and false buttons, name it `answerButtonPressed`.
 
