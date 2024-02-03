@@ -69,7 +69,7 @@ if userAnswer == actualAnswer {
 }
 ```
 
-Right now the `backgroudColor` stays on the button, to clear it follow the code:
+Right now the `backgroudColor` stays on the button, to clear it, follow the code:
 
 ```swift
 func updateUI () {
