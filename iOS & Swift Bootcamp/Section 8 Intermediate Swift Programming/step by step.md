@@ -2,7 +2,7 @@
 
 <h5 style="color: FireBrick">Step 1: Setup the skeleton Project</h5>
 
-If you want a large font size for your label, but you want it to also be able to render on a samller screen size.
+If you want a large font size for your label, but you want to be able to render on a smaller screen size.
 
 There are a few options:
 
