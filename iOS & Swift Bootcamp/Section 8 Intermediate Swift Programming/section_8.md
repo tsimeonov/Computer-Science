@@ -147,7 +147,7 @@ in the `@IBAction hardnessSelected` add the following
 
 <h5>Using the 5 step approach to debug our App</h5>
 
-1. What did you expect your dode to do?
+1. What did you expect your code to do?
 2. What happened instead?
 3. What does your expectation depend upon?
 4. How can we test the things our expectations depend on?
