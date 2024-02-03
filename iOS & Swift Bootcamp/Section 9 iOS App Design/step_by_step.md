@@ -49,7 +49,7 @@ questionNumber = 0;
 questionLabel.text = quiz[questionNumber]
 ```
 
-- Create a new function `updateUi`
+- Create a new function `updateUI`
 
 ```swift
 func updateUI () {
