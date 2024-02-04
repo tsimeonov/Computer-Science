@@ -139,3 +139,8 @@ In the function updateTimer(), change the text of the titleLabel.
 - Click on the `Align` button and make sure that the progress view is `Vertically in Container`.
 - Select the `Progress View`, click on `add new constraints`, increase the height to 10px.
 - Select the `Progress View`, in the `Progress Tint` select `System yellow color`, in the `Track Tint` select `System Gray Color`
+- Link the progress bar to the `viewController`, name it `progressBar`
+
+```swift
+ @IBOutlet weak var progressBar: UIProgressView!
+```
