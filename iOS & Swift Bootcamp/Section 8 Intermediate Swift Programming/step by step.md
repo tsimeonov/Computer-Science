@@ -74,3 +74,36 @@ Assing the `timer` varialbe to the `Timer()`
 ```swift
 timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo:nil, repeats: <#T##Bool#>)
 ```
+
+The whole code should look like this:
+
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+
+    let eggTimes = ["Soft": 5, "Medium": 7, "Hard": 12]
+
+    var secondsRemaining = 60
+
+    var timer = Timer()
+
+    @IBAction func hardnessSelected(_ sender: UIButton) {
+
+        timer.invalidate()
+
+        let hardness = sender.currentTitle! // Soft, Medium, Hard
+
+        secondsRemaining = eggTimes[hardness]!
+
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target:self, selector: #selector(updateTimer), userInfo:nil, repeats: true)
+    }
+
+    @objc func updateTimer() {
+        if secondsRemaining > 0 {
+            print("\(secondsRemaining) seconds")
+            secondsRemaining -= 1
+        }
+    }
+}
+```
