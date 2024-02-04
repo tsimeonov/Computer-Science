@@ -27,8 +27,9 @@ class ViewController: UIViewController {
         if secondsRemaining > 0 {
             print("\(secondsRemaining) seconds")
             secondsRemaining -= 1
-        } else if (secondsRemaining == 0){
-            self.titleLabel.text = "Done"
+        } else {
+            timer.invalidate()
+            titleLabel.text = "Done"
         }
     }
     

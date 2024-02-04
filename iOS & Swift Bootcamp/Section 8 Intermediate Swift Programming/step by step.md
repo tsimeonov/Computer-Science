@@ -115,3 +115,17 @@ Create an IBOutlet called `titleLabel`.
 ```swift
 @IBOutlet weak var titleLabel: UILabel!
 ```
+
+In the function updateTimer(), change the text of the titleLabel.
+
+```swift
+@objc func updateTimer() {
+    if secondsRemaining > 0 {
+        print("\(secondsRemaining) seconds")
+        secondsRemaining -= 1
+    } else {
+        timer.invalidate()
+        titleLabel.text = "Done"
+    }
+}
+```
