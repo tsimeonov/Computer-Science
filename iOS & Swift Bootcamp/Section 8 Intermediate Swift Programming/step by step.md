@@ -125,7 +125,7 @@ In the function updateTimer(), change the text of the titleLabel.
         secondsRemaining -= 1
     } else {
         timer.invalidate()
-        titleLabel.text = "Done"
+        titleLabel.text = "DONE!"
     }
 }
 ```
