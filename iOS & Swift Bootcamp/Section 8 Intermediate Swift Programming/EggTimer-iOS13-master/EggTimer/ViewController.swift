@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target:self, selector: #selector(updateTimer), userInfo:nil, repeats: true)
         
-        progressBar.progress = 1
+        progressBar.progress = 1.0
     }
     
     @objc func updateTimer() {

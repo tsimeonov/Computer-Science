@@ -144,3 +144,9 @@ In the function updateTimer(), change the text of the titleLabel.
 ```swift
  @IBOutlet weak var progressBar: UIProgressView!
 ```
+
+Type the following code on the `hardnessSelected` IBAction.
+
+```swift
+progressBar.progress = 1.0
+```
