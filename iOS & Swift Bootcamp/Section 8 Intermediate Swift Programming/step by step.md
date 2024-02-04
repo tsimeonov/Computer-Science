@@ -132,8 +132,9 @@ In the function updateTimer(), change the text of the titleLabel.
 
 <h5 style="color: FireBrick">Step 5: Create the progress bar</h5>
 
-Press the show library button, search for progress view.
-Drag the progress view under the Timer View in the `View Controller Scene`.
-Select the Progress view and click on `Add new constraints`.
-Type `0` from the left and `0` from the right.
-Click on the `Align` button and make sure that the progress view is `Vertically in Container`.
+- Press the show library button, search for progress view.
+  Drag the progress view under the Timer View in the `View Controller Scene`.
+- Select the Progress view and click on `Add new constraints`.
+  Type `0` from the left and `0` from the right.
+- Click on the `Align` button and make sure that the progress view is `Vertically in Container`.
+- Select the `Progress View`, click on `add new constraints`, increase the height to 10px.
