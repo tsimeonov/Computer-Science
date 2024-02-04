@@ -2,6 +2,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var titleLabel: UILabel!
     let eggTimes = ["Soft": 5, "Medium": 7, "Hard": 12]
     
     var secondsRemaining = 60
@@ -25,6 +26,8 @@ class ViewController: UIViewController {
         if secondsRemaining > 0 {
             print("\(secondsRemaining) seconds")
             secondsRemaining -= 1
+        } else if (secondsRemaining == 0){
+            self.titleLabel.text = "Done"
         }
     }
     

@@ -107,3 +107,5 @@ class ViewController: UIViewController {
     }
 }
 ```
+
+<h5 style="color: FireBrick">Step 3: Change the text in the title label</h5>
