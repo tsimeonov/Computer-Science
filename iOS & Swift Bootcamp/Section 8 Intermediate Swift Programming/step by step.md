@@ -136,3 +136,4 @@ Press the show library button, search for progress view.
 Drag the progress view under the Timer View in the `View Controller Scene`.
 Select the Progress view and click on `Add new constraints`.
 Type `0` from the left and `0` from the right.
+Click on the `Align` button and make sure that the progress view is `Vertically in Container`.
