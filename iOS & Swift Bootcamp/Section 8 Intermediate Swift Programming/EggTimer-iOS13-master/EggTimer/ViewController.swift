@@ -3,6 +3,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
+    
     let eggTimes = ["Soft": 5, "Medium": 7, "Hard": 12]
     
     var secondsRemaining = 60

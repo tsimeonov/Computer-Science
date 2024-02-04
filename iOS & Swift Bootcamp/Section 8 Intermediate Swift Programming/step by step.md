@@ -109,3 +109,9 @@ class ViewController: UIViewController {
 ```
 
 <h5 style="color: FireBrick">Step 3: Change the text in the title label</h5>
+
+Create an IBOutlet called `titleLabel`.
+
+```swift
+@IBOutlet weak var titleLabel: UILabel!
+```
