@@ -138,3 +138,4 @@ In the function updateTimer(), change the text of the titleLabel.
   Type `0` from the left and `0` from the right.
 - Click on the `Align` button and make sure that the progress view is `Vertically in Container`.
 - Select the `Progress View`, click on `add new constraints`, increase the height to 10px.
+- Select the `Progress View`, in the `Progress Tint` select `System yellow color`, in the `Track Tint` select `System Gray Color`
