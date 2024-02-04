@@ -134,3 +134,5 @@ In the function updateTimer(), change the text of the titleLabel.
 
 Press the show library button, search for progress view.
 Drag the progress view under the Timer View in the `View Controller Scene`.
+Select the Progress view and click on `Add new constraints`.
+Type `0` from the left and `0` from the right.
