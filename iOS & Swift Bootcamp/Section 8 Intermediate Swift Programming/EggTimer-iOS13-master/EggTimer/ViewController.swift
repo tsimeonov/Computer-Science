@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             secondsRemaining -= 1
         } else {
             timer.invalidate()
-            titleLabel.text = "Done"
+            titleLabel.text = "DONE!"
         }
     }
     
