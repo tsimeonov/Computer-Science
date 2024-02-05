@@ -175,5 +175,11 @@ Replace the `secondsRemaining` with `totalTime`:
 ```swift
  secondsRemaining = eggTimes[hardness]!
  // Replace it with
- totalTime = eggTimes[hardness]!
+ totalTime = eggTimes[hardness]!va
+```
+
+Change this line `secondsRemaining -= 1` in the `updateTimer()` function with:
+
+```swift
+secondsPassed += 1
 ```

@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     var timer = Timer()
     
     var totalTime = 0
-    var secondsRemainig = 0
+    var secondsPassed = 0
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @objc func updateTimer() {
         if secondsRemaining > 0 {
             print("\(secondsRemaining) seconds")
-            secondsRemaining -= 1
+            secondsPassed += 1
         } else {
             timer.invalidate()
             titleLabel.text = "DONE!"
