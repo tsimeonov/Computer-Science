@@ -9,6 +9,9 @@ class ViewController: UIViewController {
     
     var timer = Timer()
     
+    var totalTime = 0
+    var secondsRemainig = 0
+    
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
         timer.invalidate()
@@ -16,8 +19,7 @@ class ViewController: UIViewController {
         
         let hardness = sender.currentTitle! // Soft, Medium, Hard
         
-        secondsRemaining = eggTimes[hardness]!
-        
+         totalTime = eggTimes[hardness]!
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target:self, selector: #selector(updateTimer), userInfo:nil, repeats: true)
         

@@ -169,3 +169,11 @@ Replace it with the two variables:
 var totalTime = 0
 var secondsPassed = 0 // time increases 1,2,3,4 sec
 ```
+
+Replace the `secondsRemaining` with `totalTime`:
+
+```swift
+ secondsRemaining = eggTimes[hardness]!
+ // Replace it with
+ totalTime = eggTimes[hardness]!
+```
