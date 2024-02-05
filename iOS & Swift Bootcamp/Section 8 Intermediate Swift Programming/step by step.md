@@ -162,3 +162,10 @@ var secondsRemaining = 60
 
 progressBar.progress = 1.0
 ```
+
+Replace it with the two variables:
+
+```swift
+var totalTime = 0
+var secondsPassed = 0 // time increases 1,2,3,4 sec
+```
