@@ -189,3 +189,12 @@ Remove the print statement from the `updateTimer()` function
 ```swift
 print("\(secondsRemaining) seconds")
 ```
+
+Change the if statement in the `updateTimer()` function
+
+```swift
+// from this
+secondsRemaining > 0
+// To this
+secondsPassed < totalTime
+```
