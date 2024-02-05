@@ -183,3 +183,9 @@ Change this line `secondsRemaining -= 1` in the `updateTimer()` function with:
 ```swift
 secondsPassed += 1
 ```
+
+Remove the print statement from the `updateTimer()` function
+
+```swift
+print("\(secondsRemaining) seconds")
+```

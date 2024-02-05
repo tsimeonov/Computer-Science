@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     
     @objc func updateTimer() {
         if secondsRemaining > 0 {
-            print("\(secondsRemaining) seconds")
             secondsPassed += 1
         } else {
             timer.invalidate()
