@@ -7,8 +7,6 @@ class ViewController: UIViewController {
     
     let eggTimes = ["Soft": 5, "Medium": 7, "Hard": 12]
     
-    var secondsRemaining = 60
-    
     var timer = Timer()
     
     @IBAction func hardnessSelected(_ sender: UIButton) {

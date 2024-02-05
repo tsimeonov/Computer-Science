@@ -155,8 +155,10 @@ progressBar.progress = 1.0
 
 percentageProgress = secondsPassed / totalTime
 
-Remove this line of code:
+Remove this two lines of code:
 
 ```swift
+var secondsRemaining = 60
+
 progressBar.progress = 1.0
 ```
