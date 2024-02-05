@@ -152,3 +152,11 @@ progressBar.progress = 1.0
 ```
 
 <h5 style="color: FireBrick">Step 6: Calculating the Progress Percentage</h5>
+
+percentageProgress = secondsPassed / totalTime
+
+Remove this line of code:
+
+```swift
+progressBar.progress = 1.0
+```
