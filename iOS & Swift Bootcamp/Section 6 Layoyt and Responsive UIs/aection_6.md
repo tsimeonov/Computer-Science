@@ -2,7 +2,7 @@
 
 ---
 
-<h5>Why so we need Auto Layout?</h5>
+<h5>Why do we need Auto Layout?</h5>
 
 ---
 
