@@ -9,7 +9,7 @@ There are a few options:
 1. Click on the label, type 0 lines in the `atribute inspector`.
 2. Again in the `atribute inspector` under autoshrink select `minimum font size` to 15 for example.
 
-The next action is to create an IBaction called `hardnessSelected` and link the three buttons `Soft`, `Medium` and `Hard`.
+The next action is to create an IBAction called `hardnessSelected` and link the three buttons `Soft`, `Medium` and `Hard`.
 
 ```swift
 // Add this piece of code to print the title of the buttons when clicked.
