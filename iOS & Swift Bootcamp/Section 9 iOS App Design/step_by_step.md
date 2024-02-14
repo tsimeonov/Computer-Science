@@ -146,7 +146,7 @@ func checkAnswer(userAnswer: String) {
 }
 ```
 
-- Remove the and replace the code:
+- Remove the following and replace the code:
 
 ```swift
 // Remove the code
