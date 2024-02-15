@@ -11,7 +11,7 @@ What is covered in this section
 
 ---
 
-<h5>Setting up the Quizzler Project and SWhowing the Questions</h5>
+<h5>Setting up the Quizzler Project and Showing the Questions</h5>
 
 <p style="color: FireBrick">Start by linking the code with the design</p>
 
