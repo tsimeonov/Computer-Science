@@ -2,7 +2,7 @@
 
 <p style="color: FireBrick">Step 1: Start by linking the code with the design</p>
 
-- Create an `IBOutlet` from my Qestion label as well as my progress view. inside the `UIViewController`
+- Create an `IBOutlet` from my Qestion label as well as my progress view. Inside the `UIViewController`
   - name the Question label `questionLabel`
   - name the Progress view `progressView`
 - Do the same for the true and false buttons. Name them `trueButton` and `falseButton`.
