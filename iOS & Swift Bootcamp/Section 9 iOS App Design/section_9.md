@@ -352,7 +352,7 @@ struct QuizBrain() {
 }
 ```
 
-Things narked with `var` are mutable, things marked with `let` are immutable.
+Things marked with `var` are mutable, things marked with `let` are immutable.
 
 ---
 
