@@ -129,7 +129,7 @@ if questionNumber + 1 < quiz.count {
 
 ```
 
-- Reseet the `questionNumer` back to 0
+- Reset the `questionNumer` back to 0
 
 ```swift
 if questionNumber + 1 < quiz.count {
