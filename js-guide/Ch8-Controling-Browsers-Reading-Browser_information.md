@@ -32,3 +32,5 @@ A browser window typically consists of various components. In addition to the co
 |   self   | Contains a reference to an object representing the current browser window. |
 
 ## 8.2.5 Opening new browser windows
+
+The `open()` method is available for opening a new browser window.
