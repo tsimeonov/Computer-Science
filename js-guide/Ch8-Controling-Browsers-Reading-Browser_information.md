@@ -25,9 +25,9 @@ A browser window typically consists of various components. In addition to the co
 
 ## 8.2.4 Determining General Properties
 
-| Property |           Description           |
-| :------: | :-----------------------------: |
-|   name   | Contains the name of the window |
-|          |                                 |
-|          |                                 |
-|          |                                 |
+| Property |                           Description                            |
+| :------: | :--------------------------------------------------------------: |
+|   name   |                 Contains the name of the window                  |
+|  opener  | If you open a browser window from another browser window via JS. |
+|          |                                                                  |
+|          |                                                                  |
