@@ -24,3 +24,10 @@ Structure of a browser window
 A browser window typically consists of various components. In addition to the content area that displays the web page, there is an address bar which you can enter a URL; a status bar that indicates, among other things, whether a web page has been loaded ot is in the process of being loaded; a menu bar; a toolbar, a "personal" bar (containing bookmarks, for example); and last but not least, scrollbars, which display the horizontal and vertical position of the respective web page.
 
 ## 8.2.4 Determining General Properties
+
+| Property | Description |
+| :------: | :---------: |
+|          |             |
+|          |             |
+|          |             |
+|          |             |
