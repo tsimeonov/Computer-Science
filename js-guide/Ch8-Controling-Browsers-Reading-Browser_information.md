@@ -22,7 +22,8 @@ Structure of a browser window
 
 ## 8.2.4 Determining General Properties
 
-| Property |                           Description                           |
-| :------: | :-------------------------------------------------------------: |
-|   name   |                 Contains the name of the window                 |
-|  opener  | If you open a browser window from another browser window via JS |
+| Property |                                Description                                 |
+| :------: | :------------------------------------------------------------------------: |
+|   name   |                      Contains the name of the window                       |
+|  opener  |      If you open a browser window from another browser window via JS       |
+|   self   | Contains a reference to an object representing the current browser window. |
