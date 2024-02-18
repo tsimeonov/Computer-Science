@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", init);
 
 Selected parameters for opening browser windows
 
-| Parameter |                  Meaning                  |
-| :-------: | :---------------------------------------: |
-|  height   | Contains the name of the window in pixels |
+| Parameter |                                     Meaning                                     |
+| :-------: | :-----------------------------------------------------------------------------: |
+|  height   |                    Contains the name of the window in pixels                    |
+| location  | Indication of whether the new browser window should have an address bar or nots |
