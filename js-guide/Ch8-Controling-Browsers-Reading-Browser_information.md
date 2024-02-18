@@ -27,3 +27,5 @@ Structure of a browser window
 |   name   |                      Contains the name of the window                       |
 |  opener  |      If you open a browser window from another browser window via JS       |
 |   self   | Contains a reference to an object representing the current browser window. |
+
+## 8.2.5 Opening New Browser Windows
