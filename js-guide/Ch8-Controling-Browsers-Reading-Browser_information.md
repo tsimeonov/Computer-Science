@@ -36,14 +36,11 @@ HTML code
 
 ```html
 <body>
-    <span>URL:</span>
-    <input id="url" type="text">
-    <br>
-    <button id="link-open" type="button">
-        Open window
-    </button>
-    </div>
-    <script src="./app.js"></script>
+  <span>URL:</span>
+  <input id="url" type="text" />
+  <br />
+  <button id="link-open">Open window</button>
+  <script src="./app.js"></script>
 </body>
 ```
 
