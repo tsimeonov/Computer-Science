@@ -75,3 +75,5 @@ Exammple of some, Selected parameters for opening browser windows
 |  menubar  |        Indication of whether the new browser window is resizable or not         |
 
 ## 8.2.6 Closing the Browser Window
+
+Analogous to the `open()` method, you can also use the `close()` method to close a browser window again.
