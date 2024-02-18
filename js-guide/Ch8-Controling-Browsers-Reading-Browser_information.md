@@ -29,3 +29,5 @@ Structure of a browser window
 |   self   | Contains a reference to an object representing the current browser window. |
 
 ## 8.2.5 Opening New Browser Windows
+
+The `open()` method is available for opening a new browser window.
