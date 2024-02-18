@@ -31,3 +31,18 @@ Structure of a browser window
 ## 8.2.5 Opening New Browser Windows
 
 The `open()` method is available for opening a new browser window.
+
+HTML code
+
+```html
+<body>
+    <span>URL:</span>
+    <input id="url" type="text" class="form-control">
+    <br>
+    <button id="link-open" type="button">
+        Open window
+    </button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+```
