@@ -66,9 +66,10 @@ function init() {
 document.addEventListener("DOMContentLoaded", init);
 ```
 
-Selected parameters for opening browser windows
+Exammple of some, Selected parameters for opening browser windows
 
 | Parameter |                                     Meaning                                     |
 | :-------: | :-----------------------------------------------------------------------------: |
 |  height   |                    Contains the name of the window in pixels                    |
 | location  | Indication of whether the new browser window should have an address bar or nots |
+|  menubar  |        Indication of whether the new browser window is resizable or not         |
