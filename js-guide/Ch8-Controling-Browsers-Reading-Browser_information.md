@@ -77,3 +77,11 @@ Exammple of some, Selected parameters for opening browser windows
 ## 8.2.6 Closing the Browser Window
 
 Analogous to the `open()` method, you can also use the `close()` method to close a browser window again.
+
+```html
+<span>URL</span>
+<input type="text" id="url" />
+<br />
+<button id="link-open">open the window</button>
+<button id="link-close">close the window</button>
+```
