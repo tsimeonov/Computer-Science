@@ -117,8 +117,9 @@ document.addEventListener("DOMContentLoaded", init);
 
 In addition to the methods presented s far for opening and closing browseer windows, the `window` object offers furhter methods.
 
-|  Method   |          Description          |
-| :-------: | :---------------------------: |
-|  alert()  | Opens a dialog with a message |
-|  close()  |   Closes the browser window   |
-| confirm() | Opens a dialog with a message |
+|  Method   |                 Description                 |
+| :-------: | :-----------------------------------------: |
+|  alert()  |        Opens a dialog with a message        |
+|  close()  |          Closes the browser window          |
+| confirm() |        Opens a dialog with a message        |
+|  find()   | Searches for a string in the browser window |
