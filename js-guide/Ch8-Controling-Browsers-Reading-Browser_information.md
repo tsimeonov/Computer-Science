@@ -126,3 +126,5 @@ In addition to the methods presented s far for opening and closing browseer wind
 |  print()  | Opens a dialog for printing the window contents |
 
 ## 8.2.8 Executing functions in a Time-Controlled Manner
+
+If you want to execute certain functions within a web page with a delay (once) or ar certain intervals (repeatedly), the `window` object provides several helper methods for this purpose.
