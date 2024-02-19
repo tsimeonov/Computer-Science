@@ -135,3 +135,21 @@ If you want to execute certain functions within a web page with a delay (once) o
 | clearInterval() | Cancels the execution of the function triggered by `setInterval()` |
 |  setTimeout()   |       Executes a function after a specified period of time.        |
 | clearTimeout()  | Cancels the ewxecution of the function triggered by `setTimeout()` |
+
+Executing a function after five seconds
+
+```js
+window.setTimeout(function () {
+  console.log("Hello World");
+}, 5000);
+
+window.setTimeout(() => {
+  console.log("Hello World");
+}, 5000);
+
+function printMessage() {
+  console.log("Hello World");
+}
+
+window.setTimeout(printMessage, 5000);
+```
