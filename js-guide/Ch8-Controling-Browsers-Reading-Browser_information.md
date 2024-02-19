@@ -124,3 +124,5 @@ In addition to the methods presented s far for opening and closing browseer wind
 | confirm() |          Opens a dialog with a message          |
 |  find()   |   Searches for a string in the browser window   |
 |  print()  | Opens a dialog for printing the window contents |
+
+## 8.2.8 Executing functions in a Time-Controlled Manner
