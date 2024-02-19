@@ -129,6 +129,7 @@ In addition to the methods presented s far for opening and closing browseer wind
 
 If you want to execute certain functions within a web page with a delay (once) or ar certain intervals (repeatedly), the `window` object provides several helper methods for this purpose.
 
-|    Method     |                   Description                   |
-| :-----------: | :---------------------------------------------: |
-| setInterval() | Executes a function at specified time intervals |
+|     Method      |                            Description                             |
+| :-------------: | :----------------------------------------------------------------: |
+|  setInterval()  |          Executes a function at specified time intervals           |
+| clearInterval() | Cancels the execution of the function triggered by `setInterval()` |
