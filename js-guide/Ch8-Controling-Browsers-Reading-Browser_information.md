@@ -120,3 +120,4 @@ In addition to the methods presented s far for opening and closing browseer wind
 | Method  |          Description          |
 | :-----: | :---------------------------: |
 | alert() | Opens a dialog with a message |
+| close() |   Closes the browser window   |
