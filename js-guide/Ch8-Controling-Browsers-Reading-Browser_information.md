@@ -134,3 +134,4 @@ If you want to execute certain functions within a web page with a delay (once) o
 |  setInterval()  |          Executes a function at specified time intervals           |
 | clearInterval() | Cancels the execution of the function triggered by `setInterval()` |
 |  setTimeout()   |       Executes a function after a specified period of time.        |
+| clearTimeout()  | Cancels the ewxecution of the function triggered by `setTimeout()` |
