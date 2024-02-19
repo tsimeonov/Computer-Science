@@ -78,6 +78,8 @@ Exammple of some, Selected parameters for opening browser windows
 
 Analogous to the `open()` method, you can also use the `close()` method to close a browser window again.
 
+HTML Code
+
 ```html
 <span>URL</span>
 <input type="text" id="url" />
@@ -85,3 +87,28 @@ Analogous to the `open()` method, you can also use the `close()` method to close
 <button id="link-open">open the window</button>
 <button id="link-close">close the window</button>
 ```
+
+JavaScript Code
+
+```js
+"use strict";
+function init() {
+  let windowReference;
+  const linkOpen = document.getElementById("link-open");
+  const linkClose = document.getElementById("link-close");
+  linkOpen.addEventListener("click", (e) => {
+    const url = document.getElementById("url").value;
+    windowReference = window.open(
+      url,
+      "Fenstertitel",
+      "width=500,height=500,resizable,scrollbars=yes,status=1"
+    );
+  });
+  linkClose.addEventListener("click", (e) => {
+    windowReference.close();
+  });
+}
+document.addEventListener("DOMContentLoaded", init);
+```
+
+`Although we just showed you how it works, we advise agains opening browser windows via JavaScript. Such windows always have the negative connotation of annoying advertising windows.`
