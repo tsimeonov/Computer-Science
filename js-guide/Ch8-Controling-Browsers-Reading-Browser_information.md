@@ -112,3 +112,7 @@ document.addEventListener("DOMContentLoaded", init);
 ```
 
 `Although we just showed you how it works, we advise agains opening browser windows via JavaScript. Such windows always have the negative connotation of annoying advertising windows.`
+
+## 8.2.7 Opening Dialogs
+
+In addition to the methods presented s far for opening and closing browseer windows, the `window` object offers furhter methods.
