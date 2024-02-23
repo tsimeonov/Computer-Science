@@ -21,3 +21,10 @@ Step 5:
 In the Project navigator, select ContentView.
 
 By default, SwiftUI view files declare a structure and a preview. The structure conforms to the View protocol and describes the view's content and layout. The preview declaration creates a preview for that view.
+
+Step 6:
+The canvas displays a preview automatically.
+
+<span style="color: teal">Tip</span>
+
+If the canvas isn't visible, select Editor > Canvas to show it.
