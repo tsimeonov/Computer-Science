@@ -36,3 +36,18 @@ Inside the body property, remove everything but the Text declaration and change 
 As you change the code in a view's body property, the preview updates to reflect your changes.
 
 ## Section 2: Customize the text view
+
+Step 1:
+Change the canvas mode to Selectable.
+The canvas displays previews in Live mode by default so that you can interact with them, but you can use the Selectable mode to enable editing instead.
+
+<img src="./img/section_2_step1.png" width="400px"/>
+
+Step 2:
+In the prview, Command-Control-click the greeting to bring up the structured editing popover, and choose "Show SwiftUI Inspector".
+The popover shows different attributes that you can customize, depanding on the type of view you inspect.
+
+<img src="./img/section_2_step_2.png" width="400px"/>
+
+Step 3:
+Use the inspector to change the text to "Turtle Rock", the name of the first landmark you'll show in your app.
