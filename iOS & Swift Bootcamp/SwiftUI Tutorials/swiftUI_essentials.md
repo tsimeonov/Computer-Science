@@ -28,3 +28,9 @@ The canvas displays a preview automatically.
 <span style="color: teal">Tip</span>
 
 If the canvas isn't visible, select Editor > Canvas to show it.
+
+Step 7:
+
+inside the body property, remove everything but the Text declaration and change "Hello, world!" to a greeting for yourself.
+
+As you change the code in a view's body property, the preview updates to reflect your changes.
