@@ -10,3 +10,9 @@ In the template selector, select iOS as the p;atform, select the Ap ptemplate, a
 
 Step 3:
 Enter "Landmarks" ase the product name, select "SwiftUI" for the interface and "Swift" for the language, and click NEXT Choose a location to save the Landmarks project on your Mac.
+
+Step 4:
+In the Project navigator, select LandmarksApp.
+
+An app that uses the SwiftUI app life cycle has a structure that conforms to the App protocol. The structure's body property returns one or more scenes, which in turn provide content for display.
+The @main attribute identifies the app's entry point.
