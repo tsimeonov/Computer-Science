@@ -51,3 +51,7 @@ The popover shows different attributes that you can customize, depanding on the 
 
 Step 3:
 Use the inspector to change the text to "Turtle Rock", the name of the first landmark you'll show in your app.
+
+Step 4:
+Change the Font modifier to "Title".
+This applies the system font to the text so that it responds correctly to the user's preferred font sizes and settings.
