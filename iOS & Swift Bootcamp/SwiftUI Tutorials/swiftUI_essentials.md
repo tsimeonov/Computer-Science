@@ -58,3 +58,6 @@ This applies the system font to the text so that it responds correctly to the us
 
 Step 5:
 Edit the code by hand to add the foregroundColor(.green) modifier; this changes the text color to green.
+
+Step 6:
+This time, open the inspector by Control-clicking on the Text declaration in the code editor, and then choose “Show SwiftUI Inspector” from the popover. Click the Color pop-up menu and choose Inherited to change the text color to black again.
