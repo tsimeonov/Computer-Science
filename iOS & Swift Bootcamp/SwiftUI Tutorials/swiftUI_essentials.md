@@ -61,3 +61,6 @@ Edit the code by hand to add the foregroundColor(.green) modifier; this changes 
 
 Step 6:
 This time, open the inspector by Control-clicking on the Text declaration in the code editor, and then choose “Show SwiftUI Inspector” from the popover. Click the Color pop-up menu and choose Inherited to change the text color to black again.
+
+Step 7:
+Notice that Xcode updates your code automatically to reflect the changes, remove the foregroundColor(.green) modifier.
