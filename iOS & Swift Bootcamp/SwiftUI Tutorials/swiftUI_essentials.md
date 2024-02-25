@@ -78,3 +78,5 @@ Control-click the text view's initializer to show a context menu, and then choos
 
 Step 2:
 Open the library by clicking the plus button (+) at the top-right of the Xcode window, and then drag a Text view to the place in your code immediately below the "Turtle Rock" text view.
+
+<img src="./img/section_3_step_2.png" width="500px"/>
