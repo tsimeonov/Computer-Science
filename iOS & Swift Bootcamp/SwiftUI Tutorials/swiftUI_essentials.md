@@ -70,3 +70,8 @@ Set the preview back to Live mode.
 Working in Live mode makes it easy to keep track of view behavior as you make edits in source.
 
 ## Section 3: Combine views using stacks
+
+In this section, you'll use a vertical stack to place the title above a horizontal stack that contains details about the park.
+
+Step 1:
+Control-click the text view's initializer to show a context menu, and then choose "Embed in VStack"
