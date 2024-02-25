@@ -41,13 +41,13 @@ Step 1:
 Change the canvas mode to Selectable.
 The canvas displays previews in Live mode by default so that you can interact with them, but you can use the Selectable mode to enable editing instead.
 
-<img src="./img/section_2_step_1.png" width="400px"/>
+<img src="./img/section_2_step_1.png" style="border-radius:10px" width="400px"/>
 
 Step 2:
 In the prview, Command-Control-click the greeting to bring up the structured editing popover, and choose "Show SwiftUI Inspector".
 The popover shows different attributes that you can customize, depanding on the type of view you inspect.
 
-<img src="./img/section_2_step_2.png" width="400px"/>
+<img src="./img/section_2_step_2.png" style="border-radius:10px" width="400px"/>
 
 Step 3:
 Use the inspector to change the text to "Turtle Rock", the name of the first landmark you'll show in your app.
@@ -79,4 +79,4 @@ Control-click the text view's initializer to show a context menu, and then choos
 Step 2:
 Open the library by clicking the plus button (+) at the top-right of the Xcode window, and then drag a Text view to the place in your code immediately below the "Turtle Rock" text view.
 
-<img src="./img/section_3_step_2.png" width="500px"/>
+<img src="./img/section_3_step_2.png" style="border-radius:10px" width="500px"/>
