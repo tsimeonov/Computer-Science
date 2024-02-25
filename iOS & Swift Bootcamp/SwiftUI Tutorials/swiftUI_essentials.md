@@ -68,3 +68,5 @@ Notice that Xcode updates your code automatically to reflect the changes, remove
 Step 8:
 Set the preview back to Live mode.
 Working in Live mode makes it easy to keep track of view behavior as you make edits in source.
+
+## Section 3: Combine views using stacks
