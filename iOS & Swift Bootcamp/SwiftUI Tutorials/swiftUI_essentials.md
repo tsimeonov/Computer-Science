@@ -86,3 +86,20 @@ Replace the Text view's placeholder text with "Joshua Tree National Park"
 
 Step 4:
 Set the location's font to subheadline.
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("Turtle Rock")
+            Text("Joshua Tree National Park").font(.subheadline)
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+```
