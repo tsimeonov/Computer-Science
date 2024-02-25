@@ -83,3 +83,6 @@ Open the library by clicking the plus button (+) at the top-right of the Xcode w
 
 Step 3:
 Replace the Text view's placeholder text with "Joshua Tree National Park"
+
+Step 4:
+Set the location's font to subheadline.
