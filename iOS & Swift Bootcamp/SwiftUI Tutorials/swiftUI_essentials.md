@@ -41,7 +41,7 @@ Step 1:
 Change the canvas mode to Selectable.
 The canvas displays previews in Live mode by default so that you can interact with them, but you can use the Selectable mode to enable editing instead.
 
-<img src="./img/section_2_step1.png" width="400px"/>
+<img src="./img/section_2_step_1.png" width="400px"/>
 
 Step 2:
 In the prview, Command-Control-click the greeting to bring up the structured editing popover, and choose "Show SwiftUI Inspector".
