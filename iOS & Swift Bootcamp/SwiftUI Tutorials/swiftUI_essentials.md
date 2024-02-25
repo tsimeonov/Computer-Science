@@ -75,3 +75,6 @@ In this section, you'll use a vertical stack to place the title above a horizont
 
 Step 1:
 Control-click the text view's initializer to show a context menu, and then choose "Embed in VStack"
+
+Step 2:
+Open the library by clicking the plus button (+) at the top-right of the Xcode window, and then drag a Text view to the place in your code immediately below the "Turtle Rock" text view.
