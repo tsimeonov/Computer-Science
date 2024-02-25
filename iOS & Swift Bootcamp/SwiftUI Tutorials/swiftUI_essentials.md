@@ -80,3 +80,6 @@ Step 2:
 Open the library by clicking the plus button (+) at the top-right of the Xcode window, and then drag a Text view to the place in your code immediately below the "Turtle Rock" text view.
 
 <img src="./img/section_3_step_2.png" style="border-radius:10px" width="500px"/>
+
+Step 3:
+Replace the Text view's placeholder text with "Joshua Tree National Park"
