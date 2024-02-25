@@ -103,3 +103,7 @@ struct ContentView: View {
     ContentView()
 }
 ```
+
+Step 5:
+Edit the VSStack initializer to align the views by their leading edges.
+By default, stacks center their contents along their axis and provide context-appropriate spacing.
