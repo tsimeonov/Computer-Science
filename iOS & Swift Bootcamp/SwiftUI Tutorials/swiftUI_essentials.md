@@ -107,3 +107,10 @@ struct ContentView: View {
 Step 5:
 Edit the VSStack initializer to align the views by their leading edges.
 By default, stacks center their contents along their axis and provide context-appropriate spacing.
+
+```swift
+VSta§ck (alignment: .leading) {
+    Text("Turtle Rock")
+    Text("Joshua Tree National Park").font(.subheadline)
+}
+```
