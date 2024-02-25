@@ -114,3 +114,6 @@ VSta§ck (alignment: .leading) {
     Text("Joshua Tree National Park").font(.subheadline)
 }
 ```
+
+Step 6:
+Embed the "Joshua Tree National Park" text view in an HStack.
