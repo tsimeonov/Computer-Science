@@ -12,13 +12,13 @@ Step 3:
 Enter "Landmarks" ase the product name, select "SwiftUI" for the interface and "Swift" for the language, and click NEXT Choose a location to save the Landmarks project on your Mac.
 
 Step 4:
-In the Project navigator, select LandmarksApp.
+In the Project navigator, select `LandmarksApp`.
 
 An app that uses the SwiftUI app life cycle has a structure that conforms to the App protocol. The structure's body property returns one or more scenes, which in turn provide content for display.
 The @main attribute identifies the app's entry point.
 
 Step 5:
-In the Project navigator, select ContentView.
+In the Project navigator, select `ContentView`.
 
 By default, SwiftUI view files declare a structure and a preview. The structure conforms to the View protocol and describes the view's content and layout. The preview declaration creates a preview for that view.
 
