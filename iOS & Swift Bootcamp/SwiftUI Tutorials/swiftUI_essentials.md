@@ -174,3 +174,7 @@ struct ContentView: View {
 ```
 
 ## Section 4: Create a custom image view
+
+With the name and location views all set, the next step is to add an image for the landmark.
+
+Instead of adding more code in this file, you'll create a custom view that applies a mask, border, and drop shadow to the image.
