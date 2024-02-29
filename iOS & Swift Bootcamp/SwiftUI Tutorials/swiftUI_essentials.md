@@ -123,3 +123,7 @@ HStack {
     Text("Joshua Tree National Park").font(.subheadline)
 }
 ```
+
+Step 7:
+
+Add a new text view after the location, change the placeholder text to the park's state, and then set its font to subheadline.
