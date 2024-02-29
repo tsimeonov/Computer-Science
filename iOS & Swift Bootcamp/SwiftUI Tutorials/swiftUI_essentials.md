@@ -134,3 +134,7 @@ HStack {
     Text("California").font(.subheadline)
 }
 ```
+
+Step 8
+
+To direct the layout to use the full width of the device, separate the park and the state by addding a `Spacer` to the horizontal stack holding the two text views.
