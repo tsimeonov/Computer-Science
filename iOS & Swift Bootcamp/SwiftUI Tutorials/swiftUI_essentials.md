@@ -140,3 +140,11 @@ Step 8
 To direct the layout to use the full width of the device, separate the park and the state by addding a `Spacer` to the horizontal stack holding the two text views.
 
 A `spacer` expands to make its containing view use all of the space of its parent view, instead of having it's size defined only by its contents.
+
+```swift
+HStack {
+    Text("Joshua Tree National Park").font(.subheadline)
+    Spacer()
+    Text("California").font(.subheadline)
+}
+```
