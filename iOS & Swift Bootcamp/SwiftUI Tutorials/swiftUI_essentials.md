@@ -148,3 +148,7 @@ HStack {
     Text("California").font(.subheadline)
 }
 ```
+
+Step 9
+
+Finally, use the padding() modifier to give the landmark's name and details a littel more space around their outer edges.
