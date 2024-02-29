@@ -172,3 +172,5 @@ struct ContentView: View {
 }
 
 ```
+
+## Section 4: Create a custom image view
