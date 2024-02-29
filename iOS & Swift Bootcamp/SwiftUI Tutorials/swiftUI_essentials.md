@@ -152,3 +152,23 @@ HStack {
 Step 9
 
 Finally, use the padding() modifier to give the landmark's name and details a littel more space around their outer edges.
+
+```swift
+struct ContentView: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Turtle Rock")
+                .font(.title)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
+    }
+}
+
+```
