@@ -151,7 +151,7 @@ HStack {
 
 Step 9
 
-Finally, use the padding() modifier to give the landmark's name and details a littel more space around their outer edges.
+Finally, use the padding() modifier to give the landmark's name and details a little more space around their outer edges.
 
 ```swift
 struct ContentView: View {
