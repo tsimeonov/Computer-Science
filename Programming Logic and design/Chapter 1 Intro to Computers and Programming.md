@@ -55,11 +55,11 @@ Computers are often referred to as digital devices. The term `digital` can be us
 
 ## 1.4 How a Program works
 
-A program is nothing more than a list of instructions that cause the CPU to perform operations.
+A program is nothing more than a list of instructions that causes the CPU to perform operations.
 CPU's only understand instructions that are written in `machine language` and machine language instructions are always written in binary.
 The entire set of instructions that a CPU can execute is known as the CPU's `instruction set`.
 
-When a CPU executes the instructions in a program, it is engaged in a process that us known as the `fetch-decode-execute cycle`.
+When a CPU executes the instructions in a program, it is engaged in a process that is known as the `fetch-decode-execute cycle`.
 
 1. `Fetch` - The first step of the cycle is to fetch, or read the next instruction from memory into the CPU.
 2. `Decode` - In this step the CPU decodes the instruction that was just fetched from memory, to determine which operation it should perform.
@@ -110,7 +110,7 @@ IDE - stands for `Integrated Development Environments`
 
 ## 1.5 Types of Software
 
-Programs generally fall into one of two categories: system software or application software. System software is the set of programs that control or enhance the operation of a computer. Applicatio software makes a computer useful for everydat tasks.
+Programs generally fall into one of two categories: system software or application software. System software is the set of programs that control or enhance the operation of a computer. Application software makes a computer useful for everydat tasks.
 
 ---
 
