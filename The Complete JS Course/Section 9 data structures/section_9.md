@@ -309,7 +309,7 @@ const newArr = [1, 2, ...arr];
 console.log(newArr);
 ```
 
-<span style="color: #FAA5a5">Add one more element to an array</span>
+<span style="color: #FAA5a5">Add one more elements to an array</span>
 
 ```js
 // Create an array with one more food item in the mainMenu
@@ -340,7 +340,7 @@ const letters = [...str, "", "s."];
 console.log(letters);
 ```
 
-<span style="color: #FAA5a5">Function that accepts multiple arguments and uses the spread operator to pass those arguments</span>
+<span style="color: #FAA5a5">Function that accepts multiple arguments and use the spread operator to pass those arguments</span>
 
 ```js
 // Add a method (orderPasta) to the restaurant object
@@ -424,12 +424,12 @@ console.log(restaurant.name); // Output: Classico Italiano
 Rest pattern looks exactly like the spread operator.
 So it has the same syntax with the three dots.
 
-The use cases for the spread operator are:
+The use-cases for the spread operator are:
 
-- Use the spread opeartor to nuild new arrays.
+- Use the spread opeartor to build new arrays.
 - Pass multiple values into a function.
 
-The spread operator is to unpack an array while rest is to pack elements into an array.
+The spread operator is to unpack an array, while rest is to pack elements into an array.
 
 ```js
 // SPREAD, because in RIGHT side of =
