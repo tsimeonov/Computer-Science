@@ -25,7 +25,7 @@ A computers' memory is divided into tiny storage locations known as `bytes`. One
 
 <h6>Storing Numbers</h6>
 
-A bit cvan be used in a very limited way to represent numbers. Depending on whether the bit is turned on or off, it can represent one of two fifferent values.
+A bit can be used in a very limited way to represent numbers. Depending on whether the bit is turned on or off, it can represent one of two different values.
 
 <img src="./img/determine the value of.png" width="250">
 
