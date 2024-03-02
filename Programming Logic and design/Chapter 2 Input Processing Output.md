@@ -8,7 +8,7 @@ The program development cycle
 
 <h6>Designing a Program</h6>
 
-1. Understand the taks that the program is to
+1. Understand the taks that the program needs to do:
    `customer` - the person. group or organization asking you to write a program.
    `software requirement` - A single function that the program must perform in order to satisfy the customer.
 2. Determine the steps that must be taken to perform the task
