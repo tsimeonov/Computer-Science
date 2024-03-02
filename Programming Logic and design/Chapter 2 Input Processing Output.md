@@ -9,7 +9,7 @@ The program development cycle
 <h6>Designing a Program</h6>
 
 1. Understand the taks that the program needs to do:
-   `customer` - the person. group or organization asking you to write a program.
+   `customer` - the person. Group or organization asking you to write a program.
    `software requirement` - A single function that the program must perform in order to satisfy the customer.
 2. Determine the steps that must be taken to perform the task
    `algorithm` - A set of well-defined logical steps that must be taken in order to perform a task.
@@ -33,7 +33,7 @@ Between the terminal symbols are parallelograms, which are used for both `input 
 
 ## 2.2 Output, Input and Variables
 
-Output is data that us generated and displayed by the program.
+Output is data that is generated and displayed by the program.
 Input is data that the program receives.
 
 ---
@@ -53,7 +53,7 @@ IPO stands for input, processing and output and an `IPO chart` describes the inp
 <h6>Sequence Structures</h6>
 
 A set of statements that executes in the order that they appear is called a `sequence structure`.
-A structurem also called a `control structure`, is a logical design that controls the order in which a set of statements executes.
+A structure also called a `control structure`, is a logical design that controls the order in which a set of statements executes.
 
 ---
 
