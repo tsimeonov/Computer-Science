@@ -222,3 +222,5 @@ Step 7
 Switch the border color to white.
 
 This completes the image view.
+
+## Section 5: Use SwiftUI views from other frameworks
