@@ -187,7 +187,7 @@ Step 2
 Choose Files -> New -> File to open the template selector again. In the User Interface section, select "SwiftUI Views" and click Next. Name the file CircleImage.swift and click Create.
 
 Step 3
-Replace the text view with the image of Turtle Rock by using the Image(\_:) initializer, passing it the name of the image to display.
+Replace the text view with the image of Turtle Rock by using the Image(...) initializer, passing it the name of the image to display.
 
 Step 4
 Add a call to clip Shape(Circle()) to apply the circular clipping shape to the image.
