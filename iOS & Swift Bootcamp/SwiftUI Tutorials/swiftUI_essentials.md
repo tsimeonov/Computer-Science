@@ -185,3 +185,6 @@ Find `turtlerock@2x.jpg` in the project files 'Resources folder', drag it into t
 Step 2
 
 Choose Files -> New -> File to open the template selector again. In the User Interface section, select "SwiftUI Views" and click Next. Name the file CircleImage.swift and click Create.
+
+Step 3
+Replace the text view with the image of Turtle Rock by using the Image(\_:) initializer, passing it the name of the image to display.
