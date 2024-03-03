@@ -227,3 +227,9 @@ This completes the image view.
 
 Step 1
 Choose File -> New -> File. select iOS as the platform, select the "SwiftUI View" template, and click Nexr. Name the new file MapView.swift and click Create
+
+Step 2
+
+Add an import statement for MapKit.
+
+When you import SwiftUI and certain other frameworks in the same file, you gain access to SwiftUI-specific functionality provided by that framework.
