@@ -187,7 +187,7 @@ Step 2
 Choose Files -> New -> File to open the template selector again. In the User Interface section, select "SwiftUI Views" and click Next. Name the file CircleImage.swift and click Create.
 
 Step 3
-Replace the text view with the image of Turtle Rock by using the Image(...) initializer, passing it the name of the image to display.
+Replace the text view with the image of Turtle Rock by using the Image(...C) initializer, passing it the name of the image to display.
 
 Step 4
 Add a call to clip Shape(Circle()) to apply the circular clipping shape to the image.
@@ -196,3 +196,15 @@ The Circle type is a shape that you can use as a mask, or as a view by giving th
 
 Step 5
 Create another circle with a gray stroke, and then add it as an overlay to give the image a border.
+
+```swift
+struct CircleImage: View {
+    var body: some View {
+        Image("turtlerock")
+            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .overlay {
+                Circle().stroke(.gray, lineWidth: 4)
+            }
+    }
+}
+```
