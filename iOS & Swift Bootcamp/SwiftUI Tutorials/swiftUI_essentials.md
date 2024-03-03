@@ -216,3 +216,9 @@ Next, add a shadow with a 7 point radius.
 ```swift
 .shadow(radius: 7)
 ```
+
+Step 7
+
+Switch the border color to white.
+
+This completes the image view.
