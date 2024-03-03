@@ -181,3 +181,7 @@ Instead of adding more code in this file, you'll create a custom view that appli
 
 Step 1
 Find `turtlerock@2x.jpg` in the project files 'Resources folder', drag it into the asset catalog's editor. Xcode creates a new set for the image.
+
+Step 2
+
+Choose Files -> New -> File to open the template selector again. In the User Interface section, select "SwiftUI Views" and click Next. Name the file CircleImage.swift and click Create.
