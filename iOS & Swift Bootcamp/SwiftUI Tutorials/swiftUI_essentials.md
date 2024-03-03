@@ -193,3 +193,6 @@ Step 4
 Add a call to clip Shape(Circle()) to apply the circular clipping shape to the image.
 
 The Circle type is a shape that you can use as a mask, or as a view by giving the circle a stroke or fill.
+
+Step 5
+Create another circle with a gray stroke, and then add it as an overlay to give the image a border.
