@@ -178,3 +178,6 @@ struct ContentView: View {
 With the name and location views all set, the next step is to add an image for the landmark.
 
 Instead of adding more code in this file, you'll create a custom view that applies a mask, border, and drop shadow to the image.
+
+Step 1
+Find `turtlerock@2x.jpg` in the project files 'Resources folder', drag it into the asset catalog's editor. Xcode creates a new set for the image.
