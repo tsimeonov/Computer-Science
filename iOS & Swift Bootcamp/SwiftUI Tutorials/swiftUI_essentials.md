@@ -208,3 +208,7 @@ struct CircleImage: View {
     }
 }
 ```
+
+Step 6
+
+Next, add a shadow with a 7 point radius.
