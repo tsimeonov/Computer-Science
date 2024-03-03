@@ -188,3 +188,8 @@ Choose Files -> New -> File to open the template selector again. In the User Int
 
 Step 3
 Replace the text view with the image of Turtle Rock by using the Image(\_:) initializer, passing it the name of the image to display.
+
+Step 4
+Add a call to clip Shape(Circle()) to apply the circular clipping shape to the image.
+
+The Circle type is a shape that you can use as a mask, or as a view by giving the circle a stroke or fill.
