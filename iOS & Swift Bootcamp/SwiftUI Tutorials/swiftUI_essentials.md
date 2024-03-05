@@ -249,3 +249,7 @@ struct MapView: View {
 }
 
 ```
+
+Step 3
+
+Create a private computed variable that holds the region information for the map.
