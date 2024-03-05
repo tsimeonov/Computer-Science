@@ -280,3 +280,7 @@ You'll see a map centered on Turtle Rock in the preview.
 You can manipulate the map in live preview to zoom out a bit and seethe surrounding area using the Opinion-clickdrag control.
 
 ## Section 6: Compose the detail view
+
+Step 1:
+
+In the Project navigator, select the Content View file.
