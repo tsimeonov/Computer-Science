@@ -262,3 +262,7 @@ private var region: MKCoordinateRegion {
     )
 }
 ```
+
+Step 4
+
+Replace the default Text view with a Map view that takes a camera position that you initialize with the region.
