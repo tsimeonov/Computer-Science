@@ -284,3 +284,7 @@ You can manipulate the map in live preview to zoom out a bit and seethe surround
 Step 1:
 
 In the Project navigator, select the Content View file.
+
+Step 2:
+
+Embed the VStack taht holds the three text views in another VStack.
