@@ -288,3 +288,20 @@ In the Project navigator, select the Content View file.
 Step 2:
 
 Embed the VStack taht holds the three text views in another VStack.
+
+```swift
+VStack {
+    VStack(alignment: .leading) {
+        Text("Turtle Rock")
+            .font(.title)
+        HStack {
+            Text("Joshua Tree National Park")
+                .font(.subheadline)
+            Spacer()
+            Text("California")
+                .font(.subheadline)
+         }
+    }
+    .padding()
+}
+```
