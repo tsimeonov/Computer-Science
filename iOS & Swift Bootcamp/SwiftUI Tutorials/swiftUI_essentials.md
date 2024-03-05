@@ -272,3 +272,9 @@ var body: some View {
     Map(initialPosition: .region(region))
 }
 ```
+
+Step 5
+
+You'll see a map centered on Turtle Rock in the preview.
+
+You can manipulate the map in live preview to zoom out a bit and seethe surrounding area using the Opinion-clickdrag control.
