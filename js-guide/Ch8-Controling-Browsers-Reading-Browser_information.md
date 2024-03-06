@@ -71,7 +71,7 @@ Exammple of some, Selected parameters for opening browser windows
 | Parameter |                                     Meaning                                     |
 | :-------: | :-----------------------------------------------------------------------------: |
 |  height   |                    Contains the name of the window in pixels                    |
-| location  | Indication of whether the new browser window should have an address bar or nots |
+| location  | Indication of whether the new browser window should have an address bar or not |
 |  menubar  |        Indication of whether the new browser window is resizable or not         |
 
 ## 8.2.6 Closing the Browser Window
