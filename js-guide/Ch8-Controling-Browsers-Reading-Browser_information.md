@@ -119,11 +119,11 @@ In addition to the methods presented s far for opening and closing browseer wind
 
 |  Method   |                   Description                   |
 | :-------: | :---------------------------------------------: |
-|  alert()  |          Opens a dialog with a message          |
-|  close()  |            Closes the browser window            |
-| confirm() |          Opens a dialog with a message          |
-|  find()   |   Searches for a string in the browser window   |
-|  print()  | Opens a dialog for printing the window contents |
+|  `alert()`  |          Opens a dialog with a message          |
+|  `close()`  |            Closes the browser window            |
+| `confirm()` |          Opens a dialog with a message          |
+|  `find()`|   Searches for a string in the browser window   |
+|  `print()`  | Opens a dialog for printing the window contents |
 
 ## 8.2.8 Executing functions in a Time-Controlled Manner
 
@@ -131,10 +131,10 @@ If you want to execute certain functions within a web page with a delay (once) o
 
 |     Method      |                            Description                             |
 | :-------------: | :----------------------------------------------------------------: |
-|  setInterval()  |          Executes a function at specified time intervals           |
-| clearInterval() | Cancels the execution of the function triggered by `setInterval()` |
-|  setTimeout()   |       Executes a function after a specified period of time.        |
-| clearTimeout()  | Cancels the ewxecution of the function triggered by `setTimeout()` |
+|  `setInterval()`  |          Executes a function at specified time intervals           |
+| `clearInterval()` | Cancels the execution of the function triggered by `setInterval()` |
+|  `setTimeout()`   |       Executes a function after a specified period of time.        |
+| `clearTimeout()`  | Cancels the ewxecution of the function triggered by `setTimeout()` |
 
 Executing a function after five seconds
 
