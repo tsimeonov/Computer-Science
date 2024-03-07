@@ -320,3 +320,7 @@ MapView()
 Step 4:
 
 Add the `circleImage` view to the stack
+
+```swift
+CircleImage()
+```
