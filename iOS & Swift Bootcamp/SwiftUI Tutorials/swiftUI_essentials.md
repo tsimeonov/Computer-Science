@@ -311,3 +311,8 @@ Step 3:
 Add your custom MapView to the top of the stack. Set the size of the MapView with frame(width:height)
 
 When you specify only the height perimeter, the view automatically ized to the width of its content.
+
+```swift
+MapView()
+    .frame(height: 300)
+```
