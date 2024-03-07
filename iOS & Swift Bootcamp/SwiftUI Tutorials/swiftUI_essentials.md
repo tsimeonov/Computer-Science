@@ -316,3 +316,7 @@ When you specify only the height perimeter, the view automatically ized to the w
 MapView()
     .frame(height: 300)
 ```
+
+Step 4:
+
+Add the `circleImage` view to the stack
