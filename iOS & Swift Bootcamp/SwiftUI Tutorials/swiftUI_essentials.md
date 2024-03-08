@@ -277,7 +277,7 @@ Step 5
 
 You'll see a map centered on Turtle Rock in the preview.
 
-You can manipulate the map in live preview to zoom out a bit and seethe surrounding area using the Opinion-clickdrag control.
+You can manipulate the map in live preview to zoom out a bit and see the surrounding area using the Option-click drag control.
 
 ## Section 6: Compose the detail view
 
@@ -287,7 +287,7 @@ In the Project navigator, select the Content View file.
 
 Step 2:
 
-Embed the VStack taht holds the three text views in another VStack.
+Embed the VStack that holds the three text views in another VStack.
 
 ```swift
 VStack {
