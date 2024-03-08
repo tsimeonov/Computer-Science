@@ -327,7 +327,7 @@ CircleImage()
 
 Step 5
 
-To layer the image view on top of the map view, give the image an offset of -130 points vertically, and padding of -130 points from the bottom of the view.
+To layer the image view on top of the map view, give the image an offset of `-130` points vertically, and padding of `-130` points from the bottom of the view.
 
 ```swift
 CircleImage()
