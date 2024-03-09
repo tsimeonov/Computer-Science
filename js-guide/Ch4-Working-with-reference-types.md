@@ -21,7 +21,8 @@ Reference data types:
 
 ## 4.1.4 Determining the type of a variable
 
-This can be done using the typeof operator. This is a unary operator; that is, it expects only one operand - namely, the value or varialbe the type of which is to be determend.
+This can be done using the typeof operator. This is a unary operator. T
+hat is, it expects only one operand - namely, the value or varialbe the type of which is to be determend.
 
 # 4.2 Encapsulating State and Behavior in Objects
 
@@ -144,7 +145,7 @@ item.printDescription();
 
 ### Setters and Getters
 
-Instead of accessing properties directly, it's common in OPP to use special methods reset properties or returrn the values of properties. Those types of methods that set a new value for a property are called `setter methods`, or `setters` for short, and those that return the value of a property are called `getter methods` or `getters`. The advantage of setter methods in particular is that they provide a good opportunity to validate values that are assigned to a property - that us, to check their validity.
+Instead of accessing properties directly, it's common in OPP to use special methods reset properties to returrn the values of properties. Those types of methods that set a new value for a property are called `setter methods`, or `setters` for short, and those that return the value of a property are called `getter methods` or `getters`. The advantage of setter methods in particular is that they provide a good opportunity to validate values that are assigned to a property - that is, to check their validity.
 
 <details>
   <summary>Example of setters and getters</summary>
