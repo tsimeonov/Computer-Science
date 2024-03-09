@@ -786,7 +786,7 @@ console.log(Math.floor(4.7)); // 4
 
 # 4.9 Working with regular expressions
 
-Regular expresson are specific character patterns that are used to checj whether a text (or a string) contains a specific combination of characters.
+Regular expresson are specific character patterns that are used to check whether a text (or a string) contains a specific combination of characters.
 
 ## 4.9.1 Defining regular expressions
 
