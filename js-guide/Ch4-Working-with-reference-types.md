@@ -12,7 +12,7 @@ Primitive data types include:
 
 Reference data types:
 
-- Ojects
+- Objects
 - Arrays
 - Dates
 - Regular Expressions
