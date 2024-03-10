@@ -357,3 +357,47 @@ Text("Descriptive text goes here....")
 Step 8
 
 Finally, move the subheadline font modifier from each Text view to the HStack containing them, and apply the secindary style to the subhealine text.
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+        MapView()
+            .frame(height: 300)
+
+        CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+
+        VStack (alignment: .leading) {
+            Text("Turtle Rock")
+
+            HStack {
+                Text("Joshua Tree National Park").font(.subheadline)
+                Spacer()
+                Text("California").font(.subheadline)
+            }
+
+            .font(.subheadline)
+            .foregroundStyle(.secondary)
+
+            Divider()
+            Text("About Turtle Rock")
+                .font(.title2)
+            Text("Descriptive text goes here....")
+
+        }
+        .padding()
+
+        Spacer()
+        }
+    }
+
+}
+
+#Preview {
+    ContentView()
+}
+```
