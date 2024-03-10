@@ -1,4 +1,6 @@
-## SwiftUI essentials
+# SwiftUI essentials
+
+## Creating and combining views
 
 ### Section 1: Create a new project and explore the canvas
 
