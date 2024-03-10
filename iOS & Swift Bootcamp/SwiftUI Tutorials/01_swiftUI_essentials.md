@@ -405,3 +405,5 @@ struct ContentView: View {
 ```
 
 ## Building lists and navigation
+
+### Section 1: Create a landmark model
