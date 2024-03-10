@@ -407,3 +407,7 @@ struct ContentView: View {
 ## Building lists and navigation
 
 ### Section 1: Create a landmark model
+
+Step 1:
+
+Drag `landmarkData.json` in the downloaded files, Resources folder into your project's navigation pane; in the dialog that appears, select "Copy items if needed" and the Landmarks target, and then click Finish.
