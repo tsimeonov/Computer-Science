@@ -346,3 +346,10 @@ Spacer()
 Step 7
 
 Add a divider and some additional descriptive text for the landmark
+
+```swift
+Divider()
+Text("About Turtle Rock")
+    .font(.title2)
+Text("Descriptive text goes here....")
+```
