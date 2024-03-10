@@ -226,7 +226,7 @@ This completes the image view.
 ## Section 5: Use SwiftUI views from other frameworks
 
 Step 1
-Choose File -> New -> File. select iOS as the platform, select the "SwiftUI View" template, and click Nexr. Name the new file `MapView.swift` and click Create.
+Choose File -> New -> File. select iOS as the platform, select the "SwiftUI View" template, and click Nexr. Name the new file MapView.swift and click Create
 
 Step 2
 
@@ -277,7 +277,7 @@ Step 5
 
 You'll see a map centered on Turtle Rock in the preview.
 
-You can manipulate the map in live preview to zoom out a bit and see the surrounding area using the Option-click drag control.
+You can manipulate the map in live preview to zoom out a bit and seethe surrounding area using the Opinion-clickdrag control.
 
 ## Section 6: Compose the detail view
 
@@ -287,7 +287,7 @@ In the Project navigator, select the Content View file.
 
 Step 2:
 
-Embed the VStack that holds the three text views in another VStack.
+Embed the VStack taht holds the three text views in another VStack.
 
 ```swift
 VStack {
@@ -310,9 +310,9 @@ Step 3:
 
 Add your custom MapView to the top of the stack. Set the size of the MapView with frame(width:height)
 
-When you specify only the height perimeter, the view automatically resizes to the width of its content.
+When you specify only the height perimeter, the view automatically ized to the width of its content.
 
-```swift
+```swiftq
 MapView()
     .frame(height: 300)
 ```
@@ -327,10 +327,14 @@ CircleImage()
 
 Step 5
 
-To layer the image view on top of the map view, give the image an offset of `-130` points vertically, and padding of `-130` points from the bottom of the view.
+To layer the image view on top of the map view, give the image an offset of -130 points vertically, and padding of -130 points from the bottom of the view.
 
 ```swift
 CircleImage()
     .offset(y: -130)
     .padding(.bottom, -130)
 ```
+
+Step 6
+
+Add a spacer at thr bottom of the outer VStack to push the content to the top of the screen
