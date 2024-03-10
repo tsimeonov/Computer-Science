@@ -411,3 +411,7 @@ struct ContentView: View {
 Step 1:
 
 Drag `landmarkData.json` in the downloaded files, Resources folder into your project's navigation pane; in the dialog that appears, select "Copy items if needed" and the Landmarks target, and then click Finish.
+
+Step 2:
+
+Choose File > New > File to create a new Swift file in your project, and name it `Landmark.swift`
