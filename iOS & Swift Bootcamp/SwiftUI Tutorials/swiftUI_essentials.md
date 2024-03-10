@@ -353,3 +353,7 @@ Text("About Turtle Rock")
     .font(.title2)
 Text("Descriptive text goes here....")
 ```
+
+Step 8
+
+Finally, move the subheadline font modifier from each Text view to the HStack containing them, and apply the secindary style to the subhealine text.
