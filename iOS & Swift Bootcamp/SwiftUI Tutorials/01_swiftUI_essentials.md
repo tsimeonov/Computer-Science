@@ -435,3 +435,7 @@ struct Landmark: Hashable, Codable {
 Step 4:
 
 Drag the JPG files from the project files: Resources folder into your project's asset catalog. Xcode creates a new image set for each image.
+
+Step 5:
+
+Add an `imageName` property to read the name of the image from the data, and a computed image property that loads an image from the asset catalog.
