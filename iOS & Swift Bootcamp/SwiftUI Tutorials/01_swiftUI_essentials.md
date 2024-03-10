@@ -419,3 +419,15 @@ Choose File > New > File to create a new Swift file in your project, and name it
 Step 3:
 
 Define a Landmark structure with a few properties matching names of some of the keys in the landmark Data data file.
+
+```swift
+import Foundation
+
+struct Landmark: Hashable, Codable {
+    var id: Int
+    var name: String
+    var park: String
+    var state: String
+    var description: String
+}
+```
