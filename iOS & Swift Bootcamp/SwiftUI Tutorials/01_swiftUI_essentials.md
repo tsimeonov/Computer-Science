@@ -415,3 +415,7 @@ Drag `landmarkData.json` in the downloaded files, Resources folder into your pro
 Step 2:
 
 Choose File > New > File to create a new Swift file in your project, and name it `Landmark.swift`
+
+Step 3:
+
+Define a Landmark structure with a few properties matching names of some of the keys in the landmark Data data file.
