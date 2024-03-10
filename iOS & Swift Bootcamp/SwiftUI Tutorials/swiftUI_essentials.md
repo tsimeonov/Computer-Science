@@ -342,3 +342,7 @@ Add a spacer at thr bottom of the outer VStack to push the content to the top of
 ```swift
 Spacer()
 ```
+
+Step 7
+
+Add a divider and some additional descriptive text for the landmark
