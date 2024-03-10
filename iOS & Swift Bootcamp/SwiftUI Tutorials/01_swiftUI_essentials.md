@@ -450,3 +450,13 @@ var image: Image {
 Step 6:
 
 Add a coordinates property to the structure using a nested Coordinates type that reflects the storage in the JSON data structure
+
+```swift
+private var coordinates: Coordinates
+
+
+struct Coordinates: Hashable, Codable {
+    var latitude: Double
+    var longitude: Double
+}
+```
