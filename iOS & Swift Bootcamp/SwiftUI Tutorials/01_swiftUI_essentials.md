@@ -439,3 +439,10 @@ Drag the JPG files from the project files: Resources folder into your project's 
 Step 5:
 
 Add an `imageName` property to read the name of the image from the data, and a computed image property that loads an image from the asset catalog.
+
+```swift
+private var imageName: String
+var image: Image {
+    Image(imageName)
+}
+```
