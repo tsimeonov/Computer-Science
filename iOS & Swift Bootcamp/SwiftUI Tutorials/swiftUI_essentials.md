@@ -338,3 +338,7 @@ CircleImage()
 Step 6
 
 Add a spacer at thr bottom of the outer VStack to push the content to the top of the screen
+
+```swift
+Spacer()
+```
