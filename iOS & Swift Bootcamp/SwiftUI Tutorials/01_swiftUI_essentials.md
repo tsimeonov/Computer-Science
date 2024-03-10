@@ -403,3 +403,5 @@ struct ContentView: View {
     ContentView()
 }
 ```
+
+## Building lists and navigation
