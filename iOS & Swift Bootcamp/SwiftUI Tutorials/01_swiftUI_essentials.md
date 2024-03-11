@@ -512,3 +512,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
 }
 ```
+
+Step 10:
+
+Create an array of landmarks that you initialize from `landmarData.json`
