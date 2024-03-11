@@ -475,3 +475,7 @@ var locationCoordinate: CLLocationCoordinate2D {
         longitude: coordinates.longitude)
 }
 ```
+
+Step 8
+
+Create a new Swift file in your project and name it Model.Data.swift
