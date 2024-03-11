@@ -464,3 +464,14 @@ struct Coordinates: Hashable, Codable {
 Step 7:
 
 Compute a location Coordinate property that's useful for interacting with the Mapkit framework.
+var
+
+```swift
+import CoreLocation
+
+var locationCoordinate: CLLocationCoordinate2D {
+    CLLocationCoordinate2D(
+        latitude: coordinates.latitude,
+        longitude: coordinates.longitude)
+}
+```
