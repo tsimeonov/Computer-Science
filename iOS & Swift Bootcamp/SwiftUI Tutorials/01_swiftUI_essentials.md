@@ -479,3 +479,7 @@ var locationCoordinate: CLLocationCoordinate2D {
 Step 8
 
 Create a new Swift file in your project and name it Model.Data.swift
+
+Step 9
+
+Create a load(\_:) method that fetches JSON data with a given name from the app;s main bundle.
