@@ -520,3 +520,11 @@ Create an array of landmarks that you initialize from `landmarData.json[]`
 ```swift
 var landmarks: [Landmark] = load("landmarkData.json")
 ```
+
+Step 11:
+
+Put `ContentView`, `CircleImage`, and `MapView` into a `Views` group, landmarkData in a Resources group, and Landmark and ModelData into a Model group.
+
+Tip:
+
+You can create groups of existing items by selecting the items to add to the group, and then choosing File > New > Group from Selection in the Xcode menu.
