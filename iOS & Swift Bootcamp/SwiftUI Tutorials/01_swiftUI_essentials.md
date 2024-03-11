@@ -528,3 +528,5 @@ Put `ContentView`, `CircleImage`, and `MapView` into a `Views` group, landmarkDa
 Tip:
 
 You can create groups of existing items by selecting the items to add to the group, and then choosing File > New > Group from Selection in the Xcode menu.
+
+### Section 2: Create the row view
