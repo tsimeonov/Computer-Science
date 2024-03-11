@@ -460,3 +460,7 @@ struct Coordinates: Hashable, Codable {
     var longitude: Double
 }
 ```
+
+Step 7:
+
+Compute a location Coordinate property that's useful for interacting with the Mapkit framework.
