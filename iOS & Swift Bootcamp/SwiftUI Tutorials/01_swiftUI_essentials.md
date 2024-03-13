@@ -46,7 +46,7 @@ The canvas displays previews in Live mode by default so that you can interact wi
 <img src="./img/section_2_step_1.png" style="border-radius:10px" width="400px"/>
 
 Step 2:
-In the prview, Command-Control-click the greeting to bring up the structured editing popover, and choose "Show SwiftUI Inspector".
+In the prview, `Command-Control-click` the greeting to bring up the structured editing popover, and choose "Show SwiftUI Inspector".
 The popover shows different attributes that you can customize, depanding on the type of view you inspect.
 
 <img src="./img/section_2_step_2.png" style="border-radius:10px" width="400px"/>
@@ -76,7 +76,7 @@ Working in Live mode makes it easy to keep track of view behavior as you make ed
 In this section, you'll use a vertical stack to place the title above a horizontal stack that contains details about the park.
 
 Step 1:
-Control-click the text view's initializer to show a context menu, and then choose "Embed in VStack"
+`Control-click` the text view's initializer to show a context menu, and then choose "Embed in VStack"
 
 Step 2:
 Open the library by clicking the plus button (+) at the top-right of the Xcode window, and then drag a Text view to the place in your code immediately below the "Turtle Rock" text view.
