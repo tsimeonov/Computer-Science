@@ -111,7 +111,7 @@ Edit the VSStack initializer to align the views by their leading edges.
 By default, stacks center their contents along their axis and provide context-appropriate spacing.
 
 ```swift
-VSta§ck (alignment: .leading) {
+VStack (alignment: .leading) {
     Text("Turtle Rock")
     Text("Joshua Tree National Park").font(.subheadline)
 }
@@ -228,7 +228,7 @@ This completes the image view.
 ## Section 5: Use SwiftUI views from other frameworks
 
 Step 1
-Choose File -> New -> File. select iOS as the platform, select the "SwiftUI View" template, and click Nexr. Name the new file MapView.swift and click Create
+Choose File -> New -> File. select iOS as the platform, select the "SwiftUI View" template, and click Next. Name the new file MapView.swift and click Create
 
 Step 2
 
