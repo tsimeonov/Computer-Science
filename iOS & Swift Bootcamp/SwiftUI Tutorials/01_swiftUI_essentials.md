@@ -11,7 +11,7 @@ Step 2:
 In the template selector, select iOS as the platform, select the App template, and then click Next.
 
 Step 3:
-Enter "Landmarks" and use the product name, select "SwiftUI" for the interface and "Swift" for the language, and click NEXT Choose a location to save the Landmarks project on your Mac.
+Enter "Landmarks" and use the product name, select "SwiftUI" for the interface and "Swift" for the language, and click NEXT, choose a location to save the Landmarks project on your Mac.
 
 Step 4:
 In the Project navigator, select `LandmarksApp`.
