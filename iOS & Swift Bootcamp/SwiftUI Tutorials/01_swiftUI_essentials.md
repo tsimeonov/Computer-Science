@@ -530,3 +530,7 @@ Tip:
 You can create groups of existing items by selecting the items to add to the group, and then choosing File > New > Group from Selection in the Xcode menu.
 
 ### Section 2: Create the row view
+
+Step 1
+
+Create a new SwiftUI view in the Views group named `LandmarkRow.swift`
