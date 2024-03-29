@@ -1,7 +1,5 @@
 ## The I am Rich App
 
----
-
 <h5>Let's create a brand new Xcode Project</h5>
 
 ---
