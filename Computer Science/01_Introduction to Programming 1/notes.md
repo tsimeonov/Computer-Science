@@ -5,3 +5,5 @@
 #### Lesson 1.1 Intorduction to p5.js
 
 <h5 style="color: LightBlue">What is programming? What is p5.js</h5>
+
+- Commands are the smallest building blocks of your program.
