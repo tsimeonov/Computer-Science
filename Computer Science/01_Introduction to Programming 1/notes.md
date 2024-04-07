@@ -26,3 +26,10 @@
 - In p5.js we create an area of pixels on a webpage we can draw to:
 - This is called the canvas
 - A canvas needs a width and height in pixels
+
+```js
+createCanvas(500, 400);
+
+// 500 -> Width
+// 400 -> Height
+```
