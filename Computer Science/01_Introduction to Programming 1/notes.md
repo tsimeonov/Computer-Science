@@ -33,3 +33,5 @@ createCanvas(500, 400);
 // 500 -> Width
 // 400 -> Height
 ```
+
+## Week 2
