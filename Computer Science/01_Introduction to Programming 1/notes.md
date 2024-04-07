@@ -20,3 +20,9 @@
 - Computer screens are made up of tiny dots
 - Thse dots are called pixels
 - The pixels are arranged into a grid
+
+---
+
+- In p5.js we create an area of pixels on a webpage we can draw to:
+- This is called the canvas
+- A canvas needs a width and height in pixels
