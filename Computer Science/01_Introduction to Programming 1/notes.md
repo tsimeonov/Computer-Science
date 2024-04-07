@@ -16,3 +16,7 @@
 <h5 style="color: LightBlue">Learn by hacking</h5>
 
 <h5 style="color: LightBlue">2D coordinate system</h5>
+
+- Computer screens are made up of tiny dots
+- Thse dots are called pixels
+- The pixels are arranged into a grid
