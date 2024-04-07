@@ -37,3 +37,5 @@ createCanvas(500, 400);
 ## Week 2
 
 #### Lesson 1.2 Introduction to Sleuth
+
+<h5 style="color: LightBlue">Sleuth case 101</h5>
