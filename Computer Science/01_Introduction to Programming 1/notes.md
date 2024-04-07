@@ -12,3 +12,5 @@
 - A library is a collection of code written by someone else that we can use in our programs, By using a library, we avoid something programmers like to call reinventing the wheel.
 
 <h5 style="color: LightBlue">Running your first program with Brackets</h5>
+
+<h5 style="color: LightBlue">Learn by hacking</h5>
