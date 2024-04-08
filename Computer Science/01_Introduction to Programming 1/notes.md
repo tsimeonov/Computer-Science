@@ -49,3 +49,5 @@ createCanvas(500, 400);
 <h5 style="color: LightBlue">How you will be assessed</h5>
 
 ## Week 3
+
+### Lesson 2.0 Drawing in 2D
