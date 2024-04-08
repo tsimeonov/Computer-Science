@@ -39,3 +39,5 @@ createCanvas(500, 400);
 #### Lesson 1.2 Introduction to Sleuth
 
 <h5 style="color: LightBlue">Sleuth case 101</h5>
+
+#### Lesson 1.3 Code Philosophy
