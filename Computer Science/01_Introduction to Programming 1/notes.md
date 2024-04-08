@@ -51,3 +51,5 @@ createCanvas(500, 400);
 ## Week 3
 
 ### Lesson 2.0 Drawing in 2D
+
+#### Lesson 2.1 Drawing functions
