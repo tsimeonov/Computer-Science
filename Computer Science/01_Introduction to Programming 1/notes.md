@@ -47,3 +47,5 @@ createCanvas(500, 400);
 #### Lesson 1.4 About you assesments
 
 <h5 style="color: LightBlue">How you will be assessed</h5>
+
+## Week 3
