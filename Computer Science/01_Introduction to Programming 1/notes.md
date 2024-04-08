@@ -53,3 +53,5 @@ createCanvas(500, 400);
 ### Lesson 2.0 Drawing in 2D
 
 #### Lesson 2.1 Drawing functions
+
+<h5 style="color: LightBlue">RGB colours</h5>
