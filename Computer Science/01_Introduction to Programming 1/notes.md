@@ -42,7 +42,7 @@ createCanvas(500, 400);
 
 #### Lesson 1.3 Code Philosophy
 
-<h5 style="color: LightBlue">Code philosophy: What ut feels like to code</h5>
+<h5 style="color: LightBlue">Code philosophy: What it feels like to code</h5>
 
 #### Lesson 1.4 About you assesments
 
