@@ -63,3 +63,9 @@ Fill example:
 ```js
 fill(0, 0, 255); // Change the fill color of an object
 ```
+
+noFill example:
+
+```js
+nofill(); //  noFill takes no arguments
+```
