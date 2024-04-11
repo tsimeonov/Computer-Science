@@ -84,3 +84,10 @@ The `setup()` fuction is called at the start of the programe.
 When `setup()` is being completed, `draw()` is then called repeatedly once every frame.
 
 <h5 style="color: LightBlue">Elipse, rect, line triangle and pont</h5>
+
+Elipse:
+
+```js
+// ellipse(x, y, width, height);
+ellipse(150, 400, 100, 100); // a circle
+```
