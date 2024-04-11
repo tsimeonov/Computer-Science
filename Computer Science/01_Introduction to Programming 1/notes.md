@@ -99,3 +99,10 @@ Line:
 line(50, 250, 450, 250); // shows as a horizontal line
 line(250, 50, 250, 450); // shows as a vertical line
 ```
+
+Triangle:
+
+```js
+// triangle(x1, y1, x2, y2, x3, y3);
+triangle(400, 350, 300, 450, 500, 450);
+```
