@@ -57,3 +57,9 @@ createCanvas(500, 400);
 <h5 style="color: LightBlue">RGB colours</h5>
 
 <h5 style="color: LightBlue">Fill, stroke, noFill</h5>
+
+Fill example:
+
+```js
+fill(0, 0, 255); // Change the fill color of an object
+```
