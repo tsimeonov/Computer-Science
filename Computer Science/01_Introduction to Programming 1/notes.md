@@ -75,3 +75,5 @@ Opacity example:
 ```js
 fill(255, 0, 0, 100); // Change the transpancy
 ```
+
+<h5 style="color: LightBlue">Setup, draw and programme flow</h5>
