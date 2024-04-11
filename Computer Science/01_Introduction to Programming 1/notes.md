@@ -91,3 +91,11 @@ Elipse:
 // ellipse(x, y, width, height);
 ellipse(150, 400, 100, 100); // a circle
 ```
+
+Line:
+
+```js
+// line(x1, y1, x2, y2);
+line(50, 250, 450, 250); // shows as a horizontal line
+line(250, 50, 250, 450); // shows as a vertical line
+```
