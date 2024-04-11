@@ -55,3 +55,5 @@ createCanvas(500, 400);
 #### Lesson 2.1 Drawing functions
 
 <h5 style="color: LightBlue">RGB colours</h5>
+
+<h5 style="color: LightBlue">Fill, stroke, noFill</h5>
