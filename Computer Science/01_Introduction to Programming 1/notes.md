@@ -76,4 +76,9 @@ Opacity example:
 fill(255, 0, 0, 100); // Change the transpancy
 ```
 
-<h5 style="color: LightBlue">Setup, draw and programme flow</h5>
+<h5 style="color: LightBlue">Setup, draw and programe flow</h5>
+
+Programm flow:
+
+The `setup()` fuction is called at the start of the programe.
+When `setup()` is being completed, `draw()` is then called repeatedly once every frame.
