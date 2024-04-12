@@ -111,3 +111,5 @@ triangle(400, 350, 300, 450, 500, 450);
 
 - `beginShape()` and `endShape()` functions allow creating more complex forms.
 - `vertex()` - all shapes are constructed by connecting a series of vertices. `vertex()` is used to specify the vertex coordinates for points, lines, triangles, quads and polygons. It is exclusively within the `beginShape()` and `endShape()` functions.
+
+#### Lesson 2.2 The console and debuffing
