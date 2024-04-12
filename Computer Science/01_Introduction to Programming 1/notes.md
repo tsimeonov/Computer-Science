@@ -106,3 +106,5 @@ Triangle:
 // triangle(x1, y1, x2, y2, x3, y3);
 triangle(400, 350, 300, 450, 500, 450);
 ```
+
+<h5 style="color: LightBlue">Teach it to yorself</h5>
