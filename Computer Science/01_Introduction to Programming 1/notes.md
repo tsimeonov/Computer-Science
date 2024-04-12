@@ -108,3 +108,5 @@ triangle(400, 350, 300, 450, 500, 450);
 ```
 
 <h5 style="color: LightBlue">Teach it to yorself</h5>
+
+- `beginShape()` and `endShape()` functions allow creating more complex forms.
