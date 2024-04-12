@@ -114,4 +114,4 @@ triangle(400, 350, 300, 450, 500, 450);
 
 #### Lesson 2.2 The console and debuffing
 
-<h5 style="color: LightBlue">How to access and use the console to new errors</h5>
+<h5 style="color: LightBlue">How to access and use the console to view errors</h5>
