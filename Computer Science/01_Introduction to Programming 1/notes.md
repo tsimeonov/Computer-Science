@@ -113,3 +113,5 @@ triangle(400, 350, 300, 450, 500, 450);
 - `vertex()` - all shapes are constructed by connecting a series of vertices. `vertex()` is used to specify the vertex coordinates for points, lines, triangles, quads and polygons. It is exclusively within the `beginShape()` and `endShape()` functions.
 
 #### Lesson 2.2 The console and debuffing
+
+<h5 style="color: LightBlue">How to access and use the console to new errors</h5>
