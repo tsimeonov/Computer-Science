@@ -128,3 +128,5 @@ Tips for asking a good question:
 
 - Keep the questions short, concise and focused on the problem.
 - Include what changes you had made just before the error occurred.
+
+#### Lesson 2.4 Introducing the game project
