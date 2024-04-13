@@ -141,3 +141,14 @@ ellipse(200, 150, 80, 80);
 ellipse(160, 150, 60, 60);
 ellipse(240, 150, 60, 60);
 ```
+
+Drawing a tree:
+
+```js
+fill(120, 100, 40);
+rect(900, 282, 60, 150); // tree trunk
+//branches
+fill(0, 155, 0);
+triangle(850, 332, 930, 232, 1010, 332);
+triangle(850, 282, 930, 182, 1010, 282);
+```
