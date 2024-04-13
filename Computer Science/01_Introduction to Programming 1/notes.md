@@ -117,3 +117,5 @@ triangle(400, 350, 300, 450, 500, 450);
 <h5 style="color: LightBlue">How to access and use the console to view errors</h5>
 
 <h5 style="color: LightBlue">Debugging syntax errors</h5>
+
+## Week 4
