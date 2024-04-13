@@ -130,3 +130,5 @@ Tips for asking a good question:
 - Include what changes you had made just before the error occurred.
 
 #### Lesson 2.4 Introducing the game project
+
+<h5 style="color: LightBlue">Game project part 1. Background scenery: basic drawing functions</h5>
