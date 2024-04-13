@@ -123,3 +123,8 @@ triangle(400, 350, 300, 450, 500, 450);
 #### Lesson 2.3 Asking for help
 
 <h5 style="color: LightBlue">Code philosophy: Asking for help</h5>
+
+Tips for asking a good question:
+
+- Keep the questions short, concise and focused on the problem.
+- Include what changes you had made just before the error occurred.
