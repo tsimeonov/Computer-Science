@@ -119,3 +119,5 @@ triangle(400, 350, 300, 450, 500, 450);
 <h5 style="color: LightBlue">Debugging syntax errors</h5>
 
 ## Week 4
+
+#### Lesson 2.3 Asking for help
