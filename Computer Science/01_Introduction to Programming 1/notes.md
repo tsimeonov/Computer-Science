@@ -132,3 +132,12 @@ Tips for asking a good question:
 #### Lesson 2.4 Introducing the game project
 
 <h5 style="color: LightBlue">Game project part 1. Background scenery: basic drawing functions</h5>
+
+Drawing a cloud:
+
+```js
+fill(255, 255, 255); // white cloud
+ellipse(200, 150, 80, 80);
+ellipse(160, 150, 60, 60);
+ellipse(240, 150, 60, 60);
+```
