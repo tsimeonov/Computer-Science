@@ -121,3 +121,5 @@ triangle(400, 350, 300, 450, 500, 450);
 ## Week 4
 
 #### Lesson 2.3 Asking for help
+
+<h5 style="color: LightBlue">Code philosophy: Asking for help</h5>
