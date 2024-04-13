@@ -23,53 +23,61 @@ WARNING: Do not get too carried away. If you're shape takes more than 15 lines o
 
 */
 
-function setup()
-{
-	createCanvas(1024, 576);
+function setup() {
+  createCanvas(1024, 576);
 }
 
-function draw()
-{
-	background(100, 155, 255); //fill the sky blue
+function draw() {
+  background(100, 155, 255); //fill the sky blue
 
-	noStroke();
-	fill(0,155,0);
-	rect(0, 432, 1024, 144); //draw some green ground
+  noStroke();
+  fill(0, 155, 0);
+  rect(0, 432, 1024, 144); //draw some green ground
 
-	//1. a cloud in the sky
-	//... add your code here
+  //1. a cloud in the sky
+  //... add your code here
+  fill(255, 255, 255); // white cloud
+  ellipse(200, 150, 80, 80);
+  ellipse(160, 150, 60, 60);
+  ellipse(240, 150, 60, 60);
 
-	noStroke();
-	fill(255);
-	text("cloud", 200, 100);
+  noStroke();
+  fill(255);
+  text("cloud", 200, 100);
 
-	//2. a mountain in the distance
-	//... add your code here
+  //2. a mountain in the distance
+  //... add your code here
 
-	noStroke();
-	fill(255);
-	text("mountain", 500, 256);
+  noStroke();
+  fill(255);
+  text("mountain", 500, 256);
 
-	//3. a tree
-	//... add your code here
+  //3. a tree
+  //... add your code here
+  fill(120, 100, 40);
+  rect(900, 282, 60, 150); // tree trunk
+  //branches
+  fill(0, 155, 0);
+  triangle(850, 332, 930, 232, 1010, 332);
+  triangle(850, 282, 930, 182, 1010, 282);
 
-	noStroke();
-	fill(255);
-	text("tree", 800, 346);
+  noStroke();
+  fill(255);
+  text("tree", 800, 346);
 
-	//4. a canyon
-	//NB. the canyon should go from ground-level to the bottom of the screen
+  //4. a canyon
+  //NB. the canyon should go from ground-level to the bottom of the screen
 
-	//... add your code here
+  //... add your code here
 
-	noStroke();
-	fill(255);
-	text("canyon", 100, 480);
+  noStroke();
+  fill(255);
+  text("canyon", 100, 480);
 
-	//5. a collectable token - eg. a jewel, fruit, coins
-	//... add your code here
+  //5. a collectable token - eg. a jewel, fruit, coins
+  //... add your code here
 
-	noStroke();
-	fill(255);
-	text("collectable item", 400, 400);
+  noStroke();
+  fill(255);
+  text("collectable item", 400, 400);
 }

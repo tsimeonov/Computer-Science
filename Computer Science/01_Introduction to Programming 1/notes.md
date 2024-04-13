@@ -152,3 +152,5 @@ fill(0, 155, 0);
 triangle(850, 332, 930, 232, 1010, 332);
 triangle(850, 282, 930, 182, 1010, 282);
 ```
+
+#### Lesson 2.5 Continuing with Sleuth
