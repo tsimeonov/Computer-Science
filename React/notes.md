@@ -17,3 +17,5 @@ React is a JS library for building user interfaces.
 - Browser = Chrome
 - Text Editor = Visual studio code
 - React Developer Tools
+
+## 3. Terminal
