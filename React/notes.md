@@ -44,3 +44,5 @@ React is a JS library for building user interfaces.
 
 - `Babel` - is a transcompiler that is mainly used to convert newer JS code into backwards-compatible JS code that can run by older JS engines.
 - `Webpack` - Webpakc takes modules with dependencies and generates static assets representing those modules.
+
+## 6. Install Create-react-app
