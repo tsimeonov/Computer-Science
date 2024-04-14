@@ -29,3 +29,5 @@ React is a JS library for building user interfaces.
 - Arrow key up /down - previous commands
 
 ## 4. NPM
+
+- NPM INIT - creates oackage.json (manifest) file, list dependencies
