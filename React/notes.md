@@ -19,3 +19,11 @@ React is a JS library for building user interfaces.
 - React Developer Tools
 
 ## 3. Terminal
+
+- PWD - Full pathname to current working directory
+- LS - list of directories
+- MKDIR - Create a Directory/folder
+- CD - Change directory
+- CD .. - Navigate to Parent / One level up
+- Clear - clear console
+- Arrow key up /down - previous commands
