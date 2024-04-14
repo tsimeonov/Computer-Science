@@ -11,3 +11,9 @@ React is a JS library for building user interfaces.
 - Speed
 
 ## Dev Environment
+
+- Node
+- node --version, minimum 5.2.0
+- Browser = Chrome
+- Text Editor = Visual studio code
+- React Developer Tools
