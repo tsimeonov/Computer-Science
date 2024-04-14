@@ -27,3 +27,5 @@ React is a JS library for building user interfaces.
 - CD .. - Navigate to Parent / One level up
 - Clear - clear console
 - Arrow key up /down - previous commands
+
+## 4. NPM
