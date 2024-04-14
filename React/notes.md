@@ -10,7 +10,7 @@ React is a JS library for building user interfaces.
 - Reusability
 - Speed
 
-## Dev Environment
+## 2. Dev Environment
 
 - Node
 - node --version, minimum 5.2.0
