@@ -37,3 +37,5 @@ React is a JS library for building user interfaces.
   Install package globally (access anywhere) SUDO
 - NPM INSTALL `<package name>` --save-dev
   Use it only in development
+
+## 5. Create React app
