@@ -35,3 +35,5 @@ React is a JS library for building user interfaces.
   Install package locally (default) and add to package.json
 - NPM INSTALL `<package name>` -g
   Install package globally (access anywhere) SUDO
+- NPM INSTALL `<package name>` --save-dev
+  Use it only in development
