@@ -39,3 +39,5 @@ React is a JS library for building user interfaces.
   Use it only in development
 
 ## 5. Create React app
+
+- Babel - is a transcompiler that is mainly used to convert newer JS code into backwards-compatible JS code that can run by older JS engines.
