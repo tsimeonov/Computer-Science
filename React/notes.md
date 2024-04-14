@@ -46,3 +46,11 @@ React is a JS library for building user interfaces.
 - `Webpack` - Webpakc takes modules with dependencies and generates static assets representing those modules.
 
 ## 6. Install Create-react-app
+
+Quick Overview
+
+```js
+npx create-react-app my-app
+cd my-app
+npm start
+```
