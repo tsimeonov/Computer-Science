@@ -31,3 +31,5 @@ React is a JS library for building user interfaces.
 ## 4. NPM
 
 - NPM INIT - creates oackage.json (manifest) file, list dependencies
+- NPM INSTALL `<package name>` -- save
+  Install package locally (default) and add to package.json
