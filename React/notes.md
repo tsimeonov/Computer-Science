@@ -54,3 +54,5 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
+
+## 7. Folder structure
