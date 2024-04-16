@@ -73,7 +73,7 @@ nofill(); //  noFill takes no arguments
 Opacity example:
 
 ```js
-fill(255, 0, 0, 100); // Change the transpancy
+fill(255, 0, 0, 100); // Change the transparancy
 ```
 
 <h5 style="color: LightBlue">Setup, draw and programe flow</h5>
