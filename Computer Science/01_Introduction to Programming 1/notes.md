@@ -76,7 +76,7 @@ Opacity example:
 fill(255, 0, 0, 100); // Change the transparancy
 ```
 
-<h5 style="color: LightBlue">Setup, draw and programe flow</h5>
+<h5 style="color: LightBlue">Setup, draw and program flow</h5>
 
 Program flow:
 
