@@ -160,3 +160,5 @@ triangle(850, 282, 930, 182, 1010, 282);
 ### Topic 3: Variables, objects and interaction
 
 #### Lesson 3.1 Interaction with built in variables and events
+
+<h5 style="color: LightBlue">Built-in variables: mouse X, mouseY</h5>
