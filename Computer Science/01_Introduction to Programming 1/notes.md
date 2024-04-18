@@ -164,5 +164,9 @@ triangle(850, 282, 930, 182, 1010, 282);
 <h5 style="color: LightBlue">Built-in variables: mouse X, mouseY</h5>
 
 ```js
-// mouseX --> The system variable mouseX always contains the current horizontal position of the mouse, relative to (0, 0) of the canvas.
+// mouseX --> The system variable mouseX always contains the current
+// horizontal position of the mouse, relative to (0, 0) of the canvas.
+
+// mouseY --> The system variable mouseY always contains the current
+// vertical position of the mouse, relative to (0, 0) of the canvas.
 ```
