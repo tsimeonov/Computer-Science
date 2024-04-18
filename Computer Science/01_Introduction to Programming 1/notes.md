@@ -172,3 +172,11 @@ triangle(850, 282, 930, 182, 1010, 282);
 ```
 
 <h5 style="color: LightBlue">Built-in events: mousePressed, keyPressed</h5>
+
+```js
+// Calls a function when the mouse is pressed over the element.
+
+function mousePressed() {
+  fill(255, 0, 0);
+}
+```
