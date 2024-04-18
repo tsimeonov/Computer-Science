@@ -177,6 +177,16 @@ triangle(850, 282, 930, 182, 1010, 282);
 // Calls a function when the mouse is pressed over the element.
 
 function mousePressed() {
+  // change the color to red
   fill(255, 0, 0);
+}
+```
+
+```js
+// The keyPressed() function is called once every time a key is pressed.
+
+function keyPressed() {
+  // change the color to yellow
+  fill(255, 255, 0);
 }
 ```
