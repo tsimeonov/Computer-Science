@@ -170,3 +170,5 @@ triangle(850, 282, 930, 182, 1010, 282);
 // mouseY --> The system variable mouseY always contains the current
 // vertical position of the mouse, relative to (0, 0) of the canvas.
 ```
+
+<h5 style="color: LightBlue">Built-in events: mousePressed, keyPressed</h5>
