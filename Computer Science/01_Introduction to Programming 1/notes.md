@@ -200,3 +200,9 @@ function keyPressed() {
 ```js
 var treePos_X;
 ```
+
+- Initialize a variable
+
+```js
+treePos_X = 156;
+```
