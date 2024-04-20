@@ -198,11 +198,11 @@ function keyPressed() {
 - Declaring a variable:
 
 ```js
-var treePos_X;
+var treePos_x;
 ```
 
 - Initialize a variable
 
 ```js
-treePos_X = 156;
+treePos_x = 156;
 ```
