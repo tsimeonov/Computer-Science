@@ -210,3 +210,4 @@ treePos_x = 156;
 <h5 style="color: LightBlue">12 top tips for naming variables</h5>
 
 1. Avoid `keywords`
+2. Avoid weird symbolss
