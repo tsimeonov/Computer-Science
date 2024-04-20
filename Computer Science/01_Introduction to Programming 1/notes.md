@@ -227,3 +227,10 @@ var yPos;
 var x_pos;
 var y_pos;
 ```
+
+7. Combine both methods
+
+```js
+var ballPos_x;
+var ballPos_y;
+```
