@@ -192,3 +192,5 @@ function keyPressed() {
 ```
 
 #### Lesson 3.2 User defined variables and objects
+
+<h5 style="color: LightBlue">Create your own variables: var, initialising and assigning</h5>
