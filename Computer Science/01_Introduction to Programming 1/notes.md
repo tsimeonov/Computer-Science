@@ -214,3 +214,9 @@ treePos_x = 156;
 3. Avoid long varialbe names
 4. Avoid joke names
 5. Avoid abstract names
+6. Use camelCasing
+
+```js
+var xPos;
+var yPos;
+```
