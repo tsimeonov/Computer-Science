@@ -228,9 +228,11 @@ var x_pos;
 var y_pos;
 ```
 
-7. Combine both methods
+8. Combine both methods
 
 ```js
 var ballPos_x;
 var ballPos_y;
 ```
+
+9. Be consistent
