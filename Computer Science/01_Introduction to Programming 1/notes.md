@@ -238,3 +238,4 @@ var ballPos_y;
 9. Be consistent
 
 10. When using a varialbe to describe a variable, replace them with an object.
+11. Adapt your variables
