@@ -190,3 +190,5 @@ function keyPressed() {
   fill(255, 255, 0);
 }
 ```
+
+#### Lesson 3.2 User defined variables and objects
