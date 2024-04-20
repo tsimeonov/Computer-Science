@@ -220,3 +220,10 @@ treePos_x = 156;
 var xPos;
 var yPos;
 ```
+
+7. Use underscoring
+
+```js
+var x_pos;
+var y_pos;
+```
