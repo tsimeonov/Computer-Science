@@ -71,4 +71,6 @@ In the `src` folder, remore the following files:
 - `serviceWorker.js`
 - `setupTests.js`
 
-Leave only `index.js`
+Leave only `index.js`, but remove all the content from it.
+
+## 9. First compoponent
