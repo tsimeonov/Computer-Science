@@ -74,3 +74,14 @@ In the `src` folder, remore the following files:
 Leave only `index.js`, but remove all the content from it.
 
 ## 9. First compoponent
+
+```js
+import React from "react";
+import ReactDom from "react-dom";
+
+function Greeting() {
+  return <h4>This is my first component</h4>;
+}
+
+ReactDom.render(<Greeting />, document.getElementById("root"));
+```
