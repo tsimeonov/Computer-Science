@@ -240,3 +240,5 @@ var ballPos_y;
 10. When using a varialbe to describe a variable, replace them with an object.
 11. Adapt your variables
 12. Use find and replace
+
+<h5 style="color: LightBlue">Objects</h5>
