@@ -242,3 +242,8 @@ var ballPos_y;
 12. Use find and replace
 
 <h5 style="color: LightBlue">Objects</h5>
+
+```js
+// Declare an object
+var tree;
+```
