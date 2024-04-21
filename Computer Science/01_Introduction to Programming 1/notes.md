@@ -246,4 +246,7 @@ var ballPos_y;
 ```js
 // Declare an object
 var tree;
+
+// Initialize an object
+tree = { pos_x: 256, trunkHeight: 100, radius: 120, trunkWidht: 40 };
 ```
