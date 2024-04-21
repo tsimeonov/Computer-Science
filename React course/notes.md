@@ -85,3 +85,5 @@ function Greeting() {
 
 ReactDom.render(<Greeting />, document.getElementById("root"));
 ```
+
+## 10. Text Editor Setup
