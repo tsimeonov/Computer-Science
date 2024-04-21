@@ -70,3 +70,5 @@ In the `src` folder, remore the following files:
 - `logo.svg`
 - `serviceWorker.js`
 - `setupTests.js`
+
+Leave only `index.js`
