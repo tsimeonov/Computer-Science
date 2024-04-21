@@ -58,3 +58,5 @@ npm start
 ## 7. Folder structure
 
 If the `node_modules` are removed or deleted, you can run `npm install` to bring the `node_modules` folder back.
+
+## 8. Clean Boilerplate
