@@ -60,3 +60,13 @@ npm start
 If the `node_modules` are removed or deleted, you can run `npm install` to bring the `node_modules` folder back.
 
 ## 8. Clean Boilerplate
+
+In the `src` folder, remore the following files:
+
+- `App.css`
+- `App.js`
+- `App.test.js`
+- `index.css`
+- `logo.svg`
+- `serviceWorker.js`
+- `setupTests.js`
