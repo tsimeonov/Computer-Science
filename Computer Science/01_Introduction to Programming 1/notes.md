@@ -281,3 +281,5 @@ let x = map(mouseX, 0, 100, 0, 50);
 ```
 
 The `constrain()`, constrains a number between a minimum and maximim value.
+
+#### Lesson 3.3 Working with variables
