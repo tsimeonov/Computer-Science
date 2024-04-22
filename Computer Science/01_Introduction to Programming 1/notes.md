@@ -256,3 +256,11 @@ tree = { pos_x: 256, trunkHeight: 100, radius: 120, trunkWidht: 40 };
 <h5 style="color: LightBlue">Mathematical functions: random, min, max</h5>
 
 The version of `random()` with no parameters returns a random number from 0 up to but not including 1.
+
+The `min()` returns the smallest value in a sequence of numbers.
+
+```js
+// Calculate the minimum of 10,5, and 20.
+let m = min(10, 5, 20);
+// It returns 5
+```
