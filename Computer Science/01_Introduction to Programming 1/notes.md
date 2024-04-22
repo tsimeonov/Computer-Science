@@ -272,3 +272,10 @@ The `max()` returns the largest value in a sequence of numbers.
 let m = max(10, 5, 20);
 // It returns 20
 ```
+
+The `map()` re-maps a number from one range to another.
+
+```js
+// Remap mouseX from [0,100] to [0,50]
+let x = map(mouseX, 0, 100, 0, 50);
+```
