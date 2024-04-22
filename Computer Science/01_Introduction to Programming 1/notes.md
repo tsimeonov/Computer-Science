@@ -279,3 +279,5 @@ The `map()` re-maps a number from one range to another.
 // Remap mouseX from [0,100] to [0,50]
 let x = map(mouseX, 0, 100, 0, 50);
 ```
+
+The `constrain()`, constrains a number between a minimum and maximim value.
