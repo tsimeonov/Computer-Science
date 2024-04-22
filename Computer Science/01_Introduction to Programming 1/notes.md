@@ -264,3 +264,11 @@ The `min()` returns the smallest value in a sequence of numbers.
 let m = min(10, 5, 20);
 // It returns 5
 ```
+
+The `max()` returns the largest value in a sequence of numbers.
+
+```js
+// Calculate the maximum of 10,5, and 20.
+let m = max(10, 5, 20);
+// It returns 20
+```
