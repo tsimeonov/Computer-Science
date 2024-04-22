@@ -253,4 +253,4 @@ tree = { pos_x: 256, trunkHeight: 100, radius: 120, trunkWidht: 40 };
 
 <h5 style="color: LightBlue">Working with operators</h5>
 
-<h5 style="color: LightBlue">Mathematical functions: randow, min, max</h5>
+<h5 style="color: LightBlue">Mathematical functions: random, min, max</h5>
