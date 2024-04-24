@@ -81,7 +81,7 @@ fill(255, 0, 0, 100); // Change the transparancy
 Program flow:
 
 The `setup()` fuction is called at the start of the program.
-When `setup()` is being completed, `draw()` is then called repeatedly once every frame.
+When `setup()` is done, `draw()` is then called repeatedly once every frame.
 
 <h5 style="color: LightBlue">Elipse, rect, line, triangle and point</h5>
 
