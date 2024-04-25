@@ -287,3 +287,5 @@ The `constrain()`, constrains a number between a minimum and maximim value.
 <h5 style="color: LightBlue">Inspecting variables in the console</h5>
 
 ## Week 6
+
+### Topic 3: Variables, objects and interactions (cont.)
