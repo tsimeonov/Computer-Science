@@ -291,3 +291,5 @@ The `constrain()`, constrains a number between a minimum and maximim value.
 ### Topic 3: Variables, objects and interactions (cont.)
 
 #### Lesson 3.4 Code Philosophy: The elegant coder
+
+<h5 style="color: LightBlue">Code philosophy: the elegant coder</h5>
