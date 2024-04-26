@@ -1,21 +1,31 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-function Greeting() {
+function BookList() {
   return (
-    <div>
-      <Person />
-      <Message />
-    </div>
+    <section>
+      <Book />
+    </section>
   );
 }
 
-// Implicit return
-const Person = () => <h1>Jon Doe</h1>;
-
-// Explicit return
-const Message = () => {
-  return <p>This is my message</p>;
+const Book = () => {
+  return (
+    <article>
+      <Image />
+      <Title />
+      <Author />
+    </article>
+  );
 };
 
-ReactDom.render(<Greeting />, document.getElementById("root"));
+const Image = () => (
+  <img
+    src="https://m.media-amazon.com/images/I/71I3CatXc8L._AC._SR360,460.jpg"
+    alt=""
+  />
+);
+
+const Title = () => <h1>Butter: The Cult new Japanese Bestselling Novel</h1>;
+const Author = () => <h4>Asako Yuzuki </h4>;
+ReactDom.render(<BookList />, document.getElementById("root"));
