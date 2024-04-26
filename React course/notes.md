@@ -99,3 +99,16 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 5. Close every element
 
 ## 13. Nested Components and Tools
+
+An example without nesting
+
+```js
+function Greeting() {
+  return (
+    <div>
+      <h1>Jon Doe</h1>
+      <p>This is my message</p>
+    </div>
+  );
+}
+```
