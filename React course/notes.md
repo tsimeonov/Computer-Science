@@ -96,3 +96,4 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 2. Use the following attributes `div`, `section`, `article` or `Fragment`
 3. Use camelCase for html attributes
 4. Use `className` instead of `class`
+5. Close every element
