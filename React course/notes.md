@@ -91,3 +91,5 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 ## 11. First component in detail
 
 ## 12. JSX Rules
+
+1. Return a single element
