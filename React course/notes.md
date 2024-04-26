@@ -102,7 +102,10 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 
 An example without nesting
 
-```js
+<details>
+  <summary>Without Nested components</summary>
+
+```javascript
 function Greeting() {
   return (
     <div>
@@ -112,6 +115,10 @@ function Greeting() {
   );
 }
 ```
+
+</details>
+
+---
 
 An example with Nested component
 
@@ -143,3 +150,5 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 ```
 
 </details>
+
+## 14. Mini Book Project
