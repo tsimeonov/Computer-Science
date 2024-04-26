@@ -89,3 +89,5 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 ## 10. Text Editor Setup
 
 ## 11. First component in detail
+
+## 12. JSX Rules
