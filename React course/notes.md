@@ -93,3 +93,4 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 ## 12. JSX Rules
 
 1. Return a single element
+2. Use the following elements`div`, `section`, `article` or `Fragment`
