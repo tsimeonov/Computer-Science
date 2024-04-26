@@ -97,3 +97,5 @@ ReactDom.render(<Greeting />, document.getElementById("root"));
 3. Use camelCase for html attributes
 4. Use `className` instead of `class`
 5. Close every element
+
+## 13. Nested Components and Tools
