@@ -194,7 +194,7 @@ ReactDom.render(<BookList />, document.getElementById("root"));
 
 ## 15. CSS Basics
 
-Add a new file `index.css` in the src folder.
+- Add a new file `index.css` in the src folder.
 
 ```css
 /* Codein the index.css file */
@@ -209,4 +209,10 @@ body {
   background: #f1f5f8;
   color: #222;
 }
+```
+
+- Import the css file into the `index.js` file
+
+```js
+import "./index.css";
 ```
