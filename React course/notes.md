@@ -193,3 +193,20 @@ ReactDom.render(<BookList />, document.getElementById("root"));
 </details>
 
 ## 15. CSS Basics
+
+Add a new file `index.css` in the src folder.
+
+```css
+/* Codein the index.css file */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #f1f5f8;
+  color: #222;
+}
+```
