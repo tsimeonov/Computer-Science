@@ -287,3 +287,5 @@ const Author = () => (
   </h4>
 );
 ```
+
+## 16. JSX Javascript
