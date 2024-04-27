@@ -6,7 +6,10 @@ import "./index.css";
 
 function BookList() {
   return (
-    <section>
+    <section className="booklist">
+      <Book />
+      <Book />
+      <Book />
       <Book />
     </section>
   );
