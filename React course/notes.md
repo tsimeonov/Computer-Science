@@ -277,3 +277,13 @@ ReactDom.render(<BookList />, document.getElementById("root"));
 </details>
 
 ## 16. JSX CSS
+
+Adding CSS into the `index.js` file directly
+
+```js
+const Author = () => (
+  <h4 style={{ color: "#617d89", fontSize: "0.75rem", marginTop: "0.25rem" }}>
+    Asako Yuzuki{" "}
+  </h4>
+);
+```
