@@ -325,3 +325,71 @@ ReactDom.render(<BookList />, document.getElementById("root"));
 ```
 
 </details>
+
+<details>
+  <summary>Updating the index.css file</summary>
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #f1f5f8;
+  color: #222;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.book {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.book h1 {
+  margin-top: 0.5rem;
+}
+
+.book h4 {
+  color: #617d98;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+```
+
+</details>
+
+Updating the `index.js` file.
+
+```js
+const Book = () => {
+  const title = "Butter: The Cult new Japanese Bestselling Novel";
+  const author = "Asako Yuzuki";
+  return (
+    <article className="book">
+      <img
+        src="https://m.media-amazon.com/images/I/71I3CatXc8L._AC._SR360,460.jpg"
+        alt=""
+      />
+      <h1>{title}</h1>
+      <h4>{author}</h4>
+    </article>
+  );
+};
+```
