@@ -357,3 +357,13 @@ triangle(
   treePos_y
 );
 ```
+
+Th code for Step 4: Add the canyon
+
+```js
+canyon = { x_pos: 0, width: 100 };
+
+// Canyon
+fill(230, 170, 20);
+rect(canyon.x_pos + canyon.width, 430, 80, 150);
+```
