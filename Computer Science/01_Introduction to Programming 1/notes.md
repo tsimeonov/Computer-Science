@@ -321,3 +321,12 @@ rect(gameChar_x + 5, gameChar_y - 5, 10, 10);
 ```
 
 <h5 style="color: LightBlue">Game project 2b: using variables</h5>
+
+The code for step 2: Movable character
+
+```js
+function mousePressed() {
+  gameChar_x = mouseX;
+  gameChar_y = mouseY;
+}
+```
