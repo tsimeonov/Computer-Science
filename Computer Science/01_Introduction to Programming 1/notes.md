@@ -302,3 +302,18 @@ The `constrain()`, constrains a number between a minimum and maximim value.
 #### Lesson 3.5 Game project 2: Game character
 
 <h5 style="color: LightBlue">Game project 2a: Game character</h5>
+
+The code for the character standing, facing forwards
+
+```js
+fill(0);
+ellipse(gameChar_x, gameChar_y, 5, 5);
+
+// The head
+fill(200, 150, 150);
+ellipse(gameChar_x, gameChar_y - 50, 35);
+
+// The body
+fill(255, 0, 0);
+rect(gameChar_x - 13, gameChar_y - 35, 26, 30);
+```
