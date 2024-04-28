@@ -14,7 +14,11 @@ const firstBook = {
 function BookList() {
   return (
     <section className="booklist">
-      <Book />
+      <Book
+        img={firstBook.img}
+        title={firstBook.title}
+        author={firstBook.author}
+      />
     </section>
   );
 }
@@ -23,9 +27,9 @@ const Book = (props) => {
   console.log(props);
   return (
     <article className="book">
-      <img src={image} alt="" />
-      <h1>{title}</h1>
-      <h4>{author}</h4>
+      <img src={props.img} alt="" />
+      <h1>{props.title}</h1>
+      <h4>{props.author}</h4>
     </article>
   );
 };
