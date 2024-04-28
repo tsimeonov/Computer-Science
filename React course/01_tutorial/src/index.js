@@ -5,10 +5,11 @@ import ReactDom from "react-dom";
 import "./index.css";
 
 // Setup Variabled
-const author = "Asako Yuzuki";
-const title = "Butter: The Cult new Japanese Bestselling Novel";
-const image =
-  "https://m.media-amazon.com/images/I/71I3CatXc8L._AC._SR360,460.jpg";
+const firstBook = {
+  img: "https://m.media-amazon.com/images/I/71I3CatXc8L._AC._SR360,460.jpg",
+  title: "Butter: The Cult new Japanese Bestselling Novel",
+  author: "Asako Yuzuki",
+};
 
 function BookList() {
   return (

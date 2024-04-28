@@ -420,3 +420,13 @@ const Book = (props) => {
   );
 };
 ```
+
+- Refactor the variables into an object
+
+```js
+const firstBook = {
+  img: "https://m.media-amazon.com/images/I/71I3CatXc8L._AC._SR360,460.jpg",
+  title: "Butter: The Cult new Japanese Bestselling Novel",
+  author: "Asako Yuzuki",
+};
+```
