@@ -393,3 +393,28 @@ ellipse(
 fill(255, 255, 255);
 text("C", 345, 405);
 ```
+
+The code for the cloud
+
+```js
+cloud = { x_pos: 100, y_pos: 100, width: 50 };
+
+// Cloud
+fill(255, 255, 255);
+//   ellipse(200, 150, 80, 80);
+ellipse(
+  cloud.x_pos + 100,
+  cloud.y_pos + 50,
+  cloud.width + 30,
+  cloud.width + 30
+);
+//   ellipse(160, 150, 60, 60);
+ellipse(cloud.x_pos + 60, cloud.y_pos + 50, cloud.width + 10, cloud.width + 10);
+//   ellipse(240, 150, 60, 60);
+ellipse(
+  cloud.x_pos + 140,
+  cloud.y_pos + 50,
+  cloud.width + 10,
+  cloud.width + 10
+);
+```
