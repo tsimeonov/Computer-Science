@@ -358,7 +358,7 @@ triangle(
 );
 ```
 
-Th code for Step 4: Add the canyon
+The code for Step 4: Add the canyon
 
 ```js
 canyon = { x_pos: 0, width: 100 };
@@ -366,4 +366,30 @@ canyon = { x_pos: 0, width: 100 };
 // Canyon
 fill(230, 170, 20);
 rect(canyon.x_pos + canyon.width, 430, 80, 150);
+```
+
+The code for collactable
+
+```js
+collectable = { x_pos: 100, y_pos: 100, size: 50 };
+
+// Add the collectable
+fill(237, 194, 66);
+//   ellipse(350, 400, 40, 40);
+ellipse(
+  collectable.x_pos + 250,
+  collectable.y_pos + 300,
+  collectable.size - 10,
+  collectable.size - 10
+);
+fill(225, 160, 52);
+//   ellipse(350, 400, 30, 30);
+ellipse(
+  collectable.x_pos + 250,
+  collectable.y_pos + 300,
+  collectable.size - 20,
+  collectable.size - 20
+);
+fill(255, 255, 255);
+text("C", 345, 405);
 ```
