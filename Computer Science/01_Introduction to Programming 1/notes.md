@@ -298,3 +298,5 @@ The `constrain()`, constrains a number between a minimum and maximim value.
 - Good use of objects
 - Logical organization
 - Explanatory comments
+
+#### Lesson 3.5 Game project 2: Game character
