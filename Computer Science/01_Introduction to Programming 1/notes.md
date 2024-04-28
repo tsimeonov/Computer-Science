@@ -336,10 +336,24 @@ The code for step 3: Place the tree
 ```js
 // The Tree
 fill(120, 100, 40);
-rect(900, 282, 60, 150);
+rect(treePos_x, treePos_y, 60, 150);
 
 // branches
 fill(0, 155, 0);
-triangle(850, 332, 930, 232, 1010, 332);
-triangle(850, 282, 930, 182, 1010, 282);
+triangle(
+  treePos_x - 50,
+  treePos_y + 50,
+  treePos_x + 30,
+  treePos_y - 50,
+  treePos_x + 110,
+  treePos_y + 50
+);
+triangle(
+  treePos_x - 50,
+  treePos_y,
+  treePos_x + 30,
+  treePos_y - 100,
+  treePos_x + 110,
+  treePos_y
+);
 ```
