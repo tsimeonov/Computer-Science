@@ -300,3 +300,5 @@ The `constrain()`, constrains a number between a minimum and maximim value.
 - Explanatory comments
 
 #### Lesson 3.5 Game project 2: Game character
+
+<h5 style="color: LightBlue">Game project 2a: Game character</h5>
