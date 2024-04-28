@@ -319,3 +319,5 @@ fill(0);
 rect(gameChar_x - 15, gameChar_y - 5 - 35, 26, 30);
 rect(gameChar_x + 5, gameChar_y - 5 - 35, 26, 30);
 ```
+
+<h5 style="color: LightBlue">Game project 2b: using variables</h5>
