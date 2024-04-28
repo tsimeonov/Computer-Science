@@ -395,3 +395,13 @@ const Book = () => {
 ```
 
 ## 17. Props
+
+- Setup the new variables
+
+```js
+// Setup Variabled
+const author = "Asako Yuzuki";
+const title = "Butter: The Cult new Japanese Bestselling Novel";
+const image =
+  "https://m.media-amazon.com/images/I/71I3CatXc8L._AC._SR360,460.jpg";
+```
