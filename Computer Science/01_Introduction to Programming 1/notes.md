@@ -422,3 +422,7 @@ ellipse(
 #### 3.6 Continuing with Sleuth
 
 <h5 style="color: LightBlue">Sleuth case by case: 301</h5>
+
+<h5 style="color: LightBlue">Sleuth case by case: 302</h5>
+
+<h5 style="color: LightBlue">Sleuth case by case: 302</h5>
