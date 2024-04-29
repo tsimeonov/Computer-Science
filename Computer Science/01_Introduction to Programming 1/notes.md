@@ -418,3 +418,5 @@ ellipse(
   cloud.width + 10
 );
 ```
+
+#### 3.6 Continuing with Sleuth
