@@ -439,3 +439,5 @@ ellipse(
 // The basic syntax of a conditional statement
 if () {}
 ```
+
+<h5 style="color: LightBlue">Conditional statements using !=</h5>
