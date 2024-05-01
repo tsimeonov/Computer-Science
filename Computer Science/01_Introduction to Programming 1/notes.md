@@ -428,3 +428,5 @@ ellipse(
 <h5 style="color: LightBlue">Sleuth case by case: 302</h5>
 
 ## Week 7
+
+### Topic 4: Conditionals and variable types
