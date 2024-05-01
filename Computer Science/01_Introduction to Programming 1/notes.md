@@ -434,3 +434,8 @@ ellipse(
 #### Lesson 4.1 Conditional logic
 
 <h5 style="color: LightBlue">Conditional statements using ==</h5>
+
+```js
+// The basic syntax of a conditional statement
+if () {}
+```
