@@ -469,3 +469,14 @@ Arithmetic with Numbers
 - `+` Addition
 - `-` Minus
 - `()` Brackets
+
+Boolean
+
+- Can be either true or false
+- We can't perform arithmetic with booleans
+
+```js
+var play = true;
+var pause;
+pause = false;
+```
