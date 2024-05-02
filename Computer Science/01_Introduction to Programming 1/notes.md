@@ -501,3 +501,10 @@ var string1 = "hello";
 var string2 = "world!";
 var string3 = string1 + string2; // string3 = "hello world!"
 ```
+
+Mixing types and performing operations
+
+- JS makes confusing assumptions
+- Unexpected behaviours
+- We can check the type of a variable using the typeof() function
+- Changing from one type to another is called casting
