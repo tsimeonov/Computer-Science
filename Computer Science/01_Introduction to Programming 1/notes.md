@@ -461,3 +461,11 @@ var rectY = 200.32;
 var speed_x = -2.3;
 var volume = 0;
 ```
+
+Arithmetic with Numbers
+
+- `*` Multiplication
+- `/` Division
+- `+` Addition
+- `-` Minus
+- `()` Brackets
