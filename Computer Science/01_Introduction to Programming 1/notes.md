@@ -491,3 +491,13 @@ var greeting = "hello world";
 
 var leaving = "goodbye Earth";
 ```
+
+String Concatenation
+
+We can't do arithmetic with strings but we can combine them using the `+` operator.
+
+```js
+var string1 = "hello";
+var string2 = "world!";
+var string3 = string1 + string2; // string3 = "hello world!"
+```
