@@ -480,3 +480,14 @@ var play = true;
 var pause;
 pause = false;
 ```
+
+Strings
+
+- A sequence of characters
+- Enclosed within "" or ''
+
+```js
+var greeting = "hello world";
+
+var leaving = "goodbye Earth";
+```
