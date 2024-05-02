@@ -449,3 +449,15 @@ if () {}
 #### Lesson 4.2 Conditionals with types
 
 <h5 style="color: LightBlue">Introducing types: String, Number and Boolean</h5>
+
+Numbers
+
+- Whole numbers or floating point
+- Positive or negative (or zero)
+
+```js
+var rectX = 100;
+var rectY = 200.32;
+var speed_x = -2.3;
+var volume = 0;
+```
