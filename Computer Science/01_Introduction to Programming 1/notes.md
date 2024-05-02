@@ -447,3 +447,5 @@ if () {}
 <h5 style="color: LightBlue">&& and ||</h5>
 
 #### Lesson 4.2 Conditionals with types
+
+<h5 style="color: LightBlue">Introducing types: String, Number and Boolean</h5>
