@@ -445,3 +445,5 @@ if () {}
 <h5 style="color: LightBlue">Conditional statements using Else and Else if</h5>
 
 <h5 style="color: LightBlue">&& and ||</h5>
+
+#### Lesson 4.2 Conditionals with types
