@@ -433,14 +433,14 @@ ellipse(
 
 #### Lesson 4.1 Conditional logic
 
-<h5 style="color: LightBlue">Conditional statements using ==</h5>
+<h5 style="color: LightBlue">Conditional statements using `==`</h5>
 
 ```js
 // The basic syntax of a conditional statement
 if () {}
 ```
 
-<h5 style="color: LightBlue">Conditional statements using !=</h5>
+<h5 style="color: LightBlue">Conditional statements using `!=`</h5>
 
 <h5 style="color: LightBlue">Conditional statements using Else and Else if</h5>
 
