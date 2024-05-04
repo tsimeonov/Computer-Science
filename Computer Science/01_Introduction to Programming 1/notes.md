@@ -514,3 +514,5 @@ Mixing types and performing operations
 <h5 style="color: LightBlue">Working with numbers</h5>
 
 #### Lesson 4.3 Debugging techniques
+
+<h5 style="color: LightBlue">Code philosophy: the debugger's mindset</h5>
