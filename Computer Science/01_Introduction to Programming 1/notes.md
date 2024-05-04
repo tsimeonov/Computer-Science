@@ -510,3 +510,5 @@ Mixing types and performing operations
 - Changing from one type to another is called casting
 
 <h5 style="color: LightBlue">Working with booleans</h5>
+
+<h5 style="color: LightBlue">Working with numbers</h5>
