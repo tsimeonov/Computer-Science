@@ -512,3 +512,5 @@ Mixing types and performing operations
 <h5 style="color: LightBlue">Working with booleans</h5>
 
 <h5 style="color: LightBlue">Working with numbers</h5>
+
+#### Lesson 4.3 Debugging techniques
