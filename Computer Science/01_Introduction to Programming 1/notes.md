@@ -516,3 +516,5 @@ Mixing types and performing operations
 #### Lesson 4.3 Debugging techniques
 
 <h5 style="color: LightBlue">Code philosophy: the debugger's mindset</h5>
+
+<h5 style="color: LightBlue">Isolation and commenting</h5>
