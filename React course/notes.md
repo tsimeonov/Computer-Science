@@ -547,3 +547,16 @@ const books = [
   },
 ];
 ```
+
+Create a simple list
+
+```js
+const names = ["john", "peter", "susan"];
+const newNames = names.map((name) => {
+  return <h1>{name}</h1>;
+});
+
+function BookList() {
+  return <section className="booklist">{newNames}</section>;
+}
+```
