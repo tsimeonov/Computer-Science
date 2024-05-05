@@ -457,3 +457,5 @@ const Book = (props) => {
   );
 };
 ```
+
+## 18. Props Destructing
