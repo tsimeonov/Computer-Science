@@ -490,3 +490,25 @@ const Book = ({ img, title, author }) => {
 ```
 
 ## 19. Props - Children
+
+Refactor the `BookList`
+
+```js
+function BookList() {
+  return (
+    <section className="booklist">
+      <Book
+        img={firstBook.img}
+        title={firstBook.title}
+        author={firstBook.author}
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+          id dolores delectus voluptatibus aspernatur, at dicta fuga ex culpa
+          recusandae.
+        </p>
+      </Book>
+    </section>
+  );
+}
+```
