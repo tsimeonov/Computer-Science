@@ -560,3 +560,5 @@ function BookList() {
   return <section className="booklist">{newNames}</section>;
 }
 ```
+
+## 21. Proper list
