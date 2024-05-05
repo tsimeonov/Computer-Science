@@ -460,6 +460,8 @@ const Book = (props) => {
 
 ## 18. Props Destructing
 
+Option One:
+
 ```js
 const Book = (props) => {
   const { img, title, author } = props;
