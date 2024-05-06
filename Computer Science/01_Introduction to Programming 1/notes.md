@@ -524,3 +524,5 @@ Mixing types and performing operations
 ### Topic 4: Conditionals and variable types (cont.)
 
 #### Lesson 4.4 Game project 3 - Interaction with the game character
+
+<h5 style="color: LightBlue">Game project 3a: Interaction with the game</h5>
