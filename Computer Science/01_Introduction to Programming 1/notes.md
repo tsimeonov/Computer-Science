@@ -522,3 +522,5 @@ Mixing types and performing operations
 ## Week 8
 
 ### Topic 4: Conditionals and variable types (cont.)
+
+#### Lesson 4.4 Game project 3 - Interaction with the game character
