@@ -520,3 +520,5 @@ Mixing types and performing operations
 <h5 style="color: LightBlue">Isolation and commenting</h5>
 
 ## Week 8
+
+### Topic 4: Conditionals and variable types (cont.)
