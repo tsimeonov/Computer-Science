@@ -518,3 +518,5 @@ Mixing types and performing operations
 <h5 style="color: LightBlue">Code philosophy: the debugger's mindset</h5>
 
 <h5 style="color: LightBlue">Isolation and commenting</h5>
+
+## Week 8
