@@ -668,3 +668,24 @@ const Book = ({ img, title, author }) => {
 ```js
 <h1 onClick={() => console.log(title)}>{title}</h1>
 ```
+
+- More complex example
+
+```js
+const Book = ({ img, title, author }) => {
+  const complexExample = (author) => {
+    console.log(author);
+  };
+
+  return (
+    <article className="book">
+      <img src={img} alt="" />
+      <h1 onClick={() => console.log(title)}>{title}</h1>
+      <h4>{author}</h4>
+      <button type="button" onClick={() => complexExample(author)}>
+        More complex example
+      </button>
+    </article>
+  );
+};
+```

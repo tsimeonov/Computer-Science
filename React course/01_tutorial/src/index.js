@@ -36,6 +36,9 @@ const Book = ({ img, title, author }) => {
   const clickHandler = () => {
     alert("hello");
   };
+  const complexExample = (author) => {
+    console.log(author);
+  };
   return (
     <article className="book">
       <img src={img} alt="" />
@@ -43,6 +46,9 @@ const Book = ({ img, title, author }) => {
       <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>
         Reference example
+      </button>
+      <button type="button" onClick={() => complexExample(author)}>
+        More complex example
       </button>
     </article>
   );
