@@ -598,3 +598,17 @@ books = {
   id: 1,
 };
 ```
+
+In the function `Booklist` pass the key `id`
+
+```js
+function BookList() {
+  return (
+    <section className="booklist">
+      {books.map((book) => {
+        return <Book key={book.id} book={book}></Book>;
+      })}
+    </section>
+  );
+}
+```

@@ -13,7 +13,7 @@ const books = [
     author: "Asako Yuzuki",
   },
   {
-    id2: 2,
+    id: 2,
     img: "https://m.media-amazon.com/images/I/71UUUzTDmSL._AC._SR360,460.jpg",
     title: "On the Origin of Time: The instant Sunday Times bestseller",
     author: "Thomas Hertog",
@@ -24,7 +24,7 @@ function BookList() {
   return (
     <section className="booklist">
       {books.map((book) => {
-        return <Book book={book}></Book>;
+        return <Book key={book.id} book={book}></Book>;
       })}
     </section>
   );
