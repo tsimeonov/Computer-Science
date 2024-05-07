@@ -590,3 +590,11 @@ const Book = (props) => {
 ```
 
 ## 22. Key prop and spread operator
+
+Add a unique `id` in the `books` variable:
+
+```js
+books = {
+  id: 1,
+};
+```
