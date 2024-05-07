@@ -662,3 +662,9 @@ const Book = ({ img, title, author }) => {
   );
 };
 ```
+
+- Inline function
+
+```js
+<h1 onClick={() => console.log(title)}>{title}</h1>
+```
