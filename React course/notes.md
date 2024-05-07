@@ -588,3 +588,5 @@ const Book = (props) => {
   );
 };
 ```
+
+## 22. Key prop and spread operator
