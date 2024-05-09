@@ -786,3 +786,5 @@ Add the import statement in the `index.js` file
 ```js
 import Book from "./Book";
 ```
+
+## 25. Free Hosting
