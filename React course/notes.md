@@ -734,3 +734,55 @@ export const books = [
 ```
 
 </details>
+
+Add the import statement in the `index.js` file
+
+```js
+import { books } from "./books";
+```
+
+<details>
+  <summary>Code in the Book.js file</summary>
+
+```javascript
+import React from "react";
+
+const Book = ({ img, title, author }) => {
+  // Attribute, eventHandler
+  // onClick, onMouseOver
+  const clickHandler = () => {
+    alert("hello");
+  };
+  const complexExample = (author) => {
+    console.log(author);
+  };
+  return (
+    <article
+      className="book"
+      onMouseOver={() => {
+        console.log(title);
+      }}
+    >
+      <img src={img} alt="" />
+      <h1 onClick={() => console.log(title)}>{title}</h1>
+      <h4>{author}</h4>
+      <button type="button" onClick={clickHandler}>
+        Reference example
+      </button>
+      <button type="button" onClick={() => complexExample(author)}>
+        More complex example
+      </button>
+    </article>
+  );
+};
+
+export default Book;
+```
+
+</details>
+
+Add the import statement in the `index.js` file
+
+```js
+import Book from "./Book";
+```
