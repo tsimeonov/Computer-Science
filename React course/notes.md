@@ -804,6 +804,7 @@ Topics that will be covered:
 - Conditional Rendering
 - Form
 - useRef
+- useReducer
 
 To start the application `npm install` and then `npm start`
 
