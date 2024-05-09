@@ -801,6 +801,7 @@ Topics that will be covered:
 
 - useState
 - useEffect
+- Conditional Rendering
 
 To start the application `npm install` and then `npm start`
 
