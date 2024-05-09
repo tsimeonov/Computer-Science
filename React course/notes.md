@@ -796,3 +796,17 @@ npm run built
 ```
 
 ## 25. Advanced Intro
+
+To start the application `npm install` and then `npm start`
+
+If the program doen't run in the `package.json` file change the line
+
+```js
+"start": "react-scripts start"
+```
+
+to
+
+```js
+"start": "react-scripts --openssl-legacy-provider start"
+```
