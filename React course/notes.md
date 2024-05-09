@@ -821,3 +821,5 @@ to
 ```js
 "start": "react-scripts --openssl-legacy-provider start"
 ```
+
+## 26. UseState - Simple Use Case
