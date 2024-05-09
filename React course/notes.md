@@ -800,6 +800,7 @@ npm run built
 Topics that will be covered:
 
 - useState
+- useEffect
 
 To start the application `npm install` and then `npm start`
 
