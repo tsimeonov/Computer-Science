@@ -806,6 +806,7 @@ Topics that will be covered:
 - useRef
 - useReducer
 - Prop Drilling
+- Context ART / useContext
 
 To start the application `npm install` and then `npm start`
 
