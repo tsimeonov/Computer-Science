@@ -788,3 +788,9 @@ import Book from "./Book";
 ```
 
 ## 25. Free Hosting
+
+Use when releasing an application
+
+```js
+npm run built
+```
