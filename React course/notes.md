@@ -824,8 +824,26 @@ to
 
 ## 26. UseState - Simple Use Case
 
-To begin add the following code to the `app.js`
+- To begin add the following code to the `app.js`
 
 ```js
 import Setup from "./tutorial/1-useState/setup/1-error-example";
+```
+
+- In the `1-error-example.js` file, add a new variable, create the `React.Fragment `and add the `h2` with the `title`.
+
+```js
+import React from "react";
+
+const ErrorExample = () => {
+  let title = "random title";
+
+  return (
+    <React.Fragment>
+      <h2>{title}</h2>
+    </React.Fragment>
+  );
+};
+
+export default ErrorExample;
 ```
