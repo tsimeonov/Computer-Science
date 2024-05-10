@@ -868,7 +868,7 @@ const ErrorExample = () => {
 };
 ```
 
-## 27, UseState - Basics
+## 27. UseState - Basics
 
 - Change the path to:
 
@@ -903,3 +903,5 @@ const UseStateBasics = () => {
 
 export default UseStateBasics;
 ```
+
+## 28. General rules of hooks
