@@ -823,3 +823,9 @@ to
 ```
 
 ## 26. UseState - Simple Use Case
+
+To begin add the following code to the `app.js`
+
+```js
+import Setup from "./tutorial/1-useState/setup/1-error-example";
+```
