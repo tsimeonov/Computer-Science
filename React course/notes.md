@@ -869,3 +869,9 @@ const ErrorExample = () => {
 ```
 
 ## 27, UseState - Basics
+
+- Change the path to:
+
+```js
+import Setup from "./tutorial/1-useState/setup/2-useState-basics";
+```
