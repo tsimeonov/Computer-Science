@@ -913,3 +913,37 @@ export default UseStateBasics;
 ```js
 import Setup from "./tutorial/1-useState/setup/3-useState-array";
 ```
+
+- The code in the `3-UseState-Arrays.js`
+
+<details>
+  <summary>Removing all items</summary>
+
+```javascript
+import React from "react";
+import { data } from "../../../data";
+
+const UseStateArray = () => {
+  const [people, setPeople] = React.useState(data);
+
+  return (
+    <React.Fragment>
+      {people.map((person) => {
+        const { id, name } = person;
+        return (
+          <div key={id} className="item">
+            <h4>{name}</h4>
+          </div>
+        );
+      })}
+      <button className="btn" onClick={() => setPeople([])}>
+        Clear Items
+      </button>
+    </React.Fragment>
+  );
+};
+
+export default UseStateArray;
+```
+
+</details>
