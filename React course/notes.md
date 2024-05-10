@@ -905,3 +905,5 @@ export default UseStateBasics;
 ```
 
 ## 28. General rules of hooks
+
+## 29. UseState - array example
