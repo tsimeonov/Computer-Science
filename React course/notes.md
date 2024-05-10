@@ -907,3 +907,9 @@ export default UseStateBasics;
 ## 28. General rules of hooks
 
 ## 29. UseState - array example
+
+- Change the path in the `app.js` to
+
+```js
+import Setup from "./tutorial/1-useState/setup/3-useState-array";
+```
