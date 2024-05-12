@@ -4,4 +4,4 @@
 
 #### 1.1 Algorithms
 
-A data structure is a way og organizing ans storing data in a computer so taht it can be accessed and manipulated efficiently.
+An `algorithm` is a well-defined computational procedure that takes some value, or set of values as `input` and produces some value, or set of values, as `output` in a finite amount of time.
