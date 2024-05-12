@@ -987,3 +987,9 @@ export default UseStateArray;
 </details>
 
 ## 30. UseState - Object Example
+
+Change the path in the `app.js` to:
+
+```js
+import Setup from "./tutorial/1-useState/setup/4-useState-object";
+```
