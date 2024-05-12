@@ -985,3 +985,5 @@ export default UseStateArray;
 ```
 
 </details>
+
+## 30. UseState - Object Example
