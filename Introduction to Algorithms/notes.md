@@ -1,4 +1,4 @@
-## Computer Science for self-taught developer
+## Introduction to Algorithms (fourth edition)
 
 ### 1. Data Structures
 
