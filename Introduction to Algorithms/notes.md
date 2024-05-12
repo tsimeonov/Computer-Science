@@ -1,6 +1,6 @@
 ## Introduction to Algorithms (fourth edition)
 
-### 1. Data Structures
+### 1. The role of algorithms in computing
 
 #### 1.1 What is Data Structure?
 
