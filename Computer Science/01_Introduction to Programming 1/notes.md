@@ -506,7 +506,7 @@ Mixing types and performing operations
 
 - JS makes confusing assumptions
 - Unexpected behaviours
-- We can check the type of a variable using the typeof() function
+- We can check the type of a variable using the `typeof()` function
 - Changing from one type to another is called casting
 
 <h5 style="color: LightBlue">Working with booleans</h5>
