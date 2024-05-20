@@ -526,3 +526,5 @@ Mixing types and performing operations
 #### Lesson 4.4 Game project 3 - Interaction with the game character
 
 <h5 style="color: LightBlue">Game project 3a: Interaction with the game</h5>
+
+## Week 9
