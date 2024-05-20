@@ -578,3 +578,6 @@ function draw() {
   }
 }
 ```
+
+<h5 style="color: LightBlue">For loops using variable incrementation and the index variable
+</h5>
