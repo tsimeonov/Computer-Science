@@ -544,3 +544,17 @@ for (let i = 0; i < 10; i += 1) {
 // i < 10; --> Condition
 // i+=1; --> Afterthought
 ```
+
+P5.js Example:
+Create random ellipses with different shade of gray
+
+```js
+function setup() {
+  createCanvas(800, 800);
+
+  for (let i = 0; i < 10; i++) {
+    fill(random(0, 255));
+    ellipse(random(0, 800), random(0, 800), 100, 100);
+  }
+}
+```
