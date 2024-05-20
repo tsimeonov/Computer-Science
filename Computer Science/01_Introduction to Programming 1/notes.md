@@ -534,3 +534,13 @@ Mixing types and performing operations
 #### Lesson 5.1 For Loops
 
 <h5 style="color: LightBlue">Introduction to for loops</h5>
+
+```js
+for (let i = 0; i < 10; i += 1) {
+  console.log("Hello world");
+}
+
+// let i = 0; --> Initialisation
+// i < 10; --> Condition
+// i+=1; --> Afterthought
+```
