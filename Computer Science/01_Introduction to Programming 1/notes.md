@@ -528,3 +528,5 @@ Mixing types and performing operations
 <h5 style="color: LightBlue">Game project 3a: Interaction with the game</h5>
 
 ## Week 9
+
+### Topic 5: For loops and arrays
