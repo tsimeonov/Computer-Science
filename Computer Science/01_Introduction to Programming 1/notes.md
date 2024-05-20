@@ -545,7 +545,7 @@ for (let i = 0; i < 10; i += 1) {
 // i+=1; --> Afterthought
 ```
 
-P5.js Example:
+p5.js Example:
 Create random ellipses with different shade of gray
 
 ```js
@@ -555,6 +555,26 @@ function setup() {
   for (let i = 0; i < 10; i++) {
     fill(random(0, 255));
     ellipse(random(0, 800), random(0, 800), 100, 100);
+  }
+}
+```
+
+p5.js Example:
+Creta ellipses by moving the mouse using the function `mouseX`
+
+```js
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background(255);
+
+  for (let i = 0; i < mouseX; i++) {
+    console.log(mouseX);
+
+    fill(random(0, 255));
+    ellipse(random(0, 800), random(0, 800), 50, 50);
   }
 }
 ```
