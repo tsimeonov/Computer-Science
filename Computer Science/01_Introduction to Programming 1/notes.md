@@ -530,3 +530,5 @@ Mixing types and performing operations
 ## Week 9
 
 ### Topic 5: For loops and arrays
+
+#### Lesson 5.1 For Loops
