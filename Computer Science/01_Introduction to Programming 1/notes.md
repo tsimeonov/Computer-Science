@@ -581,3 +581,28 @@ function draw() {
 
 <h5 style="color: LightBlue">For loops using variable incrementation and the index variable
 </h5>
+
+Example using p5.js
+
+```js
+let x_pos;
+let y_pos;
+
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background(0);
+  fill(255, 0, 255);
+
+  x_pos = 100;
+  y_pos = 100;
+
+  for (let i = 0; i < 20; i++) {
+    ellipse(x_pos + i * 30, y_pos + i * 30, 20, 20);
+    // x_pos += 30
+    console.log(x_pos);
+  }
+}
+```
