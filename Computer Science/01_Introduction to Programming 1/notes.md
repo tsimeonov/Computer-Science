@@ -532,3 +532,5 @@ Mixing types and performing operations
 ### Topic 5: For loops and arrays
 
 #### Lesson 5.1 For Loops
+
+<h5 style="color: LightBlue">Introduction to for loops</h5>
