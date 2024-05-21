@@ -61,3 +61,21 @@ export default function Gallery() {
   );
 }
 ```
+
+<span style="font-weight: bold;">What the browser sees</span>
+
+Notice the difference in casing:
+
+- `<section>` is lowercase, so React knows we refer to a HTML tag
+- `<Profile />` starts with a capital `P`, so React knows that we want to use our component called `Profile`.
+
+In the end, this is what the browser sees:
+
+```js
+<section>
+  <h1>Amazing scientists</h1>
+  <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+  <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+  <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+</section>
+```
