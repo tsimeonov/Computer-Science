@@ -20,3 +20,5 @@ The `export default` prefix is a standard JS syntax (not specific to React). It 
 Step 2: Define the function
 
 With `function Profile() {}` you define a JS function with the name `Profile`
+
+Step 3: Add markup
