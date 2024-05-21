@@ -24,3 +24,9 @@ With `function Profile() {}` you define a JS function with the name `Profile`
 Step 3: Add markup
 
 The component returns an `<img/>` tag with `src` attributes. `<img/>` is written like HTML, but it's actually JS under the hood! This syntax is called `JSX` and it lets you embed markup indide JS.
+
+Return statements can be written all on one line, as in this component:
+
+```js
+return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+```
