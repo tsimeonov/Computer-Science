@@ -40,3 +40,5 @@ return (
   </div>
 );
 ```
+
+#### 1.1.3 Using a component
