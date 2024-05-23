@@ -606,3 +606,5 @@ function draw() {
   }
 }
 ```
+
+<h5 style="color: LightBlue">Combining for loops with conditional statements</h5>
