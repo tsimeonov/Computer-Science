@@ -682,3 +682,12 @@ When to use an array
 - Normally of the same type
 
 <h5 style="color: LightBlue">Coding with arrays</h5>
+
+```js
+// Array examples
+let myArrayNumbers = [1,2,3,4,5,6,7]
+let myArrayStrings = ["hello", "world", "earth"]
+let myArrayMixed = [1,2.32, "hello"]
+let my ArrayEmpty = []
+
+```
