@@ -656,3 +656,5 @@ function draw() {
   }
 }
 ```
+
+#### Lesson 5.2 Arrays
