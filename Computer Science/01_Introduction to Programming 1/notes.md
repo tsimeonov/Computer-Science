@@ -666,3 +666,12 @@ What is an array?
 - A new type of variable
 - A list of items (booleans, strings, numbers)
 - A data structure
+
+Objects vs. Array
+
+|         Object         |         Array         |
+| :--------------------: | :-------------------: |
+| Abstraction of an item | Abstraction of a list |
+|    Key value pairs     |     Unnamed items     |
+|        Literal         |        Indexed        |
+|                        |      Generative       |
