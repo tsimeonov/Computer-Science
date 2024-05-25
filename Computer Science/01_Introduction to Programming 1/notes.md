@@ -675,3 +675,8 @@ Objects vs. Array
 |    Key value pairs     |     Unnamed items     |
 |        Literal         |        Indexed        |
 |                        |      Generative       |
+
+When to use an array
+
+- List of related values
+- Normally of the same type
