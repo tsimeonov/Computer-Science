@@ -697,5 +697,6 @@ console.log(myArray[0]) // 1
 console.log(myArray[5]) // 13.3
 myArray[5] = 100
 console.log(myArray[5]) // 100
+console.log(myArray[10]) // undefined
 
 ```
