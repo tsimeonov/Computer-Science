@@ -608,3 +608,21 @@ function draw() {
 ```
 
 <h5 style="color: LightBlue">Combining for loops with conditional statements</h5>
+
+```js
+// Setup code
+function setup() {
+  createCanvas(800, 600);
+  strokeWeight(2);
+}
+
+function draw() {
+  background(255);
+  noFill();
+  stroke(150);
+
+  for (let i = 0; i < 9; i++) {
+    rect(80 + i * 80, 80, 60, 60);
+  }
+}
+```
