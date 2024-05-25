@@ -680,3 +680,5 @@ When to use an array
 
 - List of related values
 - Normally of the same type
+
+<h5 style="color: LightBlue">Coding with arrays</h5>
