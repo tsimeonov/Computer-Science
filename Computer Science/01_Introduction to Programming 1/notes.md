@@ -660,3 +660,9 @@ function draw() {
 #### Lesson 5.2 Arrays
 
 <h5 style="color: LightBlue">What are arrays? Why do we need them</h5>
+
+What is an array?
+
+- A new type of variable
+- A list of items (booleans, strings, numbers)
+- A data structure
