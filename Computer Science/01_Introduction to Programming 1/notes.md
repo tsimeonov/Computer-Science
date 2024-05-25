@@ -690,4 +690,12 @@ let myArrayStrings = ["hello", "world", "earth"]
 let myArrayMixed = [1,2.32, "hello"]
 let my ArrayEmpty = []
 
+// Accessing the values
+let myArray = [1,2,43.2, 0, 78, 13,3, 21,3]
+
+console.log(myArray[0]) // 1
+console.log(myArray[5]) // 13.3
+myArray[5] = 100
+console.log(myArray[5]) // 100
+
 ```
