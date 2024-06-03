@@ -700,3 +700,5 @@ console.log(myArray[5]) // 100
 console.log(myArray[10]) // undefined
 
 ```
+
+#### Lesson 5.3 Debugging techniques
