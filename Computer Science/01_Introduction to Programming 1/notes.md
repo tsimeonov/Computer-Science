@@ -704,3 +704,5 @@ console.log(myArray[10]) // undefined
 #### Lesson 5.3 Debugging techniques
 
 <h5 style="color: LightBlue">Common bugs with loops and arrays</h5>
+
+## Week 10
