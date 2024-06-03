@@ -706,3 +706,5 @@ console.log(myArray[10]) // undefined
 <h5 style="color: LightBlue">Common bugs with loops and arrays</h5>
 
 ## Week 10
+
+#### Lesson 5.4 Code philosophy
