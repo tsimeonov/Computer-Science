@@ -712,3 +712,5 @@ console.log(myArray[10]) // undefined
 <h5 style="color: LightBlue">Code philosophy: coding workflow</h5>
 
 ## Week 11
+
+### Topic 6: Advanced arrays and iteration
