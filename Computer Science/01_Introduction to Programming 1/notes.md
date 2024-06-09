@@ -714,3 +714,5 @@ console.log(myArray[10]) // undefined
 ## Week 11
 
 ### Topic 6: Advanced arrays and iteration
+
+#### Lesson 6.1 Advanced work with arrays
