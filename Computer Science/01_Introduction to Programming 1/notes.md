@@ -710,3 +710,5 @@ console.log(myArray[10]) // undefined
 #### Lesson 5.4 Code philosophy
 
 <h5 style="color: LightBlue">Code philosophy: coding workflow</h5>
+
+## Week 11
