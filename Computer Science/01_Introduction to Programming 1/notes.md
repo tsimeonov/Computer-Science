@@ -716,3 +716,5 @@ console.log(myArray[10]) // undefined
 ### Topic 6: Advanced arrays and iteration
 
 #### Lesson 6.1 Advanced work with arrays
+
+<h5 style="color: LightBlue">Traversing data</h5>
