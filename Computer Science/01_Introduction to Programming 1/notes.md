@@ -727,3 +727,30 @@ function setup() {
   background(50);
 }
 ```
+
+Print all the elements on the screen from the the `metamorphosis` array.
+
+```js
+// First attempt -> It prints the array elements on the same spot
+function draw() {
+  fill(255);
+  textSize(40);
+
+  for (let i = 0; i < metamorphosis.length; i++) {
+    text(metamorphosis[i], 100, 100);
+  }
+}
+
+// Second attempt -> The array elements are printed on the screen with space in beteern them
+
+function draw() {
+  fill(255);
+  textSize(40);
+  let cursorX = 0;
+
+  for (let i = 0; i < metamorphosis.length; i++) {
+    text(metamorphosis[i], cursorX, 100);
+    cursorX += textWidth(metamorphosis[i] + " ");
+  }
+}
+```

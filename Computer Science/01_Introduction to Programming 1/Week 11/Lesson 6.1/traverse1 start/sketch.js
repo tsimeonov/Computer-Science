@@ -212,8 +212,10 @@ function setup() {
 function draw() {
   fill(255);
   textSize(40);
+  let cursorX = 0;
 
   for (let i = 0; i < metamorphosis.length; i++) {
-    text(metamorphosis[i], 100, 100);
+    text(metamorphosis[i], cursorX, 100);
+    cursorX += textWidth(metamorphosis[i] + " ");
   }
 }
