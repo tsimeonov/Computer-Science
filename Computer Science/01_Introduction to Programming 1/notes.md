@@ -773,3 +773,5 @@ function draw() {
   }
 }
 ```
+
+#### Lesson 6.2 Nested iteration for drawing patterns
