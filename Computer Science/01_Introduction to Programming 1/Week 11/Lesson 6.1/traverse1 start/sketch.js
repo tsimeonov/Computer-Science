@@ -213,9 +213,15 @@ function draw() {
   fill(255);
   textSize(40);
   let cursorX = 0;
+  let cursorY = 40;
 
   for (let i = 0; i < metamorphosis.length; i++) {
-    text(metamorphosis[i], cursorX, 100);
+    text(metamorphosis[i], cursorX, cursorY);
     cursorX += textWidth(metamorphosis[i] + " ");
+
+    if (cursorX > width) {
+      cursorY += 40;
+      cursorX = 0;
+    }
   }
 }
