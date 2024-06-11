@@ -718,3 +718,12 @@ console.log(myArray[10]) // undefined
 #### Lesson 6.1 Advanced work with arrays
 
 <h5 style="color: LightBlue">Traversing data</h5>
+
+Setup the function
+
+```js
+function setup() {
+  createCanvas(1000, 900);
+  background(50);
+}
+```
