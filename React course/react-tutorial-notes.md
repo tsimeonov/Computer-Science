@@ -81,3 +81,7 @@ In the end, this is what the browser sees:
 ```
 
 <span style="font-weight: bold;">Nesting and organizing components</span>
+
+Components are regular JS functions, so you can keep multiple components in the same file.
+Becsuse the `Profile` components are rendered inside `Gallery`we can say that `Gallery` is a parent component, rendering each `Profile` as a `child`.
+
