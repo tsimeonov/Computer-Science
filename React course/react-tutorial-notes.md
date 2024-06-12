@@ -87,3 +87,25 @@ Becsuse the `Profile` components are rendered inside `Gallery`we can say that `G
 
 <span style="font-weight: bold;">Recap</span>
 
+Let's recap some key points.
+- React lets you create components, reusable UI elements for your app.
+- In a React app, every piece of UI is a component.
+- React components are regular JS functions except:
+  1. Their names always begin wit a capital letter
+  2. They return JSX markup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
