@@ -79,3 +79,5 @@ In the end, this is what the browser sees:
   <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
 </section>
 ```
+
+<span style="font-weight: bold;">Nesting and organizing components</span>
