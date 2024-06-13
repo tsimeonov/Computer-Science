@@ -802,3 +802,22 @@ function draw() {
   }
 }
 ```
+
+Example with nested for loops
+
+```js
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background(0);
+  fill(255, 0, 255);
+
+  for (let h = 0; h < 3; h++) {
+    for (let i = 0; i < 10; i++) {
+      ellipse(30 + i * 30, 30 + h * 30, 30, 30);
+    }
+  }
+}
+```
