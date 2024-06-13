@@ -79,3 +79,33 @@ In the end, this is what the browser sees:
   <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
 </section>
 ```
+
+<span style="font-weight: bold;">Nesting and organizing components</span>
+
+Components are regular JS functions, so you can keep multiple components in the same file.
+Becsuse the `Profile` components are rendered inside `Gallery`we can say that `Gallery` is a parent component, rendering each `Profile` as a `child`.
+
+<span style="font-weight: bold;">Recap</span>
+
+Let's recap some key points.
+- React lets you create components, reusable UI elements for your app.
+- In a React app, every piece of UI is a component.
+- React components are regular JS functions except:
+  1. Their names always begin wit a capital letter
+  2. They return JSX markup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
