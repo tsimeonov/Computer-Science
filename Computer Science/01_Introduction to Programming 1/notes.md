@@ -777,3 +777,28 @@ function draw() {
 #### Lesson 6.2 Nested iteration for drawing patterns
 
 <h5 style="color: LightBlue">Nested iteration to draw grids</h5>
+
+Example of creating three for loops for three rows
+
+```js
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background(0);
+  fill(255, 0, 255);
+
+  for (let i = 0; i < 10; i++) {
+    ellipse(30 + i * 30, 30, 30, 30);
+  }
+
+  for (let i = 0; i < 10; i++) {
+    ellipse(30 + i * 30, 60, 30, 30);
+  }
+
+  for (let i = 0; i < 10; i++) {
+    ellipse(30 + i * 30, 90, 30, 30);
+  }
+}
+```

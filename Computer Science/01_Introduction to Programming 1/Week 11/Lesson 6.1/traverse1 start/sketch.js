@@ -205,23 +205,14 @@ function setup() {
   // for (let i = 0; i < metamorphosis.length; i++) {
   //   console.log(metamorphosis[i]);
   // }
-  createCanvas(1000, 900);
-  background(50);
+  createCanvas(800, 800);
 }
 
 function draw() {
-  fill(255);
-  textSize(40);
-  let cursorX = 0;
-  let cursorY = 40;
+  backgroud(0);
+  fill(255, 0, 255);
 
-  for (let i = 0; i < metamorphosis.length; i++) {
-    text(metamorphosis[i], cursorX, cursorY);
-    cursorX += textWidth(metamorphosis[i] + " ");
-
-    if (cursorX > width) {
-      cursorY += 40;
-      cursorX = 0;
-    }
+  for (let i = 0; i < 10; i++) {
+    ellipse(30 + i * 30, 30, 30, 30);
   }
 }
