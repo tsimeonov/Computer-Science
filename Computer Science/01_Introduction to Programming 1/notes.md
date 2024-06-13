@@ -775,3 +775,5 @@ function draw() {
 ```
 
 #### Lesson 6.2 Nested iteration for drawing patterns
+
+<h5 style="color: LightBlue">Nested iteration to draw grids</h5>
