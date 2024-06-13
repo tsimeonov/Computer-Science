@@ -821,3 +821,24 @@ function draw() {
   }
 }
 ```
+
+Example with `mouseX` and `mouseY`
+
+```js
+function setup() {
+  createCanvas(800, 800);
+}
+
+function draw() {
+  background(0);
+  fill(255, 0, 255);
+
+  for (let h = 0; h < mouseY / 60; h++) {
+    // rows
+    for (let i = 0; i < mouseX / 10; i++) {
+      // columns
+      ellipse(30 + i * 30, 30 + h * 30, 30, 30);
+    }
+  }
+}
+```
