@@ -3,3 +3,9 @@
 <h5>192. What is Node.js</h5>
 
 <h5>195. Using Node.js</h5>
+
+- Version check
+
+```
+node -v
+```
