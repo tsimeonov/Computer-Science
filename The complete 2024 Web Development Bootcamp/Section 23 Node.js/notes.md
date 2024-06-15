@@ -17,3 +17,9 @@ REPL (Read, Eval, Print, Loop) -> is a computer environment where inputs are rea
 ```
 node
 ```
+
+- Running JS Files
+
+```
+node index.js
+```
