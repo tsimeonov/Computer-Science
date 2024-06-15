@@ -9,3 +9,11 @@
 ```
 node -v
 ```
+
+- Node REPL
+
+REPL (Read, Eval, Print, Loop) -> is a computer environment where inputs are read and evaluated, and then the results are returned to the user.
+
+```
+node
+```
