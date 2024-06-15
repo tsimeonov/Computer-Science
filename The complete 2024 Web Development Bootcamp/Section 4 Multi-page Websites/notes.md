@@ -11,3 +11,9 @@ C:/Project/Images/cat.png
 <!-- Mac example -->
 /Project/Images/cat.png
 ```
+
+Relative File Path - It's relative to the location our code is written.
+
+```
+Images/cat.png
+```
