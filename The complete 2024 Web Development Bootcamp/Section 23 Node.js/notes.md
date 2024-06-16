@@ -71,3 +71,48 @@ import * as fs from "node:fs/promisses"
 <h5>198. [Project] QR Code Generator</h5>
 
 Using two packages for this project `inquirer.js`, `qr-image`
+
+<details>
+  <summary>Solution to the Project</summary>
+
+```javascript
+/*
+1. Use the inquirer npm package to get user input.
+
+2. Use the qr-image npm package to turn the user entered URL into a QR code image.
+3. Create a txt file to save the user input using the native fs node module.
+*/
+
+import inquirer from "inquirer";
+import qr from "qr-image";
+import fs from "fs";
+
+inquirer
+  .prompt([
+    /* Pass your questions in here */
+    {
+      message: "Type a website name",
+      name: "URL",
+    },
+  ])
+  .then((answers) => {
+    // Use user feedback for... whatever!!
+    const url = answers.URL;
+    var qr_svg = qr.image(url, { type: "png" });
+    qr_svg.pipe(fs.createWriteStream("url.png"));
+
+    fs.writeFileSync("url.txt", url, (err) => {
+      if (err) throw err;
+      console.log("The file has been saved");
+    });
+  })
+  .catch((error) => {
+    if (error.isTtyError) {
+      // Prompt couldn't be rendered in the current environment
+    } else {
+      // Something else went wrong
+    }
+  });
+```
+
+</details>
