@@ -3,3 +3,17 @@
 <h5>200: What is Express?</h5>
 
 <h5>201: Creating Our First Server with Express  </h5>
+
+Creating an Express Server
+
+1. Create directory
+
+2. Create index.js file
+
+3. Initialise NPM
+
+4. Install the Express packgage
+
+5. Write Server application in index.js
+
+6. Start server
