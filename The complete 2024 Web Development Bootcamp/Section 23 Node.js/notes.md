@@ -61,3 +61,9 @@ npm init
 ```
 npm install <something>
 ```
+
+- ECMA script modules
+
+```
+import * as fs from "node:fs/promisses"
+```
