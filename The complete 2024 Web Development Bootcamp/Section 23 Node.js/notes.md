@@ -29,3 +29,20 @@ node index.js
 
 - What are Native Modules?
   In Node.js native modules (also known as core modules) are built-in modules that come packaged with Node.js.
+
+- File system module
+  The file system is a native node module that allows us to access the local storage.
+
+```node
+const fs = require("fs");
+
+fs.writeFileSync("message.txt", "Hello from Node.js", (err) => {
+  if (err) throw err;
+  console.log("The file has been saved");
+});
+```
+
+```
+<!-- Type the following in the terminal -->
+node index.js
+```
