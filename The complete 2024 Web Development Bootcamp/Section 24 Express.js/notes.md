@@ -42,3 +42,7 @@ app.listen(3000, () => {
 ```
 
 6. Start server
+
+```
+node your_app.js
+```
