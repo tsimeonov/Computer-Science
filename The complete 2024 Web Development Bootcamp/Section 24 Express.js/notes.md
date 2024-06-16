@@ -32,4 +32,13 @@ npm i express
 
 5. Write Server application in index.js
 
+```js
+import express from "express";
+const app = express();
+
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
+```
+
 6. Start server
