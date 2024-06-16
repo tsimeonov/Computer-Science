@@ -8,6 +8,10 @@ Creating an Express Server
 
 1. Create directory
 
+```
+mkdir "3.1 Express Server"
+```
+
 2. Create index.js file
 
 3. Initialise NPM
