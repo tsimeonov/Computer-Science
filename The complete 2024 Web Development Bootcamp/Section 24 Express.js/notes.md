@@ -20,6 +20,10 @@ touch index.js
 
 3. Initialise NPM
 
+```
+npm init -y
+```
+
 4. Install the Express packgage
 
 5. Write Server application in index.js
