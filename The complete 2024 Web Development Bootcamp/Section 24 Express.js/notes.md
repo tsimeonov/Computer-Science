@@ -14,6 +14,10 @@ mkdir "3.1 Express Server"
 
 2. Create index.js file
 
+```
+touch index.js
+```
+
 3. Initialise NPM
 
 4. Install the Express packgage
