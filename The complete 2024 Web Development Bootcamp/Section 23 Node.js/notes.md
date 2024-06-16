@@ -69,3 +69,5 @@ import * as fs from "node:fs/promisses"
 ```
 
 <h5>198. [Project] QR Code Generator</h5>
+
+Using two packages for this project `inquirer.js`, `qr-image`
