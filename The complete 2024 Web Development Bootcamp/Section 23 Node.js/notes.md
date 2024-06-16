@@ -25,7 +25,7 @@ node
 node index.js
 ```
 
-<h5>Using Node.js</h5>
+<h5>196. How to use the Native Modules</h5>
 
 - What are Native Modules?
   In Node.js native modules (also known as core modules) are built-in modules that come packaged with Node.js.
