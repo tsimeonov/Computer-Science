@@ -55,3 +55,9 @@ node index.js
 ```
 npm init
 ```
+
+- Install NPM Package
+
+```
+npm install <something>
+```
