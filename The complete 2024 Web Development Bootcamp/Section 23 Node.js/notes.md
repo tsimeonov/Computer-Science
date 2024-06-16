@@ -48,3 +48,10 @@ node index.js
 ```
 
 <h5>197. The NPM Package Manager and installing external node modules</h5>
+
+- Node Package Manager
+- Initialise NPM
+
+```
+npm init
+```
