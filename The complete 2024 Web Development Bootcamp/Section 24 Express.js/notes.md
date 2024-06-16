@@ -26,6 +26,10 @@ npm init -y
 
 4. Install the Express packgage
 
+```
+npm i express
+```
+
 5. Write Server application in index.js
 
 6. Start server
