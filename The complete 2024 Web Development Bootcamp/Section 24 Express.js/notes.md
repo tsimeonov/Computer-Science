@@ -50,3 +50,10 @@ node your_app.js
 <h5>202: HTTP Request</h5>
 
 - HTTP - HyperText Transfer Protocol
+
+- HTTP Methods
+  - GET
+  - POST
+  - PUT
+  - PATCH
+  - DELETE
