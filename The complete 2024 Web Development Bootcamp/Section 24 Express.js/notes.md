@@ -51,9 +51,25 @@ node your_app.js
 
 - HTTP - HyperText Transfer Protocol
 
-- HTTP Methods
+- HTTP Methodscoea
+
   - GET
   - POST
   - PUT
   - PATCH
   - DELETE
+
+- Starting a server
+
+```js
+import express from "express";
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
+
+app.listen(3000, () => {
+  console.log("Server running on port 3000");
+});
+```
