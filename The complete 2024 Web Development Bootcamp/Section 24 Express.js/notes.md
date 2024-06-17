@@ -74,6 +74,12 @@ app.listen(3000, () => {
 });
 ```
 
+- Install nodemon
+
+```
+sudo npm i -g nodemon
+```
+
 - Using nodemon
 
 ```
