@@ -48,3 +48,5 @@ node your_app.js
 ```
 
 <h5>202: HTTP Request</h5>
+
+- HTTP - HyperText Transfer Protocol
