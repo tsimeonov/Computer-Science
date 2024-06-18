@@ -86,10 +86,12 @@ sudo npm i -g nodemon
 nodemon index.js
 ```
 
-- Add another end point
+- Add another endpoint
 
 ```js
 app.get("/about", (req, res) => {
   res.send("<h1>About me</h1>");
 });
 ```
+
+<h5>203. Postman</h5>
