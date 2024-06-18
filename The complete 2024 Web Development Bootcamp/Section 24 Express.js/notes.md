@@ -54,7 +54,7 @@ node your_app.js
 - HTTP Methodscoea
 
   - GET -> Retrieves information from the specified resource, and should be used to request data (not modify it).
-  - POST
+  - POST -> Sends data to the server for processing, usually reslulting in a change in the server state or side effects on the server.
   - PUT
   - PATCH
   - DELETE
