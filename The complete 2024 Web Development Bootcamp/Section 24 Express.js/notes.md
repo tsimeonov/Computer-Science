@@ -57,7 +57,7 @@ node your_app.js
   - POST -> Sends data to the server for processing, usually reslulting in a change in the server state or side effects on the server.
   - PUT -> Updates a current resource or creates it if it doesn't exist, with the client providing a complete updated copy of the resource.
   - PATCH -> Updates parts of an existing resource, with the client providing only the parts of the resource that needs to be updated.
-  - DELETE
+  - DELETE -> Removes the specified resource from the server.
 
 - Starting a server
 
