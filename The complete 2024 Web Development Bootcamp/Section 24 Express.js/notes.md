@@ -95,3 +95,11 @@ app.get("/about", (req, res) => {
 ```
 
 <h5>203. Postman</h5>
+
+HTTP Response Status Codes
+
+1. Information responses (100-199)
+2. Successful responses (200-299)
+3. Redirection messages (300-399)
+4. Clien erro response (400-499)
+5. Server error response (500-599)
