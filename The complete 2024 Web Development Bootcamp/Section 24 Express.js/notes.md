@@ -55,7 +55,7 @@ node your_app.js
 
   - GET -> Retrieves information from the specified resource, and should be used to request data (not modify it).
   - POST -> Sends data to the server for processing, usually reslulting in a change in the server state or side effects on the server.
-  - PUT
+  - PUT -> Updates a current resource or creates it if it doesn't exist, with the client providing a complete updated copy of the resource.
   - PATCH
   - DELETE
 
