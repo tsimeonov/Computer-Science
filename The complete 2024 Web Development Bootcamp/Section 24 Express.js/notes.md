@@ -53,7 +53,7 @@ node your_app.js
 
 - HTTP Methodscoea
 
-  - GET
+  - GET -> Retrieves information from the specified resource, and should be used to request data (not modify it).
   - POST
   - PUT
   - PATCH
