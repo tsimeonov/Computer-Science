@@ -138,3 +138,7 @@ app.listen(3000, () => {
 <h5>204: Introduction to Middelewares</h5>
 
 Middleware is a software that provides common services and capabilities to applications outside of what's offered by the operation system
+
+- Body Parser
+  Node.js body parsing middleware.
+  Parse incomming request bodies in a middleware before your handlers, availab,e under the `req.body` property.
