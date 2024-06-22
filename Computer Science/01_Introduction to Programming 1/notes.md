@@ -844,3 +844,5 @@ function draw() {
 ```
 
 <h5 style="color: LightBlue">Being creative withe nested loops</h5>
+
+#### 6.3 More work with arrays
