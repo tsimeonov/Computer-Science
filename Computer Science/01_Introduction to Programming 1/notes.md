@@ -842,3 +842,5 @@ function draw() {
   }
 }
 ```
+
+#### Lesson 6.3 Being creative withe nested loops
