@@ -843,4 +843,4 @@ function draw() {
 }
 ```
 
-#### Lesson 6.3 Being creative withe nested loops
+<h5 style="color: LightBlue">Being creative withe nested loops</h5>
