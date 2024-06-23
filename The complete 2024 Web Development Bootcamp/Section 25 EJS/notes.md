@@ -60,3 +60,4 @@ app.listen(3000, () => {
 - `<% console.log("helllo") %>` - JS Execute, it doesn't execute in the HTML
 - `<%- <h1>Hello</h1> %>` - Render HTML
 - `<%% %%>` - Show <% or %>
+- `<%# This is a comment %>` - A comment
