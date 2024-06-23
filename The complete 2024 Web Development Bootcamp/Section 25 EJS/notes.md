@@ -55,3 +55,5 @@ app.listen(3000, () => {
 ```
 
 <h5>209: EJS Tags</h5>
+
+- <%= `variable` %> - JS Output
