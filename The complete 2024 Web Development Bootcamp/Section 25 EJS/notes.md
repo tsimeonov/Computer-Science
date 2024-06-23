@@ -61,3 +61,4 @@ app.listen(3000, () => {
 - `<%- <h1>Hello</h1> %>` - Render HTML
 - `<%% %%>` - Show <% or %>
 - `<%# This is a comment %>` - A comment
+- `<%- include("headers.ejs")%>` - Insert another EJS file
