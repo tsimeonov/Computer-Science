@@ -6,3 +6,4 @@ EJS -> Embeded Javascript
 
 1. Install the `EJS language support` in VS Code.
 2. Initialise NPM and install `express` and `ejs`.
+3. Create the following files and folders: `index.js`, `views/index.js`.
