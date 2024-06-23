@@ -8,8 +8,13 @@
 </head>
 
 <body>
-    <h1>Hey it's <%= dayType %>, <%= advice %>
-    </h1>
+    <ul>
+        <% for (let i=0; i < fruits.length; i++) { %>
+            <li>
+                <%= fruits[i] %>
+            </li>
+            <%} %>
+    </ul>
 </body>
 
 </html>
