@@ -59,3 +59,4 @@ app.listen(3000, () => {
 - `<%= variable %>` - JS Output
 - `<% console.log("helllo") %>` - JS Execute, it doesn't execute in the HTML
 - `<%- <h1>Hello</h1> %>` - Render HTML
+- `<%% %%>` - Show <% or %>
