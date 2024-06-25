@@ -13,3 +13,5 @@
 <h6>1.1.5 io.js: The fork of Node.js</h6>
 
 In 2014 the communiny was unhappy with how things were running and that led to `io.js` developed separately from the original platform.
+
+<h6>1.1.6 Node.js reunited</h6>
