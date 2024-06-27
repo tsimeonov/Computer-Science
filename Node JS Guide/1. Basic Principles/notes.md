@@ -53,3 +53,5 @@ Examples of such work groups include the following:
 - Docker - The work group manages the official Docker images of the Node.js platform and ensures that they are kept up to date.
 
 <h6>1.2.5 OpenJS Foundation</h6>
+
+<h4>1.3 Versioning of Node.js</h4>
