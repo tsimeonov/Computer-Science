@@ -21,3 +21,5 @@ In 2015, the two projects io.js and Node.js were merged into the Node.js Foundat
 <h6>1.1.7 Deno: A new start in the JS Sky</h6>
 
 Deno is based on TypeScript by default and adds a fundamentally different module system.
+
+<h6>1.1.8 OpenJS Foundation</h6>
