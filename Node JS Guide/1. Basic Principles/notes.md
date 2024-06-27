@@ -40,3 +40,5 @@ Collaborators are designated by the TSC.
 Typical tasks of a collaborator include supporting users and new collaborators, improving Node.js source code and documentation, reviewing pull rquests and issues, participating in working groups and merging pull requests.
 
 <h6>1.2.3 Community Committee</h6>
+
+As the name implies, the Community Committee (CommComm) takes care of the Node.js community with a special focus on education and culture.
