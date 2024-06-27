@@ -35,3 +35,6 @@ There is a committe of several people who steer the development of the platform.
 The technical steering committee (TSC) is responsible for further developing the platform.
 
 <h6>1.2.2 Collaborators</h6>
+
+Collaborators are designated by the TSC.
+Typical tasks of a collaborator include supporting users and new collaborators, improving Node.js source code and documentation, reviewing pull rquests and issues, participating in working groups and merging pull requests.
