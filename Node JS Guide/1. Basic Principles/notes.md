@@ -51,3 +51,5 @@ Examples of such work groups include the following:
 - Release - This work group manages the release process of the Node.js platform, defining the content of the releases and taking care of LTS.
 - Streams - The streams work group is working to improve the patform's Stream API
 - Docker - The work group manages the official Docker images of the Node.js platform and ensures that they are kept up to date.
+
+<h6>1.2.5 OpenJS Foundation</h6>
