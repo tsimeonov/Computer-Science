@@ -25,3 +25,5 @@ Deno is based on TypeScript by default and adds a fundamentally different module
 <h6>1.1.8 OpenJS Foundation</h6>
 
 In 2019, the JS Fonundation and the Node.js Foundation merged to form the OpenJS Foundation.
+
+<h4>1.2 Organization of Node.js</h4>
