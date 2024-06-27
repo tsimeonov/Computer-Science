@@ -44,3 +44,10 @@ Typical tasks of a collaborator include supporting users and new collaborators, 
 As the name implies, the Community Committee (CommComm) takes care of the Node.js community with a special focus on education and culture.
 
 <h6>1.2.4 Work Groups</h6>
+
+The TSC establishes various work groups to have specific topics addressed separately by experts.
+Examples of such work groups include the following:
+
+- Release - This work group manages the release process of the Node.js platform, defining the content of the releases and taking care of LTS.
+- Streams - The streams work group is working to improve the patform's Stream API
+- Docker - The work group manages the official Docker images of the Node.js platform and ensures that they are kept up to date.
