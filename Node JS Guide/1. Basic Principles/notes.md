@@ -42,3 +42,5 @@ Typical tasks of a collaborator include supporting users and new collaborators, 
 <h6>1.2.3 Community Committee</h6>
 
 As the name implies, the Community Committee (CommComm) takes care of the Node.js community with a special focus on education and culture.
+
+<h6>1.2.4 Work Groups</h6>
