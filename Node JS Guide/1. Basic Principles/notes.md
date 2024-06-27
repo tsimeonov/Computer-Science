@@ -31,3 +31,5 @@ In 2019, the JS Fonundation and the Node.js Foundation merged to form the OpenJS
 There is a committe of several people who steer the development of the platform.
 
 <h6>1.2.1 Technical Steering Committee</h6>
+
+The technical steering committee (TSC) is responsible for further developing the platform.
