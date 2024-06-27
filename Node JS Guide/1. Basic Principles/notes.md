@@ -29,3 +29,5 @@ In 2019, the JS Fonundation and the Node.js Foundation merged to form the OpenJS
 <h4>1.2 Organization of Node.js</h4>
 
 There is a committe of several people who steer the development of the platform.
+
+<h6>1.2.1 Technical Steering Committee</h6>
