@@ -55,3 +55,5 @@ Examples of such work groups include the following:
 <h6>1.2.5 OpenJS Foundation</h6>
 
 <h4>1.3 Versioning of Node.js</h4>
+
+<h6>1.3.1 Long-Term Support Release</h6>
