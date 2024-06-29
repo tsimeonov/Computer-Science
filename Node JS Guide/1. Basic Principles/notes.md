@@ -60,11 +60,13 @@ Examples of such work groups include the following:
 
 A Node.js version with an even version number is trasitioned to an LTS release as soon as the next odd version is released.
 
-<h4>Benefits of Node.js</h4>
+<h4>1.4 Benefits of Node.js</h4>
 
-<h4>Areas of use for Node.js</h4>
+<h4>1.5 Areas of use for Node.js</h4>
 
 - Pure JavaScript - When working with Node.js you don't have to learn a new language dialect because you can fall back on the JS langiage core.
 - Optimazized engine - Node.js is based on google's V8 engine.
 - NonBlovking I/O - All operatons that don't take place directly in Node.js don't block the execution of your application.
 - Single threaded - A typical Node.js application runs in a single process.
+
+<h4>1.6 The core V8 Engine</h4>
