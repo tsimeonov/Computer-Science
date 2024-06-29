@@ -72,3 +72,7 @@ A Node.js version with an even version number is trasitioned to an LTS release a
 <h4>1.6 The core V8 Engine</h4>
 
 <h6>1.6.1 Memory model</h6>
+
+<h6>1.6.2 Accessing properties</h6>
+
+As you probably know JS doesn't know classes, the object model in JS is based on prototypes.
