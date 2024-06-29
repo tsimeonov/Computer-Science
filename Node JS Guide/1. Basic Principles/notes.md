@@ -66,3 +66,4 @@ A Node.js version with an even version number is trasitioned to an LTS release a
 
 - Pure JavaScript - When working with Node.js you don't have to learn a new language dialect because you can fall back on the JS langiage core.
 - Optimazized engine - Node.js is based on google's V8 engine.
+- NonBlovking I/O - All operatons that don't take place directly in Node.js don't block the execution of your application.
