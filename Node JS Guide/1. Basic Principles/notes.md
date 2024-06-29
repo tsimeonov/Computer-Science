@@ -61,3 +61,5 @@ Examples of such work groups include the following:
 A Node.js version with an even version number is trasitioned to an LTS release as soon as the next odd version is released.
 
 <h4>Benefits of Node.js</h4>
+
+<h4>Areas of use for Node.js</h4>
