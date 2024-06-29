@@ -76,3 +76,9 @@ A Node.js version with an even version number is trasitioned to an LTS release a
 <h6>1.6.2 Accessing properties</h6>
 
 As you probably know JS doesn't know classes, the object model in JS is based on prototypes.
+
+<h6>1.6.3 Machine Code Generation</h6>
+
+<h6>1.6.4 Garbage Collection</h6>
+
+Garbage collection refers to the process of clearing up the applications memory area in the manin area.
