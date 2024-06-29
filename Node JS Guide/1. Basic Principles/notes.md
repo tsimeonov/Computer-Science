@@ -87,4 +87,6 @@ Garbage collection refers to the process of clearing up the applications memory 
 
 <h6>1.7.1 Event loop</h6>
 
-The term direct driven means that object don't communicate directly with each other via function calls; instead events are used for this communication. Event-driven programming is therefore primarly used to control the program flow. In contrast to the classical approach. where the source code is run throug linearly, here functions are executed when certain events occur.
+The term `event driven ` means that objects don't communicate directly with each other via function calls; instead events are used for this communication. Event-driven programming is therefore primarly used to control the program flow. In contrast to the classical approach. where the source code is run throug linearly, here functions are executed when certain events occur.
+
+<h6>1.7.2 Input and Output</h6>
