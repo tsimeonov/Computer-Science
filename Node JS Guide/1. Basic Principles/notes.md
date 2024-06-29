@@ -63,3 +63,5 @@ A Node.js version with an even version number is trasitioned to an LTS release a
 <h4>Benefits of Node.js</h4>
 
 <h4>Areas of use for Node.js</h4>
+
+- Pure JavaScript - When working with Node.js you don't have to learn a new language dialect because you can fall back on the JS langiage core.
