@@ -92,3 +92,5 @@ The term `event driven ` means that objects don't communicate directly with each
 <h6>1.7.2 Input and Output</h6>
 
 <h6>1.7.3 libuv</h6>
+
+This library is primarily used to abstract differences between different operating systems.
