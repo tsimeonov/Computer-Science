@@ -96,3 +96,5 @@ The term `event driven ` means that objects don't communicate directly with each
 This library is primarily used to abstract differences between different operating systems.
 
 <h6>1.7.4 Domain Name System</h6>
+
+<h6>1.7.5 Crypto</h6>
