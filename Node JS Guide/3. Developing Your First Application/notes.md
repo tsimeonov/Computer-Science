@@ -1,6 +1,6 @@
 <h2>3. Developing Your First Application</h2>
 
-<h5>3.1 Interactive Mode</h5>
+<h5>3.1.1 Interactive Mode</h5>
 
 You can reach the interactive mode of Node.js, by entering the node command in the command line
 
@@ -17,3 +17,5 @@ Hello
 undefined
 >
 ```
+
+<h5>3.1.2 Other REPL Commands</h5>
