@@ -21,3 +21,7 @@ undefined
 ```
 
 <h5>3.1.2 Other REPL Commands</h5>
+
+| Commands |                                   Description                                   |
+| -------- | :-----------------------------------------------------------------------------: |
+| .break   | Terminates the current input .break is especially useful for multiple commands. |
