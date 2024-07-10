@@ -27,3 +27,4 @@ undefined
 |  .break  | Terminates the current input .break is especially useful for multiple commands. |
 |  .clear  |                           Serves as aliad for .break                            |
 |  .exit   |                           Terminates the Node.js REPL                           |
+|  .help   |                      Outputs a list of available commands.                      |
