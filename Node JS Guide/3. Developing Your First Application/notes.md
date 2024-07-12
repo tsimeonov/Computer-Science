@@ -31,3 +31,5 @@ undefined
 |  .load   |             Loads a saved session from a file into the current REPL             |
 |  .save   |            Saves the commands of the current REPL session to a file.            |
 | .editor  |       Opens the editor mode where you can define a block of instructions,       |
+
+There are two options available to exit the REPL: using the .exit command `Ctr + D` , while will also terminates the process immediately. Alternatively, you can press `Ctr + C` twice.
