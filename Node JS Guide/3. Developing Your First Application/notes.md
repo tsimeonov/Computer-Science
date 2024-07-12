@@ -29,3 +29,4 @@ undefined
 |  .exit   |                           Terminates the Node.js REPL                           |
 |  .help   |                      Outputs a list of available commands.                      |
 |  .load   |             Loads a saved session from a file into the current REPL             |
+|  .save   |            Saves the commands of the current REPL session to a file.            |
