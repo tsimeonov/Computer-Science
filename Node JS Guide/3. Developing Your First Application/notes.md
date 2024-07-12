@@ -28,3 +28,4 @@ undefined
 |  .clear  |                           Serves as aliad for .break                            |
 |  .exit   |                           Terminates the Node.js REPL                           |
 |  .help   |                      Outputs a list of available commands.                      |
+|  .load   |             Loads a saved session from a file into the current REPL             |
