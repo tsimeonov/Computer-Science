@@ -55,6 +55,10 @@ undefined
 
 <h5>3.1.5 REPL History</h5>
 
+The Node.js REPL has special environment variables. Two of them concern historicizing entries.
+- `NODE_REPL_HISTORY` - you can change the location of the history.
+- `NODE_REPL_HISTORY_SIZE` - determines how many lines the history file can hold.
+
 
 
 
