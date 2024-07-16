@@ -52,3 +52,12 @@ undefined
 ```
 
 <h5>3.1.4 Context of the REPL</h5>
+
+<h5>3.1.5 REPL History</h5>
+
+
+
+
+
+
+
