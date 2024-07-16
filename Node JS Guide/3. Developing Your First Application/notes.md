@@ -37,3 +37,7 @@ There are two options available to exit the REPL: using the .exit command `Ctr +
 <h5>3.1.3 Saving and Loading in the PERL</h5>
 
 If you want to run more extensive tests in PERL or record the results, you can use the `.save` and `.load` commands to save the previously executed commands to a file or load a file with JS instructions into the current REPL.
+
+```js
+> console.log('Hello World!'); Hello world! undefined > .save myShell.js Session saved to:myShell.js > .load myShell.js > console.log('Hello World!'); Hello world! undefined > 
+```
