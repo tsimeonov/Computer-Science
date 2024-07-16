@@ -50,3 +50,5 @@ Hello world!
 undefined
 > 
 ```
+
+<h5>3.1.4 Context of the REPL</h5>
