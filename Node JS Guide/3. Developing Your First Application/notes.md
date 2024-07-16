@@ -35,3 +35,5 @@ undefined
 There are two options available to exit the REPL: using the .exit command `Ctr + D` , while will also terminates the process immediately. Alternatively, you can press `Ctr + C` twice.
 
 <h5>3.1.3 Saving and Loading in the PERL</h5>
+
+If you want to run more extensive tests in PERL or record the results, you can use the `.save` and `.load` commands to save the previously executed commands to a file or load a file with JS instructions into the current REPL.
