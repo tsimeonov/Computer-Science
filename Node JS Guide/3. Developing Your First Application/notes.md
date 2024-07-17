@@ -64,4 +64,6 @@ The Node.js REPL has special environment variables. Two of them concern historic
 You can use the `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL.
 The three possibile values are as follows:
 
+- `sloppy` - The REPL is set to nonstrict mode.
+
 
