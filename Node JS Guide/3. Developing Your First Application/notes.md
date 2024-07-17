@@ -61,5 +61,7 @@ The Node.js REPL has special environment variables. Two of them concern historic
 
 <h5>3.1.6 REPL MODE</h5>
 
+You can use the `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL.
+The three possibile values are as follows:
 
 
