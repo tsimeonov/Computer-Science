@@ -75,3 +75,12 @@ The Node.js REPL allows you to not only navigate within the history using the ar
 You can use `Ctrl + R` and `Ctrl + S` to perform backwards and forward search runs in the history.
 
 <h5>3.1.8 Asynchronous Operations in REPL</h5>
+
+```js
+// Code example
+$ node
+Welcome to Node.js v16.8.0.
+Type ".help" for more information.
+> await Promise.resolve('Hello world');
+'Hello world'
+```
