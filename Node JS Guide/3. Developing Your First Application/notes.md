@@ -66,5 +66,6 @@ The three possibile values are as follows:
 
 - `sloppy` - The REPL is set to nonstrict mode.
 - `strict` - The strick value activates the strict mode.
+- `magic` - The value is now deprecated ans is used as an allias of sloppy.
 
 
