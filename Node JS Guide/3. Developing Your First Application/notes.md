@@ -68,4 +68,6 @@ The three possibile values are as follows:
 - `strict` - The strick value activates the strict mode.
 - `magic` - The value is now deprecated ans is used as an allias of sloppy.
 
+<h5>3.1.7 Searching in the REPL</h5>
+
 
