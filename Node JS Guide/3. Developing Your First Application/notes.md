@@ -76,6 +76,8 @@ You can use `Ctrl + R` and `Ctrl + S` to perform backwards and forward search ru
 
 <h6>3.1.8 Asynchronous Operations in REPL</h6>
 
+<h5>3.2 The First Application</h5>
+
 ```js
 // Code example
 $ node
