@@ -20,7 +20,7 @@ undefined
 >
 ```
 
-<h5>3.1.2 Other REPL Commands</h5>
+<h6>3.1.2 Other REPL Commands</h6>
 
 | Commands |                                   Description                                   |
 | :------: | :-----------------------------------------------------------------------------: |
@@ -34,7 +34,7 @@ undefined
 
 There are two options available to exit the REPL: using the .exit command `Ctr + D` , while will also terminates the process immediately. Alternatively, you can press `Ctr + C` twice.
 
-<h5>3.1.3 Saving and Loading in the PERL</h5>
+<h6>3.1.3 Saving and Loading in the PERL</h6>
 
 If you want to run more extensive tests in PERL or record the results, you can use the `.save` and `.load` commands to save the previously executed commands to a file or load a file with JS instructions into the current REPL.
 
@@ -51,16 +51,16 @@ undefined
 >
 ```
 
-<h5>3.1.4 Context of the REPL</h5>
+<h6>3.1.4 Context of the REPL</h6>
 
-<h5>3.1.5 REPL History</h5>
+<h6>3.1.5 REPL History</h6>
 
 The Node.js REPL has special environment variables. Two of them concern historicizing entries.
 
 - `NODE_REPL_HISTORY` - you can change the location of the history.
 - `NODE_REPL_HISTORY_SIZE` - determines how many lines the history file can hold.
 
-<h5>3.1.6 REPL MODE</h5>
+<h6>3.1.6 REPL MODE</h6>
 
 You can use the `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL.
 The three possibile values are as follows:
@@ -69,12 +69,12 @@ The three possibile values are as follows:
 - `strict` - The strick value activates the strict mode.
 - `magic` - The value is now deprecated ans is used as an allias of sloppy.
 
-<h5>3.1.7 Searching in the REPL</h5>
+<h6>3.1.7 Searching in the REPL</h6>
 
 The Node.js REPL allows you to not only navigate within the history using the arrow keys, but also to search for specific lines.
 You can use `Ctrl + R` and `Ctrl + S` to perform backwards and forward search runs in the history.
 
-<h5>3.1.8 Asynchronous Operations in REPL</h5>
+<h6>3.1.8 Asynchronous Operations in REPL</h6>
 
 ```js
 // Code example
