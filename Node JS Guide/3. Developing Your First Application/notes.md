@@ -88,3 +88,6 @@ Type ".help" for more information.
 ```
 <h6>3.2.1 Web Server in Node.js</h6>
 
+`var`, `let` and `const`
+In JS, there are now three wasys to define variables.
+If you define your variables by prefixing them withe the `var` keyword, this has the effect that variable is valid in the current function and all subfunctions.
