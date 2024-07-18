@@ -90,4 +90,5 @@ Type ".help" for more information.
 
 `var`, `let` and `const`
 In JS, there are now three wasys to define variables.
-If you define your variables by prefixing them withe the `var` keyword, this has the effect that variable is valid in the current function and all subfunctions.
+If you define your variables by prefixing them withe the `var` keyword, this has the effect that variable is valid in the current function and all subfunctions. 
+The `let` keyword enables you to define variables at the block level. For example, if you define a counter variable in a for loop with `let`, this variable is valid only within the loop.
