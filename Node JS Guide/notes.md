@@ -14,4 +14,9 @@
 - Building Apps.....
 
 <h5>1.3 Course Structure</h5>
+
 <h5>1.4 Bwowser Vs Server</h5>
+
+|  Browser  | Node.js  | 
+|:---:|:---:|
+|   |   |   
