@@ -19,4 +19,9 @@
 
 |  Browser  | Node.js  | 
 |:---:|:---:|
-|   |   |   
+|  DOM  |No DOM   | 
+|Window|No window|
+|Interactive Apps|Serve Side Apps|
+|No Filesystem|Filesystem|
+|Fragmentation|Versions|
+|ES 6 Modules|CommonJS|
