@@ -71,3 +71,17 @@ console.log(_dirname);
 ```
 
 <h5>1.8 Modules</h5>
+
+```node
+<!-- Modules Start up code -->
+const tom = "tom";
+const peter = "peter";
+
+const sayHi = (name) => {
+  console.log(`Hello there ${name}`);
+};
+
+sayHi("Susan");
+sayHi(tom);
+sayHi(peter);
+```
