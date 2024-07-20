@@ -4,7 +4,7 @@
 - Built on Chrome's V8 JS Engine
 - Big Community
 - Full-stack
-  
+
 <h5>1.2 Course Requirements</h5>
 
 - Intro
@@ -17,13 +17,22 @@
 
 <h5>1.4 Bwowser Vs Server</h5>
 
-|  Browser  | Node.js  | 
-|:---:|:---:|
-|  DOM  |No DOM   | 
-|Window|No window|
-|Interactive Apps|Serve Side Apps|
-|No Filesystem|Filesystem|
-|Fragmentation|Versions|
-|ES 6 Modules|CommonJS|
+|     Browser      |     Node.js     |
+| :--------------: | :-------------: |
+|       DOM        |     No DOM      |
+|      Window      |    No window    |
+| Interactive Apps | Serve Side Apps |
+|  No Filesystem   |   Filesystem    |
+|  Fragmentation   |    Versions     |
+|   ES 6 Modules   |    CommonJS     |
 
 <h5>1.5 REPL</h5
+
+REPL - Read, Eval, Print, Loop
+
+Accessing the REPL
+
+```
+// Type the command in the terminal
+node
+```
