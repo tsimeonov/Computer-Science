@@ -61,3 +61,4 @@ console.log(`Hey it's my first Node app!!!`);
 Global varialbes can be accessed anywhere in the application.
 
 `__dirname` - Path to current directory
+`__filename` - File name
