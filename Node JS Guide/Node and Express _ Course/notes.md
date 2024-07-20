@@ -56,7 +56,7 @@ console.log(`Hey it's my first Node app!!!`);
 <!-- run node and the file name `app.js` -->
 ```
 
-<h5>1.7 Global Variables</n5>
+<h5>1.7 Global Variables</h5>
 
 Global varialbes can be accessed anywhere in the application.
 
@@ -64,4 +64,4 @@ Global varialbes can be accessed anywhere in the application.
 `__filename` - File name
 `require` - Function to use modules (CommonJS)
 `module` - info about current module (file)
-`process` - Info about env where the program is being executed
+`process` - Info about environment where the program is being
