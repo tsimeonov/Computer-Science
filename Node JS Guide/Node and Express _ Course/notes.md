@@ -65,3 +65,9 @@ Global varialbes can be accessed anywhere in the application.
 `require` - Function to use modules (CommonJS)
 `module` - info about current module (file)
 `process` - Info about environment where the program is being
+
+```node
+console.log(_dirname);
+```
+
+<h5>1.8 Modules</h5>
