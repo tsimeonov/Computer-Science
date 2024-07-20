@@ -38,3 +38,5 @@ node
 ```
 
 <h5>1.6 CLI</h5>
+
+CLI - Command Line Interface
