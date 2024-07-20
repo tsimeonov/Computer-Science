@@ -55,3 +55,5 @@ console.log(`Hey it's my first Node app!!!`);
 
 <!-- run node and the file name `app.js` -->
 ```
+
+<h5>1.7 Globals</n5>
