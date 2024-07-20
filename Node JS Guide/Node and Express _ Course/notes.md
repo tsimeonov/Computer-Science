@@ -64,3 +64,4 @@ Global varialbes can be accessed anywhere in the application.
 `__filename` - File name
 `require` - Function to use modules (CommonJS)
 `module` - info about current module (file)
+`process` - Info about env where the program is being executed
