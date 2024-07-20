@@ -36,3 +36,5 @@ Accessing the REPL
 // Type the command in the terminal
 node
 ```
+
+<h5>1.6 CLI</h5>
