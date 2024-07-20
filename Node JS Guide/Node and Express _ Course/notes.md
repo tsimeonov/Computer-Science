@@ -63,3 +63,4 @@ Global varialbes can be accessed anywhere in the application.
 `__dirname` - Path to current directory
 `__filename` - File name
 `require` - Function to use modules (CommonJS)
+`module` - info about current module (file)
