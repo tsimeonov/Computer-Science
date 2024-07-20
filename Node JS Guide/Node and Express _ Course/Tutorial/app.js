@@ -1,12 +1,8 @@
-const secret = "SUPER SECRET";
+const names = require("./04-First-module");
+const sayHi = require("./05-Second-module");
 
-const tom = "tom";
-const peter = "peter";
-
-const sayHi = (name) => {
-  console.log(`Hello there ${name}`);
-};
+console.log(names);
 
 sayHi("Susan");
-sayHi(tom);
-sayHi(peter);
+sayHi(names.tom);
+sayHi(names.peter);
