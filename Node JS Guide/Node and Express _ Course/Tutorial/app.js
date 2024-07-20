@@ -1,3 +1,5 @@
+const secret = "SUPER SECRET";
+
 const tom = "tom";
 const peter = "peter";
 

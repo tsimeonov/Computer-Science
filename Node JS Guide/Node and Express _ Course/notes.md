@@ -87,3 +87,6 @@ sayHi(peter);
 ```
 
 <h5>1.9 First Module</h5>
+
+CommonJS, every file is module (by default)
+Modules - Encapsulated code (only share minimum)
