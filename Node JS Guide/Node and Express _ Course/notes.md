@@ -56,4 +56,8 @@ console.log(`Hey it's my first Node app!!!`);
 <!-- run node and the file name `app.js` -->
 ```
 
-<h5>1.7 Globals</n5>
+<h5>1.7 Global Variables</n5>
+
+Global varialbes can be accessed anywhere in the application.
+
+`__dirname` - Path to current directory
