@@ -104,3 +104,18 @@ module.exports.singlePerson = person;
 ```
 
 <h5>2.1 Mind Grenade</h5>
+
+```js
+// Code from 07-mind-grenade.js
+const num1 = 5;
+const num2 = 10;
+
+function addValues() {
+  console.log(`The sum is: ${num1 + num2}`);
+}
+
+addValues();
+
+// Invoke the function in app.js
+require("./07-mind-grenade");
+```

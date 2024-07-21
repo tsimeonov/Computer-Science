@@ -1,2 +1,1 @@
-const data = require("./06-alternative");
-console.log(data);
+require("./07-mind-grenade");
