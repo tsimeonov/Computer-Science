@@ -92,3 +92,13 @@ CommonJS, every file is module (by default)
 Modules - Encapsulated code (only share minimum)
 
 <h5>2.0 Alternative syntax </h5>
+
+```node
+// Use file 06-alternative.js
+const items = ["item1", "item2"];
+const person = {
+  name: "bob",
+};
+
+module.exports.singlePerson = person;
+```
