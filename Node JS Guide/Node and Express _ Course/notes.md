@@ -90,3 +90,5 @@ sayHi(peter);
 
 CommonJS, every file is module (by default)
 Modules - Encapsulated code (only share minimum)
+
+<h5>2.0 Alternative syntax </h5>
