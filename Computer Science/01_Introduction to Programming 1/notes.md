@@ -887,3 +887,5 @@ function keyPressed() {
   }
 }
 ```
+
+#### 6.4 Debugging Techniques
