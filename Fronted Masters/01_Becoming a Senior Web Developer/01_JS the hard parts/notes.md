@@ -30,3 +30,11 @@ const functionName = function (parameters) {
   // code to be executed
 };
 ```
+
+- Arrow Function (ES6)
+
+```js
+const functionName = (parameter) => {
+  // code to be executed
+};
+```
