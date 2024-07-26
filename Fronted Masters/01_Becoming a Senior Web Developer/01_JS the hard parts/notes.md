@@ -38,3 +38,10 @@ const functionName = (parameter) => {
   // code to be executed
 };
 ```
+
+Execution context:
+
+Created to run the code of a function has 2 parts (we've already seen them)
+
+- Thread of execution
+- Memory
