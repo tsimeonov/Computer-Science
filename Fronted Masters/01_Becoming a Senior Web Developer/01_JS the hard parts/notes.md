@@ -47,3 +47,5 @@ Created to run the code of a function has 2 parts (we've already seen them)
 - Memory
 
 <h6>1.3 Call Stack</h6>
+
+In JS, the call stack is a mechanism for keeping track of function calls. It's a stack data structure that operates in a "Last In, First Out" (LIFO) manner.
