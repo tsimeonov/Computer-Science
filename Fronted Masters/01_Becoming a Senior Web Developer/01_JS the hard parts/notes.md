@@ -45,3 +45,5 @@ Created to run the code of a function has 2 parts (we've already seen them)
 
 - Thread of execution
 - Memory
+
+<h6>1.3 Call Stack</h6>
