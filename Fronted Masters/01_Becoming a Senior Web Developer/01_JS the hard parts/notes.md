@@ -22,3 +22,11 @@ function functionName(parameters) {
   // code to be executed
 }
 ```
+
+- Function Expression
+
+```js
+const functionName = function (parameters) {
+  // code to be executed
+};
+```
