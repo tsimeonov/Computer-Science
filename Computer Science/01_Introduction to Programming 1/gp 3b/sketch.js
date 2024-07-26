@@ -31,7 +31,7 @@ function setup() {
   isFalling = false;
   isPlummeting = false;
 
-  collectable = { x_pos: 100, y_pos: 100, size: 50, isFound: false };
+  collectable = { x_pos: 100, y_pos: floorPos_y, size: 50, isFound: false };
 
   canyon = { x_pos: 0, width: 100 };
 }
@@ -46,7 +46,7 @@ function draw() {
   rect(0, floorPos_y, width, height - floorPos_y); //draw some green ground
 
   // Collectable
-  if (gameChar_x < collectable.y_pos) {
+  if (dist(gameChar_x, gameChar_y, collectable.x_pos, collectable.y_pos) < 5) {
     collectable.isFound = true;
   }
 
@@ -54,7 +54,7 @@ function draw() {
     fill(237, 194, 66);
     ellipse(
       collectable.x_pos - 50,
-      collectable.y_pos + 300,
+      collectable.y_pos - collectable.size,
       collectable.size - 10,
       collectable.size - 10
     );
@@ -62,17 +62,28 @@ function draw() {
 
     ellipse(
       collectable.x_pos - 50,
-      collectable.y_pos + 300,
+      collectable.y_pos - collectable.size,
       collectable.size - 20,
       collectable.size - 20
     );
     fill(255, 255, 255);
-    text("C", collectable.x_pos - 55, collectable.y_pos + 305);
+    text("C", collectable.x_pos - 55, collectable.y_pos - collectable.size);
   }
 
   // Draw the canyon
   fill(230, 170, 20);
   rect(canyon.x_pos + canyon.width, 430, 80, 150);
+
+  if (gameChar_x < 162 && gameChar_x > 100) {
+    isPlummeting = true;
+    console.log("Down the canyon");
+    gameChar_y += 10;
+  } else {
+    isPlummeting = false;
+    if (gameChar_y > floorPos_y) {
+      gameChar_y = floorPos_y;
+    }
+  }
 
   // The game character
   if (isLeft && isFalling) {
@@ -146,17 +157,6 @@ function draw() {
     fill(0);
     rect(gameChar_x - 15, gameChar_y - 5, 10, 10);
     rect(gameChar_x + 5, gameChar_y - 5, 10, 10);
-  }
-
-  if (gameChar_x < 162 && gameChar_x > 100) {
-    isPlummeting = true;
-    console.log("Down the canyon");
-    gameChar_y += 10;
-  } else {
-    isPlummeting = false;
-    if (gameChar_y > floorPos_y) {
-      gameChar_y = floorPos_y;
-    }
   }
 
   ///////////INTERACTION CODE//////////
