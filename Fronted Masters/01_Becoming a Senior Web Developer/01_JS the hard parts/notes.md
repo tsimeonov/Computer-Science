@@ -14,3 +14,11 @@ Saves 'data' like strings and arrays so we can use that data later - in it's `me
 Functions:
 
 In JS, a function is a block designed to perform a particular task.
+
+- Function Declaration
+
+```js
+function functionName(parameters) {
+  // code to be executed
+}
+```
