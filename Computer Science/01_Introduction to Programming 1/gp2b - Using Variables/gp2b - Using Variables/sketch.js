@@ -139,7 +139,7 @@ function draw() {
     mountain.x_pos + 140,
     mountain.y_pos + 340
   );
-
+  //   triangle(800, 440, 600, 200, 500, 440);
   triangle(
     mountain.x_pos + 200,
     mountain.y_pos + 340,
