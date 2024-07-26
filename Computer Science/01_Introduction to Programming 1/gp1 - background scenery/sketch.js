@@ -36,7 +36,7 @@ function draw() {
 
   //1. a cloud in the sky
   //... add your code here
-  fill(255, 255, 255); // white cloud
+  fill(255, 255, 255);
   ellipse(200, 150, 80, 80);
   ellipse(160, 150, 60, 60);
   ellipse(240, 150, 60, 60);
@@ -48,6 +48,10 @@ function draw() {
   //2. a mountain in the distance
   //... add your code here
 
+  fill(0, 155, 0);
+  triangle(850, 440, 700, 232, 550, 440);
+  triangle(800, 440, 600, 200, 500, 440);
+
   noStroke();
   fill(255);
   text("mountain", 500, 256);
@@ -55,8 +59,9 @@ function draw() {
   //3. a tree
   //... add your code here
   fill(120, 100, 40);
-  rect(900, 282, 60, 150); // tree trunk
-  //branches
+  rect(900, 282, 60, 150);
+
+  // branches
   fill(0, 155, 0);
   triangle(850, 332, 930, 232, 1010, 332);
   triangle(850, 282, 930, 182, 1010, 282);
@@ -69,6 +74,8 @@ function draw() {
   //NB. the canyon should go from ground-level to the bottom of the screen
 
   //... add your code here
+  fill(230, 170, 20);
+  rect(150, 430, 80, 150);
 
   noStroke();
   fill(255);
@@ -76,6 +83,13 @@ function draw() {
 
   //5. a collectable token - eg. a jewel, fruit, coins
   //... add your code here
+
+  fill(237, 194, 66);
+  ellipse(350, 400, 40, 40);
+  fill(225, 160, 52);
+  ellipse(350, 400, 30, 30);
+  fill(255, 255, 255);
+  text("C", 345, 405);
 
   noStroke();
   fill(255);
