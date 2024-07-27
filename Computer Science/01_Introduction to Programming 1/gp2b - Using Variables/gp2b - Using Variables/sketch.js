@@ -87,11 +87,10 @@ function draw() {
 
   // Canyon
   fill(230, 170, 20);
-  rect(canyon.x_pos + canyon.width, 430, 80, 150);
+  rect(canyon.x_pos, floorPos_y, canyon.width, height - floorPos_y);
 
   // Add the collectable
   fill(237, 194, 66);
-  //   ellipse(350, 400, 40, 40);
   ellipse(
     collectable.x_pos - 50,
     collectable.y_pos + 300,

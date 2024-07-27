@@ -216,9 +216,7 @@ function draw() {
   }
 
   // Check if collectable is found
-  if (
-    dist(gameChar_x, gameChar_y, collectable.x_pos, collectable.y_pos) < 265
-  ) {
+  if (dist(gameChar_x, gameChar_y, collectable.x_pos, collectable.y_pos) < 20) {
     collectable.isFound = true;
   }
 }
