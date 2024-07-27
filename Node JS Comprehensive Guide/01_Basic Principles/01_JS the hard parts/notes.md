@@ -17,3 +17,5 @@
 In June 2015, the two projects io.js and Node.js were merged into the Node.js Foundation.
 
 <h6>1.1.7 Deno: A new Star in the JS Sky</h6>
+
+<h6>1.1.8 OpenJS Foundation</h6>
