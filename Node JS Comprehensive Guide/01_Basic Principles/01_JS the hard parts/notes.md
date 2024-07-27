@@ -15,3 +15,5 @@
 <h6>1.1.6 Node.js Reunited</h6>
 
 In June 2015, the two projects io.js and Node.js were merged into the Node.js Foundation.
+
+<h6>1.1.7 Deno: A new Star in the JS Sky</h6>
