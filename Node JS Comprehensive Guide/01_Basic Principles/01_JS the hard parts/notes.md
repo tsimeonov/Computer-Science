@@ -11,3 +11,7 @@
 <h6>1.1.4 Node.js Conquers Windows</h6>
 
 <h6>1.1.5 io.js: The Fork of Node.js</h6>
+
+<h6>1.1.6 Node.js Reunited</h6>
+
+In June 2015, the two projects io.js and Node.js were merged into the Node.js Foundation.
