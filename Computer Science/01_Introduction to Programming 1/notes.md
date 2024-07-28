@@ -895,3 +895,5 @@ function keyPressed() {
 ## Week 13
 
 ### Topic 7: User defined functions and scope
+
+#### Lesson 7.1 Functions
