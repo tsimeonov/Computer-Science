@@ -907,3 +907,9 @@ function myFunction() {
   console.log("My function has been called");
 }
 ```
+
+Calling a function
+
+```js
+myFunction();
+```
