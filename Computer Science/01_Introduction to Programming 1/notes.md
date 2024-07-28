@@ -893,3 +893,5 @@ function keyPressed() {
 <h5 style="color: LightBlue">Common errors with traversing ans nested iteration</h5>
 
 ## Week 13
+
+### Topic 7: User defined functions and scope
