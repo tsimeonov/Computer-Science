@@ -897,3 +897,5 @@ function keyPressed() {
 ### Topic 7: User defined functions and scope
 
 #### Lesson 7.1 Functions
+
+<h5 style="color: LightBlue">User defined function</h5>
