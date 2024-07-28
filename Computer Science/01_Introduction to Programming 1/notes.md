@@ -899,3 +899,11 @@ function keyPressed() {
 #### Lesson 7.1 Functions
 
 <h5 style="color: LightBlue">User defined function</h5>
+
+Defining a function
+
+```js
+function myFunction() {
+  console.log("My function has been called");
+}
+```
