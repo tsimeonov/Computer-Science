@@ -913,3 +913,5 @@ Calling a function
 ```js
 myFunction();
 ```
+
+<h5 style="color: LightBlue">Returning early and the call stack</h5>
