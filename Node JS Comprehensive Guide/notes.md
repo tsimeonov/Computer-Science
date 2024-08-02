@@ -18,3 +18,8 @@ undefined
 ```
 
 <h5>3.1.2 Othe REPL Commands</h5>
+
+| Commands   |      Description      | 
+|:----------:|:-------------:|
+| .break |  Terminates the current input .break is especially useful for multiline commands |
+
