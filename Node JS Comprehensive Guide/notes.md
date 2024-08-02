@@ -2,6 +2,8 @@
 
 <h3>3.1 Interactive mode</h3>
 
+REPL - read-eval-print loop
+
 <h5>3.1.1 General Use</h5>
 
 ```js
