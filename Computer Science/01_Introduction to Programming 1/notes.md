@@ -915,3 +915,6 @@ myFunction();
 ```
 
 <h5 style="color: LightBlue">Returning early and the call stack</h5>
+
+
+#### Lesson 7.2 Function input and output
