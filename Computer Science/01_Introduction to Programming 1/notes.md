@@ -971,3 +971,5 @@ function drawFlower(x,y,h) {
 
   ```
 </details>
+
+<h5 style="color: LightBlue">Returning values from functions</h5>
