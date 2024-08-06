@@ -918,3 +918,5 @@ myFunction();
 
 
 #### Lesson 7.2 Function input and output
+
+<h5 style="color: LightBlue">Function arguments</h5>
