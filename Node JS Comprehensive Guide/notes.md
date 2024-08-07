@@ -22,4 +22,5 @@ undefined
 | Commands   |      Description      | 
 |:----------:|:-------------:|
 | .break |  Terminates the current input .break is especially useful for multiline commands |
+|.clear|Serves as alias for .break|
 
