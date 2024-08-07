@@ -30,3 +30,5 @@ undefined
 |.editor|Opens the editor mode where you can define a block of instructions|
 
 <h5>3.1.3 Saving and Loading in the PERL</h5>
+
+If you want to run more extensive tests in REPL or record the results, you can use `.save` and `.load` commands to save the previously executed commands to a file or load a file with JS.
