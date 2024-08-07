@@ -26,3 +26,4 @@ undefined
 |.exit|Terminates the Node.js REPL|
 |.help|Putputs a list of available commands|
 |.load <file>|Loads a saved session from a file into the current REPL|
+|.save|Saves the commands of the current REPL session to a file|
