@@ -33,7 +33,7 @@ undefined
 
 If you want to run more extensive tests in REPL or record the results, you can use `.save` and `.load` commands to save the previously executed commands to a file or load a file with JS.
 
-```perl
+```repl
 > console.log("Hello world");
 Hello world
 undefined
