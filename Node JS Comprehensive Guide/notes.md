@@ -56,7 +56,8 @@ The Node.js REPL has some special environment variables. Two of them concern his
 <h5>3.1.5 REPL Mode</h5>
 
 You can use `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL. 
-
+The three possible values are:
+- `sloppy` - The REPL is set to nonstrict mode.
 
 
 
