@@ -66,3 +66,5 @@ The three possible values are:
 The Node.js REPL allows you to not only navigate within the history using the arrow keys, but also to warch for specific lines.
 You can use `Ctrl + R` and `Ctrl + S` to perform backward and forward search runs in the history.
 
+<h5>3.1.8 Asynchronous Operations in the REPL</h5>
+
