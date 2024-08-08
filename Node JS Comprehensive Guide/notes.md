@@ -59,6 +59,7 @@ You can use `NODE_REPL_MODE` environment variable to determine in which mode you
 The three possible values are:
 - `sloppy` - The REPL is set to nonstrict mode.
 - `strict` - The strict value activates the strict mode
+- `magic` - This value is now deprecated and is used as an alias of `sloppy`
 
 
 
