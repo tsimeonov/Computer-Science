@@ -68,3 +68,14 @@ You can use `Ctrl + R` and `Ctrl + S` to perform backward and forward search run
 
 <h5>3.1.8 Asynchronous Operations in the REPL</h5>
 
+You can use the `await` keyword to wait for an asynchronous operation without registering a callback function.
+
+```repl
+// Using a Top-level Await in the REPL
+$ node
+Welcome to Node.js v16.8.0
+Type ".help" for more information
+> await Promise.resolve("Hello world");
+"Hello World"
+```
+
