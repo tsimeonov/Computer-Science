@@ -53,7 +53,7 @@ The Node.js REPL has some special environment variables. Two of them concern his
 - `NODE_REPL_HISTORY` - You can change the location of the history
 - `NODE_REPL_HISTORY_SIZE` - Determines how many lines the history file can hold before overwritting older commands
 
-<h5>3.1.5 REPL Mode</h5>
+<h5>3.1.6 REPL Mode</h5>
 
 You can use `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL. 
 The three possible values are:
@@ -61,5 +61,5 @@ The three possible values are:
 - `strict` - The strict value activates the strict mode
 - `magic` - This value is now deprecated and is used as an alias of `sloppy`
 
-
+<h5>3.1.7 Searching in the REPL</h5>
 
