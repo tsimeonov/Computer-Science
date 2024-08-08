@@ -63,3 +63,6 @@ The three possible values are:
 
 <h5>3.1.7 Searching in the REPL</h5>
 
+The Node.js REPL allows you to not only navigate within the history using the arrow keys, but also to warch for specific lines.
+You can use `Ctrl + R` and `Ctrl + S` to perform backward and forward search runs in the history.
+
