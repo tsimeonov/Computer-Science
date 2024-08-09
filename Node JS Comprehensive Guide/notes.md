@@ -110,7 +110,19 @@ Server is listening on 8800
 ```
 <h5>3.2.2 Extending the Web Server</h5>
 
+```js
+import {createServer} from "http";
 
+const server = createServer((request, response) => {
+    response.writeHead(200, {"content-type": "text/plain; charset=utf-8"});
+    response.write("Hello")
+    response.end("World\n")
+});
+
+server.listen(8080, () => {
+    console.log(`Server is listening to ${server.address().post}`)
+})
+```
 
 
 
