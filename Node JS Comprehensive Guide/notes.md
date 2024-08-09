@@ -83,6 +83,35 @@ Type ".help" for more information
 
 <h5>3.2.1 Web Server in Node.js</h5>
 
+```js
+// Save the code in a separate file called server.js
+
+import {createServer} from ''http';
+
+const server = createServer();
+server.listen(8080, () => {
+  console.log(`Server is listening on ${server.address().port}`)
+})
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
