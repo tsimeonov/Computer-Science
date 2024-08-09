@@ -95,11 +95,10 @@ server.listen(8080, () => {
 
 ```
 
+var, let and const 
 
-
-
-
-
+In Javascript, there are now three ways available to define variables.
+If you define your variables by prefixing them with the `var` keyword, this has the effect that the variable is valid in the current function and all subfuctions.
 
 
 
