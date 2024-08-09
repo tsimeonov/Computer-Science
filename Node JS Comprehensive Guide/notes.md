@@ -102,8 +102,12 @@ In Javascript, there are now three ways available to define variables.
 - The `let` keyword enables you to define variables at the block level. For example, if you define a counter variable in a for loop with `let`, this variable is valid only within the loop.
 - The third way to define a variable is with the `const` keyword. Such varables aren't variables in the true sense, but constants, which means that you can't change the valuw of the variable after the initial assignment.
 
+```js
+// Running the Web server on Node.js
 
-
+$ node server.js
+Server is listening on 8800
+```
 
 
 
