@@ -1034,3 +1034,5 @@ function recurse (x,y, scale) {
 
 
 #### Lesson 7.3 Variables and scope
+
+<h5 style="color: LightBlue">Scope - global and local with var</h5>
