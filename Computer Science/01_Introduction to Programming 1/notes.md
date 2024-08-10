@@ -1075,3 +1075,19 @@ function setup () {
 ### Topic 7: User defined functions and scope (cont.)
 
 <h5 style="color: LightBlue">Code philosophy: The "put off til later" approach</h5>
+
+```js
+// Function to test if a button has been pressed.
+// parameters: x, y of button center and size of button
+// return true if the button has been pressed false otherwise
+
+function checkButtonPress (x, y, size) {
+  //use the distance function to test how far the mouse is from the centre of button
+
+  if (dist(mouseX, mouseY, x, y) < size/2>) {
+    return true
+  } else {
+    return false
+  }
+}
+```
