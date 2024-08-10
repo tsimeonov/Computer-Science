@@ -1066,4 +1066,6 @@ function setup () {
 }
 ```
 
-#### Lesson 7.4 Debugging techniques
+#### Lesson 7.4 Debugging techniquesa
+
+<h5 style="color: LightBlue">Common errors with scope and how to debug them</h5>
