@@ -1065,3 +1065,5 @@ function setup () {
   console.log(var2); // 230
 }
 ```
+
+#### Lesson 7.4 Debugging techniques
