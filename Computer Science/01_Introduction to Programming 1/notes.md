@@ -1095,3 +1095,5 @@ function checkButtonPress (x, y, size) {
 ```
 
 #### 7.6 Game project 6: Adding game mechanics
+
+<h5 style="color: LightBlue">Game project 6: adding game mechanics</h5>
