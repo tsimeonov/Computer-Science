@@ -1093,3 +1093,5 @@ function checkButtonPress (x, y, size) {
   }
 }
 ```
+
+#### 7.6 Game project 6: Adding game mechanics
