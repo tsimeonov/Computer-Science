@@ -1052,3 +1052,5 @@ function myFunction() {
   var myFunctionLocalVariable = "This is a local"
 }
 ```
+
+<h5 style="color: LightBlue">Copying variables</h5>
