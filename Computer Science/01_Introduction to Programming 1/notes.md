@@ -1101,3 +1101,5 @@ function checkButtonPress (x, y, size) {
 ## Week 15
 
 ### Topic 8: Data structures and searches
+
+#### Lesson 8.1 Two dimensional arrays
