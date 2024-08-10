@@ -1054,3 +1054,14 @@ function myFunction() {
 ```
 
 <h5 style="color: LightBlue">Copying variables</h5>
+
+```js
+function setup () {
+  var var1 = 23
+  var var2 = var1
+
+  var2 *= 10
+  console.log(var1); // 23
+  console.log(var2); // 230
+}
+```
