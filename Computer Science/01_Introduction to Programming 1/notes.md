@@ -1105,3 +1105,13 @@ function checkButtonPress (x, y, size) {
 #### Lesson 8.1 Two dimensional arrays
 
 <h5 style="color: LightBlue">Initialising and accessing 2D arrays</h5>
+
+```js
+var my2DArray = [[1,2,3], [4,5,6], [7,8,9]]
+
+console.log(my2DArray[0]) // [1,2,3]
+
+console.log(my2DArray[0][0]) // 0
+console.log(my2DArray[1][2]) // 6
+console.log(my2DArray[2][3]) // undefined
+```
