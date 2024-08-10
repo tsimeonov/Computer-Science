@@ -1073,3 +1073,5 @@ function setup () {
 ## Week 14
 
 ### Topic 7: User defined functions and scope (cont.)
+
+<h5 style="color: LightBlue">Code philosophy: The "put off til later" approach</h5>
