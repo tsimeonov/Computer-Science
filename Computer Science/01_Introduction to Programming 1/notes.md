@@ -1099,3 +1099,5 @@ function checkButtonPress (x, y, size) {
 <h5 style="color: LightBlue">Game project 6: adding game mechanics</h5>
 
 ## Week 15
+
+### Topic 8: Data structures and searches
