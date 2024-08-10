@@ -1071,3 +1071,5 @@ function setup () {
 <h5 style="color: LightBlue">Common errors with scope and how to debug them</h5>
 
 ## Week 14
+
+### Topic 7: User defined functions and scope (cont.)
