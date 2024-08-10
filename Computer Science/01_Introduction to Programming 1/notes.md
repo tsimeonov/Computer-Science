@@ -1074,6 +1074,8 @@ function setup () {
 
 ### Topic 7: User defined functions and scope (cont.)
 
+#### Lesson 7.5 Code philosophy: The "put off til later" approach
+
 <h5 style="color: LightBlue">Code philosophy: The "put off til later" approach</h5>
 
 ```js
