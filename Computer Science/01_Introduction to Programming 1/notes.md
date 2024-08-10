@@ -1103,3 +1103,5 @@ function checkButtonPress (x, y, size) {
 ### Topic 8: Data structures and searches
 
 #### Lesson 8.1 Two dimensional arrays
+
+<h5 style="color: LightBlue">Initialising and accessing 2D arrays</h5>
