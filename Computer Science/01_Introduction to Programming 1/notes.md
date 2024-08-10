@@ -1036,3 +1036,19 @@ function recurse (x,y, scale) {
 #### Lesson 7.3 Variables and scope
 
 <h5 style="color: LightBlue">Scope - global and local with var</h5>
+
+```js
+var myGlobalVarialbe = "This is a global"
+
+function setup() {
+  var myLocalVariable = "This is local"
+}
+
+function draw() {
+  var anotherLocalVariable = "This is a local"
+}
+
+function myFunction() {
+  var myFunctionLocalVariable = "This is a local"
+}
+```
