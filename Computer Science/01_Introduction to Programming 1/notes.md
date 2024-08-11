@@ -1142,3 +1142,5 @@ function setup()
    console.log(`The meaning of life is at index ${meaningOfLife}`);
 }
 ```
+
+<h5 style="color: LightBlue">Find the highest/lowest value</h5>
