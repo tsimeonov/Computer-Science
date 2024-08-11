@@ -1223,3 +1223,5 @@ function draw()
 ## Week 16
 
 #### Lesson 8.4 Debugging techniques
+
+<h5 style="color: LightBlue">Common errors with data</h5>
