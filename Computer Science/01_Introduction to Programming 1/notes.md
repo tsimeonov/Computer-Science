@@ -1117,3 +1117,5 @@ console.log(my2DArray[2][3]) // undefined
 ```
 
 #### Lesson 8.2 Nesting objects and arrays
+
+<h5 style="color: LightBlue">Arrays of objects</h5>
