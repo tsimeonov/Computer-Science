@@ -1179,6 +1179,6 @@ function setup() {
     console.log(`The highest values is ${highestValue} at index ${highestIndex} `);
     console.log(`The smallest values is ${smallestValue} at index ${smallestIndex} `);
 }
-
-function draw() {}
 ```
+
+<h5 style="color: LightBlue">Exclude a set of values</h5>
