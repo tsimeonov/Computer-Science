@@ -1121,3 +1121,7 @@ console.log(my2DArray[2][3]) // undefined
 <h5 style="color: LightBlue">Arrays of objects</h5>
 
 <h5 style="color: LightBlue">Complex object properties</h5>
+
+#### Lesson 8.3 Search Patterns
+
+<h5 style="color: LightBlue">Find the matching value</h5>
