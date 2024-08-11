@@ -1125,3 +1125,20 @@ console.log(my2DArray[2][3]) // undefined
 #### Lesson 8.3 Search Patterns
 
 <h5 style="color: LightBlue">Find the matching value</h5>
+
+```js
+function setup()
+{
+   //find the first number 42
+   let meaningOfLife = 0
+   for(let i =0; i < numArray.length; i++) {
+      if (numArray[i] == 42) {
+         console.log(`Found the meaning at index ${i}`);
+         meaningOfLife = i;
+         break;
+      }
+   }
+
+   console.log(`The meaning of life is at index ${meaningOfLife}`);
+}
+```
