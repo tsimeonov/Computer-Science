@@ -1221,3 +1221,5 @@ function draw()
 ```
 
 ## Week 16
+
+#### Lesson 8.4 Debugging techniques
