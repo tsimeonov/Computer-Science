@@ -1115,3 +1115,5 @@ console.log(my2DArray[0][0]) // 0
 console.log(my2DArray[1][2]) // 6
 console.log(my2DArray[2][3]) // undefined
 ```
+
+#### Lesson 8.2 Nesting objects and arrays
