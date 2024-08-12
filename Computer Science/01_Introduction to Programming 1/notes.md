@@ -1235,3 +1235,14 @@ function draw()
 #### Lesson 9.1 Methods
 
 <h5 style="color: LightBlue">Methods: Objects which can do things</h5>
+
+```js
+let myObject = {
+  value: 123,
+  name: "An example object",
+  visible: true,
+  drawRandomRect: function(x,y) {
+    rect(x,y, random(10,100), random(10,100))
+  }
+}
+```
