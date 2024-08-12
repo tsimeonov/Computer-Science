@@ -1233,3 +1233,5 @@ function draw()
 ### Topic 9: Extending objects
 
 #### Lesson 9.1 Methods
+
+<h5 style="color: LightBlue">Methods: Objects which can do things</h5>
