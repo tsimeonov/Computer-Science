@@ -1231,3 +1231,5 @@ function draw()
 ## Week 17
 
 ### Topic 9: Extending objects
+
+#### Lesson 9.1 Methods
