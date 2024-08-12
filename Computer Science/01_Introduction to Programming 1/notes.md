@@ -1225,4 +1225,7 @@ function draw()
 #### Lesson 8.4 Debugging techniques
 
 <h5 style="color: LightBlue">Common errors with data</h5>
+
 <h5 style="color: LightBlue">Code philosophy: iterative code</h5>
+
+## Week 17
