@@ -1229,3 +1229,5 @@ function draw()
 <h5 style="color: LightBlue">Code philosophy: iterative code</h5>
 
 ## Week 17
+
+### Topic 9: Extending objects
