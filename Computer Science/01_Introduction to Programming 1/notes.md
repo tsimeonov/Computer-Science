@@ -1249,3 +1249,5 @@ let myObject = {
 
 
 <h5 style="color: LightBlue">This: making objects refer to themselves</h5>
+
+### Lesson 9.2 p5 vector-static and non-static methods
