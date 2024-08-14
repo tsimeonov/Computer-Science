@@ -1263,3 +1263,5 @@ let myObject = {
 <h5 style="color: LightBlue">Code philosophy: Googling for help/h5>
 
 ## Week 19
+
+### Lesson 10.1 The factory pattern
