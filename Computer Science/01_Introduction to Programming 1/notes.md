@@ -1267,3 +1267,5 @@ let myObject = {
 ### Lesson 10.1 The factory pattern
 
 <h5 style="color: LightBlue">The factory pattern</h5>
+
+### Lesson 10.2 Constructor function
