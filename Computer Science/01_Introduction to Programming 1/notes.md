@@ -1253,3 +1253,5 @@ let myObject = {
 ### Lesson 9.2 p5 vector-static and non-static methods
 
 <h5 style="color: LightBlue">Exploring a p5 object: Vector</h5>
+
+<h5 style="color: LightBlue">Bringing it all together</h5>
