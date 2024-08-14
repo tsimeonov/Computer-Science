@@ -1261,3 +1261,5 @@ let myObject = {
 ### Lesson 9.3 Code Philosophy
 
 <h5 style="color: LightBlue">Code philosophy: Googling for help/h5>
+
+## Week 19
