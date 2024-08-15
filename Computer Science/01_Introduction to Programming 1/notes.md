@@ -1321,6 +1321,7 @@ function MyObjectConstructor (x,y, name) {
     // draw to scale
   }
 
-  return this
+  // We can ommit this if we want
+  return this;
 }
 ```
