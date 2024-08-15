@@ -1303,7 +1303,9 @@ function MyObjectConstructor (x,y, name) {
 The new keyword
 
 ```js
+myObjects = []
+
 function setup () {
-  myObject = new myObjectConstructor(3,5, "Peter")
+  myObjects.push(new myObjectConstructor(3,5, "Peter"));
 }
 ```
