@@ -1269,3 +1269,5 @@ let myObject = {
 <h5 style="color: LightBlue">The factory pattern</h5>
 
 ### Lesson 10.2 Constructor function
+
+<h5 style="color: LightBlue">TYhe constructor function and the new keyword</h5>
