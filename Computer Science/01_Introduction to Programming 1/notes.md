@@ -1286,3 +1286,16 @@ var literallyMyObject = {
   }
 }
 ```
+
+Constructor functions are a "blueprint" for making objects.
+
+```js
+function MyObjectConstructor (x,y, name) {
+  this.x = x;
+  this.y = y;
+  this.name = name;
+  this.display = function () {
+    // rendering code
+  }
+}
+```
