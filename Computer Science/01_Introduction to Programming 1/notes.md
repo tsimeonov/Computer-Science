@@ -1309,3 +1309,18 @@ function setup () {
   myObjects.push(new myObjectConstructor(3,5, "Peter"));
 }
 ```
+
+What do constructor functions return
+
+```js
+function MyObjectConstructor (x,y, name) {
+  this.x = x;
+  this.y = y;
+  this.name = name;
+  this.display = function (scale) {
+    // draw to scale
+  }
+
+  return this
+}
+```
