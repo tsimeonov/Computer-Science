@@ -1,14 +1,8 @@
-var kitty;
-
-function setup()
-{
-	createCanvas(500, 500);
-	kitty = {
-		x: 100,
-		y: 100,
-		drawKitty: function()
-		{
-			stroke(0, 0, 0);
+function Kitty (xPos, yPos) {
+	this.x = xPos
+	this.y = yPos
+	this.drawKitty = function () {
+		stroke(0, 0, 0);
 			strokeWeight(4);
 			//V1
 			//fill(255,255,255);
@@ -55,11 +49,24 @@ function setup()
 			line(this.x + 170, this.y + 190, this.x + 275, this.y + 170);
 			line(this.x + 170, this.y + 190, this.x + 280, this.y + 190);
 			line(this.x + 170, this.y + 190, this.x + 275, this.y + 210);
-		}
-	};
+	}
+}
+
+var kitty1
+var kitty2
+
+function setup()
+{
+	createCanvas(1000, 500);
+	kitty1 = new Kitty(50,50)
+	kitty2 = new Kitty(500,50)
+
+
 }
 
 function draw()
 {
-	kitty.drawKitty();
+	// kitty.drawKitty();
+	kitty1.drawKitty()
+	kitty2.drawKitty()
 }
