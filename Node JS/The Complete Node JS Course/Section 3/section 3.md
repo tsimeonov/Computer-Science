@@ -21,3 +21,13 @@ This line imports the built-in fs (File System) module in Node.js. The fs module
 The writeFileSync method is used to write data to a file. It is a synchronous method, meaning it blocks the execution of further code until the file operation is completed.
 "notes.txt" is the name of the file that will be created or overwritten. If a file with this name already exists in the directory where the code is executed, it will be overwritten with the new content.
 "This file was created by Node js." is the content that will be written to the file.
+
+- Append a message to `note.txt`
+
+```js
+const fs = require("fs")
+
+
+fs.appendFileSync("notes.txt", "my name is Todor Simeonov")
+fs.appendFileSync("notes.txt", "I am 34 years old")
+```
