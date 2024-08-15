@@ -14,12 +14,12 @@ console.log(`Hello ${name}`);
 greet('world');
 Hello world
 undefined
-> 
+>
 ```
 
 <h5>3.1.2 Othe REPL Commands</h5>
 
-| Commands   |      Description      | 
+| Commands   |      Description      |
 |:----------:|:-------------:|
 | .break |  Terminates the current input .break is especially useful for multiline commands |
 |.clear|Serves as alias for .break|
@@ -55,7 +55,7 @@ The Node.js REPL has some special environment variables. Two of them concern his
 
 <h5>3.1.6 REPL Mode</h5>
 
-You can use `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL. 
+You can use `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL.
 The three possible values are:
 - `sloppy` - The REPL is set to nonstrict mode.
 - `strict` - The strict value activates the strict mode
@@ -84,9 +84,9 @@ Type ".help" for more information
 <h5>3.2.1 Web Server in Node.js</h5>
 
 ```js
-// Save the code in a separate file called server.js
+// Save the code in a separate file called server.mjs
 
-import {createServer} from ''http';
+import {createServer} from 'http';
 
 const server = createServer();
 server.listen(8080, () => {
@@ -95,7 +95,7 @@ server.listen(8080, () => {
 
 ```
 
-var, let and const 
+var, let and const
 
 In Javascript, there are now three ways available to define variables.
 - If you define your variables by prefixing them with the `var` keyword, this has the effect that the variable is valid in the current function and all subfuctions.
@@ -105,7 +105,7 @@ In Javascript, there are now three ways available to define variables.
 ```js
 // Running the Web server on Node.js
 
-$ node server.js
+$ node server.mjs
 Server is listening on 8800
 ```
 <h5>3.2.2 Extending the Web Server</h5>
@@ -123,11 +123,3 @@ server.listen(8080, () => {
     console.log(`Server is listening to ${server.address().post}`)
 })
 ```
-
-
-
-
-
-
-
-
