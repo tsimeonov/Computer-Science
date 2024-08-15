@@ -1299,3 +1299,11 @@ function MyObjectConstructor (x,y, name) {
   }
 }
 ```
+
+The new keyword
+
+```js
+function setup () {
+  myObject = new myObjectConstructor(3,5, "Peter")
+}
+```
