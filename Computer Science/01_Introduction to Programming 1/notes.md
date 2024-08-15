@@ -1271,3 +1271,18 @@ let myObject = {
 ### Lesson 10.2 Constructor function
 
 <h5 style="color: LightBlue">TYhe constructor function and the new keyword</h5>
+
+Object Literals versus Constuctor Functions
+
+Object literals define the object
+
+```js
+var literallyMyObject = {
+  x: 15,
+  y: 20,
+  name: "hal",
+  display: function () {
+    // rendering code
+  }
+}
+```
