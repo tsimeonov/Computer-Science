@@ -29,5 +29,7 @@ const fs = require("fs")
 
 
 fs.appendFileSync("notes.txt", "my name is Todor Simeonov")
-fs.appendFileSync("notes.txt", "I am 34 years old")
+fs.appendFileSync("notes.txt", " I am 34 years old")
 ```
+
+### 3.2: Importing your own files
