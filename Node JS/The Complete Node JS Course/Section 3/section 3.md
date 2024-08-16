@@ -92,3 +92,9 @@ To start using NPM the first step is:
 ```
 npm init
 ```
+
+2. Install a package
+
+```
+npm i validator
+```
