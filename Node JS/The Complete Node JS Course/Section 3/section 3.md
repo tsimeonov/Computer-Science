@@ -84,3 +84,11 @@ console.log(add(5,4)); // Output 9
 </details>
 
 ### 3.3: Importing npm Modules
+
+To start using NPM the first step is:
+
+1. Initialize NPM
+
+```
+npm init
+```
