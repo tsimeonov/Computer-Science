@@ -1,3 +1,3 @@
-const add = require("./utilities")
+const getNotes =require("./notes")
 
-console.log(add(5,4));
+console.log(getNotes());
