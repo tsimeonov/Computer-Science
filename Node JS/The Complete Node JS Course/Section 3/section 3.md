@@ -98,3 +98,11 @@ npm init
 ```
 npm i validator
 ```
+
+3. Use the package
+
+```js
+const validator = require("validator")
+
+console.log(validator.isEmail("todor@example.com"));
+```
