@@ -1,3 +1,18 @@
 ## Section 4: File system and command line args (Notes App)
 
 ### 4.1: Getting Input from the user
+
+argv => argument vector
+
+```js
+const command = process.argv[2]
+
+if (command === "add") {
+    console.log("Adding note!");
+} else if (command === 'remove') {
+    console.log("Removing note!");
+}
+
+// Type node app.js add => Output is Adding note!
+// Type node app.js remove => Output is Removing note!
+```
