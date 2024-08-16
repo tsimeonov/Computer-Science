@@ -38,7 +38,7 @@ fs.appendFileSync("notes.txt", " I am 34 years old")
 
 
 <details>
-  <summary>Code</summary>
+  <summary>Code Example</summary>
 
 ```js
 // Create a new file in this case the name is utilities.js
@@ -61,9 +61,10 @@ console.log(name);
 ```
 </details>
 
+##### Import a function
 
-
-Import a function
+<details>
+  <summary>Code Example</summary>
 
 ```js
 // code in the utilites.js
@@ -80,3 +81,4 @@ const add = require("./utilities")
 
 console.log(add(5,4)); // Output 9
 ```
+</details>
