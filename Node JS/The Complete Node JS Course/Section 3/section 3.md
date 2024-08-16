@@ -33,3 +33,25 @@ fs.appendFileSync("notes.txt", " I am 34 years old")
 ```
 
 ### 3.2: Importing your own files
+
+Import a variable
+
+```js
+// Create a new file in this case the name is utilities.js
+
+console.log("utilities.js");
+
+const name = "Todor"
+
+module.exports = name
+```
+
+```js
+// Code in the app.js
+const name = require("./utilities")
+
+console.log(name);
+
+// Output after running node app.js in the terminal
+// utilities.js Todor
+```
