@@ -1,10 +1,8 @@
-const validator = require("validator")
-const getNotes = require("./notes")
+const chalk = require('chalk')
+const getNotes = require('./notes.js')
 
-const chalk = require("chalk")
+const msg = getNotes()
+console.log(msg)
 
-console.log(getNotes());
-
-console.log(validator.isURL("https:/todor.bg"));
-
-console.log(chalk.green("Hello"));
+const greenMsg = chalk.green.inverse.bold('Success!')
+console.log(greenMsg)
