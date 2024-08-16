@@ -1,3 +1,3 @@
-const name = require("./utilities")
+const add = require("./utilities")
 
-console.log(name);
+console.log(add(5,4));

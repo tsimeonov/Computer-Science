@@ -2,4 +2,8 @@ console.log("utilities.js");
 
 const name = "Todor"
 
-module.exports = name
+const add = function (a,b) {
+    return a + b
+}
+
+module.exports = add

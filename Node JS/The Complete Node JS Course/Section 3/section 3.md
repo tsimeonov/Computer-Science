@@ -55,3 +55,21 @@ console.log(name);
 // Output after running node app.js in the terminal
 // utilities.js Todor
 ```
+
+Import a function
+
+```js
+// code in the utilites.js
+const add = function (a,b) {
+    return a + b
+}
+
+module.exports = add
+```
+
+```js
+// Code in the app.js
+const add = require("./utilities")
+
+console.log(add(5,4));
+```
