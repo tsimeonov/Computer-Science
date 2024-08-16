@@ -71,5 +71,5 @@ module.exports = add
 // Code in the app.js
 const add = require("./utilities")
 
-console.log(add(5,4));
+console.log(add(5,4)); // Output 9
 ```
