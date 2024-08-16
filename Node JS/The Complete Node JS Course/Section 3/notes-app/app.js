@@ -3,4 +3,4 @@ const getNotes =require("./notes")
 
 console.log(getNotes());
 
-console.log(validator.isEmail("adrew@example.com"));
+console.log(validator.isURL("https:/todor.bg"));
