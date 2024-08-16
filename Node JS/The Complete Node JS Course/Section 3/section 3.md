@@ -108,3 +108,5 @@ console.log(validator.isEmail("todor@example.com"));
 ```
 
 ### 3.4: Printing in Color
+
+If the `node_modules` folder doesn't exist run `npm install` command in the terminal.
