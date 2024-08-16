@@ -112,3 +112,7 @@ console.log(validator.isEmail("todor@example.com"));
 If the `node_modules` folder doesn't exist run `npm install` command in the terminal.
 
 ### 3.5: Global npm Modules and nodemon
+
+`nodemon` is a global npm package.
+A global package is not visible in the package.json
+It's installed in he operating system.
