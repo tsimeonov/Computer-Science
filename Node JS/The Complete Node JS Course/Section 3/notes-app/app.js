@@ -4,5 +4,6 @@ const getNotes = require('./notes.js')
 const msg = getNotes()
 console.log(msg)
 
-const greenMsg = chalk.green.inverse.bold('Success!')
+const greenMsg = chalk.red.bold.invers('Hello')
+
 console.log(greenMsg)
