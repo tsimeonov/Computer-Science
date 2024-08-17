@@ -93,3 +93,19 @@ Adding a new note! { _: [ 'add' ], title: '', '$0': 'app.js' }  // Output
 ```
 
 #### 4.3: Storing data with JSON
+
+```js
+const book = {
+    title: "Lord of the rings",
+    author: "Tolkin"
+}
+
+// Take a objects and returns a JSON
+const bookJSON = JSON.stringify(book)
+
+console.log(bookJSON);
+
+// Take a JSON and returns an obejct
+const parseData = JSON.parse(bookJSON)
+console.log(parseData.author);
+```
