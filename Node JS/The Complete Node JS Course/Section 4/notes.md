@@ -14,5 +14,7 @@ if (command === "add") {
 }
 
 // Type node app.js add => Output is Adding note!
-// Type node app.js remove => Output is Removing note!
+// Type node app.js remove => Output is Removinga note!
 ```
+
+### 4.2: Argument parsing with Yargs
