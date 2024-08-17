@@ -109,3 +109,21 @@ console.log(bookJSON);
 const parseData = JSON.parse(bookJSON)
 console.log(parseData.author);
 ```
+
+- Create a a new file "1-json.json" with a json string in it.
+
+```js
+const fs = require("fs")
+
+const book = {
+    title: "Lord of the rings",
+    author: "Tolkin"
+}
+
+const bookJSON = JSON.stringify(book)
+fs.writeFileSync("1-json.json", bookJSON)
+
+// code in the 1-json.json
+
+{"title":"Lord of the rings","author":"Tolkin"}
+```
