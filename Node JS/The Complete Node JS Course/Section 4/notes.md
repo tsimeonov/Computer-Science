@@ -19,6 +19,8 @@ if (command === "add") {
 
 ### 4.2: Argument parsing with Yargs
 
+Yargs - is a interactive command line tool, it helps with parsing arguments.
+
 
 If you want to add an additional flag for exmaple and title node will not parse the
 result
@@ -27,6 +29,16 @@ result
 node app.js add --title="Things to buy"
 
 <!-- The result is --title="Things to buy" -->
+```
+
+Example using `yargs`
+
+```terminal
+node app.js add --title="Things to buy"
+
+<!-- Output -->
+
+{ _: [ 'add' ], title: 'Things to buy', '$0': 'app.js' }
 ```
 
 <details>
