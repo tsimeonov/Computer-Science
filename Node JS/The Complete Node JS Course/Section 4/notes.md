@@ -18,3 +18,18 @@ if (command === "add") {
 ```
 
 ### 4.2: Argument parsing with Yargs
+
+
+If you want to add an additional flag for exmaple and title node will not parse the
+result
+
+```shel
+node app.js add --title="Things to buy"
+
+<!-- The result is --title="Things to buy" -->
+```
+
+<details>
+  <summary>Code Example</summary>
+
+</details>
