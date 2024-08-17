@@ -62,7 +62,32 @@ Adding a new note!
 { _: [ 'add' ], '$0': 'app.js' }
 ```
 
-<details>
-  <summary>Code Example</summary>
+- Make sure the argument (option) for the command is a string and it's required
 
-</details>
+```js
+yargs.command({
+    command: "add",
+    describe: "Add a new note",
+    builder: {
+        title: {
+            describe: "Note title",
+            demandOption: true,
+            type: "string"
+        }
+    },
+    handler: function (argv) {
+        console.log("Adding a new note!", argv);
+    }
+})
+```
+
+.args vs yargs
+
+```js
+yargs.parse()
+console.log(yargs.argv);
+
+// The output for this two commands is the same
+
+Adding a new note! { _: [ 'add' ], title: '', '$0': 'app.js' }  // Output
+```
