@@ -41,6 +41,27 @@ node app.js add --title="Things to buy"
 { _: [ 'add' ], title: 'Things to buy', '$0': 'app.js' }
 ```
 
+- Create a new command using yargs
+
+```js
+// Create add command
+yargs.command({
+    command: "add",
+    describe: "Add a new note",
+    handler: function () {
+        console.log("Adding a new note!");
+    }
+})
+```
+
+```terminal
+node app.js add
+
+<!-- Output -->
+Adding a new note!
+{ _: [ 'add' ], '$0': 'app.js' }
+```
+
 <details>
   <summary>Code Example</summary>
 
