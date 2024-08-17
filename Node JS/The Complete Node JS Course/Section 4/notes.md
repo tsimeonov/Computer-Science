@@ -91,3 +91,5 @@ console.log(yargs.argv);
 
 Adding a new note! { _: [ 'add' ], title: '', '$0': 'app.js' }  // Output
 ```
+
+#### 4.3: Storing data with JSON
