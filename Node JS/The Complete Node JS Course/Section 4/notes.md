@@ -48,7 +48,7 @@ node app.js add --title="Things to buy"
 { _: [ 'add' ], title: 'Things to buy', '$0': 'app.js' }
 ```
 
-- Create a new command using yargs
+###### Create a new command using yargs
 
 
 <details>
@@ -75,7 +75,8 @@ Adding a new note!
 
 </details>
 
-- Make sure the argument (option) for the command is a string and it's required
+
+###### Make sure the argument (option) for the command is a string and it's required
 
 ```js
 yargs.command({
@@ -107,6 +108,10 @@ Adding a new note! { _: [ 'add' ], title: '', '$0': 'app.js' }  // Output
 
 #### 4.3: Storing data with JSON
 
+
+<details>
+  <summary>Code example</summary>
+
 ```js
 const book = {
     title: "Lord of the rings",
@@ -123,7 +128,10 @@ const parseData = JSON.parse(bookJSON)
 console.log(parseData.author);
 ```
 
-- Create a a new file "1-json.json" with a json string in it.
+</details>
+
+
+###### Create a a new file "1-json.json" with a json string in it.
 
 ```js
 const fs = require("fs")
