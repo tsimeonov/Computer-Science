@@ -153,3 +153,17 @@ console.log(dataBuffer.toString());
 // OUTPUT
 // {"title":"Lord of the rings","author":"Tolkin"}
 ```
+
+- Read the title from another file
+
+```js
+const dataBuffer = fs.readFileSync('1-json.json')
+const dataJSON = dataBuffer.toString()
+
+const data = JSON.parse(dataJSON)
+
+console.log(data.title);
+
+// Output
+// Lord of the rings
+```
