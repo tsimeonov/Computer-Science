@@ -24,7 +24,6 @@ if (command === "add") {
 </details>
 
 
-
 ### 4.2: Argument parsing with Yargs
 
 Yargs - is a interactive command line tool, it helps with parsing arguments.
@@ -51,6 +50,10 @@ node app.js add --title="Things to buy"
 
 - Create a new command using yargs
 
+
+<details>
+  <summary>Code example</summary>
+
 ```js
 // Create add command
 yargs.command({
@@ -69,6 +72,8 @@ node app.js add
 Adding a new note!
 { _: [ 'add' ], '$0': 'app.js' }
 ```
+
+</details>
 
 - Make sure the argument (option) for the command is a string and it's required
 
