@@ -4,7 +4,11 @@
 
 argv => argument vector
 
-```js
+
+<details>
+  <summary>Code exmaple</summary>
+
+  ```js
 const command = process.argv[2]
 
 if (command === "add") {
@@ -16,6 +20,10 @@ if (command === "add") {
 // Type node app.js add => Output is Adding note!
 // Type node app.js remove => Output is Removinga note!
 ```
+
+</details>
+
+
 
 ### 4.2: Argument parsing with Yargs
 
@@ -204,5 +212,15 @@ console.log(dataJSON);
 // After the code runs
 {"name":"Todor","planet":"Earth","age":35}
   ```
+
+</details>
+
+
+
+
+
+<details>
+  <summary>Solution</summary>
+
 
 </details>
