@@ -176,3 +176,33 @@ The chllenge is to work woth JSON and the file system
 2. Change the name and age property using your info
 3. Stringify the changed object and overwritte the original data
 4. Test your work by viewing data in the JSON file
+
+<details>
+  <summary>Solution Code</summary>
+
+  ```javascript
+const dataBuffer = fs.readFileSync("1-json.json")
+const dataJSON = dataBuffer.toString()
+
+const user = JSON.parse(dataJSON)
+
+user.name = "Todor"
+user.age = 35
+
+const userJSON = JSON.stringify(user)
+fs.writeFileSync("1-json.json", userJSON)
+
+console.log(dataJSON);
+  ```
+
+  ```json
+// Code in the the 1-json-json
+
+// Before the code runs
+{"name":"Andrew","planet":"Earth","age":23}
+
+// After the code runs
+{"name":"Todor","planet":"Earth","age":35}
+  ```
+
+</details>
