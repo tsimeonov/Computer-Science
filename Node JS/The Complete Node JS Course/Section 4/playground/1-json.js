@@ -10,4 +10,4 @@ const fs = require("fs")
 
 const dataBuffer = fs.readFileSync('1-json.json')
 
-console.log(dataBuffer);
+console.log(dataBuffer.toString());
