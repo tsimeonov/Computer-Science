@@ -149,7 +149,7 @@ fs.writeFileSync("1-json.json", bookJSON)
 {"title":"Lord of the rings","author":"Tolkin"}
 ```
 
-- Create a data buffer
+###### Create a data buffer
 
 ```js
 const fs = require("fs")
@@ -162,7 +162,7 @@ console.log(dataBuffer);
 // <Buffer 7b 22 74 69 74 6c 65 22 3a 22 4c 6f 72 64 20 6f 66 20 74 68 65 20 72 69 6e 67 73 22 2c 22 61 75 74 68 6f 72 22 3a 22 54 6f 6c 6b 69 6e 22 7d>
 ```
 
-- Create a data buffer as a string
+###### Create a data buffer as a string
 
 ```js
 const fs = require("fs")
@@ -175,7 +175,7 @@ console.log(dataBuffer.toString());
 // {"title":"Lord of the rings","author":"Tolkin"}
 ```
 
-- Read the title from another file
+###### Read the title from another file
 
 ```js
 const dataBuffer = fs.readFileSync('1-json.json')
@@ -189,7 +189,7 @@ console.log(data.title);
 // Lord of the rings
 ```
 
-- CHALLENGE
+###### CHALLENGE
 
 The chllenge is to work woth JSON and the file system
 
