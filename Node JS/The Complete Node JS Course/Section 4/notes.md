@@ -127,3 +127,17 @@ fs.writeFileSync("1-json.json", bookJSON)
 
 {"title":"Lord of the rings","author":"Tolkin"}
 ```
+
+- Create a data buffer
+
+
+```js
+const fs = require("fs")
+
+const dataBuffer = fs.readFileSync('1-json.json')
+
+console.log(dataBuffer);
+
+// OUTPUT
+// <Buffer 7b 22 74 69 74 6c 65 22 3a 22 4c 6f 72 64 20 6f 66 20 74 68 65 20 72 69 6e 67 73 22 2c 22 61 75 74 68 6f 72 22 3a 22 54 6f 6c 6b 69 6e 22 7d>
+```
