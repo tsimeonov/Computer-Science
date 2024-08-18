@@ -167,3 +167,12 @@ console.log(data.title);
 // Output
 // Lord of the rings
 ```
+
+- CHALLENGE
+
+The chllenge is to work woth JSON and the file system
+
+1. Load and parse the JSON data
+2. Change the name and age property using your info
+3. Stringify the changed object and overwritte the original data
+4. Test your work by viewing data in the JSON file
