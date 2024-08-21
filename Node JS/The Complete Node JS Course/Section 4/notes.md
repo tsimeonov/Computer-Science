@@ -6,7 +6,7 @@ argv => argument vector
 
 
 <details>
-  <summary>Code exmaple</summary>
+  <summary>Code example</summary>
 
   ```js
 const command = process.argv[2]
