@@ -29,7 +29,7 @@ if (command === "add") {
 Yargs - is a interactive command line tool, it helps with parsing arguments.
 
 
-If you want to add an additional flag for exmaple and title node will not parse the
+If you want to add an additional flag for exmaple and title, node.js will not parse the
 result
 
 ```shel
