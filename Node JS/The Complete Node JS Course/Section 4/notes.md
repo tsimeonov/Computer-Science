@@ -40,7 +40,7 @@ node app.js add --title="Things to buy"
 
 Example using `yargs`
 
-```terminal
+```shel
 node app.js add --title="Things to buy"
 
 <!-- Output -->
@@ -65,7 +65,7 @@ yargs.command({
 })
 ```
 
-```terminal
+```shel
 node app.js add
 
 <!-- Output -->
