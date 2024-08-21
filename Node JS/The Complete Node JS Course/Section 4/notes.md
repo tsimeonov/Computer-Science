@@ -191,7 +191,7 @@ console.log(data.title);
 
 ###### CHALLENGE
 
-The chllenge is to work woth JSON and the file system
+The chllenge is to work with JSON and the file system
 
 1. Load and parse the JSON data
 2. Change the name and age property using your info
