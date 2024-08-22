@@ -234,6 +234,8 @@ The code can be found in the n3-04-06-adding-note.
 
 #### 4.5: Removing a note
 
+The code can be found in the n3-04-07-removing-note.
+
 
 <details>
   <summary>Solution</summary>
