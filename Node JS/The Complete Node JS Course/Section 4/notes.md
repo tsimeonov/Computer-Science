@@ -232,6 +232,8 @@ console.log(dataJSON);
 
 The code can be found in the n3-04-06-adding-note.
 
+#### 4.5: Removing a note
+
 
 <details>
   <summary>Solution</summary>
