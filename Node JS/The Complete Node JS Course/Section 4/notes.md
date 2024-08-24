@@ -216,7 +216,7 @@ fs.writeFileSync("1-json.json", userJSON)
 console.log(dataJSON);
   ```
 
-  ```json
+  ```javascript
 // Code in the the 1-json-json
 
 // Before the code runs
