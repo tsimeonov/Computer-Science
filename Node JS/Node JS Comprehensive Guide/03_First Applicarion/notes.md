@@ -93,6 +93,14 @@ Type ".help" for more information
   import {createServer} from 'http';
   ```
 
+  - Step 2: Creating the Server
+    - The `createServer()` function is called to create a new HTTP server instance. However, unlike the previous example, no request handler function (callback) is provided as an argument.
+    - Without a request handler, the server will not respond to incoming HTTP requests with any content. Instead, it will return a `404 Not Found` status for every request, since no handling logic is provided.
+
+  ```js
+  const server = createServer();
+  ```
+
 
 </details>
 
@@ -102,7 +110,7 @@ Type ".help" for more information
 
 
 
-const server = createServer();
+
 server.listen(8080, () => {
   console.log(`Server is listening on ${server.address().port}`)
 })
