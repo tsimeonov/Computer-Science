@@ -112,13 +112,28 @@ Server is listening on 8800
 
 The code snippet is a basic example of how to create an HTTP server in Node.js using the built-in `http` module.
 
-Step 1: Importing the HTTP module
+- Step 1: Importing the HTTP module
 
 Import the `createServer` function from `http` module, which is a core module in Node.js for creating HTTP servers.
 
 ```js
 import {createServer} from "http";
 ```
+
+- Step 2: Creating the Server
+
+  - `createServer` is called to create a new HTTP server. This functio takes a callback function as an argument. The callback is invoked every time a request is made to the server.
+  - Callback function:
+    - Parameters:
+      - `request`: This object contains information about the incomming HTTP request (e.g, method, headers, URL)
+      - `response`: This object is used to send a response back to the client
+    - Response Handling
+      - `response.writeHead(200, {"content-type": "text/plain; charset=utf-8"});`
+      This line sends a response header to the client. The status code is `200` indicates that the request was successful. The `content-type` is set to `text/plain` with UTF-8 encoding, meanding the response will be a plain text/
+      -  `response.write("Hello")`
+      This sends the string "Hello" as part of the response body.
+      - `response.end("World\n")`
+      This ends the response, sending the string `World` and a newline character `\n` to the client. After calling `end` , the response is complete, and no further data can be sent.
 
 ```js
 // Step 2: Creating the server
