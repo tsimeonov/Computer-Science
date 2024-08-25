@@ -83,10 +83,24 @@ Type ".help" for more information
 
 <h5>3.2.1 Web Server in Node.js</h5>
 
+<details>
+  <summary>Code snippet (more info)</summary>
+
+  - Step 1: Importing the HTTP Module
+  This line imports the `createServer` function from the `http` module, which is part of Node.js's core modules. The `http` module provides the functionality to create and manage an `HTTP` server.
+
+  ```js
+  import {createServer} from 'http';
+  ```
+
+
+</details>
+
+
 ```js
 // Save the code in a separate file called server.mjs
 
-import {createServer} from 'http';
+
 
 const server = createServer();
 server.listen(8080, () => {
