@@ -83,6 +83,8 @@ Type ".help" for more information
 
 <h5>3.2.1 Web Server in Node.js</h5>
 
+This code snippet creates a basic HTTP server using Node.js from Listing 3_9
+
 <details>
   <summary>Code snippet (more info)</summary>
 
@@ -101,19 +103,19 @@ Type ".help" for more information
   const server = createServer();
   ```
 
+  - Step 3: Listening on POrt 8080
+    - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080.
+    - The second argument is a callback function that is executed once the server successfully starts listening.
+    - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
+
+    ```js
+server.listen(8080, () => {
+  console.log(`Server is listening on ${server.address().port}`)
+})
 
 </details>
 
 
-```js
-// Save the code in a separate file called server.mjs
-
-
-
-
-server.listen(8080, () => {
-  console.log(`Server is listening on ${server.address().port}`)
-})
 
 ```
 
