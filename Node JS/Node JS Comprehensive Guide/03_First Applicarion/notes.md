@@ -146,14 +146,12 @@ const server = createServer((request, response) => {
 
 ```
 
+- Step 3: Listening on Port 8080
+  - `server.listen(8080, () => {...}` tells the server to start listening for incomming connections on port 8080.
+  - The callback function passes to `listen` is executed once the server starts listening.
+  - Inside the callback, `console.log` prints a message to the console indicating that the server is listening on pot 8080
+
 ```js
-// Lisitng 3.11
-
-//
-
-
-
-
 server.listen(8080, () => {
     console.log(`Server is listening to ${server.address().post}`)
 })
