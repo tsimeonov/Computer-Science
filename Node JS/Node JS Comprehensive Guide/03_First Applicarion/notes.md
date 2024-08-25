@@ -112,7 +112,11 @@ Server is listening on 8800
 
 The code snippet for listing 3_11 is a basic example of how to create an HTTP server in Node.js using the built-in `http` module.
 
-- Step 1: Importing the HTTP module
+
+<details>
+  <summary>Code Snippet (more info)</summary>
+
+  - Step 1: Importing the HTTP module
 
 Import the `createServer` function from `http` module, which is a core module in Node.js for creating HTTP servers.
 
@@ -156,3 +160,16 @@ server.listen(8080, () => {
     console.log(`Server is listening to ${server.address().post}`)
 })
 ```
+
+</details>
+
+
+
+
+<details>
+  <summary>Solution</summary>
+
+  ```javascript
+
+  ```
+</details>
