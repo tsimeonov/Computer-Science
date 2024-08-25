@@ -110,7 +110,11 @@ Server is listening on 8800
 ```
 <h5>3.2.2 Extending the Web Server</h5>
 
+The code snippet is a basic example of how to create an HTTP server in Node.js using the built-in `http` module.
+
 ```js
+// Lisitng 3.11
+
 import {createServer} from "http";
 
 const server = createServer((request, response) => {
