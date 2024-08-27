@@ -186,9 +186,17 @@ server.listen(8080, () => {
 
 <h5>3.2.3: Creating an HTML Response</h5>
 
+<details>
+  <summary>Code Example Listing 3.12</summary>
+
+- Step 1: Importing HTTP module
+  This code helps you create an HTTP Server.
+
 ```js
 import { createServer } from "http";
+```
 
+```js
 const server = createServer((request, response) => {
   response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
 
@@ -211,6 +219,8 @@ server.listen(8080, () => {
   );
 });
 ```
+
+</details>
 
 <details>
   <summary>Solution</summary>
