@@ -196,6 +196,18 @@ server.listen(8080, () => {
 import { createServer } from "http";
 ```
 
+Step 2: Creating the server
+
+- The `createServer` function is called to create a new server. This server takes a callback - function with two arguments: request and `response`.
+- The `request` object represents the incoming request from a client (like a browser).
+- The `response` object is used to send a response back to the client.
+
+```js
+const server = createServer((request, response) => {
+  response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+});
+```
+
 ```js
 const server = createServer((request, response) => {
   response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
