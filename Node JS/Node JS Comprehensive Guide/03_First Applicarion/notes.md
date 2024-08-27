@@ -184,31 +184,11 @@ server.listen(8080, () => {
 
 </details>
 
-<h5>3.2.3: Creating an HTML Response</h5>
-
-<details>
-  <summary>Code Example Listing 3.12</summary>
-
-- Step 1: Importing HTTP module
-  This code helps you create an HTTP Server.
+<h5>3.2.3: Creating the HTML response</h5>
 
 ```js
 import { createServer } from "http";
-```
 
-Step 2: Creating the server
-
-- The `createServer` function is called to create a new server. This server takes a callback - function with two arguments: request and `response`.
-- The `request` object represents the incoming request from a client (like a browser).
-- The `response` object is used to send a response back to the client.
-
-```js
-const server = createServer((request, response) => {
-  response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
-});
-```
-
-```js
 const server = createServer((request, response) => {
   response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
 
@@ -231,14 +211,3 @@ server.listen(8080, () => {
   );
 });
 ```
-
-</details>
-
-<details>
-  <summary>Solution</summary>
-
-```javascript
-
-```
-
-</details>
