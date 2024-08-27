@@ -19,15 +19,15 @@ undefined
 
 <h5>3.1.2 Othe REPL Commands</h5>
 
-| Commands   |      Description      |
-|:----------:|:-------------:|
-| .break |  Terminates the current input .break is especially useful for multiline commands |
-|.clear|Serves as alias for .break|
-|.exit|Terminates the Node.js REPL|
-|.help|Putputs a list of available commands|
-|.load <file>|Loads a saved session from a file into the current REPL|
-|.save|Saves the commands of the current REPL session to a file|
-|.editor|Opens the editor mode where you can define a block of instructions|
+|   Commands   |                                   Description                                   |
+| :----------: | :-----------------------------------------------------------------------------: |
+|    .break    | Terminates the current input .break is especially useful for multiline commands |
+|    .clear    |                           Serves as alias for .break                            |
+|    .exit     |                           Terminates the Node.js REPL                           |
+|    .help     |                      Putputs a list of available commands                       |
+| .load <file> |             Loads a saved session from a file into the current REPL             |
+|    .save     |            Saves the commands of the current REPL session to a file             |
+|   .editor    |       Opens the editor mode where you can define a block of instructions        |
 
 <h5>3.1.3 Saving and Loading in the PERL</h5>
 
@@ -50,6 +50,7 @@ undefined
 <h5>3.1.5 REPL History</h5>
 
 The Node.js REPL has some special environment variables. Two of them concern historicing entries.
+
 - `NODE_REPL_HISTORY` - You can change the location of the history
 - `NODE_REPL_HISTORY_SIZE` - Determines how many lines the history file can hold before overwritting older commands
 
@@ -57,6 +58,7 @@ The Node.js REPL has some special environment variables. Two of them concern his
 
 You can use `NODE_REPL_MODE` environment variable to determine in which mode you want to run the Node.js REPL.
 The three possible values are:
+
 - `sloppy` - The REPL is set to nonstrict mode.
 - `strict` - The strict value activates the strict mode
 - `magic` - This value is now deprecated and is used as an alias of `sloppy`
@@ -88,36 +90,32 @@ This code snippet creates a basic HTTP server using Node.js from Listing 3_9
 <details>
   <summary>Code snippet (more info)</summary>
 
-  - Step 1: Importing the HTTP Module
+- Step 1: Importing the HTTP Module
   This line imports the `createServer` function from the `http` module, which is part of Node.js's core modules. The `http` module provides the functionality to create and manage an `HTTP` server.
 
-  ```js
-  import {createServer} from 'http';
-  ```
+```js
+import { createServer } from "http";
+```
 
-  - Step 2: Creating the Server
-    - The `createServer()` function is called to create a new HTTP server instance. However, unlike the previous example, no request handler function (callback) is provided as an argument.
-    - Without a request handler, the server will not respond to incoming HTTP requests with any content. Instead, it will return a `404 Not Found` status for every request, since no handling logic is provided.
+- Step 2: Creating the Server
+  - The `createServer()` function is called to create a new HTTP server instance. However, unlike the previous example, no request handler function (callback) is provided as an argument.
+  - Without a request handler, the server will not respond to incoming HTTP requests with any content. Instead, it will return a `404 Not Found` status for every request, since no handling logic is provided.
 
-  ```js
-  const server = createServer();
-  ```
+```js
+const server = createServer();
+```
 
-  - Step 3: Listening on POrt 8080
-    - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080.
-    - The second argument is a callback function that is executed once the server successfully starts listening.
-    - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
+- Step 3: Listening on POrt 8080 - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080. - The second argument is a callback function that is executed once the server successfully starts listening. - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
 
-    ```js
-server.listen(8080, () => {
+      ```js
+
+  server.listen(8080, () => {
   console.log(`Server is listening on ${server.address().port}`)
-})
+  })
 
 </details>
 
-
-
-```
+````
 
 var, let and const
 
@@ -131,21 +129,21 @@ In Javascript, there are now three ways available to define variables.
 
 $ node server.mjs
 Server is listening on 8800
-```
+````
+
 <h5>3.2.2 Extending the Web Server</h5>
 
 The code snippet for listing 3_11 is a basic example of how to create an HTTP server in Node.js using the built-in `http` module.
 
-
 <details>
   <summary>Code Snippet (more info)</summary>
 
-  - Step 1: Importing the HTTP module
+- Step 1: Importing the HTTP module
 
 Import the `createServer` function from `http` module, which is a core module in Node.js for creating HTTP servers.
 
 ```js
-import {createServer} from "http";
+import { createServer } from "http";
 ```
 
 - Step 2: Creating the Server
@@ -157,21 +155,20 @@ import {createServer} from "http";
       - `response`: This object is used to send a response back to the client
     - Response Handling
       - `response.writeHead(200, {"content-type": "text/plain; charset=utf-8"});`
-      This line sends a response header to the client. The status code is `200` indicates that the request was successful. The `content-type` is set to `text/plain` with UTF-8 encoding, meanding the response will be a plain text/
-      -  `response.write("Hello")`
-      This sends the string "Hello" as part of the response body.
+        This line sends a response header to the client. The status code is `200` indicates that the request was successful. The `content-type` is set to `text/plain` with UTF-8 encoding, meanding the response will be a plain text/
+      - `response.write("Hello")`
+        This sends the string "Hello" as part of the response body.
       - `response.end("World\n")`
-      This ends the response, sending the string `World` and a newline character `\n` to the client. After calling `end` , the response is complete, and no further data can be sent.
+        This ends the response, sending the string `World` and a newline character `\n` to the client. After calling `end` , the response is complete, and no further data can be sent.
 
 ```js
 // Step 2: Creating the server
 
 const server = createServer((request, response) => {
-    response.writeHead(200, {"content-type": "text/plain; charset=utf-8"});
-    response.write("Hello")
-    response.end("World\n")
+  response.writeHead(200, { "content-type": "text/plain; charset=utf-8" });
+  response.write("Hello");
+  response.end("World\n");
 });
-
 ```
 
 - Step 3: Listening on Port 8080
@@ -181,21 +178,45 @@ const server = createServer((request, response) => {
 
 ```js
 server.listen(8080, () => {
-    console.log(`Server is listening to ${server.address().post}`)
-})
+  console.log(`Server is listening to ${server.address().post}`);
+});
 ```
 
 </details>
 
 <h5>3.2.3: Creating an HTML Response</h5>
 
+```js
+import { createServer } from "http";
 
+const server = createServer((request, response) => {
+  response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
 
+  const body = `<!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Node.js Demo</title>
+      </head>
+      <body>
+        <h1 style="color:green">Hello World</h1>
+      </body>
+    </html>`;
+
+  response.end(body);
+});
+server.listen(8080, () => {
+  console.log(
+    `Server is listening to http://localhost:${server.address().port}`
+  );
+});
+```
 
 <details>
   <summary>Solution</summary>
 
-  ```javascript
+```javascript
 
-  ```
+```
+
 </details>
