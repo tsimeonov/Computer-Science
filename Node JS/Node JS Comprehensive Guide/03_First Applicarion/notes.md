@@ -186,6 +186,10 @@ server.listen(8080, () => {
 
 <h5>3.2.3: Creating the HTML response</h5>
 
+<details>
+  <summary>Code Snippet (more info)</summary>
+
+
 ```js
 import { createServer } from "http";
 
@@ -210,18 +214,6 @@ server.listen(8080, () => {
     `Server is listening to http://localhost:${server.address().port}`
   );
 });
-```
-
-
-
-
-
-<details>
-  <summary>Code Snippet (more info)</summary>
-
-
-```js
-
 ```
 
 </details>
