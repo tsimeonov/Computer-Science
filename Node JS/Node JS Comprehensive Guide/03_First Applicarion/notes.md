@@ -91,6 +91,7 @@ This code snippet creates a basic HTTP server using Node.js from Listing 3_9
   <summary>Code snippet (more info)</summary>
 
 - Step 1: Importing the HTTP Module
+  
   This line imports the `createServer` function from the `http` module, which is part of Node.js's core modules. The `http` module provides the functionality to create and manage an `HTTP` server.
 
 ```js
