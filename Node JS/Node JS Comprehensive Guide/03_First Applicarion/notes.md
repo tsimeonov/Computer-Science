@@ -106,7 +106,9 @@ import { createServer } from "http";
 const server = createServer();
 ```
 
-- Step 3: Listening on POrt 8080 - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080. - The second argument is a callback function that is executed once the server successfully starts listening. - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
+- Step 3: Listening on Port 8080
+  - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080.
+  -  The second argument is a callback function that is executed once the server successfully starts listening. - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
 
       ```js
 
