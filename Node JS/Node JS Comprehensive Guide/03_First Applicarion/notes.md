@@ -110,11 +110,11 @@ const server = createServer();
   - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080.
   -  The second argument is a callback function that is executed once the server successfully starts listening. - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
 
-      ```js
-
+  ```js
   server.listen(8080, () => {
   console.log(`Server is listening on ${server.address().port}`)
   })
+   ```
 
 </details>
 
