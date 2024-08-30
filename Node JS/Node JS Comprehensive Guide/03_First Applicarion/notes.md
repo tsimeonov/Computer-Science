@@ -193,6 +193,7 @@ The full code is in Lisitng 3.12
 
 <details>
   <summary>Step by Step exmplanation</summary>
+  
 
   - Step 1: Importing the HTTP module
 
@@ -200,6 +201,17 @@ This line imports the `creatServer` funcion from the built-in `http` module in N
 
 ```js
 import { createServer } from "http";
+```
+
+  - Step 2: Creating the server:
+
+The `createServer` function is called with a callback function that gets executed every time a request is made to the server. 
+This callback function takes two arguments: `request` (which contains information about the incoming request) and `response` (which is used to send a response back to the client).
+
+```js
+const server = createServer((request, response) => {
+  ...
+});
 ```
   
 ```js
