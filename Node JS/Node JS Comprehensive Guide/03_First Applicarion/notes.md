@@ -189,6 +189,8 @@ server.listen(8080, () => {
 
 <h5>3.2.3: Creating the HTML response</h5>
 
+The full code is in Lisitng 3.12
+
 <details>
   <summary>Code Snippet (more info)</summary>
 
