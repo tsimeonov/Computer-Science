@@ -221,30 +221,23 @@ This line sets the response's HTTP status code to `200` (which means OK) and the
 response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
 ```
 
-  
+  - Step 4: Defining the response body:
+
+Here, the server prepares an HTML document tag as a string. This HTML code includes a simple webpage with a "Hello World" message in green `<h1>` heading.
+
 ```js
+const body = `<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Node.js Demo</title>
+    </head>
+    <body>
+      <h1 style="color:green">Hello World</h1>
+    </body>
+  </html>`;
 
-const server = createServer((request, response) => {
-  response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
-
-  const body = `<!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <title>Node.js Demo</title>
-      </head>
-      <body>
-        <h1 style="color:green">Hello World</h1>
-      </body>
-    </html>`;
-
-  response.end(body);
-});
-server.listen(8080, () => {
-  console.log(
-    `Server is listening to http://localhost:${server.address().port}`
-  );
-});
 ```
+  
 
 </details>
