@@ -192,11 +192,18 @@ server.listen(8080, () => {
 The full code is in Lisitng 3.12
 
 <details>
-  <summary>Code Snippet (more info)</summary>
+  <summary>Step by Step exmplanation</summary>
 
+  - Step 1: Importing the HTTP module
+
+This line imports the `creatServer` funcion from the built-in `http` module in Node.js.
 
 ```js
 import { createServer } from "http";
+```
+  
+```js
+
 
 const server = createServer((request, response) => {
   response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
