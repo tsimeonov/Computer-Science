@@ -246,6 +246,20 @@ This line sends the HTML document as the response the the client and ends the re
 ```js
 response.end(body)
 ```
+
+  - Step 6: Starting the server:
+
+Finally the sever starts listening for incoming request on port `8080`.
+
+```js
+server.listen(8080, () => {
+  console.log(
+    `Server is listening to http://localhost:${server.address().port}`
+  );
+});
+
+```
+
   
 
 </details>
