@@ -213,9 +213,16 @@ const server = createServer((request, response) => {
   ...
 });
 ```
+  - Step 3: Setting the response header:
+
+This line sets the response's HTTP status code to `200` (which means OK) and the contect type to `text/html` with a UTF-8 character encoding. This tells the browser that the server is sending an HTML document.
+
+```js
+response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+```
+
   
 ```js
-
 
 const server = createServer((request, response) => {
   response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
