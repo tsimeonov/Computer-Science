@@ -238,6 +238,14 @@ const body = `<!DOCTYPE html>
   </html>`;
 
 ```
+
+  - Step 5: Sending the response:
+
+This line sends the HTML document as the response the the client and ends the response process.
+
+```js
+response.end(body)
+```
   
 
 </details>
