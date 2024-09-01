@@ -262,3 +262,5 @@ server.listen(8080, () => {
 ```
 
 </details>
+
+<h5>3.2.4: Generating Dynamic Responses</h5>
