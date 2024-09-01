@@ -91,7 +91,7 @@ This code snippet creates a basic HTTP server using Node.js from Listing 3_9
   <summary>Code snippet (more info)</summary>
 
 - Step 1: Importing the HTTP Module
-  
+
   This line imports the `createServer` function from the `http` module, which is part of Node.js's core modules. The `http` module provides the functionality to create and manage an `HTTP` server.
 
 ```js
@@ -107,14 +107,15 @@ const server = createServer();
 ```
 
 - Step 3: Listening on Port 8080
+
   - `server.listen(8080, () => {...})` tells the server to start listening for incoming connections on port 8080.
-  -  The second argument is a callback function that is executed once the server successfully starts listening. - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
+  - The second argument is a callback function that is executed once the server successfully starts listening. - Inside this callback, `console.log` is used to print a message indicating that the server is listening on port 8080.
 
   ```js
   server.listen(8080, () => {
-  console.log(`Server is listening on ${server.address().port}`)
-  })
-   ```
+    console.log(`Server is listening on ${server.address().port}`);
+  });
+  ```
 
 </details>
 
@@ -191,11 +192,12 @@ server.listen(8080, () => {
 
 The full code is in Lisitng 3.12
 
+The only change you need to make to the source code of the example is to adjust the contect type, which is now `text/html` instead of `text/plain`.
+
 <details>
   <summary>Step by Step exmplanation</summary>
-  
 
-  - Step 1: Importing the HTTP module
+- Step 1: Importing the HTTP module
 
 This line imports the `creatServer` funcion from the built-in `http` module in Node.js.
 
@@ -203,9 +205,9 @@ This line imports the `creatServer` funcion from the built-in `http` module in N
 import { createServer } from "http";
 ```
 
-  - Step 2: Creating the server:
+- Step 2: Creating the server:
 
-The `createServer` function is called with a callback function that gets executed every time a request is made to the server. 
+The `createServer` function is called with a callback function that gets executed every time a request is made to the server.
 This callback function takes two arguments: `request` (which contains information about the incoming request) and `response` (which is used to send a response back to the client).
 
 ```js
@@ -213,7 +215,8 @@ const server = createServer((request, response) => {
   ...
 });
 ```
-  - Step 3: Setting the response header:
+
+- Step 3: Setting the response header:
 
 This line sets the response's HTTP status code to `200` (which means OK) and the contect type to `text/html` with a UTF-8 character encoding. This tells the browser that the server is sending an HTML document.
 
@@ -221,7 +224,7 @@ This line sets the response's HTTP status code to `200` (which means OK) and the
 response.writeHead(200, { "content-type": "text/html; charset=utf-8" });
 ```
 
-  - Step 4: Defining the response body:
+- Step 4: Defining the response body:
 
 Here, the server prepares an HTML document tag as a string. This HTML code includes a simple webpage with a "Hello World" message in green `<h1>` heading.
 
@@ -236,18 +239,17 @@ const body = `<!DOCTYPE html>
       <h1 style="color:green">Hello World</h1>
     </body>
   </html>`;
-
 ```
 
-  - Step 5: Sending the response:
+- Step 5: Sending the response:
 
 This line sends the HTML document as the response the the client and ends the response process.
 
 ```js
-response.end(body)
+response.end(body);
 ```
 
-  - Step 6: Starting the server:
+- Step 6: Starting the server:
 
 Finally the sever starts listening for incoming request on port `8080`.
 
@@ -257,9 +259,6 @@ server.listen(8080, () => {
     `Server is listening to http://localhost:${server.address().port}`
   );
 });
-
 ```
-
-  
 
 </details>

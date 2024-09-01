@@ -238,12 +238,8 @@ function keyPressed() {
   }
 
   if (keyCode == 37) {
-    console.log(`isPlummeting ${isPlummeting}`);
-    console.log(`isFalling ${isFalling}`);
     isLeft = true;
   } else if (keyCode == 39) {
-    console.log(`isPlummeting ${isPlummeting}`);
-    console.log(`isFalling ${isFalling}`);
     isRight = true;
   }
 
