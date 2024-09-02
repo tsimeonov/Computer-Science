@@ -7,3 +7,11 @@ The `syntax` determines the words that can be used in a given language, and the 
 To store data temporarily use `varialbes`.
 
 <h5>3.1.1: Defining variables</h5>
+
+To be able to use variables, you need to perform two steps.
+First you need to create the variable. this process is generally referred to as `variable declarataion`.
+
+```js
+let firstName
+let lastName
+```
