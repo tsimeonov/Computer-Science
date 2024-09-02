@@ -24,3 +24,7 @@ lastName = "Simeonov"
 ```
 
 <h3>3.1.2 Using Valid variable Names</h3>
+
+`Keywords`
+
+Do not use already reserved keyword or the interpreter will throw an error.
