@@ -3,3 +3,5 @@
 The `syntax` determines the words that can be used in a given language, and the `grammar` defines the tules according to which these words can be arranged.
 
 <h3>3.1: Storing values in variables</h3>
+
+To store data temporarily use `varialbes`.
