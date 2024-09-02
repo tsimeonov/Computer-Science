@@ -22,3 +22,5 @@ Second you need to assign an actual value to the variable. This is referred to a
 firstName = "Todor"
 lastName = "Simeonov"
 ```
+
+<h3>3.1.2 Using Valid variable Names</h3>
