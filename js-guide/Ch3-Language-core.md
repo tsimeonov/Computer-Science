@@ -15,3 +15,10 @@ First you need to create the variable. this process is generally referred to as 
 let firstName
 let lastName
 ```
+
+Second you need to assign an actual value to the variable. This is referred to as `value assignment` or `variable initialization`
+
+```js
+firstName = "Todor"
+lastName = "Simeonov"
+```
