@@ -28,3 +28,14 @@ lastName = "Simeonov"
 `Keywords`
 
 Do not use already reserved keyword or the interpreter will throw an error.
+
+`Variale names already assigned`
+
+If you use one of the predefined words `alert`, `document` to define a new varialbe, this can have unintended consequences and lead to errors in the program.
+
+```js
+const number = 22;  // Define variable
+console.log(number); // Output 22
+const console = 4711; // Define variable
+console.log(number); // TypeError: console.log is not a function
+```
