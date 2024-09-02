@@ -5,3 +5,5 @@ The `syntax` determines the words that can be used in a given language, and the 
 <h3>3.1: Storing values in variables</h3>
 
 To store data temporarily use `varialbes`.
+
+<h5>3.1.1: Defining variables</h5>
