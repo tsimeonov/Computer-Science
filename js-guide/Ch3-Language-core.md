@@ -39,3 +39,12 @@ console.log(number); // Output 22
 const console = 4711; // Define variable
 console.log(number); // TypeError: console.log is not a function
 ```
+
+`Allowed Characters`
+
+- A varialbe name may only start with a letter, the dollar sign ($), or an underscore (_).
+- A variable name must not start with a number
+- A variable name may contain letters, numbers, dollar signs and underscores, but no other characters, like periods or hyphens.
+
+
+
