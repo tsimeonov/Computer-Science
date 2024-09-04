@@ -63,7 +63,7 @@ const firstName = "Todor"
 
 Last but not least, we advise you to choose variables names that are as meaningful as possible so that you can tell the purpose of the variable from the name alone.
 
-
+<h5>3.1.3: Defining Constants</h5>
 
 
 
