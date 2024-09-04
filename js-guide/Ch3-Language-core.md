@@ -65,7 +65,11 @@ Last but not least, we advise you to choose variables names that are as meaningf
 
 <h5>3.1.3: Defining Constants</h5>
 
+In JS, there is a `const` keywoord for defining constants.
 
+```js
+const MAXIMUM = 5000
+```
 
 
 
