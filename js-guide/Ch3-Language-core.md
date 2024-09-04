@@ -46,5 +46,7 @@ console.log(number); // TypeError: console.log is not a function
 - A variable name must not start with a number
 - A variable name may contain letters, numbers, dollar signs and underscores, but no other characters, like periods or hyphens.
 
+`Case Sensitivity`
 
+You should also note that varialve names are case-sensitive. For example, `name`, `Name` and `nAme` each represent different varialbes.
 
