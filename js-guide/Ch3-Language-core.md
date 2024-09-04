@@ -50,3 +50,25 @@ console.log(number); // TypeError: console.log is not a function
 
 You should also note that varialve names are case-sensitive. For example, `name`, `Name` and `nAme` each represent different varialbes.
 
+`CamelCase Spelling`
+
+You can use both uppercase and lowercase letters when assigning variable names. The only important thing is that you do it consistently. A general accepted notationm for example is the `lowerCamelCase` notation.
+
+```js
+const defaulName = 2334;
+const firstName = "Todor"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
