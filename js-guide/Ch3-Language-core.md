@@ -78,6 +78,6 @@ In total, JS distinguishes among six data type:
 - Three special data types `null`, `undefined` and Object type.
 
 
-
+<h5>3.2.1: Numbers</h5>
 
 
