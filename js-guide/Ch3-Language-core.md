@@ -23,7 +23,7 @@ firstName = "Todor"
 lastName = "Simeonov"
 ```
 
-<h3>3.1.2 Using Valid variable Names</h3>
+<h5>3.1.2 Using Valid variable Names</h5>
 
 `Keywords`
 
