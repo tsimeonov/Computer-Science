@@ -73,6 +73,9 @@ const MAXIMUM = 5000
 
 <h3>3.2: Using the Different Data Types</h3>
 
+In total, JS distinguishes among six data type:
+- Three `primitive` data types for representing numbers, strings and Boolean values.
+- Three special data types `null`, `undefined` and Object type.
 
 
 
