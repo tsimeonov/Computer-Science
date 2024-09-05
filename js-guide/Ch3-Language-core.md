@@ -71,7 +71,7 @@ In JS, there is a `const` keywoord for defining constants.
 const MAXIMUM = 5000
 ```
 
-
+<h3>3.2: Using the Different Data Types</h3>
 
 
 
