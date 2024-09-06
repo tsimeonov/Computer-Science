@@ -90,4 +90,12 @@ const number2 = 0,5; // definition of a decimal
 const numbee3 = -22; // definition of a negative number
 ```
 
+`The valuw Range of Numbers`
+
+The `value` range of numbers is limited in JS; That is you cannot define infinetly large or infinitely small numbers.
+
+```js
+console.log(Number.MIN_VALUE); // Output: 5e-324
+console.log(Number.MAX_VALUE); // Output: 1.79445456456454e+308
+```
 
