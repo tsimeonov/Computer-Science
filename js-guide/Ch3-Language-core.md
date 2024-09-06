@@ -80,4 +80,14 @@ In total, JS distinguishes among six data type:
 
 <h5>3.2.1: Numbers</h5>
 
+`Defining Numbers`
+
+In JS, numbers are represented by a numeric value.
+
+```js
+const number1 = 5; // definition of an integer
+const number2 = 0,5; // definition of a decimal
+const numbee3 = -22; // definition of a negative number
+```
+
 
