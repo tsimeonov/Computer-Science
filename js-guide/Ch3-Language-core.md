@@ -102,3 +102,5 @@ console.log(Number.MAX_VALUE); // Output: 1.79445456456454e+308
 <h5>3.2.2 Strings</h5>
 
 In programming `strings` are sequences of characters.
+
+`Definition of Strings`
