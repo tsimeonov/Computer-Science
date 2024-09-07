@@ -110,3 +110,14 @@ The beginning and the end of a string are defined by quotation marks. YOu can us
 `Escaping of Characters within Strings`
 
 If you want to use quotaion marks within a string, you have several options. depending on the type of quotation marks you want ot use.
+
+```js
+const message1 = 'Your name is "John Doe"';
+const message2 = "Your name is 'John Doe'";
+const message3 = "Your name is 'John Doe'";
+const message4 = 'Your name is "John Doe"';
+console.log(message1); // Output: Your name is "John Doe"
+console.log(message2); // Output: Your name is 'John Doe'
+console.log(message3); // Output: Your name is 'John Doe'
+console.log(message4); // Output: Your name is "John Doe"
+```
