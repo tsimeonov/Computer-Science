@@ -122,4 +122,6 @@ console.log(message3); // Output: Your name is 'John Doe'
 console.log(message4); // Output: Your name is "John Doe"
 ```
 
-`Using Template Strings`
+`Using Template Stringsa`
+
+In everyday worki with strings, you'll often want to insert calculated values or values stored in variables at certain positions within a string.
