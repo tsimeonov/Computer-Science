@@ -121,3 +121,5 @@ console.log(message2); // Output: Your name is 'John Doe'
 console.log(message3); // Output: Your name is 'John Doe'
 console.log(message4); // Output: Your name is "John Doe"
 ```
+
+`Using Template Strings`
