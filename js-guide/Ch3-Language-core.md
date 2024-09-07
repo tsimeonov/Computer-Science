@@ -106,3 +106,5 @@ In programming `strings` are sequences of characters.
 `Definition of Strings`
 
 The beginning and the end of a string are defined by quotation marks. YOu can use both single and double quotation marks.
+
+`Escaping of Characters within Strings`
