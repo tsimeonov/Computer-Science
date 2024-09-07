@@ -104,3 +104,5 @@ console.log(Number.MAX_VALUE); // Output: 1.79445456456454e+308
 In programming `strings` are sequences of characters.
 
 `Definition of Strings`
+
+The beginning and the end of a string are defined by quotation marks. YOu can use both single and double quotation marks.
