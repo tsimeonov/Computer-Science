@@ -12,15 +12,15 @@ To be able to use variables, you need to perform two steps.
 First you need to create the variable. this process is generally referred to as `variable declarataion`.
 
 ```js
-let firstName
-let lastName
+let firstName;
+let lastName;
 ```
 
 Second you need to assign an actual value to the variable. This is referred to as `value assignment` or `variable initialization`
 
 ```js
-firstName = "Todor"
-lastName = "Simeonov"
+firstName = "Todor";
+lastName = "Simeonov";
 ```
 
 <h5>3.1.2 Using Valid variable Names</h5>
@@ -34,7 +34,7 @@ Do not use already reserved keyword or the interpreter will throw an error.
 If you use one of the predefined words `alert`, `document` to define a new varialbe, this can have unintended consequences and lead to errors in the program.
 
 ```js
-const number = 22;  // Define variable
+const number = 22; // Define variable
 console.log(number); // Output 22
 const console = 4711; // Define variable
 console.log(number); // TypeError: console.log is not a function
@@ -42,7 +42,7 @@ console.log(number); // TypeError: console.log is not a function
 
 `Allowed Characters`
 
-- A varialbe name may only start with a letter, the dollar sign ($), or an underscore (_).
+- A varialbe name may only start with a letter, the dollar sign ($), or an underscore (\_).
 - A variable name must not start with a number
 - A variable name may contain letters, numbers, dollar signs and underscores, but no other characters, like periods or hyphens.
 
@@ -56,7 +56,7 @@ You can use both uppercase and lowercase letters when assigning variable names. 
 
 ```js
 const defaulName = 2334;
-const firstName = "Todor"
+const firstName = "Todor";
 ```
 
 `Meaningful Names`
@@ -68,15 +68,15 @@ Last but not least, we advise you to choose variables names that are as meaningf
 In JS, there is a `const` keywoord for defining constants.
 
 ```js
-const MAXIMUM = 5000
+const MAXIMUM = 5000;
 ```
 
 <h3>3.2: Using the Different Data Types</h3>
 
 In total, JS distinguishes among six data type:
+
 - Three `primitive` data types for representing numbers, strings and Boolean values.
 - Three special data types `null`, `undefined` and Object type.
-
 
 <h5>3.2.1: Numbers</h5>
 
@@ -99,3 +99,4 @@ console.log(Number.MIN_VALUE); // Output: 5e-324
 console.log(Number.MAX_VALUE); // Output: 1.79445456456454e+308
 ```
 
+<h5>3.2.2 Strings</h5>
