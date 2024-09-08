@@ -165,3 +165,8 @@ console.log(message);
 
 Boolean values or Booleans are relatively wasy to handle compared to numeric values ans strings.
 This is because they can only take one of two values: `true` or `false`.
+
+```js
+const isLoggedin = true;
+const isAdmin = false;
+```
