@@ -17,9 +17,7 @@ let gameOver = false;
 let trees_x;
 let treePos_y;
 
-let clouds_x;
-let cloudPos_y;
-let cloudScale;
+let clouds;
 
 let mountains = [];
 
@@ -59,20 +57,37 @@ function startGame() {
   trees_x = [70, 500, 750, 1200];
   treePos_y = (height * 3) / 6.1;
 
-  clouds_x = [20, 100, 500, 1100, 1500];
-  cloudPos_y = 100;
-  cloudScale = 1.2;
+  clouds = [
+    { x_pos: -500, y_pos: 150, width: 50 },
+    { x_pos: -300, y_pos: 160, width: 50 },
+    { x_pos: 0, y_pos: 200, width: 50 },
+    { x_pos: 300, y_pos: 220, width: 50 },
+    { x_pos: 150, y_pos: 160, width: 50 },
+    { x_pos: 500, y_pos: 180, width: 50 },
+    { x_pos: 700, y_pos: 190, width: 70 },
+    { x_pos: 900, y_pos: 200, width: 60 },
+  ];
 
   mountains = [
-    { x_pos: -400, y_pos: 100 },
-    { x_pos: 500, y_pos: 100 },
+    { x_pos: -1000, y_pos: 100 },
+    { x_pos: -800, y_pos: 100 },
+    { x_pos: -500, y_pos: 100 },
+    { x_pos: -300, y_pos: 100 },
+    { x_pos: -100, y_pos: 100 },
+    { x_pos: 700, y_pos: 100 },
     { x_pos: 1000, y_pos: 100 },
+    { x_pos: 1200, y_pos: 100 },
   ];
 
   collectables = [
-    { x_pos: 300, y_pos: floorPos_y - 40, size: 40, isFound: false },
-    { x_pos: 750, y_pos: floorPos_y - 40, size: 40, isFound: false },
-    { x_pos: 900, y_pos: floorPos_y - 40, size: 40, isFound: false },
+    { x_pos: -1000, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: -700, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: -535, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: -256, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: 105, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: 300, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: 750, y_pos: floorPos_y - 30, size: 40, isFound: false },
+    { x_pos: 900, y_pos: floorPos_y - 30, size: 40, isFound: false },
   ];
 
   canyons = [
@@ -83,7 +98,12 @@ function startGame() {
 
   platforms = [];
 
-  platforms.push(createPlatforms(200, floorPos_y - 50, 100));
+  platforms.push(createPlatforms(-1000, floorPos_y - 50, 100));
+  platforms.push(createPlatforms(-600, floorPos_y - 25, 100));
+  platforms.push(createPlatforms(-200, floorPos_y - 40, 100));
+  platforms.push(createPlatforms(200, floorPos_y - 60, 100));
+  platforms.push(createPlatforms(500, floorPos_y - 35, 100));
+  platforms.push(createPlatforms(900, floorPos_y - 50, 100));
 
   enemies = [];
   enemies.push(new Enemy(250, floorPos_y - 10, 100));
@@ -248,14 +268,14 @@ function draw() {
 function drawCharacter(x, y, direction, state) {
   push();
   stroke(1);
-  fill(255, 200, 150); // skin color
+  fill(255, 180, 150); // skin color
   ellipse(x, y - 65, 23); // Head
-  fill(255, 0, 0); // Red shirt
+  fill(255, 100, 0); // Shirt
   rect(x - 15, y - 55, 30, 25, 5);
   fill(255, 200, 150); // skin color
   ellipse(x - 20, y - 42, 15); // Left hand
   ellipse(x + 20, y - 42, 15); // Right hand
-  fill(0, 100, 255); // Pants color
+  fill(50, 150, 200); // Pants color
   rect(x - 13, y - 30, 25, 30, 2); // pants
 
   // Direction and state specific changes can be applied here (for arms, legs, etc.)
@@ -290,10 +310,27 @@ function keyReleased() {
 }
 
 function drawClouds() {
-  for (let i = 0; i < clouds_x.length; i++) {
+  for (let i = 0; i < clouds.length; i++) {
     noStroke();
-    fill(255);
-    ellipse(clouds_x[i], cloudPos_y, 80 * cloudScale, 50 * cloudScale);
+    fill(255, 255, 255);
+    ellipse(
+      clouds[i].x_pos,
+      clouds[i].y_pos - 50,
+      clouds[i].width + 30,
+      clouds[i].width + 30
+    );
+    ellipse(
+      clouds[i].x_pos - 40,
+      clouds[i].y_pos - 50,
+      clouds[i].width + 10,
+      clouds[i].width + 10
+    );
+    ellipse(
+      clouds[i].x_pos + 40,
+      clouds[i].y_pos - 50,
+      clouds[i].width + 10,
+      clouds[i].width + 10
+    );
   }
 }
 
@@ -332,7 +369,7 @@ function drawTrees() {
 
 function drawCollectable(t_collectable) {
   if (!t_collectable.isFound) {
-    stroke(5);
+    noStroke();
     fill(255, 215, 0);
     ellipse(t_collectable.x_pos, t_collectable.y_pos, t_collectable.size);
   }
@@ -443,7 +480,7 @@ function createPlatforms(x, y, length) {
     y: y,
     length: length,
     draw: function () {
-      fill(255, 0, 255);
+      fill(190, 189, 191);
       rect(this.x, this.y, this.length, 20);
     },
     checkContact: function (gc_x, gc_y) {
@@ -486,7 +523,8 @@ function Enemy(x, y, range) {
 
   this.checkContact = function (gc_x, gc_y) {
     let d = dist(gc_x, gc_y, this.currentX, this.y);
-    console.log(d);
+    // Use for debugging
+    // console.log(d);
 
     if (d < 20) {
       return true;
