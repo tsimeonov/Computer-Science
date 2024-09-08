@@ -134,3 +134,5 @@ console.log(message); // "My name is John Doe, I am 44 years old."
 ```
 
 `Defining Placeholders within Strings`
+
+Within template strings, you can define placeholders usingg `${}` notation.
