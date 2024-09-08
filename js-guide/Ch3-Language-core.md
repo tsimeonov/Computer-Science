@@ -161,7 +161,7 @@ console.log(message);
 // Output -> My name is Todor Simeonov, I am twice the age of 17
 ```
 
-<h5>3.2.3 Boolean Values</h5>
+<h5>3.2.3: Boolean Values</h5>
 
 Boolean values or Booleans are relatively wasy to handle compared to numeric values ans strings.
 This is because they can only take one of two values: `true` or `false`.
@@ -170,3 +170,5 @@ This is because they can only take one of two values: `true` or `false`.
 const isLoggedin = true;
 const isAdmin = false;
 ```
+
+<h5>3.3.4: Arrays</h5>
