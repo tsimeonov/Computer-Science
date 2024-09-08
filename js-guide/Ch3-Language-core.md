@@ -160,3 +160,5 @@ console.log(message);
 
 // Output -> My name is Todor Simeonov, I am twice the age of 17
 ```
+
+<h5>3.2.3 Boolean Values</h5>
