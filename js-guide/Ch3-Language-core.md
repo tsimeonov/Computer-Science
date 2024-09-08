@@ -162,3 +162,6 @@ console.log(message);
 ```
 
 <h5>3.2.3 Boolean Values</h5>
+
+Boolean values or Booleans are relatively wasy to handle compared to numeric values ans strings.
+This is because they can only take one of two values: `true` or `false`.
