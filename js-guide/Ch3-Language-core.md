@@ -136,3 +136,11 @@ console.log(message); // "My name is John Doe, I am 44 years old."
 `Defining Placeholders within Strings`
 
 Within template strings, you can define placeholders usingg `${}` notation.
+
+```js
+const name = "Todor Simeonov";
+const age = 34;
+const message = `My name is ${name}, I am ${age} years old`;
+
+console.log(message);
+```
