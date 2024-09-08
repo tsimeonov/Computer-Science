@@ -176,3 +176,14 @@ const isAdmin = false;
 Arrays are nothing but lists; that is arrays can contain not only one but several values.
 
 The most common and easiest way to create an array in JS is the `array literal notation`.
+
+```js
+// EXAMPLE OF ARRAY LITERAL NOTAION
+const shoppingCart = [
+  // Start of array definition
+  "Record player", // first entry
+  "Loudspeaker", // second entry
+  "Amplifier", // third entry
+  "Loudspeaker cables", // fourth entry
+]; // end of array definition
+```
