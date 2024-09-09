@@ -197,3 +197,5 @@ Where `n` is the length of the array.
 `Multidimensional Arrays`
 
 Multidimensional array is adding an array into an array.
+
+<img style="border-radius: 3%;" src="./img/Chapter 3/multidimensiuonal array.png" width="500">
