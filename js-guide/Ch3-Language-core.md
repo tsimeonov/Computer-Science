@@ -193,3 +193,5 @@ const shoppingCart = [
 Arrays, in fact have what is called an `index-based struccture`, which means that every element in an array is stored at a particular index.
 The counting of these indexes starts at 0 - as quite common in computer science, the second element is at index 1, and so on until the last element at index n-1.
 Where `n` is the length of the array.
+
+`Multidimensional Arrays`
