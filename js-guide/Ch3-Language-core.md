@@ -195,3 +195,5 @@ The counting of these indexes starts at 0 - as quite common in computer science,
 Where `n` is the length of the array.
 
 `Multidimensional Arrays`
+
+Multidimensional array is adding an array into an array.
