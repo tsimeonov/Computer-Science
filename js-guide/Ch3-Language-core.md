@@ -187,3 +187,5 @@ const shoppingCart = [
   "Loudspeaker cables", // fourth entry
 ]; // end of array definition
 ```
+
+`The Internal Structure of Arrays`
