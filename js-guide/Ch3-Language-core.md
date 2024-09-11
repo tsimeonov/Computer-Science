@@ -171,7 +171,7 @@ const isLoggedin = true;
 const isAdmin = false;
 ```
 
-<h5>3.3.4: Arraysa</h5>
+<h5>3.2.4: Arrays</h5>
 
 Arrays are nothing but lists; that is arrays can contain not only one but several values.
 
