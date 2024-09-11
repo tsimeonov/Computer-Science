@@ -124,7 +124,7 @@ console.log(message4); // Output: Your name is "John Doe"
 
 `Using Template Stringsa`
 
-In everyday worki with strings, you'll often want to insert calculated values or values stored in variables at certain positions within a string.
+In everyday working with strings, you'll often want to insert calculated values or values stored in variables at certain positions within a string.
 
 ```js
 const name = "John Doe";
@@ -163,7 +163,7 @@ console.log(message);
 
 <h5>3.2.3: Boolean Values</h5>
 
-Boolean values or Booleans are relatively wasy to handle compared to numeric values ans strings.
+Boolean values or Booleans are relatively easy to handle compared to numeric values and strings.
 This is because they can only take one of two values: `true` or `false`.
 
 ```js
