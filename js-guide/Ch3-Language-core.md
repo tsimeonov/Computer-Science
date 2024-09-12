@@ -216,3 +216,5 @@ const shoppingCart = [
 In the contex of objects, variables are called `properties` or `àttributes`, and functions are referred as `methods`. 
 Properties provide information about the object they are contained in, suah as person's name and age. 
 Object methods represent certain tasks related to the object in which they are defined, such as adjusting a persons'age.
+
+`Definition of Objects`
