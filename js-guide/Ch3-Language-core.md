@@ -210,3 +210,5 @@ const shoppingCart = [
 ```
 
 <img style="border-radius: 3%;" src="./img/Chapter 3/multidimensiuonal array.png" width="500">
+
+<h5>3.2.5: Objects</h5>
