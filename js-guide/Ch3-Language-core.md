@@ -222,8 +222,16 @@ Object methods represent certain tasks related to the object in which they are d
 The easiest way to create objects in JS is to use `object literal notaion`.
 You simply define the object using braces and list the object properties and objects methods within these braces, separated by commas.
 
-
-
+```js
+const item = {
+  name: "JS: comprehensive guide",
+  price: 55.33,
+  author: "Todor Simeonov",
+  printDescription: function () {
+    console.log(`${this.author}: ${this.name}`)
+  }
+}
+```
 
 
 
