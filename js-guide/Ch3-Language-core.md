@@ -233,6 +233,7 @@ const item = {
 }
 ```
 
+The object in the example contains the three properties `name`, `price`, `author` as well as the method `printDescription`.
 
 
 
