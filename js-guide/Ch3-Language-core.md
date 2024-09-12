@@ -212,3 +212,7 @@ const shoppingCart = [
 <img style="border-radius: 3%;" src="./img/Chapter 3/multidimensiuonal array.png" width="500">
 
 <h5>3.2.5: Objects</h5>
+
+In the contex of objects, variables are called `properties` or `àttributes`, and functions are referred as `methods`. 
+Properties provide information about the object they are contained in, suah as person's name and age. 
+Object methods represent certain tasks related to the object in which they are defined, such as adjusting a persons'age.
