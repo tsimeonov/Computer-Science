@@ -218,3 +218,18 @@ Properties provide information about the object they are contained in, suah as p
 Object methods represent certain tasks related to the object in which they are defined, such as adjusting a persons'age.
 
 `Definition of Objects`
+
+The easiest way to create objects in JS is to use `object literal notaion`.
+You simply define the object using braces and list the object properties and objects methods within these braces, separated by commas.
+
+
+
+
+
+
+
+
+
+
+
+
