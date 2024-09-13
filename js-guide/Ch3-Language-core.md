@@ -262,9 +262,7 @@ person.pet = null;
 console.log(person.pet); // Output: null
 ```
 
-
-
-
+The `undefined` value is not meant to be manually assigned to a variable, but the `null` value is. The `undefined` value indicates that a variable has not yet been initialized; the `null` value represents an empty object pointer.
 
 
 
