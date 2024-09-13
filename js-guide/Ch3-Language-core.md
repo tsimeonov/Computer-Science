@@ -244,6 +244,50 @@ If you declare a variable but do not initialize it by yet (by assigning a value 
 Let name;
 console.log(name); // Output: undefined 
 ```
+The `null` data type, however represents an empty object.
+
+```js
+const dog = {
+  name: "Bello";
+}
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  pet: dog
+}
+
+console.log(person.pet); // Output: Object (name: "Bello")
+person.pet = null;
+console.log(person.pet); // Output: null
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
