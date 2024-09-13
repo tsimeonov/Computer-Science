@@ -289,7 +289,7 @@ JavaScript provides a set of `arithmetic` operators - that is, operators for wor
 
 <h5>3.3.2: Operators for Easier Assignment</h5>
 
-
+<h5>3.3.3: Operators for Working with Strings</h5>
 
 
 
