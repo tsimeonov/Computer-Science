@@ -283,7 +283,7 @@ console.log(symbol2 === symbol4); // Output: false
 
 <h3>3.3: Deploying the Different Operators</h3>
 
-
+JavaScript provides a set of `arithmetic` operators - that is, operators for working and calculating with numbers, including addition, subtraction, multiplication, division and the remainder operator (modulo).
 
 
 
