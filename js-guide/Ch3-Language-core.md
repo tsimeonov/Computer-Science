@@ -238,6 +238,12 @@ The object in the example contains the three properties `name`, `price`, `author
 
 <h5>3.2.6: Special Data Types</h5>
 
+If you declare a variable but do not initialize it by yet (by assigning a value to it), it has the value `undefined`.
+
+```js
+Let name;
+console.log(name); // Output: undefined 
+```
 
 
 
