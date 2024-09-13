@@ -266,7 +266,20 @@ The `undefined` value is not meant to be manually assigned to a variable, but th
 
 <h5>3.2.7: Symbols</h5>
 
-Symbols are another kind of primitive data type introduced with ES2015
+Symbols are another kind of primitive data type introduced with ES2015.
+
+```js
+const symbol1 = Symbol();
+const symbol2 = Symbol('exampleDescription');
+const symbol3 = Symbol();
+const symbol4 = Symbol('exampleDescription');
+console.log(symbol1); // Output: Symbol()
+console.log(symbol2); // Output: Symbol(exampleDescription)
+console.log(symbol3); // Output: Symbol()
+console.log(symbol4); // Output: Symbol(exampleDescription)
+console.log(symbol1 === symbol3); // Output: false
+console.log(symbol2 === symbol4); // Output: false
+```
 
 <h3>3.3: Deploying the Different Operators</h3>
 
