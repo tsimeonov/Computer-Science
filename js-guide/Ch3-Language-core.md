@@ -266,6 +266,8 @@ The `undefined` value is not meant to be manually assigned to a variable, but th
 
 <h5>3.2.7: Symbols</h5>
 
+Symbols are another kind of primitive data type introduced with ES2015
+
 <h3>3.3: Deploying the Different Operators</h3>
 
 
