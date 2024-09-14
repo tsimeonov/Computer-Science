@@ -306,3 +306,5 @@ For working with Boolean values, there are various operators available in progra
 There are three operatores in total: the `&&` operator (AND operator), the `||` operator (OR operator), and the `!` operator (negation operator).
 
 <h5>3.3.5: Operators for working with bits</h5>
+
+Bitwise operations enable you to work with sigle bits of values.
