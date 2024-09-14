@@ -308,3 +308,13 @@ There are three operatores in total: the `&&` operator (AND operator), the `||` 
 <h5>3.3.5: Operators for working with bits</h5>
 
 Bitwise operations enable you to work with sigle bits of values.
+
+| Operator |           Meaning            |
+| :------: | :--------------------------: |
+|    %     |         Bitwise AND          |
+|    \|    |          Bitwise OR          |
+|    ^     |     Bitwise exclusive OR     |
+|    ~     |         Bitwise NOT          |
+|    <<    |      Bitwise left shift      |
+|    >>    |     Bitwise right shift      |
+|   >>>    | Bitwise unsigned right shift |
