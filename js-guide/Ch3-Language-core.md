@@ -213,8 +213,8 @@ const shoppingCart = [
 
 <h5>3.2.5: Objects</h5>
 
-In the contex of objects, variables are called `properties` or `àttributes`, and functions are referred as `methods`. 
-Properties provide information about the object they are contained in, suah as person's name and age. 
+In the contex of objects, variables are called `properties` or `àttributes`, and functions are referred as `methods`.
+Properties provide information about the object they are contained in, suah as person's name and age.
 Object methods represent certain tasks related to the object in which they are defined, such as adjusting a persons'age.
 
 `Definition of Objects`
@@ -228,13 +228,12 @@ const item = {
   price: 55.33,
   author: "Todor Simeonov",
   printDescription: function () {
-    console.log(`${this.author}: ${this.name}`)
-  }
-}
+    console.log(`${this.author}: ${this.name}`);
+  },
+};
 ```
 
 The object in the example contains the three properties `name`, `price`, `author` as well as the method `printDescription`.
-
 
 <h5>3.2.6: Special Data Types</h5>
 
@@ -242,8 +241,9 @@ If you declare a variable but do not initialize it by yet (by assigning a value 
 
 ```js
 Let name;
-console.log(name); // Output: undefined 
+console.log(name); // Output: undefined
 ```
+
 The `null` data type, however represents an empty object.
 
 ```js
@@ -270,9 +270,9 @@ Symbols are another kind of primitive data type introduced with ES2015.
 
 ```js
 const symbol1 = Symbol();
-const symbol2 = Symbol('exampleDescription');
+const symbol2 = Symbol("exampleDescription");
 const symbol3 = Symbol();
-const symbol4 = Symbol('exampleDescription');
+const symbol4 = Symbol("exampleDescription");
 console.log(symbol1); // Output: Symbol()
 console.log(symbol2); // Output: Symbol(exampleDescription)
 console.log(symbol3); // Output: Symbol()
@@ -291,13 +291,5 @@ JavaScript provides a set of `arithmetic` operators - that is, operators for wor
 
 <h5>3.3.3: Operators for Working with Strings</h5>
 
-
-
-
-
-
-
-
-
-
-
+In JS, operator for joining two strings is the `+` operator.
+The joining itself is also called `concatenation`.
