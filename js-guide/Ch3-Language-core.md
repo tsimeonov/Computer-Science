@@ -301,3 +301,6 @@ const message = salutaion + name;
 ```
 
 <h5>3.3.4: Operators for working with boolean values</h5>
+
+For working with Boolean values, there are various operators available in programming, which are referred to as logical operators.
+There are three operatores in total: the `&&` operator (AND operator), the `||` operator (OR operator), and the `!` operator (negation operator).
