@@ -323,8 +323,9 @@ Bitwise operations enable you to work with sigle bits of values.
 
 Comparing two values is certainly one of the most frequently performed tasks in programming.
 
-| Operator |      Meaning      |                             Description                             |
-| :------: | :---------------: | :-----------------------------------------------------------------: |
-|    ==    |       Equal       |         Compares two values and checks ig they are the same         |
-|    !=    |    Unequal to     |         Compares two values and checks if they are unewqual         |
-|   ===    | Strictly equal to | Compares not only two values, but also the data type of the values. |
+| Operator |       Meaning       |                             Description                             |
+| :------: | :-----------------: | :-----------------------------------------------------------------: |
+|    ==    |        Equal        |         Compares two values and checks ig they are the same         |
+|    !=    |     Unequal to      |         Compares two values and checks if they are unewqual         |
+|   ===    |  Strictly equal to  | Compares not only two values, but also the data type of the values. |
+|   !==    | Strictly unequal to | Compares not only two values, but also the data type of the values. |
