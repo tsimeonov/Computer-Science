@@ -329,4 +329,5 @@ Comparing two values is certainly one of the most frequently performed tasks in 
 |    !=    |     Unequal to      |                 Compares two values and checks if they are unewqual                  |
 |   ===    |  Strictly equal to  |         Compares not only two values, but also the data type of the values.          |
 |   !==    | Strictly unequal to |         Compares not only two values, but also the data type of the values.          |
-|    <     |      Less than      | Compares two values and chechs if the left operand is greater than the right operand |
+|    <     |      Less than      | Compares two values and chechs if the left operand is smaller than the right operand |
+|    >     |  Greater than sign  | Compares two values and chechs if the left operand is greater than the right operand |
