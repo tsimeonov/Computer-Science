@@ -318,3 +318,5 @@ Bitwise operations enable you to work with sigle bits of values.
 |    <<    |      Bitwise left shift      |
 |    >>    |     Bitwise right shift      |
 |   >>>    | Bitwise unsigned right shift |
+
+<h5>3.3.6: Operators for comparing values</h5>
