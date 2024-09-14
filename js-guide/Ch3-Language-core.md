@@ -293,3 +293,9 @@ JavaScript provides a set of `arithmetic` operators - that is, operators for wor
 
 In JS, operator for joining two strings is the `+` operator.
 The joining itself is also called `concatenation`.
+
+```js
+const salutaion = "Your personal newsletter ";
+const name = "John Doe";
+const message = salutaion + name;
+```
