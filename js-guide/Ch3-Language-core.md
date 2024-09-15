@@ -470,3 +470,13 @@ if (userIsLoggedIn) {
 ```
 
 <h5>3.4.2: Defining Branches</h5>
+
+```js
+// Basic structure of a branch
+
+if (condition) {
+  // Program code to be executed if condition is met
+} else {
+  // Program code to be executed if condition is not met
+}
+```
