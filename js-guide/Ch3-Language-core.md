@@ -431,3 +431,18 @@ console.log(`b1: ${b1}`); // "b1: 7"
 console.log(`b2: ${b2}`); // "b2: null"
 console.log(`b3: ${b3}`); // "b3: false"
 ```
+
+- The operator for the logical nullish assignment `??=` in turn is a short form of the notation `a?? (a=b)`
+
+```js
+// logical nullish assignment
+let c1 = 5;
+let c2 = null;
+let c3 = false;
+c1 ??= 7; // --> 5
+c2 ??= 7; // --> 7
+c3 ??= 7; // --> false
+console.log(`c1: ${c1}`); // "c1: 5"
+console.log(`c2: ${c2}`); // "c2: 7"
+console.log(`c3: ${c3}`); // "c3: false"
+```
