@@ -460,3 +460,11 @@ console.log(`c3: ${c3}`); // "c3: false"
 <h3>3.4: Controlling the flow of a program</h3>
 
 <h5>3.4.1: Defining Conditional Statements</h5>
+
+```js
+const useIsLoggedIn = true;
+if (userIsLoggedIn) {
+  const message = `Welcome ${username}`;
+  document.getElementbyId("message").textContent = message;
+}
+```
