@@ -335,3 +335,32 @@ Comparing two values is certainly one of the most frequently performed tasks in 
 |    >=    | Greater than or equal to | Compares two values and checks if the left operand is greater or equal to the right operand. |
 
 <h5>3.3.7: The optional chaining operator</h5>
+
+<details>
+  <summary>Without the chaining operator</summary>
+
+```javascript
+const john = {
+  firstName: "John",
+  lastName: "Doe",
+  contact: {
+    email: "john.doe@javascripthandbuch.com",
+  },
+};
+const james = {
+  firstName: "James",
+  lastName: "Doe",
+};
+if (john.contact && john.contact.email) {
+  console.log(john.contact.email);
+}
+// Output: "john.doe@javascripthandbuch.com"
+// Runtime error!
+// console.log(james.contact.email);
+if (james.contact && james.contact.email) {
+  console.log(james.contact.email);
+}
+// No output
+```
+
+</details>
