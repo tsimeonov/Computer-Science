@@ -400,3 +400,5 @@ console.log(james?.contact?.email);
 </details>
 
 <h5>3.3.8: The logical Assignment Operators</h5>
+
+There are a total of three assignemnt operators, each operating on two operands.
