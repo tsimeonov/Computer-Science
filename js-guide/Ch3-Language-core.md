@@ -456,3 +456,5 @@ console.log(`c3: ${c3}`); // "c3: false"
 |               Existence of a property in an object               |     `<property>in<object>`      |                                                Checks whether an object has a property                                                |
 |                        Type verification                         |   `<object> instanceof<type>`   |                                   Binary operator that checks whter an object is of a specific type                                   |
 |                        Type determination                        |       `typeof <>Operand`        |                                                Determines the data type of the operand                                                |
+
+<h3>3.4: Controlling the flow of a program</h3>
