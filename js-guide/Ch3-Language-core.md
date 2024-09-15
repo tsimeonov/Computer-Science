@@ -416,3 +416,18 @@ console.log(`a1" ${a1}`); // "a1" 5"
 console.log(`a2" ${a2}`); // "a2" 5"
 console.log(`a3" ${a3}`); // "a3" 5"
 ```
+
+- The logical AND assignment operator `&&=` works similarly, but it combines the logical `&&` operator and the assihnment operator = and assigns the right operand to the left operand only if the former has a `truthy` value. This means it is a short form of the notation `a && (a=b).`
+
+```js
+// logical AND assignment
+let b1 = 5;
+let b2 = null;
+let b3 = false;
+b1 &&= 7; // --> 7
+b2 &&= 7; // --> null
+b3 &&= 7; // --> false
+console.log(`b1: ${b1}`); // "b1: 7"
+console.log(`b2: ${b2}`); // "b2: null"
+console.log(`b3: ${b3}`); // "b3: false"
+```
