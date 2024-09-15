@@ -402,3 +402,17 @@ console.log(james?.contact?.email);
 <h5>3.3.8: The logical Assignment Operators</h5>
 
 There are a total of three assignemnt operators, each operating on two operands.
+
+- The logical OR assignment operator `||=` is a combination of the logical `||` operator and the assignemnt opearator `=`. That is, it assigns the right operand to the left operand if the formet has a falsy value and is thus a short form of the notation `a || (a = b)`
+
+```js
+let a1 = 5;
+let a2 = null;
+let a3 = false;
+a1 ||= 7; // ---> 5
+a2 ||= 7; // ---> 7
+a3 ||= 7; // ---> 7
+console.log(`a1" ${a1}`); // "a1" 5"
+console.log(`a2" ${a2}`); // "a2" 5"
+console.log(`a3" ${a3}`); // "a3" 5"
+```
