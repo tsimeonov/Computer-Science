@@ -448,3 +448,7 @@ console.log(`c3: ${c3}`); // "c3: false"
 ```
 
 <h5>3.3.9: Operators for special operations</h5>
+
+|      Operation       |            Operator             |                                                              Description                                                              |
+| :------------------: | :-----------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
+| Conditional operator | `<condition>?<value1>:<value2>` | Ternary operator that, depending on a condition (first operand), returns one of two values (defined by the second and third operands) |
