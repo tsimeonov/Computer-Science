@@ -559,3 +559,5 @@ switch (expression) {
     // Statements
 }
 ```
+
+`Canceling switch Statements`
