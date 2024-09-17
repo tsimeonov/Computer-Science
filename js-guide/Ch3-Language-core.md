@@ -534,7 +534,12 @@ In programming, you'll often want to assign one value or another to a variable d
 const variable = condition ? value1 : value2;
 ```
 
-
+```js
+// Example using selection operator
+const age = prompt("Please enter your age");
+const isAtLeast18 = age >= 18 ? true: false;
+console.log(isAtLeast18)
+```
 
 
 
