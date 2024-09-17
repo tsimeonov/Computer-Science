@@ -480,3 +480,6 @@ if (condition) {
   // Program code to be executed if condition is not met
 }
 ```
+
+
+`Testing Multiple Conditions`
