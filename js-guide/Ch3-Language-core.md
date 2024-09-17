@@ -561,3 +561,5 @@ switch (expression) {
 ```
 
 `Canceling switch Statements`
+
+We already mentioned that a `break` is usually written at the end of a `case` program branch, but haven't explained why. The reason is simple: the keyword `break` prevents the statements of the followin `case` expressions from being executed.
