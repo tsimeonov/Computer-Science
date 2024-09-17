@@ -527,9 +527,10 @@ console.error('Invalid age entered.');
 
 <h5>3.4.3: Using the selector Operator</h5>
 
-
-
-
+```js
+// Structure of the selection operator
+const variable = condition ? value1 : value2;
+```
 
 
 
