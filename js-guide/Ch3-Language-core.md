@@ -497,3 +497,11 @@ if(condition1) {
 ```
 
 `Using More Complex Conditions`
+
+```js
+const userIsLoggedIn = true;
+const userIsAdmin = false;
+if (userIsLoggedIn && userIsAdmin) {
+  //////
+}
+```
