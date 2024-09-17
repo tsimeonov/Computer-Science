@@ -481,18 +481,17 @@ if (condition) {
 }
 ```
 
-
 `Testing Multiple Conditions`
 
 ```js
 // Basic structure of an if-else-if-eles Branch
-if(condition1) {
-// Program branch that will be executed if condition 1 is met
-} else if(condition2) {
-// Program branch that will be executed if condition 2 is met
+if (condition1) {
+  // Program branch that will be executed if condition 1 is met
+} else if (condition2) {
+  // Program branch that will be executed if condition 2 is met
 } else {
-// Program branch that will be executed if none of the previous ...
-// ... conditions is met
+  // Program branch that will be executed if none of the previous ...
+  // ... conditions is met
 }
 ```
 
@@ -508,20 +507,20 @@ if (userIsLoggedIn && userIsAdmin) {
 
 `Nesting Branches`
 
- ```js
-const age = prompt('For what age are you looking for film tips?');
-if(!isNaN(parseFloat(age)) && isFinite(age)) {
-if(age >= 18) {
-console.log('Show films with a rating of G, PG, PG-13, R, and NC-17.');
-} else if(age >= 17) {
-console.log('Show films with a rating of G, PG, PG-13, and R.');
-} else if(age >= 13) {
-console.log('Show films with a rating of G, PG, and PG-13.');
-} else if(age >= 6) {
-console.log('Show films with a rating of G and PG.');
-}
+```js
+const age = prompt("For what age are you looking for film tips?");
+if (!isNaN(parseFloat(age)) && isFinite(age)) {
+  if (age >= 18) {
+    console.log("Show films with a rating of G, PG, PG-13, R, and NC-17.");
+  } else if (age >= 17) {
+    console.log("Show films with a rating of G, PG, PG-13, and R.");
+  } else if (age >= 13) {
+    console.log("Show films with a rating of G, PG, and PG-13.");
+  } else if (age >= 6) {
+    console.log("Show films with a rating of G and PG.");
+  }
 } else {
-console.error('Invalid age entered.');
+  console.error("Invalid age entered.");
 }
 ```
 
@@ -537,11 +536,26 @@ const variable = condition ? value1 : value2;
 ```js
 // Example using selection operator
 const age = prompt("Please enter your age");
-const isAtLeast18 = age >= 18 ? true: false;
-console.log(isAtLeast18)
+const isAtLeast18 = age >= 18 ? true : false;
+console.log(isAtLeast18);
 ```
 
 <h5>3.4.4: Defining Multiple Branches</h5>
 
+```js
+// Basic Structure of a switch statement
 
-
+switch (expression) {
+  case value1:
+    // Statements
+    break;
+  case value2
+    // Statements
+    break;
+  case value3
+    // Statements
+    break;
+  dedault:
+    // Statements
+}
+```
