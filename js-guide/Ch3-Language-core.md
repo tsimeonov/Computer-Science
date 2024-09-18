@@ -578,8 +578,10 @@ for (Initialization; Condition; Increment expression;) {
   Loop body
 }
 ```
+
 `Real-Life Example: Generating Values in a pick list`
 
+See lisitng 3.84 
 
 
 
