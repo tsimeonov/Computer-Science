@@ -565,3 +565,22 @@ switch (expression) {
 We already mentioned that a `break` is usually written at the end of a `case` program branch, but haven't explained why. The reason is simple: the keyword `break` prevents the statements of the followin `case` expressions from being executed.
 
 <h5>3.4.5: Defining Counting Loops</h5>
+
+Overall, there are three different types of such loops, which are more or less suitable depending on the application.
+First there is the `counting` loop, which executes code repeatedly on a counter variable.
+Then there are the `head-controlled` loop and the `tail-controlled` loop, both of which execute code for as long as a certain condition is met. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
