@@ -564,4 +564,4 @@ switch (expression) {
 
 We already mentioned that a `break` is usually written at the end of a `case` program branch, but haven't explained why. The reason is simple: the keyword `break` prevents the statements of the followin `case` expressions from being executed.
 
-<h5>Defining Counting Loops</h5>
+<h5>3.4.5: Defining Counting Loops</h5>
