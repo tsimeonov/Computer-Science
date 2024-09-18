@@ -570,10 +570,7 @@ Overall, there are three different types of such loops, which are more or less s
 First there is the `counting` loop, which executes code repeatedly on a counter variable.
 Then there are the `head-controlled` loop and the `tail-controlled` loop, both of which execute code for as long as a certain condition is met. 
 
-
-
-
-
+`Counting Loop Structure`
 
 
 
