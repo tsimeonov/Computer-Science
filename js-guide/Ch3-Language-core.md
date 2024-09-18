@@ -572,6 +572,12 @@ Then there are the `head-controlled` loop and the `tail-controlled` loop, both o
 
 `Counting Loop Structure`
 
+```js
+// Basic structure of a for loop
+for (Initialization; Condition; Increment expression;) {
+  Loop body
+}
+```
 
 
 
