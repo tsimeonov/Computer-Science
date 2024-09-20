@@ -657,6 +657,6 @@ for (let i = 0; i < numbers.length; i++) { // Iterate over ...
 console.log('After the loop.');
 ```
 
-
+`Infinite Loops`
 
 
