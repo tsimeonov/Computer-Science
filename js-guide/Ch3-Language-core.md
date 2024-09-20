@@ -638,6 +638,7 @@ console.log('After the loop.');
 
 `Prematurely Terminating Loop Iterations`
 
+If you want to abort only the current loop iteration rather that the entire loop, use the `continue` keyword.
 
 
 
