@@ -617,6 +617,9 @@ There are two other ways to influence the execution of loops (independent of loo
 
 `Prematurely Terminating Loops`
 
+Sometimes you may want to terminate a loop prematurely.
+Let's look at a simple example: Suppose you want to output the individual numbers from a number array, but only until the first odd number is found, at which point the loop is to be aborted.
+
 
 
 
