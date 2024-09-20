@@ -588,5 +588,35 @@ See lisitng 3.84
 Both head-controlled and tail-controlled loops basicaly function in the same way: the purpose of both loops is to execute one or more statements repeatedly so long as a given Boolean condition is fulfilled.
 The difference between the two types of loops is the time at which the Boolean check takes place.
 
+```js
+// The basic structure of a while loop
+
+while (expression) {
+  // Statement (s)
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
