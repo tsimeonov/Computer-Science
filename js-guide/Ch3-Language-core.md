@@ -620,8 +620,21 @@ There are two other ways to influence the execution of loops (independent of loo
 Sometimes you may want to terminate a loop prematurely.
 Let's look at a simple example: Suppose you want to output the individual numbers from a number array, but only until the first odd number is found, at which point the loop is to be aborted.
 
+```js
+// Loops can be aborted via the break Keyword
 
-
+const numbers = [2, 4, 56, 22, 65, 2, 54, 88, 29];
+console.log('Before the loop.');
+for (let i = 0; i < numbers.length; i++) { // Iterate over ...
+  const number = numbers[i]; // ... the number array.
+  if (number % 2 === 1) { // If a number is odd ...
+    console.log('Odd number found.'); // ... output message ...
+    break; // ... and terminate the loop.
+  } // Otherwise ...
+  console.log(number); // ... output the number.
+}
+console.log('After the loop.');
+```
 
 
 
