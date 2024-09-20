@@ -613,6 +613,7 @@ do {
 
 <h5>3.4.8: Prematurely Terminating Loops and Loops Iterations</h5>
 
+There are two other ways to influence the execution of loops (independent of loop condition) from within the loop body; the `break` keyword enables you to abort the `complete` loop right away, and the `continue` keyword enables you to abort teh current loop iteration and continue to the next loop iteration.
 
 
 
