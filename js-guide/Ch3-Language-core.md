@@ -604,6 +604,13 @@ Examples in Lisitings 3.90 and 3.91.
 
 Basically, the tail-controlled loop works similarly to the head-controlled loop, but in exactly the opposite way. In other words: before the Boolean condition is checked, the loop body is already executed once
 
+```js
+// The basic structure of a do-while Loop
+do {
+  // Statement (s)
+} while (expression)
+```
+
 
 
 
