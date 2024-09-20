@@ -602,7 +602,7 @@ Examples in Lisitings 3.90 and 3.91.
 
 <h5>3.4.7: Defining Tail-Controlled Loops</h5>
 
-
+Basically, the tail-controlled loop works similarly to the head-controlled loop, but in exactly the opposite way. In other words: before the Boolean condition is checked, the loop body is already executed once
 
 
 
