@@ -586,3 +586,11 @@ See lisitng 3.84
 <h5>3.4.6: Defining Head-Controlled Loops</h5>
 
 The head-driven loop is also known as a while loop, first checks whether the Boolena conditon is met. If this is the case, the code in braces (the loop body) is executed.
+
+```js
+// The basic structure of a while loop
+
+while (expression) {
+  // Statement (s)
+}
+```
