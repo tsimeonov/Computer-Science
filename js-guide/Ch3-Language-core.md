@@ -614,3 +614,6 @@ do {
 <h5>3.4.8: Prematurely terminating loops and loop iterations</h5>
 
 `Prematurely terminating loops`
+
+Sometimes you way want to terminate a loop prematurely.
+Suppose you want to output the individual numbers from a number array, but only until the first odd number is found, at which point the loop is to be aborted.
