@@ -555,8 +555,8 @@ switch (expression) {
   case value3:
     // Statements
     break;
-  dedault:
-    // Statements
+  default:
+  // Statements
 }
 ```
 
@@ -568,7 +568,7 @@ We already mentioned that a `break` is usually written at the end of a `case` pr
 
 Overall, there are three different types of such loops, which are more or less suitable depending on the application.
 First there is the `counting` loop, which executes code repeatedly on a counter variable.
-Then there are the `head-controlled` loop and the `tail-controlled` loop, both of which execute code for as long as a certain condition is met. 
+Then there are the `head-controlled` loop and the `tail-controlled` loop, both of which execute code for as long as a certain condition is met.
 
 `Counting Loop Structure`
 
@@ -581,82 +581,8 @@ for (Initialization; Condition; Increment expression;) {
 
 `Real-Life Example: Generating Values in a pick list`
 
-See lisitng 3.84 
+See lisitng 3.84
 
 <h5>3.4.6: Defining Head-Controlled Loops</h5>
 
-Both head-controlled and tail-controlled loops basicaly function in the same way: the purpose of both loops is to execute one or more statements repeatedly so long as a given Boolean condition is fulfilled.
-The difference between the two types of loops is the time at which the Boolean check takes place.
-
-```js
-// The basic structure of a while loop
-
-while (expression) {
-  // Statement (s)
-}
-```
-
-`Real-Life example: Moving HTML Elements within a Web Page`
-
-Examples in Lisitings 3.90 and 3.91.
-
-<h5>3.4.7: Defining Tail-Controlled Loops</h5>
-
-Basically, the tail-controlled loop works similarly to the head-controlled loop, but in exactly the opposite way. In other words: before the Boolean condition is checked, the loop body is already executed once
-
-```js
-// The basic structure of a do-while Loop
-do {
-  // Statement (s)
-} while (expression)
-```
-
-<h5>3.4.8: Prematurely Terminating Loops and Loops Iterations</h5>
-
-There are two other ways to influence the execution of loops (independent of loop condition) from within the loop body; the `break` keyword enables you to abort the `complete` loop right away, and the `continue` keyword enables you to abort teh current loop iteration and continue to the next loop iteration.
-
-`Prematurely Terminating Loops`
-
-Sometimes you may want to terminate a loop prematurely.
-Let's look at a simple example: Suppose you want to output the individual numbers from a number array, but only until the first odd number is found, at which point the loop is to be aborted.
-
-```js
-// Loops can be aborted via the break Keyword
-
-const numbers = [2, 4, 56, 22, 65, 2, 54, 88, 29];
-console.log('Before the loop.');
-for (let i = 0; i < numbers.length; i++) { // Iterate over ...
-  const number = numbers[i]; // ... the number array.
-  if (number % 2 === 1) { // If a number is odd ...
-    console.log('Odd number found.'); // ... output message ...
-    break; // ... and terminate the loop.
-  } // Otherwise ...
-  console.log(number); // ... output the number.
-}
-console.log('After the loop.');
-```
-
-`Prematurely Terminating Loop Iterations`
-
-If you want to abort only the current loop iteration rather that the entire loop, use the `continue` keyword.
-
-```js
-// Loop iterations can be aborted via the continue keyword
-
-const numbers = [2, 4, 56, 22, 65, 2, 54, 88, 29];
-console.log('Before the loop.');
-for (let i = 0; i < numbers.length; i++) { // Iterate over ...
-  const number = numbers[i]; // ... the number array.
-  if (number % 2 === 1) { // If a number is odd ...
-    console.log('Odd number found.'); // ... output message ...
-    continue; // ... and abort the
-    // loop iteration.
-} // Otherwise ...
-  console.log(number); // ... output the number.
-}
-console.log('After the loop.');
-```
-
-`Infinite Loops`
-
-
+The head-driven loop is also known as a while loop, first checks whether the Boolena conditon is met. If this is the case, the code in braces (the loop body) is executed.
