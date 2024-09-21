@@ -602,3 +602,11 @@ See Listing 3.90 and 3.91
 <h5>3.4.7: Defining Tail-Controlled Loops</h5>
 
 The tail-controlled loop works similarly to the head-controlled loop, but in exactrly the opposite way. In other words: before the Boolean condition is checked, the loop body is already executed once.
+
+```js
+// The basic structure of a do-while Loop
+
+do {
+  // Statment (s)
+} while (expression);
+```
