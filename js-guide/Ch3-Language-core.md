@@ -662,3 +662,24 @@ console.log("After the loop.");
 `Infinite Loops`
 
 In the case of head-controlled and tail-controlled loops, you must be careful when using `continue`. If positioned incorrectly, the keyword can cause an `infinite` loop to occur - taht us a loop that is never aborted and thus sooner or later brings your application to its knees.
+
+```js
+// This code would produce an infinite loop
+
+const numbers = [2, 4, 56, 22, 65, 2, 54, 88, 29];
+console.log("Before the loop.");
+let i = 0; // Initialize counter variable.
+while (i < numbers.length) {
+  // Iterate over ...
+  const number = numbers[i]; // ... the number array.
+  if (number % 2 === 1) {
+    // If a number is odd ...
+    console.log("Odd number found."); // ... output message ...
+    continue; // ... and abort the
+    // loop iteration.
+  } // Otherwise ...
+  console.log(number); // ... output the number and ...
+  i++; // ... increment the ...
+  // ... counter variable.
+}
+```
