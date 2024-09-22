@@ -689,3 +689,11 @@ while (i < numbers.length) {
 <h5>3.5.1: Defining Functions</h5>
 
 `Defining functions using a function declaration`
+
+```js
+// Creating a function using a function declaration
+
+function showMessage() {
+  console.log("Welcome");
+}
+```
