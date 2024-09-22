@@ -699,3 +699,9 @@ function showMessage() {
 ```
 
 `Defining funcions using a function expression`
+
+```js
+const showMessage = function () {
+  console.log("Welcome");
+};
+```
