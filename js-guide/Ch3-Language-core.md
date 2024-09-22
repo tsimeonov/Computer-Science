@@ -705,3 +705,5 @@ const showMessage = function () {
   console.log("Welcome");
 };
 ```
+
+<h5>3.5.2: Calling Functions</h5>
