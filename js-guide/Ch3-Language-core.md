@@ -683,3 +683,5 @@ while (i < numbers.length) {
   // ... counter variable.
 }
 ```
+
+<h3>3.5: Creating reusable code blocks</h3>
