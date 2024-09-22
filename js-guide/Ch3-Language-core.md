@@ -658,3 +658,5 @@ for (let i = 0; i < numbers.length; i++) {
 }
 console.log("After the loop.");
 ```
+
+`Infinite Loops`
