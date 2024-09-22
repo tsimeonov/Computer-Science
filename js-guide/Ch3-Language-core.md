@@ -685,3 +685,5 @@ while (i < numbers.length) {
 ```
 
 <h3>3.5: Creating reusable code blocks</h3>
+
+<h5>3.5.1: Defining Functions</h5>
