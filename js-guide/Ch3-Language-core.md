@@ -707,3 +707,8 @@ const showMessage = function () {
 ```
 
 <h5>3.5.2: Calling Functions</h5>
+
+```js
+showMessage(); // Output: "Welcome"
+showMessage(); // Output: "Welcome"
+```
