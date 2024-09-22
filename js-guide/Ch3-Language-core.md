@@ -660,3 +660,5 @@ console.log("After the loop.");
 ```
 
 `Infinite Loops`
+
+In the case of head-controlled and tail-controlled loops, you must be careful when using `continue`. If positioned incorrectly, the keyword can cause an `infinite` loop to occur - taht us a loop that is never aborted and thus sooner or later brings your application to its knees.
