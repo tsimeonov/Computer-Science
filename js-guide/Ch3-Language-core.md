@@ -726,3 +726,12 @@ function showMwssage(message) {
 ```
 
 `Calling functions with a parameter`
+
+```js
+// Calling a function with an argument
+
+showMwssage("James: Hello John");
+showMwssage("John: Hello James");
+```
+
+`Defining Functions with multiple parameters`
