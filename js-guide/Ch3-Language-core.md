@@ -752,3 +752,5 @@ function printPersonInformation(firsName, lastName, age) {
 printPersonInformation("John", "Doe", 44);
 printPersonInformation("James", "Doe", 33);
 ```
+
+`Defining functions within functions`
