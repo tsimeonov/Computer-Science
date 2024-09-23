@@ -716,3 +716,11 @@ showMessage(); // Output: "Welcome"
 <h5>3.5.3: Passing and evaluating function parameters</h5>
 
 `Defining functions with a parameter`
+
+```js
+// Function declaration with parameter
+
+function showMwssage(message) {
+  console.log(message);
+}
+```
