@@ -715,4 +715,4 @@ showMessage(); // Output: "Welcome"
 
 <h5>3.5.3: Passing and evaluating function parameters</h5>
 
-`Calling functions with a parameter`
+`Defining functions with a parameter`
