@@ -735,3 +735,13 @@ showMwssage("John: Hello James");
 ```
 
 `Defining Functions with multiple parameters`
+
+```js
+// Declaration of a Function with Multiple Parameters
+
+function printPersonInformation(firsName, lastName, age) {
+  console.log(`First name: ${firstName}`);
+  console.log(`Last name: ${lastName}`);
+  console.log(`Age: ${age}`);
+}
+```
