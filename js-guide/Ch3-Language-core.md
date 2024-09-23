@@ -745,3 +745,5 @@ function printPersonInformation(firsName, lastName, age) {
   console.log(`Age: ${age}`);
 }
 ```
+
+`Calling functions with multiple parameters`
