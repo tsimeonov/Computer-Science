@@ -724,3 +724,5 @@ function showMwssage(message) {
   console.log(message);
 }
 ```
+
+`Calling functions with a parameter`
