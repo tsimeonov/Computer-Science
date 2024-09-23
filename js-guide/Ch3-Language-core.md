@@ -747,3 +747,8 @@ function printPersonInformation(firsName, lastName, age) {
 ```
 
 `Calling functions with multiple parameters`
+
+```js
+printPersonInformation("John", "Doe", 44);
+printPersonInformation("James", "Doe", 33);
+```
