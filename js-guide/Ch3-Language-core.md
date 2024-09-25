@@ -771,3 +771,5 @@ function sum(x, y) {
 console.log(sum(-5, 5)); // Output: 5
 console.log(normalize(-5)); // ReferenceError: normalize is not defined
 ```
+
+<h5>3.5.4: Defining Return Values</h5>
