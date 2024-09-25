@@ -773,3 +773,10 @@ console.log(normalize(-5)); // ReferenceError: normalize is not defined
 ```
 
 <h5>3.5.4: Defining Return Values</h5>
+
+```js
+function sum (x, y) {
+  const result = x + y
+  return result
+}
+```
