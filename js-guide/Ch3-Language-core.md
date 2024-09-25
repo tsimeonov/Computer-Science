@@ -780,3 +780,15 @@ function sum (x, y) {
   return result
 }
 ```
+
+<h5>3.5.5: Defining default values for parameters</h5>
+
+
+
+
+
+
+
+
+
+
