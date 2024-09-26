@@ -785,7 +785,24 @@ function sum (x, y) {
 
 Since ES2015, there is a relatively simple notation for using default parameters: As you see in the `password` parameter in the code below the default value of a parameter is simply written after the parameter.
 
-
+```js
+function createUser(username, email, password = 'DeFaUlTPaSsWoRd') {
+const user = {
+username: username,
+email: email,
+password: password
+}
+return user;
+}
+const john = createUser('John Doe', 'john.doe@example.com', 'secret');
+console.log(john.username); // John Doe
+console.log(john.email); // john.doe@example.com
+console.log(john.password); // secret
+const james = createUser('James Doe', 'james.doe@example.com');
+console.log(james.username); // James Doe
+console.log(james.email); // james.doe@example.com
+console.log(james.password); // DeFaUlTPaSsWoRd
+```
 
 
 
