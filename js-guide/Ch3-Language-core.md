@@ -783,6 +783,7 @@ function sum (x, y) {
 
 <h5>3.5.5: Defining default values for parameters</h5>
 
+Since ES2015, there is a relatively simple notation for using default parameters: As you see in the `password` parameter in the code below the default value of a parameter is simply written after the parameter.
 
 
 
