@@ -787,12 +787,12 @@ Since ES2015, there is a relatively simple notation for using default parameters
 
 ```js
 function createUser(username, email, password = 'DeFaUlTPaSsWoRd') {
-const user = {
-username: username,
-email: email,
-password: password
-}
-return user;
+  const user = {
+    username: username,
+    email: email,
+    password: password
+  }
+  return user;
 }
 const john = createUser('John Doe', 'john.doe@example.com', 'secret');
 console.log(john.username); // John Doe
