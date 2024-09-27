@@ -855,6 +855,15 @@ const james = createUser(
 (parameters) => {function body}
 ```
 
+Normal function declaration vs arrow function 
+
+```js
+const sum = (x, y) => {return x + y;}
+// ... is the same as ...
+const sum = function(x, y) {
+  return x + y;
+}
+```
 
 
 
