@@ -804,7 +804,7 @@ console.log(james.email); // james.doe@example.com
 console.log(james.password); // DeFaUlTPaSsWoRd
 ```
 
-<3.5.6: Using Elements from array as parameters><>
+<h5>3.5.6: Using Elements from array as parameters</h5>
 
 
 
