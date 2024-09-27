@@ -873,5 +873,39 @@ const showMwssagew = message => console.log(message)
 
 `An arrow function without parameter`
 
+```js
+const showMwssagew = () => console.log("Hello world");
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
