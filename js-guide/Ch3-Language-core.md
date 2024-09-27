@@ -871,5 +871,7 @@ const sum = function(x, y) {
 const showMwssagew = message => console.log(message)
 ```
 
+`An arrow function without parameter`
+
 
 
