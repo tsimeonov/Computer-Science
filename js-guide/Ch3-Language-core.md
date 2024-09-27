@@ -847,7 +847,7 @@ const james = createUser(
 )
 ```
 
-
+<h5>3.5.7: Defining functions using short notation</h5>
 
 
 
