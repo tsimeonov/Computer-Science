@@ -834,6 +834,19 @@ const james = createUser(
 
 ```
 
+Example 2 
+
+```js
+const userData1 = ['John Doe', 'john.doe@example.com', 'secret'];
+const userData2 = ['James Doe', 'james.doe@example.com', 'password'];
+const john = createUser(
+  ...userData1
+);
+const james = createUser(
+  ...userData2
+)
+```
+
 
 
 
