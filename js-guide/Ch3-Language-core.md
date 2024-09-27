@@ -865,6 +865,8 @@ const sum = function(x, y) {
 }
 ```
 
+`An Arrow function with one parameter`
+
 
 
 
