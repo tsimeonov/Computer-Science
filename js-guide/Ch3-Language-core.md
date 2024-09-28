@@ -923,3 +923,5 @@ function doSomethingD() {}
 `Execution contexts`
 
 `Scopes`
+
+`Scope Chain`
