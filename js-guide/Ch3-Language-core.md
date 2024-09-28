@@ -899,3 +899,5 @@ console.log(message);
 </details>
 
 <h5>3.5.9: Functions in Detail</h5>
+
+`The function call stack`
