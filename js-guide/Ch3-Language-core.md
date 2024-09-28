@@ -775,9 +775,9 @@ console.log(normalize(-5)); // ReferenceError: normalize is not defined
 <h5>3.5.4: Defining Return Values</h5>
 
 ```js
-function sum (x, y) {
-  const result = x + y
-  return result
+function sum(x, y) {
+  const result = x + y;
+  return result;
 }
 ```
 
@@ -786,19 +786,19 @@ function sum (x, y) {
 Since ES2015, there is a relatively simple notation for using default parameters: As you see in the `password` parameter in the code below the default value of a parameter is simply written after the parameter.
 
 ```js
-function createUser(username, email, password = 'DeFaUlTPaSsWoRd') {
+function createUser(username, email, password = "DeFaUlTPaSsWoRd") {
   const user = {
     username: username,
     email: email,
-    password: password
-  }
+    password: password,
+  };
   return user;
 }
-const john = createUser('John Doe', 'john.doe@example.com', 'secret');
+const john = createUser("John Doe", "john.doe@example.com", "secret");
 console.log(john.username); // John Doe
 console.log(john.email); // john.doe@example.com
 console.log(john.password); // secret
-const james = createUser('James Doe', 'james.doe@example.com');
+const james = createUser("James Doe", "james.doe@example.com");
 console.log(james.username); // James Doe
 console.log(james.email); // james.doe@example.com
 console.log(james.password); // DeFaUlTPaSsWoRd
@@ -806,7 +806,7 @@ console.log(james.password); // DeFaUlTPaSsWoRd
 
 <h5>3.5.6: Using Elements from array as parameters</h5>
 
-Example 1 
+Example 1
 
 ```js
 // Using array values as argumenrs of a function
@@ -815,36 +815,23 @@ function createUser(username, email, password) {
   const user = {
     username: username,
     email: email,
-    password: password
-  }
+    password: password,
+  };
   return user;
 }
-const userData1 = ['John Doe', 'john.doe@example.com', 'secret'];
-const userData2 = ['James Doe', 'james.doe@example.com', 'password'];
-const john = createUser(
-  userData1[0],
-  userData1[1],
-  userData1[2]
-);
-const james = createUser(
-  userData2[0],
-  userData2[1],
-  userData2[2]
-)
-
+const userData1 = ["John Doe", "john.doe@example.com", "secret"];
+const userData2 = ["James Doe", "james.doe@example.com", "password"];
+const john = createUser(userData1[0], userData1[1], userData1[2]);
+const james = createUser(userData2[0], userData2[1], userData2[2]);
 ```
 
-Example 2 
+Example 2
 
 ```js
-const userData1 = ['John Doe', 'john.doe@example.com', 'secret'];
-const userData2 = ['James Doe', 'james.doe@example.com', 'password'];
-const john = createUser(
-  ...userData1
-);
-const james = createUser(
-  ...userData2
-)
+const userData1 = ["John Doe", "john.doe@example.com", "secret"];
+const userData2 = ["James Doe", "james.doe@example.com", "password"];
+const john = createUser(...userData1);
+const james = createUser(...userData2);
 ```
 
 <h5>3.5.7: Defining functions using short notation</h5>
@@ -855,20 +842,22 @@ const james = createUser(
 (parameters) => {function body}
 ```
 
-Normal function declaration vs arrow function 
+Normal function declaration vs arrow function
 
 ```js
-const sum = (x, y) => {return x + y;}
-// ... is the same as ...
-const sum = function(x, y) {
+const sum = (x, y) => {
   return x + y;
-}
+};
+// ... is the same as ...
+const sum = function (x, y) {
+  return x + y;
+};
 ```
 
 `An Arrow function with one parameter`
 
 ```js
-const showMwssagew = message => console.log(message)
+const showMwssagew = (message) => console.log(message);
 ```
 
 `An arrow function without parameter`
@@ -879,33 +868,32 @@ const showMwssagew = () => console.log("Hello world");
 
 <h5>3.5.8: Modifying Strings via Functions</h5>
 
+<details>
+  <summary>Implementation and Usage of a tag function</summary>
 
+```javascript
+function tagFunction(strings, ...replacements) {
+  const name = replacements[0]; // "John Doe"
+  const age = replacements[1]; // 44 or 88, respectively
+  if (age > 80) {
+    return `${strings[0]}${replacements[0]}.`;
+    // --> "My name is John Doe."
+  }
+  return `${strings[0]}${name}${strings[1]}${age}${strings[2]}.`;
+  // --> "My name is John Doe, I am 44 years old."
+}
+const name = "John Doe";
+let age = 44;
 
+let message = tagFunction`My name is ${name}, I am ${age} years old`;
+console.log(message);
+// My name is John Doe, I am 44 years old.
 
+age = 88;
 
+message = tagFunction`My name is ${name}, I am ${age} years old`;
+console.log(message);
+// My name is John Doe
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
