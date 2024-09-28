@@ -919,3 +919,5 @@ function doSomethingC() {
 
 function doSomethingD() {}
 ```
+
+`Execution contexts`
