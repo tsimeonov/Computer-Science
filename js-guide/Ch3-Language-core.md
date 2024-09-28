@@ -927,3 +927,36 @@ function doSomethingD() {}
 `Scope Chain`
 
 <h5>Calling Functions through User Interaction</h5>
+
+<details>
+  <summary>HTML code</summary>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>Example</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <label for="field1">X</label>
+        <input id="field1" type="text" value="5" />
+      </div>
+      <div class="row">
+        <label for="field2">Y</label>
+        <input id="field2" type="text" value="5" />
+      </div>
+      <div class="row">
+        <label for="result">Result: </label> <input id="result" type="text" />
+        <button id="button-calculate-sum">Calculate sum</button>
+      </div>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
+```
+
+</details>
