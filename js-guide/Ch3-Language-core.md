@@ -901,3 +901,21 @@ console.log(message);
 <h5>3.5.9: Functions in Detail</h5>
 
 `The function call stack`
+
+```js
+// Code example to illustrate the call stack
+
+function doSomething() {
+  doSomethingB();
+}
+
+function doSomethingB() {
+  doSomethingC();
+}
+
+function doSomethingC() {
+  doSomethingD();
+}
+
+function doSomethingD() {}
+```
