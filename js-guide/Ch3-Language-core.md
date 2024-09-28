@@ -925,3 +925,5 @@ function doSomethingD() {}
 `Scopes`
 
 `Scope Chain`
+
+<h5>Calling Functions through User Interaction</h5>
