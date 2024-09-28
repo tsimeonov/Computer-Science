@@ -921,3 +921,5 @@ function doSomethingD() {}
 ```
 
 `Execution contexts`
+
+`Scopes`
