@@ -1048,6 +1048,6 @@ console.log(divide(5, 0)); // Output: Infinity
 try {
   // Execute the code that potentially produces errors
 } catch (errors) {
-  .. Handle the error
+  // Handle the error
 }
 ```
