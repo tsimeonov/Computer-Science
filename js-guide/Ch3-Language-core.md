@@ -984,3 +984,5 @@ function showResult(result) {
 </details>
 
 <h3>3.6: Responding to Errors and handling them correctly</h3>
+
+<h5>3.6.1: Syntax errors</h5>
