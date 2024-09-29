@@ -982,3 +982,5 @@ function showResult(result) {
 ```
 
 </details>
+
+<h3>3.6: Responding to Errors and handling them correctly</h3>
