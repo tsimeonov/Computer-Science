@@ -1053,3 +1053,5 @@ try {
 ```
 
 <h5>3.6.6: Triggering Errors</h5>
+
+<h5>3.6.7: Errors and the function call stack</h5>
