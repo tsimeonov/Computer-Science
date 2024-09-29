@@ -998,3 +998,5 @@ funktion divide(x, y) {
 ```
 
 <h5>3.6.2: Runtime errors</h5>
+
+`Runtime errors` are errors that occur only at runtime - that is , when a program is executed.
