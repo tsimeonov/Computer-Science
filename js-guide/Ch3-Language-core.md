@@ -1036,3 +1036,5 @@ console.log(divide(5, 0)); // Output: Infinity
 ```
 
 <h5>3.6.4: The principle of error handling</h5>
+
+<h5>3.6.5: Catching and handling errors</h5>
