@@ -1041,3 +1041,13 @@ console.log(divide(5, 0)); // Output: Infinity
 
 - The `try` keyword can be used to execeute a block of code that potentially produces errors
 - The `catch`, it's possible to catch or react to errors
+
+```js
+// The basic structure of a try-catch block
+
+try {
+  // Execute the code that potentially produces errors
+} catch (errors) {
+  .. Handle the error
+}
+```
