@@ -1016,3 +1016,5 @@ console.log(normalize(-2)); // Output 1
 console.log(normalize(-2)); // Output 5
 console.log(normalize(-2)); // ReferenceError
 ```
+
+<h5>3.6.3: Logic errors</h5>
