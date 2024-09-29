@@ -1038,3 +1038,6 @@ console.log(divide(5, 0)); // Output: Infinity
 <h5>3.6.4: The principle of error handling</h5>
 
 <h5>3.6.5: Catching and handling errors</h5>
+
+- The `try` keyword can be used to execeute a block of code that potentially produces errors
+- The `catch`, it's possible to catch or react to errors
