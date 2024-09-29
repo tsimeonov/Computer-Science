@@ -1018,3 +1018,5 @@ console.log(normalize(-2)); // ReferenceError
 ```
 
 <h5>3.6.3: Logic errors</h5>
+
+`Logic errors` or bugs refer to those types of errors that are caused by incorrect logic of your program.
