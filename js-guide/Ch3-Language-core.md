@@ -1034,3 +1034,5 @@ console.log(divide(5, -1)); // Output: 5
 console.log(divide(5, -2)); // Output: 5
 console.log(divide(5, 0)); // Output: Infinity
 ```
+
+<h5>3.6.4: The principle of error handling</h5>
