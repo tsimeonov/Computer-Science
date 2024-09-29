@@ -988,3 +988,11 @@ function showResult(result) {
 <h5>3.6.1: Syntax errors</h5>
 
 `Syntax errors` occur when the syntactic rules of JavaScript are disregarded.
+
+```js
+// Example of a syntax error
+
+funktion divide(x, y) {
+  return normalize(x) / normalize(y);
+}
+```
