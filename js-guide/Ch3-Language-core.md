@@ -1051,3 +1051,5 @@ try {
   // Handle the error
 }
 ```
+
+<h5>3.6.6: Triggering Errors</h5>
