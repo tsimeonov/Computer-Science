@@ -1000,3 +1000,19 @@ funktion divide(x, y) {
 <h5>3.6.2: Runtime errors</h5>
 
 `Runtime errors` are errors that occur only at runtime - that is , when a program is executed.
+
+```js
+// Example of a runtime error
+
+function divide(x, y) {
+  return normalized(x) / normalized(y);
+}
+
+function normalize(x) {
+  return x <= 0 ? 1 : x;
+}
+
+console.log(normalize(-2)); // Output 1
+console.log(normalize(-2)); // Output 5
+console.log(normalize(-2)); // ReferenceError
+```
