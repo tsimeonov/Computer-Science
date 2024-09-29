@@ -996,3 +996,5 @@ funktion divide(x, y) {
   return normalize(x) / normalize(y);
 }
 ```
+
+<h5>3.6.2: Runtime errors</h5>
