@@ -32,7 +32,22 @@ The number 3457 can be broken down as follows:
 
 Breaking it down step by step:
 
-- 3 x 10^3^ = 3 x 1000 = 3000
-- 4 x 10^2^ = 4 x 100 = 400
-- 5 x 10^1^ = 5 x 10 = 50
-- 7 x 10^0^ = 7 x 1 = 7
+- 3 x 10^3^ = 3 x 1000 = 3000.
+- 4 x 10^2^ = 4 x 100 = 400.
+- 5 x 10^1^ = 5 x 10 = 50.
+- 7 x 10^0^ = 7 x 1 = 7.
+  <br>
+- base 2 system, also known as `binary`, is a number system that uses only two digits: 0 and 1.
+
+Example:
+
+Let's take the binary number 1011 and convert it ti deciam (base 10)
+
+- The first digit from the right (1) is in the 2^0^ place , so it represents 1 x 2^0^ = 1
+- The second digit from the right (1) is in the 2^1^ place , so it represents 1 x 2^1^ = 2
+- The third digit from the right (0) is in the 2^2^ place , so it represents 0 x 2^2^ = 0
+- The forth digit from the right (1) is in the 2^3^ place , so it represents 1 x 2^3^ = 8
+
+Now, sun the values:
+
+8 + 0 + 2 + 1 = 11
