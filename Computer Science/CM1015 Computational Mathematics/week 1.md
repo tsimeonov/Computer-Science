@@ -16,3 +16,5 @@ Syllabus:
 - Week 15 and 16: Limits and differentiation
 - Week 17 and 18: Algebra, vectors and matrices
 - Week 19 and 20: Combinatorics and probabilitis
+
+## Lesson 1.2: Introduction to number bases
