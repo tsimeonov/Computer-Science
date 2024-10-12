@@ -22,3 +22,17 @@ Syllabus:
 <h5>Introduction to Topic 1</h5>
 
 <h5>Introduction to number bases</h5>
+
+- base 10 system, alsol known as the `decimal system` is the most commonly used number system in everyday life.
+
+Example: 3457 in base 10
+
+The number 3457 can be broken down as follows:
+3457 = 3 x 10^3^ + 4 x 10^2^ + 5 x 10^1^ + 7 x 10^0^
+
+Breaking it down step by step:
+
+- 3 x 10^3^ = 3 x 1000 = 3000
+- 4 x 10^2^ = 4 x 100 = 400
+- 5 x 10^1^ = 5 x 10 = 50
+- 7 x 10^0^ = 7 x 1 = 7
