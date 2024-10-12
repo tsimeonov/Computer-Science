@@ -18,3 +18,5 @@ Syllabus:
 - Week 19 and 20: Combinatorics and probabilitis
 
 ## Lesson 1.2: Introduction to number bases
+
+<h5>Introduction to Topic 1</h5>
