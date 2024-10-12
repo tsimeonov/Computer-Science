@@ -20,3 +20,5 @@ Syllabus:
 ## Lesson 1.2: Introduction to number bases
 
 <h5>Introduction to Topic 1</h5>
+
+<h5>Introduction to number bases</h5>
