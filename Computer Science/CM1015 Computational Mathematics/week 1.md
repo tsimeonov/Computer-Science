@@ -41,7 +41,7 @@ Breaking it down step by step:
 
 Example:
 
-Let's take the binary number 1011 and convert it ti deciam (base 10)
+Let's take the binary number 1011 and convert it ti decimal (base 10)
 
 - The first digit from the right (1) is in the 2^0^ place , so it represents 1 x 2^0^ = 1
 - The second digit from the right (1) is in the 2^1^ place , so it represents 1 x 2^1^ = 2
