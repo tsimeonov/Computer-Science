@@ -23,6 +23,8 @@ let height = 120;
 
 </details>
 
+<br>
+
 - Objects - describe a single entity in the program.
 
   - Properties
