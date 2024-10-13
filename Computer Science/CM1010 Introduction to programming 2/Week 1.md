@@ -5,3 +5,5 @@
 - Data visualizer
 - Drawing app
 - Music vizualizer
+
+## Lesson 1.2: Object Orientation
