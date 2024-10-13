@@ -28,7 +28,7 @@ let height = 120;
   - Properties
   - Methods
 
-  <details>
+<details>
   <summary>Objects example with properties</summary>
 
 ```javascript
@@ -38,6 +38,24 @@ let tree = {
   height: 120,
   colour: "green",
   hasLeaves: true,
+};
+```
+
+</details>
+
+  <details>
+  <summary>Objects example with methods</summary>
+
+```javascript
+let tree = {
+  x_pos: 100,
+  y_pos: 0,
+  height: 120,
+  colour: "green",
+  hasLeaves: true,
+  wilt: function () {
+    console.log("I am wilting");
+  },
 };
 ```
 
