@@ -11,6 +11,18 @@
 <h5>1.201: Object concepts revisited</h5>
 
 - Variables
+
+<details>
+  <summary>Variables example</summary>
+
+```javascript
+let x_pos = 100;
+let y_pos = 0;
+let height = 120;
+```
+
+</details>
+
 - Objects - describe a single entity in the program.
   - Properties
   - Methods
