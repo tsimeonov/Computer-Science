@@ -43,7 +43,7 @@ let tree = {
 
 </details>
 
-  <details>
+<details>
   <summary>Objects example with methods</summary>
 
 ```javascript
@@ -60,5 +60,27 @@ let tree = {
 ```
 
 </details>
+<br>
 
 - Constructor functions - Create multiple vursions of an object
+
+<details>
+  <summary>Constructor functions example</summary>
+
+```javascript
+function Tree (col) {
+  this.x_pos =  100,
+  this.y_pos =  0,
+  this.height =  120,
+  this.colour = col,
+  hasLeaves: true,
+  this.wilt: function () {
+    this.hasLeaves = false;
+  },
+};
+
+let tree_1 = new Tree("pink")
+let tree_2 = new Tree("green")
+```
+
+</details>
