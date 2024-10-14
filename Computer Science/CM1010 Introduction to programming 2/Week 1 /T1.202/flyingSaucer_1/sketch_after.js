@@ -46,7 +46,7 @@ function draw() {
     flying_saucer_x,
     flying_saucer_y,
     flying_sacer_width / 2,
-    100,
+    flying_sacer_height * 2,
     PI,
     TWO_PI
   );
@@ -64,7 +64,7 @@ function draw() {
     flying_saucer_x,
     flying_saucer_y,
     flying_sacer_width,
-    flying_sacer_height - 25,
+    flying_sacer_height / 2,
     0,
     PI
   );
