@@ -18,7 +18,7 @@ function setup() {
   flying_saucer_y = 100;
 
   // Step 6: Initialize the width variable
-  flying_sacer_width = 150;
+  flying_sacer_width = 200;
 }
 
 function draw() {
@@ -34,7 +34,14 @@ function draw() {
 
   //draw the flying saucer
   fill(175, 238, 238);
-  arc(flying_saucer_x, flying_saucer_y, 75, 100, PI, TWO_PI);
+  arc(
+    flying_saucer_x,
+    flying_saucer_y,
+    flying_sacer_width / 2,
+    100,
+    PI,
+    TWO_PI
+  );
   fill(150);
   arc(flying_saucer_x, flying_saucer_y, flying_sacer_width, 50, PI, TWO_PI);
   fill(50);
