@@ -54,8 +54,8 @@ function draw() {
   //draw the flying saucer
   fill(175, 238, 238);
   arc(
-    flying_saucer_x,
-    flying_saucer_y,
+    flying_saucer.x,
+    flying_saucer.y,
     flying_sacer_width / 2,
     flying_sacer_height * 2,
     PI,
@@ -63,8 +63,8 @@ function draw() {
   );
   fill(150);
   arc(
-    flying_saucer_x,
-    flying_saucer_y,
+    flying_saucer.x,
+    flying_saucer.y,
     flying_sacer_width,
     flying_sacer_height,
     PI,
@@ -72,8 +72,8 @@ function draw() {
   );
   fill(50);
   arc(
-    flying_saucer_x,
-    flying_saucer_y,
+    flying_saucer.x,
+    flying_saucer.y,
     flying_sacer_width,
     flying_sacer_height / 2,
     0,
@@ -82,8 +82,8 @@ function draw() {
 
   // Step 4: Make the saucer hover
 
-  flying_saucer_x += random(-1, 1);
-  flying_saucer_y += random(-1, 1);
+  flying_saucer.x += random(-1, 1);
+  flying_saucer.y += random(-1, 1);
 
   // Step 8: Add lights
   fill(255);
@@ -92,8 +92,8 @@ function draw() {
 
   for (let i = 0; i < 10; i++) {
     ellipse(
-      flying_saucer_x - flying_sacer_width / 2 + increment * i,
-      flying_saucer_y,
+      flying_saucer.x - flying_sacer_width / 2 + increment * i,
+      flying_saucer.y,
       5
     );
   }
