@@ -51,4 +51,17 @@ function draw() {
 
   flying_saucer_x += random(-1, 1);
   flying_saucer_y += random(-1, 1);
+
+  // Step 8: Add lights
+  fill(255);
+
+  let increment = flying_sacer_width / (10 - 1);
+
+  for (let i = 0; i < 10; i++) {
+    ellipse(
+      flying_saucer_x - flying_sacer_width / 2 + increment * i,
+      flying_saucer_y,
+      5
+    );
+  }
 }
