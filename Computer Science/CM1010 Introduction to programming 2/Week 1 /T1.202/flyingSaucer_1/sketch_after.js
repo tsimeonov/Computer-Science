@@ -13,7 +13,7 @@
 // let flying_sacer_height;
 
 // Step 11: Create an object
-let flying_sacer;
+let flying_saucer;
 
 function setup() {
   createCanvas(800, 600);
@@ -31,11 +31,17 @@ function setup() {
 
   // Step 12: Initialize the object
   flying_saucer = {
-    x: 200,
-    y: 100,
+    x: 400,
+    y: 150,
     width: 200,
-    height: 50,
+    height: 75,
+    num_lights: 20,
+    brightness: [],
   };
+
+  for (let i = 0; i < flying_saucer.num_lights; i++) {
+    flying_saucer.brightness.push((i * 20) % 255);
+  }
 }
 
 function draw() {
@@ -88,13 +94,17 @@ function draw() {
   // Step 8: Add lights
   fill(255);
 
-  let increment = flying_saucer.width / (10 - 1);
+  let increment = flying_saucer.width / (flying_saucer.num_lights - 1);
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < flying_saucer.num_lights; i++) {
+    fill(flying_saucer.brightness[i]);
     ellipse(
       flying_saucer.x - flying_saucer.width / 2 + increment * i,
       flying_saucer.y,
       5
     );
+
+    flying_saucer.brightness[i] += 3;
+    flying_saucer.brightness[i] = flying_saucer.brightness[i] % 255;
   }
 }
