@@ -3,14 +3,14 @@
 //part one
 
 // Step 1: Create the two varialbes
-let flying_saucer_x;
-let flying_saucer_y;
+// let flying_saucer_x;
+// let flying_saucer_y;
 
 // Step 5: Create the width variable
-let flying_sacer_width;
+// let flying_sacer_width;
 
 // Step 8: Create a variable for the height
-let flying_sacer_height;
+// let flying_sacer_height;
 
 // Step 11: Create an object
 let flying_sacer;
@@ -20,17 +20,17 @@ function setup() {
   noStroke();
 
   // Step 2: Initialize the variables
-  flying_saucer_x = 200;
-  flying_saucer_y = 100;
+  // flying_saucer_x = 200;
+  // flying_saucer_y = 100;
 
   // Step 6: Initialize the width variable
-  flying_sacer_width = 200;
+  // flying_sacer_width = 200;
 
   // Step 9: Initialize the height variable
-  flying_sacer_height = 50;
+  // flying_sacer_height = 50;
 
   // Step 12: Initialize the object
-  flying_sacer = {
+  flying_saucer = {
     x: 200,
     y: 100,
     width: 200,
@@ -56,8 +56,8 @@ function draw() {
   arc(
     flying_saucer.x,
     flying_saucer.y,
-    flying_sacer_width / 2,
-    flying_sacer_height * 2,
+    flying_saucer.width / 2,
+    flying_saucer.height * 2,
     PI,
     TWO_PI
   );
@@ -65,8 +65,8 @@ function draw() {
   arc(
     flying_saucer.x,
     flying_saucer.y,
-    flying_sacer_width,
-    flying_sacer_height,
+    flying_saucer.width,
+    flying_saucer.height,
     PI,
     TWO_PI
   );
@@ -74,8 +74,8 @@ function draw() {
   arc(
     flying_saucer.x,
     flying_saucer.y,
-    flying_sacer_width,
-    flying_sacer_height / 2,
+    flying_saucer.width,
+    flying_saucer.height / 2,
     0,
     PI
   );
@@ -88,11 +88,11 @@ function draw() {
   // Step 8: Add lights
   fill(255);
 
-  let increment = flying_sacer_width / (10 - 1);
+  let increment = flying_saucer.width / (10 - 1);
 
   for (let i = 0; i < 10; i++) {
     ellipse(
-      flying_saucer.x - flying_sacer_width / 2 + increment * i,
+      flying_saucer.x - flying_saucer.width / 2 + increment * i,
       flying_saucer.y,
       5
     );
