@@ -22,6 +22,9 @@ function setup() {
 
   // Step 6: Initialize the width variable
   flying_sacer_width = 200;
+
+  // Step 9: Initialize the height variable
+  flying_sacer_height = 50;
 }
 
 function draw() {
