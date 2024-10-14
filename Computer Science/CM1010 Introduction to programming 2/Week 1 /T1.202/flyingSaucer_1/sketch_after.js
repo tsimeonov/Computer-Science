@@ -38,6 +38,8 @@ function draw() {
 
   // Step 7: Replace the hard coded values (width) with the variable
 
+  // Step 10: Replace the hard coded values (height) with the variable
+
   //draw the flying saucer
   fill(175, 238, 238);
   arc(
@@ -49,9 +51,23 @@ function draw() {
     TWO_PI
   );
   fill(150);
-  arc(flying_saucer_x, flying_saucer_y, flying_sacer_width, 50, PI, TWO_PI);
+  arc(
+    flying_saucer_x,
+    flying_saucer_y,
+    flying_sacer_width,
+    flying_sacer_height,
+    PI,
+    TWO_PI
+  );
   fill(50);
-  arc(flying_saucer_x, flying_saucer_y, flying_sacer_width, 25, 0, PI);
+  arc(
+    flying_saucer_x,
+    flying_saucer_y,
+    flying_sacer_width,
+    flying_sacer_height - 25,
+    0,
+    PI
+  );
 
   // Step 4: Make the saucer hover
 
