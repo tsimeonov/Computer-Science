@@ -22,11 +22,13 @@ function draw() {
   fill(0, 50, 0);
   rect(0, height - 100, width, 100);
 
+  // Step 3: Replace the hard coded values with the variables
+
   //draw the flying saucer
   fill(175, 238, 238);
-  arc(200, 100, 75, 100, PI, TWO_PI);
+  arc(flying_saucer_x, flying_saucer_y, 75, 100, PI, TWO_PI);
   fill(150);
-  arc(200, 100, 150, 50, PI, TWO_PI);
+  arc(flying_saucer_x, flying_saucer_y, 150, 50, PI, TWO_PI);
   fill(50);
-  arc(200, 100, 150, 25, 0, PI);
+  arc(flying_saucer_x, flying_saucer_y, 150, 25, 0, PI);
 }
