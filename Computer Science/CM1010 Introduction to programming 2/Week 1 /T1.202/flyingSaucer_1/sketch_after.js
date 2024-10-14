@@ -31,4 +31,9 @@ function draw() {
   arc(flying_saucer_x, flying_saucer_y, 150, 50, PI, TWO_PI);
   fill(50);
   arc(flying_saucer_x, flying_saucer_y, 150, 25, 0, PI);
+
+  // Step 4: Make the sauser hover
+
+  flying_saucer_x += random(-1, 1);
+  flying_saucer_y += random(-1, 1);
 }
