@@ -16,6 +16,9 @@ function setup() {
   // Step 2: Initialize the variables
   flying_saucer_x = 200;
   flying_saucer_y = 100;
+
+  // Step 6: Initialize the width variable
+  flying_sacer_width = 150;
 }
 
 function draw() {
