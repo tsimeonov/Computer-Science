@@ -6,7 +6,7 @@
 let flying_saucer_x;
 let flying_saucer_y;
 
-// Step 5: Create the wifth variable
+// Step 5: Create the width variable
 let flying_sacer_width;
 
 function setup() {
