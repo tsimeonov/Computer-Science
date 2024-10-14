@@ -9,6 +9,9 @@ let flying_saucer_y;
 // Step 5: Create the width variable
 let flying_sacer_width;
 
+// Step 8: Create a variable for the height
+let flying_sacer_height;
+
 function setup() {
   createCanvas(800, 600);
   noStroke();
