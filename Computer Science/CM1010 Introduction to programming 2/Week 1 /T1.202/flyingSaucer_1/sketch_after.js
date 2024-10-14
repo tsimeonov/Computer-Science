@@ -9,6 +9,10 @@ let flying_saucer_y;
 function setup() {
   createCanvas(800, 600);
   noStroke();
+
+  // Step 2: Initialize the variables
+  flying_saucer_x = 200;
+  flying_saucer_y = 100;
 }
 
 function draw() {
