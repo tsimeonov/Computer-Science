@@ -2,9 +2,12 @@
 //Object orientation revisted
 //part one
 
-// Step 1: Create the varialbes
+// Step 1: Create the two varialbes
 let flying_saucer_x;
 let flying_saucer_y;
+
+// Step 5: Create the wifth variable
+let flying_sacer_width;
 
 function setup() {
   createCanvas(800, 600);
