@@ -8,3 +8,5 @@ When we use 10 as a base we say we are writting in the `decimal system`.
     = 2(10^2^) + 5(10^1^) + (10^0^)
 
 ### 14.2: The binary system
+
+A binary system uses base 2. A binary system has only two digits: 0 and 1. Numbers in base 2 are called `binary digits` or simply `bits` for short.
