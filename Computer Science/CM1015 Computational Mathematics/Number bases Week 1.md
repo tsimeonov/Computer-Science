@@ -16,3 +16,5 @@ A binary system uses base 2. A binary system has only two digits: 0 and 1. Numbe
 Hense 110101~2~ and 53~10~ are equivalent
 
 <h5>Converting decimal to binary</h5>
+
+### 14.3: Octal system
