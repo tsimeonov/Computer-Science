@@ -14,3 +14,5 @@ A binary system uses base 2. A binary system has only two digits: 0 and 1. Numbe
 1101012 = 1(2^5^) + 1(2^4^) + 0(2^3^) + 1(2^2^) + 0(2^1^) + 1(2^0^) = 1(32) + 1(16) + 0(8) + 1(4) + 0(2) + 1(1) = 32 + 16 + 4 + 1 = 531~10~
 
 Hense 110101~2~ and 53~10~ are equivalent
+
+<h5>Converting decimal to binary</h5>
