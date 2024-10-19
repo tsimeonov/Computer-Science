@@ -18,3 +18,7 @@ Hense 110101~2~ and 53~10~ are equivalent
 <h5>Converting decimal to binary</h5>
 
 ### 14.3: Octal system
+
+Octal numbers use 8 as a base.
+
+328~8~ = 3(8^2^) + 2(8^1^) + 5(8^0^)
