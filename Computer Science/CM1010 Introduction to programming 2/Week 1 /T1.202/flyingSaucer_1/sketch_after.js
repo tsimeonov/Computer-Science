@@ -46,6 +46,8 @@ function setup() {
       this.x += random(-1, 1);
       this.y += random(-1, 1);
     },
+
+    beam: function () {},
   };
 
   for (let i = 0; i < flying_saucer.num_lights; i++) {
