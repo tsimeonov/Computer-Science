@@ -37,6 +37,10 @@ function setup() {
     height: 75,
     num_lights: 20,
     brightness: [],
+
+    hover: function () {
+      console.log("Hover");
+    },
   };
 
   for (let i = 0; i < flying_saucer.num_lights; i++) {
@@ -85,6 +89,8 @@ function draw() {
     0,
     PI
   );
+
+  flying_saucer.hover();
 
   // Step 4: Make the saucer hover
 
