@@ -81,7 +81,9 @@ function draw() {
 
   // Step 10: Replace the hard coded values (height) with the variable
 
-  flying_saucer.beam();
+  if (flying_saucer.beam_on == true) {
+    flying_saucer.beam();
+  }
 
   //draw the flying saucer
   fill(175, 238, 238);
