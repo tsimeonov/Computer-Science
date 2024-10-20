@@ -59,6 +59,8 @@ function setup() {
         endShape(close);
       }
     },
+
+    beam_on: false,
   };
 
   for (let i = 0; i < flying_saucer.num_lights; i++) {
@@ -131,3 +133,5 @@ function draw() {
 }
 
 function keyPressed() {}
+
+function keyReleased() {}
