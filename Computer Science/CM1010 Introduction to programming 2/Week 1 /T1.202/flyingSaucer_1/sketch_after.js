@@ -49,7 +49,13 @@ function setup() {
 
     beam: function () {
       fill(255, 255, 100, 160);
-      rect(this.x, this.y, 300, 300);
+
+      beginShape();
+      vertex(this.x - this.width * 0.25, this.y);
+      vertex(this.x + this.width * 0.25, this.y);
+      vertex(this.x + this.width, height - 100);
+      vertex(this.x - this.width, height - 100);
+      endShape(close);
     },
   };
 
