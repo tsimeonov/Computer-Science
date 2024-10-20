@@ -77,6 +77,8 @@ function draw() {
 
   // Step 10: Replace the hard coded values (height) with the variable
 
+  flying_saucer.beam();
+
   //draw the flying saucer
   fill(175, 238, 238);
   arc(
@@ -107,8 +109,6 @@ function draw() {
   );
 
   flying_saucer.hover();
-
-  flying_saucer.beam();
 
   // Step 8: Add lights
   fill(255);
