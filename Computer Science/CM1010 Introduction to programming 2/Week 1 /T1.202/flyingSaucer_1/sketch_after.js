@@ -129,3 +129,5 @@ function draw() {
     flying_saucer.brightness[i] = flying_saucer.brightness[i] % 255;
   }
 }
+
+function keyPressed() {}
