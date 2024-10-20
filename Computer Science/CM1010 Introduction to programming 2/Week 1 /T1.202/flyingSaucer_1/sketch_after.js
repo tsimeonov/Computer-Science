@@ -47,7 +47,10 @@ function setup() {
       this.y += random(-1, 1);
     },
 
-    beam: function () {},
+    beam: function () {
+      fill(255, 255, 100, 100);
+      rect(this.x, this.y, 300, 300);
+    },
   };
 
   for (let i = 0; i < flying_saucer.num_lights; i++) {
