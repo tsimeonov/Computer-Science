@@ -40,6 +40,11 @@ function setup() {
 
     hover: function () {
       console.log("Hover");
+
+      // Step 4: Make the saucer hover
+
+      this.x += random(-1, 1);
+      this.y += random(-1, 1);
     },
   };
 
@@ -91,11 +96,6 @@ function draw() {
   );
 
   flying_saucer.hover();
-
-  // Step 4: Make the saucer hover
-
-  flying_saucer.x += random(-1, 1);
-  flying_saucer.y += random(-1, 1);
 
   // Step 8: Add lights
   fill(255);
