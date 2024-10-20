@@ -39,7 +39,7 @@ function setup() {
     brightness: [],
 
     hover: function () {
-      console.log("Hover");
+      // console.log("Hover");
 
       // Step 4: Make the saucer hover
 
@@ -50,12 +50,14 @@ function setup() {
     beam: function () {
       fill(255, 255, 100, 160);
 
-      beginShape();
-      vertex(this.x - this.width * 0.25, this.y);
-      vertex(this.x + this.width * 0.25, this.y);
-      vertex(this.x + this.width, height - 100);
-      vertex(this.x - this.width, height - 100);
-      endShape(close);
+      if (random() > 0.001) {
+        beginShape();
+        vertex(this.x - this.width * 0.25, this.y);
+        vertex(this.x + this.width * 0.25, this.y);
+        vertex(this.x + this.width, height - 100);
+        vertex(this.x - this.width, height - 100);
+        endShape(close);
+      }
     },
   };
 
