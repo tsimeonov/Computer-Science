@@ -102,6 +102,8 @@ function draw() {
 
   flying_saucer.hover();
 
+  flying_saucer.beam();
+
   // Step 8: Add lights
   fill(255);
 
