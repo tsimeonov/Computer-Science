@@ -110,24 +110,27 @@ function keyReleased() {
   flying_saucer.beam_on = false;
 }
 
-flying_saucer = {
-  x: 400,
-  y: 150,
-  width: 200,
-  height: 75,
-  num_lights: 20,
-  brightness: [],
+function Flying_saucer() {
+  this.x = 400;
+  this.y = 150;
+  this.width = 200;
+  this.height;
+  75;
+  this.num_lights;
+  20;
+  this.brightness;
+  [];
 
-  hover: function () {
+  this.hover = function () {
     // console.log("Hover");
 
     // Step 4: Make the saucer hover
 
     this.x += random(-1, 1);
     this.y += random(-1, 1);
-  },
+  };
 
-  beam: function () {
+  this.beam = function () {
     fill(255, 255, 100, 160);
 
     if (random() > 0.001) {
@@ -138,7 +141,7 @@ flying_saucer = {
       vertex(this.x - this.width, height - 100);
       endShape(close);
     }
-  },
+  };
 
-  beam_on: false,
-};
+  this.beam_on = false;
+}
