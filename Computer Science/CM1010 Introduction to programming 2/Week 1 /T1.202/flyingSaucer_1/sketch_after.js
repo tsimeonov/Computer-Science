@@ -30,38 +30,6 @@ function setup() {
   // flying_sacer_height = 50;
 
   // Step 12: Initialize the object
-  flying_saucer = {
-    x: 400,
-    y: 150,
-    width: 200,
-    height: 75,
-    num_lights: 20,
-    brightness: [],
-
-    hover: function () {
-      // console.log("Hover");
-
-      // Step 4: Make the saucer hover
-
-      this.x += random(-1, 1);
-      this.y += random(-1, 1);
-    },
-
-    beam: function () {
-      fill(255, 255, 100, 160);
-
-      if (random() > 0.001) {
-        beginShape();
-        vertex(this.x - this.width * 0.25, this.y);
-        vertex(this.x + this.width * 0.25, this.y);
-        vertex(this.x + this.width, height - 100);
-        vertex(this.x - this.width, height - 100);
-        endShape(close);
-      }
-    },
-
-    beam_on: false,
-  };
 
   for (let i = 0; i < flying_saucer.num_lights; i++) {
     flying_saucer.brightness.push((i * 20) % 255);
@@ -141,3 +109,36 @@ function keyPressed() {
 function keyReleased() {
   flying_saucer.beam_on = false;
 }
+
+flying_saucer = {
+  x: 400,
+  y: 150,
+  width: 200,
+  height: 75,
+  num_lights: 20,
+  brightness: [],
+
+  hover: function () {
+    // console.log("Hover");
+
+    // Step 4: Make the saucer hover
+
+    this.x += random(-1, 1);
+    this.y += random(-1, 1);
+  },
+
+  beam: function () {
+    fill(255, 255, 100, 160);
+
+    if (random() > 0.001) {
+      beginShape();
+      vertex(this.x - this.width * 0.25, this.y);
+      vertex(this.x + this.width * 0.25, this.y);
+      vertex(this.x + this.width, height - 100);
+      vertex(this.x - this.width, height - 100);
+      endShape(close);
+    }
+  },
+
+  beam_on: false,
+};
