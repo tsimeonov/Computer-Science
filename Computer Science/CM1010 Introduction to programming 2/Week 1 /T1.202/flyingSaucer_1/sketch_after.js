@@ -132,6 +132,10 @@ function draw() {
   }
 }
 
-function keyPressed() {}
+function keyPressed() {
+  flying_saucer.beam_on = true;
+}
 
-function keyReleased() {}
+function keyReleased() {
+  flying_saucer.beam_on = false;
+}
