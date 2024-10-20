@@ -48,7 +48,7 @@ function setup() {
     },
 
     beam: function () {
-      fill(255, 255, 100, 100);
+      fill(255, 255, 100, 160);
       rect(this.x, this.y, 300, 300);
     },
   };
