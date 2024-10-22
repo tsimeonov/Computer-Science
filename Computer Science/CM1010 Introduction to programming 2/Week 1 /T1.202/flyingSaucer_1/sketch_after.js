@@ -30,10 +30,6 @@ function setup() {
   // flying_sacer_height = 50;
 
   // Step 12: Initialize the object
-
-  for (let i = 0; i < flying_saucer.num_lights; i++) {
-    flying_saucer.brightness.push((i * 20) % 255);
-  }
 }
 
 function draw() {
@@ -144,4 +140,8 @@ function Flying_saucer() {
   };
 
   this.beam_on = false;
+
+  for (let i = 0; i < flying_saucer.num_lights; i++) {
+    flying_saucer.brightness.push((i * 20) % 255);
+  }
 }
