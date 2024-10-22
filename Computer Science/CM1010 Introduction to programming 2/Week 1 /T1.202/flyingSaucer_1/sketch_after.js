@@ -141,7 +141,7 @@ function Flying_saucer() {
 
   this.beam_on = false;
 
-  for (let i = 0; i < flying_saucer.num_lights; i++) {
-    flying_saucer.brightness.push((i * 20) % 255);
+  for (let i = 0; i < this.num_lights; i++) {
+    this.brightness.push((i * 20) % 255);
   }
 }
