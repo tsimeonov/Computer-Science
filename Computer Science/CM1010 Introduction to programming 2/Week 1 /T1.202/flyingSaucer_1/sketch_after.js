@@ -1,37 +1,99 @@
 //Topic 1.1
 //Object orientation revisted
-//part one
+//part two
 
-// Step 1: Create the two varialbes
-// let flying_saucer_x;
-// let flying_saucer_y;
+var flyingSaucers;
 
-// Step 5: Create the width variable
-// let flying_sacer_width;
+function FlyingSaucer(x, y) {
+  this.x = x;
+  this.y = y;
+  this.width = random(150, 250);
+  this.height = random(75, 125);
+  (this.window_width = random(0.65, 0.85)),
+    (this.window_height = random(0.75, 1)),
+    (this.base_height = random(0.25, 0.5)),
+    (this.num_lights = floor(random(5, 25))),
+    (this.light_inc = floor(random(5, 10))),
+    (this.brightnesses = []),
+    (this.beamOn = false),
+    (this.beam = function () {
+      if (random() > 0.25) {
+        fill(255, 255, 100, 150);
+        beginShape();
+        vertex(this.x - 25, this.y + this.height * this.base_height * 0.5);
+        vertex(this.x + 25, this.y + this.height * this.base_height * 0.5);
+        vertex(this.x + 70, height - 100);
+        vertex(this.x - 70, height - 100);
+        endShape();
+      }
+    }),
+    (this.hover = function () {
+      this.x += random(-1, 1);
+      this.y += random(-1, 1);
 
-// Step 8: Create a variable for the height
-// let flying_sacer_height;
+      if (this.beamOn && random() > 0.996) {
+        this.beamOn = false;
+      } else if (!this.beamOn && random() > 0.99) {
+        this.beamOn = true;
+      }
+    });
 
-// Step 11: Create an object
-let flying_saucer;
+  this.draw = function () {
+    if (this.beamOn) {
+      this.beam();
+    }
+
+    //draw the window
+    fill(175, 238, 238);
+    arc(
+      this.x,
+      this.y,
+      this.width * this.window_width,
+      this.height * this.window_height,
+      PI,
+      TWO_PI
+    );
+
+    //draw the body
+    fill(150);
+    arc(this.x, this.y, this.width, this.height / 2, PI, TWO_PI);
+
+    //draw the base
+    fill(50);
+    arc(this.x, this.y, this.width, this.height * this.base_height, 0, PI);
+
+    //draw the lights
+    var incr = this.width / (this.num_lights - 1);
+
+    for (var i = 0; i < this.num_lights; i++) {
+      var x = this.x - this.width / 2 + i * incr;
+      fill(this.brightnesses[i]);
+      ellipse(x, this.y, 5, 5);
+      this.brightnesses[i] += this.light_inc;
+      if (this.brightnesses[i] > 255) {
+        this.brightnesses[i] = 100;
+      }
+    }
+  };
+
+  //////// setup code /////////
+
+  for (var i = 0; i < this.num_lights; i++) {
+    this.brightnesses.push((i * this.light_inc * 2) % 255);
+  }
+}
 
 function setup() {
   createCanvas(800, 600);
   noStroke();
 
-  // Step 2: Initialize the variables
-  // flying_saucer_x = 200;
-  // flying_saucer_y = 100;
+  flyingSaucers = [];
 
-  // Step 6: Initialize the width variable
-  // flying_sacer_width = 200;
-
-  // Step 9: Initialize the height variable
-  // flying_sacer_height = 50;
-
-  // Step 12: Initialize the object
-
-  flying_saucer = new Flying_saucer();
+  for (var i = 0; i < 5; i++) {
+    flyingSaucers.push(
+      new FlyingSaucer(100 + i * 150, floor(random(100, 200)))
+    );
+  }
 }
 
 function draw() {
@@ -41,86 +103,10 @@ function draw() {
   fill(0, 50, 0);
   rect(0, height - 100, width, 100);
 
-  // Step 3: Replace the hard coded values with the variables
+  for (var i = 0; i < flyingSaucers.length; i++) {
+    flyingSaucers[i].hover();
 
-  // Step 7: Replace the hard coded values (width) with the variable
-
-  // Step 10: Replace the hard coded values (height) with the variable
-
-  if (flying_saucer.beam_on == true) {
-    flying_saucer.beam();
-  }
-}
-
-function keyPressed() {
-  flying_saucer.beam_on = true;
-}
-
-function keyReleased() {
-  flying_saucer.beam_on = false;
-}
-
-function Flying_saucer() {
-  this.x = 400;
-  this.y = 150;
-  this.width = 200;
-  this.height;
-  75;
-  this.num_lights;
-  20;
-  this.brightness;
-  [];
-
-  this.hover = function () {
-    // console.log("Hover");
-
-    // Step 4: Make the saucer hover
-
-    this.x += random(-1, 1);
-    this.y += random(-1, 1);
-  };
-
-  this.beam = function () {
-    fill(255, 255, 100, 160);
-
-    if (random() > 0.001) {
-      beginShape();
-      vertex(this.x - this.width * 0.25, this.y);
-      vertex(this.x + this.width * 0.25, this.y);
-      vertex(this.x + this.width, height - 100);
-      vertex(this.x - this.width, height - 100);
-      endShape(close);
-    }
-  };
-
-  this.beam_on = false;
-
-  this.draw = function () {
     //draw the flying saucer
-    fill(175, 238, 238);
-    arc(this.x, this.y, this.width / 2, this.height * 2, PI, TWO_PI);
-    fill(150);
-    arc(this.x, this.y, this.width, this.height, PI, TWO_PI);
-    fill(50);
-    arc(this.x, this.y, this.width, this.height / 2, 0, PI);
-
-    this.hover();
-
-    // Step 8: Add lights
-    fill(255);
-
-    let increment = this.width / (this.num_lights - 1);
-
-    for (let i = 0; i < this.num_lights; i++) {
-      fill(this.brightness[i]);
-      ellipse(this.x - this.width / 2 + increment * i, this.y, 5);
-
-      this.brightness[i] += 3;
-      this.brightness[i] = this.brightness[i] % 255;
-    }
-  };
-
-  for (let i = 0; i < this.num_lights; i++) {
-    this.brightness.push((i * 20) % 255);
+    flyingSaucers[i].draw();
   }
 }
