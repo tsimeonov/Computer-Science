@@ -96,50 +96,25 @@ function Flying_saucer() {
   this.draw = function () {
     //draw the flying saucer
     fill(175, 238, 238);
-    arc(
-      flying_saucer.x,
-      flying_saucer.y,
-      flying_saucer.width / 2,
-      flying_saucer.height * 2,
-      PI,
-      TWO_PI
-    );
+    arc(this.x, this.y, this.width / 2, this.height * 2, PI, TWO_PI);
     fill(150);
-    arc(
-      flying_saucer.x,
-      flying_saucer.y,
-      flying_saucer.width,
-      flying_saucer.height,
-      PI,
-      TWO_PI
-    );
+    arc(this.x, this.y, this.width, this.height, PI, TWO_PI);
     fill(50);
-    arc(
-      flying_saucer.x,
-      flying_saucer.y,
-      flying_saucer.width,
-      flying_saucer.height / 2,
-      0,
-      PI
-    );
+    arc(this.x, this.y, this.width, this.height / 2, 0, PI);
 
-    flying_saucer.hover();
+    this.hover();
 
     // Step 8: Add lights
     fill(255);
 
-    let increment = flying_saucer.width / (flying_saucer.num_lights - 1);
+    let increment = this.width / (this.num_lights - 1);
 
-    for (let i = 0; i < flying_saucer.num_lights; i++) {
-      fill(flying_saucer.brightness[i]);
-      ellipse(
-        flying_saucer.x - flying_saucer.width / 2 + increment * i,
-        flying_saucer.y,
-        5
-      );
+    for (let i = 0; i < this.num_lights; i++) {
+      fill(this.brightness[i]);
+      ellipse(this.x - this.width / 2 + increment * i, this.y, 5);
 
-      flying_saucer.brightness[i] += 3;
-      flying_saucer.brightness[i] = flying_saucer.brightness[i] % 255;
+      this.brightness[i] += 3;
+      this.brightness[i] = this.brightness[i] % 255;
     }
   };
 
