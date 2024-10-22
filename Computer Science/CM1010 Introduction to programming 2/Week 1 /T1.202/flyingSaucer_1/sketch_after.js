@@ -30,6 +30,8 @@ function setup() {
   // flying_sacer_height = 50;
 
   // Step 12: Initialize the object
+
+  flying_saucer = new Flying_saucer();
 }
 
 function draw() {
