@@ -141,6 +141,8 @@ function Flying_saucer() {
 
   this.beam_on = false;
 
+  this.draw = function () {};
+
   for (let i = 0; i < this.num_lights; i++) {
     this.brightness.push((i * 20) % 255);
   }
