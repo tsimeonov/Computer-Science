@@ -27,3 +27,5 @@ Octal numbers use 8 as a base.
 328~8~ = 3(8^2^) + 2(8^1^) + 5(8^0^)
 
 ### 14.4: Hexadecimal system
+
+The number systems whisch use 16 as a base are called `hexadecimal`. There are 16 digits in the hexadecimal system: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
