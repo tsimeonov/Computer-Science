@@ -98,3 +98,31 @@ Object Orientaion Principles;
 - Encapsulation
 
 It involves bundling data (properties) and methods (functions) together while restricting access to some of that data to protect its integrity.
+
+```javascript
+function Employee(name, salary) {
+  let _name = name; // Private variable
+  let _salary = salary; // Private variable
+
+  return {
+    getName: function () {
+      return _name;
+    },
+    getSalary: function () {
+      return _salary;
+    },
+    setSalary: function (newSalary) {
+      if (newSalary > 0) {
+        _salary = newSalary;
+      } else {
+        console.log("Invalid salary");
+      }
+    },
+  };
+}
+
+const emp = Employee("Alice", 3000);
+console.log(emp.getName()); // Alice
+emp.setSalary(4000);
+console.log(emp.getSalary()); // 4000
+```
