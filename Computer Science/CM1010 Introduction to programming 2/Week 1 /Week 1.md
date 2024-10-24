@@ -130,3 +130,24 @@ console.log(emp.getSalary()); // 4000
 - Abstraction
 
 Is the concept of hiding the complex implementation details of a system and exposing only the essential, high-level functionality.
+
+```javascript
+function createUser(username, password) {
+  // Abstracting complex logic
+  function encryptPassword(password) {
+    return password.split("").reverse().join(""); // Example encryption
+  }
+
+  return {
+    username: username,
+    password: encryptPassword(password), // Only encrypted password exposed
+    login: function () {
+      console.log(`${username} logged in.`);
+    },
+  };
+}
+
+const user = createUser("johnDoe", "password123");
+console.log(user.password); // Encrypted password output: '321drowssap'
+user.login(); // Output: johnDoe logged in.
+```
