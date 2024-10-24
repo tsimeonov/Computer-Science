@@ -92,3 +92,9 @@ let tree_2 = new Tree("green")
 <h5>1.203: Objects in practice, part 2</h5>
 
 <h5>1.205: Object Orientation</h5>
+
+Object Orientaion Principles;
+
+- Encapsulation
+
+It involves bundling data (properties) and methods (functions) together while restricting access to some of that data to protect its integrity.
