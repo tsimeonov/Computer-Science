@@ -126,3 +126,7 @@ console.log(emp.getName()); // Alice
 emp.setSalary(4000);
 console.log(emp.getSalary()); // 4000
 ```
+
+- Abstraction
+
+Is the concept of hiding the complex implementation details of a system and exposing only the essential, high-level functionality.
