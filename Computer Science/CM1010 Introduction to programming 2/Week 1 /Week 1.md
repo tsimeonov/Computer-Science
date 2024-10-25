@@ -93,7 +93,7 @@ let tree_2 = new Tree("green")
 
 <h5>1.205: Object Orientation</h5>
 
-Object Orientaion Principles;
+Object Orientaion Principles:
 
 - Encapsulation
 
@@ -151,3 +151,5 @@ const user = createUser("johnDoe", "password123");
 console.log(user.password); // Encrypted password output: '321drowssap'
 user.login(); // Output: johnDoe logged in.
 ```
+
+<h5>1.206: Object orientaion in practice, part 1</h5>
