@@ -5,3 +5,5 @@
 <h5>1.301: Splitting across multiple files</h5>
 
 Each constructor function shoud have it's own file
+
+## Lesson 1.4: Case studies overview
