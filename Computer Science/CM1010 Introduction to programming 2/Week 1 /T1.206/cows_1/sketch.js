@@ -21,8 +21,6 @@ function FlyingSaucer(x, y) {
   var light_inc = floor(random(5, 10));
   var brightnesses = [];
 
-  var self = this;
-
   ///////////methods/////////////
 
   this.hover = function () {
@@ -74,14 +72,14 @@ function FlyingSaucer(x, y) {
     }
   };
 
-  var beam = function () {
+  this.beam = function () {
     if (random() > 0.25) {
       fill(255, 255, 100, 150);
       beginShape();
-      vertex(self.x - 25, self.y + fs_height * base_height * 0.5);
-      vertex(self.x + 25, self.y + fs_height * base_height * 0.5);
-      vertex(self.x + 70, height - 100);
-      vertex(self.x - 70, height - 100);
+      vertex(this.x - 25, this.y + fs_height * base_height * 0.5);
+      vertex(this.x + 25, this.y + fs_height * base_height * 0.5);
+      vertex(this.x + 70, height - 100);
+      vertex(this.x - 70, height - 100);
       endShape();
     }
   };
