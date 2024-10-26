@@ -152,4 +152,4 @@ console.log(user.password); // Encrypted password output: '321drowssap'
 user.login(); // Output: johnDoe logged in.
 ```
 
-<h5>1.206: Object orientaion in practice, part 1</h5>
+<h5>1.206: Object orientation in practice, part 1</h5>
