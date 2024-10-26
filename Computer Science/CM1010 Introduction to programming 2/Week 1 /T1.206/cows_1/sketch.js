@@ -74,14 +74,14 @@ function FlyingSaucer(x, y) {
     }
   };
 
-  this.beam = function () {
+  var beam = function () {
     if (random() > 0.25) {
       fill(255, 255, 100, 150);
       beginShape();
-      vertex(this.x - 25, this.y + fs_height * base_height * 0.5);
-      vertex(this.x + 25, this.y + fs_height * base_height * 0.5);
-      vertex(this.x + 70, height - 100);
-      vertex(this.x - 70, height - 100);
+      vertex(self.x - 25, self.y + fs_height * base_height * 0.5);
+      vertex(self.x + 25, self.y + fs_height * base_height * 0.5);
+      vertex(self.x + 70, height - 100);
+      vertex(self.x - 70, height - 100);
       endShape();
     }
   };
