@@ -51,3 +51,5 @@ Let's take the binary number 1011 and convert it ti decimal (base 10)
 Now, sun the values:
 
 8 + 0 + 2 + 1 = 11
+
+<h5>Working in other bases</h5>
