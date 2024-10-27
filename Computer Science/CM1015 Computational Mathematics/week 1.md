@@ -53,3 +53,5 @@ Now, sun the values:
 8 + 0 + 2 + 1 = 11
 
 <h5>Working in other bases</h5>
+
+<h5>Conversion of integer numbers between different bases</h5>
