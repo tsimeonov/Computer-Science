@@ -14,4 +14,5 @@
 ```
 
 1. 1+1=10 → write down 0, carry over 1
-2. 0+1+1 = 1- -> write down 0, carry over 2
+2. 0+1+1 = 10 -> write down 0, carry over 1
+3. 1+1+1 == 11 -> write down 1, carry over 1
