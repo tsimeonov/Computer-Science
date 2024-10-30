@@ -42,3 +42,5 @@ Binary substraction rules
 --------
  011010
 ```
+
+<h5>Operations with binary numbers - multip;ication</h5>
