@@ -19,6 +19,15 @@
 - 1+0+1=10 -> write down 0, carry over 1
 - 0+1=1 (with the caarry from previous addition) -> write down 1
 
+Binary addition rules
+
+| x  | y  | x+y  |   
+|:---:|:---:|:---:|
+|  0  | 0  | 0  |  
+|  0 | 1  | 1  |
+|  1 | 0  | 1  |
+|  1 | 1  | 0 (one is carried forward)  |
+
 <h5>Operations with binary numbers - substraction</h5>
 
 Binary substraction rules
