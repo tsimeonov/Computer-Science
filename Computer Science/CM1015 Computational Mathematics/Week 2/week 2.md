@@ -73,6 +73,17 @@ Let's look a the actual multiplication
 
 Multiplication of Binary Numbers with Decimal Points
 
+1011.01 and 110.1
+
+|   |   |   |   | 1 | 0 | 1 | 1 | 0 | 1 |
+|---|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   | x | 1 | 1 | 0 | 1 |
+|   |   |   |   | 1 | 0 | 1 | 1 | 0 | 1 |
+|   |   |   | 0 | 0 | 0 | 0 | 0 | 0 | x |
+|   |   | 1 | 0 | 1 | 1 | 0 | 1 | x | x |
+| + | 1 | 0 | 1 | 1 | 0 | 1 | x | x | x |
+| 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 |
+
 
 
 
