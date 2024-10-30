@@ -71,6 +71,7 @@ Let's look a the actual multiplication
 | + | 1 | 1 | 1 | 0 | 1 | x | x | x |
 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 
+Multiplication of Binary Numbers with Decimal Points
 
 
 
