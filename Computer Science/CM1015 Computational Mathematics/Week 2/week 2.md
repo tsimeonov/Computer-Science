@@ -26,3 +26,10 @@ Binary substraction rules
 - 0–1=1, ( with a borrow of 1)
 - 1–0=1
 - 1–1=0
+
+```markdown
+ 101111
+-010101
+--------
+ 011010
+```
