@@ -1,3 +1,5 @@
+
+
 ### Lesson 1.3 Conversion of non-integer numbers between bases
 
 <h5>Conversion of non-integer numbers between bases</h5>
@@ -53,3 +55,26 @@ Multiplication rules
 |  1 x 0  | 0  |
 |  0 x 1 | 0  |
 |  1 x 1 | 1  |
+
+
+Multiplication of binary numbers
+
+11101 x 1001
+
+Let's look a the actual multiplication
+
+|   |   |   |   | 1 | 1 | 1 | 0 | 1 |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   | x | 1 | 0 | 0 | 1 |
+|   |   |   |   | 1 | 1 | 1 | 0 | 1 |
+|   |   |   | 0 | 0 | 0 | 0 | 0 | x |
+| + | 1 | 1 | 1 | 0 | 1 | x | x | x |
+| 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
+
+
+
+
+
+
+
+
