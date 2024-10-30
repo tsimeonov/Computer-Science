@@ -20,3 +20,9 @@
 - 0+1=1 (with the caarry from previous addition) -> write down 1
 
 <h5>Operations with binary numbers - substraction</h5>
+
+Binary substraction rules
+- 0–0=0
+- 0–1=1, ( with a borrow of 1)
+- 1–0=1
+- 1–1=0
