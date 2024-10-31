@@ -1,5 +1,3 @@
-
-
 ### Lesson 1.3 Conversion of non-integer numbers between bases
 
 <h5>Conversion of non-integer numbers between bases</h5>
@@ -23,39 +21,41 @@
 
 Binary addition rules
 
-| x  | y  | x+y  |   
-|:---:|:---:|:---:|
-|  0  | 0  | 0  |  
-|  0 | 1  | 1  |
-|  1 | 0  | 1  |
-|  1 | 1  | 0 (one is carried forward)  |
+|  x  |  y  |            x+y             |
+| :-: | :-: | :------------------------: |
+|  0  |  0  |             0              |
+|  0  |  1  |             1              |
+|  1  |  0  |             1              |
+|  1  |  1  | 0 (one is carried forward) |
 
 <h5>Operations with binary numbers - substraction</h5>
 
 Binary substraction rules
+
 - 0–0=0
 - 0–1=1, ( with a borrow of 1)
 - 1–0=1
 - 1–1=0
 
 ```markdown
- 101111
+101111
 -010101
---------
- 011010
+
+---
+
+011010
 ```
 
 <h5>Operations with binary numbers - multiplication</h5>
 
-Multiplication rules 
+Multiplication rules
 
-| Binary Numbers  | Multiplication Value  |
-|:---:|:---:|
-|  0 x 0  | 0  |  
-|  1 x 0  | 0  |
-|  0 x 1 | 0  |
-|  1 x 1 | 1  |
-
+| Binary Numbers | Multiplication Value |
+| :------------: | :------------------: |
+|     0 x 0      |          0           |
+|     1 x 0      |          0           |
+|     0 x 1      |          0           |
+|     1 x 1      |          1           |
 
 Multiplication of binary numbers
 
@@ -63,30 +63,25 @@ Multiplication of binary numbers
 
 Let's look a the actual multiplication
 
-|   |   |   |   | 1 | 1 | 1 | 0 | 1 |
-|---|---|---|---|---|---|---|---|---|
-|   |   |   |   | x | 1 | 0 | 0 | 1 |
-|   |   |   |   | 1 | 1 | 1 | 0 | 1 |
-|   |   |   | 0 | 0 | 0 | 0 | 0 | x |
-| + | 1 | 1 | 1 | 0 | 1 | x | x | x |
-| 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
+|     |     |     |     | 1   | 1   | 1   | 0   | 1   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     | x   | 1   | 0   | 0   | 1   |
+|     |     |     |     | 1   | 1   | 1   | 0   | 1   |
+|     |     |     | 0   | 0   | 0   | 0   | 0   | x   |
+| +   | 1   | 1   | 1   | 0   | 1   | x   | x   | x   |
+| 1   | 0   | 0   | 0   | 0   | 0   | 1   | 0   | 1   |
 
 Multiplication of Binary Numbers with Decimal Points
 
 1011.01 and 110.1
 
-|   |   |   |   | 1 | 0 | 1 | 1 | 0 | 1 |
-|---|---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   | x | 1 | 1 | 0 | 1 |
-|   |   |   |   | 1 | 0 | 1 | 1 | 0 | 1 |
-|   |   |   | 0 | 0 | 0 | 0 | 0 | 0 | x |
-|   |   | 1 | 0 | 1 | 1 | 0 | 1 | x | x |
-| + | 1 | 0 | 1 | 1 | 0 | 1 | x | x | x |
-| 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 |
+|     |     |     |     | 1   | 0   | 1   | 1   | 0   | 1   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     | x   | 1   | 1   | 0   | 1   |
+|     |     |     |     | 1   | 0   | 1   | 1   | 0   | 1   |
+|     |     |     | 0   | 0   | 0   | 0   | 0   | 0   | x   |
+|     |     | 1   | 0   | 1   | 1   | 0   | 1   | x   | x   |
+| +   | 1   | 0   | 1   | 1   | 0   | 1   | x   | x   | x   |
+| 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
 
-
-
-
-
-
-
+<h5>Number representation</h5>
