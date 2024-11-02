@@ -7,3 +7,5 @@
 <h5>2.104: Case study 1: Drawing app</h>
 
 ### Lessosn 2.2: Preparing for case study 1
+
+<h5>2.201: Drawing application, part 1 – under the hood</h5>
