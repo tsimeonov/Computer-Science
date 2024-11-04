@@ -10,4 +10,4 @@
 
 <h5>2.201: Drawing application, part 1 – under the hood</h5>
 
-<h5>2.201: Drawing application, part 2 – under the hood</h5>
+<h5>2.202: Drawing application, part 2 – under the hood</h5>
