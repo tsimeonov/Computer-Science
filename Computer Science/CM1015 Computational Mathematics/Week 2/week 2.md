@@ -85,3 +85,5 @@ Multiplication of Binary Numbers with Decimal Points
 | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
 
 <h5>Number representation</h5>
+
+### 1.5: Topic summary
