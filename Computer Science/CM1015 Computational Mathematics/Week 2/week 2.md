@@ -87,3 +87,5 @@ Multiplication of Binary Numbers with Decimal Points
 <h5>Number representation</h5>
 
 ### 1.5: Topic summary
+
+<h5>Topic 1 - looking back</h5>
