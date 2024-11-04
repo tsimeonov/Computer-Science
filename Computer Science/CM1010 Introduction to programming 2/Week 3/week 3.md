@@ -9,3 +9,5 @@
 ### Lessosn 2.2: Preparing for case study 1
 
 <h5>2.201: Drawing application, part 1 – under the hood</h5>
+
+<h5>2.201: Drawing application, part 2 – under the hood</h5>
