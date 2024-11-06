@@ -13,6 +13,7 @@ function setup() {
   transmitButton = createButton("Transmit");
   rotationSlider = createSlider(0, 360, 0);
   nameText = createInput();
+  colourSelect = createSelect();
 }
 
 function draw() {
