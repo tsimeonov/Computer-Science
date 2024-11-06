@@ -13,3 +13,5 @@
 <h5>2.202: Drawing application, part 2 – under the hood</h5>
 
 <h5>2.204: Introduction to p5.dom</h5>
+
+<h5>2.206: p5.dom: handling events</h5>
