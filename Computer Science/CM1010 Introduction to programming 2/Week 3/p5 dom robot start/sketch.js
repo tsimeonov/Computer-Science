@@ -19,7 +19,7 @@ function setup() {
   rotationSlider = createSlider(0, 360, 0);
   rotationSlider.parent(controlsDiv);
 
-  nameText = createInput();
+  nameText = createInput("Marvin");
   nameText.parent(controlsDiv);
 
   colourSelect = createSelect();
