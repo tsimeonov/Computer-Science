@@ -8,6 +8,7 @@ function setup() {
   // put setup code here
   createCanvas(500, 500);
   myRobot = new Robot("grey", false, "marvin", 0);
+  angleMode(DEGREES);
 
   var controlsDiv = select("#robotControls");
 
@@ -34,6 +35,7 @@ function draw() {
   background(50);
 
   myRobot.colour = colourSelect.selected();
+  myRobot.rotation = rotationSlider.value();
 
   myRobot.drawRobot();
 }
@@ -46,6 +48,7 @@ function Robot(colour, transmitting, name, rotation) {
 
   this.drawRobot = function () {
     translate(width / 2, height / 2);
+    rotate(this.rotation);
     //robots head
     fill(this.colour);
     strokeWeight(4);
