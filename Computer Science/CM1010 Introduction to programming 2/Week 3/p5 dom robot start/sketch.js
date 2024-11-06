@@ -10,6 +10,7 @@ function setup() {
   myRobot = new Robot("grey", false, "marvin", 0);
 
   //add dom controls
+  transmitButton = createButton("Transmit");
 }
 
 function draw() {
