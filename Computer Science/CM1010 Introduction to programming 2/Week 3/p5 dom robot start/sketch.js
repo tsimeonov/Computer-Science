@@ -36,6 +36,7 @@ function draw() {
 
   myRobot.colour = colourSelect.selected();
   myRobot.rotation = rotationSlider.value();
+  myRobot.name = nameText.value();
 
   myRobot.drawRobot();
 }
@@ -92,5 +93,11 @@ function Robot(colour, transmitting, name, rotation) {
     vertex(50, 120);
     vertex(75, 90);
     endShape();
+
+    // robot name
+    textAlign(CENTER);
+    textSize(48);
+    fill(0);
+    text(this.name, 0, 200);
   };
 }
