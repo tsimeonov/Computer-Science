@@ -11,6 +11,7 @@ function setup() {
 
   //add dom controls
   transmitButton = createButton("Transmit");
+  rotationSlider = createSlider(0, 360, 0);
 }
 
 function draw() {
