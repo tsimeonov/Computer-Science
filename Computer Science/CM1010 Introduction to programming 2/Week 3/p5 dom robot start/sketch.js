@@ -14,10 +14,13 @@ function setup() {
   //add dom controls
   transmitButton = createButton("Transmit");
   transmitButton.parent(controlsDiv);
+
   rotationSlider = createSlider(0, 360, 0);
   rotationSlider.parent(controlsDiv);
+
   nameText = createInput();
   nameText.parent(controlsDiv);
+
   colourSelect = createSelect();
   var colourOptions = ["grey", "brown", "red", "green", "yellow", "purple"];
   for (let i = 0; i < colourOptions.length; i++) {
