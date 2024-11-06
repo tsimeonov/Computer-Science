@@ -32,6 +32,9 @@ function setup() {
 function draw() {
   // put drawing code here
   background(50);
+
+  myRobot.colour = colourSelect.selected();
+
   myRobot.drawRobot();
 }
 
