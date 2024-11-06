@@ -9,6 +9,8 @@ function setup() {
   createCanvas(500, 500);
   myRobot = new Robot("grey", false, "marvin", 0);
 
+  var controlsDiv = select("#robotControls");
+
   //add dom controls
   transmitButton = createButton("Transmit");
   rotationSlider = createSlider(0, 360, 0);
