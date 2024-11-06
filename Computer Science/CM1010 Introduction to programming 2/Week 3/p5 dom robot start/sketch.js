@@ -14,6 +14,10 @@ function setup() {
   rotationSlider = createSlider(0, 360, 0);
   nameText = createInput();
   colourSelect = createSelect();
+  var colourOptions = ["grey", "brown", "red", "green", "yellow", "purple"];
+  for (let i = 0; i < colourOptions.length; i++) {
+    colourSelect.option(colourOptions[i]);
+  }
 }
 
 function draw() {
