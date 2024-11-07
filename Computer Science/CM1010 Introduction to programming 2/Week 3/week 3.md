@@ -14,4 +14,4 @@
 
 <h5>2.204: Introduction to p5.dom</h5>
 
-<h5>2.206: p5.dom: handling events</h5>
+<h5>2.206: p5.dom: handling events 1</h5>
