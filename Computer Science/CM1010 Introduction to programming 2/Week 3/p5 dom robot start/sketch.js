@@ -31,16 +31,17 @@ function Robot(colour, transmitting, name, rotation) {
   var controlsDiv = select("#robotControls");
 
   //add dom controls
-  transmitButton = createButton("Transmit");
+  var transmitButton = createButton("Transmit");
   transmitButton.parent(controlsDiv);
 
-  rotationSlider = createSlider(0, 360, 0);
+  var rotationSlider = createSlider(0, 360, 0);
   rotationSlider.parent(controlsDiv);
 
-  nameText = createInput("Marvin");
+  var nameText = createInput("Marvin");
   nameText.parent(controlsDiv);
 
-  colourSelect = createSelect();
+  var colourSelect = createSelect();
+
   var colourOptions = ["grey", "brown", "red", "green", "yellow", "purple"];
   for (let i = 0; i < colourOptions.length; i++) {
     colourSelect.option(colourOptions[i]);
