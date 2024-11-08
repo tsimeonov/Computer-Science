@@ -1,14 +1,32 @@
 var myRobot;
-var transmitButton;
-var rotationSlider;
-var nameText;
-var colourSelect;
+// var transmitButton;
+// var rotationSlider;
+// var nameText;
+// var colourSelect;
 
 function setup() {
   // put setup code here
   createCanvas(500, 500);
   myRobot = new Robot("grey", false, "marvin", 0);
   angleMode(DEGREES);
+}
+
+function draw() {
+  // put drawing code here
+  background(50);
+
+  myRobot.colour = colourSelect.selected();
+  myRobot.rotation = rotationSlider.value();
+  myRobot.name = nameText.value();
+
+  myRobot.drawRobot();
+}
+
+function Robot(colour, transmitting, name, rotation) {
+  this.colour = colour;
+  this.rotation = rotation;
+  this.transmitting = transmitting;
+  this.name = name;
 
   var controlsDiv = select("#robotControls");
 
@@ -28,24 +46,6 @@ function setup() {
     colourSelect.option(colourOptions[i]);
   }
   colourSelect.parent(controlsDiv);
-}
-
-function draw() {
-  // put drawing code here
-  background(50);
-
-  myRobot.colour = colourSelect.selected();
-  myRobot.rotation = rotationSlider.value();
-  myRobot.name = nameText.value();
-
-  myRobot.drawRobot();
-}
-
-function Robot(colour, transmitting, name, rotation) {
-  this.colour = colour;
-  this.rotation = rotation;
-  this.transmitting = transmitting;
-  this.name = name;
 
   this.drawRobot = function () {
     translate(width / 2, height / 2);
