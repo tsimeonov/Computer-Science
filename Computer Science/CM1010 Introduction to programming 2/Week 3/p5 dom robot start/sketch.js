@@ -15,9 +15,9 @@ function draw() {
   // put drawing code here
   background(50);
 
-  myRobot.colour = colourSelect.selected();
-  myRobot.rotation = rotationSlider.value();
-  myRobot.name = nameText.value();
+  // myRobot.colour = colourSelect.selected();
+  // myRobot.rotation = rotationSlider.value();
+  // myRobot.name = nameText.value();
 
   myRobot.drawRobot();
 }
@@ -33,6 +33,10 @@ function Robot(colour, transmitting, name, rotation) {
   //add dom controls
   var transmitButton = createButton("Transmit");
   transmitButton.parent(controlsDiv);
+  transmitButton.mousePressed(function () {
+    console.log(this);
+    // this.transmitting = !this.transmitting;
+  });
 
   var rotationSlider = createSlider(0, 360, 0);
   rotationSlider.parent(controlsDiv);
