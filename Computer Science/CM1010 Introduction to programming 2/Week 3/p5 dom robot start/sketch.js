@@ -43,6 +43,9 @@ function Robot(colour, transmitting, name, rotation) {
 
   var nameText = createInput("Marvin");
   nameText.parent(controlsDiv);
+  nameText.input(function () {
+    self.name = this.value();
+  });
 
   var colourSelect = createSelect();
 
