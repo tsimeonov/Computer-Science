@@ -40,6 +40,10 @@ function Robot(colour, transmitting, name, rotation) {
 
   var rotationSlider = createSlider(0, 360, 0);
   rotationSlider.parent(controlsDiv);
+  var rotationUpdate = function () {
+    self.rotation = this.value();
+  };
+  rotationSlider.input(rotationUpdate);
 
   var nameText = createInput("Marvin");
   nameText.parent(controlsDiv);
