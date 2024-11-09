@@ -35,7 +35,7 @@ function Robot(colour, transmitting, name, rotation) {
   var transmitButton = createButton("Transmit");
   transmitButton.parent(controlsDiv);
   transmitButton.mousePressed(function () {
-    // this.transmitting = !this.transmitting;
+    self.transmitting = !self.transmitting;
   });
 
   var rotationSlider = createSlider(0, 360, 0);
