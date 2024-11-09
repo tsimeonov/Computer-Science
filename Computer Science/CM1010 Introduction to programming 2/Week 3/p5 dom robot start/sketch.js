@@ -31,10 +31,10 @@ function Robot(colour, transmitting, name, rotation) {
   var controlsDiv = select("#robotControls");
 
   //add dom controls
+  var self = this;
   var transmitButton = createButton("Transmit");
   transmitButton.parent(controlsDiv);
   transmitButton.mousePressed(function () {
-    console.log(this);
     // this.transmitting = !this.transmitting;
   });
 
