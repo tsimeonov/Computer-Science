@@ -25,3 +25,7 @@ Types of sequences:
 2. Series
 
 A `series` is the sum of the terms of a sequence. It can be thought of as a way to combine the values in a sequence into a single cumulative sum
+
+- Arithmetic series: The sum of the terms in an arithmetic sequence
+  - Example: Sum of 2,5,8,11, ...
+  - Sum formula: S~n~ = n/2 \* (a~1~ + a~n~)
