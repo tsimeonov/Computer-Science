@@ -29,3 +29,5 @@ A `series` is the sum of the terms of a sequence. It can be thought of as a way 
 - Arithmetic series: The sum of the terms in an arithmetic sequence
   - Example: Sum of 2,5,8,11, ...
   - Sum formula: S~n~ = n/2 \* (a~1~ + a~n~)
+
+<h5>Geometric and arithmetic series</h5>
