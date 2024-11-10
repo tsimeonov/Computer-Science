@@ -21,3 +21,5 @@ Types of sequences:
 
   - Example: 3,6,12,24, .... (where _r_ = 2)
   - General form: a~n~ = a~1~ \* r(^n-1^)
+
+<h5>Convergent and divergent sequences</h5>
