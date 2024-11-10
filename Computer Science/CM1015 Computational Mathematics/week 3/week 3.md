@@ -23,3 +23,5 @@ Types of sequences:
   - General form: a~n~ = a~1~ \* r(^n-1^)
 
 <h5>Convergent and divergent sequences</h5>
+
+In the study of sequences, the term `convergent` and `divergent` describe the behaviour of a sequence as the number of terms goes to infinity.
