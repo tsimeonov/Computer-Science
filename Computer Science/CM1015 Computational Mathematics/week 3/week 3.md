@@ -9,3 +9,5 @@ A sequence and a series are fundamental concepts in mathematics that deal with o
 1. Sequence
 
 A `sequence` is an orderd list of numbers that follow a speciffic rule or pattern. Each number in a sequence is called a `term`
+
+Types of sequences:
