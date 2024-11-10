@@ -15,7 +15,7 @@ Types of sequences:
 - Arithmetic sequence: Each term is obtained by adding a fixed number (common difference, _d_)
 
   - Example: 2,5,8,11, .... (where _d_ = 3)
-  - General form: a~n~ = a~1~ + (n-1).d
+  - General form: a~n~ = a~1~ + (n-1)\*d
 
 - Geometric Sequence: Each term is obtained by multiplying the previous term by a fixed number (common ratio, _r_)
 
