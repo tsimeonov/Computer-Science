@@ -7,3 +7,17 @@
 A sequence and a series are fundamental concepts in mathematics that deal with ordered lists of numbers and the sum of these numbers.
 
 <h5>Geometric and arithmetic series</h5>
+
+A `sequence` is an orderd list of numbers that follow a speciffic rule or pattern. Each number in a sequence is called a `term`
+
+Types of sequences:
+
+- Arithmetic sequence: Each term is obtained by adding a fixed number (common difference, _d_)
+
+  - Example: 2,5,8,11, .... (where _d_ = 3)
+  - General form: a~n~ = a~1~ + (n-1)\*d
+
+- Geometric Sequence: Each term is obtained by multiplying the previous term by a fixed number (common ratio, _r_)
+
+  - Example: 3,6,12,24, .... (where _r_ = 2)
+  - General form: a~n~ = a~1~ \* r(^n-1^)
