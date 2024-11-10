@@ -23,3 +23,5 @@ Types of sequences:
   - General form: a~n~ = a~1~ \* r(^n-1^)
 
 2. Series
+
+A `series` is the sum of the terms of a sequence. It can be thought of as a way to combine the values in a sequence into a single cumulative sum
