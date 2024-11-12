@@ -30,3 +30,17 @@ In the study of sequences, the term `convergent` and `divergent` describe the be
 
 A sequence is called `convergent` if its terms get closer and closer to a particular value as the sequence preogresses.
 This specific value is called the `limit` of the sequence.
+
+a~n~ = $\frac{1}{n}$
+
+when n = 1,2,3...
+
+Explanation of convergence:
+
+1. For n = 1: a~1~ = $\frac{1}{1}$ = 1
+2. For n = 2: a~2~ = $\frac{1}{2}$ = 0.5
+3. For n = 3: a~3~ = $\frac{1}{3}$ $\approx$ 0.333
+4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
+
+As n gets larger, a~n~ gets closer and closer to 0.
+So, we say that the limit of the sequence $\frac{1}{n}$ as n -> $\infty$ is 0
