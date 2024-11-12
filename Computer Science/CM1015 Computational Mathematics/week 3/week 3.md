@@ -25,3 +25,8 @@ Types of sequences:
 <h5>Convergent and divergent sequences</h5>
 
 In the study of sequences, the term `convergent` and `divergent` describe the behaviour of a sequence as the number of terms goes to infinity.
+
+`Convergent Sequence`
+
+A sequence is called `convergent` if its terms get closer and closer to a particular value as the sequence preogresses.
+This specific value is called the `limit` of the sequence.
