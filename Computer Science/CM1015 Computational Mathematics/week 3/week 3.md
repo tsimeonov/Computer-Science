@@ -44,3 +44,5 @@ Explanation of convergence:
 
 As n gets larger, a~n~ gets closer and closer to 0.
 So, we say that the limit of the sequence $\frac{1}{n}$ as n -> $\infty$ is 0
+
+`Divergent Sequence`
