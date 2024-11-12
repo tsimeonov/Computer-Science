@@ -50,3 +50,5 @@ So, we say that the limit of the sequence $\frac{1}{n}$ as n -> $\infty$ is 0
 A sequence is called `divergent` if it doesn't approach a specific finite limit as the sequence progresses.
 
 a~n~ = n
+
+where n = 1,2,3....
