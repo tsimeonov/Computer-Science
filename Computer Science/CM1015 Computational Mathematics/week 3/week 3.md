@@ -46,3 +46,7 @@ As n gets larger, a~n~ gets closer and closer to 0.
 So, we say that the limit of the sequence $\frac{1}{n}$ as n -> $\infty$ is 0
 
 `Divergent Sequence`
+
+A sequence is called `divergent` if it doesn't approach a specific finite limit as the sequence progresses.
+
+a~n~ = n
