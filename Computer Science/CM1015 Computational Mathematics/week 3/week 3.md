@@ -52,3 +52,12 @@ A sequence is called `divergent` if it doesn't approach a specific finite limit 
 a~n~ = n
 
 where n = 1,2,3....
+
+Explanation of Divergence:
+
+1. For n = 1: a~1~ = 1
+2. For n = 2: a~2~ = 2
+3. For n = 3: a~3~ = 3
+4. For n = 4: a~4~ = 4
+
+As `n` gets larger, a~n~ continues to grow without bound. It does not approach a particular number but instead increases indefinitely. Thus, we say this sequence diverges to infinity.
