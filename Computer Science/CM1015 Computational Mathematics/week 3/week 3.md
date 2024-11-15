@@ -61,3 +61,5 @@ Explanation of Divergence:
 4. For n = 4: a~4~ = 4
 
 As `n` gets larger, a~n~ continues to grow without bound. It does not approach a particular number but instead increases indefinitely. Thus, we say this sequence diverges to infinity.
+
+<h5>Recursion</h5>
