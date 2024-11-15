@@ -74,9 +74,7 @@ Recursion in mathematics refers to a process where a function, sequence, or defi
 
 `Examples of Mathematical recursion`
 
-
-
-
+1. Factorial function: The factorial of a number n(n!) is defined as:
 
 
 
