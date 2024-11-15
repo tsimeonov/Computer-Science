@@ -63,3 +63,5 @@ Explanation of Divergence:
 As `n` gets larger, a~n~ continues to grow without bound. It does not approach a particular number but instead increases indefinitely. Thus, we say this sequence diverges to infinity.
 
 <h5>Recursion</h5>
+
+Recursion in mathematics refers to a process where a function, sequence, or definition is defined in terms of itself. It allows problems to be solved by breaking them into smaller instances of the same problem
