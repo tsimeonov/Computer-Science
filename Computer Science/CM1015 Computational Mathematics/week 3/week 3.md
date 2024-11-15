@@ -72,9 +72,7 @@ Recursion in mathematics refers to a process where a function, sequence, or defi
 
 2. Recursive step: A rule or formula that relates the current problem to a smaller instance of the same problem
 
-
-
-
+`Examples of Mathematical recursion`
 
 
 
