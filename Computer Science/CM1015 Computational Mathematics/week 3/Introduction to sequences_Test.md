@@ -19,7 +19,7 @@
 - r
 - n
 
-4. How is hte nth term of an arithmetic sequence represented?
+4. How is the nth term of an arithmetic sequence represented?
 
 - a + nd
 - a + (n-1)^d^ `correct`
@@ -60,3 +60,31 @@
 - A sequence where each term is the product of the two preceeding terms
 - A sequence where each term is the sum of the two preceeding terms `Correct`
 - A sequence whre each term is the difference of the two preciding terms
+
+10. Find the 10th term of an arithmetic sequence where the first term `a` is 5 and the common difference `d` is 3.
+
+<details>
+  <summary>Solution to question 10</summary>
+
+To find the 10th term of the arithmetic sequence, we use the formula for the nth term of an arithmetic sequence:
+
+a~n~ = a~1~ + (n - 1)\* d
+
+`Given:`
+
+- First term a~1~ = 5
+- Common difference `d` = 3
+- `n` = 10 (the term we need to find)
+
+`Substituting the values into the formula:`
+
+a~10~ = 5 + (10 - 1) x 3
+a~10~ = 5 + 9 x 3
+a~10~ = 5 + 27
+a~10~ = 32
+
+`Final Answer:`
+
+The 10th term of the arithmetic sequence is **32**.
+
+</details>
