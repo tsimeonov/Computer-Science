@@ -200,3 +200,40 @@ The sum of the first 6 term of the arithmetic sequence is 72
 </details>
 
 <br>
+
+14.Find the sum of the first four terms of a geometric sequence where `a` = 1 and `r` = 2
+
+<details>
+  <summary>Solution to question 14</summary>
+
+To find the sum of the first 4 terms of a geometric sequence, we use the formula for the sum of the first n terms of a geometric sequence:
+
+S~n~ = a~1~ x $\frac{1-r^2}{1-r}$ for r $\not=$ 1
+
+`Where`:
+
+- S~n~ is the sum of the first n terms
+- n is number of terms
+- a~1~ is the first term
+- a~n~ is the n-th term
+
+`Given:`
+
+- a~1~ = 1
+- r = 2
+  n = 4
+
+Step 1: Substitute the given values into the sum formula:
+
+S~4~ = 1 x $\frac{1-2^4}{1-2}$
+S~4~ = $\frac{1-16}{1-2}$
+S~4~ = $\frac{-15}{-1}$
+S~4~ = 15
+
+`Final Answer:`
+
+The sum of the first 4 terms of the geometric sequence is 15.
+
+</details>
+
+<br>
