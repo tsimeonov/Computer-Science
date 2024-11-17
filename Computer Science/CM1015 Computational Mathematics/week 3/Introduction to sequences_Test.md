@@ -156,3 +156,47 @@ The first term of the arithmetic sequence is **5**.
 </details>
 
 <br>
+
+13. Calculate the sum of the first 6 terms of an arithmetic sequence with `a` = 2 and `d` = 4
+
+<details>
+  <summary>Solution to question 13</summary>
+
+To calculate the sum of the first 6 terms of an arithmetic sequence, we use the formula for the sum of the first `n` terms of an arithmetic sequence:
+
+S~n~ = n/2 x (a~1~ + a~n~)
+
+`Where`:
+
+- S~n~ is the sum of the first n terms
+- n is number of terms
+- a~1~ is the first term
+- a~n~ is the n-th term
+
+`Given:`
+
+- First term a~1~ = 2
+- Common difference d = 4
+- Number of terms n = 6
+
+Step 1: Find the 6th term (a~6~) using the formula for the n-th term:
+
+a~n~ = a~1~ + (n-1) x d
+
+Substitute a~1~ = 2, d = 4, n = 6
+
+a~6~ = 2 + (6-1)x4
+a~6~ = 2 + 5 x 4 = 2 + 20 = 22
+
+Step 2: Use the sum formula to find S~6~
+
+S~6~ = $\frac{6}{2}$ x (2 + 22)
+S~6~ = 3 x 24 = 72
+
+`Final Answer:`
+
+The sum of the first 6 term of the arithmetic sequence is 72
+
+</details>
+
+<br>
