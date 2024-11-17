@@ -15,6 +15,13 @@
 3. What is the first term of an arithmetic sequence called?
 
 - d
-- a
+- a `correct`
 - r
 - n
+
+4. How is hte nth term of an arithmetic sequence represented?
+
+- a + nd
+- a + (n-1)^d^
+- a / (n-1)
+- a \* r ^(n-1)^
