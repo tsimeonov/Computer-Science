@@ -32,3 +32,10 @@
 - A sequence where each term is added by a constant
 - A sequence where each term is multiplied by a constant `correct`
 - A sequence where each term is subtracteed by a constant
+
+6. What does the common ratio in a geometric sequnce represent
+
+- The product of terms
+- The sum of terms
+- The ratio between consecutive terms `correct`
+- The difference between terms
