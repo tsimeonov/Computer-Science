@@ -88,3 +88,31 @@ a~10~ = 32
 The 10th term of the arithmetic sequence is **32**.
 
 </details>
+
+11. Determine the 5th term of a geometric sequence where the first term `a` is 2 and the coomon ration `r` is 3
+
+<details>
+  <summary>Solution to question 11</summary>
+
+To find the 5th term (a~5~) of a geometric sequence, we use the formula for the nth term:
+
+a~n~ = a~1~ x r ^n-1^
+
+`Given:`
+
+- a~1~ = 2 (first term)
+- `r` = 3 (common ratio)
+- `n` = 5 (we need to find the 5th term)
+
+`Substituting the values into the formula:`
+
+a~5~ = 2 x 3 ^5-1^
+a~5~ = 2 x 3 ^4^
+a~5~ = 2 x 81
+a~5~ = 162
+
+`Final Answer:`
+
+The 5th term of the geometric sequnece is 162.
+
+</details>
