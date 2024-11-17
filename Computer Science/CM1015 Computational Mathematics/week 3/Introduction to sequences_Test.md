@@ -39,3 +39,10 @@
 - The sum of terms
 - The ratio between consecutive terms `correct`
 - The difference between terms
+
+7. How is the nth term of a geometric sequence represented?
+
+- a \* (n-1)
+- a + (n-1)d
+- a / r^(n-1)^ `correct`
+- a \* r^(n-1)^
