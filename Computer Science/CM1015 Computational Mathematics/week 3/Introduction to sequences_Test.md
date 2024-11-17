@@ -22,6 +22,13 @@
 4. How is hte nth term of an arithmetic sequence represented?
 
 - a + nd
-- a + (n-1)^d^
+- a + (n-1)^d^ `correct`
 - a / (n-1)
 - a \* r ^(n-1)^
+
+5. What is a geometric sequence
+
+- A sequence where each term is divided by a constant
+- A sequence where each term is added by a constant
+- A sequence where each term is multiplied by a constant `correct`
+- A sequence where each term is subtracteed by a constant
