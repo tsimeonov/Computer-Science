@@ -4,3 +4,10 @@
 - A dequence where each term is the sum of all previous terms
 - A sequence where each term is divided by a constant
 - A sequence where each term is obtained by adding a constant to the previous term. `Correct`
+
+2. Which term represents the common difference in an arithmetic sequence
+
+- r
+- d `correct`
+- n
+- a
