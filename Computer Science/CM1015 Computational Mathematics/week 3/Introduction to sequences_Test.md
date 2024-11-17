@@ -11,3 +11,10 @@
 - d `correct`
 - n
 - a
+
+3. What is the first term of an arithmetic sequence called?
+
+- d
+- a
+- r
+- n
