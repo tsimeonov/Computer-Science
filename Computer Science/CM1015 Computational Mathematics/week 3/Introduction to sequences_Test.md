@@ -46,3 +46,10 @@
 - a + (n-1)d
 - a / r^(n-1)^ `correct`
 - a \* r^(n-1)^
+
+8. What happens to a geometric sequence if the common ratio `r` is greater than 1?
+
+- It remains constant
+- It oscillates between values
+- it diverges to infinity `diverges to infinity`
+- It converges to a number
