@@ -89,6 +89,8 @@ The 10th term of the arithmetic sequence is **32**.
 
 </details>
 
+<br>
+
 11. Determine the 5th term of a geometric sequence where the first term `a` is 2 and the coomon ration `r` is 3
 
 <details>
@@ -116,3 +118,41 @@ a~5~ = 162
 The 5th term of the geometric sequnece is 162.
 
 </details>
+
+<br>
+
+12. If the 4th term of an arithmetic sequence is 20 and the common difference `d` is 5, find the first term `a`
+
+<details>
+  <summary>Solution to question 12</summary>
+
+To find the first term a~1~ of the arithmetic sequence, we use the formula for the n-th term of an arithmetic sequence:
+
+a~n~ = a~1~ + (n - 1) x d
+
+`Given:`
+
+- The 4th term a~4~ = 20,
+- The common difference d = 5,
+- We need to find a~1~, the first term.
+
+`Step-by-step solution:`
+
+The formula for the 4th term (a~4~) is:
+
+a~4~ = a~1~ + (4 - 1) x d
+20 = a~1~ + 3 x 5
+20 = a~1~ + 15
+
+Now, solve for a~1~:
+
+a~1~ = 20 - 15
+a~1~ = 5
+
+`Final Answer:`
+
+The first term of the arithmetic sequence is **5**.
+
+</details>
+
+<br>
