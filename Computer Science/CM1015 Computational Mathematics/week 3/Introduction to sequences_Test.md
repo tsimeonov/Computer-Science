@@ -53,3 +53,10 @@
 - It oscillates between values
 - it diverges to infinity `diverges to infinity`
 - It converges to a number
+
+9. What is a Fibonacci sequence?
+
+- A sequence where each term is the quotient of the two preceding terms
+- A sequence where each term is the product of the two preceeding terms
+- A sequence where each term is the sum of the two preceeding terms `Correct`
+- A sequence whre each term is the difference of the two preciding terms
