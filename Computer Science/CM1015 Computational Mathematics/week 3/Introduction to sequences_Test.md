@@ -293,3 +293,12 @@ u~4~ = 16 + 3 = 19
 </details>
 
 18. Find the limit of the sequence u~n~= $\frac{1}{2^n}$ as n approaches infinity
+
+<details>
+  <summary>Solution to question 18</summary>
+
+As n -> $\infty$, 2^n^ grows without bound (i.e., becomes infiniteky large), Therefore, the denominator of the fraction increases indefinitely, causing the value of u~n~ to aproach 0.
+
+Thus, the limit of the sequence as n -> $\infty$ is 0
+
+</details>
