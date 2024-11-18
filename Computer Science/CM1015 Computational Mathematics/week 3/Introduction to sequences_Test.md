@@ -238,4 +238,24 @@ The sum of the first 4 terms of the geometric sequence is 15.
 
 <br>
 
-15. Determine the sixth term of a Fibonachi sequence starting with u~1~ = 0 and u~2~ = 1
+15. Determine the sixth term of a Fibonacci sequence starting with u~1~ = 0 and u~2~ = 1
+
+<details>
+  <summary>Solution to question 15</summary>
+
+The Fibonacci sequence is defined such that each term is the sum of the proceding terms:
+
+u~n~ = u~n-1~ + u~n-2~
+
+Starting with u~1~ = 0 and u~2~ = 1, we calculate the subsequent terms:
+
+- u~3~ = u~2~ + u~1~ = 1 + 0 = 1
+- u~4~ = u~3~ + u~2~ = 1 + 1 = 2
+- u~5~ = u~4~ + u~3~ = 2 + 1 = 3
+- u~6~ = u~5~ + u~4~ = 3 + 2 = 5
+
+Thus, the sixth term of the Fibonacci sequence is 5
+
+</details>
+
+<br>
