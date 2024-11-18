@@ -291,3 +291,5 @@ Simplify:
 u~4~ = 16 + 3 = 19
 
 </details>
+
+18. Find the limit of the sequence u~n~= $\frac{1}{2^n}$ as n approaches infinity
