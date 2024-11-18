@@ -276,3 +276,5 @@ u~5~ = 25 - 5 + 1 = 25 - 4 = 21
 Thus u~5~ = 21
 
 </details>
+
+17. If u~n~ = 2^n^ + 3, calculate u~4~
