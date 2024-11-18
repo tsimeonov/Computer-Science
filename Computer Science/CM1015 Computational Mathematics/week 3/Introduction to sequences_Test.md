@@ -302,3 +302,5 @@ As n -> $\infty$, 2^n^ grows without bound (i.e., becomes infiniteky large), The
 Thus, the limit of the sequence as n -> $\infty$ is 0
 
 </details>
+
+19. Given a sequence where u~n+1~ - 3u~n~ + 2 and u~1~ = 1, find u~3~
