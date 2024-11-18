@@ -278,3 +278,16 @@ Thus u~5~ = 21
 </details>
 
 17. If u~n~ = 2^n^ + 3, calculate u~4~
+
+<details>
+  <summary>Solution to question 17</summary>
+
+To find u~4~, substitute n = 4 into the formula:
+
+u~4~ = 2^4^ + 3
+
+Simplify:
+
+u~4~ = 16 + 3 = 19
+
+</details>
