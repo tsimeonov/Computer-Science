@@ -259,3 +259,5 @@ Thus, the sixth term of the Fibonacci sequence is 5
 </details>
 
 <br>
+
+16. For the sequence defined u~n~ = n^2^ - n + 1, find u~5~
