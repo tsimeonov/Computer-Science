@@ -304,3 +304,26 @@ Thus, the limit of the sequence as n -> $\infty$ is 0
 </details>
 
 19. Given a sequence where u~n+1~ - 3u~n~ + 2 and u~1~ = 1, find u~3~
+
+<details>
+  <summary>Solution to question 19</summary>
+
+Rearraging:
+
+u~n+1~ - 3u~n~ + 2
+
+We are given u~1~ = 1. Let's calculate u~2~ and u~3~
+
+1. Calculate u~2~:
+
+u~2~ = 3u~1~ - 2 = 3(1) - 2 = 3 -2 = 1
+
+2. Calculate u~3~:
+
+u~3~ = 3u~2~ - 2 = 3(1) - 2 = 3 -2 = 1
+
+Thus:
+
+u~3~ = 1
+
+</details>
