@@ -237,3 +237,5 @@ The sum of the first 4 terms of the geometric sequence is 15.
 </details>
 
 <br>
+
+15. Determine the sixth term of a Fibonachin sequence starting with u~1~ = 0 and u~2~ = 1
