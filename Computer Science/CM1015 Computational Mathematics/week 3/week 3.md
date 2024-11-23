@@ -53,4 +53,9 @@ And so on. This lead to the folowing formula for the `n`th term:
 
 <h5>Geometric Progression</h5>
 
+Another simple way of forming a sequence is to calculate each new term by `multiplying` the previous term by a fixed amount. For example, suppose the first term of a sequence is 2, and we find the second, third, and forth terms by repeatedly multiplying by 5. We obtain the sequence
+2,10,50,250
+Such a sequence is called a `geometric sequence` or `geometric progression`.
+The fixed amount by which term is multiplied is called the `common ratio`
+
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
