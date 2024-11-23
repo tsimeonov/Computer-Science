@@ -34,6 +34,23 @@ The fixed amount that is added each time is a constant called the `common differ
 
 <h5 style="color:FireBrick;">Key points</h5>
 
+An arithmetic progression can be written
+
+a, a + d, a + 2d, a + 3d ....
+
+a is the `first term`. d is the `common difference`.
+
+Study the following pattern:
+
+- The firs term is `a`
+- The second term is a + d
+- The third term is a + 2d
+- The forth term is a + 3d
+
+And so on. This lead to the folowing formula for the `n`th term:
+
+`a + (n-1)d`
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
