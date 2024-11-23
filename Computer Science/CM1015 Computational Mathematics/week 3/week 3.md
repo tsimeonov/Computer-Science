@@ -32,6 +32,8 @@ A particularly simple way of forming a sequence is to calculate each new term by
 Such a sequence is called `arithmetic progression` or `arithmetic sequence`.
 The fixed amount that is added each time is a constant called the `common difference`.
 
+<h5 style="color:FireBrick;">Key points</h5>
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
