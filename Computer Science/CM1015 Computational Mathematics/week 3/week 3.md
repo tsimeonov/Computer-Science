@@ -13,6 +13,8 @@ For example:
 Each number in the sequence is called a `term` of the sequence.
 The number of terms in the first sequence above is five, and the number of terms in the second is four.
 
+Sometimes we use the symbol `'...'` to indicate that the sequence continues.
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
