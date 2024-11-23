@@ -15,7 +15,7 @@ The number of terms in the first sequence above is five, and the number of terms
 
 Sometimes we use the symbol `'...'` to indicate that the sequence continues.
 
-All of the sequences given above have a finite number of terms. They are known as `finite sequences`
+All of the sequences given above have a finite number of terms. They are known as `finite sequences`. Some sequences go no for ever, and these are called `infinite sequences`.
 
 <h5>Geometric and arithmetic series</h5>
 
