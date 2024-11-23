@@ -27,6 +27,11 @@ x~1~ = 1, x~2~ = 3, x~3~ = 5, x~4~ = 7, and so on
 
 <h5>Arithmetic progressions</h5>
 
+A particularly simple way of forming a sequence is to calculate each new term by `adding` a fixed amount to the previous term. For example, suppose the first term is 1 and we find the subsequent terms by repeatedly adding 6. We obtain
+1,7,13,19 ....
+Such a sequence is called `arithmetic progression` or `arithmetic sequence`.
+The fixed amount that is added each time is a constant called the `common difference`.
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
