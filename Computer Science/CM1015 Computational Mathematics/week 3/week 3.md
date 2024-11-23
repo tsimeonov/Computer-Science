@@ -4,7 +4,11 @@
 
 <h5>Introduction to sequences and series:</h5>
 
-A sequence and a series are fundamental concepts in mathematics that deal with ordered lists of numbers and the sum of these numbers.
+`Sequence`
+
+A sequence is a set of numbers written doen in a specific order.
+For example:
+1,3,5,7,8 or -1,-2,-3,-4
 
 <h5>Geometric and arithmetic series</h5>
 
@@ -75,12 +79,3 @@ Recursion in mathematics refers to a process where a function, sequence, or defi
 `Examples of Mathematical recursion`
 
 1. Factorial function: The factorial of a number n(n!) is defined as:
-
-
-
-
-
-
-
-
-
