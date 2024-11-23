@@ -19,6 +19,8 @@ All of the sequences given above have a finite number of terms. They are known a
 1,3,5,7,9 ...
 i can be assumed that this sequence continues indefinitely.
 
+<h5>Notation used for sequences</h5>
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
