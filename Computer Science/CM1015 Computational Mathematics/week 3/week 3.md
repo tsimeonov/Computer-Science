@@ -58,4 +58,6 @@ Another simple way of forming a sequence is to calculate each new term by `multi
 Such a sequence is called a `geometric sequence` or `geometric progression`.
 The fixed amount by which term is multiplied is called the `common ratio`
 
+<h5 style="color:FireBrick;">Key points</h5>
+
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
