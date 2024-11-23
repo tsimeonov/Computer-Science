@@ -25,6 +25,8 @@ We use a subscript notation to refer to different terms in a sequence. For examp
 That is,
 x~1~ = 1, x~2~ = 3, x~3~ = 5, x~4~ = 7, and so on
 
+<h5>Arithmetic progressions</h5>
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
