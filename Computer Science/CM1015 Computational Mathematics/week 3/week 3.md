@@ -53,25 +53,4 @@ And so on. This lead to the folowing formula for the `n`th term:
 
 <h5>Geometric Progression</h5>
 
-<h5>Geometric and arithmetic series</h5>
-
-Explanation of convergence:
-
-1. For n = 1: a~1~ = $\frac{1}{1}$ = 1
-2. For n = 2: a~2~ = $\frac{1}{2}$ = 0.5
-3. For n = 3: a~3~ = $\frac{1}{3}$ $\approx$ 0.333
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
-
-<h5>Recursion</h5>
-
-Recursion in mathematics refers to a process where a function, sequence, or definition is defined in terms of itself. It allows problems to be solved by breaking them into smaller instances of the same problem.
-
-`Key Components of recurions`
-
-1. Base case: The simplest instance of he problem, which can be solved directrly without further recursion
-
-2. Recursive step: A rule or formula that relates the current problem to a smaller instance of the same problem
-
-`Examples of Mathematical recursion`
-
-1. Factorial function: The factorial of a number n(n!) is defined as:
