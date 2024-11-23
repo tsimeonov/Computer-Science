@@ -21,6 +21,10 @@ i can be assumed that this sequence continues indefinitely.
 
 <h5>Notation used for sequences</h5>
 
+We use a subscript notation to refer to different terms in a sequence. For example, suppose we denote (indicate) the sequence 1,3,5,7,9,11 by x. Then the first term can be called x~1~, the second term x~2~ and so on.
+That is,
+x~1~ = 1, x~2~ = 3, x~3~ = 5, x~4~ = 7, and so on
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
