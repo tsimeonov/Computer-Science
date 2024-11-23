@@ -51,6 +51,8 @@ And so on. This lead to the folowing formula for the `n`th term:
 
 `a + (n-1)d`
 
+<h5>Geometric Progression</h5>
+
 <h5>Geometric and arithmetic series</h5>
 
 Explanation of convergence:
