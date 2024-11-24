@@ -20,6 +20,10 @@ function preload() {
   sample.setVolume(0.5);
 
   amplitudes = [];
+
+  for (var i = 0; i < 512; i++) {
+    amplitudes.push(0);
+  }
 }
 
 function soundInit() {
