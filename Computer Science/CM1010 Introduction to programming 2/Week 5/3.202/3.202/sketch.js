@@ -8,6 +8,8 @@ var isReady;
 
 var amplitude;
 
+var amplitudes;
+
 function preload() {
   soundFormats("mp3", "wav");
 
@@ -16,6 +18,8 @@ function preload() {
   //load your sounds here
   sample = loadSound("assets/parsRadio_loop.mp3", soundInit);
   sample.setVolume(0.5);
+
+  amplitudes = [];
 }
 
 function soundInit() {
