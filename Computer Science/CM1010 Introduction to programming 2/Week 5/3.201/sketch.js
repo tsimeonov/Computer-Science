@@ -37,6 +37,7 @@ function keyPressed() {
   if (!isInitialised) {
     isInitialised = true;
     jumpSound.setVolume(0.2);
-    jumpSound.play();
+    //jumpSound.play();
+    jumpSound.loop();
   }
 }
