@@ -60,4 +60,19 @@ The fixed amount by which term is multiplied is called the `common ratio`
 
 <h5 style="color:FireBrick;">Key points</h5>
 
+A geometric progression can be written:
+_a, ar, ar^2^, ar^3^_ .....
+_a_ is the `first term`, _r_ is the `common ratio`
+
+Study the following pattern:
+
+- The first term is _a_
+- The second term is _ar_
+- The third term is _ar^2^_
+- The fourth term is _ar^3^_
+
+and so on. This leads us to the following formula for the n^th^ term:
+
+The n^th^ term of a geometric progression is given by ar^n-1^
+
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
