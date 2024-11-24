@@ -54,10 +54,14 @@ function draw() {
     var d = map(a, 0, 0.15, 50, 250);
     ellipse(width / 2, height / 2, d);
 
+    noFill();
+    stroke(255, 0, 0);
+    beginShape();
     for (var i = 0; i < amplitudes.length; i++) {
       var h = map(amplitudes[i], 0, 0.15, 0, -150);
-      ellipse(i * 2, height / 2 + h, 5);
+      vertex(i + 2, height / 2 + h);
     }
+    endShape();
   }
 }
 
