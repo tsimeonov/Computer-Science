@@ -8,29 +8,27 @@ https://freesound.org/
 
 */
 
-
-
 var jumpSound;
 
-function preload()
-{
-    soundFormats('mp3','wav');
+function preload() {
+  soundFormats("mp3", "wav");
 
-    //load your sounds here
-    jumpSound = loadSound('assets/segway_loop.mp3');
-    jumpSound.setVolume(0.1);
+  //load your sounds here
+  jumpSound = loadSound("assets/segway_loop.mp3");
+  jumpSound.setVolume(0.1);
 }
 
-
-function setup()
-{
-	createCanvas(1024, 576);
-
+function setup() {
+  createCanvas(1024, 576);
+  textAlign(ENTER);
 }
 
+function draw() {
+  background(0);
+  fill(255);
+}
 
-function keyPressed()
-{
-    //jumpSound.play();
-    jumpSound.loop(0,0.5, 0.1,0.1);
+function keyPressed() {
+  //jumpSound.play();
+  jumpSound.loop(0, 0.5, 0.1, 0.1);
 }
