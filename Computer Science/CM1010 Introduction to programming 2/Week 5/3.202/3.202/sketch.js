@@ -40,6 +40,9 @@ function draw() {
   } else if (sample.isPlaying()) {
     var a = amplitude.getLevel();
     text(a, width / 2, 32);
+
+    var d = map(a, 0, 0.15, 50, 250);
+    ellipse(width / 2, height / 2, d);
   }
 }
 
