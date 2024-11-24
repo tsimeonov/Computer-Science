@@ -6,7 +6,7 @@
 
 `Sequence`
 
-A sequence is a set of numbers written doen in a specific order.
+A sequence is a set of numbers written down in a specific order.
 For example:
 1,3,5,7,8 or -1,-2,-3,-4
 
@@ -17,7 +17,7 @@ Sometimes we use the symbol `'...'` to indicate that the sequence continues.
 
 All of the sequences given above have a finite number of terms. They are known as `finite sequences`. Some sequences go no for ever, and these are called `infinite sequences`. To indicate that a sequence might go on for ever we can use the '...' notation. So when we write
 1,3,5,7,9 ...
-i can be assumed that this sequence continues indefinitely.
+it can be assumed that this sequence continues indefinitely.
 
 <h5>Notation used for sequences</h5>
 
