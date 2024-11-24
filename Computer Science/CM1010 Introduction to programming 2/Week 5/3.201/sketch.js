@@ -9,6 +9,7 @@ https://freesound.org/
 */
 
 var jumpSound;
+var isInitialised;
 
 function preload() {
   soundFormats("mp3", "wav");
