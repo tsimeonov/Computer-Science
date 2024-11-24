@@ -15,7 +15,9 @@ function preload() {
   soundFormats("mp3", "wav");
 
   //load your sounds here
-  jumpSound = loadSound("assets/segway_loop.mp3");
+  jumpSound = loadSound("assets/segway_loop.mp3", function () {
+    console.log("Sound is loaded");
+  });
   jumpSound.setVolume(0.1);
 }
 
