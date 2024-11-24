@@ -38,6 +38,7 @@ function draw() {
   if (isReady && !sample.isPlaying()) {
     text("Press any key to play sound", width / 2, height / 2);
   } else if (sample.isPlaying()) {
+    var a = amplitude.getLevel();
   }
 }
 
