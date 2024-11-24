@@ -34,6 +34,9 @@ function draw() {
 }
 
 function keyPressed() {
-  //jumpSound.play();
-  jumpSound.loop(0, 0.5, 0.1, 0.1);
+  if (!isInitialised) {
+    isInitialised = true;
+    jumpSound.setVolume(0.2);
+    jumpSound.play();
+  }
 }
