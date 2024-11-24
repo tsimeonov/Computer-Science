@@ -38,6 +38,7 @@ function keyPressed() {
     isInitialised = true;
     jumpSound.setVolume(0.2);
     //jumpSound.play();
+    // Use the r variable to adjust the sound speed
     var r = map(mouseX, 0, width, 0.4, 4);
     jumpSound.loop(0, r);
   }
