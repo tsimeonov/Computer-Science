@@ -38,6 +38,6 @@ function keyPressed() {
     isInitialised = true;
     jumpSound.setVolume(0.2);
     //jumpSound.play();
-    jumpSound.loop();
+    jumpSound.loop(0, 1, 0);
   }
 }
