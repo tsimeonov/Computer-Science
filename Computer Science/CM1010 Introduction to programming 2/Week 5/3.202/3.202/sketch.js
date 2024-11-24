@@ -26,6 +26,8 @@ function setup() {
   createCanvas(1024, 576);
   textAlign(CENTER);
   textSize(32);
+
+  amplitude = new p5.Amplitude();
 }
 
 function draw() {
