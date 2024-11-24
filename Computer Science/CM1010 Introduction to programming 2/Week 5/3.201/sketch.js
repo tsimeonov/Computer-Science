@@ -41,5 +41,10 @@ function keyPressed() {
     // Use the r variable to adjust the sound speed
     var r = map(mouseX, 0, width, 0.4, 4);
     jumpSound.loop(0, r);
+  } else {
+    // Use the space bar to pause the sound
+    if (key == " ") {
+      jumpSound.pause();
+    }
   }
 }
