@@ -44,6 +44,9 @@ function keyPressed() {
   } else {
     // Use the space bar to pause the sound
     if (key == " ") {
+      if (jumpSound.isPaused()) {
+        jumpSound.play();
+      }
       jumpSound.pause();
     }
   }
