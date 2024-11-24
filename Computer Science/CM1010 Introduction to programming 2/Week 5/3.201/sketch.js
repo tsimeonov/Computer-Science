@@ -13,11 +13,14 @@ var isInitialised;
 var isLoaded;
 
 function preload() {
+  isLoaded = false;
+
   soundFormats("mp3", "wav");
 
   //load your sounds here
   jumpSound = loadSound("assets/segway_loop.mp3", function () {
     console.log("Sound is loaded");
+    isLoaded = true;
   });
   jumpSound.setVolume(0.1);
 }
@@ -43,7 +46,10 @@ function keyPressed() {
     //jumpSound.play();
     // Use the r variable to adjust the sound speed
     var r = map(mouseX, 0, width, 0.4, 4);
-    jumpSound.loop(0, r);
+    // Play the sound only if the sound is loaded
+    if (isLoaded) {
+      jumpSound.loop(0, r);
+    }
   } else {
     // Use the space bar to pause the sound
     if (key == " ") {
