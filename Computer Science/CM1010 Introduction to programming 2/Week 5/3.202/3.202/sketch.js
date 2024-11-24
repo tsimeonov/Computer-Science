@@ -55,7 +55,7 @@ function draw() {
     ellipse(width / 2, height / 2, d);
 
     for (var i = 0; i < amplitudes.length; i++) {
-      var h = map(amplitudes[i], 0, 0.15, 0, 150);
+      var h = map(amplitudes[i], 0, 0.15, 0, -150);
       ellipse(i * 2, height / 2 + h, 5);
     }
   }
