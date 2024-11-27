@@ -34,6 +34,7 @@ function setup() {
   textSize(32);
 
   amplitude = new p5.Amplitude();
+  fft = new new p5.FFT()();
 }
 
 function draw() {
