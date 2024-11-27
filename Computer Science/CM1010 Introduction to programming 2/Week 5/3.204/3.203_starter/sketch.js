@@ -48,6 +48,8 @@ function draw() {
     var d = map(amplitude.getLevel(), 0, 0.15, 50, 250);
 
     ellipse(width / 2, height / 2, d);
+
+    fft.analyze();
   }
 }
 
