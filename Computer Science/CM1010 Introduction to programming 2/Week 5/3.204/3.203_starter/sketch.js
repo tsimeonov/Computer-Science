@@ -60,9 +60,11 @@ function draw() {
       line(i, height, i, height - freqs[i] * 3);
     }
 
+    var energy = fft.getEnergy("bass");
+
     noStroke();
     fill(255, 0, 0);
-    ellipse(width, 4, height / 2, 100, 100);
+    ellipse(width / 4, height / 2, 50 + energy);
   }
 }
 
