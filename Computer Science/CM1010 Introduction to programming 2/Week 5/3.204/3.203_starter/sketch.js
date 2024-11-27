@@ -53,6 +53,12 @@ function draw() {
     var freqs = fft.analyze();
 
     console.log(freqs);
+
+    stroke(0, 200, 50);
+
+    for (var i = 0; i < freqs.length; i++) {
+      line(i, height, i, height - freqs[i]);
+    }
   }
 }
 
