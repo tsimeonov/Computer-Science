@@ -59,6 +59,10 @@ function draw() {
     for (var i = 0; i < freqs.length; i++) {
       line(i, height, i, height - freqs[i] * 3);
     }
+
+    noStroke();
+    fill(255, 0, 0);
+    ellipse(width, 4, height / 2, 100, 100);
   }
 }
 
