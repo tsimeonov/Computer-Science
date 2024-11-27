@@ -34,7 +34,7 @@ function setup() {
   textSize(32);
 
   amplitude = new p5.Amplitude();
-  fft = new new p5.FFT()();
+  fft = new p5.FFT();
 }
 
 function draw() {
@@ -49,7 +49,10 @@ function draw() {
 
     ellipse(width / 2, height / 2, d);
 
-    fft.analyze();
+    //Frequency variable
+    var freqs = fft.analyze();
+
+    console.log(freqs);
   }
 }
 
