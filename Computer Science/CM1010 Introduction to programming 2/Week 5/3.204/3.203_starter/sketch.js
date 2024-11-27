@@ -61,10 +61,14 @@ function draw() {
     }
 
     var energy = fft.getEnergy("bass");
-
     noStroke();
     fill(255, 0, 0);
     ellipse(width / 4, height / 2, 50 + energy);
+
+    var highEnergy = fft.getEnergy("highMid");
+    noStroke();
+    fill(0, 0, 255);
+    ellipse(width + 3 / 4, height / 2, 50 + highEnergy);
   }
 }
 
