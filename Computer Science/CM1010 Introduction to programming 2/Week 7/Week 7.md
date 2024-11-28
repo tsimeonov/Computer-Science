@@ -1,1 +1,3 @@
 ## Lesson 4.1: Introduction
+
+## Lesson 4.2: Preparing for case study 3
