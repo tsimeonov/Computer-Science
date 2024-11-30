@@ -76,3 +76,5 @@ and so on. This leads us to the following formula for the n^th^ term:
 The n^th^ term of a geometric progression is given by ar^n-1^
 
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
+
+<h5>Infinite sequences</h5>
