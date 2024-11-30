@@ -103,3 +103,6 @@ As `k` gets larger and larger so too do the terms of the sequence. This sequence
 
 If the terms of a sequence are added the result is known as a series.
 For example, if we add the terms of the sequence 1,2,3,4,5 we obtain the series 1+2+3+4+5
+e
+
+`Sigma notation`
