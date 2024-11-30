@@ -120,3 +120,9 @@ The $\sum_{}$ stands for sum, in this case the sum of all the values of `k` as `
 If the terms of an arithmetic sequence are added, the result is known as an `arithmetic series`. For example, the arithmetic progression with five terms having first term 4 and common difference 5 is 4,9,14,19,24.
 It is easily verified that this has sum 70. If the series has a large number of terms then finding its sum by diretly adding all the terms will be laborious.
 Fortunately there is a formula that enables us to find the sum of an arithmetic series.
+
+<h5 style="color:FireBrick;">Key points</h5>
+
+The sum of the first `n` terms of an arithmetic series with first term `a` and common difference `d` is denoted by S~n~ and give by:
+
+S~n~ = $\frac{n}{2}$ (2a + (n - 1) d)
