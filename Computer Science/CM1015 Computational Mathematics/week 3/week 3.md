@@ -94,3 +94,7 @@ We write this concisely as:
 $\displaystyle{\lim_{x \to \infty}}$ $\frac{1}{k}$ = 0
 
 "lim" is an abbreviation for limit, so lim~k->∞~ means we must examine the behaviour of the sequence as `k` gets larger and larger. When a sequence possesses a limit it is said to `converge`.
+
+However, not all sequences possess a limit.
+Tje sequence defined by x~k~= 3k - 2, which is 1,4,7,10..., is one sucha example .
+As `k` gets larger and larger so too do the terms of the sequence. This sequence is said to `diverge`.
