@@ -80,3 +80,17 @@ The n^th^ term of a geometric progression is given by ar^n-1^
 <h5>Infinite sequences</h5>
 
 Some sequences continue indefinitely, and these are called `infinite sequences`
+
+It can happen that as we move along the sequence the terms get closer and closer to a fixed value.
+For example:
+1, $\displaystyle{\lim_{x \to \infty}}$,$\frac{1}{3}$,$\frac{1}{4}$,$\frac{1}{5}$ ....
+Notice that the terms are getting smaller and smaller. If we continue on for ever these terms approach the value 0.
+The sequence can be written in the abbreviated form
+x~k~ = $\frac{1}{k}$, for k = 1,2,3...
+As `k` gets larger and larger, and approaches infinity, the terms of the sequence get closer and closer to zero.
+We say that "$\frac{1}{k}$ tends ti zero as `k` tends to infinity", or alternatively "as `k` tends to infinity, the `limit` of the sequence is zero".
+We write this concisely as:
+
+$\displaystyle{\lim_{x \to \infty}}$ $\frac{1}{k}$ = 0
+
+"lim" is an abbreviation for limit, so lim~k->∞~ means we must examine the behaviour of the sequence as `k` gets larger and larger. When a sequence possesses a limit it is said to `converge`.
