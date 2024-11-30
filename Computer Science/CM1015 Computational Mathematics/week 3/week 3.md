@@ -98,3 +98,5 @@ $\displaystyle{\lim_{x \to \infty}}$ $\frac{1}{k}$ = 0
 However, not all sequences possess a limit.
 Tje sequence defined by x~k~= 3k - 2, which is 1,4,7,10..., is one sucha example .
 As `k` gets larger and larger so too do the terms of the sequence. This sequence is said to `diverge`.
+
+<h5>Series and sigma notation</h5>
