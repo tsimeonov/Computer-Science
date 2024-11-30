@@ -106,3 +106,11 @@ For example, if we add the terms of the sequence 1,2,3,4,5 we obtain the series 
 e
 
 `Sigma notation`
+
+Sigma notationm $\sum_{}$, provides a concise and convenient way of writting long sums.
+The sum 1+2+3 .... +10+11+12
+can be written very concisely using the Greek letter $\sum_{}$ as
+
+$$\sum_{k=1}^{k = 12} k$$
+
+The $\sum_{}$ stands for sum, in this case the sum of all the values of `k` as `k` ranges through all whole numbers from 1 to 12.
