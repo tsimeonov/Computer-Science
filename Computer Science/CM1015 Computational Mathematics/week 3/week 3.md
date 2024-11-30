@@ -100,3 +100,5 @@ Tje sequence defined by x~k~= 3k - 2, which is 1,4,7,10..., is one sucha example
 As `k` gets larger and larger so too do the terms of the sequence. This sequence is said to `diverge`.
 
 <h5>Series and sigma notation</h5>
+
+If the terms of a sequence are added the result is known as a series.
