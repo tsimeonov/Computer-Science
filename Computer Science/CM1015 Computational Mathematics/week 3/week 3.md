@@ -128,3 +128,7 @@ The sum of the first `n` terms of an arithmetic series with first term `a` and c
 S~n~ = $\frac{n}{2}$ (2a + (n - 1) d)
 
 <h5>Geometric series</h5>
+
+If the terms of a geometric sequence are added, the result is known as a `geometric series`.
+For example, the geometric progression with five terms having first term 2 and common ration 3 is 2,6,18,54,162.
+If hte terms are added we obtain the geometric series 2+6+18+54+162
