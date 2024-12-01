@@ -136,7 +136,7 @@ The statement for n = k implies the statement for n = K + 1
 <details>
   <summary>Solution to question 9</summary>
 
-wefwefewfewfew
+55
 
 </details>
 
@@ -161,7 +161,7 @@ wefwefewfewfew
 The first 15 natural numbers are:
 
 ```
-1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 ```
 
 </details>
@@ -176,6 +176,33 @@ The first 15 natural numbers are:
 ```
 210
 ```
+
+</details>
+
+<br>
+
+14. Prove by induction that the sum of the first `n` odd numbers is n^2^
+
+<details>
+  <summary>Solution to question 14</summary>
+
+Base case:
+
+for n = 1,
+S~1~ = 1 = 1^2^
+
+The base case holds true.
+
+Inductive step:
+
+Assume for formula holds on n = k,
+S~k~ = k^2^
+
+Prove for n = k + 1,
+
+S~k+1~ = S~k~ + (2k + 1) = k^2^ + (2k + 1) = (k + 1 )^2^
+
+Hence, the formula holds for n = k + 1
 
 </details>
 
