@@ -104,7 +104,7 @@ The sum of the first `n` natural numbers
 <details>
   <summary>Solution to question 7</summary>
 
-wefwefewfewfew
+S~n~ = S~n-1~ + n
 
 </details>
 
@@ -120,7 +120,7 @@ wefwefewfewfew
 <details>
   <summary>Solution to question 8</summary>
 
-wefwefewfewfew
+The statement for n = k implies the statement for n = K + 1
 
 </details>
 
