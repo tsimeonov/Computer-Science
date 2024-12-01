@@ -12,9 +12,27 @@ wefwefewfewfew
 
 </details>
 
+<br>
+
 2. What is the formula for the sum of the first `n` natural numbers?
 
 - $\frac{n^2}{2}$
 - $\frac{n(n+1)}{2}$
 - $\frac{n(n+2)}{2}$
 - $\frac{n(n-1)}{2}$
+
+<details>
+  <summary>Solution to question 2</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
+
+3. What does the Sigma notation Σ represents in mathematics?
+
+- Difference
+- Product
+- Division
+- Summation
