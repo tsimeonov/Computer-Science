@@ -103,7 +103,6 @@ As `k` gets larger and larger so too do the terms of the sequence. This sequence
 
 If the terms of a sequence are added the result is known as a series.
 For example, if we add the terms of the sequence 1,2,3,4,5 we obtain the series 1+2+3+4+5
-e
 
 `Sigma notation`
 
@@ -143,3 +142,8 @@ S~n~ = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
 
 When the terms of an infinite sequence are added we obtain an infinite series. It way seem strange to try to add an infinite number of terms but under some circumstances their sum is finite and can be found.
 Consdider the special case of an infinite geometric series for which the common ratio `r` lies between -1 and 1.
+
+<h5 style="color:FireBrick;">Key points</h5>
+
+The sum of an infinite number of terms of a geomteric series is denoted by
+S~∞~ = $\frac{a}{1 - r}$ provided -1 < r < 1
