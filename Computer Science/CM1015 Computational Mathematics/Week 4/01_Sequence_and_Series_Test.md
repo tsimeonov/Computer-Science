@@ -141,3 +141,14 @@ wefwefewfewfew
 </details>
 
 <br>
+
+10. Find the sum of the first 20 natural numbers using the formula S~n~ = $\frac{n(n+1)}{2}$
+
+<details>
+  <summary>Solution to question 10</summary>
+
+210
+
+</details>
+
+<br>
