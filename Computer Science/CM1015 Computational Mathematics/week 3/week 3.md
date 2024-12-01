@@ -140,3 +140,6 @@ The sum of the first `n` terms of a geometric seriews with first term `a` and co
 S~n~ = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
 
 <h5>Infinite geometric series</h5>
+
+When the terms of an infinite sequence are added we obtain an infinite series. It way seem strange to try to add an infinite number of terms but under some circumstances their sum is finite and can be found.
+Consdider the special case of an infinite geometric series for which the common ratio `r` lies between -1 and 1.
