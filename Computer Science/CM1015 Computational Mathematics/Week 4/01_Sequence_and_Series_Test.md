@@ -93,3 +93,19 @@ wefwefewfewfew
 </details>
 
 <br>
+
+7. Which of the following is a correct formula for the sum of the first `n` natural numbers
+
+- S~n~ = S~n-1~ - n
+- S~n~ = S~n-1~ / n
+- S~n~ = S~n-1~ \* n
+- S~n~ = S~n-1~ + n
+
+<details>
+  <summary>Solution to question 7</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
