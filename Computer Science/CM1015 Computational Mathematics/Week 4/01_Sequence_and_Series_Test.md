@@ -125,3 +125,19 @@ wefwefewfewfew
 </details>
 
 <br>
+
+9. What is the sum of the first 10 natural numbers using the formula $\frac{n(n+2)}{2}$
+
+- 50
+- 55
+- 45
+- 60
+
+<details>
+  <summary>Solution to question 9</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
