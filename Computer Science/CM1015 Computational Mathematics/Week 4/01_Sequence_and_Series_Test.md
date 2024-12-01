@@ -88,7 +88,7 @@ S~1~ = 1
 <details>
   <summary>Solution to question 6</summary>
 
-wefwefewfewfew
+The sum of the first `n` natural numbers
 
 </details>
 
