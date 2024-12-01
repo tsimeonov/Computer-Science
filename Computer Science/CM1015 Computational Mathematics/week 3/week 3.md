@@ -132,3 +132,9 @@ S~n~ = $\frac{n}{2}$ (2a + (n - 1) d)
 If the terms of a geometric sequence are added, the result is known as a `geometric series`.
 For example, the geometric progression with five terms having first term 2 and common ration 3 is 2,6,18,54,162.
 If hte terms are added we obtain the geometric series 2+6+18+54+162
+
+<h5 style="color:FireBrick;">Key points</h5>
+
+The sum of the first `n` terms of a geometric seriews with first term `a` and common ratio `r` is denoted by S~n~ and give by
+
+S~n~ = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
