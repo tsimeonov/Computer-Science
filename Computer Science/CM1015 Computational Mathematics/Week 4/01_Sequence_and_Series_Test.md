@@ -70,7 +70,23 @@ wefwefewfewfew
 - S~1~ = 1
 
 <details>
-  <summary>Solution to question 4</summary>
+  <summary>Solution to question 5</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
+
+6. In the formula S~n~ = $\frac{n(n+1)}{2}$, what does S~n~ represents
+
+- The difference between the first `n` natural numbers
+- The sum of the first `n` natural numbers
+- The product of the first `n` natural numbers
+- The average of the first `n` natural numbers
+
+<details>
+  <summary>Solution to question 6</summary>
 
 wefwefewfewfew
 
