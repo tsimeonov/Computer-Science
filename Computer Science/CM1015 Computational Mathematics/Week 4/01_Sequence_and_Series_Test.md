@@ -152,3 +152,18 @@ wefwefewfewfew
 </details>
 
 <br>
+
+12. Find the first 15 natural numbers
+
+<details>
+  <summary>Solution to question 12</summary>
+
+The first 15 natural numbers are:
+
+\[
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
+\]
+
+</details>
+
+<br>
