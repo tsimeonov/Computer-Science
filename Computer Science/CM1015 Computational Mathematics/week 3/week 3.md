@@ -138,3 +138,5 @@ If hte terms are added we obtain the geometric series 2+6+18+54+162
 The sum of the first `n` terms of a geometric seriews with first term `a` and common ratio `r` is denoted by S~n~ and give by
 
 S~n~ = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
+
+<h5>Infinite geometric series</h5>
