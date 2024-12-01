@@ -40,7 +40,7 @@ $\frac{n(n+2)}{2}$
 <details>
   <summary>Solution to question 3</summary>
 
-wefwefewfewfew
+Summation
 
 </details>
 
@@ -56,7 +56,7 @@ wefwefewfewfew
 <details>
   <summary>Solution to question 4</summary>
 
-wefwefewfewfew
+Provide statements for the set of natural numbers
 
 </details>
 
