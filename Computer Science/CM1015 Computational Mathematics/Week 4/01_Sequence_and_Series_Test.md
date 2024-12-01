@@ -61,3 +61,19 @@ wefwefewfewfew
 </details>
 
 <br>
+
+5. What is the base case in the proof by induction for the sum of the first `n` natural numbers?
+
+- S~k+1~ = $\frac{(k+1)(k+2)}{2}$
+- S~0~ = 0
+- S~k~ = $\frac{k(k+1)}{2}$
+- S~1~ = 1
+
+<details>
+  <summary>Solution to question 4</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
