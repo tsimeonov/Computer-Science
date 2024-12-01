@@ -109,3 +109,19 @@ wefwefewfewfew
 </details>
 
 <br>
+
+8. What does the inductive step in proof by induction demonstrate?
+
+- The statement for n = k implies the statement for n = K + 1
+- The statement is false for n = k
+- The statement is true for n = k
+- The statement for n = k is independent of the statement for n = k + 1
+
+<details>
+  <summary>Solution to question 8</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
