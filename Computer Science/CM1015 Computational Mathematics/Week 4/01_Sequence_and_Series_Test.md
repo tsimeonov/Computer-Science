@@ -24,7 +24,7 @@ Summing all elements of a sequence
 <details>
   <summary>Solution to question 2</summary>
 
-$\frac{n(n+2)}{2}$
+$\frac{n(n+1)}{2}$
 
 </details>
 
@@ -72,7 +72,7 @@ Provide statements for the set of natural numbers
 <details>
   <summary>Solution to question 5</summary>
 
-S~1~ = 1
+S~0~ = 0
 
 </details>
 
