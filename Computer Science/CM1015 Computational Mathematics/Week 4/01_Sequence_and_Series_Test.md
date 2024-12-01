@@ -72,7 +72,7 @@ Provide statements for the set of natural numbers
 <details>
   <summary>Solution to question 5</summary>
 
-wefwefewfewfew
+S~1~ = 1
 
 </details>
 
