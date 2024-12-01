@@ -160,9 +160,34 @@ wefwefewfewfew
 
 The first 15 natural numbers are:
 
-\[
+```
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
-\]
+```
+
+</details>
+
+<br>
+
+13. Using the formula for the sum of an arithmetic series S~n~ = $\frac{n}{2}$ (2a + (n1)d), find the sum of the first 10 terms of an arithmetic dequence with a = 3 and d = 4.
+
+<details>
+  <summary>Solution to question 13</summary>
+
+```
+210
+```
+
+</details>
+
+<br>
+
+15. Find the sum of the first five terms of a geometric sequence with a = 2 and r = 3
+
+<details>
+  <summary>Solution to question 15</summary>
+
+S~n~ = a $\frac{1^r}{1  r}$, if r $\neq$ 1
+S~5~ = 242
 
 </details>
 
