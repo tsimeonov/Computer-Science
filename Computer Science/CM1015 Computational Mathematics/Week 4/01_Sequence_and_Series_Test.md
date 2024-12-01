@@ -8,7 +8,7 @@
 <details>
   <summary>Solution to question 1</summary>
 
-wefwefewfewfew
+Summing all elements of a sequence
 
 </details>
 
@@ -24,7 +24,7 @@ wefwefewfewfew
 <details>
   <summary>Solution to question 2</summary>
 
-wefwefewfewfew
+$\frac{n(n+2)}{2}$
 
 </details>
 
