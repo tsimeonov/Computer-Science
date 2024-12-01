@@ -36,3 +36,12 @@ wefwefewfewfew
 - Product
 - Division
 - Summation
+
+<details>
+  <summary>Solution to question 3</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
