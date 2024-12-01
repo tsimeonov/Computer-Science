@@ -45,3 +45,19 @@ wefwefewfewfew
 </details>
 
 <br>
+
+4. What is the principle of mathematical induction used for?
+
+- Proving statements for the set of natural numbers.
+- Proving statements for negative integers.
+- Proving statements for complex numbers.
+- Proving statements for irrational numbers.
+
+<details>
+  <summary>Solution to question 4</summary>
+
+wefwefewfewfew
+
+</details>
+
+<br>
