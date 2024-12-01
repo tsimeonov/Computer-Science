@@ -126,3 +126,5 @@ Fortunately there is a formula that enables us to find the sum of an arithmetic 
 The sum of the first `n` terms of an arithmetic series with first term `a` and common difference `d` is denoted by S~n~ and give by:
 
 S~n~ = $\frac{n}{2}$ (2a + (n - 1) d)
+
+<h5>Geometric series</h5>
