@@ -39,3 +39,5 @@ Select all the apply
 - $$5(\sum_{n}^{i=1} i) ^2  + 3\sum_{n}^{i=1} - 1$$
 - $\frac{5n(n+1(2n+1))}{6}$ + $\frac{3n(n+1)}{2}$ - n
 - None of the above
+
+6. Find rhw limit of the sequence u~n~ = $\frac{1}{n-1}$ as n tends to ∞
