@@ -14,7 +14,7 @@ $$\sum_{72}^{i=1} i$$
 - 8
 - None of the above
 
-3. Find the n^th^ term of the arithmetic sequence 14,18, 22, ...
+4. Find the n^th^ term of the arithmetic sequence 14,18, 22, ...
 
 - a~n~ = 14 + 4(n+1) = 4n + 18
 - a~n~ = 14 x 4(n-1) = 56n - 56
