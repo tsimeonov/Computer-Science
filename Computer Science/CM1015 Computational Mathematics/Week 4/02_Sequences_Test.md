@@ -13,3 +13,10 @@ $$\sum_{72}^{i=1} i$$
 - 12
 - 8
 - None of the above
+
+3. Find the n^th^ term of the arithmetic sequence 14,18, 22, ...
+
+- a~n~ = 14 + 4(n+1) = 4n + 18
+- a~n~ = 14 x 4(n-1) = 56n - 56
+- a~n~ = 14 + 4(n-1) = 4n + 10
+- None of the above
