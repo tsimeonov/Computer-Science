@@ -41,3 +41,5 @@ Select all the apply
 - None of the above
 
 6. Find rhw limit of the sequence u~n~ = $\frac{1}{n-1}$ as n tends to ∞
+
+7. Given a sequence , u~n~ defined by the following sequence pattern 3,5,7,9,1, .....
