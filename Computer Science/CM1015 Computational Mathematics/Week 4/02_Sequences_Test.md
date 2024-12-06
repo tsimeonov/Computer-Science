@@ -50,3 +50,11 @@ not completed
 - n^2^ - 2n
 - n^2^ + n
 - None of the above
+
+8. Find S~1~, S~2~ and S~3~ and S~4~ for the following recurrence relation
+   S~n+1~ = 2(S~n~ + 1) and S~1~ = 1
+
+- S~1~ = 1, S~2~ = 4, S~3~ = 10 and S~4~ = 22
+- S~1~ = 0, S~2~ = 2, S~3~ = 6 and S~4~ = 14
+- S~1~ = 1, S~2~ = 4, S~3~ = 25 and S~4~ = 25
+- None of the above
