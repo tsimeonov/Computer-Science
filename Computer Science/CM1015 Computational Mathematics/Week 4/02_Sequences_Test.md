@@ -58,3 +58,15 @@ not completed
 - S~1~ = 0, S~2~ = 2, S~3~ = 6 and S~4~ = 14
 - S~1~ = 1, S~2~ = 4, S~3~ = 25 and S~4~ = 25
 - None of the above
+
+9. Use mathematical induction to prove that
+   p(n) = 1^2^ and 2^2^ and 3^2^ + ... + n^2^ = $\frac{n(n+1)(2n+1)}{6}$ for all positive integers `n`
+
+Determine all the correct steps
+
+- We assume that p(k + 1) is true
+- We first show that p(1) is true
+- We now assume that p(n+1) is true
+- We now assume that p(k) is true
+- We show that p(k+1) is true by adding (k+1)^2^ to both sides
+- Simplify the terms and check if both sides are the same
