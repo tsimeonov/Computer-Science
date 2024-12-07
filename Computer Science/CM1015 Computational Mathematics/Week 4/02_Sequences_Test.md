@@ -114,12 +114,52 @@ $$\sum_{i=1}^{n} (5i^2 + 3i - 1)$$
 
 Select all the apply
 
-- $$5\sum_{i=1}^{n} i^2 + 3\sum_{i=1}^{n} i - \sum_{i=1}^{n} i $$
-- $$5(\sum_{i=1}^{n} i) ^2  + 3\sum_{i=1}^{n} - 1$$
+- $$5\sum_{i=1}^{n} i^2 + 3\sum_{i=1}^{n} i - \sum_{i=1}^{n} 1 $$
+- $$5(\sum_{i=1}^{n} i) ^2  + 3(\sum_{i=1}^{n}) - 1$$
 - $\frac{5n(n+1(2n+1))}{6}$ + $\frac{3n(n+1)}{2}$ - n
 - None of the above
 
-6. Find rhw limit of the sequence u~n~ = $\frac{1}{n-1}$ as n tends to ∞
+<details>
+  <summary>Solution</summary>
+
+Step 1: Split the summation
+
+$$\sum_{i=1}^{n} (5i^2 + 3i - 1) = 5 \sum_{i=1}^{n} i^2 + 3 \sum_{i=1}^{n} i - \sum_{i=1}^{n} 1$$
+
+This matches Option 1 and 3
+
+</details>
+
+<br>
+
+6. Find the limit of the sequence u~n~ = $\frac{1}{n-1}$ as n tends to ∞
+
+<details>
+  <summary>Solution</summary>
+
+Step 1: Write the sequence explicitly
+
+u~n~ = $\frac{1}{n}$ - $\frac{1}{n - 1}$
+
+Step 2: Combine terms using a common denominator
+
+The least common denominator of `n` and `n - 1` is `n(n-1)`. Rewritte the terms
+
+u~n~ = $\frac{(n -1) - n}{n(n - 1)}$
+
+Simplify the numerator
+
+u~n~ = $\frac{1}{n(n - 1)}$
+
+Step 3: Evaluate the limit as n -> ∞
+
+As n -> ∞, the denominator n(n-1) -> ∞ so
+
+u~n~ = 0
+
+</details>
+
+<br>
 
 7. Given a sequence , u~n~ defined by the following sequence pattern 3,5,7,9,1, .....
 
