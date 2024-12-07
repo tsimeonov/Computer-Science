@@ -163,7 +163,9 @@ u~n~ = 0
 
 7. Given a sequence , u~n~ defined by the following sequence pattern 3,5,7,9,1, .....
 
-not completed
+Which one of the following represents the sum of the first n^th^ term of
+
+$$\sum_{i=1}^{∞}un$$
 
 - n^2^ + 2n
 - n^2^ - 2n
