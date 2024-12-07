@@ -36,6 +36,17 @@ Calculate: S~72~ = 2628
 - 8
 - None of the above
 
+<details>
+  <summary>Solution</summary>
+
+The sequence 1,1,2,3,5,8, is the `Fibonacci sequence`, where each term is the sum of the two preceding terms
+
+The next term after 8 is: 5 + 8 = 13
+
+</details>
+
+<br>
+
 3. Find the n^th^ term of the sequence pattern: 2,5,8,11,14, ... start from n = 1
 
 - n + 3
