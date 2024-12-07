@@ -70,3 +70,10 @@ Determine all the correct steps
 - We now assume that p(k) is true
 - We show that p(k+1) is true by adding (k+1)^2^ to both sides
 - Simplify the terms and check if both sides are the same
+
+10. The formula for the sum of `n` terms of a geometric progression is
+
+- S~n~ = a~0~ + (n - 1) \* d
+- S~n~ = $\frac{a(1 + r^n)}{(1 + r)}$
+- S~n~ = $\frac{a(1 - r^n)}{(1 - r)}$
+- None of the above
