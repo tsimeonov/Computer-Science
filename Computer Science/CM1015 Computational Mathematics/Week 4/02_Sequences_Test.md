@@ -90,6 +90,24 @@ Step 3: Final answer
 - a~n~ = 14 + 4(n-1) = 4n + 10
 - None of the above
 
+<details>
+  <summary>Solution</summary>
+
+a~n~ = a + (n - )d, where `a` = 14 (first term), `d` = 4 (common difference)
+
+Step 1: Substitute a = 14 and d = 4
+
+a~n~ = 14 + (n - 1)(4)
+
+Step 2: Simplify
+
+a~n~ = 14 + 4n - 4
+a~n~ = 4n + 10
+
+</details>
+
+<br>
+
 5. Which of the following represent the summation:
 
 $$\sum_{n}^{i=1} (5i^2 + 3i - 1)$$
