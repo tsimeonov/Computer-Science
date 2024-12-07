@@ -7,6 +7,28 @@ $$\sum_{72}^{i=1} i$$
 - 1 + + 1 + 1 .... + 1 = 72
 - None of the above
 
+<details>
+  <summary>Solution</summary>
+
+The above summation represents the sum of all integers from 1 to 72.
+Using the formula for the sum of the first n natural numbers
+
+S~n~ = $\frac{n(n + 1)}{2}$, whre n = 72
+
+Step 1:
+
+Substitute n = 72 in to the formula
+
+S~72~ = $\frac{72(72+ 1)}{2}$
+
+Step 2:
+
+Calculate: S~72~ = 2628
+
+</details>
+
+<br>
+
 2. Write down the value of the next term in the sequence 1,1,2,3,5,8, ...
 
 - 13
