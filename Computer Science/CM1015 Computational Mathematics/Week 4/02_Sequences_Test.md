@@ -110,12 +110,12 @@ a~n~ = 4n + 10
 
 5. Which of the following represent the summation:
 
-$$\sum_{n}^{i=1} (5i^2 + 3i - 1)$$
+$$\sum_{i=1}^{n} (5i^2 + 3i - 1)$$
 
 Select all the apply
 
-- $$5\sum_{n}^{i=1} i^2 + 3\sum_{n}^{i=1} i - \sum_{n}^{i=1} i $$
-- $$5(\sum_{n}^{i=1} i) ^2  + 3\sum_{n}^{i=1} - 1$$
+- $$5\sum_{i=1}^{n} i^2 + 3\sum_{i=1}^{n} i - \sum_{i=1}^{n} i $$
+- $$5(\sum_{i=1}^{n} i) ^2  + 3\sum_{i=1}^{n} - 1$$
 - $\frac{5n(n+1(2n+1))}{6}$ + $\frac{3n(n+1)}{2}$ - n
 - None of the above
 
