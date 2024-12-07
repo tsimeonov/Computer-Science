@@ -55,6 +55,34 @@ The next term after 8 is: 5 + 8 = 13
 - 3n + 1
 - 3n - 1
 
+<details>
+  <summary>Solution</summary>
+
+The sequence 2,5,8,11,14 is an arithmetic sequence wheer each term increases by a constant difference d = 3
+
+The formula for the n-th term of an arithmetic sequence is
+
+a~n~ = a + (n - 1)d, where
+`a` is the first term (a = 2)
+`d` is the common difference (d = 3)
+
+Step 1: Substitud a = 2 and d = 3
+
+a~n~ = 2 + (n - 1)(3)
+
+Step 2: Simplify
+
+a~n~ = 2 + 3~n~ 3
+a~n~ = 3~n~ 1
+
+Step 3: Final answer
+
+3~n~ - 1
+
+</details>
+
+<br>
+
 4. Find the n^th^ term of the arithmetic sequence 14,18, 22, ...
 
 - a~n~ = 14 + 4(n+1) = 4n + 18
