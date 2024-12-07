@@ -172,6 +172,46 @@ $$\sum_{i=1}^{∞}un$$
 - n^2^ + n
 - None of the above
 
+<details>
+  <summary>Solution</summary>
+
+The given sequence u~n~ = 3,5,7,9 .. is an arithmetic sequence with
+
+- First term a = 3
+- Common difference d = 2
+
+To find the sum of the first n trms, we use the formula for the sum of an arithmetic sequence:
+
+S~n~ = $\frac{n}{2}$ (2a + (n -1) d)
+
+Where :
+
+- a is the first term
+- d is the common difference
+- n is the number of terms
+
+Step 1: Substitute a = 3 and d = 2 into the formula
+
+S~n~ = $\frac{n}{2}$ (2(3) + (n -1)(2))
+
+Step 2: Simplify yhe expression inside the parentheses
+
+S~n~ = $\frac{n}{2}$ (6+ 2n -2)
+S~n~ = $\frac{n}{2}$ (4 + 2n)
+
+Step 3: Factor out 2
+
+S~n~ = $\frac{n}{2}$ \* 2(n + 2)
+S~n~ = n(n+2)
+
+Step 4: Expand S~n~
+
+S~n~ = n^2^ + 2n
+
+</details>
+
+<br>
+
 8. Find S~1~, S~2~ and S~3~ and S~4~ for the following recurrence relation
    S~n+1~ = 2(S~n~ + 1) and S~1~ = 1
 
