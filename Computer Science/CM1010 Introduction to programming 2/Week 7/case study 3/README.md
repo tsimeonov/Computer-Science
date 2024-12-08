@@ -28,6 +28,7 @@ each company.
 
 3. In the `for` loop in the `draw()` method extract the relevant data
    from each table row and store it in the `company` object.
+
    - Hint: Look up the `getString()` and `getNum()` table methods, and
      use the appropriate method to ensure the data is parsed
      correctly.
@@ -55,6 +56,7 @@ employees over time.
 
 3. Complete the `mapPayGapToHeight()` method. Look at how `mapYearToWidth()`
    works.
+
    - Check that the y-axis tick labels are drawn correctly.
 
 4. Complete the `line()` function in the `draw()` method to plot the
@@ -89,8 +91,9 @@ companies.
 
 2. Create a select DOM element using p5.dom.js (see
    [`createSelect`](https://p5js.org/reference/#/p5/createSelect)) and
-   populate the options *programmatically* using the company names
+   populate the options _programmatically_ using the company names
    obtained from the columns of `this.data`.
+
    - Hint: you need to write a `for` loop.
 
 3. Change the hard-coded company name to instead get the value from
