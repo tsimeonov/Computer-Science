@@ -30,7 +30,10 @@ let [main, , secondary] = restaurant.categories;
 
 // Without destructuring
 
-const temp = main;
-main = secondary;
-secondary = temp;
+// const temp = main;
+// main = secondary;
+// secondary = temp;
+// console.log(main, secondary);
+
+[main, secondary] = [secondary, main];
 console.log(main, secondary);

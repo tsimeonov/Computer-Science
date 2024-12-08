@@ -78,4 +78,10 @@ const temp = main;
 main = secondary;
 secondary = temp;
 console.log(main, secondary); // Vegetarian Italian
+
+// With destructuring
+let [main, , secondary] = restaurant.categories;
+
+[main, secondary] = [secondary, main];
+console.log(main, secondary);
 ```
