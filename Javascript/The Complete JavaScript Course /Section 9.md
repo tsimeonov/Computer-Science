@@ -52,3 +52,10 @@ const arr = [2, 3, 4];
 const [x, y, z] = arr;
 console.log(x, y, z);
 ```
+
+- Extract the first and second elements from the array
+
+```js
+const [first, second] = restaurant.categories;
+console.log(first, second); // Italian Pizzeria
+```
