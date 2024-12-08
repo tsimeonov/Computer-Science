@@ -26,5 +26,11 @@ const restaurant = {
   },
 };
 
-const [first, , second] = restaurant.categories;
-console.log(first, second);
+let [main, , secondary] = restaurant.categories;
+
+// Without destructuring
+
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log(main, secondary);

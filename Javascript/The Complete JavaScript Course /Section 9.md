@@ -66,3 +66,16 @@ console.log(first, second); // Italian Pizzeria
 const [first, , second] = restaurant.categories;
 console.log(first, second); // Italian Vegetarian
 ```
+
+- Change the main and secondary elements from main, secondary -> secondary, main
+
+```js
+let [main, , secondary] = restaurant.categories;
+
+// Without destructuring
+
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log(main, secondary); // Vegetarian Italian
+```
