@@ -108,3 +108,11 @@ console.log(i, j); // 2 [ 5, 6 ]
 const [i, , [j, k]] = nested;
 console.log(i, j, k); // 2 5 6
 ```
+
+- Set default values
+
+```js
+// Without default values
+const [p, q, r] = [8, 9];
+console.log(p, q, r); // 8 9 undefined
+```
