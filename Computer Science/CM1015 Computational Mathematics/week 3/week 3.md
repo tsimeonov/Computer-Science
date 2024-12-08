@@ -2,6 +2,8 @@
 
 <h5>Introduction to sequences and series:</h5>
 
+---
+
 `Sequence`
 
 A sequence is a set of numbers written down in a specific order.
@@ -17,11 +19,15 @@ All of the sequences given above have a finite number of terms. They are known a
 1,3,5,7,9 ...
 it can be assumed that this sequence continues indefinitely.
 
+---
+
 <h5>Notation used for sequences</h5>
 
 We use a subscript notation to refer to different terms in a sequence. For example, suppose we denote (indicate) the sequence 1,3,5,7,9,11 by x. Then the first term can be called x~1~, the second term x~2~ and so on.
 That is,
 x~1~ = 1, x~2~ = 3, x~3~ = 5, x~4~ = 7, and so on
+
+---
 
 <h5>Arithmetic progressions</h5>
 
@@ -36,7 +42,7 @@ An arithmetic progression can be written
 
 a, a + d, a + 2d, a + 3d ....
 
-a is the `first term`. d is the `common difference`.
+`a` is the `first term`, `d` is the `common difference`.
 
 Study the following pattern:
 
@@ -45,9 +51,11 @@ Study the following pattern:
 - The third term is a + 2d
 - The forth term is a + 3d
 
-And so on. This lead to the folowing formula for the `n`th term:
+And so on. This lead to the following formula for the `n`th term:
 
 `a + (n-1)d`
+
+---
 
 <h5>Geometric Progression</h5>
 
@@ -75,36 +83,42 @@ The n^th^ term of a geometric progression is given by ar^n-1^
 
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
 
-<h5>Infinite sequences</h5>
+---
 
-Some sequences continue indefinitely, and these are called `infinite sequences`
+<h5>Infinite geometric series</h5>
 
-It can happen that as we move along the sequence the terms get closer and closer to a fixed value.
-For example:
-1, $\displaystyle{\lim_{x \to \infty}}$,$\frac{1}{3}$,$\frac{1}{4}$,$\frac{1}{5}$ ....
-Notice that the terms are getting smaller and smaller. If we continue on for ever these terms approach the value 0.
-The sequence can be written in the abbreviated form
-x~k~ = $\frac{1}{k}$, for k = 1,2,3...
-As `k` gets larger and larger, and approaches infinity, the terms of the sequence get closer and closer to zero.
-We say that "$\frac{1}{k}$ tends ti zero as `k` tends to infinity", or alternatively "as `k` tends to infinity, the `limit` of the sequence is zero".
-We write this concisely as:
+An **infinite geometric series** is the sum of all terms in an **infinite geometric sequence** — where each term is multiplied by the same fixed number (called the **common ratio**).
 
-$\displaystyle{\lim_{x \to \infty}}$ $\frac{1}{k}$ = 0
+##### Example:
 
-"lim" is an abbreviation for limit, so lim~k->∞~ means we must examine the behaviour of the sequence as `k` gets larger and larger. When a sequence possesses a limit it is said to `converge`.
+If the first term is \( 1 \) and the common ratio (\( r \)) is \( \frac{1}{2} \):
+$$1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + ...$$
 
-However, not all sequences possess a limit.
-Tje sequence defined by x~k~= 3k - 2, which is 1,4,7,10..., is one sucha example .
-As `k` gets larger and larger so too do the terms of the sequence. This sequence is said to `diverge`.
+This series goes on forever!
 
-<h5>Series and sigma notation</h5>
+##### Key Points:
 
-If the terms of a sequence are added the result is known as a series.
-For example, if we add the terms of the sequence 1,2,3,4,5 we obtain the series 1+2+3+4+5
+1. **Common Ratio** (\( r \)): The fixed number you multiply by to get each next term.
+   - Example: \( r = \frac{1}{2} \).
+2. **Convergence**: If \( |r| < 1 \) (|r| -> absolute value), the terms become smaller and smaller, and the series **converges** to a specific sum.
+3. **Divergence**: If \( |r| \geq 1 \), the terms don't shrink, and the series grows without limit (**diverges**).
+
+##### Formula for the Sum (if \( |r| < 1 \)):
+
+\[
+S = \frac{a}{1 - r}
+\]
+Where:
+
+- \( S \) = sum of the series.
+- \( a \) = first term.
+- \( r \) = common ratio.
+
+---
 
 `Sigma notation`
 
-Sigma notationm $\sum_{}$, provides a concise and convenient way of writting long sums.
+Sigma notation $\sum_{}$, provides a concise and convenient way of writing long sums.
 The sum 1+2+3 .... +10+11+12
 can be written very concisely using the Greek letter $\sum_{}$ as
 
@@ -112,10 +126,12 @@ $$\sum_{k=1}^{k = 12} k$$
 
 The $\sum_{}$ stands for sum, in this case the sum of all the values of `k` as `k` ranges through all whole numbers from 1 to 12.
 
+---
+
 <h5>Arithmetic series</h5>
 
 If the terms of an arithmetic sequence are added, the result is known as an `arithmetic series`. For example, the arithmetic progression with five terms having first term 4 and common difference 5 is 4,9,14,19,24.
-It is easily verified that this has sum 70. If the series has a large number of terms then finding its sum by diretly adding all the terms will be laborious.
+It is easily verified that this has sum 70. If the series has a large number of terms then finding its sum by directly adding all the terms will be laborious.
 Fortunately there is a formula that enables us to find the sum of an arithmetic series.
 
 <h5 style="color:FireBrick;">Key points</h5>
@@ -123,6 +139,8 @@ Fortunately there is a formula that enables us to find the sum of an arithmetic 
 The sum of the first `n` terms of an arithmetic series with first term `a` and common difference `d` is denoted by S~n~ and give by:
 
 S~n~ = $\frac{n}{2}$ (2a + (n - 1) d)
+
+---
 
 <h5>Geometric series</h5>
 
@@ -135,6 +153,8 @@ If hte terms are added we obtain the geometric series 2+6+18+54+162
 The sum of the first `n` terms of a geometric seriews with first term `a` and common ratio `r` is denoted by S~n~ and give by
 
 S~n~ = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
+
+---
 
 <h5>Infinite geometric series</h5>
 
