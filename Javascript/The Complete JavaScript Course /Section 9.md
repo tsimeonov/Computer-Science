@@ -59,3 +59,10 @@ console.log(x, y, z);
 const [first, second] = restaurant.categories;
 console.log(first, second); // Italian Pizzeria
 ```
+
+- Extract the first and third elements from the array
+
+```js
+const [first, , second] = restaurant.categories;
+console.log(first, second); // Italian Vegetarian
+```
