@@ -103,4 +103,8 @@ console.log(starter, main);
 const nested = [2, 4, [5, 6]];
 const [i, , j] = nested;
 console.log(i, j); // 2 [ 5, 6 ]
+
+// Destruct the inner array further
+const [i, , [j, k]] = nested;
+console.log(i, j, k); // 2 5 6
 ```
