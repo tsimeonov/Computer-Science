@@ -18,6 +18,10 @@ const restaurant = {
   starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
   mainMenu: ["Pizza", "Pasta", "Risotto"],
 
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
+
   openingHours: {
     thu: {
       open: 12,
@@ -84,4 +88,11 @@ let [main, , secondary] = restaurant.categories;
 
 [main, secondary] = [secondary, main];
 console.log(main, secondary);
+```
+
+- Return multiple values from a function
+
+```js
+const [starter, main] = restaurant.order(2, 0);
+console.log(starter, main);
 ```
