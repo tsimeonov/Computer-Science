@@ -8,5 +8,12 @@ It forms the basis for the modular arithmetic, a system widely used in number th
 - Key Features of Modular Number Systems:
 
 1. Modulus:
+
    - The modulus, denoted as `n`, determines the range of numbers
    - The numbers is a modular system are typically considered from 0 to n-1.
+
+2. Congruence:
+   - Two numbers are considered equivalent if they have the same remainder when divided by `n`
+   - Written as:
+     a ≡ b (mod n)
+     This means a and b are in the same equivalence class in modulo n .
