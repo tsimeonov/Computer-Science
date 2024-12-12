@@ -20,3 +20,9 @@ It forms the basis for the modular arithmetic, a system widely used in number th
      This means a and b are in the same equivalence class in modulo n .
 
 3. Wrapping Around:
+
+Numbers in modular systems "wrap around" when they exceed n-1.
+For instance, in modulo 5:
+
+- 6 ≡ 1 (mod 5) because 6 divided by 5 leaves a remainder of 1.
+- Similarly, -1 ≡ 4 (mod 5) because -1 + 5 = 4
