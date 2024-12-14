@@ -28,3 +28,6 @@ For instance, in modulo 5:
 - Similarly, -1 ≡ 4 (mod 5) because -1 + 5 = 4
 
 4. Residue Classes:
+
+- The numbers in a modular system are partitioned into `n` residue classes.
+- Each residue class corresponds to one of the remainders 0,1,2 ... , n -1
