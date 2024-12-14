@@ -58,3 +58,9 @@ For example, 17 ≡ 5 (mod 12) because when you divide 17 and 5 by 12, they both
 One of the greatest strengths of modular arithmetic is that it lets us perform addition, subtraction, and multiplication in a manner consistent with how we manipulate equations.
 
 1. Addition:
+
+<center>a ≡  b (mod m) and c ≡  d (mod n),</center>
+
+then you can add these congruences term-by-term:
+
+<center>a + c ≡ b + d (mod m)</center>
