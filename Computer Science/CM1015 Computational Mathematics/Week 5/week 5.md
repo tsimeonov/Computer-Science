@@ -54,3 +54,5 @@ if m | (a-b), which means _m_ divides a - b. Another way of putting it is:
 For example, 17 ≡ 5 (mod 12) because when you divide 17 and 5 by 12, they both leave a remainder of 5. Also, 17 -5 = 12, which is divisible by 12.
 
 ##### Performing Operations with Congruences:
+
+One of the greatest strengths of modular arithmetic is that it lets us perform addition, subtraction, and multiplication in a manner consistent with how we manipulate equations.
