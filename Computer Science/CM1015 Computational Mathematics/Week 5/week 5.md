@@ -27,4 +27,4 @@ For instance, in modulo 5:
 - 6 ≡ 1 (mod 5) because 6 divided by 5 leaves a remainder of 1.
 - Similarly, -1 ≡ 4 (mod 5) because -1 + 5 = 4
 
-4. Wrapping Around:
+4. Residue Classes:
