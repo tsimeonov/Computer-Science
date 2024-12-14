@@ -39,3 +39,16 @@ For instance, in modulo 5:
 In number theory, the idea of congruence provides a systematic way to handle remainders when dividing integers. The notation and concept stem from the observation that two numbers share a consistent remainder upon division by a certain modulus.
 
 ##### Definition of congruence:
+
+Let _m_ be a positive integer. Two integers _a_ and _b_ are said to be congruent modulo _m_ if they leave the same remainder when divided by _m_.
+Formally, we write:
+
+<center>a ≡ b (mod m)</center>
+<br>
+if m | (a-b), which means _m_ divides a - b. Another way of putting it is:
+
+<br>
+
+<center>a = b + km</center> for some integer k.
+
+For example, 17 ≡ 5 (mod 12) because when you divide 17 and 5 by 12, they both leave a remainder of 5. Also, 17 -5 = 12, which is divisible by 12.
