@@ -74,5 +74,5 @@ Adding these givesL
 17 + 10 ≡ 5 + 10 (mod 12) ⟹ 27 ≡ 15 (mod 12)
 
 Now, 27 leaves a remainder of 3 when divided by 12, and 15 leaves a remainder of 3 when divided by 12.
-Indeed, 17-15 = 12, confirming the congruence:
+Indeed, 27-15 = 12, confirming the congruence:
 27 ≡ 15 ≡ 3 (mod 12)
