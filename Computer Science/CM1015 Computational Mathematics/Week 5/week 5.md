@@ -33,3 +33,5 @@ For instance, in modulo 5:
 - Each residue class corresponds to one of the remainders 0,1,2 ... , n -1
 
 ### Explain and perform operations with congruent numbers
+
+##### Understanding congruence:
