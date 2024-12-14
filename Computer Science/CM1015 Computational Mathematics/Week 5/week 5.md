@@ -37,3 +37,5 @@ For instance, in modulo 5:
 ##### Understanding congruence:
 
 In number theory, the idea of congruence provides a systematic way to handle remainders when dividing integers. The notation and concept stem from the observation that two numbers share a consistent remainder upon division by a certain modulus.
+
+##### Definition of congruence:
