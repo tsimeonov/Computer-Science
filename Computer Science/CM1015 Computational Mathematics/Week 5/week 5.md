@@ -1,6 +1,6 @@
 ## Learning Objectives:
 
-- Describe modular number systems
+### Describe modular number systems
 
 A `modular number system` is a mathematical framework where numbers wrap around after reaching a certain value, called the `modulus`.
 It forms the basis for the modular arithmetic, a system widely used in number theory, cryptography, computer science and many practical applications.
@@ -32,4 +32,4 @@ For instance, in modulo 5:
 - The numbers in a modular system are partitioned into `n` residue classes.
 - Each residue class corresponds to one of the remainders 0,1,2 ... , n -1
 
-- Explain and perform operations with congruent numbers
+### Explain and perform operations with congruent numbers
