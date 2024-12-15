@@ -100,3 +100,13 @@ That is :
 Since -5 ≡ 7 (mod 12) (adding 12 to -5 gives 7), this is consistent
 
 3. Multiplication:
+
+<center>a ≡ b (mod m) and c ≡ d (mod m,)</center>
+
+then:
+
+<center>ac ≡ bd (mod m)</center>
+
+Example: With 17 ≡ 5 (mod 12), multiply both sides by 3:
+
+17 _ 4 ≡ 5 _ 3 (mod 12) => 51 ≡ 15 (mod 12)
