@@ -110,3 +110,5 @@ then:
 Example: With 17 ≡ 5 (mod 12), multiply both sides by 3:
 
 17 x 3 ≡ 5 x 3 (mod 12) => 51 ≡ 15 (mod 12)
+
+### Explain the potential applications of modular numbers to computer science:
