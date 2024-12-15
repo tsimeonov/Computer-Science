@@ -98,3 +98,5 @@ That is :
 7 ≡ 5 (mod 12)
 
 Since -5 ≡ 7 (mod 12) (adding 12 to -5 gives 7), this is consistent
+
+3. Multiplication:
