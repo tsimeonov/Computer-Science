@@ -59,7 +59,7 @@ One of the greatest strengths of modular arithmetic is that it lets us perform a
 
 1. Addition:
 
-<center>a ≡  b (mod m) and c ≡  d (mod n),</center>
+<center>a ≡  b (mod m) and c ≡  d (mod m),</center>
 
 then you can add these congruences term-by-term:
 
@@ -69,10 +69,32 @@ Example: Suppose you know:
 
 17 ≡ 5 (mod 12) and 10 ≡ 10 (mod 12)
 
-Adding these givesL
+Adding these gives:
 
 17 + 10 ≡ 5 + 10 (mod 12) ⟹ 27 ≡ 15 (mod 12)
 
 Now, 27 leaves a remainder of 3 when divided by 12, and 15 leaves a remainder of 3 when divided by 12.
 Indeed, 27-15 = 12, confirming the congruence:
 27 ≡ 15 ≡ 3 (mod 12)
+
+2. Subtraction: Similar to addition, if
+
+<center>a ≡  b (mod m) and c ≡  d (mod m),</center>
+
+then:
+
+<center>a - c ≡  b - d (mod m),</center>
+
+Example: using the same congruence as above
+
+17 ≡ 5 (mod 12) and 10 ≡ 10 (mod 12)
+
+Subtracting gives:
+
+17 - 10 ≡ 5 - 10 (mod 12)
+
+That is :
+
+7 ≡ 5 (mod 12)
+
+Since -5 ≡ 7 (mod 12) (adding 12 to -5 gives 7), this is consistent
