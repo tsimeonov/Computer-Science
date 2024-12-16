@@ -63,3 +63,8 @@ const {
 } = restaurant;
 
 console.log(restaurantName, hours, tags);
+
+// Set a default values
+
+const { menu = [], starterMenu: starters = [] } = restaurant;
+console.log(menu, starters);

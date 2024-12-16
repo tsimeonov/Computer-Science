@@ -51,6 +51,8 @@ const restaurant = {
 };
 ```
 
+<br>
+
 <details>
   <summary>Destructing an object, rename the variables</summary>
 
@@ -69,6 +71,20 @@ console.log(restaurantName, hours, tags);
 //     fri: { open: 11, close: 23 },
 //     sat: { open: 0, close: 24 }
 //   } [ 'Italian', 'Pizzeria', 'Vegetarian', 'Organic' ]
+```
+
+</details>
+<br>
+
+<details>
+  <summary>Set a default value</summary>
+
+```javascript
+const { menu = [], starterMenu: starters = [] } = restaurant;
+console.log(menu, starters);
+
+// Output
+// [] [ 'Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad' ]
 ```
 
 </details>
