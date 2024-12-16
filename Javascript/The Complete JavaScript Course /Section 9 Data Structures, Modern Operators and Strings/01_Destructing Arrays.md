@@ -1,6 +1,4 @@
-## Section 9: Data Structures, Modern Operators and Strings
-
-### Destructing arrays
+## Destructing arrays
 
 Destructing arrays in JavaScript is a syntax that allows you to unpack values from arrays into distinct variables.
 
