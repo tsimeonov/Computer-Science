@@ -1,6 +1,3 @@
-## Destructing objects
-
-```js
 "use strict";
 
 // Data needed for a later exercise
@@ -34,4 +31,3 @@ const restaurant = {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
 };
-```
