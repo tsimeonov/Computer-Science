@@ -20,3 +20,7 @@ Sine, cosine and tangent are known as the `trigonometric ratios`
 \[
 \sin(\theta) = \frac{\text{side opposite to } \theta}{\text{hypotenuse}} = \frac{BC}{AC}
 \]
+
+\[
+\cos(\theta) = \frac{\text{side adjacent to } \theta}{\text{hypotenuse}} = \frac{AB}{AC}
+\]
