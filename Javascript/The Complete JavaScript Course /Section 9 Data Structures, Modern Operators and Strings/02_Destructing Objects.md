@@ -104,3 +104,19 @@ console.log(a, b);
 ```
 
 </details>
+
+<br>
+
+<details>
+  <summary>Nested Objects</summary>
+
+```javascript
+// Nested Objects
+const {
+  fri: { open, close },
+} = openingHours;
+console.log(open, close);
+// Output 11 23
+```
+
+</details>
