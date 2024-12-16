@@ -16,3 +16,7 @@ Finally, $\frac{BC}{AB}$ is the `tangent` of _θ_, written tan _θ_.
 Sine, cosine and tangent are known as the `trigonometric ratios`
 
 <h5 style="color:FireBrick;">Key points</h5>
+
+\[
+\sin(\theta) = \frac{\text{side opposite to } \theta}{\text{hypotenuse}} = \frac{BC}{AC}
+\]
