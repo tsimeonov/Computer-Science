@@ -52,11 +52,17 @@ const restaurant = {
 ```
 
 <details>
-  <summary>Destructing an object:</summary>
+  <summary>Destructing an object, rename the variables</summary>
 
 ```javascript
-const { name, openingHours, categories } = restaurant;
-console.log(name, openingHours, categories);
+const {
+  name: restaurantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+
+console.log(restaurantName, hours, tags);
+
 // Output
 // Classico Italiano {
 //     thu: { open: 12, close: 22 },

@@ -55,3 +55,11 @@ console.log(name, openingHours, categories);
 //     fri: { open: 11, close: 23 },
 //     sat: { open: 0, close: 24 }
 //   } [ 'Italian', 'Pizzeria', 'Vegetarian', 'Organic' ]
+
+const {
+  name: restaurantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+
+console.log(restaurantName, hours, tags);
