@@ -108,6 +108,7 @@ This series goes on forever!
 \[
 S = \frac{a}{1 - r}
 \]
+
 Where:
 
 - \( S \) = sum of the series.
