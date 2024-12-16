@@ -1,3 +1,3 @@
 ## Learning Objectives
 
-#### Describe how we represent the 2-dimensional plane
+#### The trigonometric ratios
