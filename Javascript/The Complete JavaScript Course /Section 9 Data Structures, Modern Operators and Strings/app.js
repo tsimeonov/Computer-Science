@@ -61,3 +61,9 @@ console.log(mainMenuCopy); // [ 'Pizza', 'Pasta', 'Risotto' ]
 const wholeMenu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 console.log(wholeMenu); // ['Focaccia','Bruschetta','Garlic Bread','Caprese Salad','Pizza','Pasta','Risotto']
+
+// Iterables: arrays, strings, maps, sets. NOT objects
+const str = "Todor";
+const letters = [...str, "", "S."];
+
+console.log(letters);

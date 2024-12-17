@@ -101,3 +101,18 @@ console.log(wholeMenu); // ['Focaccia','Bruschetta','Garlic Bread','Caprese Sala
 </details>
 
 <br>
+
+<details>
+  <summary>Use spread operator on a string</summary>
+
+```js
+// Iterables: arrays, strings, maps, sets. NOT objects
+const str = "Todor";
+const letters = [...str, "", "S."];
+
+console.log(letters); //['T',  'o', 'd','o',  'r', '','S.']
+```
+
+</details>
+
+<br>
