@@ -54,3 +54,6 @@ console.log(...newGoodArr);
 
 const newMenu = [...restaurant.mainMenu, "Gnocci"];
 console.log(newMenu); // [ 'Pizza', 'Pasta', 'Risotto', 'Gnocci' ]
+
+const mainMenuCopy = [...restaurant.mainMenu];
+console.log(mainMenuCopy); // [ 'Pizza', 'Pasta', 'Risotto' ]

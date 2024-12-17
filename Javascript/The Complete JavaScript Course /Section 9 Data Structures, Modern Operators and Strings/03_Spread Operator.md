@@ -76,3 +76,15 @@ console.log(newMenu); // [ 'Pizza', 'Pasta', 'Risotto', 'Gnocci' ]
 </details>
 
 <br>
+
+<details>
+  <summary>Create a copy of an array</summary>
+
+```js
+const mainMenuCopy = [...restaurant.mainMenu];
+console.log(mainMenuCopy); // [ 'Pizza', 'Pasta', 'Risotto' ]
+```
+
+</details>
+
+<br>
