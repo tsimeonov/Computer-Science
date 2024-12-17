@@ -142,3 +142,16 @@ restaurant.orderPasta(...ingredients);
 </details>
 
 <br>
+
+<details>
+  <summary>Add new properties to an object</summary>
+
+```js
+// Add new properties to an object
+const newRestaurant = { foundedIn: 1988, ...restaurant, founder: "Guiseppe" };
+console.log(newRestaurant);
+```
+
+</details>
+
+<br>
