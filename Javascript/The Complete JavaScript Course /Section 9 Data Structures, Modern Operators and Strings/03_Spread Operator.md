@@ -155,3 +155,17 @@ console.log(newRestaurant);
 </details>
 
 <br>
+
+<details>
+  <summary>Crate a copy of an object</summary>
+
+```js
+const restaurantCopy = { ...restaurant };
+restaurantCopy.name = "Ristorante Roma";
+console.log(restaurantCopy.name); // Ristorante Roma
+console.log(restaurant.name); //Classico Italiano
+```
+
+</details>
+
+<br>

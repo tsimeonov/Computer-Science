@@ -88,3 +88,8 @@ console.log(letters);
 // Add new properties to an object
 const newRestaurant = { foundedIn: 1988, ...restaurant, founder: "Guiseppe" };
 console.log(newRestaurant);
+
+const restaurantCopy = { ...restaurant };
+restaurantCopy.name = "Ristorante Roma";
+console.log(restaurantCopy.name);
+console.log(restaurant.name);
