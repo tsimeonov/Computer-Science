@@ -88,3 +88,16 @@ console.log(mainMenuCopy); // [ 'Pizza', 'Pasta', 'Risotto' ]
 </details>
 
 <br>
+
+<details>
+  <summary>Join two arrays</summary>
+
+```js
+const wholeMenu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+
+console.log(wholeMenu); // ['Focaccia','Bruschetta','Garlic Bread','Caprese Salad','Pizza','Pasta','Risotto']
+```
+
+</details>
+
+<br>
