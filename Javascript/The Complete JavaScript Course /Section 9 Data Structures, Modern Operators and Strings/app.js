@@ -78,3 +78,9 @@ const ingredients = [
   prompt("Ingredient 3?"),
 ];
 console.log(ingredients); // (3) ['a', 'b', 'c']
+
+restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
+// Output Here is your delicious pasta with a, b, c
+
+restaurant.orderPasta(...ingredients);
+// Output Here is your delicious pasta with a, b, c
