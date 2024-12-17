@@ -53,4 +53,4 @@ console.log(newGoodArr);
 console.log(...newGoodArr);
 
 const newMenu = [...restaurant.mainMenu, "Gnocci"];
-console.log(newMenu);
+console.log(newMenu); // [ 'Pizza', 'Pasta', 'Risotto', 'Gnocci' ]

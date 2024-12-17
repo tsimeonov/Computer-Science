@@ -64,3 +64,15 @@ console.log(newGoodArr); // [ 1, 2, 7, 8, 9 ]
 </details>
 
 <br>
+
+<details>
+  <summary>Adding a new value to restaurant.mainMenu</summary>
+
+```js
+const newMenu = [...restaurant.mainMenu, "Gnocci"];
+console.log(newMenu); // [ 'Pizza', 'Pasta', 'Risotto', 'Gnocci' ]
+```
+
+</details>
+
+<br>
