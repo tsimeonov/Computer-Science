@@ -72,4 +72,9 @@ const letters = [...str, "", "S."];
 
 console.log(letters);
 
-const ingredients = [prompt("Let's make pasta! Ingredient 1?")];
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1?"),
+  prompt("Ingredient 2?"),
+  prompt("Ingredient 3?"),
+];
+console.log(ingredients); // (3) ['a', 'b', 'c']
