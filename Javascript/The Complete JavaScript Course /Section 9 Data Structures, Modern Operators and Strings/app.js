@@ -46,3 +46,10 @@ const restaurant = {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
 };
+
+const arr = [7, 8, 9];
+const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
+console.log(badNewArr); // [ 1, 2, 7, 8, 9 ]
+
+const newGoodArr = [1, 2, ...arr];
+console.log(newGoodArr);
