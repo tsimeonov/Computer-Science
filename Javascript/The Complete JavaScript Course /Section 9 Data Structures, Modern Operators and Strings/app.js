@@ -27,23 +27,19 @@ const restaurant = {
     },
   },
 
-  openingHours: {
-    thu: {
-      open: 12,
-      close: 22,
-    },
-    fri: {
-      open: 11,
-      close: 23,
-    },
-    sat: {
-      open: 0, // Open 24 hours
-      close: 24,
-    },
-  },
-
   order: function (starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
+
+  orderDelivery: function ({
+    startIndex = 1,
+    mainIndex = 0,
+    time = "20.00",
+    address,
+  }) {
+    console.log(
+      `Order received! ${this.starterMenu[starterIndex]} and ${this.mainIndex[mainIndex]} will be delivered to ${address} at ${time}`
+    );
   },
 };
 
@@ -53,3 +49,8 @@ console.log(badNewArr); // [ 1, 2, 7, 8, 9 ]
 
 const newGoodArr = [1, 2, ...arr];
 console.log(newGoodArr);
+
+console.log(...newGoodArr);
+
+const newMenu = [...restaurant.mainMenu, "Gnocci"];
+console.log(newMenu);
