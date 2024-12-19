@@ -47,19 +47,21 @@ const restaurant = {
   },
 };
 
-// Functions
+console.log("-------OR------");
+// Logical operators can use ANY data type, return ANY data type,
+// short-circuiting
+console.log(3 || "Todor"); //3
+console.log("" || "Todor"); // Todor
+console.log(true || 0); // 0
+console.log(undefined || null); // null
 
-const add = function (...numbers) {
-  let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-  }
-  console.log(sum);
-};
+console.log(undefined || 0 || "" || "Hello" || 23 || null);
 
-add(2, 3); // 5
-add(5, 3, 7, 2); // 17
-add(3, 4, 5, 6, 7, 8); // 33
+// restaurant.numGuests = 23;
+const guest1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guest1);
 
-const x = [3, 5, 7];
-add(...x);
+const guest2 = restaurant.numGuests || 10;
+console.log(guest2);
+
+console.log("-------AND------");
