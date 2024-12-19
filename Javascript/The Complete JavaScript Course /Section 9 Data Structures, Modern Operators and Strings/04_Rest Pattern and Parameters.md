@@ -10,3 +10,16 @@ console.log(a); // 1
 console.log(b); // 2
 console.log(rest); // [ 3, 4, 5 ]
 ```
+
+**Rest Parameter**
+
+Rest parameters allow a function to accept an indefinite number of arguments as an array.
+
+```js
+function sum(...numbers) {
+  return numbers.reduce((acc, curr) => acc + curr, 0);
+}
+
+console.log(sum(1, 2, 3)); // 6
+console.log(sum(4, 5, 6, 7)); // 22
+```

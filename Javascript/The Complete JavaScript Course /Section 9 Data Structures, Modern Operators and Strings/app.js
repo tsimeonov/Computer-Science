@@ -47,54 +47,9 @@ const restaurant = {
   },
 };
 
-const arr = [7, 8, 9];
-const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
-console.log(badNewArr); // [ 1, 2, 7, 8, 9 ]
+function sum(...numbers) {
+  return numbers.reduce((acc, curr) => acc + curr, 0);
+}
 
-const newGoodArr = [1, 2, ...arr];
-console.log(newGoodArr);
-
-console.log(...newGoodArr);
-
-const newMenu = [...restaurant.mainMenu, "Gnocci"];
-console.log(newMenu); // [ 'Pizza', 'Pasta', 'Risotto', 'Gnocci' ]
-
-const mainMenuCopy = [...restaurant.mainMenu];
-console.log(mainMenuCopy); // [ 'Pizza', 'Pasta', 'Risotto' ]
-
-const wholeMenu = [...restaurant.starterMenu, ...restaurant.mainMenu];
-
-console.log(wholeMenu); // ['Focaccia','Bruschetta','Garlic Bread','Caprese Salad','Pizza','Pasta','Risotto']
-
-// Iterables: arrays, strings, maps, sets. NOT objects
-const str = "Todor";
-const letters = [...str, "", "S."];
-
-console.log(letters);
-
-// const ingredients = [
-//   prompt("Let's make pasta! Ingredient 1?"),
-//   prompt("Ingredient 2?"),
-//   prompt("Ingredient 3?"),
-// ];
-// console.log(ingredients); // (3) ['a', 'b', 'c']
-
-// restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
-// // Output Here is your delicious pasta with a, b, c
-
-// restaurant.orderPasta(...ingredients);
-// // Output Here is your delicious pasta with a, b, c
-
-// Add new properties to an object
-const newRestaurant = { foundedIn: 1988, ...restaurant, founder: "Guiseppe" };
-console.log(newRestaurant);
-
-const restaurantCopy = { ...restaurant };
-restaurantCopy.name = "Ristorante Roma";
-console.log(restaurantCopy.name);
-console.log(restaurant.name);
-
-const [a, b, ...rest] = [1, 2, 3, 4, 5];
-console.log(a); // 1
-console.log(b); // 2
-console.log(rest); // [ 3, 4, 5 ]
+console.log(sum(1, 2, 3)); // 6
+console.log(sum(4, 5, 6, 7)); // 22
