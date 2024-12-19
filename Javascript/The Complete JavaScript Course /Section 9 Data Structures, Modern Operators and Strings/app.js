@@ -65,3 +65,13 @@ const guest2 = restaurant.numGuests || 10;
 console.log(guest2);
 
 console.log("-------AND------");
+console.log(0 && "Todor");
+console.log(7 && "Todor");
+
+console.log("Hello" && 23 && null && "Todor");
+
+if (restaurant.orderPizza) {
+  restaurant.orderPizza("mushrooms", "spinach");
+}
+
+restaurant.orderPizza && restaurant;

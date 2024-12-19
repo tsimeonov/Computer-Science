@@ -19,3 +19,12 @@ console.log(guest1);
 const guest2 = restaurant.numGuests || 10;
 console.log(guest2);
 ```
+
+Short Circuiting the AND operator
+
+```js
+console.log(0 && "Todor");
+console.log(7 && "Todor");
+
+console.log("Hello" && 23 && null && "Todor");
+```
