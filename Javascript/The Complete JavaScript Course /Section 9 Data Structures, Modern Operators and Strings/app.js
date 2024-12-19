@@ -47,24 +47,16 @@ const restaurant = {
   },
 };
 
-function sum(...numbers) {
-  return numbers.reduce((acc, curr) => acc + curr, 0);
-}
+// Functions
 
-console.log(sum(1, 2, 3)); // 6
-console.log(sum(4, 5, 6, 7)); // 22
+const add = function (...numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  console.log(sum);
+};
 
-// SPREAD, because on RIGHT side of = (assignment operator)
-
-const arr = [1, 2, ...[3, 4]];
-
-// REST, because on LEFT side of = (assignment operator)
-const [a, b, ...others] = [1, 2, 3, 4, 5];
-console.log(a, b, others); // 1 2 [3, 4, 5]
-
-const [pizza, , risotto, ...otherFood] = [
-  ...restaurant.mainMenu,
-  ...restaurant.starterMenu,
-];
-
-console.log(pizza, risotto, otherFood); // Pizza Risotto ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"]
+add(2, 3); // 5
+add(5, 3, 7, 2); // 17
+add(3, 4, 5, 6, 7, 8); // 33
