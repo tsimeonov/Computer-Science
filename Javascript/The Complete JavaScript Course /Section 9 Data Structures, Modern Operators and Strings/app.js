@@ -60,3 +60,6 @@ const add = function (...numbers) {
 add(2, 3); // 5
 add(5, 3, 7, 2); // 17
 add(3, 4, 5, 6, 7, 8); // 33
+
+const x = [3, 5, 7];
+add(...x);
