@@ -53,3 +53,18 @@ function sum(...numbers) {
 
 console.log(sum(1, 2, 3)); // 6
 console.log(sum(4, 5, 6, 7)); // 22
+
+// SPREAD, because on RIGHT side of = (assignment operator)
+
+const arr = [1, 2, ...[3, 4]];
+
+// REST, because on LEFT side of = (assignment operator)
+const [a, b, ...others] = [1, 2, 3, 4, 5];
+console.log(a, b, others); // 1 2 [3, 4, 5]
+
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu,
+];
+
+console.log(pizza, risotto, otherFood); // Pizza Risotto ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"]
