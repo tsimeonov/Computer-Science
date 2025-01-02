@@ -218,3 +218,28 @@ The answer is 7. The same as question 5.
 </details>
 
 <br>
+
+13. What is the equivalent if 58 mod 12?
+
+<details>
+  <summary>Solution</summary>
+
+- 10
+
+1. Divide 58 by 12 = 4
+2. The remainder is 10.
+
+</details>
+
+<br>
+
+14. Find the equivalent of 39 mod 12.
+
+<details>
+  <summary>Solution</summary>
+
+3
+
+</details>
+
+<br>
