@@ -180,3 +180,19 @@ When 15 is divided by 2 = 7 with a remainder of 1
 </details>
 
 <br>
+
+10. Which of the following statements is true for modular arithmetic?
+
+- Modular arithmetic only works with positive numbers
+- Modular arithmetics is used only in cryptography
+- Modular arithmetics is the same as regular arithmetic
+- In modular arithmetics, numbers wrap around after reaching the base value
+
+<details>
+  <summary>Solution</summary>
+
+- In modular arithmetics, numbers wrap around after reaching the base value
+
+</details>
+
+<br>
