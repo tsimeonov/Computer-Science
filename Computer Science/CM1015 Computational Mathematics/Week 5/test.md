@@ -72,3 +72,27 @@ The number 12 would wrap around to 0.
 </details>
 
 <br>
+
+5. What is the equivalent of -17 mod 12?
+
+- -7
+- -5
+- 5
+- 7
+
+<details>
+  <summary>Solution</summary>
+
+- 7
+
+To calculate -17 mod 12:
+
+1. Divide -17 by 12: -17 / 12 = -1 (quotient) with a remainder of -5.
+2. In modular arithmetic, the remainder must be positive, so add 12 to -5:
+   -5 + 12 = 7
+
+Thus, -17 mod 12 = 7
+
+</details>
+
+<br>
