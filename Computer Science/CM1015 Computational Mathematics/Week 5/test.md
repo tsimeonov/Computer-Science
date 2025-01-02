@@ -143,3 +143,22 @@ _a - b = nk_ for some integer n
 </details>
 
 <br>
+
+8. What s the equivalent of 58 mod 12?
+
+- 4
+- 8
+- 6
+- 10
+
+<details>
+  <summary>Solution</summary>
+
+- 10
+
+1. Divide 58 by 12 = 4
+2. The remainder is 10.
+
+</details>
+
+<br>
