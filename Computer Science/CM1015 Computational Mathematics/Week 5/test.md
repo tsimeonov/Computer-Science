@@ -34,3 +34,22 @@ For example, in mod 5, numbers cycle back to 0 after reaching 4.
 </details>
 
 <br>
+
+3. What is the equivalent of 34 mod 12?
+
+- 10
+- 22
+- 12
+- 2
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is 10.
+To calculate 34 mod 12, divide 34 by 12:
+34 / 12 = 2 (quotient) with remainder of 10.
+So, 34 mod 12 = 10
+
+</details>
+
+<br>
