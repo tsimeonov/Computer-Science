@@ -196,3 +196,14 @@ When 15 is divided by 2 = 7 with a remainder of 1
 </details>
 
 <br>
+
+11. Find the equivalent of 23 mod 12.
+
+<details>
+  <summary>Solution</summary>
+
+Divide 23 by 12 = 1, remainder 11
+
+</details>
+
+<br>
