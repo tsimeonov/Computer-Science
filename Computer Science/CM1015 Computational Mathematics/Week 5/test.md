@@ -96,3 +96,26 @@ Thus, -17 mod 12 = 7
 </details>
 
 <br>
+
+6. If 27 is equivalent to 3 in mod 12, what is 39 equivalent to in mod 12?
+
+- 9
+- 27
+- 3
+- 15
+
+<details>
+  <summary>Solution</summary>
+
+- 3
+
+To calculate 39 mod 12:
+
+1. Divide 39 by 12 = 3 (quotient) with a remainder of 3.
+2. So, 39 mod 12 = 3
+
+Thus, 39 is equivalent to 3 in mod 12
+
+</details>
+
+<br>
