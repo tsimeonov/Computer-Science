@@ -162,3 +162,21 @@ _a - b = nk_ for some integer n
 </details>
 
 <br>
+
+9. What is the remainder when 15 is divided by 2 in modular arithmetic?
+
+- 1
+- 3
+- 2
+- 0
+
+<details>
+  <summary>Solution</summary>
+
+- 1
+
+When 15 is divided by 2 = 7 with a remainder of 1
+
+</details>
+
+<br>
