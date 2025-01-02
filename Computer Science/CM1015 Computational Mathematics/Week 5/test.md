@@ -243,3 +243,16 @@ The answer is 7. The same as question 5.
 </details>
 
 <br>
+
+15. Calculate the equivalent of -39 mod 12.
+
+<details>
+  <summary>Solution</summary>
+
+1. Divide -39 by 12 = 04 with a remainder of -3
+2. The remainder must be positive.
+   -3 + 12 = 9
+
+</details>
+
+<br>
