@@ -53,3 +53,22 @@ So, 34 mod 12 = 10
 </details>
 
 <br>
+
+4. Which of the following is true about modular arithmetic with a base of 12?
+
+- It includes numbers from 0 to 12.
+- It includes numbers from 0 to 11.
+- It includes numbers from 1 to 11.
+- It includes numbers from 1 to 12.
+
+<details>
+  <summary>Solution</summary>
+
+- It includes numbers from 0 to 11.
+
+In modular arithmetic with a base of 12, the numbers range from 0 to 11, as the modulus defines the numbers of unique remainders (starting from 0).
+The number 12 would wrap around to 0.
+
+</details>
+
+<br>
