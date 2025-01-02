@@ -119,3 +119,27 @@ Thus, 39 is equivalent to 3 in mod 12
 </details>
 
 <br>
+
+7. In modular arithmetic, two numbers _a_ nd _b_ are equivalent mod _k_ if:
+
+- _a/b_ is a multiple of _k_
+- _a-b_ is a multiple of _k_
+- _a\*b_ is a multiple of _k_
+- _a+b_ is a multiple of _k_
+
+<details>
+  <summary>Solution</summary>
+
+- _a-b_ is a multiple of _k_
+
+In modular arithmetic, two numbers _a_ and _b_ are equivalent mod _k_ if their difference _a - b_ is divisible by _k_. This is written as:
+
+a≡b (mod k)
+
+which means:
+
+_a - b = nk_ for some integer n
+
+</details>
+
+<br>
