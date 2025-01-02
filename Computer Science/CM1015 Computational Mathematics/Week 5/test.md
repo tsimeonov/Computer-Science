@@ -207,3 +207,14 @@ Divide 23 by 12 = 1, remainder 11
 </details>
 
 <br>
+
+12. Calculate the equivalent of -17 mod 12.
+
+<details>
+  <summary>Solution</summary>
+
+The answer is 7. The same as question 5.
+
+</details>
+
+<br>
