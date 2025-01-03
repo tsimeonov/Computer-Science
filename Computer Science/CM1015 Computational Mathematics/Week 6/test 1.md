@@ -116,3 +116,19 @@ x = 19 - 7 = 12
 </details>
 
 <br>
+
+6. What is the result 14 x 28 mod 12?
+
+- 2
+- 4
+- 6
+- 8
+
+<details>
+  <summary>Solution</summary>
+
+The correct result is 8
+
+</details>
+
+<br>
