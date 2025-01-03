@@ -221,3 +221,14 @@ x = 12 - 5 = 7
 </details>
 
 <br>
+
+11. **Calculate 14 + 28 mod 12**
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is 6
+
+</details>
+
+<br>
