@@ -90,3 +90,29 @@ So, 28 mod 12 = 4
 </details>
 
 <br>
+
+5. In modular arithmetic, what is the additive inverse of 7 mod 19?
+
+- -7
+- 12
+- 6
+- 5
+
+<details>
+  <summary>Solution</summary>
+
+To find the additive inverse of 7 mod 19, we need a number x such that:
+
+7+x≡0(mod19)
+
+1. Solve for x
+
+x = 19 - 7 = 12
+
+2. Verify
+
+7 + 12 = 19 ≡ 0 (mod19).
+
+</details>
+
+<br>
