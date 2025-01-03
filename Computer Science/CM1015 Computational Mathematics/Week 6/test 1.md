@@ -161,3 +161,19 @@ Therefore, the multiplicative inverse of 2 mod 7 is 4
 <br>
 
 8. **What is the identity element for addition in mod 12 arithmetic?**
+
+- 0
+- 1
+- 12
+- 6
+
+<details>
+  <summary>Solution</summary>
+
+The identity element for addition in modular arithmetic is the nu,ber that, when added to any other number, leaves the other number unchanged.
+
+In mod 12 arithmetic, the identity element for addition is: 0
+
+</details>
+
+<br>
