@@ -193,3 +193,31 @@ The correct answer is 1
 </details>
 
 <br>
+
+10. **What is the additive inverse of 5 mod 12?**
+
+- 12
+- 6
+- -5
+- 7
+
+<details>
+  <summary>Solution</summary>
+
+To find the additive inverse of 5 mod 12, we need a number x such that:
+
+5 + x ≡ 0 (mod 12)
+
+1. Solve for x
+
+The additive inverse can be calculated as:
+
+x = 12 - 5 = 7
+
+2. Verify
+
+5 + 7 = 12 ≡ 0 (mod 12).
+
+</details>
+
+<br>
