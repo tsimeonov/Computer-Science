@@ -132,3 +132,25 @@ The correct result is 8
 </details>
 
 <br>
+
+7. What is the multiplicative inverse of 2 mod 7?
+
+<details>
+  <summary>Solution</summary>
+
+To find the multiplicative of 2 mod 7, we need a number x such that:
+
+2 × x ≡ 1 (mod7)
+
+Step 1: Test possible values for x
+
+- 2 × 1 = 2 mod 7 → Not 1
+- 2 × 2 = 4 mod 7 → Not 1
+- 2 × 3 = 6 mod 7 → Not 1
+- 2 × 4 = 8 ≡ 1 (mod 7)
+
+Therefore, the multiplicative inverse of 2 mod 7 is 4
+
+</details>
+
+<br>
