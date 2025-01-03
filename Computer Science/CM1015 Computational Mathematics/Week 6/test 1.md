@@ -91,7 +91,7 @@ So, 28 mod 12 = 4
 
 <br>
 
-5. In modular arithmetic, what is the additive inverse of 7 mod 19?
+5. **In modular arithmetic, what is the additive inverse of 7 mod 19?**
 
 - -7
 - 12
