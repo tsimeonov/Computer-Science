@@ -135,6 +135,11 @@ The correct result is 8
 
 7. **What is the multiplicative inverse of 2 mod 7?**
 
+- 5
+- 3
+- 2
+- 4
+
 <details>
   <summary>Solution</summary>
 
@@ -154,3 +159,5 @@ Therefore, the multiplicative inverse of 2 mod 7 is 4
 </details>
 
 <br>
+
+8. **What is the identity element for addition in mod 12 arithmetic?**
