@@ -243,3 +243,14 @@ The correct answer is 2
 </details>
 
 <br>
+
+13. **Calculate 14 x 28 mod 12**
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is 8
+
+</details>
+
+<br>
