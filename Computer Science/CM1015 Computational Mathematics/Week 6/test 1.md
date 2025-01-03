@@ -37,3 +37,24 @@ So, 28 mod 12 = 4
 </details>
 
 <br>
+
+4. What is 14 - 28 mod 12?
+
+- 0
+- 2
+- -2
+- 10
+
+<details>
+  <summary>Solution</summary>
+
+1. Subtract the numbers
+   14 - 28 = -14
+
+2. Compute -14 mod 12
+
+-14 / 12 = -2 with a remainder of 10
+
+</details>
+
+<br>
