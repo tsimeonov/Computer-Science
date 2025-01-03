@@ -177,3 +177,19 @@ In mod 12 arithmetic, the identity element for addition is: 0
 </details>
 
 <br>
+
+9. **What is the equivalent of 37 mod 12?**
+
+- 3
+- 1
+- 7
+- 5
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is 1
+
+</details>
+
+<br>
