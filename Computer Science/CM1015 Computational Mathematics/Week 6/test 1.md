@@ -2,6 +2,11 @@
 
 1. What is 14 + 28 mod 12?
 
+- 0
+- 6
+- 4
+- 2
+
 <details>
   <summary>Solution</summary>
 
@@ -16,6 +21,11 @@ Thus, 14 + 28 mod 12 = 6
 <br>
 
 2. Which of the following is equivalent to 14 mod 12 + 28 mod 12?
+
+- 6
+- 14
+- 2
+- 4
 
 <details>
   <summary>Solution</summary>
@@ -33,6 +43,28 @@ So, 28 mod 12 = 4
 3. Add the results
 
 2 + 4 = 6
+
+</details>
+
+<br>
+
+3. What is the result of 28 - 14 mod 12?
+
+- 2
+- 4
+- 0
+- 14
+
+<details>
+  <summary>Solution</summary>
+
+1. Subtract the numbers
+
+28 - 14 = 14
+
+2. Divide 14 / 12
+
+14 / 12 = 1 with a remainder of 2
 
 </details>
 
