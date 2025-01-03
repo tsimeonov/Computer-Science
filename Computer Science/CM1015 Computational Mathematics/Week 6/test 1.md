@@ -1,6 +1,6 @@
 ### Operations and congruent numbers Test
 
-1. What is 14 + 28 mod 12?
+1. **What is 14 + 28 mod 12?**
 
 - 0
 - 6
@@ -20,7 +20,7 @@ Thus, 14 + 28 mod 12 = 6
 
 <br>
 
-2. Which of the following is equivalent to 14 mod 12 + 28 mod 12?
+2. **Which of the following is equivalent to 14 mod 12 + 28 mod 12?**
 
 - 6
 - 14
@@ -48,7 +48,7 @@ So, 28 mod 12 = 4
 
 <br>
 
-3. What is the result of 28 - 14 mod 12?
+3. **What is the result of 28 - 14 mod 12?**
 
 - 2
 - 4
@@ -70,7 +70,7 @@ So, 28 mod 12 = 4
 
 <br>
 
-4. What is 14 - 28 mod 12?
+4. **What is 14 - 28 mod 12?**
 
 - 0
 - 2
