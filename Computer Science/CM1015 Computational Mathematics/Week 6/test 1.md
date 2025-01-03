@@ -232,3 +232,14 @@ The correct answer is 6
 </details>
 
 <br>
+
+12. **Find the result 28 - 14 mod 12**
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is 2
+
+</details>
+
+<br>
