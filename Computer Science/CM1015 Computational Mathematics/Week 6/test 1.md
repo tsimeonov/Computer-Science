@@ -117,7 +117,7 @@ x = 19 - 7 = 12
 
 <br>
 
-6. What is the result 14 x 28 mod 12?
+6. **What is the result 14 x 28 mod 12?**
 
 - 2
 - 4
@@ -133,7 +133,7 @@ The correct result is 8
 
 <br>
 
-7. What is the multiplicative inverse of 2 mod 7?
+7. **What is the multiplicative inverse of 2 mod 7?**
 
 <details>
   <summary>Solution</summary>
