@@ -160,3 +160,15 @@ Final Answer: The smallest digit to be added is **3**.
 </details>
 
 <br>
+
+8. **Find 118 in modulo 218**
+
+<details>
+  <summary>Solution</summary>
+
+The modulo operation finds the remainder when dividing 118 by 218.
+Since 118 is less than 218, the remainder is simply 118
+
+</details>
+
+<br>
