@@ -219,3 +219,49 @@ Final Answer:
 </details>
 
 <br>
+
+10. **Find the smallest non-negative number congruent to -367 (mod 36)**
+
+- ≡ 7 + 36 ≡ 43 (mod 36)
+- ≡ 7 + 36 ≡ 29 (mod 36)
+- ≡ -7 - 36 ≡ 43 (mod 36)
+- None of the above
+
+<details>
+  <summary>Solution</summary>
+
+To find the smallest non-negative number congruent to \(-367 \mod 36\), we need to compute the remainder when \(-367\) is divided by 36.
+
+Step 1: Apply the modulo operation
+The general formula for the remainder when a negative number is divided:
+
+\[
+a \mod m = m - (-a \mod m)
+\]
+
+Step 2: Divide -367 by 36
+\[
+-367 \div 36 \approx -10.19
+\]
+
+Taking the floor, \(-11 \times 36 = -396\).
+Now, calculate the remainder:
+
+\[
+-367 - (-396) = 29
+\]
+
+Step 3: Verify
+The remainder is positive and less than 36, so the smallest non-negative number congruent to \(-367 \mod 36\) is indeed **29**.
+
+Step 4: Check the options:
+
+- **≡ 7 + 36 ≡ 43 (mod 36)** → Incorrect
+- **≡ 7 + 36 ≡ 29 (mod 36)** → Correct ✅
+- **≡ -7 - 36 ≡ 43 (mod 36)** → Incorrect
+
+Final Answer: **29**.
+
+</details>
+
+<br>
