@@ -107,3 +107,56 @@ The correct answer is 3
 </details>
 
 <br>
+
+7. **Find the smallest digit to be added to make 46 divisible by 7**
+
+<details>
+  <summary>Solution</summary>
+
+To find the smallest digit that needs to be added to 46 to make it divisible by 7, we need to solve:
+
+\[
+(46 + x) \mod 7 = 0
+\]
+
+where \(x\) is a non-negative integer (digit between 0 and 9).
+
+Step 1: Check the remainder of 46 modulo 7
+
+First, calculate:
+
+\[
+46 \div 7 = 6 \text{ remainder } 4
+\]
+
+So, \(46 \mod 7 = 4\).
+
+Step 2: Find the smallest \(x\)
+
+We need to make the remainder zero. Since the current remainder is 4, the smallest \(x\) that would make the sum divisible by 7 is:
+
+\[
+7 - 4 = 3
+\]
+
+Step 3: Verify
+
+Adding 3 to 46 gives:
+
+\[
+46 + 3 = 49
+\]
+
+And since:
+
+\[
+49 \div 7 = 7 \text{ remainder } 0
+\]
+
+49 is indeed divisible by 7.
+
+Final Answer: The smallest digit to be added is **3**.
+
+</details>
+
+<br>
