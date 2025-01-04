@@ -266,7 +266,7 @@ The correct answer is 8
 
 -14 + 12 x 2 = 10
 
-Therefore, -14 mod 12 =
+Therefore, -14 mod 12 = 10
 
 </details>
 
