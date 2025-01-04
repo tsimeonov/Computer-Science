@@ -256,3 +256,18 @@ The correct answer is 8
 <br>
 
 14. **Find the equivalent of -14 mod 12**
+
+<details>
+  <summary>Solution</summary>
+
+1. -14 / 12 = -2 remainder 10
+
+2. Adjust the remainder to be positive
+
+-14 + 12 x 2 = 10
+
+Therefore, -14 mod 12 =
+
+</details>
+
+<br>
