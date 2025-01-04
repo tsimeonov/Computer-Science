@@ -73,3 +73,26 @@ The answer is 115.
 </details>
 
 <br>
+
+5. **Calculate the multiplicative inverse of 1 in modulo 11**
+
+<details>
+  <summary>Solution</summary>
+
+The multiplicative inverse of a number a modulo m is a number x such that:
+
+a \* x ≡ 1 (mod m)
+
+For a = 1 and m = 11
+
+1 \* x ≡ 1 (mod 11)
+
+Clearly, x = 1 since multiplying 1 by itself gives 1:
+
+1 \* 1 = 1 ≡ 1 (mod 11)
+
+Therefore, the multiplicative inverse of 1 in modulo 11 is 1
+
+</details>
+
+<br>
