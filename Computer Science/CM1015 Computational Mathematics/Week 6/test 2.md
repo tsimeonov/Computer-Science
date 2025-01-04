@@ -96,3 +96,14 @@ Therefore, the multiplicative inverse of 1 in modulo 11 is 1
 </details>
 
 <br>
+
+6. **Calculate the multiplicative inverse of 4 in modulo 11**
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is 3
+
+</details>
+
+<br>
