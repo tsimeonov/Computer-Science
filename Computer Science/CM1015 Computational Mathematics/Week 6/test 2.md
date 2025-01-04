@@ -62,3 +62,14 @@ So, C = 5
 </details>
 
 <br>
+
+4. **Calculate 752 x 71, give your answer in modulo 129**
+
+<details>
+  <summary>Solution</summary>
+
+The answer is 115.
+
+</details>
+
+<br>
