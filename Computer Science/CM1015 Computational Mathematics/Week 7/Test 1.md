@@ -47,3 +47,19 @@ Hypotenuse
 </details>
 
 </br>
+
+4. **What is the measure of a right angle in degrees?**
+
+- 90 deg
+- 360 deg
+- 180 deg
+- 45 deg
+
+<details>
+  <summary>Solution</summary>
+
+90 deg
+
+</details>
+
+</br>
