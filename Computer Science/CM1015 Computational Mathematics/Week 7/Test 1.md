@@ -111,3 +111,19 @@ Opposite over hypotenuse
 </details>
 
 </br>
+
+8. **Which triangle has two sides of equal length?**
+
+- Scalene triangle
+- Right-angled triangle
+- Isosceles triangle
+- B: Equilateral triangle
+
+<details>
+  <summary>Solution</summary>
+
+Isosceles triangle
+
+</details>
+
+</br>
