@@ -63,3 +63,19 @@ Hypotenuse
 </details>
 
 </br>
+
+5. **In a right-angled triangle, what is the sine of an angle defined as?**
+
+- Hypotenuse over opposite
+- Adjacent over hypotenuse
+- Adjacent over opposite
+- Opposite over hypotenuse
+
+<details>
+  <summary>Solution</summary>
+
+Opposite over hypotenuse
+
+</details>
+
+</br>
