@@ -143,3 +143,19 @@ Isosceles triangle
 </details>
 
 </br>
+
+10. **What is the sum of the interior angles of any triangle?**
+
+- 270 deg
+- 90 deg
+- 360 deg
+- 180 deg
+
+<details>
+  <summary>Solution</summary>
+
+180 deg
+
+</details>
+
+</br>
