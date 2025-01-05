@@ -47,10 +47,32 @@ const restaurant = {
   },
 };
 
-// restaurant.numGuests = 0;
-const guests = restaurant.numGuests || 10;
-console.log(guests); // 10
+const rest1 = {
+  name: "Capri",
+  // numGuest: 20,
+  numGuest: 0,
+};
 
-// NullishL null and undefined (NOT 0 or "")
-const guestCorrect = restaurant.numGuests ?? 10;
-console.log(guestCorrect); // 10
+const rest2 = {
+  name: "La piazza",
+  owner: "Giovanni Rossi",
+};
+
+// rest1.numGuest = rest1.numGuest || 10;
+// rest1.numGuest ||= 10;
+// Nullish assignment operator
+rest1.numGuest ??= 10;
+
+// rest2.numGuest = rest2.numGuest || 10;
+// rest2.numGuest ||= 10;
+// Nullish assignment operator
+rest2.numGuest ??= 10;
+
+// AND assignment operator
+// rest1.owner = rest1.owner && "<ANONYMOUS>";
+// rest2.owner = rest2.owner && "<ANONYMOUS>";
+rest1.owner &&= "<ANONYMOUS>";
+rest2.owner &&= "<ANONYMOUS>";
+
+console.log(rest1);
+console.log(rest2);
