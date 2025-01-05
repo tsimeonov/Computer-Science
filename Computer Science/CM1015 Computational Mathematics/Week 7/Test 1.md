@@ -95,3 +95,19 @@ Opposite over hypotenuse
 </details>
 
 </br>
+
+7. **What is the tangent of 45 deg?**
+
+- Undefined
+- -1
+- 1
+- 0
+
+<details>
+  <summary>Solution</summary>
+
+-1
+
+</details>
+
+</br>
