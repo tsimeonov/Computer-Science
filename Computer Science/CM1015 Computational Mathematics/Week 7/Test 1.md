@@ -31,3 +31,19 @@ A triangle with all sides and all angles equal
 </details>
 
 </br>
+
+3. **What is the longest side of a right-angled triangle called?**
+
+- Opposite
+- Adjacent
+- Hypotenuse
+- Perpendicular
+
+<details>
+  <summary>Solution</summary>
+
+Hypotenuse
+
+</details>
+
+</br>
