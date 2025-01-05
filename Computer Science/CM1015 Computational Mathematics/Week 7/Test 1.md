@@ -13,3 +13,21 @@
 The correct answer is a^2^ + b^2^ = c^2^
 
 </details>
+
+</br>
+
+2. **What is an equilateral triangle?**
+
+- A triangle with all sides equal but different angles.
+- A triangle with one right angle
+- A triangle with two sides equal
+- A triangle with all sides and all angles equal
+
+<details>
+  <summary>Solution</summary>
+
+A triangle with all sides and all angles equal
+
+</details>
+
+</br>
