@@ -79,3 +79,19 @@ Opposite over hypotenuse
 </details>
 
 </br>
+
+6. **What is the cosine of 0 degrees?**
+
+- 1
+- 0
+- Undefined
+- -1
+
+<details>
+  <summary>Solution</summary>
+
+1
+
+</details>
+
+</br>
