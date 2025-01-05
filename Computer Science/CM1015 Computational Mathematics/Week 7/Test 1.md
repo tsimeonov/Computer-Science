@@ -106,7 +106,7 @@ Opposite over hypotenuse
 <details>
   <summary>Solution</summary>
 
--1
+1
 
 </details>
 
