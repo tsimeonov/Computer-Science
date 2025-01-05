@@ -127,3 +127,19 @@ Isosceles triangle
 </details>
 
 </br>
+
+9. **What is the measure if each angle in an equilateral triangle?**
+
+- 120 deg
+- 90 deg
+- 60 deg
+- 45 deg
+
+<details>
+  <summary>Solution</summary>
+
+60 deg
+
+</details>
+
+</br>
