@@ -1,101 +1,119 @@
-## Case study 3: Audio visualiser
-
-In this case study you will be completing a simple music visualisation
-program that contains three separate visualisations.
-
-To turn the sound into something that can be visualised p5.js provides
-a Fast Fourier Transform object. Take a look at its description in the
-[p5.sound documentation](https://p5js.org/reference/#/p5.FFT).
-
-For todays exercise you don’t need to be able to understand the full
-technicalities of this object or its methods. However, in putting
-this case study together we have used the following methods.
-
-- `FFT.analyze()` returns an array of 1024 values between 0 and 255. Each value represents the amplitude (loudness) of a small frequency range (pitch of the sound).
-
-- `FFT.waveform()` returns an array of 1024 values between -1
-  and 1. Each value represents the amplitude of the sound for a tiny
-  portion of time.
-
-- `FFT.energy(freq1, [freq2])` returns the volume of the sound at
-  frequency range specified by the `freq1` and `freq2` parameter. You
-  can specify `freq1` as a number or p5.js provides strings for common
-  values such as “bass” and “treble”, and leave `freq2` empty.
+## Case study 3: Data visualisation
 
 ### Tasks
 
-Download the music visualiser project template from the bottom of this
-page and look over the code.
+Download the data vis project template from the bottom of this page
+and look over the code, starting with `stekch.js` to get an overview
+of how the programme works. Try running the code.
 
-#### Playback and fullscreen [2 marks]
+All visualisations are stored in the `gallery` global variable. This
+variable can be used for debugging in the console to access properties
+and methods defined within each visualisation.
 
-In the `ControlsAndInput` constructor function (in the
-controlsAndInput.js file) complete `this.mousePressed()`.
+Lines you need to complete in this case study are marked **???**.
 
-- Using the `playbackButton` object check if the mouse click is on the
-  play button (check out the `PlaybackButton` constructor function and
-  find the method which does this). When you have called this method
-  clicking the playback button should start the music and display a
-  visualisation.
-- If the click isn’t on the playback button toggle the display between
-  window and fullscreen (check out the p5.js documentation on how to
-  do this.)
+#### Tech diversity: Gender
 
-#### Visualisation menu [2 marks]
+Complete the visualisation defined in `tech-diversity-gender.js` to
+create a stacked bar chart by adding the proportion of men employed at
+each company.
 
-In the `ControlsAndInput` constructor function complete
-`this.menu()`. Write a `for` loop that iterates over the array stored
-in the `visuals` property of the `Visualisations` object, which itself
-is stored in the global `vis` variable declared in sketch.js, writing
-each visualisation name to the screen. You can check if your menu is
-displayed correctly by pressing the space bar while the app is
-running. When complete it should look like the following:
+1. Look up the documentation for Table (https://p5js.org/reference/#/p5.Table).
 
-![menu](https://www.doc.gold.ac.uk/~jfort010/ip/case-studies/music-vis/figures/menu.png)
+2. Look at the raw data: `./data/tech-diversity/gender-2018.csv`. Use
+   a spreadsheet program or text editor, and make sure you understand
+   the data format (this first line is special). This data will be
+   automatically loaded and stored in the `data` property (see the
+   `preload()` method).
 
-#### Spectrum analyser [4 marks]
+3. In the `for` loop in the `draw()` method extract the relevant data
+   from each table row and store it in the `company` object.
 
-Take a look at the `Spectrum()` constructor function. The fast Fourier
-transform analyse function (i.e. `p5.FFT.analyse()`) returns an array of
-amplitude values for 1024 audible frequency values. The amplitude
-value is between 0 and 255. The visualisation draws a rectangle for
-each of these frequencies, the height of the rectangle is determined
-by the amplitude value for that frequency.
+   - Hint: Look up the `getString()` and `getNum()` table methods, and
+     use the appropriate method to ensure the data is parsed
+     correctly.
+   - Check that bars representing the proportion of female employees
+     is correctly drawn on the plot.
 
-- Change the visualisation so that visualisation is horizontal not
-  vertical. Therefore, the bars emerge from the left hand side of the
-  screen not from the bottom, as in the following image. [2 marks]
+4. Look at how the rectangle representing the proportion of female
+   employees is defined. Draw a rectangle representing the male
+   proportion using the parameters and methods defined in this
+   object.
+   - The ratio of female:male staff at Indiegogo is 50:50. Make sure
+     that this is correctly visualised on the plot.
 
-  ![menu](https://www.doc.gold.ac.uk/~jfort010/ip/case-studies/music-vis/figures/spec.png)
+#### Pay gap 1997–2017
 
-- Change the colour of each bar such that it gradually changes from
-  green to red based on the amplitude value [2 marks]. For example
-  - An amplitude value of 0 the colour values are R:0, G:255 and B:0.
-  - An amplitude value of 127 colour values are R:127, G:127 and B:0
-  - An amplitude value of 255 colour values are R:255, G:0 and B: 0
+Complete the visualisation defined in `pay-gap-1997-2017.js` to create
+a line graph representing the pay gap between female and male
+employees over time.
 
-- HINT: You will need to map the amplitude so that smaller values
-  are more green. The red channel doesn’t need to be mapped you can
-  use the raw amplitude value.
+1. Look at the raw data:
+   `./data/pay-gap/all-employees-hourly-pay-by-gender-1997-2017.csv`.
 
-#### Needle plots [2 marks]
+2. In the `for` loop in the `draw()` method extract the relevant data
+   from each table row and store it in the `current` object.
 
-The `Needles` constructor function draws a visualisation that displays
-volume values for 4 frequency bands: bass, mid-low, mid-high and
-treble. When it is complete it looks like the image below:
+3. Complete the `mapPayGapToHeight()` method. Look at how `mapYearToWidth()`
+   works.
 
-![menu](https://www.doc.gold.ac.uk/~jfort010/ip/case-studies/music-vis/figures/needles.png)
+   - Check that the y-axis tick labels are drawn correctly.
 
-All the trigonometry has been done for you :)
+4. Complete the `line()` function in the `draw()` method to plot the
+   pay gap over time. You will need to use both `mapYearToWidth()` and
+   `mapPayGapToHeight()` methods.
 
-Within the needles.js file, complete the nested `for` loop in the
-`this.draw()` function.
+#### Climate change
 
-- Assign values to the `x`, `y`, `w` and `h` variables so the plot is
-  drawn at the right location and correct size.
-- On line 49 call the `this.ticks(centreX, bottomY, freqLabel)`
-  function correctly specifying the arguments. This will add the ticks
-  to the graph. The comments above the `ticks` function should help
-  you work out what each parameter does.
-- On line 54 call the `this.needle(energy, centreX, bottomY)`
-  function. Specifying the correct parameters.
+Complete the visualisation defined in `climate-change.js` to create a
+line graph with gradient fill background representing the change in
+the Earth’s surface temperature.
+
+1. Using the `mapTemperatureToColour()` method set the `fill()` in the
+   `draw()` method. You need to pass the current temperature to this
+   method to get the correct colour.
+
+2. Complete the `rect()` function below the `fill()` to create a
+   gradient effect background (rectangles spaced evenly across the
+   x-axis – one rectangle per year). All of the values you need are
+   already accessible within this visualisation object – you need to
+   find them!
+   - Hint: Look at the `mapYearToWidth()` method, the `layout` object,
+     and the `segmentWidth` variable.
+
+#### Tech diversity: Race
+
+Complete the visualisation defined in `tech-diversity-race.js` to
+create a pie chart to represent the racial diversity of prominent tech
+companies.
+
+1. Look at the raw data: `./data/tech-diversity/race-2018.csv`.
+
+2. Create a select DOM element using p5.dom.js (see
+   [`createSelect`](https://p5js.org/reference/#/p5/createSelect)) and
+   populate the options _programmatically_ using the company names
+   obtained from the columns of `this.data`.
+
+   - Hint: you need to write a `for` loop.
+
+3. Change the hard-coded company name to instead get the value from
+   the select.
+
+4. Test that when selecting a company name from the list the correct
+   data is visualised on the canvas and the correct title is
+   generated.
+
+#### Pay gap by job 2017
+
+Complete the visualisation defined in `pay-gap-by-job-2017.js` to
+create a scatter plot representing the difference in pay for men and
+women across different jobs.
+
+In the `draw()` method complete the `for` loop that draws all of the
+data points on the canvas as ellipses with the following properties.
+
+    - x = proportion of female employees
+    - y = pay gap
+    - size = number of jobs
+
+Hint: You will need to use `map()`.
