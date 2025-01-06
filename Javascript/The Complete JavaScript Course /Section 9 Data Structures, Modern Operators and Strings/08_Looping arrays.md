@@ -1,1 +1,1 @@
-### Logical assignment Operators
+### Looping arrays: The for-of Loop
