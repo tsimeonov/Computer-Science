@@ -35,9 +35,9 @@ function TechDiversityRace() {
     this.select = createSelect();
 
     // Set select position.
-    this.select.position(1200, 100);
+    this.select.position(1200, 150);
 
-    // Populate the options with all company names (excluding the first column, which is for labels).
+    // Populate the options with all company names (excluding the first column, which is for labels.
     for (let i = 1; i < this.data.columns.length; i++) {
       this.select.option(this.data.columns[i]);
     }
