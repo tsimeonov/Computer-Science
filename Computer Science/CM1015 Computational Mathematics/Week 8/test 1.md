@@ -110,3 +110,5 @@ B \approx 22.5^\circ
 </details>
 
 <br>
+
+6. **Given a triangle with a = 45, b = 32 and c = 29, find the angle A**
