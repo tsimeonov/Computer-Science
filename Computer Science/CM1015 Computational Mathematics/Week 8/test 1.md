@@ -166,3 +166,5 @@ A \approx 95.0^\circ
 </details>
 
 <br>
+
+7. **Given: a = 9, b = 12, c = 15. Find angle B**
