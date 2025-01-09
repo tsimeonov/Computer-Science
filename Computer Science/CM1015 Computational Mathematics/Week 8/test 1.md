@@ -13,3 +13,21 @@
 $\frac{a}{sin A}$ = $\frac{b}{sin B}$ = $\frac{c}{sin C}$
 
 </details>
+
+<br>
+
+2. **When should you typically use the sine rule?**
+
+- When you have two angles and one side
+- When you have two sides and one angle
+- When you have three sides and need to find an angle
+- Both A nd B
+
+<details>
+  <summary>Solution</summary>
+
+Both A and B
+
+</details>
+
+<br>
