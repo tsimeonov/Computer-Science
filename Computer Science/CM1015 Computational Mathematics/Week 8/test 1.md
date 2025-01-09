@@ -47,3 +47,10 @@ a^2^ = b^2^ + c^2^ - 2bc cos A
 </details>
 
 <br>
+
+4. **In which situation would you use the cosine rule?**
+
+- When you have three sides and need to find an angle
+- When you have two angles and one side
+- When you have two sides and the included angle
+- Both A and C
