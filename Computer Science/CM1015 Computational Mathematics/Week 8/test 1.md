@@ -168,3 +168,57 @@ A \approx 95.0^\circ
 <br>
 
 7. **Given: a = 9, b = 12, c = 15. Find angle B**
+
+<details>
+  <summary>Solution</summary>
+
+To find angle \(B\), we use the **cosine rule**:
+
+\[
+\cos B = \frac{a^2 + c^2 - b^2}{2ac}
+\]
+
+Step 1: Substitute the given values:
+\[
+a = 9, \, b = 12, \, c = 15
+\]
+\[
+\cos B = \frac{9^2 + 15^2 - 12^2}{2 \cdot 9 \cdot 15}
+\]
+
+Step 2: Calculate the squares of the sides:
+\[
+9^2 = 81, \, 15^2 = 225, \, 12^2 = 144
+\]
+
+Step 3: Substitute the values into the formula:
+\[
+\cos B = \frac{81 + 225 - 144}{2 \cdot 9 \cdot 15}
+\]
+\[
+\cos B = \frac{162}{270}
+\]
+
+Step 4: Simplify:
+\[
+\cos B = 0.6
+\]
+
+Step 5: Find \(B\) using the inverse cosine:
+\[
+B = \arccos(0.6)
+\]
+
+Using a calculator:
+\[
+B \approx 53.1^\circ
+\]
+
+Final Answer:
+\[
+B \approx 53.1^\circ
+\]
+
+</details>
+
+<br>
