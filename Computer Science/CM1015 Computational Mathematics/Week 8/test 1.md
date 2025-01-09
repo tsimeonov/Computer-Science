@@ -38,3 +38,12 @@ Both A and B
 - $\frac{a}{sin A}$ = $\frac{b}{sin B}$ = $\frac{c}{sin C}$
 - a^2^ = b^2^ + c^2^ - 2bc cos A
 - cos A + cos B + cos C = 1
+
+<details>
+  <summary>Solution</summary>
+
+a^2^ = b^2^ + c^2^ - 2bc cos A
+
+</details>
+
+<br>
