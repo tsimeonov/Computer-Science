@@ -63,3 +63,5 @@ Both A and C
 </details>
 
 <br>
+
+5. **Given a triangle tithe angle A = 56deg, a = 76 and b = 35, find the angle B to one d.p**
