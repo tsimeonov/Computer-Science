@@ -65,3 +65,48 @@ Both A and C
 <br>
 
 5. **Given a triangle tithe angle A = 56deg, a = 76 and b = 35, find the angle B to one d.p**
+
+<details>
+  <summary>Solution</summary>
+
+We can solve this using the **sine rule**:
+
+\[
+\frac{a}{\sin A} = \frac{b}{\sin B}
+\]
+
+Step 1: Substitute the known values:
+\[
+\frac{76}{\sin 56^\circ} = \frac{35}{\sin B}
+\]
+
+Step 2: Solve for \(\sin B\):
+\[
+\sin B = \frac{35 \cdot \sin 56^\circ}{76}
+\]
+
+Step 3: Calculate the values:
+
+- \(\sin 56^\circ \approx 0.829\)
+  \[
+  \sin B = \frac{35 \cdot 0.829}{76} = \frac{29.015}{76} \approx 0.3818
+  \]
+
+Step 4: Find \(B\):
+\[
+B = \arcsin(0.3818)
+\]
+
+Using a calculator:
+\[
+B \approx 22.5^\circ
+\]
+
+Final Answer:
+\[
+B \approx 22.5^\circ
+\] (to one decimal place).
+
+</details>
+
+<br>
