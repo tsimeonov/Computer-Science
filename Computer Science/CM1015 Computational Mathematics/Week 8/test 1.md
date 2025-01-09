@@ -54,3 +54,12 @@ a^2^ = b^2^ + c^2^ - 2bc cos A
 - When you have two angles and one side
 - When you have two sides and the included angle
 - Both A and C
+
+<details>
+  <summary>Solution</summary>
+
+Both A and C
+
+</details>
+
+<br>
