@@ -112,3 +112,57 @@ B \approx 22.5^\circ
 <br>
 
 6. **Given a triangle with a = 45, b = 32 and c = 29, find the angle A**
+
+<details>
+  <summary>Solution</summary>
+
+To find angle \(A\), we use the **cosine rule**:
+
+\[
+\cos A = \frac{b^2 + c^2 - a^2}{2bc}
+\]
+
+Step 1: Substitute the given values:
+\[
+a = 45, \, b = 32, \, c = 29
+\]
+\[
+\cos A = \frac{32^2 + 29^2 - 45^2}{2 \cdot 32 \cdot 29}
+\]
+
+Step 2: Calculate the squares of the sides:
+\[
+32^2 = 1024, \, 29^2 = 841, \, 45^2 = 2025
+\]
+
+Step 3: Substitute the values into the formula:
+\[
+\cos A = \frac{1024 + 841 - 2025}{2 \cdot 32 \cdot 29}
+\]
+\[
+\cos A = \frac{-160}{1856}
+\]
+
+Step 4: Simplify:
+\[
+\cos A = -0.0862
+\]
+
+Step 5: Find \(A\) using the inverse cosine:
+\[
+A = \arccos(-0.0862)
+\]
+
+Using a calculator:
+\[
+A \approx 95.0^\circ
+\]
+
+Final Answer:
+\[
+A \approx 95.0^\circ
+\]
+
+</details>
+
+<br>
