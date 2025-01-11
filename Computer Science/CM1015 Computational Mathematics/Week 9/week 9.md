@@ -1,4 +1,6 @@
-### Lesson 5.1: Introduction to graph sketching and kinematics
+### Graphs of functions
+
+**The x-y plane**
 
 We introduce horizontal and vertical axes. The axes intersect at a point O called the origin.
 
