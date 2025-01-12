@@ -14,3 +14,14 @@ For example, we may be interested only in that part of the _x_ axis running from
 **Greater than and less than**
 
 The symbols >, ≥, <, ≤ are known as **inequalities**
+
+**Manipulation of inequalities**
+
+Adding and subtracting the same quantity from both sides of an inequality leaves the inequality unchanged.
+hence, for ant quantity _k_ if _x_ > _y_ then
+
+x + k > y + k and x - k > y - k
+
+Similarly, if x < y then
+
+x + k < y + k and x - k < y - k
