@@ -25,3 +25,13 @@ x + k > y + k and x - k > y - k
 Similarly, if x < y then
 
 x + k < y + k and x - k < y - k
+
+Multiplying and dividing an inequality needs greater care.
+If an inequality is multiplied or divided by a **positive** quantity then the inequality remains unchanged.
+If x > y and k is positive, then
+
+kx > ky and $\frac{x}{k}$ > $\frac{y}{k}$
+
+Similarly, if x < y and k is positive then
+
+kx < ky and $\frac{x}{k}$ < $\frac{y}{k}$
