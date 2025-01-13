@@ -37,3 +37,6 @@ Similarly, if x < y and k is positive then
 kx < ky and $\frac{x}{k}$ < $\frac{y}{k}$
 
 **Intervals**
+
+We often need to represent intervals on the number line. To help us do this we introduce the set R. R is called the set of real numbers. We use to denote all numbers from minus infinity to plus infinity.
+To show that a number _x_ is in this set, we write _x_ ∈ R, where ∈ means "belongs to".
