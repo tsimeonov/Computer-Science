@@ -35,3 +35,5 @@ kx > ky and $\frac{x}{k}$ > $\frac{y}{k}$
 Similarly, if x < y and k is positive then
 
 kx < ky and $\frac{x}{k}$ < $\frac{y}{k}$
+
+**Intervals**
