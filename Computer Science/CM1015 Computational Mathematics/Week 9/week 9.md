@@ -40,3 +40,11 @@ kx < ky and $\frac{x}{k}$ < $\frac{y}{k}$
 
 We often need to represent intervals on the number line. To help us do this we introduce the set R. R is called the set of real numbers. We use to denote all numbers from minus infinity to plus infinity.
 To show that a number _x_ is in this set, we write _x_ ∈ R, where ∈ means "belongs to".
+
+There are three different kinds of intervals:
+
+1. The closed interval, an interval that includes its end-points is called a **closed interval**. All the numbers from 1 to 3, including bot 1 and 3, comprise a closed interval, and this is denoted using square brackets, [1,3]
+
+Hence the interval [1,3] can be expressed as
+
+{x: x ∈ R, 1 ⩽ x ⩽ 3 }
