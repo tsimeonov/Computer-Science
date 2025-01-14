@@ -48,3 +48,5 @@ There are three different kinds of intervals:
 Hence the interval [1,3] can be expressed as
 
 {x: x ∈ R, 1 ⩽ x ⩽ 3 }
+
+2. The open interval - Any interval that does not include its end-points is called an open interval.
