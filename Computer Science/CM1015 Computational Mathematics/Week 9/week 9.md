@@ -56,4 +56,5 @@ Such an interval is denoted using round brackets, (1,3). The interval may be wri
 
 {x: x ∈ R, 1 < x < 3 }
 
-   
+3. The semi-open or semi-closed interval
+
