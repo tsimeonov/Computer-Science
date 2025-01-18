@@ -80,3 +80,5 @@ The set of values taken by the output is called the range of the **function**
 **17.5: Solving equations using graphs**
 
 **17.6: Solving simultaneous equations graphically**
+
+**Higher Order Polymials**
