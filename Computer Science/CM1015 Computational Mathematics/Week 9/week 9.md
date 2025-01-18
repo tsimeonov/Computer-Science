@@ -73,3 +73,6 @@ Dependent Variable:
 
 - This is the output of the function
 - it's value depends on the value of the independent variable
+
+The set of values that we allow the independent variable to take is called the **domain** of the function. If the domain is not actually specified in any particular example, it is taken to be the largest set possible.
+The set of values taken by the output is called the range of the **function**
