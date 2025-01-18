@@ -92,3 +92,11 @@ Where:
 - ^n^ is the degree of the polynomial (the highest power of x)
 - a~n~, a~n-1~ ... , a~1~, a~0~ are constants, called coefficients
 - a~n~ ≠ 0
+
+Examples:
+
+1. Quadratic Polynomial (Degree 2):
+
+P(x) = ax^2^ + bx + c
+
+Example: 2x^2^ + 3x + 1
