@@ -63,3 +63,8 @@ The interval (1,3] is a semi-open interval.
 {x: x ∈ R, 1 < x ⩽ 3 }
 
 **17.4 The domain an range of a function**
+
+Independent variable
+
+- This is the input of the function
+- It is the variable that you can control or choose values for
