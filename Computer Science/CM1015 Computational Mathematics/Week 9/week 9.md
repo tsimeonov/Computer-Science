@@ -103,6 +103,12 @@ Example: 2x^2^ + 3x + 1
 
 2. Cubic Polynomial (Degree 3)
 
-P(x) = ax^3^ + b^x^2 + cx + d
+P(x) = ax^3^ + bx^2^ + cx + d
 
 Example: P(x) = x^3^ + 2x^2^ + x + 5
+
+3. Quartic polynomial (Degree 4)
+
+P(x) = ax^4^ + bx^3^ + cx^2^ + dx + e
+
+Example: P(x) = 3x^4^ + x^3^ + 2x^2^ + x + 7
