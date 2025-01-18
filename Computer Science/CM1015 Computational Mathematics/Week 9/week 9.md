@@ -100,3 +100,9 @@ Examples:
 P(x) = ax^2^ + bx + c
 
 Example: 2x^2^ + 3x + 1
+
+2. Cubic Polynomial (Degree 3)
+
+P(x) = ax^3^ + b^x^2 + cx + d
+
+Example: P(x) = x^3^ + 2x^2^ + x + 5
