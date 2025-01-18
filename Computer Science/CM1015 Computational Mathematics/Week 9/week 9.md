@@ -62,7 +62,7 @@ An interval may be open at one end and closed at the other. Such an interval is 
 The interval (1,3] is a semi-open interval.
 {x: x ∈ R, 1 < x ⩽ 3 }
 
-**17.4 The domain an range of a function**
+**17.4: The domain an range of a function**
 
 Independent variable:
 
@@ -76,3 +76,5 @@ Dependent Variable:
 
 The set of values that we allow the independent variable to take is called the **domain** of the function. If the domain is not actually specified in any particular example, it is taken to be the largest set possible.
 The set of values taken by the output is called the range of the **function**
+
+**17.5: Solving equations using graphs**
