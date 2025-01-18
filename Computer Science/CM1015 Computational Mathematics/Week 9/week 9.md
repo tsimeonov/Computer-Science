@@ -64,7 +64,12 @@ The interval (1,3] is a semi-open interval.
 
 **17.4 The domain an range of a function**
 
-Independent variable
+Independent variable:
 
 - This is the input of the function
 - It is the variable that you can control or choose values for
+
+Dependent Variable:
+
+- This is the output of the function
+- it's value depends on the value of the independent variable
