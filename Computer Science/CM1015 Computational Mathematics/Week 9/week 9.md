@@ -52,14 +52,12 @@ Hence the interval [1,3] can be expressed as
 2. The open interval - Any interval that does not include its end-points is called an open interval.
 
 For example, all the numbers from 1 to 3, but excluding 1 and 3, comprise an open interval.
-Such an interval is denoted using round brackets, (1,3). The interval may be written using set notation as 
+Such an interval is denoted using round brackets, (1,3). The interval may be written using set notation as
 
 {x: x ∈ R, 1 < x < 3 }
 
 3. The semi-open or semi-closed interval
 
 An interval may be open at one end and closed at the other. Such an interval is called semi-open or some authors say semi-closed.
-The interval (1,3] is a semi-opem interval.
+The interval (1,3] is a semi-open interval.
 {x: x ∈ R, 1 < x ⩽ 3 }
-
-
