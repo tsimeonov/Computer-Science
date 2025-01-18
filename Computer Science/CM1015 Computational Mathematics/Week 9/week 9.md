@@ -61,3 +61,5 @@ Such an interval is denoted using round brackets, (1,3). The interval may be wri
 An interval may be open at one end and closed at the other. Such an interval is called semi-open or some authors say semi-closed.
 The interval (1,3] is a semi-open interval.
 {x: x ∈ R, 1 < x ⩽ 3 }
+
+**17.4 The domain an range of a function**
