@@ -82,3 +82,13 @@ The set of values taken by the output is called the range of the **function**
 **17.6: Solving simultaneous equations graphically**
 
 **Higher Order Polynomials**
+
+Higher-order polynomials are functions of the form:
+
+P(x) = a~n~x^n^ + a~n~ - x ^n-1^ + ... + a~1~x + a~0~
+
+Where:
+
+- ^n^ is the degree of the polynomial (the highest power of x)
+- a~n~, a~n-1~ ... , a~1~, a~0~ are constants, called coefficients
+- a~n~ ≠ 0
