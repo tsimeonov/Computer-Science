@@ -81,4 +81,4 @@ The set of values taken by the output is called the range of the **function**
 
 **17.6: Solving simultaneous equations graphically**
 
-**Higher Order Polymials**
+**Higher Order Polynomials**
