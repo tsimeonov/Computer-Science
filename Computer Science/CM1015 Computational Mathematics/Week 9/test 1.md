@@ -47,3 +47,10 @@ A function where no two elements in the domain map to the same element in the ra
 </details>
 
 </br>
+
+4. What is the first step in finding the inverse of f(x)
+
+- Solve for x in terms of y
+- Differentiate the function
+- Switch the variables x and y
+- Make y = f(x)
