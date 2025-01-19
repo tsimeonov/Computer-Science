@@ -15,3 +15,10 @@ A relation where each element in the domain maps to exactly one element in the r
 </details>
 
 </br>
+
+2. **Which of the following intervals includes both endpoints?**
+
+- Semi-closed interval
+- Closed interval
+- Semi-open interval
+- Open interval
