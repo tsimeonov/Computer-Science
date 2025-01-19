@@ -95,3 +95,5 @@ The relation is not a function
 </details>
 
 </br>
+
+7. **Find the inverse of the function f(x) = 2x + 3**
