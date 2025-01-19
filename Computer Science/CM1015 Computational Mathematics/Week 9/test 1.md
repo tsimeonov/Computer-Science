@@ -278,3 +278,6 @@ The function \( f(x) = \sqrt{x} \) is **not defined for \( x = -1 \) in the doma
 </details>
 
 <br>
+
+14. Sketch the graph of the function y = x^2^ - 4 and determine its vertex.
+    The vertex is where the gradient is zero
