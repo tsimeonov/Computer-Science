@@ -22,3 +22,10 @@ A relation where each element in the domain maps to exactly one element in the r
 - Closed interval
 - Semi-open interval
 - Open interval
+
+<details>
+  <summary>Solution</summary>
+
+Closed interval
+
+</details>
