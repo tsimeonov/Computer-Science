@@ -192,6 +192,8 @@ The function is not injective
 
 </details>
 
+<br>
+
 11. **Determine if the following function is surjective: f : R -> R, f(x) = 2x + 1**
 
 - The function is surjective
@@ -203,6 +205,7 @@ The function is not injective
 The function is surjective
 
 </details>
+<br>
 
 12. **For the function f(x) = x^2^, find the range when the domain is restricted to x ≥ 0
     **
@@ -246,6 +249,8 @@ The range of \( f(x) = x^2 \) for \( x \geq 0 \) is:
 
 </details>
 
+<br>
+
 13. **Evaluate whether the function f(x) = $\sqrt{x}$ is defined for x = -1**
 
 <details>
@@ -271,3 +276,5 @@ Conclusion:
 The function \( f(x) = \sqrt{x} \) is **not defined for \( x = -1 \) in the domain of real numbers**. If complex numbers are considered, the value would be \( i \).
 
 </details>
+
+<br>
