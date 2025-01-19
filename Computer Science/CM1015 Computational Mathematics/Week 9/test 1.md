@@ -191,3 +191,8 @@ Explanation:
 The function is not injective
 
 </details>
+
+11. Determine if the following function is surjective: f : R -> R, f(x) = 2x + 1
+
+- The function is surjective
+- The function is not surjective
