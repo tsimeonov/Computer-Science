@@ -297,3 +297,5 @@ Vertex:
 </details>
 
 <br>
+
+15. **Determine the domain and range of the function f(x) = $\frac{1}{x-2}$**
