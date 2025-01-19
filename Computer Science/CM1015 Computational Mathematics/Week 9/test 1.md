@@ -70,3 +70,12 @@ Make y = f(x)
 - The range
 - The domain
 - The function itself
+
+<details>
+  <summary>Solution</summary>
+
+The range
+
+</details>
+
+</br>
