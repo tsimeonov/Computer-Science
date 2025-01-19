@@ -29,3 +29,12 @@ A relation where each element in the domain maps to exactly one element in the r
 Closed interval
 
 </details>
+
+</br>
+
+3. **What is an injective function?**
+
+- A function that maps multiple elements in the domain to the same element in the range.
+- A function where no two elements in the domain map to the same element in the range.
+- A function where each element in the domain maps to exactly one element in the range
+- A function where each element in the range maps to exactly one element in the domain
