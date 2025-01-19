@@ -206,3 +206,42 @@ The function is surjective
 
 12. **For the function f(x) = x^2^, find the range when the domain is restricted to x ≥ 0
     **
+
+<details>
+  <summary>Solution</summary>
+
+To find the **range** of the function \( f(x) = x^2 \) when the domain is restricted to \( x \geq 0 \):
+
+---
+
+Step 1: Analyze the Function
+
+The function \( f(x) = x^2 \) maps the input \( x \) to the square of \( x \). For \( x \geq 0 \), the output will always be:
+
+- Non-negative (\( f(x) \geq 0 \)).
+- Continuous and increasing as \( x \) increases.
+
+---
+
+Step 2: Define the Range
+
+Since \( x \geq 0 \):
+
+- The smallest value of \( x \) is \( 0 \), and \( f(0) = 0^2 = 0 \).
+- As \( x \to \infty \), \( f(x) \to \infty \).
+
+Thus, the range of \( f(x) = x^2 \) for \( x \geq 0 \) is:
+\[
+[0, \infty)
+\]
+
+---
+
+Final Answer:
+
+The range of \( f(x) = x^2 \) for \( x \geq 0 \) is:
+\[
+[0, \infty)
+\]
+
+</details>
