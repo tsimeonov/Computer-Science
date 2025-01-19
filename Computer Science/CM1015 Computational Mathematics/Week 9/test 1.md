@@ -54,3 +54,12 @@ A function where no two elements in the domain map to the same element in the ra
 - Differentiate the function
 - Switch the variables x and y
 - Make y = f(x)
+
+<details>
+  <summary>Solution</summary>
+
+Make y = f(x)
+
+</details>
+
+</br>
