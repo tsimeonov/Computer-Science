@@ -203,3 +203,6 @@ The function is not injective
 The function is surjective
 
 </details>
+
+12. **For the function f(x) = x^2^, find the range when the domain is restricted to x ≥ 0
+    **
