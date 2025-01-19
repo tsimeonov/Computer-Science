@@ -179,3 +179,8 @@ Explanation:
 -2 < x \leq 5
 \]
 </details>
+
+10. Verify if the function f(x) = x ^2^ is injective for x ∈ R
+
+- The function is not injective
+- The function is injective
