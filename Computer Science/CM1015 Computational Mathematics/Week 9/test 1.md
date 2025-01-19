@@ -147,3 +147,5 @@ This means that if you input a value into \(f^{-1}(x)\), you will retrieve the v
 </details>
 
 </br>
+
+8. **Sketch the graph of y = -$\frac{1}{2}$x + 3 on the Cartesian plane**
