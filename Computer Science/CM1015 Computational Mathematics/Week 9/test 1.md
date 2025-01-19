@@ -299,3 +299,81 @@ Vertex:
 <br>
 
 15. **Determine the domain and range of the function f(x) = $\frac{1}{x-2}$**
+
+<details>
+  <summary>Solution</summary>
+
+The function \( f(x) = \sqrt{x} \) is **not defined** for \( x = -1 \) when considering the domain of real numbers (\( x \in \mathbb{R} \)).
+
+---
+
+Explanation:
+
+1. **Square Root in Real Numbers**:
+
+   - The square root function \( \sqrt{x} \) is defined in the real numbers only for \( x \geq 0 \). This is because the square root of a negative number does not exist in the set of real numbers; it belongs to the set of complex numbers.
+
+2. **Substituting \( x = -1 \):**
+   - \( f(-1) = \sqrt{-1} \)
+   - In the real numbers, \( \sqrt{-1} \) is not defined. However, in the complex number system, \( \sqrt{-1} \) is denoted as \( i \), the imaginary unit.
+
+---
+
+Conclusion:
+The function \( f(x) = \sqrt{x} \) is **not defined for \( x = -1 \) in the domain of real numbers**. If complex numbers are considered, the value would be \( i \).
+
+</details>
+
+<br>
+
+14. **Sketch the graph of the function y = x^2^ - 4 and determine its vertex.
+    The vertex is where the gradient is zero**
+
+<details>
+  <summary>Solution</summary>
+
+The function \( f(x) = \frac{1}{x-2} \) has specific domain and range constraints due to the nature of division.
+
+---
+
+**Domain:**
+
+- The denominator of a fraction cannot be zero, as division by zero is undefined.
+- For \( f(x) = \frac{1}{x-2} \), the denominator is \( x - 2 \), which is zero when \( x = 2 \).
+- Therefore, \( x = 2 \) must be excluded from the domain.
+
+**Domain:**
+\[
+x \in \mathbb{R} \setminus \{2\}
+\]
+In interval notation:
+\[
+(-\infty, 2) \cup (2, \infty)
+\]
+
+---
+
+**Range:**
+
+- The function \( f(x) = \frac{1}{x-2} \) can produce all real numbers except \( f(x) = 0 \), because the numerator of the fraction is \( 1 \), and it can never be zero.
+- The function approaches infinity or negative infinity as \( x \to 2 \), but it will never equal \( 0 \).
+
+**Range:**
+\[
+y \in \mathbb{R} \setminus \{0\}
+\]
+In interval notation:
+\[
+(-\infty, 0) \cup (0, \infty)
+\]
+
+---
+
+Summary:
+
+- **Domain:** \( (-\infty, 2) \cup (2, \infty) \)
+- **Range:** \( (-\infty, 0) \cup (0, \infty) \)
+
+</details>
+
+<br>
