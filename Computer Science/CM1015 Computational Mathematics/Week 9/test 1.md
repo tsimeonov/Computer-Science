@@ -247,3 +247,27 @@ The range of \( f(x) = x^2 \) for \( x \geq 0 \) is:
 </details>
 
 13. **Evaluate whether the function f(x) = $\sqrt{x}$ is defined for x = -1**
+
+<details>
+  <summary>Solution</summary>
+
+The function \( f(x) = \sqrt{x} \) is **not defined** for \( x = -1 \) when considering the domain of real numbers (\( x \in \mathbb{R} \)).
+
+---
+
+Explanation:
+
+1. **Square Root in Real Numbers**:
+
+   - The square root function \( \sqrt{x} \) is defined in the real numbers only for \( x \geq 0 \). This is because the square root of a negative number does not exist in the set of real numbers; it belongs to the set of complex numbers.
+
+2. **Substituting \( x = -1 \):**
+   - \( f(-1) = \sqrt{-1} \)
+   - In the real numbers, \( \sqrt{-1} \) is not defined. However, in the complex number system, \( \sqrt{-1} \) is denoted as \( i \), the imaginary unit.
+
+---
+
+Conclusion:
+The function \( f(x) = \sqrt{x} \) is **not defined for \( x = -1 \) in the domain of real numbers**. If complex numbers are considered, the value would be \( i \).
+
+</details>
