@@ -279,5 +279,21 @@ The function \( f(x) = \sqrt{x} \) is **not defined for \( x = -1 \) in the doma
 
 <br>
 
-14. Sketch the graph of the function y = x^2^ - 4 and determine its vertex.
-    The vertex is where the gradient is zero
+14. **Sketch the graph of the function y = x^2^ - 4 and determine its vertex.
+    The vertex is where the gradient is zero**
+
+<details>
+  <summary>Solution</summary>
+
+Vertex:
+
+- The vertex occurs where the gradient (slope) is zero.
+- For \(y = x^2 - 4\), this happens at \(x = 0\), and substituting \(x = 0\) into the function gives:
+  \[
+  y = 0^2 - 4 = -4
+  \]
+- The vertex is at \((0, -4)\), marked in red on the graph.
+
+</details>
+
+<br>
