@@ -79,3 +79,10 @@ The range
 </details>
 
 </br>
+
+6. **Determine if the following relation is a function.**
+
+{ (1, 2), (2, 3), (3, 4), (1, 5) }
+
+- The relation is not a function
+- The relation is a function
