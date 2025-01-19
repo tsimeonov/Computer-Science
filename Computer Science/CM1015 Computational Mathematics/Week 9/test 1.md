@@ -63,3 +63,10 @@ Make y = f(x)
 </details>
 
 </br>
+
+5. **In a Cartesian plane, what does the y-axis represents?**
+
+- The origin
+- The range
+- The domain
+- The function itself
