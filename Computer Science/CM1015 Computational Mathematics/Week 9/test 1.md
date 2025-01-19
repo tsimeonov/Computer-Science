@@ -160,3 +160,22 @@ The line has a slope of \(-\frac{1}{2}\), meaning it decreases as \(x\) increase
 </br>
 
 9. **Describe the interval notation for the set of all real numbers greater that -2 and less than or equal to 5**
+
+<details>
+  <summary>Solution</summary>
+
+The interval notation for the set of all real numbers greater than \(-2\) and less than or equal to \(5\) is:
+
+\[
+(-2, 5]
+\]
+
+Explanation:
+
+- The parenthesis **\((-2\)** indicates that \(-2\) is **not included** in the interval (strictly greater than \(-2\)).
+- The bracket **\[5\]** indicates that \(5\) is **included** in the interval (less than or equal to \(5\)).
+- This interval includes all real numbers \(x\) such that:
+\[
+-2 < x \leq 5
+\]
+</details>
