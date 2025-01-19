@@ -86,3 +86,12 @@ The range
 
 - The relation is not a function
 - The relation is a function
+
+<details>
+  <summary>Solution</summary>
+
+The relation is not a function
+
+</details>
+
+</br>
