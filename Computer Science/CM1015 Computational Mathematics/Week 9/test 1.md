@@ -149,3 +149,12 @@ This means that if you input a value into \(f^{-1}(x)\), you will retrieve the v
 </br>
 
 8. **Sketch the graph of y = -$\frac{1}{2}$x + 3 on the Cartesian plane**
+
+<details>
+  <summary>Solution</summary>
+
+The line has a slope of \(-\frac{1}{2}\), meaning it decreases as \(x\) increases, and the y-intercept is at \(y = 3\).
+
+</details>
+
+</br>
