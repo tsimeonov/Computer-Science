@@ -245,3 +245,5 @@ The range of \( f(x) = x^2 \) for \( x \geq 0 \) is:
 \]
 
 </details>
+
+13. **Evaluate whether the function f(x) = $\sqrt{x}$ is defined for x = -1**
