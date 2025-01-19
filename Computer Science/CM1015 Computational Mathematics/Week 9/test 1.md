@@ -97,3 +97,53 @@ The relation is not a function
 </br>
 
 7. **Find the inverse of the function f(x) = 2x + 3**
+
+<details>
+  <summary>Solution</summary>
+
+  <br>
+
+To find the inverse of the function \(f(x) = 2x + 3\), follow these steps:
+
+---
+
+#### Steps:
+
+1. **Rewrite \(f(x)\) as \(y\):**
+   \[
+   y = 2x + 3
+   \]
+
+2. **Switch \(x\) and \(y\):**
+   This reflects the inverse relationship:
+   \[
+   x = 2y + 3
+   \]
+
+3. **Solve for \(y\) in terms of \(x\):**
+   \[
+   x - 3 = 2y
+   \]
+   \[
+   y = \frac{x - 3}{2}
+   \]
+
+4. **Rewrite \(y\) as \(f^{-1}(x)\):**
+   \[
+   f^{-1}(x) = \frac{x - 3}{2}
+   \]
+
+---
+
+### Final Answer:
+
+The inverse function is:
+\[
+f^{-1}(x) = \frac{x - 3}{2}
+\]
+
+This means that if you input a value into \(f^{-1}(x)\), you will retrieve the value that was originally input into \(f(x)\).
+
+</details>
+
+</br>
