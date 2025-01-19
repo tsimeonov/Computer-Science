@@ -158,3 +158,5 @@ The line has a slope of \(-\frac{1}{2}\), meaning it decreases as \(x\) increase
 </details>
 
 </br>
+
+9. **Describe the interval notation for the set of all real numbers greater that -2 and less than or equal to 5**
