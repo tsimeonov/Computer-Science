@@ -22,3 +22,12 @@ y = ax^2^ + bx + c
 - The slope of the line
 - The vertex of the line
 - The x-intercept
+
+<details>
+  <summary>Solution</summary>
+
+The slope of the line
+
+</details>
+
+</br>
