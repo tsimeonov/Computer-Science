@@ -61,3 +61,10 @@ The parabola opens downwards
 The graph shifts 3 units up
 
 </details>
+
+5. **How does the graph of y = x^3^ behave as x approaches negative infinity?**
+
+- y approaches positive infinity
+- y approaches zero
+- y remains constant
+- y approaches negative infinity
