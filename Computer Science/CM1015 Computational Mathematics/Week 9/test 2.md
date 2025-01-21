@@ -38,3 +38,12 @@ The slope of the line
 - The vertex of the parabola moves upwards
 - The parabola shifts to the right
 - The parabola opens upwards
+
+<details>
+  <summary>Solution</summary>
+
+The parabola opens downwards
+
+</details>
+
+</br>
