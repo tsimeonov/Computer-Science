@@ -15,3 +15,10 @@ y = ax^2^ + bx + c
 </details>
 
 </br>
+
+2. **In the equation y = mx + c, wht does "m" represents?**
+
+- The y-intercept
+- The slope of the line
+- The vertex of the line
+- The x-intercept
