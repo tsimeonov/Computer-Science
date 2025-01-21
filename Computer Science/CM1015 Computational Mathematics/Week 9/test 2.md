@@ -54,3 +54,10 @@ The parabola opens downwards
 - The graph shifts 3 units up
 - The graph shifts 3 units to the right
 - The graph remains unchanged
+
+<details>
+  <summary>Solution</summary>
+
+The graph shifts 3 units up
+
+</details>
