@@ -47,3 +47,10 @@ The parabola opens downwards
 </details>
 
 </br>
+
+4. **What happens to the graph of y = x^2^ when it's transformed to y = x^2^ + 3**
+
+- The graph shifts 3 units down
+- The graph shifts 3 units up
+- The graph shifts 3 units to the right
+- The graph remains unchanged
