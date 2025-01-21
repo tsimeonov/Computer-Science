@@ -31,3 +31,10 @@ The slope of the line
 </details>
 
 </br>
+
+3. **What is the effect of the coefficient "a" in the quadratic equation y = ax^2^ + bx + c when "a" is negative?**
+
+- The parabola opens downwards
+- The vertex of the parabola moves upwards
+- The parabola shifts to the right
+- The parabola opens upwards
