@@ -68,3 +68,10 @@ The graph shifts 3 units up
 - y approaches zero
 - y remains constant
 - y approaches negative infinity
+
+<details>
+  <summary>Solution</summary>
+
+y approaches negative infinity
+
+</details>
