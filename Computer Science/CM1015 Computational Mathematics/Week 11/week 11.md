@@ -7,3 +7,5 @@ The angle θ is thus limited to a maximum value of 90deg. To give meaning to the
 than 90deg we introduce an extended definition.
 
 **Quadrants**
+
+The _x_ and _y_ axes divide the plane into four quadrants.
