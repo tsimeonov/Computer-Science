@@ -11,3 +11,5 @@ than 90deg we introduce an extended definition.
 The _x_ and _y_ axes divide the plane into four quadrants.
 
 <img src="./img/quadrant.png" width=400px style="border-radius:5px"/>
+
+**Projections**
