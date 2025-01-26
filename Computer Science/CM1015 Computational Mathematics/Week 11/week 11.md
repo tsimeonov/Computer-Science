@@ -31,3 +31,5 @@ Key points:
 \[
 \tan\theta = \frac{\text{y projection of arm OC}}{x projection of arm OC} = \frac{\text{OA}}{OB}
 \]
+
+Key points:
