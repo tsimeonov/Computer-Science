@@ -33,3 +33,5 @@ Key points:
 \]
 
 Key points:
+
+<img src="./img/quadrants .png" width=500px style="border-radius:5px"/>
