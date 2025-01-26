@@ -21,9 +21,9 @@ We consider the _x_ and _y_ projections if the arm OC. These are illustrated in 
 Key points:
 
 \[
-\sin\theta = \frac{\text{y projection of arm OC}}{OC}
+\sin\theta = \frac{\text{y projection of arm OC}}{OC} = \frac{\text{OA}}{OC}
 \]
 
 \[
-\cos\theta = \frac{\text{x projection of arm OC}}{OC}
+\cos\theta = \frac{\text{x projection of arm OC}}{OC} = \frac{\text{OB}}{OC}
 \]
