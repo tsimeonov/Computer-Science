@@ -27,3 +27,7 @@ Key points:
 \[
 \cos\theta = \frac{\text{x projection of arm OC}}{OC} = \frac{\text{OB}}{OC}
 \]
+
+\[
+\tan\theta = \frac{\text{y projection of arm OC}}{x projection of arm OC} = \frac{\text{OA}}{OB}
+\]
