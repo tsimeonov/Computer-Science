@@ -23,3 +23,7 @@ Key points:
 \[
 \sin\theta = \frac{\text{y projection of arm OC}}{OC}
 \]
+
+\[
+\cos\theta = \frac{\text{x projection of arm OC}}{OC}
+\]
