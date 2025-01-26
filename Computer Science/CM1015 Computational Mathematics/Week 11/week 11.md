@@ -37,3 +37,5 @@ Key points:
 <img src="./img/quadrants .png" width=500px style="border-radius:5px"/>
 
 #### 23.2: Trigonometric functions and their graphs
+
+### Chapter 24: Trigonometrical identities and equations
