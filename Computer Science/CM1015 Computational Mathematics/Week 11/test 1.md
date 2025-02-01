@@ -189,3 +189,35 @@ y = \sin(B\theta)
 - $\frac{1}{2π}$
 - 2π
 - π
+
+<details>
+  <summary>Solution</summary>
+
+The **amplitude** of a cosine function is the **maximum absolute value** it reaches from its midline.
+
+**Standard Cosine Function:**
+The general form of a cosine function is:
+
+\[
+y = A \cos(\theta)
+\]
+
+where:
+
+- \( A \) represents the **amplitude**, which determines the maximum and minimum values of the function.
+- The standard cosine function, \( y = \cos(\theta) \), has:
+  - **Maximum value:** \( +1 \)
+  - **Minimum value:** \( -1 \)
+
+Thus, the amplitude is:
+
+\[
+\mathbf{1}
+\]
+
+**Correct Answer:**
+**1**
+
+</details>
+
+</br>
