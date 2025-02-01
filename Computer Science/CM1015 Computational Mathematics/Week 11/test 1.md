@@ -20,6 +20,8 @@ y = sin(𝜃)
 
 2. What does the following graph represents
 
+<img src="./img/graph 2.png" width="400px"/>
+
 - y = 𝜃^2^
 - y = cos(𝜃)
 - y = tan(𝜃)
