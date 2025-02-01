@@ -60,3 +60,33 @@ y = tan(𝜃)
 - 1
 - $\frac{1}{2π}$
 - π
+
+<details>
+  <summary>Solution</summary>
+
+The **amplitude** of a sine function \( y = \sin(\theta) \) is defined as the **maximum absolute value** of the function from its midline.
+
+**Standard Sine Function:**
+The general form of a sine function is:
+
+\[
+y = A \sin(\theta)
+\]
+
+where:
+
+- \( A \) is the **amplitude**, which determines the maximum and minimum values of the function.
+- The standard sine function, \( y = \sin(\theta) \), has **maximum** \( +1 \) and **minimum** \( -1 \).
+
+Thus, the amplitude is:
+
+\[
+\mathbf{1}
+\]
+
+**Correct Answer:**
+**1**
+
+</details>
+
+</br>
