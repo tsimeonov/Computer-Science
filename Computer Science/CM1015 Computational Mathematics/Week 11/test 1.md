@@ -18,7 +18,7 @@ y = sin(𝜃)
 
 </br>
 
-2. What does the following graph represents
+2. **What does the following graph represents**
 
 <img src="./img/graph 2.png" width="400px"/>
 
@@ -35,3 +35,12 @@ y = cos(𝜃)
 </details>
 
 </br>
+
+3. **What does the following graph represents**
+
+<img src="./img/graph 3.png" width="400px"/>
+
+- y = 𝜃^2^
+- y = sin(𝜃)
+- y = tan(𝜃)
+- y = cos(𝜃)
