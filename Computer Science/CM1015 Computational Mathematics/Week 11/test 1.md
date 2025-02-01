@@ -8,3 +8,12 @@
 - y = tan(𝜃)
 - y = sin(𝜃)
 - y = cos(𝜃)
+
+<details>
+  <summary>Solution</summary>
+
+y = sin(𝜃)
+
+</details>
+
+</br>
