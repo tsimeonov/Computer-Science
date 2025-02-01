@@ -39,3 +39,5 @@ Key points:
 #### 23.2: Trigonometric functions and their graphs
 
 ### Chapter 24: Trigonometrical identities and equations
+
+#### 24.1: Trigonometric identities
