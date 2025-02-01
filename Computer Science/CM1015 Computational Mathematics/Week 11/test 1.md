@@ -183,7 +183,7 @@ y = \sin(B\theta)
 
 </br>
 
-7.** What is the amplitude of the cosine function?**
+7. **What is the amplitude of the cosine function?**
 
 - 1
 - $\frac{1}{2π}$
