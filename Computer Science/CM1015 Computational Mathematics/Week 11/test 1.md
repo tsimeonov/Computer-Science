@@ -221,3 +221,10 @@ Thus, the amplitude is:
 </details>
 
 </br>
+
+8. **What is the period of the cosine function?**
+
+- 1
+- π
+- 2π
+- $\frac{1}{2π}$
