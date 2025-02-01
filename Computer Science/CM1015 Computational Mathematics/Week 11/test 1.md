@@ -126,3 +126,10 @@ For \( y = \sin(\theta) \), the function completes one full cycle from \( 0 \) t
 </details>
 
 </br>
+
+6. **What is the frequency of the sine function?**
+
+- π
+- 2π
+- $\frac{1}{2π}$
+- 1
