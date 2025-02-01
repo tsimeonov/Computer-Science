@@ -53,3 +53,10 @@ y = tan(𝜃)
 </details>
 
 </br>
+
+4. **What is the amplitude of the sine function?**
+
+- 2π
+- 1
+- $\frac{1}{2π}$
+- π
