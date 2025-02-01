@@ -90,3 +90,10 @@ Thus, the amplitude is:
 </details>
 
 </br>
+
+5. **What is the period of the sine function?**
+
+- π
+- C:1
+- \*B:2π
+- D:$\frac{1}{2π}$
