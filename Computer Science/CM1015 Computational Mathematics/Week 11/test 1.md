@@ -228,3 +228,28 @@ Thus, the amplitude is:
 - π
 - 2π
 - $\frac{1}{2π}$
+
+<details>
+  <summary>Solution</summary>
+
+The **period** of a function is the length of one complete cycle before it repeats.
+
+**Standard Cosine Function:**
+The general form of a cosine function is:
+
+\[
+y = \cos(\theta)
+\]
+
+For \( y = \cos(\theta) \), the function completes one full cycle from \( 0 \) to \( 2\pi \), meaning:
+
+\[
+\text{Period} = 2\pi
+\]
+
+**Correct Answer:**
+**\( 2\pi \)**
+
+</details>
+
+</br>
