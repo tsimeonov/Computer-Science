@@ -41,3 +41,10 @@ Key points:
 ### Chapter 24: Trigonometrical identities and equations
 
 #### 24.1: Trigonometric identities
+
+At first sight, an identity looks like an equation.
+The crucial and important difference is that the left-hand side and the right-hand side of an identity are equal for all values of the variable involved.
+
+\[
+\frac{\text{sin 𝜃}}{\text{cos 𝜃}} = {\text{sin 𝜃}}
+\]
