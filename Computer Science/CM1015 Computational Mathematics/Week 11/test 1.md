@@ -133,3 +133,52 @@ For \( y = \sin(\theta) \), the function completes one full cycle from \( 0 \) t
 - 2π
 - $\frac{1}{2π}$
 - 1
+
+<details>
+  <summary>Solution</summary>
+
+The **frequency** of a sine function is the **number of complete cycles** it completes in a given interval, typically in **\(2\pi\) units**.
+
+**Formula for Frequency:**
+For a sine function of the form:
+
+\[
+y = \sin(B\theta)
+\]
+
+- The **period** is given by:
+  \[
+  \text{Period} = \frac{2\pi}{B}
+  \]
+- The **frequency** is the **reciprocal** of the period:
+
+  \[
+  \text{Frequency} = \frac{B}{2\pi}
+  \]
+
+**Standard Sine Function \( y = \sin(\theta) \):**
+
+- Here, \( B = 1 \), so the period is:
+
+  \[
+  \frac{2\pi}{1} = 2\pi
+  \]
+
+- The frequency is:
+
+  \[
+  \frac{1}{2\pi}
+  \]
+
+**Correct Answer:**
+✅ **\( \frac{1}{2\pi} \)**
+
+#### **Explanation for rejecting other options:**
+
+- **\( \pi \)**: This is not the frequency; it is unrelated to frequency calculation.
+- **\( 2\pi \)**: This is the **period**, not the frequency.
+- **\( 1 \)**: This would be the frequency if the period were \( 1 \), but for the standard sine function, the period is \( 2\pi \), making the frequency \( \frac{1}{2\pi} \).
+
+</details>
+
+</br>
