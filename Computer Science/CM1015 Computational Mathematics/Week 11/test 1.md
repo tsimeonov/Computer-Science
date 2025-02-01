@@ -97,3 +97,32 @@ Thus, the amplitude is:
 - C:1
 - \*B:2π
 - D:$\frac{1}{2π}$
+
+<details>
+  <summary>Solution</summary>
+
+The **period** of a sine function is the length of one complete cycle before it starts repeating.
+**Standard Sine Function:**
+The general form of the sine function is:
+
+\[
+y = \sin(\theta)
+\]
+
+For \( y = \sin(\theta) \), the function completes one full cycle from \( 0 \) to \( 2\pi \), meaning:
+
+\[
+\text{Period} = 2\pi
+\]
+**Correct Answer:**
+✅ **\( 2\pi \) (\*B:2π)**
+
+**Explanation for rejecting other options:**
+
+- **\( \pi \)**: The sine function completes only **half** a cycle at \( \pi \), but the full cycle takes \( 2\pi \).
+- **\( 1 \)**: The period of the standard sine function is not 1; it is \( 2\pi \).
+- **\( \frac{1}{2\pi} \)**: This value is unrelated to the period of the sine function.
+
+</details>
+
+</br>
