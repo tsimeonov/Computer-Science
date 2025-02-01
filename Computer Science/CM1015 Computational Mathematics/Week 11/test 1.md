@@ -260,3 +260,55 @@ For \( y = \cos(\theta) \), the function completes one full cycle from \( 0 \) t
 - $\frac{1}{2π}$
 - 2π
 - π
+
+<details>
+  <summary>Solution</summary>
+
+The **frequency** of a function is the **number of complete cycles** it completes in a given interval, typically in **\(2\pi\) units**.
+
+**Formula for Frequency:**
+For a cosine function of the form:
+
+\[
+y = \cos(B\theta)
+\]
+
+- The **period** is given by:
+
+  \[
+  \text{Period} = \frac{2\pi}{B}
+  \]
+
+- The **frequency** is the **reciprocal** of the period:
+
+  \[
+  \text{Frequency} = \frac{B}{2\pi}
+  \]
+
+  **Standard Cosine Function \( y = \cos(\theta) \):**
+
+- Here, \( B = 1 \), so the period is:
+
+  \[
+  \frac{2\pi}{1} = 2\pi
+  \]
+
+- The frequency is:
+
+  \[
+  \frac{1}{2\pi}
+  \]
+
+### **Correct Answer:**
+
+✅ **\( \frac{1}{2\pi} \)**
+
+**Explanation for rejecting other options:**
+
+- **\( 1 \)**: This would be the frequency if the period were \( 1 \), but for the standard cosine function, the period is \( 2\pi \), making the frequency \( \frac{1}{2\pi} \).
+- **\( 2\pi \)**: This is the **period**, not the frequency.
+- **\( \pi \)**: This is incorrect as the correct frequency is **\( \frac{1}{2\pi} \)**.
+
+</details>
+
+</br>
