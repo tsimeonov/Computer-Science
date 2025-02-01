@@ -253,3 +253,10 @@ For \( y = \cos(\theta) \), the function completes one full cycle from \( 0 \) t
 </details>
 
 </br>
+
+9. **What is the frequency of the cosine function?**
+
+- 1
+- $\frac{1}{2π}$
+- 2π
+- π
