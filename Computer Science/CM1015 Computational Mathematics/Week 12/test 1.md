@@ -142,3 +142,46 @@ Thus, the correct answer is **3**.
 </br>
 
 4. **Derive the identity for sin(2𝛼), using the angle addition formula.**
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+To derive the identity for \(\sin(2\alpha)\) using the angle addition formula, follow these steps:
+
+1. **Start with the angle addition formula for sine:**
+
+   \[
+   \sin(\alpha + \beta) = \sin\alpha \cos\beta + \cos\alpha \sin\beta.
+   \]
+
+2. **Set \(\beta = \alpha\):**
+
+   \[
+   \sin(\alpha + \alpha) = \sin\alpha \cos\alpha + \cos\alpha \sin\alpha.
+   \]
+
+3. **Simplify the left-hand side:**
+
+   \[
+   \sin(2\alpha) = \sin\alpha \cos\alpha + \cos\alpha \sin\alpha.
+   \]
+
+4. **Combine like terms:**
+
+   Since \(\sin\alpha \cos\alpha\) appears twice, we have:
+
+   \[
+   \sin(2\alpha) = 2\sin\alpha \cos\alpha.
+   \]
+
+Thus, the derived identity is:
+
+\[
+\boxed{\sin(2\alpha) = 2\sin\alpha \cos\alpha.}
+\]
+
+</details>
+
+</br>
