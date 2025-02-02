@@ -387,3 +387,10 @@ Thus, the amplitude is **3** because of the coefficient in front of sine, and th
 </details>
 
 </br>
+
+9. **The function y = sin x + $\frac{𝜋}{2}$ is equivalent to which of the following?**
+
+- -cos(x)
+- -sin(x)
+- sin(x)
+- cos(x)
