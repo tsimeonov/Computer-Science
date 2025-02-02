@@ -116,3 +116,10 @@ which is the definition of an even function. Therefore, the cosine function is i
 </details>
 
 </br>
+
+3. **What is the amplitude of the function y = 3sin(x)?**
+
+- 2∏
+- 1
+- ∏
+  3
