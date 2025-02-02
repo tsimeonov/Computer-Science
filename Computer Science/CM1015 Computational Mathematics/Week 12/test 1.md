@@ -192,3 +192,26 @@ Thus, the derived identity is:
 - 4∏
 - $\frac{∏}{2}$
 - ∏
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+The general formula for the period of the function \( \sin(kx) \) is:
+
+\[
+\text{Period} = \frac{2\pi}{|k|}.
+\]
+
+For the function \( y = \sin(2x) \), we have \( k = 2 \). Thus, the period is:
+
+\[
+\text{Period} = \frac{2\pi}{2} = \pi.
+\]
+
+So, the correct answer is **\(\pi\)**.
+
+</details>
+
+</br>
