@@ -217,3 +217,42 @@ So, the correct answer is **\(\pi\)**.
 </br>
 
 6. **Sketch the graph of y = sin(2x) and explain how it differs from the graph of y = sin(x)**
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+<img src="./output.png" width="550px"/>
+
+**Explanation of the Graph**
+
+The plot compares the graphs of \( y = \sin(x) \) (dashed line) and \( y = \sin(2x) \) (solid line). Here’s how they differ:
+
+1. **Period Change (Horizontal Compression)**
+
+   - The period of \( y = \sin(x) \) is \( 2\pi \), meaning it completes one full cycle over \( 2\pi \).
+   - The period of \( y = \sin(2x) \) is \( \pi \), meaning it completes one full cycle in half the distance.
+   - As a result, \( y = \sin(2x) \) oscillates twice as frequently as \( y = \sin(x) \), compressing the waveform horizontally.
+
+2. **Same Amplitude**
+
+   - Both functions oscillate between -1 and 1, meaning their amplitude remains **unchanged**.
+
+3. **Frequency Doubling**
+   - Since the function \( y = \sin(2x) \) completes two full cycles in the same space where \( y = \sin(x) \) completes one, it has **twice the frequency**.
+
+**Summary of Differences**
+
+| Feature       | \( y = \sin(x) \)      | \( y = \sin(2x) \)                           |
+| ------------- | ---------------------- | -------------------------------------------- |
+| **Period**    | \( 2\pi \)             | \( \pi \)                                    |
+| **Amplitude** | 1                      | 1                                            |
+| **Frequency** | 1 cycle per \( 2\pi \) | 2 cycles per \( 2\pi \)                      |
+| **Effect**    | Normal wave            | Horizontally compressed wave (twice as fast) |
+
+The main takeaway is that **\( y = \sin(2x) \) is a horizontally compressed version of \( y = \sin(x) \), with twice the frequency but the same amplitude.**
+
+</details>
+
+</br>
