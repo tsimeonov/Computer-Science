@@ -394,3 +394,60 @@ Thus, the amplitude is **3** because of the coefficient in front of sine, and th
 - -sin(x)
 - sin(x)
 - cos(x)
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+We need to determine which function is equivalent to:
+
+\[
+y = \sin x + \frac{\pi}{2}
+\]
+
+**Step 1: Use the Sine Addition Formula**
+The sine addition formula states:
+
+\[
+\sin(A + B) = \sin A \cos B + \cos A \sin B.
+\]
+
+Setting \( A = x \) and \( B = \frac{\pi}{2} \), we apply the formula:
+
+\[
+\sin \left(x + \frac{\pi}{2} \right) = \sin x \cos \frac{\pi}{2} + \cos x \sin \frac{\pi}{2}.
+\]
+
+**Step 2: Evaluate Trigonometric Values**
+From known trigonometric values:
+
+\[
+\cos \frac{\pi}{2} = 0, \quad \sin \frac{\pi}{2} = 1.
+\]
+
+Substituting these:
+
+\[
+\sin \left(x + \frac{\pi}{2} \right) = \sin x (0) + \cos x (1).
+\]
+
+\[
+= \cos x.
+\]
+
+**Step 3: Identify the Equivalent Expression**
+Thus, we conclude:
+
+\[
+\sin \left(x + \frac{\pi}{2} \right) = \cos x.
+\]
+
+**Final Answer:**
+\[
+\boxed{\cos(x)}
+\]
+
+</details>
+
+</br>
