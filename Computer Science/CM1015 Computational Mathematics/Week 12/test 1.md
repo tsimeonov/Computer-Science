@@ -263,3 +263,53 @@ The main takeaway is that **\( y = \sin(2x) \) is a horizontally compressed vers
 - f(- x) = fx
 - f(x) = -f(x + ∏)
 - f(-x) = -f(x)
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+The correct answer is:
+
+**\( f(-x) = -f(x) \)**
+
+**Explanation:**
+
+A function \( f(x) \) is **odd** if it satisfies the condition:
+
+\[
+f(-x) = -f(x)
+\]
+
+for all values of \( x \) in its domain. This means that the function has **rotational symmetry** about the origin—when you reflect it across the y-axis and then across the x-axis, it remains unchanged.
+
+### **Checking the Given Options:**
+
+1. **\( f(x) = f(x + 2\pi) \)**
+
+   - This describes **periodicity**, not odd symmetry.
+   - Example: \( \sin x \) satisfies \( \sin(x + 2\pi) = \sin x \), but that doesn't define whether it's odd.
+
+2. **\( f(-x) = f(x) \)**
+
+   - This describes an **even function**, not an odd function.
+   - Example: \( \cos x \) satisfies \( \cos(-x) = \cos x \).
+
+3. **\( f(x) = -f(x + \pi) \)**
+
+   - This describes a function with **anti-periodicity** (like the sine function with period shift \( \pi \)).
+   - Example: \( \sin(x) \) satisfies \( \sin(x + \pi) = -\sin(x) \), but this is different from the odd function definition.
+
+4. **\( f(-x) = -f(x) \)** ✅
+   - This is the correct condition for an odd function.
+   - Example: \( f(x) = \sin x \) satisfies \( \sin(-x) = -\sin(x) \), proving it is odd.
+
+**Final Answer:**
+
+\[
+\boxed{f(-x) = -f(x)}
+\]
+
+</details>
+
+</br>
