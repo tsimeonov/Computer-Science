@@ -123,3 +123,20 @@ which is the definition of an even function. Therefore, the cosine function is i
 - 1
 - ∏
   3
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+The amplitude of a sine function in the form \( y = A\sin(x) \) is given by the absolute value of \( A \). In this case, \( A = 3 \), so the amplitude is:
+
+\[
+\text{Amplitude} = |3| = 3.
+\]
+
+Thus, the correct answer is **3**.
+
+</details>
+
+</br>
