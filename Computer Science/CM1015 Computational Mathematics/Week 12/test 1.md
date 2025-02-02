@@ -4,7 +4,7 @@
 
 - Cosine is an odd function
 - Cosine 𝜃 is equal to cosine of -𝜃
-- Cosine of 𝜃 has a period of ∏
+- Cosine of 𝜃 has a period of 𝜋
 - Cosine of -𝜃 is equal to -cos(𝜃)
 
 <details>
@@ -119,9 +119,9 @@ which is the definition of an even function. Therefore, the cosine function is i
 
 3. **What is the amplitude of the function y = 3sin(x)?**
 
-- 2∏
+- 2𝜋
 - 1
-- ∏
+- 𝜋
   3
 
 <details>
@@ -188,10 +188,10 @@ Thus, the derived identity is:
 
 5. **If y = sin(2x), what is the period of the function?**
 
-- 2∏
-- 4∏
-- $\frac{∏}{2}$
-- ∏
+- 2𝜋
+- 4𝜋
+- $\frac{𝜋}{2}$
+- 𝜋
 
 <details>
   <summary>Solution</summary>
@@ -259,9 +259,9 @@ The main takeaway is that **\( y = \sin(2x) \) is a horizontally compressed vers
 
 7. **Which of the following describes an odd function?**
 
-- f(x) = f(x + 2 ∏)
+- f(x) = f(x + 2 𝜋)
 - f(- x) = fx
-- f(x) = -f(x + ∏)
+- f(x) = -f(x + 𝜋)
 - f(-x) = -f(x)
 
 <details>
@@ -314,4 +314,76 @@ for all values of \( x \) in its domain. This means that the function has **rota
 
 </br>
 
-8. **Explain why y = 3sin(2x) has an amplitude of 3 and a period of ∏**
+8. **Explain why y = 3sin(2x) has an amplitude of 3 and a period of 𝜋**
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+**Understanding the Function \( y = 3\sin(2x) \)**
+
+The general form of a sine function is:
+
+\[
+y = A\sin(Bx)
+\]
+
+where:
+
+- \( A \) represents the **amplitude** (the maximum value of the function).
+- \( B \) affects the **period** of the function.
+
+Now, let's analyze the given function:
+
+\[
+y = 3\sin(2x)
+\]
+
+---
+
+**1. Amplitude of \( y = 3\sin(2x) \)**
+The **amplitude** of a sine function is given by:
+
+\[
+\text{Amplitude} = |A|
+\]
+
+For \( y = 3\sin(2x) \), the coefficient \( A = 3 \). This means:
+
+\[
+\text{Amplitude} = |3| = 3.
+\]
+
+This means that the function oscillates between **+3 and -3** instead of the usual **+1 and -1** for \( \sin(x) \).
+
+---
+
+**2. Period of \( y = 3\sin(2x) \)**
+The **period** of a sine function is given by the formula:
+
+\[
+\text{Period} = \frac{2\pi}{|B|}
+\]
+
+For \( y = 3\sin(2x) \), the coefficient \( B = 2 \). So, the period is:
+
+\[
+\text{Period} = \frac{2\pi}{2} = \pi.
+\]
+
+This means that the function completes **one full cycle** over an interval of \( \pi \), instead of the usual \( 2\pi \) for \( \sin(x) \). As a result, the graph is **horizontally compressed** (the wave oscillates twice as fast).
+
+---
+
+**Summary**
+| Feature | Standard \( y = \sin(x) \) | Modified \( y = 3\sin(2x) \) |
+|--------------|----------------|----------------|
+| **Amplitude** | 1 | 3 |
+| **Period** | \( 2\pi \) | \( \pi \) (compressed by a factor of 2) |
+
+Thus, the amplitude is **3** because of the coefficient in front of sine, and the period is **\( \pi \)** because of the coefficient inside the sine function.
+
+</details>
+
+</br>
