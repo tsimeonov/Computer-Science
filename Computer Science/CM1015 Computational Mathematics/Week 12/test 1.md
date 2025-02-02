@@ -256,3 +256,10 @@ The main takeaway is that **\( y = \sin(2x) \) is a horizontally compressed vers
 </details>
 
 </br>
+
+7. **Which of the following describes an odd function?**
+
+- f(x) = f(x + 2 ∏)
+- f(- x) = fx
+- f(x) = -f(x + ∏)
+- f(-x) = -f(x)
