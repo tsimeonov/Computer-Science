@@ -33,3 +33,5 @@ Thus, the only true statement is that cosine of 𝜃 is equal to cosine of -𝜃
 </details>
 
 </br>
+
+2. **Prove that the cosine function is an even function**
