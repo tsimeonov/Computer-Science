@@ -140,3 +140,5 @@ Thus, the correct answer is **3**.
 </details>
 
 </br>
+
+4. **Derive the identity for sin(2𝛼), using the angle addition formula.**
