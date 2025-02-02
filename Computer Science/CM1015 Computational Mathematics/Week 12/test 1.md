@@ -185,3 +185,10 @@ Thus, the derived identity is:
 </details>
 
 </br>
+
+5. **If y = sin(2x), what is the period of the function?**
+
+- 2∏
+- 4∏
+- $\frac{∏}{2}$
+- ∏
