@@ -451,3 +451,5 @@ Thus, we conclude:
 </details>
 
 </br>
+
+10. **Given the function y = 2sin(3x - $\frac{𝜋}{2}$), determine its amplitude, period, frequency and phase shift.**
