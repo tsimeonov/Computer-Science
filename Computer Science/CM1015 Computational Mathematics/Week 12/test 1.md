@@ -313,3 +313,5 @@ for all values of \( x \) in its domain. This means that the function has **rota
 </details>
 
 </br>
+
+8. **Explain why y = 3sin(2x) has an amplitude of 3 and a period of ∏**
