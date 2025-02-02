@@ -215,3 +215,5 @@ So, the correct answer is **\(\pi\)**.
 </details>
 
 </br>
+
+6. **Sketch the graph of y = sin(2x) and explain how it differs from the graph of y = sin(x)**
