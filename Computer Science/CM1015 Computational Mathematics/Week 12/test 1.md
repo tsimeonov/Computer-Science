@@ -453,3 +453,111 @@ Thus, we conclude:
 </br>
 
 10. **Given the function y = 2sin(3x - $\frac{𝜋}{2}$), determine its amplitude, period, frequency and phase shift.**
+
+<details>
+  <summary>Solution</summary>
+
+</br>
+
+Given the function:
+
+\[
+y = 2\sin\left(3x - \frac{\pi}{2}\right)
+\]
+
+we will determine the **amplitude, period, frequency, and phase shift**.
+
+---
+
+**1. Amplitude**
+The **amplitude** of a sine function in the form:
+
+\[
+y = A\sin(Bx - C)
+\]
+
+is given by:
+
+\[
+\text{Amplitude} = |A|.
+\]
+
+For our function, \( A = 2 \), so:
+
+\[
+\text{Amplitude} = |2| = 2.
+\]
+
+---
+
+**2. Period**
+The **period** of a sine function is calculated as:
+
+\[
+\text{Period} = \frac{2\pi}{|B|}.
+\]
+
+For our function, \( B = 3 \), so:
+
+\[
+\text{Period} = \frac{2\pi}{3}.
+\]
+
+---
+
+**3. Frequency**
+The **frequency** of a sine function is the **reciprocal** of the period:
+
+\[
+\text{Frequency} = \frac{|B|}{2\pi}.
+\]
+
+Substituting \( B = 3 \):
+
+\[
+\text{Frequency} = \frac{3}{2\pi}.
+\]
+
+This means that within a standard interval of \( 2\pi \), the function completes **3 full cycles**.
+
+---
+
+**4. Phase Shift**
+The **phase shift** is determined by:
+
+\[
+\text{Phase Shift} = \frac{C}{B},
+\]
+
+where \( C \) is the horizontal shift value from the standard sine function \( y = \sin(Bx - C) \).
+
+For our function:
+
+\[
+C = \frac{\pi}{2}, \quad B = 3.
+\]
+
+Thus, the phase shift is:
+
+\[
+\frac{\frac{\pi}{2}}{3} = \frac{\pi}{6}.
+\]
+
+Since the form is **\( Bx - C \)** (not \( Bx + C \)), the shift is **to the right** by \( \frac{\pi}{6} \).
+
+---
+
+**Final Answer**
+
+| Property        | Value                       |
+| --------------- | --------------------------- |
+| **Amplitude**   | \( 2 \)                     |
+| **Period**      | \( \frac{2\pi}{3} \)        |
+| **Frequency**   | \( \frac{3}{2\pi} \)        |
+| **Phase Shift** | \( \frac{\pi}{6} \) (Right) |
+
+This means the function oscillates with twice the normal height, completes a cycle in \( \frac{2\pi}{3} \), oscillates three times per \( 2\pi \), and is shifted **right** by \( \frac{\pi}{6} \).
+
+</details>
+
+</br>
