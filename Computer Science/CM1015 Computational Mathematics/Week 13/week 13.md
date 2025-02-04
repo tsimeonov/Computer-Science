@@ -21,3 +21,5 @@ y = e^x^
 3. As **x** increases, then e^x^ increases. This is known as **exponential growth**
 
 <img src="./Table 1.png" width="500px"/>
+
+<img src="./Figure 1.png" width="400px"/>
