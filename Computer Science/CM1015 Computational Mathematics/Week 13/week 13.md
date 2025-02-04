@@ -11,3 +11,7 @@ The letter **e** always denotes the constant 2.71828
 The most common exponential expression is e^x^ where **e** is the exponential constant, 2.71828
 
 ##### 19.1: The exponential function and its graph
+
+The **exponential function** has the form
+
+y = e^x^
