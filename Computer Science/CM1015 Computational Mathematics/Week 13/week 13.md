@@ -18,3 +18,4 @@ y = e^x^
 
 1. The exponential function is never negative
 2. When x = 0, the function value is 1
+3. As **x** increases, then e^x^ increases. This is known as **exponential growth**
