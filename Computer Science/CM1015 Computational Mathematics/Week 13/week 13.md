@@ -15,3 +15,5 @@ The most common exponential expression is e^x^ where **e** is the exponential co
 The **exponential function** has the form
 
 y = e^x^
+
+1.  The exponential function is never negative
