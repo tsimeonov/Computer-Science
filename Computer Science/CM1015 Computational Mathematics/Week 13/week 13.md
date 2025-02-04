@@ -16,4 +16,5 @@ The **exponential function** has the form
 
 y = e^x^
 
-1.  The exponential function is never negative
+1. The exponential function is never negative
+2. When x = 0, the function value is 1
