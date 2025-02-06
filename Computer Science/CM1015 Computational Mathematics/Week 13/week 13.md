@@ -23,3 +23,5 @@ y = e^x^
 <img src="./Table 1.png" width="450px"/>
 
 <img src="./Figure 1.png" width="350px"/>
+
+**Exponential decay**
