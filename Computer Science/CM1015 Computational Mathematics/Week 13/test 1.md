@@ -79,3 +79,10 @@ Correct Answer:
 </details>
 
 </br>
+
+**3. What is the result of $(16)^{\frac{3}{4}}$**
+
+- 2
+- 8
+- 16
+- 4
