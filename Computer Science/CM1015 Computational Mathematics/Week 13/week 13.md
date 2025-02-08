@@ -31,3 +31,7 @@ We now turn our attention to an associated function: y = e^-x^. Values are liste
 1. The function is never negative.
 2. When x = 0, the function has a value of 1
 3. As _x_ increases, then e^-x^ decreases, getting nearer to 0. This is known as **exponential decay**.
+
+<img src="./Table 2.png" width="450px"/>
+
+<img src="./Figure 1.png" width="350px"/>
