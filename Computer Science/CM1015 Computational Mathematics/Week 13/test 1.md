@@ -44,3 +44,10 @@ Correct Answer:
 </details>
 
 </br>
+
+**2. Which property of exponential functions is illustrated by the equation a^n^ x a^m^ = a^n+m^**
+
+- Division property
+- Multiplication property
+- Negative exponent property
+- Power of a power property
