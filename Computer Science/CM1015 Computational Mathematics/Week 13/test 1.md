@@ -51,3 +51,31 @@ Correct Answer:
 - Multiplication property
 - Negative exponent property
 - Power of a power property
+
+<details>
+  <summary>Solution</summary>
+
+The given equation is:
+
+\[
+a^n \times a^m = a^{n+m}
+\]
+
+Step 1: Identify the property
+
+- This equation states that when multiplying two exponential expressions with the **same base**, the exponents are **added**.
+- This is a fundamental property of exponentiation.
+
+Step 2: Match with the given answer choices
+
+- **Division property**: This deals with the rule \(\frac{a^n}{a^m} = a^{n-m}\), which is not applicable here.
+- **Multiplication property**: This correctly describes how exponents add when multiplying powers of the same base.
+- **Negative exponent property**: This applies when exponents are negative, e.g., \( a^{-n} = \frac{1}{a^n} \), which is not relevant here.
+- **Power of a power property**: This applies when an exponent is raised to another exponent, e.g., \( (a^n)^m = a^{n \cdot m} \), which is different from the given equation.
+
+Correct Answer:
+**Multiplication property**
+
+</details>
+
+</br>
