@@ -86,3 +86,50 @@ Correct Answer:
 - 8
 - 16
 - 4
+
+<details>
+  <summary>Solution</summary>
+
+We need to evaluate:
+
+\[
+(16)^{\frac{3}{4}}
+\]
+
+Step 1: Express 16 as a Power of 2
+
+\[
+16 = 2^4
+\]
+
+Rewriting the expression:
+
+\[
+(2^4)^{\frac{3}{4}}
+\]
+
+Step 2: Use the Power of a Power Property
+
+\[
+(a^m)^n = a^{m \cdot n}
+\]
+
+Applying this property:
+
+\[
+2^{4 \times \frac{3}{4}} = 2^{3}
+\]
+
+Step 3: Compute the Exponentiation
+
+\[
+2^3 = 8
+\]
+
+Correct Answer:
+
+**8**
+
+</details>
+
+</br>
