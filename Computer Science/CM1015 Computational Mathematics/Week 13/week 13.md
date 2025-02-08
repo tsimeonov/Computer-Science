@@ -25,3 +25,9 @@ y = e^x^
 <img src="./Figure 1.png" width="350px"/>
 
 **Exponential decay**
+
+We now turn our attention to an associated function: y = e^-x^. Values are listed in the table below and the function is illustrated in the figure. From the table and the graph we note the following properties of y = e^-x^.
+
+1. The function is never negative.
+2. When x = 0, the function has a value of 1
+3. As _x_ increases, then e^-x^ decreases, getting nearer to 0. This is known as **exponential decay**.
