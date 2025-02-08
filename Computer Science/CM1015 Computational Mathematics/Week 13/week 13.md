@@ -34,4 +34,4 @@ We now turn our attention to an associated function: y = e^-x^. Values are liste
 
 <img src="./Table 2.png" width="450px"/>
 
-<img src="./Figure 1.png" width="350px"/>
+<img src="./Figure 3.png" width="350px"/>
