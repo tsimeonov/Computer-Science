@@ -287,3 +287,5 @@ So, the approximate value of \( y = 2^{\frac{5}{3}} \) is **3.175** (rounded to 
 </details>
 
 </br>
+
+7. **Verify the property a^-n^ = ${\frac{1}{a^n}} $ by using a = 2 and n = 3**
