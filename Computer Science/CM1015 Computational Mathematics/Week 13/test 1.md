@@ -235,3 +235,55 @@ Final Answer:
 </br>
 
 6. **Find the value of y if $ y = 2^{\frac{5}{3}} $**
+
+<details>
+  <summary>Solution</summary>
+
+We are given the equation:
+
+\[
+y = 2^{\frac{5}{3}}
+\]
+
+Step 1: Rewrite the Exponentiation
+
+The exponent \(\frac{5}{3}\) can be broken down as:
+
+\[
+2^{\frac{5}{3}} = \left(2^{\frac{1}{3}}\right)^5
+\]
+
+This means we first calculate \(2^{\frac{1}{3}}\), which is the **cube root of 2**.
+
+Step 2: Compute \( 2^{\frac{1}{3}} \)
+
+The cube root of 2 is:
+
+\[
+2^{\frac{1}{3}} \approx 1.2599
+\]
+
+Step 3: Raise the Result to the Power of 5
+
+Now, we compute:
+
+\[
+(1.2599)^5
+\]
+
+Using exponentiation:
+
+\[
+1.2599^5 \approx 3.1748
+\]
+Step 4: Final Answer
+
+\[
+y \approx 3.175
+\]
+
+So, the approximate value of \( y = 2^{\frac{5}{3}} \) is **3.175** (rounded to three decimal places).
+
+</details>
+
+</br>
