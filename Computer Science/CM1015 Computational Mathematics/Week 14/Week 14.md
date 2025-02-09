@@ -16,8 +16,12 @@ then
 
 log~a~y = x
 
+---
+
 **Key point**
 
 y = a^x^ and log~a~y = x are equivalent
 
 "The logarithm to the base a of y is x, is equivalent to saying that y is a to the power x. The word logarithm is usually shortened to just log"
+
+---
