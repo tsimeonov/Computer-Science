@@ -193,3 +193,5 @@ Thus, the correct answer is:
 </details>
 
 </br>
+
+5. **Solve the x in the equation 3^2x^ = 27**
