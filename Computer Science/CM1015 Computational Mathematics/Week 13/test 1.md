@@ -233,3 +233,5 @@ Final Answer:
 </details>
 
 </br>
+
+6. **Find the value of y if $ y = 2^{\frac{5}{3}} $**
