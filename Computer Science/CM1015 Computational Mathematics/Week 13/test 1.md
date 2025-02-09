@@ -195,3 +195,41 @@ Thus, the correct answer is:
 </br>
 
 5. **Solve the x in the equation 3^2x^ = 27**
+
+<details>
+  <summary>Solution</summary>
+
+We are given the equation:
+
+\[
+3^{2x} = 27
+\]
+
+Step 1: Express 27 as a Power of 3
+Since \( 27 = 3^3 \), we rewrite the equation as:
+
+\[
+3^{2x} = 3^3
+\]
+
+Step 2: Equating the Exponents
+Since the bases are the same, we set the exponents equal to each other:
+
+\[
+2x = 3
+\]
+
+Step 3: Solve for \( x \)
+
+\[
+x = \frac{3}{2}
+\]
+
+Final Answer:
+\[
+\mathbf{x = \frac{3}{2}}
+\]
+
+</details>
+
+</br>
