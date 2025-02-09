@@ -376,3 +376,5 @@ Thus, the value of \( a^n \) is **8**.
 </details>
 
 </br>
+
+9. **Determine y if y = $4^{-\frac{1}{2}}$**
