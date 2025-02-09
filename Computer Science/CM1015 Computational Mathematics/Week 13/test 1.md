@@ -333,3 +333,46 @@ a^{-n} = \frac{1}{a^n}
 </br>
 
 8. **If a = 16 and n = ${\frac{3}{4}}$, find the value of a^n^**
+
+<details>
+  <summary>Solution</summary>
+
+We are given:
+
+\[
+a = 16, \quad n = \frac{3}{4}
+\]
+
+We need to compute:
+
+\[
+a^n = 16^{\frac{3}{4}}
+\]
+
+Step 1: Rewrite the Exponent
+\[
+16^{\frac{3}{4}} = \left(16^{\frac{1}{4}}\right)^3
+\]
+
+This means we first calculate \( 16^{\frac{1}{4}} \), which is the **fourth root of 16**.
+
+Step 2: Compute \( 16^{\frac{1}{4}} \)
+\[
+16^{\frac{1}{4}} = \sqrt[4]{16} = 2
+\]
+
+Step 3: Raise the Result to the Power of 3
+\[
+2^3 = 8
+\]
+
+Step 4: Final Answer
+\[
+16^{\frac{3}{4}} = 8
+\]
+
+Thus, the value of \( a^n \) is **8**.
+
+</details>
+
+</br>
