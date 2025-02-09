@@ -133,3 +133,10 @@ Correct Answer:
 </details>
 
 </br>
+
+4. **If f~1~(x) = 2^x^ and f~2~(x) = $({\frac{1}{2}})^x$, what is the relationship between f~1~(x) and f~2~(x)**.
+
+- f~1~(x) = f~2~(-x)
+- f~1~(-x) = f~2~(-x)
+- f~1~(x) = f~2~(x)
+- f~1~(x) = f~2~(x)
