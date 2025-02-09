@@ -378,3 +378,47 @@ Thus, the value of \( a^n \) is **8**.
 </br>
 
 9. **Determine y if y = $4^{-\frac{1}{2}}$**
+
+<details>
+  <summary>Solution</summary>
+
+We are given:
+
+\[
+y = 4^{-\frac{1}{2}}
+\]
+
+Step 1: Apply the Negative Exponent Rule
+Using the property:
+
+\[
+a^{-n} = \frac{1}{a^n}
+\]
+
+we rewrite:
+
+\[
+4^{-\frac{1}{2}} = \frac{1}{4^{\frac{1}{2}}}
+\]
+
+Step 2: Compute \( 4^{\frac{1}{2}} \)
+Since the exponent \(\frac{1}{2}\) represents the square root:
+
+\[
+4^{\frac{1}{2}} = \sqrt{4} = 2
+\]
+
+Step 3: Compute the Final Value
+\[
+y = \frac{1}{2} = 0.5
+\]
+
+Final Answer:
+
+\[
+y = 0.5
+\]
+
+</details>
+
+</br>
