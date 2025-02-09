@@ -331,3 +331,5 @@ a^{-n} = \frac{1}{a^n}
 </details>
 
 </br>
+
+8. **If a = 16 and n = ${\frac{3}{4}}$, find the value of a^n^**
