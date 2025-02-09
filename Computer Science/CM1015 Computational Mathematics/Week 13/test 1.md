@@ -289,3 +289,45 @@ So, the approximate value of \( y = 2^{\frac{5}{3}} \) is **3.175** (rounded to 
 </br>
 
 7. **Verify the property a^-n^ = ${\frac{1}{a^n}} $ by using a = 2 and n = 3**
+
+<details>
+  <summary>Solution</summary>
+
+Let's verify the property again:
+
+\[
+a^{-n} = \frac{1}{a^n}
+\]
+
+#iven:
+
+- \( a = 2 \)
+- \( n = 3 \)
+
+Step 1: Compute the Left-Hand Side (LHS)
+
+\[
+2^{-3} = \frac{1}{2^3}
+\]
+
+Step 2: Compute the Right-Hand Side (RHS)
+
+\[
+\frac{1}{2^3} = \frac{1}{8} = 0.125
+\]
+
+Step 3: Compare Both Sides
+
+\[
+2^{-3} = 0.125, \quad \frac{1}{2^3} = 0.125
+\]
+
+Since both sides are equal, the property holds true:
+
+\[
+a^{-n} = \frac{1}{a^n}
+\]
+
+</details>
+
+</br>
