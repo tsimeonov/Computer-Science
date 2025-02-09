@@ -140,3 +140,56 @@ Correct Answer:
 - f~1~(-x) = f~2~(-x)
 - f~1~(x) = f~2~(x)
 - f~1~(x) = f~2~(x)
+
+<details>
+  <summary>Solution</summary>
+
+We are given the functions:
+
+\[
+f_1(x) = 2^x
+\]
+
+\[
+f_2(x) = \left(\frac{1}{2}\right)^x
+\]
+
+Step 1: Rewrite \( f_2(x) \)
+
+We express \( f_2(x) \) using exponent properties:
+
+\[
+f_2(x) = \left(\frac{1}{2}\right)^x = 2^{-x}
+\]
+
+Step 2: Compare \( f_1(x) \) and \( f_2(x) \)
+
+From the above expressions, we see:
+
+\[
+f_2(x) = 2^{-x}
+\]
+
+which means:
+
+\[
+f_1(-x) = 2^{-x} = f_2(x)
+\]
+
+or equivalently:
+
+\[
+f_1(x) = f_2(-x)
+\]
+
+Conclusion:
+
+Thus, the correct answer is:
+
+\[
+\mathbf{f_1(x) = f_2(-x)}
+\]
+
+</details>
+
+</br>
