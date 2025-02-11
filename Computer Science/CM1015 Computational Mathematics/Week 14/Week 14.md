@@ -39,3 +39,7 @@ log~a~X = ${\frac{In X}{In a}}$
 ---
 
 #### Chapter 20.3: Laws of Logarithms
+
+- The **first law** of logarithms states
+
+log A + log B = log AB
