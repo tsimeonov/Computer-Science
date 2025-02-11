@@ -47,3 +47,9 @@ log A + log B = log AB
 - The **second law** of logarithms states
 
 log A - log B = log$({\frac{A}{B}})$
+
+- The **third law** of logarithms:
+
+n log A = log A^n^
+
+This law applies if n is integer, fractional, positive or negative
