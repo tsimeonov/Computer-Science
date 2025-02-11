@@ -43,3 +43,7 @@ log~a~X = ${\frac{In X}{In a}}$
 - The **first law** of logarithms states
 
 log A + log B = log AB
+
+- The **second law** of logarithms states
+
+log A - log B = log$({\frac{A}{B}})$
