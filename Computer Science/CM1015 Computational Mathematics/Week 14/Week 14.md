@@ -27,3 +27,9 @@ y = a^x^ and log~a~y = x are equivalent
 ---
 
 #### Chapter 20.2: Calculating logarithms to any base
+
+Suppose that we wish to calculate logarithms to bases other than 10 or e. For example, in communication theory, logarithms to base 2 are commonly used. To calculate logarithms to base _a_ we use one of the following two formulae:
+
+log~a~X = ${\frac{log_{10} X}{log_{10}a}}$
+
+log~a~X = ${\frac{In X}{In a}}$
