@@ -1,5 +1,7 @@
 ### Chapter 20: The logarithmic function
 
+---
+
 #### Chapter 20.1: Introducing logarithms
 
 Given an equation such as 125 = 5^3^, we call 5 the base and 3 the power or index. We can use **logarithms** to write the equation in another form. The logarithm form is
@@ -33,3 +35,7 @@ Suppose that we wish to calculate logarithms to bases other than 10 or e. For ex
 log~a~X = ${\frac{log_{10} X}{log_{10}a}}$
 
 log~a~X = ${\frac{In X}{In a}}$
+
+---
+
+#### Chapter 20.3: Laws of Logarithms
