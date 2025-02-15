@@ -77,3 +77,10 @@ holds for **any real value** of \( x \). This is a fundamental property of logar
 </details>
 
 </br>
+
+##### 4. What is the value of the log~2~(16)
+
+- 2
+- 3
+- 4
+- 5
