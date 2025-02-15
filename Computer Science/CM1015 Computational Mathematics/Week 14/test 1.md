@@ -568,3 +568,58 @@ However, based on typical problems, **\(3^{2x - 1} = 27\)** is the most likely c
 </br>
 
 ##### 13. Express the logarithmic equation log~7~(49) = x in exponential form and solve for x
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+Step 1: Express the Logarithmic Equation in Exponential Form\*\*
+The equation given is:
+
+\[
+\log_7(49) = x.
+\]
+
+By definition of logarithms, \(\log_b(a) = c\) is equivalent to \(b^c = a\). Thus,
+
+\[
+\log_7(49) = x
+\quad\Longleftrightarrow\quad
+7^x = 49.
+\]
+
+---
+
+Step 2: Recognize 49 as a Power of 7\*\*
+We know that:
+
+\[
+49 = 7^2.
+\]
+
+So we rewrite the equation as:
+
+\[
+7^x = 7^2.
+\]
+
+---
+
+Step 3: Equate the Exponents\*\*
+Since the bases (7) are the same and both sides are positive,
+
+\[
+x = 2.
+\]
+
+---
+
+Final Answer
+\[
+\boxed{\log_7(49) = x \quad\Longleftrightarrow\quad 7^x = 49 \quad\Longrightarrow\quad x = 2.}
+\]
+
+</details>
+
+</br>
