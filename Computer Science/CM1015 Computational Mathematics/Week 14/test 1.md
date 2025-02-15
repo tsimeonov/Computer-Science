@@ -657,3 +657,55 @@ Final Answer
 </br>
 
 ##### 14. Given the function f(x) = log~2~(x-3), find the value if x when f(x) = 3
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We are given the function
+
+\[
+f(x) = \log\_{2}(x - 3)
+\]
+
+and asked to find the value of \(x\) when \(f(x) = 3\).
+
+---
+
+Step-by-Step Solution
+
+1. **Set up the equation:**
+
+   \[
+   \log\_{2}(x - 3) = 3.
+   \]
+
+2. **Rewrite in exponential form (base 2):**
+
+   \[
+   x - 3 = 2^3 = 8.
+   \]
+
+3. **Solve for \(x\):**
+
+   \[
+   x = 8 + 3 = 11.
+   \]
+
+4. **Check for validity (domain check):**
+
+   - The argument of the logarithm \((x - 3)\) must be positive, that is \(x - 3 > 0 \Rightarrow x > 3\).
+   - Our solution \(x = 11\) is indeed greater than 3, so it is valid.
+
+---
+
+Final Answer
+
+\[
+\boxed{x = 11}.
+\]
+
+</details>
+
+</br>
