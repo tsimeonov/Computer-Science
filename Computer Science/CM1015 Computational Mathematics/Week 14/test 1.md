@@ -569,6 +569,11 @@ However, based on typical problems, **\(3^{2x - 1} = 27\)** is the most likely c
 
 ##### 12. If log~4~(x) = 2, what is the value of x?
 
+- 2
+- 8
+- 16
+- 4
+
 ##### 13. Express the logarithmic equation log~7~(49) = x in exponential form and solve for x
 
 <details>
