@@ -566,3 +566,5 @@ However, based on typical problems, **\(3^{2x - 1} = 27\)** is the most likely c
 </details>
 
 </br>
+
+##### 13. Express the logarithmic equation log~7~(49) = x in exponential form and solve for x
