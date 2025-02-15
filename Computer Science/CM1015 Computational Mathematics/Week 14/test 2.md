@@ -155,3 +155,12 @@ All correct solutions/values to the equation \(3^x - 1 = 4\) among the given opt
 </details>
 
 </br>
+
+##### 3. What is the value of x
+
+0.5^x^ = 10
+
+- x = ${\frac{log10}{log0.5}}$
+- x ≈ -3.32
+- x = ${\frac{10}{5}}$ = 2
+- x = ${\frac{log0.5}{log10}}$
