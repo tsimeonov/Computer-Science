@@ -394,3 +394,5 @@ Final Answer
 </details>
 
 </br>
+
+##### 9. Given f(x) = 2^x+3^, find f^-1^(8)
