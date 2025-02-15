@@ -655,3 +655,5 @@ Final Answer
 </details>
 
 </br>
+
+##### 14. Given the function f(x) = log~2~(x-3), find the value if x when f(x) = 3
