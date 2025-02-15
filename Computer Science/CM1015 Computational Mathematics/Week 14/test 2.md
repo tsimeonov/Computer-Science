@@ -77,3 +77,16 @@ Final Answer
 </details>
 
 </br>
+
+##### 2. The value of x, solve for the variable
+
+3^x^ - 1 = 4
+
+Select all the correct answers:
+
+- x = 3
+- x = ${\frac{log5}{log3}}$
+- x = ${\frac{log3}{log5}}$
+- x = ${\frac{1}{3}}$
+- ≈ 1.46
+- ≈ 0.68
