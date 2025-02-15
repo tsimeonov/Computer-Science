@@ -84,3 +84,20 @@ holds for **any real value** of \( x \). This is a fundamental property of logar
 - 3
 - 4
 - 5
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To find the value of \(\log_2(16)\), notice that \(16 = 2^4\). Therefore:
+
+\[
+\log_2(16) = 4.
+\]
+
+**Answer: 4**
+
+</details>
+
+</br>
