@@ -274,3 +274,117 @@ Select all correct statements:
 - 4 = 2^2^ and hence log~2~(x) = 4 means x = 2
 - x = 16
 - x = 2
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+First, let's restate the problem clearly:
+
+> **Problem**: Find the value of \(x\) that satisfies
+> \[
+> \log(x) = 4.
+> \]
+> Then, determine which of the given statements are correct.
+
+The difficulty here is that the base of the logarithm \(\log(\cdot)\) is **not explicitly stated**. By convention in many contexts (particularly in high-school level algebra courses in certain regions), \(\log(x)\) often means \(\log*{10}(x)\). In higher mathematics or certain contexts, \(\log(x)\) might mean \(\ln(x)\) (log base \(e\)). Meanwhile, some textbooks or problems might use \(\log\) to mean \(\log*{2}\). Without a clear base, we have an ambiguity.
+
+---
+
+1. If \(\log\) means \(\log\_{10}\)
+
+- The equation \(\log\_{10}(x) = 4\) means \(x = 10^4 = 10000\).
+- Checking the provided options:
+
+  1. None of the other options is correct
+  2. \(4 = 2^2\) and hence \(\log\_{2}(x) = 4\) means \(x=2\)
+  3. \(x = 16\)
+  4. \(x = 2\)
+
+  None of these is \(x = 10000\). Therefore, if the base is \(10\), the correct solution \(x=10000\) does **not** appear in the list. In that scenario, the only truthful statement would be
+
+  > **"None of the other options is correct."**
+
+---
+
+2. If \(\log\) means \(\log\_{2}\)
+
+- The equation \(\log\_{2}(x) = 4\) means \(x = 2^4 = 16\).
+- Checking the same options with this interpretation:
+
+  1. None of the other options is correct
+  2. \(4 = 2^2\) and hence \(\log*{2}(x) = 4\) means \(x=2\) (This is **incorrect** reasoning; if \(\log*{2}(x)=4\), then \(x=16\), not 2.)
+  3. \(x = 16\) (This is **correct** for \(\log\_{2}(x)=4\).)
+  4. \(x = 2\) (Incorrect for \(\log\_{2}(x)=4\).)
+
+  In this scenario, the correct statement is \(x = 16\), so statement #3 is true and statement #1 ("None of the other options is correct") would be false—because one of the other statements (\#3) _is_ correct.
+
+---
+
+3. Which Interpretation Is Most Likely?
+
+- If a problem simply writes \(\log(x)\) without a base, the most common “default” in many high-school or standard algebra texts is \(\log\_{10}\). In that case, \(x = 10^4 = 10000\), and it matches **none** of the provided numerical options, so “None of the other options” would be correct.
+- However, the presence of statements referring explicitly to \(\log\_{2}(x)\) and powers of 2 (like \(4 = 2^2\)) strongly suggests the problem _might_ be intending to use base 2.
+- Indeed, the statement _"4 = 2^2 and hence \(\log\_{2}(x) = 4\) means \(x=2\)"_ is obviously a _wrong_ conclusion (it should yield \(x=16\)), which implies the question revolves around base 2 logs.
+
+Given the nature of the options (mentioning \(2^2\) and so forth), it is very likely the problem intended:
+
+\[
+\log\_{2}(x) = 4.
+\]
+
+Hence the correct solution is
+
+\[
+x = 2^4 = 16.
+\]
+
+---
+
+4. Analyzing Each Provided Statement
+
+Let’s match each of the given statements with \(\log\_{2}(x) = 4\):
+
+1. **None of the other options is correct**
+   This would be true _only if_ there were no correct statements among the rest. But we will see that one of them is correct.
+
+2. **\(4 = 2^2\) and hence \(\log\_{2}(x) = 4\) means \(x=2\)**
+
+   - This is incorrect reasoning. If \(\log\_{2}(x)=4\), then \(x=2^4=16\), _not_ 2. So this statement is false.
+
+3. **\(x=16\)**
+
+   - This is exactly the correct solution for \(\log\_{2}(x)=4\). So this statement is **true** if the base is 2.
+
+4. **\(x=2\)**
+   - As discussed, that would mean \(\log\_{2}(2)=1\), not 4. So this is incorrect.
+
+Therefore, assuming the base is 2 (which all the statements seem to hint at), **the correct statement is** \(x=16\). Choosing “None of the other options is correct” would be wrong, because there _is_ a correct option (\(x=16\)).
+
+---
+
+5. Conclusion
+
+- If the base is understood to be 10, the solution is \(x=10^4=10000\), not in the list, so “None of the other options is correct” would be the right choice.
+- If the base is understood to be 2, the solution is \(x=16\), which _is_ in the list, making \(x=16\) the correct statement.
+
+Given that two statements explicitly mention \(\log\_{2}\) and powers of 2, the problem almost certainly wants you to interpret “\(\log\)” as base 2.
+
+Thus, the best interpretation is:
+
+\[
+\log\_{2}(x) = 4
+\quad\Longrightarrow\quad
+x = 16.
+\]
+
+So the correct statement(s) from the list is/are:
+
+- \(x = 16\).
+
+All others are incorrect under the base-2 assumption.
+
+</details>
+
+</br>
