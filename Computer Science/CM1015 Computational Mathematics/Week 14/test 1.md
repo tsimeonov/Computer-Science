@@ -492,3 +492,5 @@ Thus,
 </details>
 
 </br>
+
+##### 11. Solve x in the equation 3^2-1^ = 27
