@@ -396,3 +396,64 @@ Final Answer
 </br>
 
 ##### 9. Given f(x) = 2^x+3^, find f^-1^(8)
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+First, we need to interpret the problem correctly:
+
+We have a function
+
+\[
+f(x) = 2^x + 3,
+\]
+
+and we want to find
+
+\[
+f^{-1}(8).
+\]
+
+In other words, we're looking for the \(x\) such that \(f(x) = 8\).
+
+---
+
+## Step-by-Step Solution
+
+1. **Set up the equation for \(f(x) = 8\):**
+
+   \[
+   2^x + 3 = 8.
+   \]
+
+2. **Isolate the exponential term:**
+
+   \[
+   2^x = 8 - 3 = 5.
+   \]
+
+3. **Take the logarithm (base 2) of both sides to solve for \(x\):**
+
+   \[
+   x = \log_2(5).
+   \]
+
+Hence, the value of \(x\) that makes \(f(x) = 8\) is
+
+\[
+x = \log_2(5).
+\]
+
+---
+
+## Final Answer
+
+\[
+f^{-1}(8) = \log_2(5).
+\]
+
+</details>
+
+</br>
