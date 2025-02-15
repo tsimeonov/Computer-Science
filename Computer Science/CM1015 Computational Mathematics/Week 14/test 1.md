@@ -108,3 +108,39 @@ To find the value of \(\log_2(16)\), notice that \(16 = 2^4\). Therefore:
 - a
 - ${\frac{1}{a^3}}$
 - 3
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+**Problem Statement:**
+If \(\log_a(x) = 3\), find the value of \(x\).
+
+---
+
+Step-by-Step Solution
+
+1. **Recall the definition of a logarithm:**
+   By definition, \(\log_a(x)\) answers the question: "To what power must we raise \(a\) to get \(x\)?"
+   Mathematically, if \(\log_a(x) = y\), then it means \(a^y = x\).
+
+2. **Apply this definition to the given problem:**
+   We have \(\log_a(x) = 3\). According to the definition above, this directly tells us:
+   \[
+   a^3 = x.
+   \]
+
+3. **Conclusion:**
+   Therefore, the value of \(x\) is:
+   \[
+   \boxed{x = a^3}.
+   \]
+
+---
+
+**Answer:** \( x = a^3 \)
+
+</details>
+
+</br>
