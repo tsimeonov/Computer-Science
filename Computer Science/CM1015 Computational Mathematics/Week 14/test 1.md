@@ -711,3 +711,65 @@ Final Answer
 </br>
 
 ##### 15. Determine the value of x for which 2^x+1^ = 32
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+The equation as written, **2^x+1^ = 32**, is ambiguous. There are two common ways it might have been intended:
+
+---
+
+1. Interpretation: \(2^x + 1 = 32\)
+
+If the equation is
+
+\[
+2^x + 1 = 32,
+\]
+
+then
+
+\[
+2^x = 31 \quad\Longrightarrow\quad x = \log_2(31).
+\]
+
+Since \(2^5 = 32\), and 31 is just one less than 32, there is no integer solution. Numerically,
+
+\[
+x \approx \log_2(31) \approx 4.954.
+\]
+
+---
+
+2. Interpretation: \(2^{x + 1} = 32\)
+
+If the equation was meant to be
+
+\[
+2^{(x+1)} = 32,
+\]
+
+then we notice that \(32 = 2^5\). Matching exponents gives
+
+\[
+x + 1 = 5
+\quad\Longrightarrow\quad
+x = 4,
+\]
+
+which is a nice integer solution.
+
+---
+
+Which is correct?
+
+- **If the original problem expects an integer solution,** it was almost certainly meant to be \(2^{(x+1)} = 32\), yielding \(\boxed{x = 4}\).
+- **If the equation was truly \(2^x + 1 = 32,\)** then the solution is \(\boxed{x = \log_2(31)}\approx 4.954\), which is not an integer.
+
+Without additional context, **\(2^{(x+1)}=32\)** is the more likely intended form, since it leads to the neat integer answer \(x = 4\).
+
+</details>
+
+</br>
