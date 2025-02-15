@@ -494,3 +494,75 @@ Thus,
 </br>
 
 ##### 11. Solve x in the equation 3^2-1^ = 27
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+It appears there might be a typographical issue with the expression \(3^2 - 1^ = 27\). A common type of problem involves solving for \(x\) in an exponential equation like
+
+\[
+3^{2x - 1} = 27.
+\]
+
+Below is how you would solve \(3^{2x - 1} = 27\). If your original problem is different, you can adapt the steps accordingly.
+
+---
+
+Problem (Assuming Typo)
+
+Solve for \(x\) in the equation:
+
+\[
+3^{2x - 1} = 27.
+\]
+
+---
+
+Step-by-Step Solution
+
+1. **Rewrite 27 as a power of 3.**
+
+   We know that:
+   \[
+   27 = 3^3.
+   \]
+
+2. **Set the exponents equal.**
+
+   Since \(3^{2x - 1} = 3^3\), and the bases (3) are the same, it must be that:
+   \[
+   2x - 1 = 3.
+   \]
+
+3. **Solve for \(x\).**
+
+   \[
+   2x - 1 = 3
+   \quad\Longrightarrow\quad
+   2x = 3 + 1 = 4
+   \quad\Longrightarrow\quad
+   x = 2.
+   \]
+
+---
+
+Final Answer
+
+\[
+\boxed{x = 2}.
+\]
+
+---
+
+If your original equation is different
+
+- If you intended \(3^2 - 1 = 27\), that would simplify to \(9 - 1 = 8\), which is not true, so there would be no solution.
+- If it was \(3^{2 - x} = 27\), you would set \(2 - x = 3\), and solve for \(x\) accordingly.
+
+However, based on typical problems, **\(3^{2x - 1} = 27\)** is the most likely correct interpretation, whose solution is \(x = 2\).
+
+</details>
+
+</br>
