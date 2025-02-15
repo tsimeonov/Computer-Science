@@ -457,3 +457,5 @@ f^{-1}(8) = \log_2(5).
 </details>
 
 </br>
+
+##### 10. Find the valud of log~5~(125)
