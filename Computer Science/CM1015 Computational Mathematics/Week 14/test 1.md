@@ -51,3 +51,10 @@ Thus, the correct answer is:
 </details>
 
 </br>
+
+##### 3. For which value of the x does the logarithmic function log~b~(b^x^) = x hold true?
+
+- 1
+- b
+- Any real number
+- 0
