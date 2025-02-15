@@ -343,3 +343,54 @@ This completes the proof.
 </br>
 
 ##### 8. Solve the equation log~2~(x - 1) + 3 = 5
+
+details>
+
+  <summary>Solution</summary>
+
+  </br>
+
+**Problem Statement:**
+Solve the equation
+
+\[
+\log\_{2}(x - 1) + 3 = 5.
+\]
+
+---
+
+Step-by-Step Solution
+
+1. **Isolate the logarithmic term:**
+   Subtract 3 from both sides to get
+   \[
+   \log\_{2}(x - 1) = 5 - 3 = 2.
+   \]
+
+2. **Rewrite in exponential form:**
+   By the definition of logarithms, \(\log\_{2}(y) = 2\) implies \(y = 2^2 = 4\).
+   Therefore,
+   \[
+   x - 1 = 4.
+   \]
+
+3. **Solve for \(x\):**
+   \[
+   x = 4 + 1 = 5.
+   \]
+
+4. **Check the solution in the original equation:**
+   - We need \(x - 1 > 0\) for \(\log\_{2}(x - 1)\) to be defined, which means \(x > 1\).
+   - Our solution \(x = 5\) is indeed greater than 1, so it is valid.
+
+---
+
+Final Answer
+
+\[
+\boxed{x = 5}.
+\]
+
+</details>
+
+</br>
