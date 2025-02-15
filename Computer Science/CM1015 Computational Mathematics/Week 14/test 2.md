@@ -164,3 +164,104 @@ All correct solutions/values to the equation \(3^x - 1 = 4\) among the given opt
 - x ≈ -3.32
 - x = ${\frac{10}{5}}$ = 2
 - x = ${\frac{log0.5}{log10}}$
+- x ≈ 0.3
+- None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We need to solve the equation:
+
+\[
+(0.5)^x = 10.
+\]
+
+---
+
+1. Rewrite \(0.5\) in exponential form
+
+Recall that \(0.5 = \tfrac{1}{2} = 2^{-1}\). So we have:
+
+\[
+(0.5)^x = (2^{-1})^x = 2^{-x}.
+\]
+
+Hence, the equation becomes:
+
+\[
+2^{-x} = 10.
+\]
+
+---
+
+2. Solve using logarithms
+
+Take the logarithm (let’s use \(\log\) base 10 for convenience) of both sides:
+
+\[
+\log\bigl(2^{-x}\bigr) = \log(10).
+\]
+
+Use the property \(\log(a^b) = b \,\log(a)\):
+
+\[
+-\,x \,\log(2) = \log(10).
+\]
+
+Thus,
+
+\[
+x = -\frac{\log(10)}{\log(2)}.
+\]
+
+But we also can write this in terms of \(0.5\), since \( \log(0.5) = \log\bigl(2^{-1}\bigr) = -\log(2)\). Hence,
+
+\[
+x = \frac{\log(10)}{\log(0.5)}.
+\]
+
+Given that \(\log*{10}(10) = 1\) and \(\log*{10}(0.5) \approx -0.3010\), numerically:
+
+\[
+x \approx \frac{1}{-0.3010} \approx -3.3219 \ (\text{rounded to } -3.32).
+\]
+
+---
+
+3. Match with the provided options
+
+- **\(x = \tfrac{\log(10)}{\log(0.5)}\)**
+  This exactly matches our derived expression and is correct.
+
+- **\(x \approx -3.32\)**
+  This is the correct approximate decimal value.
+
+- **\(x = \tfrac{10}{5} = 2\)**
+  Not correct. Substituting \(x = 2\) yields \((0.5)^2 = 0.25 \neq 10\).
+
+- **\(x = \tfrac{\log(0.5)}{\log(10)}\)**
+  This would invert our correct fraction, which would solve \( (0.5)^{\frac{\log(0.5)}{\log(10)}} = 10\), but that’s not the same equation. Not correct.
+
+- **\(x \approx 0.3\)**
+  Substituting \(x = 0.3\) gives \((0.5)^{0.3} \approx 0.81\), definitely not 10. Not correct.
+
+- **None of the other options is correct**
+  We have already found correct matches above, so this is not the choice.
+
+---
+
+4. Final Answer
+
+The correct solutions from the list are:
+
+\[
+x = \frac{\log(10)}{\log(0.5)}
+\quad\text{and}\quad
+x \approx -3.32.
+\]
+
+</details>
+
+</br>
