@@ -38,3 +38,16 @@ Thus, the correct answer is:
 - Power rule
 - Quotient rule
 - Change of base formula
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+    The equation log~b~(M \* N) = log~b~(M) + log~b~(N) represents the Product Rule for logarithms
+
+    Answer: Product rule
+
+</details>
+
+</br>
