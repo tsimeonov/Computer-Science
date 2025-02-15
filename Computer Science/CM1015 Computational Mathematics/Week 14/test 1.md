@@ -58,3 +58,22 @@ Thus, the correct answer is:
 - b
 - Any real number
 - 0
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+The identity
+
+\[
+\log_b(b^x) = x
+\]
+
+holds for **any real value** of \( x \). This is a fundamental property of logarithms: applying the log base \( b \) to \( b^x \) simply returns \( x \).
+
+**Answer: Any real number**
+
+</details>
+
+</br>
