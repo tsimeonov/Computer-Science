@@ -458,4 +458,37 @@ f^{-1}(8) = \log_2(5).
 
 </br>
 
-##### 10. Find the valud of log~5~(125)
+##### 10. Find the value of log~5~(125)
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We want to find:
+
+\[
+\log\_{5}(125).
+\]
+
+Notice that \(125\) can be expressed as a power of \(5\):
+
+\[
+125 = 5^3.
+\]
+
+By the definition of logarithms:
+
+\[
+\log\_{5}(5^3) = 3.
+\]
+
+Thus,
+
+\[
+\boxed{\log\_{5}(125) = 3}.
+\]
+
+</details>
+
+</br>
