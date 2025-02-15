@@ -2,6 +2,8 @@
 
 ##### 1. What is the value of 7^-4^
 
+Select all the correct answers:
+
 - ${\frac{1}{7 * 7^3}}$
 - ${\frac{1}{4^7}}$
 - 0.0004164931
@@ -18,61 +20,42 @@ We want to evaluate:
 7^{-4}.
 \]
 
----
-
-1. Convert the Negative Exponent to a Fraction
-
-By the definition of negative exponents,
-
-\[
-7^{-4} = \frac{1}{7^4}.
-\]
-
-Since \(7^4 = 7 \times 7 \times 7 \times 7 = 2401\), we have
-
-\[
-7^{-4} = \frac{1}{2401}.
-\]
-
----
-
-2. Check the Provided Options
-
-1) \(\tfrac{1}{7 \times 7^3}\)
-   This equals \(\tfrac{1}{7^4} = \tfrac{1}{2401}\). This is the exact value of \(7^{-4}\).
-
-2) \(\tfrac{1}{4^7}\)
-   This is \(\tfrac{1}{16384}\), which is not \(\tfrac{1}{2401}\). Therefore, not correct.
-
-3) \(0.0004164931\)
-   Let’s see how \(\tfrac{1}{2401}\) compares numerically. Indeed,
+1. **Rewrite \(7^{-4}\) using exponents:**
+   By definition of negative exponents,
    \[
-   \frac{1}{2401} \approx 0.0004164931 \quad (\text{rounded}).
+   7^{-4} = \frac{1}{7^4}.
    \]
-   This is the correct decimal approximation of \(7^{-4}\).
 
-4) \(0.0000610352\)
-   This is the decimal for \(\tfrac{1}{16384}\). Hence not correct for \(7^{-4}\).
+2. **Check each option given:**
 
----
+   - \(\displaystyle \frac{1}{7 \times 7^3}\)
+     Since \(7^4 = 7 \times 7^3,\) it follows that
+     \[
+     \frac{1}{7 \times 7^3} = \frac{1}{7^4}.
+     \]
+     This **is** a correct representation of \(7^{-4}\).
 
-3. Correct Representation
+   - \(\displaystyle \frac{1}{4^7}\)
+     This would be \(\frac{1}{4^7} = \frac{1}{16384}\), which does **not** equal \(\tfrac{1}{2401}\). So this is **not** correct.
 
-- The **exact value** of \(7^{-4}\) is \(\dfrac{1}{7^4} = \dfrac{1}{2401}\).
-- The **decimal approximation** is approximately \(0.0004164931\).
+   - \(0.0004164931\)
+     Numerically,
+     \[
+     \frac{1}{2401} \approx 0.0004164931 \quad(\text{to 10 decimal places}),
+     \]
+     which matches \(7^{-4}\). So this **is** a correct approximation.
 
-In terms of the given options, both (1) and (3) represent the correct value of \(7^{-4}\). Specifically:
-
-- Option **(1)** is the exact fractional form: \(\dfrac{1}{7^4}\).
-- Option **(3)** is the correct numerical approximation to several decimal places.
+   - \(0.0000610352\)
+     This is approximately \(\tfrac{1}{16384}\), not \(\tfrac{1}{2401}\). So it is **not** correct.
 
 ---
 
 Final Answer
 
-\[
-\boxed{7^{-4} \;=\; \frac{1}{2401} \;\approx\; 0.0004164931.}
-\]
+The correct representations/values for \(7^{-4}\) among the options given are:
+
+1. \(\displaystyle \frac{1}{7 \times 7^3}\) (exact form)
+2. \(0.0004164931\) (approximate decimal form)
 
 </details>
 
