@@ -217,3 +217,127 @@ Final Answer
 </br>
 
 ##### 7. Prove that log~b~(M \* N) = log~b~(M) + log~b~(N) using properties of exponents
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+Below is a **step-by-step proof** of the logarithm property
+
+\[
+\log_b(M \cdot N) \;=\; \log_b(M) \;+\; \log_b(N)
+\]
+
+using the definition of logarithms and basic properties of exponents.
+
+---
+
+1. State the property to be proven
+
+We want to show that:
+
+\[
+\log_b(M \cdot N) \;=\; \log_b(M) + \log_b(N),
+\]
+
+where \(b > 0\) and \(b \neq 1\), and \(M, N > 0\).
+
+---
+
+2. Express \(M\) and \(N\) in exponential form
+
+1. Let \( \log_b(M) = a \). By definition of a logarithm, this means:
+   \[
+   b^a = M.
+   \]
+
+1. Let \( \log_b(N) = c \). Similarly, this means:
+   \[
+   b^c = N.
+   \]
+
+Hence, \(M\) and \(N\) can be written as powers of \(b\).
+
+---
+
+3. Multiply \(M\) and \(N\)
+
+Using the expressions for \(M\) and \(N\), we have:
+
+\[
+M \cdot N \;=\; b^a \cdot b^c.
+\]
+
+By the **Exponent Product Rule** (\(b^a \cdot b^c = b^{a+c}\)), we get:
+
+\[
+M \cdot N = b^{\,a + c}.
+\]
+
+---
+
+4. Take the logarithm (base \(b\)) of both sides
+
+We want \(\log_b(M \cdot N)\), so we apply \(\log_b(\cdot)\) to the expression \(M \cdot N = b^{\,a + c}\):
+
+\[
+\log_b\bigl(M \cdot N\bigr)
+\;=\;
+\log_b\bigl(b^{\,a + c}\bigr).
+\]
+
+---
+
+5. Use the property \(\log_b\bigl(b^k\bigr) = k\)
+
+From the definition of logarithms, applying \(\log_b\) to \(b\) raised to any exponent simply returns that exponent:
+
+\[
+\log_b\bigl(b^{\,a + c}\bigr) = a + c.
+\]
+
+Thus,
+
+\[
+\log_b\bigl(M \cdot N\bigr) \;=\; a + c.
+\]
+
+---
+
+6. Substitute back \(a = \log_b(M)\) and \(c = \log_b(N)\)
+
+Recall our definitions:
+
+- \( a = \log_b(M) \)
+- \( c = \log_b(N) \)
+
+Therefore,
+
+\[
+a + c
+\;=\;
+\log_b(M) \;+\; \log_b(N).
+\]
+
+Hence,
+
+\[
+\log_b(M \cdot N) \;=\; \log_b(M) \;+\; \log_b(N).
+\]
+
+---
+
+7. Conclusion
+
+We have shown, using the definition of logarithms and the properties of exponents, that:
+
+\[
+\boxed{\log_b(M \cdot N) = \log_b(M) + \log_b(N).}
+\]
+
+This completes the proof.
+
+</details>
+
+</br>
