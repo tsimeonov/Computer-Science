@@ -215,3 +215,5 @@ Final Answer
 </details>
 
 </br>
+
+##### 7. Prove that log~b~(M \* N) = log~b~(M) + log~b~(N) using properties of exponents
