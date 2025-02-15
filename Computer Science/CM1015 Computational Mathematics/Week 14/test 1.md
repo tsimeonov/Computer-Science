@@ -709,3 +709,5 @@ Final Answer
 </details>
 
 </br>
+
+##### 15. Determine the value of x for which 2^x+1^ = 32
