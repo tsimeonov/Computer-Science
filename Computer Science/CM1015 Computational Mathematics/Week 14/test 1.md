@@ -144,3 +144,5 @@ Step-by-Step Solution
 </details>
 
 </br>
+
+##### 6. Find the inverse function of f(x) = 3^2x+1^
