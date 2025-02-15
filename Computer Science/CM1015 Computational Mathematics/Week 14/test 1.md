@@ -146,3 +146,72 @@ Step-by-Step Solution
 </br>
 
 ##### 6. Find the inverse function of f(x) = 3^2x+1^
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To find the inverse of the function
+
+\[
+f(x) = 3^{2x + 1},
+\]
+
+we follow these steps:
+
+---
+
+## Step 1: Replace \(f(x)\) with \(y\)
+
+Write the function as an equation:
+
+\[
+y = 3^{2x + 1}.
+\]
+
+---
+
+#Step 2: Solve for \(x\) in terms of \(y\)
+
+1. **Take the logarithm base 3** of both sides to "undo" the exponential:
+
+   \[
+   \log*{3}(y) = \log*{3}\bigl(3^{2x + 1}\bigr).
+   \]
+
+2. **Simplify the right-hand side** using the property \(\log\_{a}(a^k) = k\):
+
+   \[
+   \log\_{3}(y) = 2x + 1.
+   \]
+
+3. **Isolate \(x\)**:
+
+   \[
+   2x = \log*{3}(y) - 1
+   \quad\Longrightarrow\quad
+   x = \frac{\log*{3}(y) - 1}{2}.
+   \]
+
+---
+
+#Step 3: Swap \(x\) and \(y\)
+
+To write the inverse function, we replace \(y\) by \(x\) (because the input to the inverse function is the output of the original function):
+
+\[
+f^{-1}(x) = \frac{\log\_{3}(x) - 1}{2}.
+\]
+
+---
+
+Final Answer
+
+\[
+\boxed{f^{-1}(x) = \frac{\log\_{3}(x) - 1}{2}}.
+\]
+
+</details>
+
+</br>
