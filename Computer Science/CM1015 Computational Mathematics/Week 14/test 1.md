@@ -341,3 +341,5 @@ This completes the proof.
 </details>
 
 </br>
+
+##### 8. Solve the equation log~2~(x - 1) + 3 = 5
