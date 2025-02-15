@@ -574,6 +574,31 @@ However, based on typical problems, **\(3^{2x - 1} = 27\)** is the most likely c
 - 16
 - 4
 
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We have:
+
+\[
+\log_4(x) = 2.
+\]
+
+By the definition of logarithms, \(\log_4(x) = 2\) means:
+
+\[
+x = 4^2 = 16.
+\]
+
+\[
+\boxed{16}
+\]
+
+</details>
+
+</br>
+
 ##### 13. Express the logarithmic equation log~7~(49) = x in exponential form and solve for x
 
 <details>
