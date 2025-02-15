@@ -265,3 +265,12 @@ x \approx -3.32.
 </details>
 
 </br>
+
+##### 4. Find x such that log~(x)~ = 4
+
+Select all correct statements:
+
+- None of other options is correct
+- 4 = 2^2^ and hence log~2~(x) = 4 means x = 2
+- x = 16
+- x = 2
