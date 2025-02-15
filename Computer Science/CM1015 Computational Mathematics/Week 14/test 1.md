@@ -31,3 +31,10 @@ Thus, the correct answer is:
 </details>
 
 </br>
+
+##### 2. Which property of logarithms is illustrated by the equation log~b~(M \* N) = log~b~(M) + log~b~(N)?
+
+- Product rule
+- Power rule
+- Quotient rule
+- Change of base formula
