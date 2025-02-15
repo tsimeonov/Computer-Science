@@ -344,7 +344,7 @@ This completes the proof.
 
 ##### 8. Solve the equation log~2~(x - 1) + 3 = 5
 
-details>
+<details>
 
   <summary>Solution</summary>
 
