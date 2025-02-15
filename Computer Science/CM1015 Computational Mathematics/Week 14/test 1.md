@@ -101,3 +101,10 @@ To find the value of \(\log_2(16)\), notice that \(16 = 2^4\). Therefore:
 </details>
 
 </br>
+
+##### 5. If log~a~(x) = 3, what is the value of x?
+
+- a^3^
+- a
+- ${\frac{1}{a^3}}$
+- 3
