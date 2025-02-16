@@ -876,3 +876,60 @@ Select all that apply
 - -10
 - 1
 - 2
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We need to solve for \( x \) in the equation:
+
+\[
+0.1^x = 10
+\]
+
+Step 1: Express \( 0.1 \) in Base 10
+Since \( 0.1 = 10^{-1} \), we rewrite the equation:
+
+\[
+(10^{-1})^x = 10
+\]
+
+Step 2: Apply Exponent Rules
+Using the power rule \( (a^m)^n = a^{m \cdot n} \):
+
+\[
+10^{-x} = 10^1
+\]
+
+Step 3: Solve for \( x \)
+Since the bases are the same, we equate the exponents:
+
+\[
+
+- x = 1
+  \]
+
+\[
+x = -1
+\]
+
+---
+
+Step 4: Verify Given Options
+
+- **\( \frac{1}{10} \)** ❌ Incorrect, since we found \( x = -1 \).
+- **\( -1 \)** ✅ Correct, as we solved for \( x = -1 \).
+- **"None of the other options is correct"** ❌ Incorrect, since \( x = -1 \) is correct.
+- **\( -10 \)** ❌ Incorrect, as \( x = -1 \), not \( -10 \).
+- **\( 1 \)** ❌ Incorrect, since \( 0.1^1 = 0.1 \neq 10 \).
+- **\( 2 \)** ❌ Incorrect, since \( 0.1^2 = 0.01 \neq 10 \).
+
+**Final Answer:**
+✅ **The correct answer is:** **\( -1 \)**
+
+</details>
+
+</br>
+
+---
