@@ -419,8 +419,6 @@ All other options are **incorrect**:
 ❌ **log₂(8) = -1** (False, because \( 2^{-1} = \frac{1}{2} \), not 8)
 ❌ **None of the other options is correct** (False, because two options are correct)
 
----
-
 ### **Final Answer:**
 
 ✔ **8 = 2³**
