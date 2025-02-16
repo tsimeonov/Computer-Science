@@ -61,6 +61,8 @@ The correct representations/values for \(7^{-4}\) among the options given are:
 
 </br>
 
+---
+
 ##### 2. The value of x, solve for the variable
 
 3^x^ - 1 = 4
@@ -155,6 +157,8 @@ All correct solutions/values to the equation \(3^x - 1 = 4\) among the given opt
 </details>
 
 </br>
+
+---
 
 ##### 3. What is the value of x
 
@@ -265,6 +269,8 @@ x \approx -3.32.
 </details>
 
 </br>
+
+---
 
 ##### 4. Find x such that log~(x)~ = 4
 
@@ -389,6 +395,8 @@ All others are incorrect under the base-2 assumption.
 
 </br>
 
+---
+
 ##### 5. Calculate log~2~8
 
 Select all correct statements
@@ -427,3 +435,5 @@ All other options are **incorrect**:
 </details>
 
 </br>
+
+---
