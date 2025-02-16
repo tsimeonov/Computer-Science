@@ -400,3 +400,45 @@ Select all correct statements
 - log~2~8 = -1
 - None of the other options is correct
 - log~2~8 = 3
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We want to evaluate \(\log\_{2}(8)\).
+
+1. **Rewrite 8 in terms of powers of 2**
+   Note that \(8 = 2^3\).
+
+2. **Apply logarithm definition**
+   If \(8 = 2^3\), then
+   \[
+   \log\_{2}(8) = 3.
+   \]
+
+3. **Check the provided statements**
+   - **8 = 2^3**: Correct.
+   - **\(\log\_{2}(8) = -4\)**: Incorrect.
+   - **\(\log\_{2}(8) = 0\)**: Incorrect.
+   - **\(2 = 8^{-4}\)**:
+     \[
+     8^{-4} = \frac{1}{8^4} = \frac{1}{4096} \ne 2,
+     \]
+     so this is incorrect.
+   - **\(\log\_{2}(8) = -1\)**: Incorrect.
+   - **None of the other options is correct**: False, because we do have correct options.
+   - **\(\log\_{2}(8) = 3\)**: Correct.
+
+---
+
+Final Answer
+
+The correct statements are:
+
+- **8 = 2^3**
+- **\(\log\_{2}(8) = 3\)**
+
+</details>
+
+</br>
