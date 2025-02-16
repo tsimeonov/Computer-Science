@@ -541,3 +541,16 @@ The **correct** statements are:
 </br>
 
 ---
+
+##### 7. Calculate log~16~2
+
+Select all correct statements:
+
+- log~16~2 = ${\frac{1}{8}}$
+- 2 = 16$^{\frac{1}{8}}$
+- 16 = 2^4^
+- log~16~2 = ${\frac{1}{4}}$
+- None of the other options is correct
+- log~16~2 = 4
+- 2 = 16$^{\frac{1}{4}}$
+- log~16~2 = 0
