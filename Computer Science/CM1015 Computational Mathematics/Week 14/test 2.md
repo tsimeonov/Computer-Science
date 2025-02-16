@@ -773,3 +773,95 @@ Select all correct statements
 - log~100~0.1 = $-\frac{1}{2}$
 - log~100~0.1 = 0.01
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We need to evaluate:
+
+\[
+\log\_{100} 0.1
+\]
+
+Step 1: Convert to Exponential Form
+The logarithmic equation:
+
+\[
+\log\_{100} 0.1 = x
+\]
+
+is equivalent to:
+
+\[
+100^x = 0.1
+\]
+
+Step 2: Express 0.1 in Base 10
+Since \( 100 = 10^2 \) and \( 0.1 = 10^{-1} \), we rewrite:
+
+\[
+(10^2)^x = 10^{-1}
+\]
+
+Step 3: Solve for \( x \)
+Using exponent rules:
+
+\[
+10^{2x} = 10^{-1}
+\]
+
+Since the bases are the same, we equate the exponents:
+
+\[
+2x = -1
+\]
+
+\[
+x = -\frac{1}{2}
+\]
+
+Thus,
+
+\[
+\log\_{100} 0.1 = -\frac{1}{2}
+\]
+
+---
+
+Step 4: Verify the Answer Against Given Statements
+
+- **"0.1 = 100^{-\frac{1}{2}}"**
+  ✅ True, because \( 100^{-\frac{1}{2}} = (10^2)^{-\frac{1}{2}} = 10^{-1} = 0.1 \).
+
+- **"\(\log\_{100} 0.1 = -2\)"**
+  ❌ False, we found \(\log\_{100} 0.1 = -\frac{1}{2}\), not -2.
+
+- **"\(\log\_{100} 0.1 = 10\)"**
+  ❌ False, we found -\(\frac{1}{2}\), not 10.
+
+- **"100 = 0.1^{-2}"**
+  ✅ True, because \( 0.1^{-2} = (10^{-1})^{-2} = 10^2 = 100 \).
+
+- **"\(\log\_{100} 0.1 = -\frac{1}{2}\)"**
+  ✅ True, this is the correct answer.
+
+- **"\(\log\_{100} 0.1 = 0.01\)"**
+  ❌ False, we found -\(\frac{1}{2}\), not 0.01.
+
+- **"None of the other options is correct"**
+  ❌ False, since some options are correct.
+
+**Final Answer:**
+✅ **The correct statements are:**
+
+- **0.1 = 100\(^{-\frac{1}{2}}\)**
+- **100 = 0.1\(^{-2}\)**
+- **\(\log\_{100} 0.1 = -\frac{1}{2}\)**
+
+</details>
+
+</br>
+
+---
