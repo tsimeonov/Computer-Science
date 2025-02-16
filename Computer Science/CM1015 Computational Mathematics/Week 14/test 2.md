@@ -761,3 +761,15 @@ The **correct** statements are:
 </br>
 
 ---
+
+##### 9. Calculate log~100~0.1
+
+Select all correct statements
+
+- 0.1 = 100-$^\frac{1}{2}$
+- log~100~0.1 = -2
+- log~100~0.1 = 10
+- 100 = 0.1^-2^
+- log~100~0.1 = $-\frac{1}{2}$
+- log~100~0.1 = 0.01
+- None of the other options is correct
