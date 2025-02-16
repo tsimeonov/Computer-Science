@@ -554,3 +554,108 @@ Select all correct statements:
 - log~16~2 = 4
 - 2 = 16$^{\frac{1}{4}}$
 - log~16~2 = 0
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We need to evaluate:
+
+\[
+\log\_{16}(2)
+\]
+
+---
+
+### **Step 1: Express 16 in Terms of Base 2**
+
+We know that:
+
+\[
+16 = 2^4.
+\]
+
+Thus, we rewrite the logarithm:
+
+\[
+\log*{16}(2) = \log*{2^4}(2).
+\]
+
+---
+
+### **Step 2: Apply the Logarithm Property**
+
+Using the logarithm identity:
+
+\[
+\log\_{a^b}(c) = \frac{\log_a(c)}{b},
+\]
+
+where \( a = 2 \), \( b = 4 \), and \( c = 2 \), we get:
+
+\[
+\log\_{16}(2) = \frac{\log_2(2)}{4}.
+\]
+
+Since \( \log_2(2) = 1 \), this simplifies to:
+
+\[
+\log\_{16}(2) = \frac{1}{4}.
+\]
+
+---
+
+### **Step 3: Check the Given Statements**
+
+✅ **\(16 = 2^4\)**
+
+- **True**, because \(16\) is indeed \(2^4\).
+
+✅ **\(\log\_{16}(2) = \frac{1}{4}\)**
+
+- **True**, as we just calculated.
+
+✅ **\(2 = 16^{\frac{1}{4}}\)**
+
+- **True**, because taking the fourth root of 16 gives \(2\):
+
+  \[
+  16^{\frac{1}{4}} = (2^4)^{\frac{1}{4}} = 2.
+  \]
+
+❌ **\(\log\_{16}(2) = \frac{1}{8}\)**
+
+- **False**, as we found \(\frac{1}{4}\), not \(\frac{1}{8}\).
+
+❌ **\(2 = 16^{\frac{1}{8}}\)**
+
+- **False**, because \(16^{\frac{1}{8}}\) does not equal 2.
+
+❌ **\(\log\_{16}(2) = 4\)**
+
+- **False**, as the correct value is \( \frac{1}{4} \), not 4.
+
+❌ **\(\log\_{16}(2) = 0\)**
+
+- **False**, because \(\log_a(b) = 0\) only when \(b = 1\), which is not the case.
+
+❌ **"None of the other options is correct"**
+
+- **False**, because we found correct statements.
+
+---
+
+### **Final Answer**
+
+The **correct** statements are:
+
+✔ **\(16 = 2^4\)**
+✔ **\(\log\_{16}(2) = \frac{1}{4}\)**
+✔ **\(2 = 16^{\frac{1}{4}}\)**
+
+</details>
+
+</br>
+
+---
