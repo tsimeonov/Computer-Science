@@ -388,3 +388,15 @@ All others are incorrect under the base-2 assumption.
 </details>
 
 </br>
+
+##### 5. Calculate log~2~8
+
+Select all correct statements
+
+- 8 = 2^3^
+- log~2~8 = -4
+- log~2~8 = 0
+- 2 = 8^-4^
+- log~2~8 = -1
+- None of the other options is correct
+- log~2~8 = 3
