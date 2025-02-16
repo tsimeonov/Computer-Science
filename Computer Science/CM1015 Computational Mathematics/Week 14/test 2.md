@@ -865,3 +865,14 @@ Step 4: Verify the Answer Against Given Statements
 </br>
 
 ---
+
+##### 10. What is the correct value for 0.1^x^ = 10
+
+Select all that apply
+
+- $\frac{1}{10}$
+- -1
+- None of the other options is correct
+- -10
+- 1
+- 2
