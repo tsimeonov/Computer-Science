@@ -669,3 +669,95 @@ Select all correct statements
 - None of the other options is correct
 - log~0.1~100 = 0.1
 - 100 = 0.1^-2^
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We need to evaluate:
+
+\[
+\log\_{0.1}(100)
+\]
+
+**Step 1: Express \(0.1\) as a Power of 10**
+
+We recognize that:
+
+\[
+0.1 = 10^{-1}.
+\]
+
+Thus, we can rewrite the logarithm using the change of base formula:
+
+\[
+\log*{0.1}(100) = \log*{10^{-1}}(100).
+\]
+
+**Step 2: Apply Logarithmic Identity**
+
+Using the logarithmic identity:
+
+\[
+\log\_{a^b}(c) = \frac{\log_a(c)}{b},
+\]
+
+where \( a = 10 \), \( b = -1 \), and \( c = 100 \), we get:
+
+\[
+\log*{0.1}(100) = \frac{\log*{10}(100)}{-1}.
+\]
+
+Since \( \log\_{10}(100) = 2 \), we substitute:
+
+\[
+\log\_{0.1}(100) = \frac{2}{-1} = -2.
+\]
+
+---
+
+**Step 3: Verify the Given Statements**
+
+✅ **\(\log\_{0.1}(100) = -2\)**
+
+- **Correct**, as we just calculated.
+
+✅ **\(100 = 0.1^{-2}\)**
+
+- **Correct**, since \( 0.1^{-2} = (10^{-1})^{-2} = 10^2 = 100 \).
+
+❌ **\(\log\_{0.1}(100) = 10\)**
+
+- **Incorrect**, because the correct value is \(-2\), not 10.
+
+❌ **\(\log\_{0.1}(100) = -\frac{1}{2}\)**
+
+- **Incorrect**, as the correct value is \(-2\), not \(-\frac{1}{2}\).
+
+❌ **\(0.1 = 100^{-\frac{1}{2}}\)**
+
+- **Incorrect**, because \( 100^{-\frac{1}{2}} = \frac{1}{\sqrt{100}} = \frac{1}{10} \), which is **not** equal to \(0.1\).
+
+❌ **\(\log\_{0.1}(100) = 0.1\)**
+
+- **Incorrect**, because the correct value is \(-2\).
+
+❌ **"None of the other options is correct"**
+
+- **Incorrect**, because two correct statements were found.
+
+---
+
+**Final Answer**
+
+The **correct** statements are:
+
+✔ **$\log_{100}0.1 = -2$**
+✔ **\(100 = 0.1^{-2}\)**
+
+</details>
+
+</br>
+
+---
