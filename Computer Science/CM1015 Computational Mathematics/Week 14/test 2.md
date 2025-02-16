@@ -562,13 +562,11 @@ Select all correct statements:
 
 We need to evaluate:
 
-\[
-\log\_{16}(2)
-\]
+$\log_{16}(2) = \frac{1}{4}$
 
 ---
 
-### **Step 1: Express 16 in Terms of Base 2**
+**Step 1: Express 16 in Terms of Base 2**
 
 We know that:
 
@@ -584,7 +582,7 @@ Thus, we rewrite the logarithm:
 
 ---
 
-### **Step 2: Apply the Logarithm Property**
+**Step 2: Apply the Logarithm Property**
 
 Using the logarithm identity:
 
@@ -606,7 +604,7 @@ Since \( \log_2(2) = 1 \), this simplifies to:
 
 ---
 
-### **Step 3: Check the Given Statements**
+**Step 3: Check the Given Statements**
 
 ✅ **\(16 = 2^4\)**
 
@@ -646,12 +644,12 @@ Since \( \log_2(2) = 1 \), this simplifies to:
 
 ---
 
-### **Final Answer**
+**Final Answer**
 
 The **correct** statements are:
 
 ✔ **\(16 = 2^4\)**
-✔ **\(\log\_{16}(2) = \frac{1}{4}\)**
+✔ **$\log_{16}(2) = \frac{1}{4}$**
 ✔ **\(2 = 16^{\frac{1}{4}}\)**
 
 </details>
