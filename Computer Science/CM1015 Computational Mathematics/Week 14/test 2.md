@@ -449,3 +449,95 @@ Select all correct statements
 - log~8~2 = 3
 - log~8~2 = 0
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+We need to evaluate:
+
+\[
+\log_8(2)
+\]
+
+### **Step 1: Rewrite 8 in terms of base 2**
+
+Since:
+
+\[
+8 = 2^3
+\]
+
+we can rewrite the logarithm using the change of base property:
+
+\[
+\log*8(2) = \log*{2^3}(2).
+\]
+
+### **Step 2: Apply Logarithm Rule**
+
+Using the logarithmic identity:
+
+\[
+\log\_{a^b}(c) = \frac{\log_a(c)}{b},
+\]
+
+we set \( a = 2 \), \( b = 3 \), and \( c = 2 \):
+
+\[
+\log\_{8}(2) = \frac{\log_2(2)}{3}.
+\]
+
+Since \( \log_2(2) = 1 \), we get:
+
+\[
+\log_8(2) = \frac{1}{3}.
+\]
+
+---
+
+### **Step 3: Check the Given Statements**
+
+✅ **\(2 = 8^{\frac{1}{3}}\)**
+
+- True, because \( 8^{\frac{1}{3}} = (2^3)^{\frac{1}{3}} = 2 \).
+
+✅ **\(\log_8(2) = \frac{1}{3}\)**
+
+- True, as we calculated.
+
+❌ **\(8 = 2^3\)**
+
+- False **in this context**, because we are looking for statements about \(\log_8(2)\), not general exponent properties.
+
+❌ **\(\log_8(2) = 4\)**
+
+- False, as the correct answer is \( \frac{1}{3} \), not 4.
+
+❌ **\(\log_8(2) = 3\)**
+
+- False, as we calculated \( \frac{1}{3} \), not 3.
+
+❌ **\(\log_8(2) = 0\)**
+
+- False, because \( \log_a(b) = 0 \) only when \( b = 1 \), which is not the case.
+
+❌ **"None of the other options is correct"**
+
+- False, because two correct statements were found.
+
+---
+
+**Final Answer**
+
+The **correct** statements are:
+
+✔ **\(2 = 8^{\frac{1}{3}}\)**
+✔ **\(\log_8(2) = \frac{1}{3}\)**
+
+</details>
+
+</br>
+
+---
