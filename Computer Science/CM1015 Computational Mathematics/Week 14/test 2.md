@@ -437,3 +437,15 @@ All other options are **incorrect**:
 </br>
 
 ---
+
+##### 6. Calculate log~8~2
+
+Select all correct statements
+
+- 2 = 8$^{\frac{1}{3}}$
+- log~8~2 = ${\frac{1}{3}}$
+- 8 = 2^3^
+- log~8~2 = 4
+- log~8~2 = 3
+- log~8~2 = 0
+- None of the other options is correct
