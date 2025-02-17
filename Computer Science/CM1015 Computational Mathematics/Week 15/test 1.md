@@ -103,3 +103,10 @@ The **Product rule**, **Chain rule**, and **Quotient rule** are all fundamental 
 </br>
 
 ---
+
+##### 5. In machine learning, which optimization algorithm is directly related to differentiation?
+
+- Principal component analysis
+- Support vector machines
+- Gradient descent
+- K-means clustering
