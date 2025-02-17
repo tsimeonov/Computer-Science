@@ -127,3 +127,5 @@ The correct answer is:
 </br>
 
 ---
+
+##### 6. Show the function f(x) = x^2^ is continuous at x = 2
