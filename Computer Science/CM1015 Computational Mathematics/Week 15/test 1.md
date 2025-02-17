@@ -308,3 +308,48 @@ Thus, the derivative of \( f(x) = \frac{1}{x} \) using the **limit definition** 
 ---
 
 ##### 9. Using the product rule, find the derivative of the function f(x) = x^2^sin(x)
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To differentiate the function \( f(x) = x^2 \sin(x) \) using the **product rule**, we follow these steps.
+**Step 1: Recall the Product Rule**
+The **product rule** states that if a function is the product of two differentiable functions \( u(x) \) and \( v(x) \), then:
+
+\[
+\frac{d}{dx} [ u(x) v(x) ] = u'(x) v(x) + u(x) v'(x)
+\]
+
+**Step 2: Define \( u(x) \) and \( v(x) \)**
+Let:
+
+\[
+u(x) = x^2, \quad v(x) = \sin(x)
+\]
+
+**Step 3: Compute the Derivatives**
+
+- \( u'(x) = \frac{d}{dx} x^2 = 2x \)
+- \( v'(x) = \frac{d}{dx} \sin(x) = \cos(x) \)
+
+**Step 4: Apply the Product Rule**
+\[
+f'(x) = u'(x) v(x) + u(x) v'(x)
+\]
+
+\[
+= (2x \sin(x)) + (x^2 \cos(x))
+\]
+
+**Final Answer**
+\[
+\boxed{f'(x) = 2x \sin(x) + x^2 \cos(x)}
+\]
+
+</details>
+
+</br>
+
+---
