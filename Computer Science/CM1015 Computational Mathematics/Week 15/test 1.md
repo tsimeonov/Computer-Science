@@ -60,6 +60,12 @@ It deals with how a function changes at any given point, which is essential in u
 <details>
   <summary>Solution</summary>
 
+The correct answer is:
+
+✅ **Understanding limits of functions**
+
+In differentiation, the **binomial theorem** is often used to expand expressions, particularly when finding limits, such as in the **definition of a derivative** using first principles. It helps simplify terms when evaluating limits, especially in problems involving small increments (e.g., using the binomial expansion to approximate \((x + h)^n\) when finding derivatives).
+
   </br>
 
 </details>
@@ -67,3 +73,10 @@ It deals with how a function changes at any given point, which is essential in u
 </br>
 
 ---
+
+##### 4. Which of following rule is NOT used in differentiation?
+
+- Product rule
+- Pythagorean theorem
+- Chain rule
+- Quotient rule
