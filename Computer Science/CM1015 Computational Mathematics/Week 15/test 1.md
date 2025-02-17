@@ -67,3 +67,14 @@ It deals with how a function changes at any given point, which is essential in u
 - Understanding limits of functions
 - Calculating integrals of polynomials
 - Proving differentiation for general polynomials
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+</details>
+
+</br>
+
+---
