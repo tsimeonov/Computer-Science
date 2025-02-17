@@ -353,3 +353,5 @@ f'(x) = u'(x) v(x) + u(x) v'(x)
 </br>
 
 ---
+
+##### 10. Evaluate the limit to determine the continuity of the function f(x) = ${\frac{x^2-1}{x-1}}$ at x = 1
