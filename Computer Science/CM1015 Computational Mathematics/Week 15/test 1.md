@@ -60,3 +60,10 @@ It deals with how a function changes at any given point, which is essential in u
 </br>
 
 ---
+
+##### 3. What does the binomial help with in the context of differentiation?
+
+- Solving linear equations
+- Understanding limits of functions
+- Calculating integrals of polynomials
+- Proving differentiation for general polynomials
