@@ -306,3 +306,5 @@ Thus, the derivative of \( f(x) = \frac{1}{x} \) using the **limit definition** 
 </br>
 
 ---
+
+##### 9. Using the product rule, find the derivative of the function f(x) = x^2^sin(x)
