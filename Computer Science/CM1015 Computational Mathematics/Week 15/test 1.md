@@ -241,3 +241,5 @@ Thus, the derivative of \( f(x) = x^3 \) using first principles is **\( 3x^2 \)*
 </br>
 
 ---
+
+##### 8. Determine the derivative of the function f(x) = ${\frac{1}{x}}$ using the limit definition of the derivative.
