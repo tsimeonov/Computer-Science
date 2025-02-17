@@ -110,3 +110,20 @@ The **Product rule**, **Chain rule**, and **Quotient rule** are all fundamental 
 - Support vector machines
 - Gradient descent
 - K-means clustering
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+The correct answer is:
+
+✅ **Gradient descent**
+
+**Gradient descent** is an optimization algorithm that relies on **differentiation** to minimize a function, often a loss function in machine learning. It uses the **gradient (derivative)** of the function to iteratively update model parameters in the direction of the steepest descent, helping to find the optimal solution.
+
+</details>
+
+</br>
+
+---
