@@ -80,3 +80,26 @@ In differentiation, the **binomial theorem** is often used to expand expressions
 - Pythagorean theorem
 - Chain rule
 - Quotient rule
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+The correct answer is:
+
+❌ **Pythagorean theorem**
+
+The **Pythagorean theorem** is a geometric principle related to right-angled triangles and is **not** used in differentiation.
+
+The **Product rule**, **Chain rule**, and **Quotient rule** are all fundamental differentiation rules used to differentiate complex functions:
+
+- **Product rule**: Used for differentiating the product of two functions.
+- **Chain rule**: Used for differentiating composite functions.
+- **Quotient rule**: Used for differentiating the quotient of two functions.
+
+</details>
+
+</br>
+
+---
