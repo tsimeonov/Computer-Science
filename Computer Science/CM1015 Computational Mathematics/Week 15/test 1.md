@@ -176,3 +176,5 @@ lim~2->2~f(x) = f(2)
 </br>
 
 ---
+
+##### 7. Differentiate the function f(x) = x^3^ using the definition of the derivative
