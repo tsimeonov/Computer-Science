@@ -129,3 +129,50 @@ The correct answer is:
 ---
 
 ##### 6. Show the function f(x) = x^2^ is continuous at x = 2
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To show that the function \( f(x) = x^2 \) is continuous at \( x = 2 \), we use the **formal definition of continuity** at a point.
+
+### A function \( f(x) \) is continuous at \( x = a \) if:
+
+\[
+\lim\_{x \to a} f(x) = f(a)
+\]
+
+#### Step 1: Check if \( f(x) \) is defined at \( x = 2 \)
+
+Since \( f(x) = x^2 \) is a polynomial function, it is defined for all real numbers, including \( x = 2 \).
+\[
+f(2) = 2^2 = 4
+\]
+
+#### Step 2: Compute \( \lim\_{x \to 2} f(x) \)
+
+We evaluate the limit:
+\[
+\lim*{x \to 2} x^2
+\]
+Since \( f(x) = x^2 \) is a polynomial, it is continuous everywhere, so we can directly substitute \( x = 2 \):
+\[
+\lim*{x \to 2} x^2 = 2^2 = 4
+\]
+
+#### Step 3: Compare the limit and function value
+
+\[
+\lim\_{x \to 2} f(x) = f(2) = 4
+\]
+Since the limit and the function value are equal, \( f(x) = x^2 \) is **continuous at \( x = 2 \)**.
+
+✔ **Conclusion**: The function \( f(x) = x^2 \) is continuous at \( x = 2 \) because
+lim~2->2~f(x) = f(2)
+
+</details>
+
+</br>
+
+---
