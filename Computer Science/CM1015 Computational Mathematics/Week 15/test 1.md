@@ -243,3 +243,66 @@ Thus, the derivative of \( f(x) = x^3 \) using first principles is **\( 3x^2 \)*
 ---
 
 ##### 8. Determine the derivative of the function f(x) = ${\frac{1}{x}}$ using the limit definition of the derivative.
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To determine the derivative of \( f(x) = \frac{1}{x} \) using the **limit definition of the derivative**, we use the **first principles formula**:
+
+\[
+f'(x) = \lim\_{h \to 0} \frac{f(x+h) - f(x)}{h}
+\]
+
+**Step 1: Substitute \( f(x) = \frac{1}{x} \) into the formula**
+\[
+f'(x) = \lim\_{h \to 0} \frac{\frac{1}{x+h} - \frac{1}{x}}{h}
+\]
+
+**Step 2: Find a common denominator for \( f(x+h) - f(x) \)**
+The common denominator of \( \frac{1}{x+h} \) and \( \frac{1}{x} \) is \( x(x+h) \), so we rewrite:
+
+\[
+\frac{1}{x+h} - \frac{1}{x} = \frac{x - (x+h)}{x(x+h)}
+\]
+
+\[
+= \frac{x - x - h}{x(x+h)} = \frac{-h}{x(x+h)}
+\]
+
+**Step 3: Substitute back into the derivative formula**
+\[
+f'(x) = \lim\_{h \to 0} \frac{\frac{-h}{x(x+h)}}{h}
+\]
+
+**Step 4: Simplify the fraction**
+\[
+f'(x) = \lim\_{h \to 0} \frac{-h}{h \cdot x(x+h)}
+\]
+
+Cancel \( h \) from the numerator and denominator:
+
+\[
+f'(x) = \lim\_{h \to 0} \frac{-1}{x(x+h)}
+\]
+
+**Step 5: Evaluate the limit as \( h \to 0 \)**
+Since \( x+h \to x \), we get:
+
+\[
+f'(x) = \frac{-1}{x \cdot x} = \frac{-1}{x^2}
+\]
+
+**Final Answer**
+\[
+\boxed{f'(x) = -\frac{1}{x^2}}
+\]
+
+Thus, the derivative of \( f(x) = \frac{1}{x} \) using the **limit definition** is **\( -\frac{1}{x^2} \)**.
+
+</details>
+
+</br>
+
+---
