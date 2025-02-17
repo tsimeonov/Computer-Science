@@ -178,3 +178,66 @@ lim~2->2~f(x) = f(2)
 ---
 
 ##### 7. Differentiate the function f(x) = x^3^ using the definition of the derivative
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To differentiate the function \( f(x) = x^3 \) using the **definition of the derivative**, we use the **first principles formula**:
+
+\[
+f'(x) = \lim\_{h \to 0} \frac{f(x+h) - f(x)}{h}
+\]
+
+**Step 1: Substitute \( f(x) = x^3 \) into the formula**
+\[
+f'(x) = \lim\_{h \to 0} \frac{(x+h)^3 - x^3}{h}
+\]
+
+**Step 2: Expand \( (x+h)^3 \) using the Binomial Theorem**
+\[
+(x+h)^3 = x^3 + 3x^2h + 3xh^2 + h^3
+\]
+
+**Step 3: Substitute into the formula**
+\[
+f'(x) = \lim\_{h \to 0} \frac{x^3 + 3x^2h + 3xh^2 + h^3 - x^3}{h}
+\]
+
+Cancel \( x^3 \):
+
+\[
+f'(x) = \lim\_{h \to 0} \frac{3x^2h + 3xh^2 + h^3}{h}
+\]
+
+**Step 4: Factor out \( h \)**
+\[
+f'(x) = \lim\_{h \to 0} \frac{h(3x^2 + 3xh + h^2)}{h}
+\]
+
+Cancel \( h \):
+
+\[
+f'(x) = \lim\_{h \to 0} (3x^2 + 3xh + h^2)
+\]
+
+**Step 5: Evaluate the limit**
+As \( h \to 0 \), the terms \( 3xh \) and \( h^2 \) approach 0:
+
+\[
+f'(x) = 3x^2
+\]
+
+**Final Answer**
+\[
+\boxed{f'(x) = 3x^2}
+\]
+
+Thus, the derivative of \( f(x) = x^3 \) using first principles is **\( 3x^2 \)**.
+
+</details>
+
+</br>
+
+---
