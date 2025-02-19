@@ -355,3 +355,66 @@ f'(x) = u'(x) v(x) + u(x) v'(x)
 ---
 
 ##### 10. Evaluate the limit to determine the continuity of the function f(x) = ${\frac{x^2-1}{x-1}}$ at x = 1
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+To determine the continuity of the function \( f(x) = \frac{x^2 - 1}{x - 1} \) at \( x = 1 \), we check the **definition of continuity**:
+
+A function \( f(x) \) is **continuous at \( x = a \)** if:
+
+\[
+\lim\_{x \to a} f(x) = f(a)
+\]
+
+**Step 1: Check if \( f(x) \) is defined at \( x = 1 \)**
+\[
+f(1) = \frac{1^2 - 1}{1 - 1} = \frac{0}{0}
+\]
+
+Since we get an **indeterminate form (0/0)**, the function is **not explicitly defined at \( x = 1 \)**. We need to evaluate the limit.
+
+**Step 2: Compute \( \lim\_{x \to 1} f(x) \)**
+We simplify \( f(x) \):
+
+\[
+f(x) = \frac{x^2 - 1}{x - 1}
+\]
+
+Factor the numerator:
+
+\[
+= \frac{(x - 1)(x + 1)}{x - 1}
+\]
+
+Cancel \( (x - 1) \) (for \( x \neq 1 \)):
+
+\[
+f(x) = x + 1, \quad \text{for } x \neq 1
+\]
+
+Now, compute the limit:
+
+\[
+\lim*{x \to 1} f(x) = \lim*{x \to 1} (x + 1) = 1 + 1 = 2
+\]
+
+**Step 3: Compare \( \lim\_{x \to 1} f(x) \) and \( f(1) \)**
+Since \( f(1) \) is not defined, but the limit exists and is finite, we can **redefine \( f(x) \) at \( x = 1 \) as**:
+
+\[
+f(1) = 2
+\]
+
+Thus, **\( f(x) \) is not originally continuous at \( x = 1 \), but it can be made continuous by defining \( f(1) = 2 \), making it a removable discontinuity.**
+
+**Final Answer**
+\( f(x) \) has a **removable discontinuity** at \( x = 1 \), and it can be made continuous by defining \( f(1) = 2 \).
+
+</details>
+
+</br>
+
+---
