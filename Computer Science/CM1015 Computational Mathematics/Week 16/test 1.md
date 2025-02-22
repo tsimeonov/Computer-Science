@@ -200,3 +200,5 @@ For any constant function \( f(x) = c \),
 </details>
 
 </br>
+
+##### 6. Find the derivative of the function f(x) = 4x^3^ - 5x^2^ + 6x - 7
