@@ -202,3 +202,52 @@ For any constant function \( f(x) = c \),
 </br>
 
 ##### 6. Find the derivative of the function f(x) = 4x^3^ - 5x^2^ + 6x - 7
+
+<details>
+  <summary>Solution</summary>
+
+Let's differentiate the function **\( f(x) = 4x^3 - 5x^2 + 6x - 7 \)** again, step by step.
+
+**Step 1: Apply the Power Rule**
+The **power rule** states:
+
+\[
+\frac{d}{dx} x^n = n x^{n-1}
+\]
+
+Now, we differentiate each term separately:
+
+1. **Differentiate \( 4x^3 \)**:
+   \[
+   \frac{d}{dx} (4x^3) = 4 \cdot 3x^{3-1} = 12x^2
+   \]
+2. **Differentiate \( -5x^2 \)**:
+   \[
+   \frac{d}{dx} (-5x^2) = -5 \cdot 2x^{2-1} = -10x
+   \]
+3. **Differentiate \( 6x \)**:
+   \[
+   \frac{d}{dx} (6x) = 6 \cdot 1x^{1-1} = 6
+   \]
+4. **Differentiate \( -7 \) (a constant)**:
+   \[
+   \frac{d}{dx} (-7) = 0
+   \]
+
+**Step 2: Combine the Results**
+\[
+f'(x) = 12x^2 - 10x + 6
+\]
+
+**Final Answer:**
+\[
+\mathbf{f'(x) = 12x^2 - 10x + 6}
+\]
+
+This confirms that the derivative is **\( 12x^2 - 10x + 6 \)**. 🚀
+
+  </br>
+
+</details>
+
+</br>
