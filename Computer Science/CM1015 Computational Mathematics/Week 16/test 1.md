@@ -129,3 +129,33 @@ Thus, the correct choice is:
 - 2x - 3x + 5
 - 2x + 3
 - 2x - 3 + 5
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = x^2 - 3x + 5 \), we apply the **power rule** and the derivative of a constant:
+
+**Step 1: Differentiate Each Term**
+
+1. \( \frac{d}{dx} x^2 = 2x \)
+2. \( \frac{d}{dx} (-3x) = -3 \)
+3. \( \frac{d}{dx} (5) = 0 \) (since the derivative of a constant is 0)
+
+**Step 2: Combine the Results**
+
+\[
+f'(x) = 2x - 3
+\]
+
+**Final Answer:**
+
+✅ **2x - 3**
+
+Thus, the correct choice is:
+**\( \mathbf{2x - 3} \)** 🎯
+
+  </br>
+
+</details>
+
+</br>
