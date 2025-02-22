@@ -159,7 +159,77 @@ f'(x) = 2x
 - **Product Rule**: Used when differentiating a product of two functions, but \( x^2 \) is a single function.
 - **Integration by Parts**: This is an integration technique, not differentiation.
 
-Thus, **binomial expansion** is the correct technique when differentiating \( f(x) = x^2 \) from first principles. 🚀
+Thus, **binomial expansion** is the correct technique when differentiating \( f(x) = x^2 \) from first principles. 🚀e
+
+  </br>
+
+</details>
+
+</br>
+
+##### 5. Which of the following expressions is the derivative of f(x) = x^2^ using the limit definition?
+
+- lim~Δx\_>0~ ${\frac{(x+Δx)^3 -x^3}{Δx}}$
+- lim~Δx\_>0~ ${\frac{(x^2 - (z-Δx)^2}{Δx}}$
+- lim~Δx\_>0~ ${\frac{((x+Δx)-x}{Δx}}$
+- lim~Δx\_>0~ ${\frac{(x+Δ)^2}{Δx}}$
+
+<details>
+  <summary>Solution</summary>
+
+The correct expression that represents the derivative of \( f(x) = x^2 \) using the **limit definition of a derivative** is:
+
+✅
+\[
+\lim\_{\Delta x \to 0} \frac{(x+\Delta x)^2 - x^2}{\Delta x}
+\]
+
+However, none of the given options seem to be exactly correct. Let's analyze them:
+
+1. **\(\lim\_{\Delta x \to 0} \frac{(x+\Delta x)^3 - x^3}{\Delta x}\)**
+
+   - Incorrect. This is the derivative definition for \( f(x) = x^3 \), not \( x^2 \).
+
+2. **\(\lim\_{\Delta x \to 0} \frac{x^2 - (z-\Delta x)^2}{\Delta x}\)**
+
+   - Incorrect. This does not match the standard limit definition of the derivative.
+
+3. **\(\lim\_{\Delta x \to 0} \frac{( (x+\Delta x) - x )}{\Delta x}\)**
+
+   - Incorrect. This simplifies to \( \frac{\Delta x}{\Delta x} = 1 \), which is not the derivative of \( x^2 \).
+
+4. **\(\lim\_{\Delta x \to 0} \frac{(x+\Delta)^2}{\Delta x}\)**
+   - Incorrect. It should be **\(\frac{(x+\Delta x)^2 - x^2}{\Delta x}\)** instead.
+
+Correct Limit Definition for \( f(x) = x^2 \):
+
+\[
+f'(x) = \lim\_{\Delta x \to 0} \frac{(x+\Delta x)^2 - x^2}{\Delta x}
+\]
+
+Expanding \( (x+\Delta x)^2 \) using binomial expansion:
+
+\[
+= \lim\_{\Delta x \to 0} \frac{x^2 + 2x\Delta x + (\Delta x)^2 - x^2}{\Delta x}
+\]
+
+\[
+= \lim\_{\Delta x \to 0} \frac{2x\Delta x + (\Delta x)^2}{\Delta x}
+\]
+
+\[
+= \lim\_{\Delta x \to 0} (2x + \Delta x)
+\]
+
+\[
+= 2x
+\]
+
+Thus, **\( f'(x) = 2x \)**, but none of the answer choices match the correct limit definition exactly. If you have a formatting issue in your options, check for a choice similar to:
+
+\[
+\lim\_{\Delta x \to 0} \frac{(x+\Delta x)^2 - x^2}{\Delta x}
+\]
 
   </br>
 
