@@ -61,3 +61,17 @@ Thus, the first option is the correct definition of the derivative using limits.
 </br>
 
 ##### 3. If f(x) = x^3^, what is f;(x)?
+
+- 3x^2^
+- 3x
+- x^3^
+- x^2^
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+</details>
+
+</br>
