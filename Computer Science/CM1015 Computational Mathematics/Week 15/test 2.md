@@ -303,3 +303,66 @@ This confirms that the derivative of \( x^3 \) is **\( 3x^2 \)** using the first
 </br>
 
 ##### 7. Find the derivative of f(x) = x^2^ using the limit definition of the derivative
+
+<details>
+  <summary>Solution</summary>
+
+To find the derivative of \( f(x) = x^2 \) using the **limit definition of the derivative**, we use:
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{f(x+h) - f(x)}{h}
+\]
+
+Step 1: Substitute \( f(x) = x^2 \)
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{(x+h)^2 - x^2}{h}
+\]
+
+Step 2: Expand \( (x+h)^2 \) using the **binomial expansion**:
+
+\[
+(x+h)^2 = x^2 + 2xh + h^2
+\]
+
+Step 3: Substitute back into the limit expression
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{x^2 + 2xh + h^2 - x^2}{h}
+\]
+
+Step 4: Simplify the numerator
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{2xh + h^2}{h}
+\]
+
+Factor out \( h \):
+
+\[
+f'(x) = \lim\_{{h \to 0}} (2x + h)
+\]
+
+Step 5: Take the limit as \( h \to 0 \)
+
+\[
+f'(x) = 2x + 0
+\]
+
+\[
+f'(x) = 2x
+\]
+
+Final Answer:
+
+\[
+\mathbf{f'(x) = 2x}
+\]
+
+This confirms that the derivative of \( x^2 \) is **\( 2x \)** using the **limit definition of a derivative**. 🚀
+
+  </br>
+
+</details>
+
+</br>
