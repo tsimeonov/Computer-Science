@@ -29,7 +29,7 @@ The correct answer is:
 - lim~h->0~ ${\frac{f(x+h) - f(x-h)}{h}}$
 - lim~h->0~ ${\frac{f(x+h) - f(x-h)}{2h}}$
 
-details>
+<details>
 
   <summary>Solution</summary>
 
@@ -432,3 +432,64 @@ Thus, using **first principles** and the **binomial expansion**, we confirm that
 </br>
 
 ##### 9. Find the derivative of f(x) = x^4^ using the limit definition of the derivative
+
+<details>
+  <summary>Solution</summary>
+
+To find the derivative of \( f(x) = x^4 \) using the **limit definition of a derivative**, we follow these steps:
+
+**Step 1: Apply the Limit Definition**
+The derivative is given by:
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{f(x+h) - f(x)}{h}
+\]
+
+Substituting \( f(x) = x^4 \):
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{(x+h)^4 - x^4}{h}
+\]
+
+**Step 2: Expand \( (x+h)^4 \) using the Binomial Theorem**
+Using the **binomial expansion**:
+
+\[
+(x+h)^4 = x^4 + 4x^3h + 6x^2h^2 + 4xh^3 + h^4
+\]
+
+**Step 3: Substitute into the Limit Expression**
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{x^4 + 4x^3h + 6x^2h^2 + 4xh^3 + h^4 - x^4}{h}
+\]
+
+Cancel out \( x^4 \):
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{4x^3h + 6x^2h^2 + 4xh^3 + h^4}{h}
+\]
+
+**Step 4: Factor Out \( h \)**
+\[
+f'(x) = \lim\_{{h \to 0}} (4x^3 + 6x^2h + 4xh^2 + h^3)
+\]
+
+**Step 5: Take the Limit as \( h \to 0 \)**
+Since \( h \to 0 \), all terms containing \( h \) vanish:
+
+\[
+f'(x) = 4x^3
+\]
+
+**Final Answer:**
+\[
+\mathbf{f'(x) = 4x^3}
+\]
+
+Thus, using the **limit definition of a derivative**, we have shown that the derivative of \( x^4 \) is **\( 4x^3 \)**. 🚀
+
+  </br>
+
+</details>
+
+</br>
