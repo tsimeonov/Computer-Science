@@ -123,7 +123,7 @@ Thus, the correct choice is:
 
 </br>
 
-#### 4. Find the derivative of f(x) = x^2^ - 3x + 5
+##### 4. Find the derivative of f(x) = x^2^ - 3x + 5
 
 - 2x - 3
 - 2x - 3x + 5
@@ -159,3 +159,10 @@ Thus, the correct choice is:
 </details>
 
 </br>
+
+##### 5. Which statement is true about the derivative of a constant function?
+
+- The derivative is one
+- The derivative does not exist
+- The derivative is the constant itself
+- The derivative is zero
