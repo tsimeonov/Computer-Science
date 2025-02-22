@@ -122,3 +122,5 @@ Thus, the correct choice is:
 </details>
 
 </br>
+
+#### 4. Find the derivative of f(x) = x^2^ - 3x + 5
