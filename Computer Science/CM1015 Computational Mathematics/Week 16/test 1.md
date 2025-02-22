@@ -43,3 +43,10 @@ Thus, the correct answer is:
 </details>
 
 </br>
+
+##### 2. Which of the following represents the derivative of f(x) = sin(x)?
+
+- -cos(x)
+- -sin(x)
+- tan(x)
+- cos(x)
