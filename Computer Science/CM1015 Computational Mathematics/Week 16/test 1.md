@@ -92,3 +92,33 @@ Thus, the correct choice is:
 - xe^x-1^
 - e^x-1^
 - xe^x^
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = e^x \), we use the fundamental rule:
+
+\[
+\frac{d}{dx} e^x = e^x
+\]
+
+**Step 1: Identify the Function**
+\[
+f(x) = e^x
+\]
+
+**Step 2: Differentiate**
+\[
+f'(x) = e^x
+\]
+**Final Answer:**
+✅ **\( e^x \)**
+
+Thus, the correct choice is:
+**\( \mathbf{e^x} \)** 🎯
+
+  </br>
+
+</details>
+
+</br>
