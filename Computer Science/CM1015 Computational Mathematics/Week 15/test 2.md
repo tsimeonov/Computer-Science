@@ -495,3 +495,44 @@ Thus, using the **limit definition of a derivative**, we have shown that the der
 </br>
 
 ##### 10. Using the result for f(x) = x^n^, find the derivative of f(x) = x^5^
+
+<details>
+  <summary>Solution</summary>
+
+To find the derivative of \( f(x) = x^5 \) using the **result from \( f(x) = x^n \)**, we apply the **power rule**, which we derived from the limit definition:
+
+\[
+\frac{d}{dx} x^n = n x^{n-1}
+\]
+
+### **Step 1: Identify \( n \)**
+
+For \( f(x) = x^5 \), we have:
+
+\[
+n = 5
+\]
+
+### **Step 2: Apply the Power Rule**
+
+\[
+f'(x) = 5x^{5-1}
+\]
+
+\[
+f'(x) = 5x^4
+\]
+
+### **Final Answer:**
+
+\[
+\mathbf{f'(x) = 5x^4}
+\]
+
+Thus, using the **power rule**, the derivative of \( x^5 \) is **\( 5x^4 \)**. 🚀
+
+  </br>
+
+</details>
+
+</br>
