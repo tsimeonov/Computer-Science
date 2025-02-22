@@ -375,7 +375,7 @@ The given function is:
 f(x) = 7x^2 + 6x + 2
 \]
 
-### **Step 1: Differentiate Each Term**
+å**Step 1: Differentiate Each Term**
 
 Using the **power rule**:
 
@@ -389,13 +389,13 @@ Differentiate each term:
 2. \( \frac{d}{dx} (6x) = 6 \cdot 1x^{1-1} = 6 \)
 3. \( \frac{d}{dx} (2) = 0 \) (since the derivative of a constant is 0)
 
-### **Step 2: Combine the Results**
+å**Step 2: Combine the Results**
 
 \[
 f'(x) = 14x + 6
 \]
 
-### **Final Answer:**
+å**Final Answer:**
 
 \[
 \mathbf{f'(x) = 14x + 6}
@@ -406,3 +406,5 @@ f'(x) = 14x + 6
 </details>
 
 </br>
+
+##### 9. Find the derivative of the function f(x) = 4x^2^ - 3x + 5
