@@ -21,3 +21,10 @@ The correct answer is:
 </details>
 
 </br>
+
+##### 2. Which of the following expressions defines the derivative of f(x) using limits?
+
+- lim~h->0~ ${\frac{f(x+h) - f(x)}{h}}$
+- lim~h->0~ ${\frac{f(x) - f(x-h)}{h}}$
+- lim~h->0~ ${\frac{f(x+h) - f(x-h)}{h}}$
+- lim~h->0~ ${\frac{f(x+h) - f(x-h)}{2h}}$
