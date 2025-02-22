@@ -50,3 +50,38 @@ Thus, the correct answer is:
 - -sin(x)
 - tan(x)
 - cos(x)
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = \sin(x) \), we use the standard derivative rule:
+
+\[
+\frac{d}{dx} \sin(x) = \cos(x)
+\]
+
+**Step 1: Identify the Function**
+
+Given:
+\[
+f(x) = \sin(x)
+\]
+
+**Step 2: Apply the Derivative Rule**
+
+\[
+f'(x) = \cos(x)
+\]
+
+**Final Answer:**
+
+✅ **cos(x)**
+
+Thus, the correct choice is:
+**\( \mathbf{\cos(x)} \)** 🎯
+
+  </br>
+
+</details>
+
+</br>
