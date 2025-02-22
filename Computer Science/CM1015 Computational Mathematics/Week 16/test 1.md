@@ -408,3 +408,52 @@ f'(x) = 14x + 6
 </br>
 
 ##### 9. Find the derivative of the function f(x) = 4x^2^ - 3x + 5
+
+<details>
+  <summary>Solution</summary>
+
+To find the derivative of the function:
+
+\[
+f(x) = 4x^2 - 3x + 5
+\]
+
+**Step 1: Differentiate Each Term Using the Power Rule**
+The **power rule** states:
+
+\[
+\frac{d}{dx} x^n = n x^{n-1}
+\]
+
+Now, differentiate term by term:
+
+1. **Differentiate \( 4x^2 \):**
+   \[
+   \frac{d}{dx} (4x^2) = 4 \cdot 2x^{2-1} = 8x
+   \]
+
+2. **Differentiate \( -3x \):**
+   \[
+   \frac{d}{dx} (-3x) = -3 \cdot 1x^{1-1} = -3
+   \]
+
+3. **Differentiate \( 5 \) (a constant):**
+   \[
+   \frac{d}{dx} (5) = 0
+   \]
+
+**Step 2: Combine the Results**
+\[
+f'(x) = 8x - 3
+\]
+
+**Final Answer:**
+\[
+\mathbf{f'(x) = 8x - 3}
+\] 🚀
+
+  </br>
+
+</details>
+
+</br>
