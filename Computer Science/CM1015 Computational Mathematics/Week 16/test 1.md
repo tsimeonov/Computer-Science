@@ -166,3 +166,37 @@ Thus, the correct choice is:
 - The derivative does not exist
 - The derivative is the constant itself
 - The derivative is zero
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+✅ **The derivative is zero**
+
+**Explanation:**
+
+For a constant function \( f(x) = c \) (where \( c \) is a constant), the derivative is given by:
+
+\[
+\frac{d}{dx} (c) = 0
+\]
+
+This is because a constant function does not change, so its **rate of change (slope)** is always **zero**.
+
+**Why the other options are incorrect:**
+
+- **"The derivative is one"** ❌ → Incorrect because a constant function has no change, so the derivative is **not 1**.
+- **"The derivative does not exist"** ❌ → Incorrect because the derivative of a constant **does exist**, and it is **0**.
+- **"The derivative is the constant itself"** ❌ → Incorrect because the derivative of a constant is **not the constant itself**, but rather **zero**.
+
+**Final Conclusion:**
+
+For any constant function \( f(x) = c \),
+**\( f'(x) = 0 \)** 🚀
+
+  </br>
+
+</details>
+
+</br>
