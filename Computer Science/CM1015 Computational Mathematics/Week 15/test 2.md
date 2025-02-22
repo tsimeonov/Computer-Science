@@ -238,3 +238,65 @@ Thus, **\( f'(x) = 2x \)**, but none of the answer choices match the correct lim
 </br>
 
 ##### 6. Find the derivative of f(x) = x^3^ using the limit definition of the derivative
+
+<details>
+  <summary>Solution</summary>
+
+To find the derivative of \( f(x) = x^3 \) using the **limit definition of a derivative**, we use:
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{f(x+h) - f(x)}{h}
+\]
+
+Step 1: Substitute \( f(x) = x^3 \)
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{(x+h)^3 - x^3}{h}
+\]
+
+Step 2: Expand \( (x+h)^3 \) using the **binomial expansion**:
+
+\[
+(x+h)^3 = x^3 + 3x^2h + 3xh^2 + h^3
+\]
+Step 3: Substitute back into the limit expression
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{x^3 + 3x^2h + 3xh^2 + h^3 - x^3}{h}
+\]
+
+Step 4: Simplify the numerator
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{3x^2h + 3xh^2 + h^3}{h}
+\]
+
+Factor out \( h \):
+
+\[
+f'(x) = \lim\_{{h \to 0}} (3x^2 + 3xh + h^2)
+\]
+
+Step 5: Take the limit as \( h \to 0 \)
+
+\[
+f'(x) = 3x^2 + 3x(0) + 0^2
+\]
+
+\[
+f'(x) = 3x^2
+\]
+
+Final Answer:
+
+\[
+\mathbf{f'(x) = 3x^2}
+\]
+
+This confirms that the derivative of \( x^3 \) is **\( 3x^2 \)** using the first principles (limit definition of a derivative). 🚀
+
+  </br>
+
+</details>
+
+</br>
