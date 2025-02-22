@@ -430,3 +430,5 @@ Thus, using **first principles** and the **binomial expansion**, we confirm that
 </details>
 
 </br>
+
+##### 9. Find the derivative of f(x) = x^4^ using the limit definition of the derivative
