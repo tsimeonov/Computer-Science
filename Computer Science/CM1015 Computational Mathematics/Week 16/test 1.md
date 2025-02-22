@@ -85,3 +85,10 @@ Thus, the correct choice is:
 </details>
 
 </br>
+
+##### 3. If f(x) = e^x^, what is f'(x)
+
+- e^x^
+- xe^x-1^
+- e^x-1^
+- xe^x^
