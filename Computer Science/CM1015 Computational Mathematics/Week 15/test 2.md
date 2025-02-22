@@ -96,3 +96,10 @@ Correct Answer:
 </details>
 
 </br>
+
+##### 4. What technique is used to find the derivative of f(x) = x^2^ from first principles?
+
+- Binomial expansion
+- Quotient rule
+- Product rule
+- Integration by parts
