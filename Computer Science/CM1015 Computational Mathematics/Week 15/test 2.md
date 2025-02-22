@@ -103,3 +103,66 @@ Correct Answer:
 - Quotient rule
 - Product rule
 - Integration by parts
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+✅ **Binomial expansion**
+
+### Explanation:
+
+To find the derivative of \( f(x) = x^2 \) **from first principles**, we use the **definition of the derivative**:
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{f(x+h) - f(x)}{h}
+\]
+
+Substituting \( f(x) = x^2 \):
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{(x+h)^2 - x^2}{h}
+\]
+
+Expanding \( (x+h)^2 \) using **binomial expansion**:
+
+\[
+(x+h)^2 = x^2 + 2xh + h^2
+\]
+
+Now, substitute back:
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{x^2 + 2xh + h^2 - x^2}{h}
+\]
+
+\[
+= \lim\_{{h \to 0}} \frac{2xh + h^2}{h}
+\]
+
+Factor out \( h \):
+
+\[
+= \lim\_{{h \to 0}} (2x + h)
+\]
+
+As \( h \to 0 \), we get:
+
+\[
+f'(x) = 2x
+\]
+
+### Why the other options are incorrect:
+
+- **Quotient Rule**: Used for functions of the form \( \frac{f(x)}{g(x)} \), which is not applicable here.
+- **Product Rule**: Used when differentiating a product of two functions, but \( x^2 \) is a single function.
+- **Integration by Parts**: This is an integration technique, not differentiation.
+
+Thus, **binomial expansion** is the correct technique when differentiating \( f(x) = x^2 \) from first principles. 🚀
+
+  </br>
+
+</details>
+
+</br>
