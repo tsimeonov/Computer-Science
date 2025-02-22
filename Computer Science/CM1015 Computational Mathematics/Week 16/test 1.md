@@ -253,3 +253,113 @@ This confirms that the derivative is **\( 12x^2 - 10x + 6 \)**. 🚀
 </br>
 
 ##### 7. Determine the local minima and maxima of the function f(x) = x^3^ 6x^2^ + 9x
+
+<details>
+  <summary>Solution</summary>
+
+To determine the **local minima and maxima** of the function:
+
+\[
+f(x) = x^3 + 6x^2 + 9x
+\]
+
+we follow these steps:
+
+**Step 1: Find the First Derivative \( f'(x) \)**
+Differentiate the function:
+
+\[
+f'(x) = \frac{d}{dx} (x^3 + 6x^2 + 9x)
+\]
+
+Using the **power rule**:
+
+\[
+f'(x) = 3x^2 + 12x + 9
+\]
+
+**Step 2: Find Critical Points**
+Set \( f'(x) = 0 \) to find critical points:
+
+\[
+3x^2 + 12x + 9 = 0
+\]
+
+Divide by 3:
+
+\[
+x^2 + 4x + 3 = 0
+\]
+
+Factorize:
+
+\[
+(x+3)(x+1) = 0
+\]
+
+Solve for \( x \):
+
+\[
+x = -3, \quad x = -1
+\]
+
+These are the **critical points**.
+**Step 3: Find the Second Derivative \( f''(x) \)**
+Differentiate \( f'(x) \):
+
+\[
+f''(x) = \frac{d}{dx} (3x^2 + 12x + 9)
+\]
+
+\[
+f''(x) = 6x + 12
+\]
+
+**Step 4: Determine the Nature of Critical Points**
+Use the **second derivative test**:
+
+- **At \( x = -3 \):**
+  \[
+  f''(-3) = 6(-3) + 12 = -18 + 12 = -6
+  \]
+  Since \( f''(-3) < 0 \), **\( x = -3 \) is a local maximum**.
+
+- **At \( x = -1 \):**
+  \[
+  f''(-1) = 6(-1) + 12 = -6 + 12 = 6
+  \]
+  Since \( f''(-1) > 0 \), **\( x = -1 \) is a local minimum**.
+  **Step 5: Find Function Values**
+  To determine the actual maximum and minimum values:
+
+- **At \( x = -3 \):**
+  \[
+  f(-3) = (-3)^3 + 6(-3)^2 + 9(-3)
+  \]
+  \[
+  = -27 + 6(9) + (-27) = -27 + 54 - 27 = 0
+  \]
+
+- **At \( x = -1 \):**
+  \[
+  f(-1) = (-1)^3 + 6(-1)^2 + 9(-1)
+  \]
+  \[
+  = -1 + 6(1) + (-9) = -1 + 6 - 9 = -4
+  \]
+
+**Final Answer**
+
+- **Local Maximum at \( x = -3 \) with \( f(-3) = 0 \)**
+- **Local Minimum at \( x = -1 \) with \( f(-1) = -4 \)**
+
+🚀 **Summary:**
+
+- **Local Max:** \( (-3, 0) \)
+- **Local Min:** \( (-1, -4) \)
+
+  </br>
+
+</details>
+
+</br>
