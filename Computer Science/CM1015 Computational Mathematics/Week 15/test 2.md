@@ -70,6 +70,27 @@ Thus, the first option is the correct definition of the derivative using limits.
 <details>
   <summary>Solution</summary>
 
+Given the function:
+\[
+f(x) = x^3
+\]
+
+To find \( f'(x) \), we use the **power rule** of differentiation:
+
+\[
+\frac{d}{dx} x^n = n x^{n-1}
+\]
+
+Applying this rule:
+
+\[
+f'(x) = 3x^{3-1} = 3x^2
+\]
+
+Correct Answer:
+
+✅ **3x²**
+
   </br>
 
 </details>
