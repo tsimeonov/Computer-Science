@@ -236,3 +236,5 @@ Thus, **\( f'(x) = 2x \)**, but none of the answer choices match the correct lim
 </details>
 
 </br>
+
+##### 6. Find the derivative of f(x) = x^3^ using the limit definition of the derivative
