@@ -363,3 +363,5 @@ Use the **second derivative test**:
 </details>
 
 </br>
+
+##### 8. Evaluate the derivative of the function f(x) = 7x^2^ 6x + 2
