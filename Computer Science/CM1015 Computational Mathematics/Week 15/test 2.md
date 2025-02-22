@@ -10,6 +10,12 @@
 <details>
   <summary>Solution</summary>
 
+The correct answer is:
+
+**The slope of the tangent line at x**
+
+\( f'(x) \) represents the **instantaneous rate of change** of the function at \( x \), which is the **slope of the tangent line** to the curve at that point.
+
   </br>
 
 </details>
