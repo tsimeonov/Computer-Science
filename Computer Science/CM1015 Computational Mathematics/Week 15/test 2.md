@@ -259,6 +259,7 @@ Step 2: Expand \( (x+h)^3 \) using the **binomial expansion**:
 \[
 (x+h)^3 = x^3 + 3x^2h + 3xh^2 + h^3
 \]
+
 Step 3: Substitute back into the limit expression
 
 \[
@@ -300,3 +301,5 @@ This confirms that the derivative of \( x^3 \) is **\( 3x^2 \)** using the first
 </details>
 
 </br>
+
+##### 7. Find the derivative of f(x) = x^2^ using the limit definition of the derivative
