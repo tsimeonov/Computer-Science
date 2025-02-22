@@ -366,3 +366,67 @@ This confirms that the derivative of \( x^2 \) is **\( 2x \)** using the **limit
 </details>
 
 </br>
+
+##### 8. Differentiate f(x) = x^2^ from first principles using the binomial expression
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = x^2 \) from **first principles** using the **binomial expansion**, we use the **limit definition of the derivative**:
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{f(x+h) - f(x)}{h}
+\]
+
+**Step 1: Substitute \( f(x) = x^2 \)**
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{(x+h)^2 - x^2}{h}
+\]
+
+**Step 2: Expand \( (x+h)^2 \) using the Binomial Theorem**
+
+Using the **binomial expansion**:
+
+\[
+(x+h)^2 = x^2 + 2xh + h^2
+\]
+**Step 3: Substitute back into the limit expression**
+
+\[
+f'(x) = \lim\_{{h \to 0}} \frac{x^2 + 2xh + h^2 - x^2}{h}
+\]
+**Step 4: Simplify the numerator**
+
+\[
+= \lim\_{{h \to 0}} \frac{2xh + h^2}{h}
+\]
+
+Factor out \( h \):
+
+\[
+= \lim\_{{h \to 0}} (2x + h)
+\]
+
+**Step 5: Take the limit as \( h \to 0 \)**
+
+\[
+f'(x) = 2x + 0
+\]
+
+\[
+f'(x) = 2x
+\]
+
+**Final Answer:**
+\[
+\mathbf{f'(x) = 2x}
+\]
+
+Thus, using **first principles** and the **binomial expansion**, we confirm that the derivative of \( x^2 \) is **\( 2x \)**. 🚀
+
+  </br>
+
+</details>
+
+</br>
