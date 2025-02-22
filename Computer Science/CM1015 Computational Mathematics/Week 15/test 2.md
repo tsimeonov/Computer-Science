@@ -493,3 +493,5 @@ Thus, using the **limit definition of a derivative**, we have shown that the der
 </details>
 
 </br>
+
+##### 10. Using the result for f(x) = x^n^, find the derivative of f(x) = x^5^
