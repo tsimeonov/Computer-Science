@@ -251,3 +251,5 @@ This confirms that the derivative is **\( 12x^2 - 10x + 6 \)**. 🚀
 </details>
 
 </br>
+
+##### 7. Determine the local minima and maxima of the function f(x) = x^3^ 6x^2^ + 9x
