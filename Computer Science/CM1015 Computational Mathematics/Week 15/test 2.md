@@ -59,3 +59,5 @@ Thus, the first option is the correct definition of the derivative using limits.
 </details>
 
 </br>
+
+##### 3. If f(x) = x^3^, what is f;(x)?
