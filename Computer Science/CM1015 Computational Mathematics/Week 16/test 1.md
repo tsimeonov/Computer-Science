@@ -365,3 +365,44 @@ Use the **second derivative test**:
 </br>
 
 ##### 8. Evaluate the derivative of the function f(x) = 7x^2^ 6x + 2
+
+<details>
+  <summary>Solution</summary>
+
+The given function is:
+
+\[
+f(x) = 7x^2 + 6x + 2
+\]
+
+### **Step 1: Differentiate Each Term**
+
+Using the **power rule**:
+
+\[
+\frac{d}{dx} [ax^n] = a n x^{n-1}
+\]
+
+Differentiate each term:
+
+1. \( \frac{d}{dx} (7x^2) = 7 \cdot 2x^{2-1} = 14x \)
+2. \( \frac{d}{dx} (6x) = 6 \cdot 1x^{1-1} = 6 \)
+3. \( \frac{d}{dx} (2) = 0 \) (since the derivative of a constant is 0)
+
+### **Step 2: Combine the Results**
+
+\[
+f'(x) = 14x + 6
+\]
+
+### **Final Answer:**
+
+\[
+\mathbf{f'(x) = 14x + 6}
+\] 🚀
+
+  </br>
+
+</details>
+
+</br>
