@@ -124,3 +124,8 @@ Thus, the correct choice is:
 </br>
 
 #### 4. Find the derivative of f(x) = x^2^ - 3x + 5
+
+- 2x - 3
+- 2x - 3x + 5
+- 2x + 3
+- 2x - 3 + 5
