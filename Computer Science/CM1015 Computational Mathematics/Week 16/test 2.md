@@ -406,3 +406,5 @@ f'(x) = \frac{1 - 2\ln(x)}{x^3}
 </details>
 
 </br>
+
+##### 8. Given \( f(x) = e^{3x^2} \), find f'(x) using the chain rule
