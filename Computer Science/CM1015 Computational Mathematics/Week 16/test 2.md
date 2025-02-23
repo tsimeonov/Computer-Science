@@ -341,3 +341,68 @@ f'(x) = (3x^2 \cdot \ln(x)) + (x^3 \cdot \frac{1}{x})
 </details>
 
 </br>
+
+##### 7. Given f(x) = ${\frac{In(x) }{x^2}}$, find f'(x) using the quotient rule
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = \frac{\ln(x)}{x^2} \) using the **quotient rule**, follow these steps:
+
+**Step 1: Recall the Quotient Rule**
+
+For a function of the form:
+
+\[
+f(x) = \frac{h(x)}{g(x)}
+\]
+
+The **quotient rule** states:
+
+\[
+f'(x) = \frac{h'(x) g(x) - h(x) g'(x)}{(g(x))^2}
+\]
+
+**Step 2: Identify \( h(x) \) and \( g(x) \)**
+
+- **Numerator**: \( h(x) = \ln(x) \)
+
+  - Derivative: \( h'(x) = \frac{1}{x} \)
+
+- **Denominator**: \( g(x) = x^2 \)
+  - Derivative: \( g'(x) = 2x \)
+
+**Step 3: Apply the Quotient Rule**
+
+\[
+f'(x) = \frac{\left( \frac{1}{x} \cdot x^2 \right) - \left( \ln(x) \cdot 2x \right)}{(x^2)^2}
+\]
+**Step 4: Simplify**
+
+\[
+f'(x) = \frac{x - 2x\ln(x)}{x^4}
+\]
+
+Factor out \( x \) in the numerator:
+
+\[
+f'(x) = \frac{x(1 - 2\ln(x))}{x^4}
+\]
+
+Cancel one \( x \) from numerator and denominator:
+
+\[
+f'(x) = \frac{1 - 2\ln(x)}{x^3}
+\]
+
+**Final Answer:**
+
+\[
+\mathbf{f'(x) = \frac{1 - 2\ln(x)}{x^3}}
+\] 🚀
+
+  </br>
+
+</details>
+
+</br>
