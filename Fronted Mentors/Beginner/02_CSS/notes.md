@@ -106,4 +106,6 @@ red -> value
 
 </details>
 
-</br>
+---
+
+##### CSS Box Model
