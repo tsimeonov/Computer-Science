@@ -13,3 +13,5 @@ h1 {
 h1 -> Selector
 color -> property
 red -> value
+
+##### CSS Cascade
