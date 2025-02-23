@@ -195,3 +195,46 @@ f'(x) = \cos(x^2) \cdot 2x
 - cos^2^(x) - sin^2^(x)
 - cos(x) - sin(x)
 - cos(x) \* cos(x) - sin(x) \* sin(x)
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = \sin(x) \cdot \cos(x) \) using the **product rule**, we follow these steps:
+
+**Step 1: Recall the Product Rule**
+The **product rule** states:
+
+\[
+f'(x) = g'(x) h(x) + g(x) h'(x)
+\]
+
+For \( f(x) = \sin(x) \cdot \cos(x) \), let:
+
+- \( g(x) = \sin(x) \), so \( g'(x) = \cos(x) \).
+- \( h(x) = \cos(x) \), so \( h'(x) = -\sin(x) \).
+
+**Step 2: Apply the Product Rule**
+\[
+f'(x) = (\cos(x) \cdot \cos(x)) + (\sin(x) \cdot (-\sin(x)))
+\]
+
+\[
+= \cos^2(x) - \sin^2(x)
+\]
+
+**Final Answer:**
+✅ **\( \cos^2(x) - \sin^2(x) \)**
+
+Thus, the correct choice is:
+**\( \mathbf{\cos^2(x) - \sin^2(x)} \)** 🎯
+
+This is also known as the **double-angle identity** for cosine:
+\[
+\cos(2x) = \cos^2(x) - \sin^2(x)
+\]
+
+  </br>
+
+</details>
+
+</br>
