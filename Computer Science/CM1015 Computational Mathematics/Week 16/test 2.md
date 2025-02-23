@@ -293,3 +293,51 @@ Thus, the correct choice is:
 </br>
 
 ##### 6. Given f(x) = x^3^ \* In(x), find f'(x) using the product rule
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = x^3 \cdot \ln(x) \) using the **product rule**, follow these steps:
+
+### **Step 1: Recall the Product Rule**
+
+For a function of the form:
+
+\[
+f(x) = g(x) \cdot h(x)
+\]
+
+The **product rule** states:
+
+\[
+f'(x) = g'(x) h(x) + g(x) h'(x)
+\]
+
+**Step 2: Identify \( g(x) \) and \( h(x) \)**
+
+- \( g(x) = x^3 \)
+
+  - Derivative: \( g'(x) = 3x^2 \)
+
+- \( h(x) = \ln(x) \)
+  - Derivative: \( h'(x) = \frac{1}{x} \)
+
+**Step 3: Apply the Product Rule**
+\[
+f'(x) = (3x^2 \cdot \ln(x)) + (x^3 \cdot \frac{1}{x})
+\]
+
+\[
+= 3x^2 \ln(x) + x^2
+\]
+
+**Final Answer:**
+\[
+\mathbf{f'(x) = 3x^2 \ln(x) + x^2}
+\] 🚀
+
+  </br>
+
+</details>
+
+</br>
