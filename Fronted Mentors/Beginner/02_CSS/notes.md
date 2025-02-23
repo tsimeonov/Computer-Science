@@ -17,3 +17,5 @@ red -> value
 ##### CSS Cascade
 
 ##### ID's & !important
+
+##### Pseudo-classes
