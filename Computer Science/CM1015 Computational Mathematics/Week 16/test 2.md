@@ -188,3 +188,10 @@ f'(x) = \cos(x^2) \cdot 2x
 </details>
 
 </br>
+
+##### 4. If f(x) = sin(x) \* cos(x), what id f'(x) using the product rule?
+
+- cos(x) \* cos(x) + sin(x) \* sin(x)
+- cos^2^(x) - sin^2^(x)
+- cos(x) - sin(x)
+- cos(x) \* cos(x) - sin(x) \* sin(x)
