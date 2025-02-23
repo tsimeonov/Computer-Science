@@ -238,3 +238,10 @@ This is also known as the **double-angle identity** for cosine:
 </details>
 
 </br>
+
+##### 5. If f(x) = ${\frac{e^x}{x^2}}$, what is f'(x) using the quotient rule?
+
+- ${\frac{e^x * x^2 + e^x * 2x}{x^4}}$
+- ${\frac{e^x * x^2 - e^x * 2x}{x^2}}$
+- ${\frac{e^x * x^2 - e^x * x^2}{x^4}}$
+- ${\frac{e^x * x^2 + e^x * 2x}{x^4}}$
