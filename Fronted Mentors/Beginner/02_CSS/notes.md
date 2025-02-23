@@ -78,3 +78,32 @@ red -> value
 </details>
 
 ---
+
+##### Pseudo-elements
+
+<details>
+  <summary>Example</summary>
+
+```css
+.chapter {
+  margin: 0;
+}
+.chapter::after {
+  content: "❦";
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+```
+
+```html
+<div class="chapter">This is a chapter of my book.</div>
+
+<div class="chapter">This is a second chapter of my book.</div>
+```
+
+  </br>
+
+</details>
+
+</br>
