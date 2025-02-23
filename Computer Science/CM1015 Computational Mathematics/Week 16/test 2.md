@@ -408,3 +408,42 @@ f'(x) = \frac{1 - 2\ln(x)}{x^3}
 </br>
 
 ##### 8. Given \( f(x) = e^{3x^2} \), find f'(x) using the chain rule
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = e^{3x^2} \) using the **chain rule**, follow these steps:
+
+**Step 1: Recall the Chain Rule**
+For a composite function:
+
+\[
+f(x) = g(h(x))
+\]
+
+The **chain rule** states:
+
+\[
+f'(x) = g'(h(x)) \cdot h'(x)
+\]
+**Step 2: Identify the Inner and Outer Functions**
+
+- **Outer function**: \( g(x) = e^x \)
+  - Derivative: \( g'(x) = e^x \)
+- **Inner function**: \( h(x) = 3x^2 \)
+  - Derivative: \( h'(x) = 6x \)
+    **Step 3: Apply the Chain Rule**
+    \[
+    f'(x) = e^{3x^2} \cdot 6x
+    \]
+
+**Final Answer:**
+\[
+\mathbf{f'(x) = 6x e^{3x^2}}
+\] 🚀
+
+  </br>
+
+</details>
+
+</br>
