@@ -52,3 +52,29 @@ red -> value
 </details>
 
 </br>
+
+<details>
+  <summary>Example</summary>
+
+```css
+.first-child-example {
+  color: crimson;
+}
+.first-child-example:first-child {
+  color: limegreen;
+}
+```
+
+```html
+<ol>
+  <li class="first-child-example">First</li>
+  <li class="first-child-example">Second</li>
+  <li class="first-child-example">Third</li>
+</ol>
+```
+
+  </br>
+
+</details>
+
+</br>
