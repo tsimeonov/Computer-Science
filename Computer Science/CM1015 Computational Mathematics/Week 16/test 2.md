@@ -122,3 +122,10 @@ Thus, the correct answer is:
 </details>
 
 </br>
+
+##### 3. What is the chain rule for differentiating f(x) = g(h(x))?
+
+- f'(x) = g(x) \* h'(x)
+- f'(x) = g'(h(x)) \* h(x)
+- f'(x) = g'(h(x)) \* h'(x)
+- f'(x) = g(h(x)) \* h'(x)
