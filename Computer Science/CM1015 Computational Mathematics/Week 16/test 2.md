@@ -2,10 +2,10 @@
 
 ##### 1. What is the product rule for differentiating f(x) = g(x) \* h(x)?
 
-- f'(x) = g'(x) ^x^ h(x) ^x^ h'(x)
-- f'(x) = g'(x) ^x^ h'(x)
-- f'(x) = g'(x) ^x^ h'(x)
-- f'(x) = g(x) ^x^ h(x)
+- f'(x) = g'(x) \* h(x) \* h'(x)
+- f'(x) = g'(x) \* h'(x)
+- f'(x) = g'(x) \* h'(x)
+- f'(x) = g(x) \* h(x)
 
 <details>
   <summary>Solution</summary>
