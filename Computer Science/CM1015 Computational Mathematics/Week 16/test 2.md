@@ -87,7 +87,7 @@ f'(x) = \frac{h'(x) g(x) - h(x) g'(x)}{(g(x))^2}
 - **\( h(x) g'(x) \)** → Numerator times the derivative of the denominator.
 - **The denominator squared: \( (g(x))^2 \)** ensures the fraction is properly differentiated.
 
-  **Example:**
+**Example:**
 
 If
 \[
@@ -129,3 +129,62 @@ Thus, the correct answer is:
 - f'(x) = g'(h(x)) \* h(x)
 - f'(x) = g'(h(x)) \* h'(x)
 - f'(x) = g(h(x)) \* h'(x)
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+✅ **\( f'(x) = g'(h(x)) \cdot h'(x) \)**
+
+**Chain Rule for Differentiation**
+
+If you have a **composite function**:
+
+\[
+f(x) = g(h(x))
+\]
+
+Then, the **chain rule** states:
+
+\[
+f'(x) = g'(h(x)) \cdot h'(x)
+\]
+
+**Explanation:**
+
+- **\( g'(h(x)) \)** → Differentiate the outer function \( g(x) \), keeping the inner function \( h(x) \) unchanged.
+- **\( h'(x) \)** → Differentiate the inner function \( h(x) \).
+
+**Example:**
+
+If
+\[
+f(x) = \sin(x^2)
+\]
+Then:
+
+- **Outer function**: \( g(x) = \sin x \) → \( g'(x) = \cos x \)
+- **Inner function**: \( h(x) = x^2 \) → \( h'(x) = 2x \)
+
+Applying the chain rule:
+
+\[
+f'(x) = \cos(x^2) \cdot 2x
+\]
+
+\[
+= 2x \cos(x^2)
+\]
+
+**Final Answer:**
+
+\[
+\mathbf{f'(x) = g'(h(x)) \cdot h'(x)}
+\] 🚀
+
+  </br>
+
+</details>
+
+</br>
