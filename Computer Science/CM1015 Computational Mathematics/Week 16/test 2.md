@@ -52,3 +52,10 @@ Thus, the correct choice follows this structure:
 </details>
 
 </br>
+
+##### 2. What is the quotient rule for differentiating f(x) = ${\frac{h(x)}{g(x)}}$
+
+- f'(x) = ${\frac{h'(x) * g(x) + h(x) * g'(x) }{(g(x))^2}}$
+- f'(x) = ${\frac{h'(x) * g(x) - h(x) * g'(x) }{(g(x))^2}}$
+- f'(x) = ${\frac{g'(x) * h(x) - g(x) * h'(x) }{(g(x))^2}}$
+- f'(x) = ${\frac{g'(x) * h(x) + g(x) * h '(x) }{(g(x))^2}}$
