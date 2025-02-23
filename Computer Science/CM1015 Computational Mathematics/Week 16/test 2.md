@@ -244,4 +244,52 @@ This is also known as the **double-angle identity** for cosine:
 - ${\frac{e^x * x^2 + e^x * 2x}{x^4}}$
 - ${\frac{e^x * x^2 - e^x * 2x}{x^2}}$
 - ${\frac{e^x * x^2 - e^x * x^2}{x^4}}$
-- ${\frac{e^x * x^2 + e^x * 2x}{x^4}}$
+- ${\frac{e^x * x^2 - e^x * 2x}{x^4}}$
+
+<details>
+  <summary>Solution</summary>
+
+To differentiate \( f(x) = \frac{e^x}{x^2} \) using the **quotient rule**, follow these steps:
+
+**Step 1: Recall the Quotient Rule**
+
+For a function of the form:
+
+\[
+f(x) = \frac{h(x)}{g(x)}
+\]
+
+The **quotient rule** states:
+
+\[
+f'(x) = \frac{h'(x) g(x) - h(x) g'(x)}{(g(x))^2}
+\]
+**Step 2: Identify \( h(x) \) and \( g(x) \)**
+
+- **Numerator**: \( h(x) = e^x \)
+
+  - Derivative: \( h'(x) = e^x \)
+
+- **Denominator**: \( g(x) = x^2 \)
+  - Derivative: \( g'(x) = 2x \)
+
+**Step 3: Apply the Quotient Rule**
+
+\[
+f'(x) = \frac{e^x \cdot x^2 - e^x \cdot 2x}{x^4}
+\]
+
+**Final Answer:**
+
+✅ **\( \frac{e^x \cdot x^2 - e^x \cdot 2x}{x^4} \)**
+
+Thus, the correct choice is:
+**\( \mathbf{\frac{e^x x^2 - e^x 2x}{x^4}} \)** 🎯
+
+  </br>
+
+</details>
+
+</br>
+
+##### 6. Given f(x) = x^3^ \* In(x), find f'(x) using the product rule
