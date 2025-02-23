@@ -1,5 +1,7 @@
 ### CSS
 
+---
+
 ##### CSS Overview & Rules
 
 CSS Rule:
@@ -16,7 +18,11 @@ red -> value
 
 ##### CSS Cascade
 
+---
+
 ##### ID's & !important
+
+---
 
 ##### Pseudo-classes
 
