@@ -232,3 +232,17 @@ Since the result is **not 1 or -1**, I will not insert any value. 🚀
 </details>
 
 </br>
+
+##### 5. A function defined by
+
+\(
+f(x) =
+\begin{cases}
+nx + 2, & \text{if } x \geq 2 \\
+x^2 + 8, & \text{if } x < 2
+\end{cases}
+\)
+
+For what value of n is lim~x->2~f(x) defined?
+
+If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
