@@ -53,3 +53,54 @@ For \( x \neq 2 \), we can cancel \( (x - 2) \):
 lim~x->2~ f(x) = ${\frac{x^2+4x-12}{x^2-2x}}$
 
 If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
+
+<details>
+  <summary>Solution</summary>
+
+To evaluate the limit:
+
+\[
+\lim\_{{x \to 2}} \frac{x^2 + 4x - 12}{x^2 - 2x}
+\]
+
+**Step 1: Factor the Numerator and Denominator**
+
+- Factor the numerator \( x^2 + 4x - 12 \):
+
+\[
+x^2 + 4x - 12 = (x + 6)(x - 2)
+\]
+
+- Factor the denominator \( x^2 - 2x \):
+
+\[
+x^2 - 2x = x(x - 2)
+\]
+
+Now, the expression becomes:
+
+\[
+\frac{(x + 6)(x - 2)}{x(x - 2)}
+\]
+
+**Step 2: Cancel the Common Factor**
+For \( x \neq 2 \), cancel \( (x - 2) \):
+
+\[
+\frac{x + 6}{x}
+\]
+
+**Step 3: Substitute \( x = 2 \)**
+\[
+\frac{2 + 6}{2} = \frac{8}{2} = 4
+\]
+**Final Answer:**
+\[
+4
+\]
+
+  </br>
+
+</details>
+
+</br>
