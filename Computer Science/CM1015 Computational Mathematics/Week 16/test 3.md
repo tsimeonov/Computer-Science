@@ -155,7 +155,7 @@ Since the result is **not 1 or -1**, I will not insert any value. 🚀
 
 </br>
 
-##### 3. What is the limit of the function lim~x->5~ f(x) ${\frac{x^3-6x^2+25}{x-5}}$
+##### 4. What is the limit of the function lim~x->5~ f(x) ${\frac{x^3-6x^2+25}{x-5}}$
 
 If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
 
