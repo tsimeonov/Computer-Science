@@ -104,3 +104,7 @@ For \( x \neq 2 \), cancel \( (x - 2) \):
 </details>
 
 </br>
+
+##### 3. What is the limit of the function lim~x->5~ f(x) ${\frac{x^2+3x-10}{x-5}}$
+
+If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
