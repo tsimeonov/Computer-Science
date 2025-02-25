@@ -105,6 +105,52 @@ For \( x \neq 2 \), cancel \( (x - 2) \):
 
 </br>
 
-##### 3. What is the limit of the function lim~x->5~ f(x) ${\frac{x^2+3x-10}{x-5}}$
+##### 3. What is the limit of the function lim~x->5~ f(x) ${\frac{x^2+3x-10}{x+5}}$
 
 If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
+
+<details>
+  <summary>Solution</summary>
+
+To evaluate:
+
+\[
+\lim\_{{x \to 5}} \frac{x^2 + 3x - 10}{x + 5}
+\]
+
+**Step 1: Factor the Numerator**
+The numerator \( x^2 + 3x - 10 \) can be factored:
+
+\[
+x^2 + 3x - 10 = (x - 2)(x + 5)
+\]
+
+So the function becomes:
+
+\[
+\frac{(x - 2)(x + 5)}{x + 5}
+\]
+
+**Step 2: Cancel the Common Factor**
+For \( x \neq -5 \), we can cancel \( (x + 5) \):
+
+\[
+f(x) = x - 2
+\]
+**Step 3: Substitute \( x = 5 \)**
+\[
+f(5) = 5 - 2 = 3
+\]
+
+**Final Answer:**
+\[
+3
+\]
+
+Since the result is **not 1 or -1**, I will not insert any value. 🚀
+
+  </br>
+
+</details>
+
+</br>
