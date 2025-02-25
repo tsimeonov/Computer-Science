@@ -3,3 +3,53 @@
 ##### 1. What is the value of lim~x->2~ ${\frac{x^2 - 4}{x-2}}$
 
 If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
+
+<details>
+  <summary>Solution</summary>
+
+To evaluate the limit:
+
+\[
+\lim\_{{x \to 2}} \frac{x^2 - 4}{x - 2}
+\]
+
+**Step 1: Factor the Numerator**
+The numerator can be factored as:
+
+\[
+x^2 - 4 = (x - 2)(x + 2)
+\]
+
+So the given limit simplifies to:
+
+\[
+\lim\_{{x \to 2}} \frac{(x - 2)(x + 2)}{x - 2}
+\]
+
+**Step 2: Cancel the Common Factor**
+For \( x \neq 2 \), we can cancel \( (x - 2) \):
+
+\[
+\lim\_{{x \to 2}} x + 2
+\]
+
+**Step 3: Substitute \( x = 2 \)**
+\[
+2 + 2 = 4
+\]
+**Final Answer:**
+\[
+4
+\]
+
+  </br>
+
+</details>
+
+</br>
+
+##### 2. Calculate the value of the following limit:
+
+lim~x->2~ f(x) = ${\frac{x^2+4x-12}{x^2-2x}}$
+
+If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
