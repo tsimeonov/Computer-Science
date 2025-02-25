@@ -154,3 +154,81 @@ Since the result is **not 1 or -1**, I will not insert any value. 🚀
 </details>
 
 </br>
+
+##### 3. What is the limit of the function lim~x->5~ f(x) ${\frac{x^3-6x^2+25}{x-5}}$
+
+If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
+
+<details>
+  <summary>Solution</summary>
+
+To evaluate:
+
+\[
+\lim\_{{x \to 5}} \frac{x^3 - 6x^2 + 25}{x - 5}
+\]
+
+**Step 1: Direct Substitution**
+
+Substituting \( x = 5 \):
+
+\[
+\frac{5^3 - 6(5^2) + 25}{5 - 5}
+\]
+
+\[
+\frac{125 - 6(25) + 25}{0}
+\]
+
+\[
+\frac{125 - 150 + 25}{0} = \frac{0}{0}
+\]
+
+Since this results in an **indeterminate form**, we proceed with **polynomial division**.
+
+**Step 2: Perform Polynomial Division**
+
+We divide \( x^3 - 6x^2 + 25 \) by \( x - 5 \) using **synthetic division**:
+
+#**Synthetic Division Setup:**
+
+```
+ 5 |  1   -6    0   25
+   |      5   -5   -25
+   --------------------
+     1   -1   -5    0
+```
+
+The quotient is:
+
+\[
+x^2 - x - 5
+\]
+
+**Step 3: Evaluate the Limit**
+
+Since:
+
+\[
+\frac{x^3 - 6x^2 + 25}{x - 5} = x^2 - x - 5
+\]
+
+Now, substituting \( x = 5 \):
+
+\[
+5^2 - 5 - 5 = 25 - 5 - 5 = 15
+\]
+
+**Final Answer:**
+
+\[
+15
+\]
+
+Since the result is **not 1 or -1**, I will not insert any value. 🚀
+
+  </br>
+
+</details>
+
+</br>
