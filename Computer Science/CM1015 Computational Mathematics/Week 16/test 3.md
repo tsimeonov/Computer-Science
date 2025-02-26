@@ -422,3 +422,70 @@ f(x) = ${\frac{|2x+7|}{2x+7}}$ if they exist
 - 1 if, x > ${\frac{-7}{2}}$
 - 1 if, x ≥ ${\frac{2}{7}}$
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+The given function is:
+
+\[
+f(x) = \frac{|2x+7|}{2x+7}
+\]
+
+This function is a **signum function** for \( 2x + 7 \), which determines whether \( 2x + 7 \) is positive or negative:
+
+\[
+f(x) =
+\begin{cases}
+1, & \text{if } 2x+7 > 0 \text{ (i.e., } x > -\frac{7}{2} \text{)} \\
+-1, & \text{if } 2x+7 < 0 \text{ (i.e., } x < -\frac{7}{2} \text{)} \\
+\text{undefined}, & \text{if } 2x+7 = 0 \text{ (i.e., } x = -\frac{7}{2} \text{)}
+\end{cases}
+\]
+
+#### Step 1: Identify Points of Discontinuity
+
+The function is discontinuous where the denominator is **zero**, which happens at:
+
+\[
+2x + 7 = 0 \Rightarrow x = -\frac{7}{2}
+\]
+
+At this point, the function is undefined, meaning it has a **discontinuity at** \( x = -\frac{7}{2} \).
+
+#### Step 2: Evaluate \( f(x) \) Around \( x = -\frac{7}{2} \)
+
+- **For \( x < -\frac{7}{2} \):**
+  \( 2x + 7 < 0 \) so \( |2x + 7| = -(2x + 7) \), leading to:
+
+  \[
+  f(x) = \frac{-(2x+7)}{2x+7} = -1
+  \]
+
+- **For \( x > -\frac{7}{2} \):**
+  \( 2x + 7 > 0 \) so \( |2x + 7| = 2x + 7 \), leading to:
+
+  \[
+  f(x) = \frac{(2x+7)}{2x+7} = 1
+  \]
+
+#### Step 3: Select the Correct Answer
+
+From our calculations:
+✅ **"-1 if \( x < -\frac{7}{2} \)"** (Correct)
+✅ **"1 if \( x > -\frac{7}{2} \)"** (Correct)
+
+🚫 **"-1 if \( x > -\frac{7}{2} \)"** (Incorrect)
+🚫 **"1 if \( x \geq \frac{2}{7} \)"** (Incorrect, since the function value is already 1 for all \( x > -\frac{7}{2} \), and \(\frac{2}{7}\) is unrelated to the discontinuity)**
+🚫 **"None of the other options is correct"\*\* (Incorrect, as we found two correct answers)
+
+#### Final Answer:
+
+✅ **"-1 if \( x < -\frac{7}{2} \)"**
+✅ **"1 if \( x > -\frac{7}{2} \)"**
+
+  </br>
+
+</details>
+
+</br>
