@@ -321,6 +321,92 @@ Select all the correct statements
 <details>
   <summary>Solution</summary>
 
+Let's analyze the given piecewise function:
+
+\[
+f(x) =
+\begin{cases}
+x^3 + 2, & \text{if } x <2 \\
+5, & \text{if } x = 2 \\
+x^2 + 6, & \text{if } x>2
+\end{cases}
+\]
+
+**Step 1: Compute Left-Hand Limit (\(\lim\limits\_{x \to 2^-} f(x)\))**
+
+For \( x < 2 \), the function is:
+
+\[
+f(x) = x^3 + 2
+\]
+
+Taking the limit as \( x \to 2^- \):
+
+\[
+\lim\limits\_{x \to 2^-} f(x) = 2^3 + 2 = 8 + 2 = 10
+\]
+
+**Step 2: Compute Right-Hand Limit (\(\lim\limits\_{x \to 2^+} f(x)\))**
+
+For \( x > 2 \), the function is:
+
+\[
+f(x) = x^2 + 6
+\]
+
+Taking the limit as \( x \to 2^+ \):
+
+\[
+\lim\limits\_{x \to 2^+} f(x) = 2^2 + 6 = 4 + 6 = 10
+\]
+
+**Step 3: Compute the Overall Limit \(\lim\limits\_{x \to 2} f(x)\)**
+
+Since:
+
+\[
+\lim\limits*{x \to 2^-} f(x) = \lim\limits*{x \to 2^+} f(x) = 10
+\]
+
+the two one-sided limits are equal, meaning the **overall limit exists and is equal to 10**.
+
+**Step 4: Check the Function Value at \( x = 2 \)**
+
+From the definition:
+
+\[
+f(2) = 5
+\]
+
+**Step 5: Check Continuity at \( x = 2 \)**
+
+For continuity at \( x = 2 \), the limit must equal the function value:
+
+\[
+\lim\limits\_{x \to 2} f(x) = f(2)
+\]
+
+Since:
+
+\[
+10 \neq 5
+\]
+
+the function is **discontinuous at \( x = 2 \)**.
+
+**Final Answers:**
+
+✅ **The limit of the function is equal to 10**
+✅ **The function value is equal to 5**
+✅ **It is discontinuous at \( x = 2 \)**
+
+❌ **The limit exists at \( x = 2 \)** → (Incorrect wording, the correct statement should be that the limit exists but does not match the function value.)
+❌ **The function value is equal to 2** → (Incorrect, \( f(2) = 5 \), not 2.)
+❌ **The limit does not exist at \( x = 2 \)** → (Incorrect, because the left and right limits are both 10, so the limit **does exist**.)
+
+Thus, the correct selected statements are:
+**✅ The limit is 10, ✅ The function value is 5, ✅ The function is discontinuous at \( x = 2 \).** 🚀
+
   </br>
 
 </details>
