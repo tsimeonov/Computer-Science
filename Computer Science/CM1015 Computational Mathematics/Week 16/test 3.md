@@ -302,8 +302,8 @@ Thus, the required value of \( n \) is **5**.
 \(
 f(x) =
 \begin{cases}
-nx + 2, & \text{if } x \geq 2 \\
-x^2 + 8, & \text{if } x < 2 \\
+x^3 + 2, & \text{if } x <2 \\
+5, & \text{if } x = 2 \\
 x^2 + 6, & \text{if } x>2
 \end{cases}
 \)
@@ -317,3 +317,12 @@ Select all the correct statements
 - The function value is equal to 2
 - The limit does not exists at x = 2
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+  </br>
+
+</details>
+
+</br>
