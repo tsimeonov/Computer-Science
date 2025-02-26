@@ -296,3 +296,24 @@ Thus, the required value of \( n \) is **5**.
 </details>
 
 </br>
+
+##### 6. Consider the function
+
+\(
+f(x) =
+\begin{cases}
+nx + 2, & \text{if } x \geq 2 \\
+x^2 + 8, & \text{if } x < 2 \\
+x^2 + 6, & \text{if } x>2
+\end{cases}
+\)
+
+Select all the correct statements
+
+- The limit of the function is equal to 10
+- The function value us equal to 5
+- The limit exists as x = 2
+- It is discontinuous at x = 2
+- The function value is equal to 2
+- The limit does not exists at x = 2
+- None of the other options is correct
