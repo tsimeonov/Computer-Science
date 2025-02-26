@@ -246,3 +246,53 @@ x^2 + 8, & \text{if } x < 2
 For what value of n is lim~x->2~f(x) defined?
 
 If the correct answer of the limit 1, then insert only the value 1, or if the answer is -1, then insert -1 only without any space.
+
+<details>
+  <summary>Solution</summary>
+
+For the limit \(\lim\_{x \to 2} f(x)\) to be defined, the left-hand limit and right-hand limit must be equal.
+
+Step 1: Compute the Left-Hand Limit
+The left-hand limit is:
+\[
+\lim*{x \to 2^-} f(x) = \lim*{x \to 2^-} (x^2 + 8)
+\]
+Substituting \( x = 2 \):
+\[
+2^2 + 8 = 4 + 8 = 12
+\]
+
+Step 2: Compute the Right-Hand Limit
+The right-hand limit is:
+\[
+\lim*{x \to 2^+} f(x) = \lim*{x \to 2^+} (nx + 2)
+\]
+Substituting \( x = 2 \):
+\[
+n(2) + 2 = 2n + 2
+\]
+
+Step 3: Equate the Limits
+For the limit to be defined, the left-hand and right-hand limits must be equal:
+\[
+12 = 2n + 2
+\]
+
+Step 4: Solve for \( n \)
+\[
+12 - 2 = 2n
+\]
+\[
+10 = 2n
+\]
+\[
+n = 5
+\]
+
+Thus, the required value of \( n \) is **5**.
+
+  </br>
+
+</details>
+
+</br>
