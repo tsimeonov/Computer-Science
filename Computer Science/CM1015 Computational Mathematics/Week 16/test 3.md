@@ -412,3 +412,13 @@ Thus, the correct selected statements are:
 </details>
 
 </br>
+
+##### 7. Find the value of the following function in proximity of its points of discontinuity
+
+f(x) = ${\frac{|2x+7|}{2x+7}}$ if they exist
+
+- -1 if, x < ${\frac{-7}{2}}$
+- -1 if, x > ${\frac{-7}{2}}$
+- 1 if, x > ${\frac{-7}{2}}$
+- 1 if, x ≥ ${\frac{2}{7}}$
+- None of the other options is correct
