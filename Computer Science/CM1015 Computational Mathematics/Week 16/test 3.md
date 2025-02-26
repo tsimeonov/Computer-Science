@@ -489,3 +489,22 @@ From our calculations:
 </details>
 
 </br>
+
+##### 8. The graph below represents the function f(x) = x^2^
+
+Write the coordinates of the points A and B
+
+Notice the chord between A and B
+
+<img src="./question_8.png" width="450px"/>
+
+Calculate the gradient of the chord AB
+
+Select all the correct statements.
+
+- A has the coordinates (1.4, 2)
+- A has the coordinates (2, 1.4)
+- B has the coordinated (1, -1)
+- B has the coordinates (-1, 1)
+- The gradient of the chord AB is ${\frac{1}{2.4}}$
+- The gradient of the chord AB is 2.4
