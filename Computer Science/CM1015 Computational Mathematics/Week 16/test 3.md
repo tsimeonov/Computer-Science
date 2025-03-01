@@ -730,3 +730,76 @@ Select all the correct options:
 - The slope formula is ${\frac{f(x+Δx)-f(x)}{Δx}}$
 - plug in f(x + Δx) and f(x)
 - As Δx -> 0 we get 2x
+
+  <summary>Solution</summary>
+
+Let's go through the definition of the derivative step by step to determine which statements are correct.
+
+**Step 1: Understanding the Definition of the Derivative**
+The derivative of a function \( f(x) \) is given by:
+
+\[
+f'(x) = \lim\_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
+\]
+
+For \( f(x) = x^2 \):
+
+\[
+f(x + \Delta x) = (x + \Delta x)^2
+\]
+
+**Step 2: Checking Each Statement**
+
+1. ✅ **"Slope = \( \frac{\text{change in } y}{\text{change in } x} \) = \( \frac{\Delta y}{\Delta x} \)"**
+
+   - This is the definition of the slope of a secant line.
+   - **Correct.**
+
+2. ❌ **"f(x + Δx) = (x + Δ2)^2"**
+
+   - This is **incorrect** because it should be **\( (x + \Delta x)^2 \)**, not **\( (x + \Delta 2)^2 \)**.
+   - **Incorrect.**
+
+3. ✅ **"Expand \( (x + \Delta x)^2 = x^2 + 2x\Delta x + (\Delta x)^2 \)"**
+
+   - Using the binomial expansion:
+     \[
+     (x + \Delta x)^2 = x^2 + 2x\Delta x + (\Delta x)^2
+     \]
+   - **Correct.**
+
+4. ✅ **"The slope formula is \( \frac{f(x+\Delta x)-f(x)}{\Delta x} \)"**
+
+   - This is the difference quotient, which defines the derivative.
+   - **Correct.**
+
+5. ✅ **"Plug in \( f(x + \Delta x) \) and \( f(x) \)"**
+
+   - Yes, substituting:
+     \[
+     \frac{(x^2 + 2x\Delta x + (\Delta x)^2) - x^2}{\Delta x}
+     \]
+   - **Correct.**
+
+6. ✅ **"As \( \Delta x \to 0 \), we get \( 2x \)"**
+   - Simplifying:
+     \[
+     \frac{x^2 + 2x\Delta x + (\Delta x)^2 - x^2}{\Delta x} = \frac{2x\Delta x + (\Delta x)^2}{\Delta x}
+     \]
+     \[
+     = 2x + \Delta x
+     \]
+     - Taking the limit as \( \Delta x \to 0 \), we get:
+       \[
+       2x
+       \]
+   - **Correct.**
+
+**Final Selection of Correct Statements:**
+✔ **1, 3, 4, 5, and 6** are correct.
+
+  </br>
+
+</details>
+
+</br>
