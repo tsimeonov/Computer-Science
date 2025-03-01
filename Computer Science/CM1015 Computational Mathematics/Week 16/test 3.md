@@ -1062,7 +1062,7 @@ The correct answer is:
 
 </br>
 
-##### 14. if f(x) = ${\frac{1}{x}}$ and g(x) = x^2^ find the composite function f∘g (x)
+##### 14. if f(x) = ${\frac{1}{x}}$ and g(x) = x^2^ + 2 find the composite function f∘g (x)
 
 Select all the correct answer
 
