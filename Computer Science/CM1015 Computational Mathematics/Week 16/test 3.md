@@ -968,3 +968,96 @@ The correct answer is:
 - 24x^4^ + 9x^2^ + 6x + 12
 - -24x^5^ + 96x^3^ + 6x^2^ - 12
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+We are given the function:
+
+\[
+y = (x^3 - 6x)(2 - 4x^3)
+\]
+
+**Step 1: Apply the Product Rule**
+The **product rule** states:
+
+\[
+\frac{d}{dx} [u v] = u' v + u v'
+\]
+
+where:
+
+- \( u = x^3 - 6x \), so \( u' = \frac{d}{dx} (x^3 - 6x) = 3x^2 - 6 \)
+- \( v = 2 - 4x^3 \), so \( v' = \frac{d}{dx} (2 - 4x^3) = -12x^2 \)
+
+Now applying the product rule:
+
+\[
+\frac{dy}{dx} = (3x^2 - 6)(2 - 4x^3) + (x^3 - 6x)(-12x^2)
+\]
+
+**Step 2: Expand the Terms**
+
+#### First term:
+
+\[
+(3x^2 - 6)(2 - 4x^3)
+\]
+
+Expanding:
+
+\[
+3x^2 \cdot 2 - 3x^2 \cdot 4x^3 - 6 \cdot 2 + (-6 \cdot -4x^3)
+\]
+
+\[
+= 6x^2 - 12x^5 - 12 + 24x^3
+\]
+
+\[
+= -12x^5 + 6x^2 + 24x^3 - 12
+\]
+
+#### Second term:
+
+\[
+(x^3 - 6x)(-12x^2)
+\]
+
+Expanding:
+
+\[
+x^3 \cdot (-12x^2) + (-6x) \cdot (-12x^2)
+\]
+
+\[
+= -12x^5 + 72x^3
+\]
+
+**Step 3: Combine Like Terms**
+\[
+(-12x^5 + 6x^2 + 24x^3 - 12) + (-12x^5 + 72x^3)
+\]
+
+\[
+-12x^5 - 12x^5 + 6x^2 + 24x^3 + 72x^3 - 12
+\]
+
+\[
+-24x^5 + 96x^3 + 6x^2 - 12
+\]
+
+**Step 4: Compare with Answer Choices**
+The correct answer is:
+
+\[
+\mathbf{-24x^5 + 96x^3 + 6x^2 - 12}
+\]
+
+✔ **Correct option:** **Fourth option** ✅
+
+  </br>
+
+</details>
+
+</br>
