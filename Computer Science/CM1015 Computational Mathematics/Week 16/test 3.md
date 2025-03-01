@@ -719,3 +719,14 @@ Thus, the **correct statements** are:
 </details>
 
 </br>
+
+##### 10. To find the derivative of the function f(x) = x^2^ using the definition of the derivative we do the following:
+
+Select all the correct options:
+
+- Slope = ${\frac{change in y}{change in x}}$ = ${\frac{Δy}{Δx}}$
+- f(x + Δx) = (x + Δ2)^2^
+- Expand (x + Δx)^2^ = x^2^ + 2xΔx + (Δx)^2^
+- The slope formula is ${\frac{f(x+Δx)-f(x)}{Δx}}$
+- plug in f(x + Δx) and f(x)
+- As Δx -> 0 we get 2x
