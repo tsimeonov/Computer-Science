@@ -892,7 +892,6 @@ Your proof is mostly correct, but there are a couple of minor notation issues. L
 **Minor Issues:**
 
 - The notation **"Divide both sides by \( \Delta x \to 0 \)"** is incorrect. Instead, it should be written as **"Take the limit as \( \Delta x \to 0 \)."**
-- The notation **"\(\lim\*\)"** is incorrect. The correct notation is simply **"\(\lim\)"** without the asterisk.
 
 **Final Conclusion:**
 All the logical steps in your derivation are **correct**, but some notation needs slight refinement. The proof correctly demonstrates the **sum rule for differentiation**:
