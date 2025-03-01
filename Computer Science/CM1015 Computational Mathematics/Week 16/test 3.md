@@ -1109,3 +1109,11 @@ f(g(x)) = f(x^2 + 2) = \frac{1}{x^2 + 2}
 </details>
 
 </br>
+
+##### 15. Find the local maxima and minima points for y = 2 + 3x - 3x^2^
+
+- min at x = 1, max at x = -1
+- min at x = -1, max at x = 1
+- min at x = 0, max at x = 1
+- min at x = -1, max at x = 0
+- None of the other options is correct
