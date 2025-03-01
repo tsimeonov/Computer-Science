@@ -1061,3 +1061,13 @@ The correct answer is:
 </details>
 
 </br>
+
+##### 14. if f(x) = ${\frac{1}{x}}$ and g(x) = x^2^ find the composite function f∘g (x)
+
+Select all the correct answer
+
+- f(g(x)) = ${\frac{1}{x^2+2}}$
+- f(g(x)) = x^2^ + 2
+- f(g(x)) = ${\frac{1}{x}}$
+- f(g(x)) = x + ${\frac{2}{x}}$
+- f(g(x)) = x + ${\frac{x}{x^2+2x}}$
