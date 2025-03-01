@@ -960,3 +960,11 @@ The correct answer is:
 </details>
 
 </br>
+
+##### 13. Find the derivative of y = (x^3^ - 6x)(2 - 4x^3^)
+
+- 24x^3^ + 6x^2^ - 12
+- x^4^ + 6x^2^ + 6x - 12
+- 24x^4^ + 9x^2^ + 6x + 12
+- -24x^5^ + 96x^3^ + 6x^2^ - 12
+- None of the other options is correct
