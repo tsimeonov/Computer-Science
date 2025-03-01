@@ -578,3 +578,15 @@ Calculate the gradient of generic chord AP with P very close to A.
 Calculate the gradient of the chords AP~1~, AP~2~ and AP~3~ with P~1~, P~2~ and P~3~ with x-coordinates 1.5, 1.2 and 1.1 respectively.
 
 Write the gradient of a generic chord AP with P very close to A, as in the picture below
+
+<img src="./question 9.2.png" width="450px"/>
+
+Select all correct statements
+
+- The gradient of the tangent line at A is 3
+- The gradient of the tangent line at any point of y = x^3^ is 3x
+- The gradient of the chord AP with P being a generic point (1 + h, (1 + h)^3^) near A(1,1) is ${\frac{(1+h)^3 -1}{1 + h -1}}$
+- Th gradient of the chord AP with P being a generic point (1 + h, (1 + h^3)) near A(1,1) is ${\frac{h^3}{h}}$
+- THe gradient of the chord AP~1~ is 4.72
+- lim~h->0~ ${\frac{(1+h^3)-1}{h}}$ = 3h^2^
+- lim~h->0~ ${\frac{(1+h^3)-1}{h}}$ = 3
