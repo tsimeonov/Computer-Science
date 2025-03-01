@@ -1121,6 +1121,52 @@ f(g(x)) = f(x^2 + 2) = \frac{1}{x^2 + 2}
 <details>
   <summary>Solution</summary>
 
+We are given the function:
+
+\[
+y = 2 + 3x - x^2
+\]
+
+**Step 1: Find the First Derivative**
+To locate critical points, we differentiate \( y \) with respect to \( x \):
+
+\[
+\frac{dy}{dx} = \frac{d}{dx} (2 + 3x - x^2)
+\]
+
+\[
+\frac{dy}{dx} = 3 - 2x
+\]
+
+**Step 2: Find Critical Points**
+Set the first derivative equal to zero:
+
+\[
+3 - 2x = 0
+\]
+
+\[
+2x = 3
+\]
+
+\[
+x = \frac{3}{2}
+\]
+
+**Step 3: Determine if it’s a Maximum or Minimum**
+Find the second derivative:
+
+\[
+\frac{d^2y}{dx^2} = \frac{d}{dx} (3 - 2x) = -2
+\]
+
+Since \( \frac{d^2y}{dx^2} = -2 \) is **negative**, the function is **concave down** at \( x = \frac{3}{2} \), meaning it is a **local maximum**.
+
+**Step 4: Compare with Given Answer Choices**
+None of the provided options correctly list \( x = \frac{3}{2} \) as the local maximum.
+
+✔ **Correct answer:** **None of the other options is correct.** ✅
+
   </br>
 
 </details>
