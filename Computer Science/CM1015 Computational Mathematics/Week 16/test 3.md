@@ -567,3 +567,9 @@ Thus, the correct statements are:
 </details>
 
 </br>
+
+##### 9. The picture below shows the graph of y = x^3^ with point A belonging to the graph with x coordinate 1.
+
+The graph also shows the tangent line at A. The point B and C belong to the tangent line.
+
+<img src="./question 9 .1.png" width="450px"/>
