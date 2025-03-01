@@ -1172,3 +1172,10 @@ None of the provided options correctly list \( x = \frac{3}{2} \) as the local m
 </details>
 
 </br>
+
+##### 16. Describe the concavity of the function y = x^3^
+
+- 0 is the inflection point only, no maxima no minima
+- 0 is the inflection point only, -1 maxima and 1 minima
+- 0 is the inflection point only, 1 maxima and -1 minima
+- None of the other options is correct
