@@ -1179,3 +1179,55 @@ None of the provided options correctly list \( x = \frac{3}{2} \) as the local m
 - 0 is the inflection point only, -1 maxima and 1 minima
 - 0 is the inflection point only, 1 maxima and -1 minima
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+We are given the function:
+
+\[
+y = x^3
+\]
+
+**Step 1: Compute the First Derivative**
+To analyze concavity, we start by differentiating \( y \):
+
+\[
+\frac{dy}{dx} = 3x^2
+\]
+**Step 2: Compute the Second Derivative**
+\[
+\frac{d^2y}{dx^2} = 6x
+\]
+**Step 3: Find Inflection Points**
+An **inflection point** occurs where the second derivative changes sign, which happens when:
+
+\[
+6x = 0
+\]
+
+\[
+x = 0
+\]
+
+At \( x = 0 \), the second derivative changes from **negative (concave down) to positive (concave up)**, confirming that **\( x = 0 \) is an inflection point**.
+
+### **Step 4: Check for Local Maxima and Minima**
+
+- The first derivative \( \frac{dy}{dx} = 3x^2 \) is always **non-negative** (\( 3x^2 \geq 0 \)), meaning there are **no critical points where the derivative changes sign**.
+- Since \( \frac{dy}{dx} = 3x^2 \) is never negative, the function is always increasing, meaning there are **no local maxima or minima**.
+
+### **Step 5: Compare with Answer Choices**
+
+- **"0 is the inflection point only, no maxima no minima"** → ✅ **Correct**
+- **"0 is the inflection point only, -1 maxima and 1 minima"** → ❌ Incorrect, no local maxima or minima exist.
+- **"0 is the inflection point only, 1 maxima and -1 minima"** → ❌ Incorrect, no local maxima or minima exist.
+- **"None of the other options is correct"** → ❌ Incorrect, because the first option is correct.
+
+✔ **Correct answer:** **0 is the inflection point only, no maxima no minima.** ✅
+
+  </br>
+
+</details>
+
+</br>
