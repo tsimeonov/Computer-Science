@@ -913,3 +913,50 @@ All the logical steps in your derivation are **correct**, but some notation need
 - 4x^2^ + 5
 - 12x + 6
 - None of the other options is correct
+
+<details>
+  <summary>Solution</summary>
+
+We are given the function:
+
+\[
+y = 4x^3 + 6x + 5
+\]
+
+**Step 1: Differentiate Each Term**
+Using the **power rule** (\(\frac{d}{dx} x^n = n x^{n-1}\)) and the **constant rule** (\(\frac{d}{dx} c = 0\)):
+
+1. **First term:**
+   \[
+   \frac{d}{dx} (4x^3) = 4 \cdot 3x^{3-1} = 12x^2
+   \]
+
+2. **Second term:**
+   \[
+   \frac{d}{dx} (6x) = 6
+   \]
+
+3. **Third term:**
+   \[
+   \frac{d}{dx} (5) = 0
+   \]
+
+**Step 2: Write the Derivative**
+\[
+\frac{dy}{dx} = 12x^2 + 6
+\]
+
+**Step 3: Compare with Options**
+The correct answer is:
+
+\[
+\mathbf{12x^2 + 6}
+\]
+
+✔ **Correct answer:** **12x² + 6** (second option)
+
+  </br>
+
+</details>
+
+</br>
