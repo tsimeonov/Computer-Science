@@ -508,3 +508,62 @@ Select all the correct statements.
 - B has the coordinates (-1, 1)
 - The gradient of the chord AB is ${\frac{1}{2.4}}$
 - The gradient of the chord AB is 2.4
+
+<details>
+  <summary>Solution</summary>
+
+Let's analyze the given graph of the function \( f(x) = x^2 \) and determine the coordinates of points \( A \) and \( B \).
+
+Step 1: Identifying the Coordinates of \( A \) and \( B \)
+From the graph:
+
+- Point \( A \) is on the curve at \( (1.4, f(1.4)) \).
+
+  - Since \( f(x) = x^2 \), we compute:
+    \[
+    f(1.4) = (1.4)^2 = 1.96 \approx 2
+    \]
+  - So, the coordinates of \( A \) are \( (1.4, 2) \).
+
+- Point \( B \) is on the curve at \( (-1, f(-1)) \).
+  - Since \( f(x) = x^2 \), we compute:
+    \[
+    f(-1) = (-1)^2 = 1
+    \]
+  - So, the coordinates of \( B \) are \( (-1,1) \).
+
+Step 2: Calculating the Gradient of the Chord \( AB \)
+The gradient of a line passing through two points \( (x_1, y_1) \) and \( (x_2, y_2) \) is given by:
+\[
+m = \frac{y_2 - y_1}{x_2 - x_1}
+\]
+Substituting \( A(1.4,2) \) and \( B(-1,1) \):
+
+\[
+m = \frac{2 - 1}{1.4 - (-1)}
+\]
+
+\[
+m = \frac{1}{1.4 + 1} = \frac{1}{2.4}
+\]
+
+Step 3: Verifying the Given Statements
+
+- ✅ \( A \) has the coordinates \( (1.4, 2) \) → **Correct**
+- ❌ \( A \) has the coordinates \( (2, 1.4) \) → **Incorrect**
+- ❌ \( B \) has the coordinates \( (1, -1) \) → **Incorrect**
+- ✅ \( B \) has the coordinates \( (-1, 1) \) → **Correct**
+- ✅ The gradient of the chord \( AB \) is \( \frac{1}{2.4} \) → **Correct**
+- ❌ The gradient of the chord \( AB \) is \( 2.4 \) → **Incorrect**
+
+Thus, the correct statements are:
+
+- \( A \) has the coordinates \( (1.4, 2) \).
+- \( B \) has the coordinates \( (-1, 1) \).
+- The gradient of the chord \( AB \) is \( \frac{1}{2.4} \).
+
+  </br>
+
+</details>
+
+</br>
