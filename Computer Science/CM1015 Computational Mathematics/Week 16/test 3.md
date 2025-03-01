@@ -573,3 +573,8 @@ Thus, the correct statements are:
 The graph also shows the tangent line at A. The point B and C belong to the tangent line.
 
 <img src="./question 9 .1.png" width="450px"/>
+
+Calculate the gradient of generic chord AP with P very close to A.
+Calculate the gradient of the chords AP~1~, AP~2~ and AP~3~ with P~1~, P~2~ and P~3~ with x-coordinates 1.5, 1.2 and 1.1 respectively.
+
+Write the gradient of a generic chord AP with P very close to A, as in the picture below
