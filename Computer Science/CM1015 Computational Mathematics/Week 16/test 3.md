@@ -1071,3 +1071,41 @@ Select all the correct answer
 - f(g(x)) = ${\frac{1}{x}}$
 - f(g(x)) = x + ${\frac{2}{x}}$
 - f(g(x)) = x + ${\frac{x}{x^2+2x}}$
+
+<details>
+  <summary>Solution</summary>
+
+We are given the functions:
+
+\[
+f(x) = \frac{1}{x}, \quad g(x) = x^2 + 2
+\]
+**Step 1: Compute the Composite Function \( f \circ g (x) \)**
+By definition of function composition:
+
+\[
+(f \circ g)(x) = f(g(x))
+\]
+
+Since \( g(x) = x^2 + 2 \), we substitute \( x^2 + 2 \) into \( f(x) \):
+
+\[
+f(g(x)) = f(x^2 + 2) = \frac{1}{x^2 + 2}
+\]
+
+**Step 2: Compare with Given Answer Choices**
+
+- **\( f(g(x)) = \frac{1}{x^2+2} \)** → ✅ **Correct**
+- **\( f(g(x)) = x^2 + 2 \)** → ❌ Incorrect, this is just \( g(x) \), not \( f(g(x)) \).
+- **\( f(g(x)) = \frac{1}{x} \)** → ❌ Incorrect, the denominator should be \( x^2 + 2 \), not just \( x \).
+- **\( f(g(x)) = x + \frac{2}{x} \)** → ❌ Incorrect, this does not match \( \frac{1}{x^2+2} \).
+- **\( f(g(x)) = x + \frac{x}{x^2+2x} \)** → ❌ Incorrect, this is not the correct form.
+**Step 3: Conclusion**
+✔ **Correct answer:**
+✅ **\( f(g(x)) = \frac{1}{x^2+2} \)**
+
+  </br>
+
+</details>
+
+</br>
