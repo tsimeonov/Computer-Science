@@ -803,3 +803,40 @@ f(x + \Delta x) = (x + \Delta x)^2
 </details>
 
 </br>
+
+##### 11. Consider a function of the form y = f(x) + g(x) how can we calculate the derivate of the function
+
+- First we take the increment of small change in the function
+
+- \(
+  y + \Delta y = f(x + \Delta x) + g(x + \Delta x)
+  \)
+  \(
+  \Rightarrow \Delta y = f(x + \Delta x) + g(x + \Delta x) - y
+  \)
+
+- \(
+  \Delta y = f(x + \Delta x) + g(x + \Delta x) - f(x) - g(x)
+  \)
+  \(
+  \Rightarrow \Delta y = [f(x + \Delta x) - f(x)] + [g(x + \Delta x) - g(x)]
+  \)
+
+- Divide Both Sides by \( \Delta x \)
+- \(
+  \frac{\Delta y}{\Delta x} = \frac{f(x + \Delta x) - f(x)}{\Delta x} + \frac{g(x + \Delta x) - g(x)}{\Delta x}
+  \)
+- Divide both sides by \( \Delta x \to 0 \)
+
+- \(
+  \lim*{\Delta x \to 0} \frac{\Delta y}{\Delta x} = \lim*{\Delta x \to 0} \left[ \frac{f(x + \Delta x) - f(x)}{\Delta x} + \frac{g(x + \Delta x) - g(x)}{\Delta x} \right]
+  \)
+
+- \(
+  \frac{dy}{dx} = \lim*{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x} + \lim*{\Delta x \to 0} \frac{g(x + \Delta x) - g(x)}{\Delta x}
+  \)
+
+- By the definition of derivative we have
+  \(
+  \frac{dy}{dx} = f'(x) + g'(x)
+  \)
