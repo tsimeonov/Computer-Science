@@ -905,3 +905,11 @@ All the logical steps in your derivation are **correct**, but some notation need
 </details>
 
 </br>
+
+##### 12. Find the derivative of y = 4x^3^ + 6x + 5
+
+- 12
+- 12x^2^ + 6
+- 4x^2^ + 5
+- 12x + 6
+- None of the other options is correct
