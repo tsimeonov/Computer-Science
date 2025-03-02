@@ -116,3 +116,50 @@ Thus, the **distributive property** is the correct answer.
 - Undefined
 - A scalar
 - A vector perpendicular to both
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+**- Zero vector**
+
+Explanation:
+
+The **cross product** of two vectors **\(\mathbf{A} \times \mathbf{B}\)** is given by the formula:
+
+\[
+\mathbf{A} \times \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \sin\theta \ \hat{\mathbf{n}}
+\]
+
+where:
+
+- \( |\mathbf{A}| \) and \( |\mathbf{B}| \) are the magnitudes of the vectors,
+- \( \theta \) is the angle between them,
+- \( \sin\theta \) determines the influence of the angle,
+- \( \hat{\mathbf{n}} \) is the unit vector perpendicular to both.
+
+When Vectors Are Parallel:
+
+- Two vectors are **parallel** if they point in the same or exactly opposite direction, meaning \( \theta = 0^\circ \) or \( 180^\circ \).
+- Since \( \sin 0^\circ = 0 \) and \( \sin 180^\circ = 0 \), the cross product simplifies to:
+
+\[
+\mathbf{A} \times \mathbf{B} = |\mathbf{A}| |\mathbf{B}| \cdot 0 \cdot \hat{\mathbf{n}} = \mathbf{0}
+\]
+
+Thus, the result is the **zero vector** \( \mathbf{0} \).
+
+Explanation of Other Options:
+
+- **Undefined**: The cross product is always defined for two vectors in 3D space.
+- **A scalar**: The cross product produces a **vector**, not a scalar.
+- **A vector perpendicular to both**: This is generally true for **non-parallel** vectors, but for **parallel** vectors, the result is the zero vector.
+
+Thus, the **cross product of two parallel vectors is always the zero vector**.
+
+  </br>
+
+</details>
+
+</br>
