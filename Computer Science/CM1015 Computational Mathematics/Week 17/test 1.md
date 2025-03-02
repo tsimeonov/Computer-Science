@@ -170,3 +170,50 @@ Thus, the **cross product of two parallel vectors is always the zero vector**.
 - Associativity
 - Commutativity
 - Multiplicative inverse
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+**- Multiplicative inverse**
+
+### Explanation:
+
+Vector addition follows several key properties, but **multiplicative inverse** is not one of them.
+
+**True Properties of Vector Addition:**
+
+1. **Identity Element:**
+
+   - The **zero vector** \( \mathbf{0} \) serves as the additive identity:
+     \[
+     \mathbf{A} + \mathbf{0} = \mathbf{A}
+     \]
+
+2. **Associativity:**
+
+   - The grouping of vectors does not affect the sum:
+     \[
+     (\mathbf{A} + \mathbf{B}) + \mathbf{C} = \mathbf{A} + (\mathbf{B} + \mathbf{C})
+     \]
+
+3. **Commutativity:**
+   - The order of addition does not change the result:
+     \[
+     \mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}
+     \]
+     **Why "Multiplicative Inverse" is NOT True for Vector Addition:**
+
+- The **multiplicative inverse** refers to an element that, when multiplied by another, results in the identity element (like how \( a \times a^{-1} = 1 \) in real numbers).
+- In vector operations, **multiplication of vectors is not defined in a way that supports a multiplicative inverse**.
+- Vectors only have an **additive inverse**, which is \( -\mathbf{A} \), satisfying \( \mathbf{A} + (-\mathbf{A}) = \mathbf{0} \), but not a **multiplicative** inverse.
+  Conclusion:
+
+**Vector addition does NOT have a multiplicative inverse, making it the correct answer.**
+
+  </br>
+
+</details>
+
+</br>
