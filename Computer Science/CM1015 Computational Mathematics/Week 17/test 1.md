@@ -426,3 +426,26 @@ is:
 </br>
 
 ##### 12. Determine the angle between the vectors u = 4i - j and v = i + 3j
+
+<details>
+  <summary>Solution</summary>
+
+The angle between the vectors
+\[
+\mathbf{u} = 4\hat{i} - \hat{j}
+\]
+and
+\[
+\mathbf{v} = \hat{i} + 3\hat{j}
+\]
+is approximately:
+
+\[
+85.60^\circ
+\]
+
+  </br>
+
+</details>
+
+</br>
