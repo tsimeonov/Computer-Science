@@ -72,3 +72,10 @@ Thus, the property that ensures the sum of vectors is independent of grouping is
 - 0
 - -1
 - Undefined
+
+##### 4. Which vector property states that the dot product is distributive?
+
+- Distributivity
+- Identity
+- Commutativity
+- Associativity
