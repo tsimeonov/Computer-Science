@@ -380,3 +380,26 @@ Adding the corresponding components:
 </br>
 
 ##### 10. If u = i - 2j + k and v = 2i + 3j - k, find the cross product u \* v
+
+<details>
+  <summary>Solution</summary>
+
+The cross product of the vectors
+\[
+\mathbf{u} = \hat{i} - 2\hat{j} + \hat{k}
+\]
+and
+\[
+\mathbf{v} = 2\hat{i} + 3\hat{j} - \hat{k}
+\]
+is:
+
+\[
+\mathbf{u} \times \mathbf{v} = -\hat{i} + 3\hat{j} + 7\hat{k}
+\]
+
+  </br>
+
+</details>
+
+</br>
