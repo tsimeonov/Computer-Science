@@ -449,3 +449,5 @@ is approximately:
 </details>
 
 </br>
+
+##### 13. Given the vectors u = i + 2j + 3k and v = 4i - j + 2k, calculate the dot product u . v
