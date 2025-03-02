@@ -403,3 +403,5 @@ is:
 </details>
 
 </br>
+
+##### 11. Find the magnitude of the vector a = -2i + 3j + 6k
