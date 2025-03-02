@@ -343,3 +343,38 @@ For our resultant vector \( -\hat{i} + 5\hat{j} \):
 </br>
 
 ##### 9. Given the vectors u = 2i + 3j and v = -3i + 2j, calculate the vector u + v
+
+<details>
+  <summary>Solution</summary>
+
+We are given the vectors:
+
+\[
+\mathbf{u} = 2\hat{i} + 3\hat{j}
+\]
+
+\[
+\mathbf{v} = -3\hat{i} + 2\hat{j}
+\]
+**Step 1: Compute \( \mathbf{u} + \mathbf{v} \)**
+
+Adding the corresponding components:
+
+\[
+(2 + (-3))\hat{i} + (3 + 2)\hat{j}
+\]
+
+\[
+(-1)\hat{i} + (5)\hat{j}
+\]
+
+**Final Answer:**
+\[
+\mathbf{u} + \mathbf{v} = -\hat{i} + 5\hat{j}
+\]
+
+  </br>
+
+</details>
+
+</br>
