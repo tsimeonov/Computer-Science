@@ -27,3 +27,10 @@ However, **parametric form (t)** is typically used to describe a curve or a line
 </details>
 
 </br>
+
+##### 2. Which property of vectors states that the sum of vectors is independent of the grouping of the vectors?
+
+- Associativity
+- Identity
+- Distributivity
+- Commutativity
