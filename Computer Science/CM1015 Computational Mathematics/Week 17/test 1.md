@@ -34,3 +34,34 @@ However, **parametric form (t)** is typically used to describe a curve or a line
 - Identity
 - Distributivity
 - Commutativity
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+**- Associativity**
+
+Explanation:
+
+The **associative property** of vector addition states that the sum of vectors is independent of how they are grouped. Mathematically, this is expressed as:
+
+\[
+(\mathbf{A} + \mathbf{B}) + \mathbf{C} = \mathbf{A} + (\mathbf{B} + \mathbf{C})
+\]
+
+This means that no matter how we group the vectors when adding them, the result remains the same.
+
+#### Explanation of Other Options:
+
+- **Identity**: Refers to the existence of an additive identity, which is the **zero vector** \( \mathbf{0} \), such that \( \mathbf{A} + \mathbf{0} = \mathbf{A} \).
+- **Distributivity**: Refers to how scalar multiplication distributes over vector addition: \( k(\mathbf{A} + \mathbf{B}) = k\mathbf{A} + k\mathbf{B} \).
+- **Commutativity**: States that vector addition is independent of the order of addition: \( \mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A} \).
+
+Thus, the property that ensures the sum of vectors is independent of grouping is **Associativity**.
+
+  </br>
+
+</details>
+
+</br>
