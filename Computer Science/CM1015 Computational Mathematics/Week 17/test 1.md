@@ -224,3 +224,48 @@ Vector addition follows several key properties, but **multiplicative inverse** i
 - |a|
 - a^2^
 - |a|^2^
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+**- \( |\mathbf{a}|^2 \)**
+
+Explanation:
+
+The **dot product** of a vector **\(\mathbf{a}\)** with itself is given by:
+
+\[
+\mathbf{a} \cdot \mathbf{a} = |\mathbf{a}| |\mathbf{a}| \cos 0^\circ
+\]
+
+Since the angle between a vector and itself is **0°**, we know that:
+
+\[
+\cos 0^\circ = 1
+\]
+
+Thus, the equation simplifies to:
+
+\[
+\mathbf{a} \cdot \mathbf{a} = |\mathbf{a}|^2
+\]
+
+where \( |\mathbf{a}| \) represents the **magnitude (length)** of vector \( \mathbf{a} \).
+
+Explanation of Other Options:
+
+- **\( \mathbf{a} \)**: Incorrect because the dot product results in a **scalar**, not a vector.
+- **\( |\mathbf{a}| \)**: Incorrect because the dot product produces the **square** of the magnitude, not just the magnitude.
+- **\( \mathbf{a}^2 \)**: Incorrect notation, as vectors do not have exponentiation in this form.
+
+Conclusion:
+
+The result of **the dot product of a vector with itself is always the square of its magnitude**, i.e., **\( |\mathbf{a}|^2 \)**.
+
+  </br>
+
+</details>
+
+</br>
