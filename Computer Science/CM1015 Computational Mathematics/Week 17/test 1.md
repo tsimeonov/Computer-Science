@@ -217,3 +217,10 @@ Vector addition follows several key properties, but **multiplicative inverse** i
 </details>
 
 </br>
+
+##### 7. What is the result of the dot product of a vector **_a_** with itself?
+
+- a
+- |a|
+- a^2^
+- |a|^2^
