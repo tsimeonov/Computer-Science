@@ -163,3 +163,10 @@ Thus, the **cross product of two parallel vectors is always the zero vector**.
 </details>
 
 </br>
+
+##### 6. Which of the following properties is NOT true for vector addition?
+
+- Identity element
+- Associativity
+- Commutativity
+- Multiplicative inverse
