@@ -276,3 +276,68 @@ The result of **the dot product of a vector with itself is always the square of 
 - 1
 - 0
 - $\sqrt{29}$
+
+<details>
+  <summary>Solution</summary>
+
+We are given the vectors:
+
+\[
+\mathbf{u} = 2\hat{i} + 3\hat{j}
+\]
+
+\[
+\mathbf{v} = -3\hat{i} + 2\hat{j}
+\]
+
+**Step 1: Compute \( \mathbf{u} + \mathbf{v} \)**
+
+Adding the corresponding components:
+
+\[
+(2 + (-3))\hat{i} + (3 + 2)\hat{j}
+\]
+
+\[
+(-1)\hat{i} + (5)\hat{j}
+\]
+
+So,
+
+\[
+\mathbf{u} + \mathbf{v} = -\hat{i} + 5\hat{j}
+\]
+
+**Step 2: Compute the Magnitude \( |\mathbf{u} + \mathbf{v}| \)**
+
+The magnitude of a vector \( a\hat{i} + b\hat{j} \) is given by:
+
+\[
+|\mathbf{a}| = \sqrt{a^2 + b^2}
+\]
+
+For our resultant vector \( -\hat{i} + 5\hat{j} \):
+
+\[
+| -\hat{i} + 5\hat{j} | = \sqrt{(-1)^2 + (5)^2}
+\]
+
+\[
+= \sqrt{1 + 25}
+\]
+
+\[
+= \sqrt{26}
+\]
+
+**Final Answer:**
+
+\[
+\mathbf{\sqrt{26}}
+\]
+
+  </br>
+
+</details>
+
+</br>
