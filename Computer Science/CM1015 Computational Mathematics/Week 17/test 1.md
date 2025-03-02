@@ -79,3 +79,33 @@ Thus, the property that ensures the sum of vectors is independent of grouping is
 - Identity
 - Commutativity
 - Associativity
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+**- Distributivity**
+Explanation:
+
+The **distributive property** of the dot product states that for any three vectors **\(\mathbf{A}\)**, **\(\mathbf{B}\)**, and **\(\mathbf{C}\)**:
+
+\[
+\mathbf{A} \cdot (\mathbf{B} + \mathbf{C}) = \mathbf{A} \cdot \mathbf{B} + \mathbf{A} \cdot \mathbf{C}
+\]
+
+This means that the dot product distributes over vector addition.
+
+Explanation of Other Options:
+
+- **Identity**: Refers to the existence of an identity element (such as the zero vector) in vector operations.
+- **Commutativity**: The dot product is commutative, meaning \( \mathbf{A} \cdot \mathbf{B} = \mathbf{B} \cdot \mathbf{A} \), but this does not describe its distributive property.
+- **Associativity**: The dot product is **not** associative in general (i.e., \( \mathbf{A} \cdot (\mathbf{B} \cdot \mathbf{C}) \) is not valid since \( \mathbf{B} \cdot \mathbf{C} \) is a scalar, not a vector).
+
+Thus, the **distributive property** is the correct answer.
+
+  </br>
+
+</details>
+
+</br>
