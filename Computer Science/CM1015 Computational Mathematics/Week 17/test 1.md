@@ -269,3 +269,10 @@ The result of **the dot product of a vector with itself is always the square of 
 </details>
 
 </br>
+
+##### 8. If u = 2i + 3j and v = -3i + 2j, what is the magnitude of u + v?
+
+- $\sqrt{26}$
+- 1
+- 0
+- $\sqrt{29}$
