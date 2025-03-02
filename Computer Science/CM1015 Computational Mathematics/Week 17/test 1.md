@@ -109,3 +109,10 @@ Thus, the **distributive property** is the correct answer.
 </details>
 
 </br>
+
+##### 5. What is the result of the cross product of two parallel vectors?
+
+- Zero vector
+- Undefined
+- A scalar
+- A vector perpendicular to both
