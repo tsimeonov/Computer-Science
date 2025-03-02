@@ -66,4 +66,9 @@ Thus, the property that ensures the sum of vectors is independent of grouping is
 
 </br>
 
-###
+##### 3. In the context of vector operations, what does the dot product of the two perpendicular vectors equal to ?
+
+- 1
+- 0
+- -1
+- Undefined
