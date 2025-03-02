@@ -341,3 +341,5 @@ For our resultant vector \( -\hat{i} + 5\hat{j} \):
 </details>
 
 </br>
+
+##### 9. Given the vectors u = 2i + 3j and v = -3i + 2j, calculate the vector u + v
