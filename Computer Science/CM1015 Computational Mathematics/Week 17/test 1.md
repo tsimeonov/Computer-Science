@@ -405,3 +405,22 @@ is:
 </br>
 
 ##### 11. Find the magnitude of the vector a = -2i + 3j + 6k
+
+<details>
+  <summary>Solution</summary>
+
+The magnitude of the vector
+\[
+\mathbf{a} = -2\hat{i} + 3\hat{j} + 6\hat{k}
+\]
+is:
+
+\[
+|\mathbf{a}| = 7
+\]
+
+  </br>
+
+</details>
+
+</br>
