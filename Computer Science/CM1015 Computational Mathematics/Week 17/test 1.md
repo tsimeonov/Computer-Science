@@ -451,3 +451,26 @@ is approximately:
 </br>
 
 ##### 13. Given the vectors u = i + 2j + 3k and v = 4i - j + 2k, calculate the dot product u . v
+
+<details>
+  <summary>Solution</summary>
+
+The dot product of the vectors
+\[
+\mathbf{u} = \hat{i} + 2\hat{j} + 3\hat{k}
+\]
+and
+\[
+\mathbf{v} = 4\hat{i} - \hat{j} + 2\hat{k}
+\]
+is:
+
+\[
+\mathbf{u} \cdot \mathbf{v} = 8
+\]
+
+  </br>
+
+</details>
+
+</br>
