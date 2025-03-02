@@ -378,3 +378,5 @@ Adding the corresponding components:
 </details>
 
 </br>
+
+##### 10. If u = i - 2j + k and v = 2i + 3j - k, find the cross product u \* v
