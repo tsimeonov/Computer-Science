@@ -52,7 +52,7 @@ The **associative property** of vector addition states that the sum of vectors i
 
 This means that no matter how we group the vectors when adding them, the result remains the same.
 
-#### Explanation of Other Options:
+Explanation of Other Options:
 
 - **Identity**: Refers to the existence of an additive identity, which is the **zero vector** \( \mathbf{0} \), such that \( \mathbf{A} + \mathbf{0} = \mathbf{A} \).
 - **Distributivity**: Refers to how scalar multiplication distributes over vector addition: \( k(\mathbf{A} + \mathbf{B}) = k\mathbf{A} + k\mathbf{B} \).
@@ -65,3 +65,5 @@ Thus, the property that ensures the sum of vectors is independent of grouping is
 </details>
 
 </br>
+
+###
