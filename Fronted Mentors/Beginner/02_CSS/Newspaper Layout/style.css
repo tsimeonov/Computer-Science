@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+.page {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "links links links"
+    "story-1 story-2 story-3"
+    "story-4 story-5 story-5";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brand-header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+
+.nav-links {
+  grid-area: links;
+  border: 2px solid black;
+  border-bottom: none;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.site-section a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.site-section a:hover {
+  color: rgba(0, 0, 0, 0.353);
+}
+
+.story-1 {
+  grid-area: story-1;
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.story-2 {
+  grid-area: story-2;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.story-3 {
+  grid-area: story-3;
+  border: 2px solid black;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.story-4 {
+  grid-area: story-4;
+  border: 2px solid black;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.story-5 {
+  grid-area: story-5;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.article-title {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+}
+
+.article-img {
+  width: 200px;
+}
