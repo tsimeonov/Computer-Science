@@ -34,3 +34,39 @@
 </details>
 
 ---
+
+##### 2. Where are system test cases often derived from?
+
+- The system requirements
+- User testing
+- Issue raised in debugging
+- Unit test results
+
+<details>
+  <summary>Solution</summary>
+
+**"The system requirements"**
+
+**Explanation:**
+
+**System test cases** are primarily derived from **system requirements** because system testing ensures that the complete application behaves as expected according to the specifications.
+
+**Why the other options are incorrect?**
+
+- ❌ **"User testing"**
+  - User testing (such as **UAT - User Acceptance Testing**) happens later and is based on user experience rather than predefined system requirements.
+- ❌ **"Issue raised in debugging"**
+  - Debugging issues are typically addressed during **unit testing** or **integration testing**, not system testing.
+- ❌ **"Unit test results"**
+
+  - Unit tests focus on individual functions or components, while **system testing** evaluates the entire system as a whole.
+
+  **Example:**
+
+If a requirement states,
+_"The application should allow users to reset their password via email verification,"_
+then a system test case would be designed to verify whether this functionality works correctly.
+
+</details>
+
+---
