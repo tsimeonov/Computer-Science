@@ -30,3 +30,35 @@ Why the other options are incorrect:
 </details>
 
 ---
+
+##### 2. Which of the following p5.js methods runs asynchronously?
+
+- setup()
+- createCanvas()
+- loadImage()
+- dist()
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+✅ **`loadImage()`**
+
+Explanation:
+`loadImage()` runs asynchronously in **p5.js** because it is designed to load an image from a file or URL in the background, preventing it from blocking the main program execution. It takes an optional callback function that executes once the image is fully loaded.
+
+Why the other options are incorrect:
+
+- ❌ **`setup()`**
+  - This function runs once at the start of the program but executes synchronously.
+- ❌ **`createCanvas()`**
+  - This method runs synchronously to create a drawing canvas.
+- ❌ **`dist()`**
+  - This is a mathematical function (to calculate Euclidean distance) and runs synchronously.
+
+Would you like a code example demonstrating the asynchronous behavior of `loadImage()`? 😊
+
+</details>
+
+---
