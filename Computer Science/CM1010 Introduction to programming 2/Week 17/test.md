@@ -75,3 +75,31 @@ then a system test case would be designed to verify whether this functionality w
 
 - True
 - False
+
+<details>
+  <summary>Solution</summary>
+
+**False**
+
+**Explanation:**
+In **black box testing**, the tester does **not** need to understand the **underlying structure or implementation** of the code. Instead, they focus on testing the **functionality** of the system based on the requirements and expected outcomes.
+
+**Why?**
+
+- Testers interact with the **software’s inputs and outputs** without looking at the internal code.
+- It simulates real user behavior to ensure the system meets the specified requirements.
+- Examples include **functional testing, system testing, and user acceptance testing (UAT).**
+
+  **Contrast with White Box Testing**
+
+- **White box testing** requires knowledge of the internal structure and logic of the code.
+- It includes unit testing, integration testing, and code coverage analysis.
+
+  **Example of Black Box Testing:**
+  A tester verifies that entering an incorrect password three times locks the account **without knowing how the authentication logic is implemented in the code.**
+
+Would you like more examples of black box testing techniques? 😊
+
+</details>
+
+---
