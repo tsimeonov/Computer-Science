@@ -92,3 +92,41 @@ function soundLoadingError() {
 - About to load sound -> Is the sound loaded? -> sound has loaded
 - About to load sound -> sound has loaded -> error loading sound
 - About to load sound -> Is the sound loaded? -> sound has loaded
+
+<details>
+  <summary>Solution</summary>
+
+The correct answer is:
+
+✅ **"About to load sound -> Is the sound loaded? -> sound has loaded"**
+
+**Explanation:**
+
+1. **`setup()`** is called when the sketch starts.
+2. Inside `setup()`, `createCanvas(800, 600);` executes synchronously.
+3. Then, `getSound();` is called.
+4. Inside `getSound()`, the first `console.log("About to load sound");` prints **"About to load sound"**.
+5. The `loadSound("music.mp3", soundLoaded, soundLoadingError);` function is called.
+   - **However, `loadSound()` is asynchronous**. It does not immediately load the sound but instead **starts loading it in the background**.
+   - The function `soundLoaded()` (or `soundLoadingError()`, in case of failure) will be executed later once the loading process is complete.
+6. Before the sound finishes loading, the next `console.log("Is the sound loaded?");` executes immediately, printing **"Is the sound loaded?"**.
+7. **Sometime later**, when the sound finishes loading, the `soundLoaded()` function executes, printing **"sound has loaded"**.
+
+**Order of execution:**
+
+1. `"About to load sound"`
+2. `"Is the sound loaded?"`
+3. `"sound has loaded"`
+
+**Why other answers are incorrect:**
+
+- **"About to load sound -> sound has loaded -> Is the sound loaded?"**
+  ❌ Incorrect because `loadSound()` is asynchronous, so `"sound has loaded"` does not print before `"Is the sound loaded?"`.
+- **"About to load sound -> sound has loaded -> error loading sound"**
+  ❌ Incorrect because both `soundLoaded()` and `soundLoadingError()` cannot be called. Only one of them executes.
+- **"About to load sound -> Is the sound loaded? -> sound has loaded"**
+  ✅ **Correct, as explained above.**
+
+</details>
+
+---
