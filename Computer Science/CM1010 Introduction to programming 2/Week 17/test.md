@@ -108,3 +108,40 @@ In **black box testing**, the tester does **not** need to understand the **under
 - Highest inputs only to a unit of code
 - A random sample of inputs to a unit of code
 - Highest and lowest possible inputs to a unit of code
+
+<details>
+  <summary>Solution</summary>
+
+**"Highest and lowest possible inputs to a unit of code"**
+
+**Explanation:**
+When testing the structure of the code (such as in **white-box testing** or **structural testing**), it is **impractical to test all possible logical paths** due to the **combinatorial explosion** of possibilities. The best strategy is to choose a representative set of test cases that cover edge cases effectively.
+
+**Why this is the best choice?**
+
+- Testing **highest and lowest inputs** helps identify potential **boundary errors** (e.g., buffer overflows, incorrect conditions).
+- It ensures the code handles **extreme cases** properly (e.g., maximum values, minimum values, empty inputs).
+- **Boundary Value Analysis (BVA)** is a well-known testing technique that focuses on the limits of input ranges.
+
+  **Why the other options are incorrect?**
+
+- ❌ **"None of these - you just have to work through all possibilities"**
+  - Not practical due to too many possible logical paths.
+- ❌ **"Highest inputs only to a unit of code"**
+  - Only testing the maximum values ignores potential failures at the lower boundaries.
+- ❌ **"A random sample of inputs to a unit of code"**
+
+  - Random testing may **miss critical edge cases** where errors are most likely to occur.
+
+  **Example:**
+  If a function processes **ages (0–120 years)**, the best test cases would include:
+
+- **Lowest boundary**: `0`
+- **Highest boundary**: `120`
+- **Just outside boundaries**: `-1` (invalid), `121` (invalid)
+
+Would you like an example code snippet demonstrating boundary testing? 😊
+
+</details>
+
+---
