@@ -98,8 +98,13 @@ In **black box testing**, the tester does **not** need to understand the **under
   **Example of Black Box Testing:**
   A tester verifies that entering an incorrect password three times locks the account **without knowing how the authentication logic is implemented in the code.**
 
-Would you like more examples of black box testing techniques? 😊
-
 </details>
 
 ---
+
+##### 4.When testing the structure of the code, it isn't possible to test all logical paths. Which of hte following is the best strategy for choosing to test?
+
+- None of these - you just have to work through all possibilities
+- Highest inputs only to a unit of code
+- A random sample of inputs to a unit of code
+- Highest and lowest possible inputs to a unit of code
