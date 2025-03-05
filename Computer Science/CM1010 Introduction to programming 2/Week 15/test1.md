@@ -130,3 +130,8 @@ The correct answer is:
 </details>
 
 ---
+
+##### 4. Can callbacks be anonymous functions?
+
+- Yes
+- No
