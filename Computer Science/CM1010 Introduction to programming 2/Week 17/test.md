@@ -70,3 +70,8 @@ then a system test case would be designed to verify whether this functionality w
 </details>
 
 ---
+
+##### 3. In black box testing the tester needs to understand the underlying structure of the code.
+
+- True
+- False
