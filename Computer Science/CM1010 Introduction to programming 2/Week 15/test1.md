@@ -135,3 +135,12 @@ The correct answer is:
 
 - Yes
 - No
+
+<details>
+  <summary>Solution</summary>
+
+Yes, callbacks can be anonymous functions.
+
+</details>
+
+---
