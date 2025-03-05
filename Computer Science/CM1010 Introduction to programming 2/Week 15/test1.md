@@ -62,3 +62,33 @@ Would you like a code example demonstrating the asynchronous behavior of `loadIm
 </details>
 
 ---
+
+##### 3. Study the following code and assume that music.mp3 is available in the same folder as the p5 template.
+
+Which of hte following outputs would the program produce?
+
+```js
+function setup() {
+  createCanvas(800, 600);
+  getSound();
+}
+
+function getSound() {
+  console.log("About to load sound");
+  loadSound("music.mp3", soundLoaded, soundLoadingError);
+  console.log("Is the sound loaded?");
+}
+
+function soundLoaded() {
+  console.log("sound has loaded");
+}
+
+function soundLoadingError() {
+  console.log("error loading sound");
+}
+```
+
+- About to load sound -> sound has loaded -> Is the sound loaded?
+- About to load sound -> Is the sound loaded? -> sound has loaded
+- About to load sound -> sound has loaded -> error loading sound
+- About to load sound -> Is the sound loaded? -> sound has loaded
