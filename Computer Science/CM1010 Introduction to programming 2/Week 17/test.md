@@ -102,7 +102,7 @@ In **black box testing**, the tester does **not** need to understand the **under
 
 ---
 
-##### 4.When testing the structure of the code, it isn't possible to test all logical paths. Which of hte following is the best strategy for choosing to test?
+##### 4. When testing the structure of the code, it isn't possible to test all logical paths. Which of hte following is the best strategy for choosing to test?
 
 - None of these - you just have to work through all possibilities
 - Highest inputs only to a unit of code
@@ -145,3 +145,10 @@ Would you like an example code snippet demonstrating boundary testing? 😊
 </details>
 
 ---
+
+##### 5. What should you do when you find a failed test case?
+
+- Complete the remaining tests
+- Fix the problem before continuing
+- Change the test case so it passes
+- Redesign the application
