@@ -4,6 +4,7 @@
 
 body {
   background-color: rgb(235, 235, 235);
+  margin: 50px;
 }
 
 header {
@@ -31,39 +32,64 @@ header p {
     "section1  section3"
     "section4  section4"
     "button button";
-
-  /* gap: 30px; */
-  /* grid-template-columns: 1fr 1fr; */
+  gap: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 
 .section-1 {
   grid-area: section1;
-  /* background-color: rgb(233, 218, 203); */
-  background-color: red;
+  background-color: rgb(233, 218, 203);
+  border-radius: 10px;
 }
 
 .section-2 {
   grid-area: section2;
   /* background-color: rgb(233, 218, 203); */
-  background-color: yellow;
+  background-color: rgb(233, 218, 203);
+  border-radius: 10px;
 }
 
 .section-3 {
   grid-area: section3;
-  background-color: green;
+  background-color: rgb(233, 218, 203);
+  border-radius: 10px;
 }
 .section-4 {
   grid-area: section4;
-  background-color: orange;
+  background-color: rgb(233, 218, 203);
+  border-radius: 10px;
   width: 100%;
 }
 
 button {
   grid-area: button;
-  background-color: blue;
+
   width: 100%;
 }
 
-.section-1 p {
-  /* color: rgb(148, 110, 76); */
+.section-1 > p,
+.section-2 > p,
+.section-3 > p {
+  color: rgb(140, 101, 67);
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  border-bottom: 2px solid rgb(233, 193, 165);
+}
+
+.n,
+.x {
+  width: 25%;
+}
+
+.x {
+  flex-basis: 50%;
 }

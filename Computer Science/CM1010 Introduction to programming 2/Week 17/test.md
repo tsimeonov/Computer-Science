@@ -140,8 +140,6 @@ When testing the structure of the code (such as in **white-box testing** or **st
 - **Highest boundary**: `120`
 - **Just outside boundaries**: `-1` (invalid), `121` (invalid)
 
-Would you like an example code snippet demonstrating boundary testing? 😊
-
 </details>
 
 ---
@@ -152,3 +150,10 @@ Would you like an example code snippet demonstrating boundary testing? 😊
 - Fix the problem before continuing
 - Change the test case so it passes
 - Redesign the application
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
