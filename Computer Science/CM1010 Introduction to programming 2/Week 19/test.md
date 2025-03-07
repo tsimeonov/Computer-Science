@@ -24,3 +24,14 @@
 - Theit job and skill set
 - Their computing experience
 - Their age
+
+<details>
+  <summary>Solution</summary>
+
+   It depends on the application and goals of the study
+
+  </br>
+
+</details>
+
+</br>
