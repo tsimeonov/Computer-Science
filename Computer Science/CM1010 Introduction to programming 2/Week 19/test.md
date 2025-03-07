@@ -6,3 +6,14 @@
 - Qualitative
 - Quantitative
 - Qualitative and quantitative 
+
+<details>
+  <summary>Solution</summary>
+
+  Qualitative and quantitative 
+
+  </br>
+
+</details>
+
+</br>
