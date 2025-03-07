@@ -8,3 +8,7 @@ Select all that are corect:
 -
 - 
 - (7,5)
+
+
+
+
