@@ -17,3 +17,10 @@
 </details>
 
 </br>
+
+##### 2. What is the single biggest consideration when selecting participants for user test?
+
+- It depends on the application and goals of the study
+- Theit job and skill set
+- Their computing experience
+- Their age
