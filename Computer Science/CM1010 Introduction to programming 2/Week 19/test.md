@@ -40,3 +40,14 @@
 
 - You should provide one
 - Their should their own
+
+<details>
+  <summary>Solution</summary>
+
+   You should provide one
+
+  </br>
+
+</details>
+
+</br>
