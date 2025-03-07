@@ -51,3 +51,7 @@
 </details>
 
 </br>
+
+##### 4. Can you measure the time it takes for a user to complete a task while using the think aloud protocol?
+- Yes
+- No
