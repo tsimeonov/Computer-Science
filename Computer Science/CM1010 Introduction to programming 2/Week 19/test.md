@@ -35,3 +35,8 @@
 </details>
 
 </br>
+
+##### 3. When conducting a user test, should participants use theit own computer or should you provide one?
+
+- You should provide one
+- Their should their own
