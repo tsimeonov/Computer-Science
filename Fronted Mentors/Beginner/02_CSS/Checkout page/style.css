@@ -110,11 +110,22 @@ button {
   text-align: end;
 }
 
-input {
+.section-2 div {
+  outline: 1px solid red;
+  position: relative;
+}
+
+.section-2 div > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section-2 input {
   border-radius: 10px;
   /* border-color: */
   border-style: solid;
   border-color: rgb(227, 132, 64);
-  height: 25%;
+  height: 25px;
   width: 40%;
 }
