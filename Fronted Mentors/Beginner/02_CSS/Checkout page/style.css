@@ -112,7 +112,9 @@ button {
 
 input {
   border-radius: 10px;
-  /* border-color: rgb(51, 30, 21); */
-  border: none;
-  border-color: red;
+  /* border-color: */
+  border-style: solid;
+  border-color: rgb(227, 132, 64);
+  height: 25%;
+  width: 40%;
 }
