@@ -90,11 +90,12 @@ button {
 .item-3 > span {
   text-align: end;
   width: 10%;
+  display: block;
 }
 
 .n,
 .x {
-  width: 20%;
+  width: 30%;
   text-align: left;
 }
 
