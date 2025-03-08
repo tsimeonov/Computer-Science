@@ -73,7 +73,7 @@ button {
 .section-3 > p {
   color: rgb(140, 101, 67);
   text-transform: uppercase;
-  margin-left: 40px;
+  margin-left: 65px;
 }
 
 .item-1,
@@ -108,4 +108,11 @@ button {
 .x {
   flex-basis: 40%;
   text-align: end;
+}
+
+input {
+  border-radius: 10px;
+  /* border-color: rgb(51, 30, 21); */
+  border: none;
+  border-color: red;
 }
