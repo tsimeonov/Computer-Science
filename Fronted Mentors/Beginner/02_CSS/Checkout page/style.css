@@ -90,7 +90,13 @@ button {
 .item-3 > span {
   text-align: end;
   width: 10%;
+}
+
+.item-1 > p > span,
+.item-2 > p > span,
+.item-3 > p > span {
   display: block;
+  color: red;
 }
 
 .n,
