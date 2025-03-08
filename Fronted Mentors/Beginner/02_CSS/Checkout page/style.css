@@ -120,8 +120,9 @@ fieldset {
   height: 40%;
   margin-left: 65px;
   border-radius: 10px;
+  border: 2px solid rgb(140, 101, 67);
 }
 
 fieldset legend {
-  color: red;
+  color: rgb(140, 101, 67);
 }
