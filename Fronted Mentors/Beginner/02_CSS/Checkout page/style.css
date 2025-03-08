@@ -111,14 +111,14 @@ button {
 }
 
 .section-2 div {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   position: relative;
 }
 
 .section-2 div > label {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: 25px;
 }
 
 .section-2 input {
