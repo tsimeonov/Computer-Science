@@ -33,6 +33,10 @@ header p {
     "section4  section4"
     "button button";
   gap: 30px;
+  grid-template-columns: auto;
+  grid-template-columns: auto;
+  min-height: 0;
+  min-width: 0;
   margin-top: 40px;
   border-radius: 10px;
 }
@@ -54,6 +58,7 @@ header p {
   grid-area: section3;
   background-color: rgb(233, 218, 203);
   border-radius: 10px;
+  /* height: 100%; */
 }
 .section-4 {
   grid-area: section4;
@@ -116,7 +121,7 @@ button {
 }
 
 fieldset {
-  width: 50%;
+  width: 70%;
   height: 40%;
   margin-left: 65px;
   border-radius: 10px;
@@ -125,4 +130,9 @@ fieldset {
 
 fieldset legend {
   color: rgb(140, 101, 67);
+}
+
+.section-3 {
+  overflow: hidden;
+  padding: 30px;
 }
