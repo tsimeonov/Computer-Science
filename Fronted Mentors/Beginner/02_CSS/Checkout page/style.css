@@ -117,5 +117,11 @@ button {
 
 fieldset {
   width: 50%;
-  height: 30%;
+  height: 40%;
+  margin-left: 65px;
+  border-radius: 10px;
+}
+
+fieldset legend {
+  color: red;
 }
