@@ -96,7 +96,7 @@ button {
 .item-2 > p > span,
 .item-3 > p > span {
   display: block;
-  color: red;
+  color: rgb(140, 101, 67);
 }
 
 .n,
