@@ -6,6 +6,10 @@
 
 ---
 
-#### 2. Numbers, Strings and Booleans
+#### 3. Numbers, Strings and Booleans
+
+---
+
+#### 4. Control Flow
 
 ---
