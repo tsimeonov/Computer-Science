@@ -45,6 +45,7 @@ header p {
   grid-area: section1;
   background-color: rgb(233, 218, 203);
   border-radius: 10px;
+  height: 70%;
 }
 
 .section-2 {
@@ -118,6 +119,8 @@ button {
 .section-2 {
   display: flex;
   flex-direction: column;
+  outline: 5px solid red;
+  padding-bottom: 20px;
 }
 
 fieldset {
