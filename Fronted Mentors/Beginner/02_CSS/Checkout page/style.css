@@ -121,10 +121,10 @@ button {
 }
 
 fieldset {
-  width: 70%;
-  height: 40%;
+  width: 90%;
+  height: 60px;
   margin-left: 35px;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 2px solid rgb(140, 101, 67);
 }
 
@@ -134,5 +134,11 @@ fieldset legend {
 
 .section-3 {
   overflow: hidden;
-  padding: 30px;
+  /* padding: 30px; */
+  padding-bottom: 50px;
+}
+
+.section-3 > fieldset:last-of-type {
+  margin-top: 20px;
+  width: 20%;
 }
