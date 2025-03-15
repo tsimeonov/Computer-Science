@@ -63,9 +63,12 @@ header p {
 }
 .section-4 {
   grid-area: section4;
-  background-color: rgb(233, 218, 203);
+  /* background-color: rgb(233, 218, 203); */
   border-radius: 10px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
