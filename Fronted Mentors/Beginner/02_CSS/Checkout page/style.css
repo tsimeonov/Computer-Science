@@ -84,3 +84,7 @@ body {
 
   row-gap: 8px;
 }
+
+.item:last-child {
+  border-bottom: none;
+}
