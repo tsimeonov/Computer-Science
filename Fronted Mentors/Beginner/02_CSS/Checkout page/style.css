@@ -106,3 +106,8 @@ body {
   padding: 0;
   font-size: 14px;
 }
+
+.item-option {
+  margin-bottom: 5px;
+  outline: 1px solid blue;
+}
