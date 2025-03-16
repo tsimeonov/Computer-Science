@@ -135,3 +135,7 @@ body {
   top: -7px;
   padding: 0 2px;
 }
+
+.short-input {
+  max-width: 200px;
+}
