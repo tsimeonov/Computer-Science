@@ -58,3 +58,7 @@ body {
 .order {
   grid-area: order;
 }
+
+.payment {
+  grid-area: payment;
+}
