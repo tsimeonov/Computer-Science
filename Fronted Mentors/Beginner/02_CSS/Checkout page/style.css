@@ -116,3 +116,13 @@ body {
   margin-bottom: 20px;
   outline: 1px solid blue;
 }
+
+.user-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px #885a2d solid;
+  padding: 8px;
+  border-radius: 100px;
+  width: 100%;
+  text-indent: 18px;
+  font-size: 18px;
+}
