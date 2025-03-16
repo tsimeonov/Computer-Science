@@ -92,3 +92,8 @@ body {
 .item-quantity {
   grid-area: quantity;
 }
+
+.item-price {
+  grid-area: price;
+  font-weight: bold;
+}
