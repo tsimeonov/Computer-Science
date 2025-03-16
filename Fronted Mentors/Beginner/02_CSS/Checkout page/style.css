@@ -62,3 +62,7 @@ body {
 .payment {
   grid-area: payment;
 }
+
+.total {
+  grid-area: total;
+}
