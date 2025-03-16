@@ -97,3 +97,12 @@ body {
   grid-area: price;
   font-weight: bold;
 }
+
+.item-options-list {
+  grid-area: options;
+  color: #b08968;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
