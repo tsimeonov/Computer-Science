@@ -54,3 +54,7 @@ body {
   text-transform: uppercase;
   outline: 1px solid red;
 }
+
+.order {
+  grid-area: order;
+}
