@@ -146,3 +146,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.totals-table {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
