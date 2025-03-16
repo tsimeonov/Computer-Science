@@ -114,7 +114,6 @@ body {
 .input-group {
   position: relative;
   margin-bottom: 20px;
-  outline: 1px solid blue;
 }
 
 .user-input {
@@ -125,4 +124,11 @@ body {
   width: 100%;
   text-indent: 18px;
   font-size: 18px;
+}
+
+.user-input-label {
+  color: #885a2d;
+  background-color: #eee1d5;
+  font-size: 11px;
+  outline: 1px solid blue;
 }
