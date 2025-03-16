@@ -1,6 +1,6 @@
 ### Talking to Servers
 
-##### JSON
+#### 1. JSON
 
 Requesting data from the server after the page has loaded is called AJAX (asynchronous Javascript and XML).
 
@@ -34,6 +34,33 @@ Object {
   },
   "name": "Luna",
 }
+```
+
+</details>
+
+##### 1.1 JSON.stringify
+
+<details>
+  <summary>Code Example</summary>
+
+```js
+const dog = {
+  name: "Luna",
+  age: 10,
+  breed: "Havanese",
+  location: {
+    city: "Seattle",
+    state: "WA",
+  },
+};
+
+const objString = JSON.stringify(dog);
+console.log(objString);
+```
+
+```
+<!-- Result -->
+"{\"name\":\"Luna\",\"age\":10,\"breed\":\"Havanese\",\"location\":{\"city\":\"Seattle\",\"state\":\"WA\"}}"
 ```
 
 </details>
