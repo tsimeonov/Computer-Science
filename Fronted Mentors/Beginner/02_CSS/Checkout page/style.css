@@ -130,5 +130,8 @@ body {
   color: #885a2d;
   background-color: #eee1d5;
   font-size: 11px;
-  outline: 1px solid blue;
+  position: absolute;
+  left: 25px;
+  top: -7px;
+  padding: 0 2px;
 }
