@@ -156,3 +156,7 @@ body {
 .totals-table td {
   padding: 10px;
 }
+
+.totals-table td:last-child {
+  text-align: right;
+}
