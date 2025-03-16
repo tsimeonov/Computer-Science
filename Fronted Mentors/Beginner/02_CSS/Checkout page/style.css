@@ -88,3 +88,7 @@ body {
 .item:last-child {
   border-bottom: none;
 }
+
+.item-quantity {
+  grid-area: quantity;
+}
