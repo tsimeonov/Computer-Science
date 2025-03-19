@@ -70,3 +70,7 @@ console.log(objString);
 ##### Making an API request
 
 ---
+
+##### Async await
+
+---
