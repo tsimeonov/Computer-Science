@@ -67,4 +67,6 @@ console.log(objString);
 
 ---
 
-##### API
+##### Making an API request
+
+---
