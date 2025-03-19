@@ -74,3 +74,7 @@ console.log(objString);
 ##### Async await
 
 ---
+
+##### GET & POST API Data
+
+---
