@@ -78,3 +78,7 @@ console.log(objString);
 ##### GET & POST API Data
 
 ---
+
+##### isLetter Function
+
+---
