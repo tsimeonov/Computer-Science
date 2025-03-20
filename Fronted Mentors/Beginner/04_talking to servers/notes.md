@@ -82,3 +82,7 @@ console.log(objString);
 ##### isLetter Function
 
 ---
+
+##### isLetter Function
+
+---
