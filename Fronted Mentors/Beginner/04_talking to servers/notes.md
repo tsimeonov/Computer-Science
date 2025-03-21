@@ -98,6 +98,9 @@ function addNewDoggo() {
 document.getElementById("dog-btn").addEventListener("click", addNewDoggo);
 ```
 
+The process of calling out to the internet, reaching the server, the server processing, responding and comming back takes time.
+It could be very fast, it could take a minute. You need to have the ability to wait in your code. This is called async code, the A in AJAX.
+
 ---
 
 ##### Async await
