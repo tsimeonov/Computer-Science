@@ -101,6 +101,12 @@ document.getElementById("dog-btn").addEventListener("click", addNewDoggo);
 The process of calling out to the internet, reaching the server, the server processing, responding and comming back takes time.
 It could be very fast, it could take a minute. You need to have the ability to wait in your code. This is called async code, the A in AJAX.
 
+fetch is a function (builtin for the browser) that allows you to give it a URL like https://dog.ceo/api/breeds/image/random and it will try to get information from that API. In this case we're asking for a random image of a dog.
+
+fetch gives you back a promise. Then we need to tell it what we think the API is going to send us back. In our case we're saying it's going to be text() from the API. There are others (and I'll show you one in a sec.)
+
+You can do what's called promise chaining. This allows you to do one async action after another. In our case, we don't know how long it will take to transform our response into text (it's basically instant and usually is but it could not be). In any case, by returning the promise at the end of the first then, we then can use its data in the second then. That's why that's weird that way.
+
 ---
 
 ##### Async await
