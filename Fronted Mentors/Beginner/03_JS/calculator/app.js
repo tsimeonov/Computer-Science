@@ -81,3 +81,7 @@ function handleSymbol(value) {
       break;
   }
 }
+
+function rerender() {
+  screen.innerText = buffer;
+}
