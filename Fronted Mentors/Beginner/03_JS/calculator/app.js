@@ -9,7 +9,7 @@ function buttonClick(value) {
   } else {
     handleNumber(value);
   }
-  ReadableStreamDefaultController();
+  rerender();
 }
 
 function handleNumber(value) {
