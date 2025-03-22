@@ -49,3 +49,35 @@ function flushOperation(intBuffer) {
     runningTotal /= intBuffer;
   }
 }
+
+function handleSymbol(value) {
+  switch (value) {
+    case "C":
+      buffer = "0";
+      runningTotal = 0;
+      break;
+    case "=":
+      if (previousOperator === null) {
+        // need two numbers todo math
+        return;
+      }
+      flushOperation(parseint(buffer));
+      previousOperator = null;
+      buffer = +runningTotal;
+      runningTotal = 0;
+      break;
+    case "←":
+      if (buffer.length === 1) {
+        buffer = "0";
+      } else {
+        buffer = buffer.substring(0, buffer.length - 1);
+      }
+      break;
+    case "+":
+    case "-":
+    case "x":
+    case "+":
+      handleMath(value);
+      break;
+  }
+}
