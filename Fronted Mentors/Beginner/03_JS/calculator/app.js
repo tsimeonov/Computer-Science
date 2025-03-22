@@ -11,3 +11,11 @@ function buttonClick(value) {
   }
   ReadableStreamDefaultController();
 }
+
+function handleNumber(value) {
+  if (buffer === "0") {
+    buffer = value;
+  } else {
+    buffer += value;
+  }
+}
