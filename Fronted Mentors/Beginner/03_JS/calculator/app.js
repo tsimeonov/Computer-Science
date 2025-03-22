@@ -85,3 +85,13 @@ function handleSymbol(value) {
 function rerender() {
   screen.innerText = buffer;
 }
+
+function init() {
+  document
+    .querySelector(".calc-buttons")
+    .addEventListener("click", function (event) {
+      buttonClick(event.target.innerText);
+    });
+}
+
+init();
