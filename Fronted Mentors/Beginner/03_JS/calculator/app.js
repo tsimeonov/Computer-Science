@@ -61,7 +61,7 @@ function handleSymbol(value) {
         // need two numbers todo math
         return;
       }
-      flushOperation(parseint(buffer));
+      flushOperation(parseInt(buffer));
       previousOperator = null;
       buffer = +runningTotal;
       runningTotal = 0;
