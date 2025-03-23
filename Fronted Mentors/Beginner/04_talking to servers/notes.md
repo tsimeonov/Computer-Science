@@ -149,6 +149,11 @@ getName().then(function (name) {
 });
 ```
 
+```bash
+"a promise" Promise {}
+Promise {}"the actual name" "Brian"
+```
+
 ---
 
 ##### GET & POST API Data
