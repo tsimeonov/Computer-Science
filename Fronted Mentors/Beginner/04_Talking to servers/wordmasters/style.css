@@ -59,3 +59,7 @@ body {
   background-color: #888;
   color: white;
 }
+
+.invalid {
+  animation: flash 1s;
+}
