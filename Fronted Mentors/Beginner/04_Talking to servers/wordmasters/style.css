@@ -140,3 +140,7 @@ body {
     color: rgb(255, 0, 127);
   }
 }
+
+.winner {
+  animation: rainbow 4s infinite linear;
+}
