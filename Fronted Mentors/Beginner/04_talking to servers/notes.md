@@ -135,6 +135,20 @@ document.getElementById("dog-btn3").addEventListener("click", addNewDoggo);
 
 All await does is tell your code "pause execution on this function until this promise resolves." So on the line const `promise = await fetch(DOG_URL);` the function stops executing until your API call finishes and you have a response back. It then picks back up where it was. It makes the code read very linearly which is great.
 
+One thing to note about async functions: they always return promises themselves.
+
+```js
+async function getName() {
+  return "Brian";
+}
+
+console.log("a promise", getName());
+
+getName().then(function (name) {
+  console.log("the actual name", name);
+});
+```
+
 ---
 
 ##### GET & POST API Data
