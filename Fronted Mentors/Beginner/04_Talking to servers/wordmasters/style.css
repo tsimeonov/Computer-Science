@@ -54,3 +54,8 @@ body {
   background-color: goldenrod;
   color: white;
 }
+
+.wrong {
+  background-color: #888;
+  color: white;
+}
