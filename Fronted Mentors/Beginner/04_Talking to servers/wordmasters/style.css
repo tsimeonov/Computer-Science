@@ -32,3 +32,15 @@ body {
   row-gap: 10px;
   column-gap: 5px;
 }
+
+.scoreboard-letter {
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: 3px solid #ccc;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
