@@ -116,6 +116,23 @@ You can do what's called promise chaining. This allows you to do one async actio
 <div id="dog-target"></div>
 ```
 
+```js
+const DOG_URL = "https://dog.ceo/api/breeds/image/random";
+
+const doggos = document.getElementById("dog-target3");
+
+async function addNewDoggo() {
+  const promise = await fetch(DOG_URL);
+  const processedResponse = await promise.json();
+  const img = document.createElement("img");
+  img.src = processedResponse.message;
+  img.alt = "Cute doggo";
+  doggos.appendChild(img);
+}
+
+document.getElementById("dog-btn3").addEventListener("click", addNewDoggo);
+```
+
 ---
 
 ##### GET & POST API Data
