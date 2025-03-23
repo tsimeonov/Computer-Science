@@ -22,3 +22,13 @@ body {
 .brand {
   font-size: 30px;
 }
+
+.scoreboard {
+  max-width: 295px;
+  width: 100%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 5px;
+}
