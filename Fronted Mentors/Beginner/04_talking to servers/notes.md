@@ -83,16 +83,16 @@ function addNewDoggo() {
   const promise = fetch(DOG_URL);
   promise
     .then(function (response) {
-    const processingPromise = response.text();
-    return processingPromise;
-  })
+      const processingPromise = response.text();
+      return processingPromise;
+    })
     .then(function (processedResponse) {
-    const dogObject = JSON.parse(processedResponse);
-    const img = document.createElement("img");
-    img.src = dogObject.message;
-    img.alt = "Cute doggo";
-    doggos.appendChild(img);
-  });
+      const dogObject = JSON.parse(processedResponse);
+      const img = document.createElement("img");
+      img.src = dogObject.message;
+      img.alt = "Cute doggo";
+      doggos.appendChild(img);
+    });
 }
 
 document.getElementById("dog-btn").addEventListener("click", addNewDoggo);
@@ -110,6 +110,11 @@ You can do what's called promise chaining. This allows you to do one async actio
 ---
 
 ##### Async await
+
+```html
+<button id="dog-btn">Gimme Doggo</button>
+<div id="dog-target"></div>
+```
 
 ---
 
