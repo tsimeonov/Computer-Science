@@ -44,3 +44,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.correct {
+  background-color: darkgreen;
+  color: white;
+}
