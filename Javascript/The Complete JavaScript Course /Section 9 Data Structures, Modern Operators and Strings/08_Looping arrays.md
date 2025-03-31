@@ -1,8 +1,8 @@
-### Looping arrays: The for-of Loop
+## Looping arrays: The for-of Loop
 
 ---
 
-Looping over with the for of loop
+##### Looping over with the for of loop
 
 <details>
   <summary>Solution</summary>
