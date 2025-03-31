@@ -46,3 +46,11 @@ const restaurant = {
     console.log(`Here is your delicious pasta with ${ing1}, ${ing2}, ${ing3}`);
   },
 };
+
+if (restaurant.openingHours && restaurant.openingHours.mon) {
+  console.log(restaurant.openingHours.mon.open);
+
+  // WITH optional chaining
+  console.log(restaurant.openingHours.mon?.open);
+  console.log(restaurant.openingHours.mon.open);
+}
