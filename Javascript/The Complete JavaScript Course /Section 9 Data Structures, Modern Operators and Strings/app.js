@@ -49,7 +49,6 @@ const restaurant = {
 
 const user = { name: "Alice", age: 25 };
 
-Object.keys(user).forEach((key) => {
-  console.log(key);
-  console.log(user[key]);
+Object.values(user).forEach((value) => {
+  console.log(value); // Alice, 25
 });

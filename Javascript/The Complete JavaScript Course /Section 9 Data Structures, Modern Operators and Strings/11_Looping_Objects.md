@@ -14,3 +14,15 @@ Object.keys(user).forEach((key) => {
   console.log(user[key]); // Alice, 25
 });
 ```
+
+2. Object.values(obj)
+
+Returns an array of the object's own property values
+
+```js
+const user = { name: "Alice", age: 25 };
+
+Object.values(user).forEach((value) => {
+  console.log(value); // Alice, 25
+});
+```
