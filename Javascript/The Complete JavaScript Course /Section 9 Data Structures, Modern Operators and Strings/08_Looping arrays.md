@@ -51,3 +51,28 @@ for (const item of menu.entries()) {
 </details>
 
 ---
+
+##### Rename element 0 to element 1
+
+<details>
+  <summary>Solution</summary>
+
+```javascript
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
+
+// OUTPUT
+
+// 1: Focaccia
+// 2: Bruschetta
+// 3: Garlic Bread
+// 4: Caprese Salad
+// 5: Pizza
+// 6: Pasta
+// 7: Risotto
+```
+
+</details>
+
+---

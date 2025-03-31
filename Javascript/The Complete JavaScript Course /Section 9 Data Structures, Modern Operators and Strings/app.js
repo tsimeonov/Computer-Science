@@ -51,8 +51,8 @@ const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 for (const item of menu) console.log(item);
 
-// Show the current index not just the current element
+// Rename element 0 to element 1
 
-for (const item of menu.entries()) {
-  console.log(item);
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
 }
