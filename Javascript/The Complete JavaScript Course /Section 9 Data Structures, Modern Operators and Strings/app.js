@@ -47,9 +47,10 @@ const restaurant = {
   },
 };
 
-const user = {
-  sayHi: () => console.log("Hi"),
+const data = {
+  items: [{ id: 1 }, { id: 2 }],
 };
 
-user.sayHi?.(); // "Hi"
-user.sayBy?.(); // nothing happens, no error
+console.log(data.items?.[0]?.id);
+console.log(data.items?.[1]?.id);
+console.log(data.items?.[10]?.id);

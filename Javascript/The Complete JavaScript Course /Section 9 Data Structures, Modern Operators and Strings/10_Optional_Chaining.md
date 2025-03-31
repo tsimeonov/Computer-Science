@@ -34,3 +34,15 @@ const user = {
 user.sayHi?.(); // "Hi"
 user.sayBy?.(); // nothing happens, no error
 ```
+
+3. Optional chaining with arrays
+
+```js
+const data = {
+  items: [{ id: 1 }, { id: 2 }],
+};
+
+console.log(data.items?.[0]?.id); // 1
+console.log(data.items?.[1]?.id); // 2
+console.log(data.items?.[10]?.id); // Undefined
+```
