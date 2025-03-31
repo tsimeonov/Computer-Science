@@ -50,3 +50,9 @@ const restaurant = {
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 for (const item of menu) console.log(item);
+
+// Show the current index not just the current element
+
+for (const item of menu.entries()) {
+  console.log(item);
+}

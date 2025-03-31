@@ -11,6 +11,16 @@ Looping over with the for of loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
 for (const item of menu) console.log(item);
+
+// OUTPUT
+
+// Focaccia
+// Bruschetta
+// Garlic Bread
+// Caprese Salad
+// Pizza
+// Pasta
+// Risotto
 ```
 
 </details>
