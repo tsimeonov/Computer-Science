@@ -26,3 +26,15 @@ Object.values(user).forEach((value) => {
   console.log(value); // Alice, 25
 });
 ```
+
+3. Object.entries(obj)
+
+Returns an array of the object's own [key, value] pairs
+
+```js
+const user = { name: "Alice", age: 25 };
+
+Object.entries(user).forEach(([key, value]) => {
+  console.log(`${key}: ${value}`); // name: Alice, age: 25
+});
+```
