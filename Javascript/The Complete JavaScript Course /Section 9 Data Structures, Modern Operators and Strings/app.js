@@ -49,12 +49,4 @@ const restaurant = {
 
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
-// Select the element
 for (const item of menu) console.log(item);
-// Focaccia, Bruschetta, Garlic Bread ,Caprese Salad, Pizza, Pasta, Risotto
-
-for (const item of menu.entries()) {
-  console.log(item);
-}
-
-console.log(menu.entries());
