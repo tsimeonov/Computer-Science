@@ -10,3 +10,16 @@ obj?.prop
 obj?.[expr]
 obj?.method?()
 ```
+
+1. Accessing a nested property
+
+```js
+const user = {
+  profile: {
+    name: "Alice",
+  },
+};
+
+console.log(user.profile?.name); // "Alice"
+console.log(user.settings?.theme); // undefined (no error)
+```

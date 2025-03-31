@@ -47,10 +47,11 @@ const restaurant = {
   },
 };
 
-if (restaurant.openingHours && restaurant.openingHours.mon) {
-  console.log(restaurant.openingHours.mon.open);
+const user = {
+  profile: {
+    name: "Alice",
+  },
+};
 
-  // WITH optional chaining
-  console.log(restaurant.openingHours.mon?.open);
-  console.log(restaurant.openingHours.mon.open);
-}
+console.log(user.profile?.name); // "Alice"
+console.log(user.settings?.theme); // undefined (no error)
