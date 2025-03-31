@@ -26,3 +26,28 @@ for (const item of menu) console.log(item);
 </details>
 
 ---
+
+##### Show the current index not just the current element
+
+<details>
+  <summary>Solution</summary>
+
+```javascript
+for (const item of menu.entries()) {
+  console.log(item);
+}
+
+// OUTPUT
+
+// [ 0, 'Focaccia' ]
+// [ 1, 'Bruschetta' ]
+// [ 2, 'Garlic Bread' ]
+// [ 3, 'Caprese Salad' ]
+// [ 4, 'Pizza' ]
+// [ 5, 'Pasta' ]
+// [ 6, 'Risotto' ]
+```
+
+</details>
+
+---
