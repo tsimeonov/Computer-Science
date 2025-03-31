@@ -23,3 +23,14 @@ const user = {
 console.log(user.profile?.name); // "Alice"
 console.log(user.settings?.theme); // undefined (no error)
 ```
+
+2. Calling a method
+
+```js
+const user = {
+  sayHi: () => console.log("Hi"),
+};
+
+user.sayHi?.(); // "Hi"
+user.sayBy?.(); // nothing happens, no error
+```

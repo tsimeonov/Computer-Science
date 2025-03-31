@@ -48,10 +48,8 @@ const restaurant = {
 };
 
 const user = {
-  profile: {
-    name: "Alice",
-  },
+  sayHi: () => console.log("Hi"),
 };
 
-console.log(user.profile?.name); // "Alice"
-console.log(user.settings?.theme); // undefined (no error)
+user.sayHi?.(); // "Hi"
+user.sayBy?.(); // nothing happens, no error
