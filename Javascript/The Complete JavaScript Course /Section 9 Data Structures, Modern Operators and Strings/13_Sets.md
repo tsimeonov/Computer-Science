@@ -30,3 +30,18 @@ mySet.has(1); // true
 mySet.delete(2); // true
 mySet.size; // 2
 ```
+
+3. Iterating over a Set
+
+```js
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(2);
+mySet.add(2); // Duplicate, will be ignored
+mySet.add("Hello");
+
+for (let value of mySet) {
+  console.log(value);
+}
+```
