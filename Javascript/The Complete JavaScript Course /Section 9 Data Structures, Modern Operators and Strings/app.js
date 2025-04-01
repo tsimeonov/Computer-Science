@@ -47,8 +47,11 @@ const restaurant = {
   },
 };
 
-const user = { name: "Alice", age: 25 };
+const mySet = new Set();
 
-Object.entries(user).forEach(([key, value]) => {
-  console.log(`${key}: ${value}`);
-});
+mySet.add(1);
+mySet.add(2);
+mySet.add(2); // Duplicate, will be ignored
+mySet.add("Hello");
+
+console.log(mySet);
