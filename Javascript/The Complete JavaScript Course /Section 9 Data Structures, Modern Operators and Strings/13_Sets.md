@@ -20,5 +20,5 @@ console.log(mySet);
 | Method         | Description                                   |
 | -------------- | --------------------------------------------- |
 | `.add(value) ` | Adds a value (if it's not already in the set) |
-|                |                                               |
+| `.has(value)`  | Checks if a value exist in the set            |
 |                |                                               |
