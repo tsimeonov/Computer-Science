@@ -17,8 +17,8 @@ console.log(mySet);
 
 2. Useful Methods
 
-| Method         | Description                                   |
-| -------------- | --------------------------------------------- |
-| `.add(value) ` | Adds a value (if it's not already in the set) |
-| `.has(value)`  | Checks if a value exist in the set            |
-|                |                                               |
+| Method           | Description                                   |
+| ---------------- | --------------------------------------------- |
+| `.add(value) `   | Adds a value (if it's not already in the set) |
+| `.has(value)`    | Checks if a value exist in the set            |
+| `.delete(value)` | Removes a value from the set                  |
