@@ -23,3 +23,4 @@ console.log(mySet);
 | `.has(value)`    | Checks if a value exist in the set            |
 | `.delete(value)` | Removes a value from the set                  |
 | `.clear()`       | Removes all values                            |
+| `.size`          | Returns number of values in the set           |
