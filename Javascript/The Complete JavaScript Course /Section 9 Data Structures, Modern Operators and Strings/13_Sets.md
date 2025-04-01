@@ -14,3 +14,11 @@ mySet.add("Hello");
 
 console.log(mySet);
 ```
+
+2. Useful Methods
+
+| Method         | Description                                   |
+| -------------- | --------------------------------------------- |
+| `.add(value) ` | Adds a value (if it's not already in the set) |
+|                |                                               |
+|                |                                               |
