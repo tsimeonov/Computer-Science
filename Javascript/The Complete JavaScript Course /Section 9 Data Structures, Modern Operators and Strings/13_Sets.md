@@ -22,3 +22,4 @@ console.log(mySet);
 | `.add(value) `   | Adds a value (if it's not already in the set) |
 | `.has(value)`    | Checks if a value exist in the set            |
 | `.delete(value)` | Removes a value from the set                  |
+| `.clear()`       | Removes all values                            |
