@@ -54,4 +54,5 @@ mySet.add(2);
 mySet.add(2); // Duplicate, will be ignored
 mySet.add("Hello");
 
+mySet.has(1);
 console.log(mySet);

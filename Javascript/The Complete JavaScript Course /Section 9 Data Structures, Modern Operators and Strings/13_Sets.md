@@ -24,3 +24,9 @@ console.log(mySet);
 | `.delete(value)` | Removes a value from the set                  |
 | `.clear()`       | Removes all values                            |
 | `.size`          | Returns number of values in the set           |
+
+```js
+mySet.has(1); // true
+mySet.delete(2); // true
+mySet.size; // 2
+```
