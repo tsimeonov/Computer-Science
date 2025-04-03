@@ -34,3 +34,15 @@ console.log(myMap.get(42)); // The answer
 | `.has(key)`        | Checks if a key exists           |
 | `.delete(key)`     | Removes a key-value pair         |
 | `.clear() `        | Removes everything from the Map  |
+
+🔁 Iterating Over a Map
+
+```js
+myMap.forEach((value, key) => {
+  console.log(`${key} => ${value}`);
+});
+
+for (let [key, value] of myMap) {
+  console.log(`${key} => ${value}`);
+}
+```
