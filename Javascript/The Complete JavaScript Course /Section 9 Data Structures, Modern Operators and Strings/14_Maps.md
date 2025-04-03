@@ -24,3 +24,13 @@ myMap.set(true, "yes");
 console.log(myMap.get("name")); // Alice
 console.log(myMap.get(42)); // The answer
 ```
+
+📚 Common Methods
+
+| Method             | Description                      |
+| ------------------ | -------------------------------- |
+| `.set(key, value)` | Adds or updates a key-value pair |
+| `.get(key)`        | Retrieves the value for a key    |
+| `.has(key)`        | Checks if a key exists           |
+| `.delete(key)`     | Removes a key-value pair         |
+| `.clear() `        | Removes everything from the Map  |
