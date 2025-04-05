@@ -86,4 +86,10 @@ printGoals(...game.scored);
 
 // 7. The team with the lower odd is more likely to win. Print to the console which team is more likely to win, WITHOUT using an if/else statement or the ternary operator.
 
+console.log(team1);
+console.log(team2);
+
+team1 < team2 && console.log("Team 1 is more likely to win");
+team1 > team2 && console.log("Team 2 is more likely to win");
+
 // TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Then, call the function again with players from game.scored
