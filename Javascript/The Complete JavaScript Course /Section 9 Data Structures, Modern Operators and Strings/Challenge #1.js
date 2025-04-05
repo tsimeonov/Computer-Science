@@ -52,6 +52,9 @@ console.log(players1, players2);
 
 // 2. The first player in any player array is the goalkeeper and the others are field players. For Bayern Munich (team 1) create one variable ('gk') with the goalkeeper's name, and one array ('fieldPlayers') with all the remaining 10 field players
 
+const [gk, ...fieldPlayers] = players1;
+console.log(gk, fieldPlayers);
+
 // 3. Create an array 'allPlayers' containing all players of both teams (22 players)
 
 // 4. During the game, Bayern Munich (team 1) used 3 substitute players. So create a new array ('players1Final') containing all the original team1 players plus 'Thiago', 'Coutinho' and 'Perisic'
