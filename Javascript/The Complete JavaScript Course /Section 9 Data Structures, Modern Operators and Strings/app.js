@@ -46,14 +46,3 @@ const restaurant = {
     console.log(`Here is your delicious pasta with ${ing1}, ${ing2}, ${ing3}`);
   },
 };
-
-const mySet = new Set();
-
-mySet.add(1);
-mySet.add(2);
-mySet.add(2); // Duplicate, will be ignored
-mySet.add("Hello");
-
-for (let value of mySet) {
-  console.log(value);
-}
