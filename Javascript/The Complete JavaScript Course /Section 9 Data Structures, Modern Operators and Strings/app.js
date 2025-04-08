@@ -47,22 +47,32 @@ const restaurant = {
   },
 };
 
-// New operations to make sets useful
+const rest = new Map();
 
-const italianFoods = new Set([
-  "pasta",
-  "gnocchi",
-  "tomatoes",
-  "olive oil",
-  "garlic",
-  "basil",
-]);
+rest.set("name", "Classico Italiano");
+rest.set(1, "Firenze", "Italy");
+rest.set(2, "Lisbon", "portugal");
+console.log(rest.set(2, "Lisbon", "portugal"));
 
-const mexicanFoods = new Set([
-  "tortillas",
-  "beans",
-  "rice",
-  "tomatoes",
-  "avocado",
-  "",
-]);
+// rest
+//   .set("categories", ["Italian", "Pizzeria", "Vegetarian", "Organic"])
+//   .set("open", 11)
+//   .set("close", 23)
+//   .set(true, "we are open")
+//   .set(false, "we are closed");
+
+// console.log(rest.get("name"));
+// console.log(rest.get(true));
+
+rest
+  .set("categories", ["Italian", "Pizzeria", "Vegetarian", "Organic"])
+  .set("open", 11)
+  .set("close", 23)
+  .set(true, "we are open")
+  .set(false, "we are close");
+
+console.log(rest.get("close"));
+
+const time = 21;
+
+console.log(rest.get(time > rest.get("open") && time < rest.get("close")));
