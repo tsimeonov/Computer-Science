@@ -2,6 +2,8 @@
 
 `Propositional logic` (also known as sentential logic or statement logic) is a brach of logic that deals with `propositions` - statements that are either `true` or `false`, but not both.
 
+---
+
 `Basic Concepts`:
 
 - A proposition is a declarative sentence like:
@@ -21,6 +23,8 @@
 
   - ↔ (if and only if): Bi-conditional
 
+---
+
 `What is a proposition?`
 
 - Questions
@@ -29,6 +33,8 @@
   - Does not take a truth value
 - Sentences dependent on variables
   - The truth value changes with the variable
+
+---
 
 `Examples:`
 
