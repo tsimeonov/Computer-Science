@@ -5,5 +5,18 @@
 `Basic Concepts`:
 
 - A proposition is a declarative sentence like:
+
   - "It's raining" -> Can be true or false
   - "2 + 2 = 5" -> Clearly is false, but still a proposition
+
+- `Logical connectives` are used to build more complex propositions:
+
+  - ¬ (not): Negation
+
+  - ∧ (and): Conjunction
+
+  - ∨ (or): Disjunction
+
+  - → (if... then): Implication
+
+  - ↔ (if and only if): Biconditional
