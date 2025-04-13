@@ -88,3 +88,7 @@ If the UK down not leave the EU, then skill nurses will not leave the NHS and re
 - P → Q: False only when P is true and Q is false (i.e., a broken promise!)
 
 - P ↔ Q: True when P and Q have the same truth value
+
+---
+
+### Lesson 1.2 Tautology
