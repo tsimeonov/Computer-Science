@@ -19,7 +19,7 @@
 
   - → (if... then): Implication
 
-  - ↔ (if and only if): Biconditional
+  - ↔ (if and only if): Bi-conditional
 
 `What is a proposition?`
 
