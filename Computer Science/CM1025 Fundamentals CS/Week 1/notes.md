@@ -50,3 +50,18 @@ Q = I attend all the lectures
 - (P or Q) -> (R and S)
 - If (P or Q) then (R and S)
 - If "_I study 20 hrs a week_" or "_I attend all the lectures_", then "_I will pass the exam_" and "_I will be happy_"
+
+Example B:
+
+If the UK down not leave the EU, then skill nurses will not leave the NHS and research grants will remain intact.
+
+- Let's name the atomic propositions:
+  - P = UK leaves the EU,
+  - Q = Nurses leave NHS,
+  - S = Research grants will remain intact
+- Rewrite:
+  - **if** (not P) **then** (not Q and S)
+- Connectives:
+  - **if** (not P) **then** (not Q and S)
+  - **not** P -> (**not** Q and S)
+  - ¬P -> (¬Q **and** S)
