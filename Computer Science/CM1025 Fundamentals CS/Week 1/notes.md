@@ -105,3 +105,30 @@ Key ideas:
 
 - Tautology = Universal true statement
 - It's like logical "no-brainer" true by its form
+
+A `consistency` applies to set of statements. A set is consistent if there is at least one way (one truth assignment) in which all the statements can be true at the same time.
+
+Example:
+
+Set:
+
+- P → Q
+
+- P
+
+- Q
+
+This set is consistent because it's possible for all 3 to be true at once (if both P and Q are true).
+
+But this set would be inconsistent:
+
+- P
+
+- ¬P
+
+Because P and not P can’t be true at the same time.
+
+Key Idea:
+
+- Consistency = All statements can be true together
+- Inconsistency = Contradiction somewhere
