@@ -94,3 +94,14 @@ If the UK down not leave the EU, then skill nurses will not leave the NHS and re
 ---
 
 ### Lesson 1.2 Tautology
+
+A **tautology** is a single statement (or proposition) that is always true, no matter what truth values its components have.
+
+Example:
+
+- P v ¬P ("P or not P") -> Always true, no matter if P is true or false.
+
+Key ideas:
+
+- Tautology = Universal true statement
+- It's like logical "no-brainer" true by its form
