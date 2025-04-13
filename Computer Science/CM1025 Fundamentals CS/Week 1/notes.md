@@ -38,6 +38,8 @@
 
 `Examples:`
 
+Example A:
+
 P = I study 20 hrs a week
 S = I will be happy
 R = I will pass the exam
