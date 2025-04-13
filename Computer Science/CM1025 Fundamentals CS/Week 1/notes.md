@@ -65,3 +65,26 @@ If the UK down not leave the EU, then skill nurses will not leave the NHS and re
   - **if** (not P) **then** (not Q and S)
   - **not** P -> (**not** Q and S)
   - ¬P -> (¬Q **and** S)
+
+---
+
+**Truth tables**:
+
+|  P  |  Q  | ¬P  | P ∧ Q | P ∨ Q | P → Q | P ↔ Q |
+| :-: | :-: | :-: | :---: | :---: | :---: | :---: |
+|  T  |  T  |  F  |   T   |   T   |   T   |   T   |
+|  T  |  F  |  F  |   F   |   T   |   F   |   F   |
+|  F  |  T  |  T  |   F   |   T   |   T   |   F   |
+|  F  |  F  |  T  |   F   |   F   |   T   |   T   |
+
+📘 Explanation of Columns:
+
+- ¬P: True when P is false
+
+- P ∧ Q: True only when both P and Q are true
+
+- P ∨ Q: True if at least one of P or Q is true
+
+- P → Q: False only when P is true and Q is false (i.e., a broken promise!)
+
+- P ↔ Q: True when P and Q have the same truth value
