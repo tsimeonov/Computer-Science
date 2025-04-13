@@ -20,3 +20,12 @@
   - → (if... then): Implication
 
   - ↔ (if and only if): Biconditional
+
+`What is a proposition?`
+
+- Questions
+  - Cannot be assigned a truth value
+- Imperatives (essential or urgent thing)
+  - Does not take a truth value
+- Sentences dependent on variables
+  - The truth value changes with the variable
