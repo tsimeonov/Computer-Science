@@ -2,6 +2,8 @@
 
 `Propositional logic` (also known as sentential logic or statement logic) is a brach of logic that deals with `propositions` - statements that are either `true` or `false`, but not both.
 
+A proposition is a statement that is either true or false, but not both.
+
 ---
 
 `Basic Concepts`:
