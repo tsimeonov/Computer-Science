@@ -6,3 +6,11 @@
 Car: You drive using the steering wheel, pedals, and gear — but you don’t need to understand the engine mechanics.
 
 That’s abstraction!
+
+---
+
+**Notional Machines**
+
+A `notional machine` is a mental model or simplified conceptual understanding of how a computer or programming language executes code.
+
+It's not a real machine it's an idea or visualization used to help people understand what' happening behind the scenes when code runs.
