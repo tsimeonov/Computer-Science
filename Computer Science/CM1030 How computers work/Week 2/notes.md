@@ -11,3 +11,5 @@ State is a temporary configuration of a computer system that affects how it resp
 ### Lesson 2.2 Modularity and applications
 
 #### Modularity
+
+#### Applications
