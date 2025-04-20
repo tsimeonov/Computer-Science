@@ -13,3 +13,10 @@ State is a temporary configuration of a computer system that affects how it resp
 #### Modularity
 
 #### Applications
+
+#### Debugging
+
+- Understand the system
+- Look, don't think
+- Make it fail
+- Only change one thing at a time
