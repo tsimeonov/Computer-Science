@@ -3,3 +3,7 @@
 #### The deep secret of computer science
 
 _"Turn it off an turn it on again"_
+
+#### State
+
+State is a temporary configuration of a computer system that affects how it responds to interaction.
