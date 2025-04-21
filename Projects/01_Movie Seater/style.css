@@ -57,6 +57,7 @@ body {
   margin-right: 18px;
 }
 
+/* Target the nth element of its type from the end  */
 .seat:nth-last-of-type(2) {
   margin-right: 18px;
 }
