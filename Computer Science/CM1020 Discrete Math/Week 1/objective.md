@@ -39,3 +39,15 @@ The cardinality of a set is the number of elements in the set.
 ---
 
 ##### Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.
+
+<details>
+  <summary>What is Venn Diagram?</summary>
+
+  A Venn diagram is a visual way to reperesnt sets and their relationships using overlapping cicles.
+  Each circle represents a set, and the overlapping areas show where the sets share common elements (i.e interactions).
+  The universal set (everyting under consideration) is often shown as a rectangle containing all the circles.
+
+
+</details>
+
+---
