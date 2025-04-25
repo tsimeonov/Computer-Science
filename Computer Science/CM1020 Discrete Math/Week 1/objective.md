@@ -13,3 +13,14 @@ These objects are called elements or members of the set.
 </details>
 
 ---
+
+<details>
+  <summary>Elements of a set</summary>
+  
+The elements of a set are the individual objects or memebers contained in the set.
+  - If an element a belongs to set A, we write a ∈ A
+  - If it does not belong, we write a ∉ B
+
+</details>
+
+---
