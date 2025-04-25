@@ -37,3 +37,5 @@ The cardinality of a set is the number of elements in the set.
 </details>
 
 ---
+
+##### Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.
