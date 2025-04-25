@@ -24,3 +24,14 @@ The elements of a set are the individual objects or memebers contained in the se
 </details>
 
 ---
+
+<details>
+  <summary>Cardinality of a set</summary>
+  
+The cardinality of a set is the number of elements in the set.
+  - Denoted by vertical bars: |A|
+  - Example if A = {2,4,6}, then |A| = 3
+
+</details>
+
+---
