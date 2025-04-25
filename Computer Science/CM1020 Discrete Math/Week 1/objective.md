@@ -2,6 +2,8 @@
 
 #### Topic 1: SETS 
 
+##### Define a set, the elements of a set and the cardinality of a set.
+
 <details>
   <summary>Define a set</summary>
   
