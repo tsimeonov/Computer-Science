@@ -65,3 +65,8 @@ The universal set (everything under consideration) is often shown as a rectangle
 
 - Includes elements `common` to both A and B
 - Represented by the `overlapping` area of the circles
+
+3. `Difference` (A -- B `or` A \ B)
+
+- Elements in A that are not in B
+- Represented by the part of A's circle that `doesn't overlap` with B
