@@ -54,7 +54,8 @@ The universal set (everything under consideration) is often shown as a rectangle
 
 ---
 
-##### How Venn diagrams represent set expressions:
+<details>
+  <summary>How Venn diagrams represent set expressions:</summary>
 
 1. `Union` (A ∪ B)
 
@@ -75,5 +76,7 @@ The universal set (everything under consideration) is often shown as a rectangle
 
 - All elements not in A, relative to the `universal set`
 - Represented by the area outside A's circle, inside the rectangle
+
+</details>
 
 ---
