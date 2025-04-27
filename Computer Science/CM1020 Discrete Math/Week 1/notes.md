@@ -1,4 +1,4 @@
-### The definition of a set
+E### The definition of a set
 
 #### Definition of a set
 
@@ -17,7 +17,7 @@ For example the set A containing elements 1, 2 and 3 can be written as A = {1,2,
 
 1. Listing Method (Roster method)
 
-- You list all the elements if a set explicitly separated by commas, and place them inside curly braces {}
+- You list all the elements of a set explicitly separated by commas, and place them inside curly braces {}
 - This method shows exactly which elements are in the set
 
 Example:
@@ -25,3 +25,14 @@ Example:
 A = {2,4,6,8}
 
 - Set A contains exactly 2,4,6 and 8
+
+2. Rule of inclusion (Set-Builder Method)
+
+- You describe the property or rule that all elements of the set satisfy, instead if listing them individually.
+- Usually written using a vertical bar | or colon : meaning "such that".
+
+Example:
+
+A = {x ∈ N | x is an even x < 10}
+
+- This says "A is the set of all natural numbers x such that x is even and less than 10"
