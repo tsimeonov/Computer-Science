@@ -80,3 +80,24 @@ The universal set (everything under consideration) is often shown as a rectangle
 </details>
 
 ---
+
+##### Venn Diagram Example
+
+Say we have:
+
+- A = {1,2,3}
+- B = {3,4,5}
+
+Then:
+
+- A ∪ B = {1,2,3,4,5} → All elements in either circle
+- A ∩ B = {3} → Just the overlapping part
+- A − B = {1,2} → Only in A, not in B
+
+A Venn diagram would have two overlapping circles labeled A and B:
+
+- Numbers 1 and 2 in only A's part
+
+- 4 and 5 in only B's part
+
+- 3 in the overlapping part
