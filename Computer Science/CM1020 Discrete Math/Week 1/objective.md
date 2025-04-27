@@ -70,3 +70,10 @@ The universal set (everything under consideration) is often shown as a rectangle
 
 - Elements in A that are not in B
 - Represented by the part of A's circle that `doesn't overlap` with B
+
+4. `Complement` (A')
+
+- All elements not in A, relative to the `universal set`
+- Represented by the area outside A's circle, inside the rectangle
+
+---
