@@ -60,3 +60,8 @@ The universal set (everything under consideration) is often shown as a rectangle
 
 - Includes `all elements` in `A`, `B` or `both`
 - Represented by the `total area` covered by both circles
+
+2. `Intersection` ( A ∩ B)
+
+- Includes elements `common` to both A and B
+- Represented by the `overlapping` area of the circles
