@@ -15,7 +15,7 @@ For example the set A containing elements 1, 2 and 3 can be written as A = {1,2,
 
 #### The listing method and rule of inclusion
 
-1. Listing Method (Roster method)
+1. `Listing Method (Roster method)`
 
 - You list all the elements of a set explicitly separated by commas, and place them inside curly braces {}
 - This method shows exactly which elements are in the set
@@ -26,7 +26,7 @@ A = {2,4,6,8}
 
 - Set A contains exactly 2,4,6 and 8
 
-2. Rule of inclusion (Set-Builder Method)
+2. `Rule of inclusion (Set-Builder Method)`
 
 - You describe the property or rule that all elements of the set satisfy, instead if listing them individually.
 - Usually written using a vertical bar | or colon : meaning "such that".
