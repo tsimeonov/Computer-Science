@@ -53,3 +53,10 @@ The universal set (everything under consideration) is often shown as a rectangle
 </details>
 
 ---
+
+##### How Venn diagrams represent set expressions:
+
+1. `Union` (A ∪ B)
+
+- Includes `all elements` in `A`, `B` or `both`
+- Represented by the `total area` covered by both circles
