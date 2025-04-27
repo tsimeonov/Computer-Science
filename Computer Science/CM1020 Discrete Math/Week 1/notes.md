@@ -10,3 +10,18 @@ A set is a collection of objects. The objects in a set are called its elements o
 
 Sets are usually denoted by capital letters and their elements are listed with curly braces.
 For example the set A containing elements 1, 2 and 3 can be written as A = {1,2,3....}
+
+---
+
+#### The listing method and rule of inclusion
+
+1. Listing Method (Roster method)
+
+- You list all the elements if a set explicitly separated by commas, and place them inside curly braces {}
+- This method shows exactly which elements are in the set
+
+Example:
+
+A = {2,4,6,8}
+
+- Set A contains exactly 2,4,6 and 8
