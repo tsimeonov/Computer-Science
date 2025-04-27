@@ -28,7 +28,7 @@ A = {2,4,6,8}
 
 2. `Rule of inclusion (Set-Builder Method)`
 
-- You describe the property or rule that all elements of the set satisfy, instead if listing them individually.
+- You describe the property or rule that all elements of the set satisfy, instead of listing them individually.
 - Usually written using a vertical bar | or colon : meaning "such that".
 
 Example:
