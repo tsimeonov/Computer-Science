@@ -36,3 +36,22 @@ Example:
 A = {x ∈ N | x is an even x < 10}
 
 - This says "A is the set of all natural numbers x such that x is even and less than 10"
+
+#### The powerset of a set
+
+`What is a Power Set?`
+
+- The `power set` of set S is the set of all possible subsets of S, including
+  - The empty set ∅ (null sign)
+  - the set S itself
+- The power set is usually denoted by P(S)
+
+`Example:`
+
+Lets' say:
+
+S = {a,b}
+
+Then the power set P(S) is
+
+P(S) = {∅,{a},{b},{ab}}
