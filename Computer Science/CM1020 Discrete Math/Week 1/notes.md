@@ -85,3 +85,10 @@ A ∪ B = {1,2,3,4,5}
 Example:
 
 A ∩ B = {3}
+
+3. `Difference (A - B or A \ B)`
+
+- The elements that are in A but not in B
+
+A - B = {1,2}
+(And B - A = {4,5} )
