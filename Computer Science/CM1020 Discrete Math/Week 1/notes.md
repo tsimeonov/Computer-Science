@@ -55,3 +55,15 @@ S = {a,b}
 Then the power set P(S) is
 
 P(S) = {∅,{a},{b},{ab}}
+
+`Quick example with three elements`
+
+If:
+
+S = {1,2,3}
+
+then:
+
+P (S) = {∅,{1},{2},{3},{1,2},{1.3},{2,3},{1,2,3}}
+
+Power set has 2^3^ = 8 subsets
