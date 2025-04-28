@@ -77,3 +77,11 @@ Power set has 2^3^ = 8 subsets
 
 A = {1,2,3}, B = {3,4,5}
 A ∪ B = {1,2,3,4,5}
+
+2. `Intersection (A ∩ B)`
+
+- The set of elements that are common to both A and B
+
+Example:
+
+A ∩ B = {3}
