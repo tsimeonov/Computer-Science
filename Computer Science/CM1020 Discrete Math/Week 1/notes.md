@@ -67,3 +67,13 @@ then:
 P (S) = {∅,{1},{2},{3},{1,2},{1.3},{2,3},{1,2,3}}
 
 Power set has 2^3^ = 8 subsets
+
+#### Set Operations
+
+1. `Union (A ∪ B)`
+
+- Combines all elements from both sets A and B
+- No duplicates
+
+A = {1,2,3}, B = {3,4,5}
+A ∪ B = {1,2,3,4,5}
