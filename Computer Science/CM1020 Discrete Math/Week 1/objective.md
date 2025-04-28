@@ -101,3 +101,75 @@ A Venn diagram would have two overlapping circles labeled A and B:
 - 4 and 5 in only B's part
 
 - 3 in the overlapping part
+
+---
+
+##### Describe and prove De Morgan's law using membership tables.
+
+Of course! Let’s walk through **De Morgan's laws**, and **prove them using membership tables** (also called truth tables for sets).
+
+📚 **De Morgan’s Laws for Sets**
+
+There are two important De Morgan’s laws:
+
+1. **First Law:**
+   \[
+   (A \cup B)' = A' \cap B'
+   \]
+   "The complement of a union is the intersection of the complements."
+
+2. **Second Law:**
+   \[
+   (A \cap B)' = A' \cup B'
+   \]
+   "The complement of an intersection is the union of the complements."
+
+📋 **Proof using Membership Tables**
+
+Let’s build a table step-by-step.
+
+We will check every possible membership for an element \( x \) related to \( A \) and \( B \).
+
+| \(x \in A\) | \(x \in B\) | \(x \in A \cup B\) | \(x \in (A \cup B)'\) | \(x \in A'\) | \(x \in B'\) | \(x \in A' \cap B'\) | \(x \in A \cap B\) | \(x \in (A \cap B)'\) | \(x \in A' \cup B'\) |
+| :---------: | :---------: | :----------------: | :-------------------: | :----------: | :----------: | :------------------: | :----------------: | :-------------------: | :------------------: |
+|      0      |      0      |         0          |           1           |      1       |      1       |          1           |         0          |           1           |          1           |
+|      0      |      1      |         1          |           0           |      1       |      0       |          0           |         0          |           1           |          1           |
+|      1      |      0      |         1          |           0           |      0       |      1       |          0           |         0          |           1           |          1           |
+|      1      |      1      |         1          |           0           |      0       |      0       |          0           |         1          |           0           |          0           |
+
+(Where **1** means "yes (element belongs)", and **0** means "no (element does not belong)".)
+
+🔎 **Analysis:**
+
+For the First Law:
+
+- Compare column \( (A \cup B)' \) and \( A' \cap B' \):
+  - They are the **same** for every case!
+
+Thus:
+
+\[
+(A \cup B)' = A' \cap B'
+\]
+✅ **First Law is proven!**
+
+For the Second Law:
+
+- Compare column \( (A \cap B)' \) and \( A' \cup B' \):
+  - They are also **the same** for every case!
+
+Thus:
+
+\[
+(A \cap B)' = A' \cup B'
+\]
+✅ **Second Law is proven!**
+
+🎯 **Summary:**
+
+| De Morgan's Law                | Description                                                        |
+| :----------------------------- | :----------------------------------------------------------------- |
+| \( (A \cup B)' = A' \cap B' \) | The complement of the union is the intersection of the complements |
+| \( (A \cap B)' = A' \cup B' \) | The complement of the intersection is the union of the complements |
+
+---
