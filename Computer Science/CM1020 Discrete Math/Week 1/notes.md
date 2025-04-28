@@ -92,3 +92,9 @@ A ∩ B = {3}
 
 A - B = {1,2}
 (And B - A = {4,5} )
+
+4. `Complement (A')`
+
+- The set of elements that are in the universal set but not in A
+
+Example: if the universal set U = {1,2,3,4,5,6} and A = {1,2,3}, then A' = {4,5,6}
