@@ -98,3 +98,12 @@ A - B = {1,2}
 - The set of elements that are in the universal set but not in A
 
 Example: if the universal set U = {1,2,3,4,5,6} and A = {1,2,3}, then A' = {4,5,6}
+
+`Quick Summary table`
+
+|  Operation   | Symbol |                  Meaning                   |
+| :----------: | :----: | :----------------------------------------: |
+|    Union     |   ∪    |                Combine sets                |
+| Intersection |   ∩    |              Common elements               |
+|  Difference  |   −    |        In one set but not the other        |
+|  Complement  |   ′    | Not in the set (relative to universal set) |
