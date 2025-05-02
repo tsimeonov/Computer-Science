@@ -15,3 +15,7 @@
 3. Difference (A − B)
 - Elements in A but not in B.
 - Set notation: A − B = { x ∣ x ∈ A and x ∈ B}
+
+4. Symmetric Difference (A △ B)
+- Elements in A or B but not both.
+- Set notation: A △ B = ( A − B ) ∪ ( B − A )
