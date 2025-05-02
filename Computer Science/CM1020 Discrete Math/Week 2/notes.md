@@ -31,3 +31,5 @@ Then:
 - A ∩ B = {3, 4}
 - A − B = {1, 2}
 - A △ B = {1, 2, 5, 6}
+
+<img src="/venn diagram.png" >
