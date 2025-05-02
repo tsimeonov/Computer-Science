@@ -19,3 +19,14 @@
 4. Symmetric Difference (A △ B)
 - Elements in A or B but not both.
 - Set notation: A △ B = ( A − B ) ∪ ( B − A )
+
+Example:
+Let
+- A = {1, 2, 3, 4}
+- B = {3, 4, 5, 6}
+  
+Then:
+- A ∪ B = {1, 2, 3, 4, 5, 6}
+- A ∩ B = {3, 4}
+- A − B = {1, 2}
+- A △ B = {1, 2, 5, 6}
