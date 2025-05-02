@@ -32,4 +32,4 @@ Then:
 - A − B = {1, 2}
 - A △ B = {1, 2, 5, 6}
 
-<img src="/venn diagram.png" >
+<img src="./Computer Science/CM1020 Discrete Math/Week 2/venn diagram.png" >
