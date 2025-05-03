@@ -96,3 +96,9 @@ Let’s verify the first law with a truth table:
 #### Laws of sets: Commutative, associative and distributives
 
 In Discrete Mathematics, especially in `Set Theory`, the `Commutative`, `Associative`, and `Distributive` Laws help us understand how set operations behave. These laws are very similar to those in arithmetic and logic.
+
+🔷 1. Commutative Laws
+These state that the order of sets doesn't matter for union or intersection.
+
+- Union: A ∪ B = B ∪ A
+- Intersection:A ∩ B = B ∩ A
