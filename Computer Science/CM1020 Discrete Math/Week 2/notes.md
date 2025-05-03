@@ -108,3 +108,9 @@ These say that grouping of sets doesn't matter for union or intersection.
 
 - Union: ( A ∪ B ) ∪ C = A ∪ ( B ∪ C)
 - Intersection:( A ∩ B ) ∩ C = A ∩ ( B ∩ C)
+
+🔷 3. Distributive Laws
+These describe how union and intersection distribute over each other.
+
+- Intersection over Union: A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C)
+- Union over Intersection: A ∪ ( B ∩ C ) = ( A ∪ B ) ∩ ( A ∪ C )
