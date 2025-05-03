@@ -43,3 +43,5 @@ Then:
 ---
 
 #### De Morgan's laws
+
+In Discrete Mathematics, De Morgan's Laws play a crucial role in `logic`, `set theory`, and `Boolean algebra`. Here's how they are applied in those contexts:
