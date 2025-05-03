@@ -114,3 +114,14 @@ These describe how union and intersection distribute over each other.
 
 - Intersection over Union: A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C)
 - Union over Intersection: A ∪ ( B ∩ C ) = ( A ∪ B ) ∩ ( A ∪ C )
+
+📌 Summary Table (Markdown)
+
+|     Law      |           Expression            |
+| :----------: | :-----------------------------: |
+| Commutative  |          A ∪ B = B ∪ A          |
+|              |          A ∩ B = B ∩ A          |
+| Associative  |    (A ∪ B) ∪ C = A ∪ (B ∪ C)    |
+|              |    (A ∩ B) ∩ C = A ∩ (B ∩ C)    |
+| Distributive | A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) |
+|              | A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) |
