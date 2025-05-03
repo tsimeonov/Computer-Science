@@ -102,3 +102,9 @@ These state that the order of sets doesn't matter for union or intersection.
 
 - Union: A ∪ B = B ∪ A
 - Intersection:A ∩ B = B ∩ A
+
+🔷 2. Associative Laws
+These say that grouping of sets doesn't matter for union or intersection.
+
+- Union: ( A ∪ B ) ∪ C = A ∪ ( B ∪ C)
+- Intersection:( A ∩ B ) ∩ C = A ∩ ( B ∩ C)
