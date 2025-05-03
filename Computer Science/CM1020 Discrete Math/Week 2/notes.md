@@ -79,3 +79,14 @@ The complement of the intersection is the union of the complements.
 Second Law:
 
 (A ∪ B)^c^ = A^c^ ∩ B^c^
+
+🔷 3. Truth Table Verification Example (for logic):
+
+Let’s verify the first law with a truth table:
+
+|  P  |  Q  | P ∧ Q | ¬(P ∧ Q) | ¬P  | ¬Q  | ¬P ∨ ¬Q |
+| :-: | :-: | :---: | :------: | :-: | :-: | :-----: |
+|  T  |  T  |   T   |    F     |  F  |  F  |    F    |
+|  T  |  F  |   F   |    T     |  F  |  T  |    T    |
+|  F  |  T  |   F   |    T     |  T  |  F  |    T    |
+|  F  |  F  |   F   |    T     |  T  |  T  |    T    |
