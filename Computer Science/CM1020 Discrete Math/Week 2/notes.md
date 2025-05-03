@@ -39,3 +39,7 @@ Then:
 - A △ B = {1, 2, 5, 6}
 
 <img src="./venn diagram.png" width="500px" style="border-radius: 20px;" >
+
+---
+
+#### De Morgan's laws
