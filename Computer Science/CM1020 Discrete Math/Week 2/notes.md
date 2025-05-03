@@ -90,3 +90,7 @@ Let’s verify the first law with a truth table:
 |  T  |  F  |   F   |    T     |  F  |  T  |    T    |
 |  F  |  T  |   F   |    T     |  T  |  F  |    T    |
 |  F  |  F  |   F   |    T     |  T  |  T  |    T    |
+
+---
+
+#### Laws of sets: Commutative, associative and distributives
