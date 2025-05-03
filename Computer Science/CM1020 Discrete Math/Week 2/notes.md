@@ -64,4 +64,18 @@ De Morgan’s Laws:
 
 "Not (P or Q)" is logically equivalent to "Not P and Not Q".
 
-These are used in simplifying logical expressions and constructing truth tables.
+🔷 2. In Set Theory (another core part of discrete math):
+
+Let 𝐴 and B be sets in a universal set 𝑈.
+
+De Morgan’s Laws:
+
+- First Law:
+
+(A ∩ B)^c^ = A^c^ ∪ B^c^
+
+The complement of the intersection is the union of the complements.
+
+Second Law:
+
+(A ∪ B)^c^ = A^c^ ∩ B^c^
