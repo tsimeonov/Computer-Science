@@ -45,3 +45,23 @@ Then:
 #### De Morgan's laws
 
 In Discrete Mathematics, De Morgan's Laws play a crucial role in `logic`, `set theory`, and `Boolean algebra`. Here's how they are applied in those contexts:
+
+🔷 1. In Propositional Logic (used in discrete math for logical statements):
+
+Let 𝑃 and Q be propositions (statements that are either true or false).
+
+De Morgan’s Laws:
+
+- First Law:
+
+¬ ( P ∧ Q ) ≡ ( ¬ P ) ∨ ( ¬ Q )
+
+"Not (P and Q)" is logically equivalent to "Not P or Not Q".
+
+- Second Law:
+
+¬ ( P ∨ Q ) ≡ ( ¬ P ) ∧ ( ¬ Q )
+
+"Not (P or Q)" is logically equivalent to "Not P and Not Q".
+
+These are used in simplifying logical expressions and constructing truth tables.
