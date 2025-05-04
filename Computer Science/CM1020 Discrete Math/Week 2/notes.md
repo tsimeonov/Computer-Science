@@ -125,3 +125,7 @@ These describe how union and intersection distribute over each other.
 |              |    (A ∩ B) ∩ C = A ∩ (B ∩ C)    |
 | Distributive | A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) |
 |              | A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C) |
+
+---
+
+#### Partition of a set
