@@ -130,11 +130,11 @@ These describe how union and intersection distribute over each other.
 
 #### Partition of a set
 
-🔷 Partition of a Set (in Discrete Mathematics)
+🔷 `Partition of a Set (in Discrete Mathematics)`
 
 A partition of a set is a way of breaking it into non-overlapping, non-empty subsets such that every element belongs to exactly one subset.
 
-✅ Definition:
+✅ `Definition`:
 
 Let 𝑆 be a set. A partition of S is a collection of subsets {𝐴~1~ ,𝐴~2~ , ... , 𝐴~n~} such that:
 
@@ -150,7 +150,7 @@ A~i~ ∩ A~j~ = ∅ for all i ≠ j
 
 A~1~ ∪ A~2~ ∪ ... ∪ A~n~ = S
 
-🧠 Example:
+🧠 `Example`:
 
 Let S = { 1 ,2 , 3 , 4 , 5 , 6 }
 
@@ -161,3 +161,5 @@ A possible partition of 𝑆 is:
 - Each subset is non-empty.
 - They are disjoint.
 - Their union is equal to the original set.
+
+---
