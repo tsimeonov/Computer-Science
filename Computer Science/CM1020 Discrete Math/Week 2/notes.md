@@ -149,3 +149,15 @@ A~i~ ∩ A~j~ = ∅ for all i ≠ j
 3. Cover the whole set:
 
 A~1~ ∪ A~2~ ∪ ... ∪ A~n~ = S
+
+🧠 Example:
+
+Let S = { 1 ,2 , 3 , 4 , 5 , 6 }
+
+A possible partition of 𝑆 is:
+
+{{1,2},{3,4},{5,6}}
+
+- Each subset is non-empty.
+- They are disjoint.
+- Their union is equal to the original set.
