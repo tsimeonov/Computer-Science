@@ -1,4 +1,6 @@
-E### The definition of a set
+### Introduction to the course
+
+### The definition of a set
 
 #### Definition of a set
 
