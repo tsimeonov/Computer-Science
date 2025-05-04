@@ -1,5 +1,9 @@
 ### Introduction to the course
 
+#### Introduction to discrete mathematics
+
+Discrete Mathematics is the branch of mathematics that deals with `countable`, `distinct`, and `separate objects`, unlike continuous mathematics (like calculus). It forms the theoretical foundation for many areas in computer science, logic, cryptography, and combinatorics.
+
 ### The definition of a set
 
 #### Definition of a set
