@@ -62,7 +62,7 @@ Function table
 |  3  |  11  |
 |  4  |  14  |
 
-<img scr="/linear decreasing function.png" >
+<img src="./linear increasing graph.png" width="400px" style="border-radius: 20px;" >
 
 2. Decreasing linear function
 
@@ -84,7 +84,7 @@ Function table
 |  3  |  -7  |
 |  4  | -10  |
 
-<img scr="" />
+<img src="./linear decreasing function.png" width="400px" style="border-radius: 20px;" >
 
 ##### Quadratic functions
 
