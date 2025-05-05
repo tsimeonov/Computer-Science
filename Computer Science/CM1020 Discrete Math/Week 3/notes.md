@@ -48,7 +48,7 @@ f: R -> R with f(x) = ax + b
 
 If a > 0 then the function is increasing
 
-That is: if x~1~ ≤ x~2~ then f(~2~) ≤ f(x~2~)
+That is: if x~1~ ≤ x~2~ then f(~1~) ≤ f(x~2~)
 
 Example: f(x) = 3x + 2
 
@@ -63,3 +63,25 @@ Function table
 |  4  |  14  |
 
 <img scr="./" />
+
+2. Decreasing linear function
+
+f: R -> R with f(x) = ax + b
+
+if a < 0 then the function is decreasing
+
+That is if x~1~ ≤ x~2~ then f(~1~) ≥ f(x~2~)
+
+Example: f(x) = -3x + 2
+
+Function table
+
+|  x  | f(x) |
+| :-: | :--: |
+|  0  |  2   |
+|  1  |  -1  |
+|  2  |  -4  |
+|  3  |  -7  |
+|  4  | -10  |
+
+<img scr="" />
