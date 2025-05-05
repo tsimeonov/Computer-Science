@@ -41,3 +41,25 @@ f(x) = ax + b
 - Straight line function
 - passes through the point (0,b)
 - a is the gradient
+
+1. Increasing linear function
+
+f: R -> R with f(x) = ax + b
+
+If a > 0 then the function is increasing
+
+That is: if x~1~ ≤ x~2~ then f(~2~) ≤ f(x~2~)
+
+Example: f(x) = 3x + 2
+
+Function table
+
+|  x  | f(x) |
+| :-: | :--: |
+|  0  |  2   |
+|  1  |  5   |
+|  2  |  8   |
+|  3  |  11  |
+|  4  |  14  |
+
+<img scr="./" />
