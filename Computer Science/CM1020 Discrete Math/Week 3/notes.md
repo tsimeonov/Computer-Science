@@ -1,5 +1,7 @@
 ### Topic 2 A. Function
 
+---
+
 #### The definition of a function
 
 📘 `Definition of a Function (in Discrete Mathematics)`
@@ -27,3 +29,5 @@ A function 𝑓 : 𝐴 → 𝐵 could be:
 𝑓 ( 1 ) = 𝑎 , 𝑓 ( 2 ) = 𝑏 , 𝑓 ( 3 ) = 𝑎
 
 ✅ Valid function — each element in A maps to exactly one element in B
+
+---
