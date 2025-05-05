@@ -19,3 +19,11 @@ is a rule that assigns exactly one element 𝑓 ( 𝑎 ) ∈ 𝐵 to each elemen
 - Domain: The set of all input values (A).
 - Codomain: The set of possible output values (B).
 - Range: The set of actual output values { 𝑓 ( 𝑎) ∣ 𝑎 ∈ 𝐴 }, a subset of the codomain.
+
+🧠 `Example`:
+Let A = { 1 , 2 , 3 } and B = { a , b , c }
+
+A function 𝑓 : 𝐴 → 𝐵 could be:
+𝑓 ( 1 ) = 𝑎 , 𝑓 ( 2 ) = 𝑏 , 𝑓 ( 3 ) = 𝑎
+
+✅ Valid function — each element in A maps to exactly one element in B
