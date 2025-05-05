@@ -62,7 +62,7 @@ Function table
 |  3  |  11  |
 |  4  |  14  |
 
-<img scr="./" />
+<img scr="/linear decreasing function.png" >
 
 2. Decreasing linear function
 
@@ -85,3 +85,9 @@ Function table
 |  4  | -10  |
 
 <img scr="" />
+
+##### Quadratic functions
+
+f (x) = ax^2^ + bx + c
+
+Where a, b and c are numbers with a ≠ 0
