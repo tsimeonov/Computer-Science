@@ -31,3 +31,13 @@ A function 𝑓 : 𝐴 → 𝐵 could be:
 ✅ Valid function — each element in A maps to exactly one element in B
 
 ---
+
+#### Plotting functions
+
+##### Linear Function
+
+f(x) = ax + b
+
+- Straight line function
+- passes through the point (0,b)
+- a is the gradient
