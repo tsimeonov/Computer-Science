@@ -53,6 +53,21 @@ We designate these notations for some special sets of numbers:
 - Q = the set of rational numbers
 - R = the set of real numbers
 
+##### Cardinality of a set
+
+The cardinality of a set refers to the number of elements in the set. It is a measure of the 'size' of the set.
+
+Definition ~ The cardinality of a set A is denoted by ∣A∣, is the number of distinct elements in
+A.
+
+For example:
+
+For the set A = {1, 2 , 3 , 4 } A, the cardinality |A| = 4
+For the set B = { a , b , c }, the cardinality ∣B∣ = 3.
+
+For the empty set, ∅ the cardinality |∅| = 0
+∣∅∣=0vertical bar, \emptyset, vertical bar, equals, 0.
+
 ##### Empty set (∅)
 
 The empty set, also known as the `null set`, is a fundamental concept in set theory and mathematics.
