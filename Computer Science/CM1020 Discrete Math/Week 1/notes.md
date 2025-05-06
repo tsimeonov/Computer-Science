@@ -25,6 +25,8 @@ A set is a collection of objects. The objects in a set are called its elements o
 Sets are usually denoted by capital letters and their elements are listed with curly braces.
 For example the set A containing elements 1, 2 and 3 can be written as A = {1,2,3....}
 
+##### Element or member of set (∈)
+
 ---
 
 #### The listing method and rule of inclusion
