@@ -53,6 +53,14 @@ We designate these notations for some special sets of numbers:
 - Q = the set of rational numbers
 - R = the set of real numbers
 
+##### Empty set (∅)
+
+The empty set, also known as the `null set`, is a fundamental concept in set theory and mathematics.
+It is the set that contains no elements.
+
+Definition ~ The empty set is a set with no elements. It is denoted by ∅ or{ }
+In mathematical notation ∅ = {}
+
 ---
 
 #### The listing method and rule of inclusion
