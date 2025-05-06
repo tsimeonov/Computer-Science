@@ -27,6 +27,23 @@ For example the set A containing elements 1, 2 and 3 can be written as A = {1,2,
 
 ##### Element or member of set (∈)
 
+The symbol ∈ denotes membership. If a is an element of a set A, we write a ∈ A
+
+For example:
+
+The set A = { 1 ,2 ,3} is a set containing the elements 1,2 and 3
+
+We write:
+
+1 ∈ A means 1 is an element of A,
+2 ∈ A means 2 is an element of A and,
+3 ∈ A means 3 is an element of A.
+
+We refer to not a member of a set using the symbol ∉. If a is not an element of a set A, we write a ∉ A.
+
+For example: let A be a set with A = {1,2,3}. Clearly 4 is not an element of A.
+We write 4 ∉ A.
+
 ---
 
 #### The listing method and rule of inclusion
