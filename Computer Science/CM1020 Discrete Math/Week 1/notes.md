@@ -65,8 +65,7 @@ For example:
 For the set A = {1, 2 , 3 , 4 } A, the cardinality |A| = 4
 For the set B = { a , b , c }, the cardinality ∣B∣ = 3.
 
-For the empty set, ∅ the cardinality |∅| = 0
-∣∅∣=0vertical bar, \emptyset, vertical bar, equals, 0.
+For the empty set, ∅ the cardinality |∅| = 0S
 
 ##### Empty set (∅)
 
@@ -75,6 +74,14 @@ It is the set that contains no elements.
 
 Definition ~ The empty set is a set with no elements. It is denoted by ∅ or{ }
 In mathematical notation ∅ = {}
+
+##### Finite and Infinite sets
+
+`Finite set`: A set with a limited number of elements
+Example: {2,4,6}
+
+`Infinite set`: A set with an unlimited number of elements:
+Example: The set of natural numbers N = {1,2,3 ...}
 
 ---
 
