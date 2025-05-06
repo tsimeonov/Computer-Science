@@ -49,7 +49,7 @@ body {
 }
 
 .seat.occupied {
-  background-color: #fff;
+  background-color: lightcoral;
 }
 
 /* Target the second element of its type */
