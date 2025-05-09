@@ -33,3 +33,7 @@ Another is that criminals can try and hack computer systems. That means getting 
 
 ### Encryption
 
+#### What is encryption?
+
+Encryption is the process of converting readable data (called plaintext) into an unreadable format (ciphertext) so that only authorized users can access the original information.
+It protects sensitive data during storage or transmission, ensuring confidentiality, integrity, and security.
