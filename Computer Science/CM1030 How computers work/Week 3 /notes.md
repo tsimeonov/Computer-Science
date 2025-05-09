@@ -42,3 +42,16 @@ It protects sensitive data during storage or transmission, ensuring confidential
 1. Sender encrypts the data using an algorithm and a key.
 2. The encrypted data is sent or stored.
 3. Receiver decrypts it using the correct key.
+
+####  Types of Encryption
+1. Symmetric Encryption
+- Same key is used for encryption and decryption.
+- Fast, but key must be shared securely.
+Example: AES (Advanced Encryption Standard)
+
+2. Asymmetric Encryption
+- Uses a public key to encrypt and a private key to decrypt.
+- More secure for communication over untrusted networks.
+Example: RSA
+
+-----
