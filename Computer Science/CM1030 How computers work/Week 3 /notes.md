@@ -22,3 +22,9 @@ A computer network id a group of connected computers and other devices (like pri
 ----
 
 ### Security
+
+A virus is a piece of software that copies itself from one computer to another without your knowledge, and is normally aimed at damaging your computer in some way. This could mean that it slows it down, or interferes in other ways with the working of your operating system, or it could perform specifically harmful actions like stealing your data, or hacking other machines on your network. 
+One example of this is spyware, which records what you do on a computer and sends the information to a third party. 
+
+Malicious software can also take the form of a Trojan horse which appears to be legitimate software, but performs harmful actions in secret. 
+Another is that criminals can try and hack computer systems. That means getting access to a system that they would not normally have access to, so they can steal data. Hackers normally do this to web servers or other Internet servers that can contain lots of data rather than hacking anyone's individual computer. One way hackers do this is through a phishing attack. This is where people are fooled into giving away important data like passwords or bank details. This normally happens through a plausible looking email or website that looks like it's from your bank or similar site, but is actually controlled by criminals. 
