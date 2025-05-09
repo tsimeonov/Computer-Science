@@ -28,3 +28,8 @@ One example of this is spyware, which records what you do on a computer and send
 
 Malicious software can also take the form of a Trojan horse which appears to be legitimate software, but performs harmful actions in secret. 
 Another is that criminals can try and hack computer systems. That means getting access to a system that they would not normally have access to, so they can steal data. Hackers normally do this to web servers or other Internet servers that can contain lots of data rather than hacking anyone's individual computer. One way hackers do this is through a phishing attack. This is where people are fooled into giving away important data like passwords or bank details. This normally happens through a plausible looking email or website that looks like it's from your bank or similar site, but is actually controlled by criminals. 
+
+---- 
+
+### Encryption
+
