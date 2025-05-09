@@ -18,3 +18,7 @@ A computer network id a group of connected computers and other devices (like pri
 - Switch – Connects devices in a local network and directs traffic.
 - Server – Provides data or services (like a website or file storage).
 - Client – A device that uses the network (like your laptop or phone).
+
+----
+
+### Security
