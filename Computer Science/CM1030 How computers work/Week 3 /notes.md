@@ -37,3 +37,8 @@ Another is that criminals can try and hack computer systems. That means getting 
 
 Encryption is the process of converting readable data (called plaintext) into an unreadable format (ciphertext) so that only authorized users can access the original information.
 It protects sensitive data during storage or transmission, ensuring confidentiality, integrity, and security.
+
+####  How It Works (Simplified)
+1. Sender encrypts the data using an algorithm and a key.
+2. The encrypted data is sent or stored.
+3. Receiver decrypts it using the correct key.
