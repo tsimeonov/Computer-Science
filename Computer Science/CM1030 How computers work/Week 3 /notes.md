@@ -13,7 +13,7 @@ A computer network id a group of connected computers and other devices (like pri
 |MAN|Metropolian Area Network - city wide network|City hospital systems|
 |PAN|Personal Area Network - very small, personal use|Bluethooth between phone & tablet|
 
-####Key Components
+#### Key Components
 - Router – Connects different networks, like your home to the internet.
 - Switch – Connects devices in a local network and directs traffic.
 - Server – Provides data or services (like a website or file storage).
