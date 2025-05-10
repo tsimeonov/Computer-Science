@@ -17,4 +17,10 @@
 
 - `Consistent` - a formula that is `true at least for one` scenario
 - Example p∧q // "_p and q_"
--
+- All the connectives are consistent
+- Not consistent or inconsistent is a formula that is never true
+- p ∧ ¬ p // "_p and not p_"
+- (p V ¬ p) -> (p ∧ ¬ p) // "_p or not p then p and not p_"
+- It's also called `Contradiction`
+
+---
