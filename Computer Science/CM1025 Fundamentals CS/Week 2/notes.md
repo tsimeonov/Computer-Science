@@ -24,3 +24,14 @@
 - It's also called `Contradiction`
 
 ---
+
+(¬ p ∧ q) ⟺ (p V ¬ q) // "_not p and q if and only if p or not q_"
+
+|   p   |   q   |  ¬p   |  ¬q   | ¬p ∧ q | p ∨ ¬q | (¬p ∧ q) ⟺ (p ∨ ¬q) |
+| :---: | :---: | :---: | :---: | :----: | :----: | :-----------------: |
+| false | false | true  | true  | false  |  true  |        false        |
+| false | true  | true  | false |  true  | false  |        false        |
+| true  | false | false | true  | false  |  true  |        false        |
+| true  | true  | false | false | false  |  true  |        false        |
+
+---
