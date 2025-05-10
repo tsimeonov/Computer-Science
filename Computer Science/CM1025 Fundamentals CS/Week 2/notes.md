@@ -1,6 +1,6 @@
 ### Lesson 1.2 Tautology
 
-- A formula that is `always true`
+- Tautology - a formula that is `always true`
 - Example: p V ¬ p (p or not p)
   - (p∧q) -> p // "If p and q are true, then p is true"
   - (p∧q) -> q // "If p and q are true, then q is true"
