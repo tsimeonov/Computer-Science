@@ -101,3 +101,14 @@ Example 2:
 - q -> q
 
 `It's tautology`
+
+Example 3:
+
+- (q ∧ (p ∧ ¬p)) -> [(q ∧ ¬q) -> (¬p ∧ p)]
+- (q ∧ (p ∧ ¬p)) -> [(q ∧ ¬q) -> False]
+- (q ∧ (p ∧ ¬p)) -> [False -> False]
+- (q ∧ (p ∧ ¬p)) -> True
+- (q ∧ False) -> True
+- False -> True
+
+`It's tautology`
