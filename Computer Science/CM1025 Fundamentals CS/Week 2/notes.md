@@ -88,8 +88,16 @@ Tautology and consistency - examples
 
 Example 1:
 
-- p -> (q ∨ (p ∧¬p))
+- p -> (q ∨ (p ∧ ¬p))
 - p -> (q ∨ False)
 - p -> q
 
-It's consistent
+`It's consistent`
+
+Example 2:
+
+- (q ∧ (p ∨ ¬p)) -> q
+- (q ∧ True) -> q
+- q -> q
+
+`It's tautology`
