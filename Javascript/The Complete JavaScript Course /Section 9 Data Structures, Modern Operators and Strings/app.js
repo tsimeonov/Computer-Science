@@ -46,33 +46,3 @@ const restaurant = {
     console.log(`Here is your delicious pasta with ${ing1}, ${ing2}, ${ing3}`);
   },
 };
-
-const rest = new Map();
-
-rest.set("name", "Classico Italiano");
-rest.set(1, "Firenze", "Italy");
-rest.set(2, "Lisbon", "portugal");
-console.log(rest.set(2, "Lisbon", "portugal"));
-
-// rest
-//   .set("categories", ["Italian", "Pizzeria", "Vegetarian", "Organic"])
-//   .set("open", 11)
-//   .set("close", 23)
-//   .set(true, "we are open")
-//   .set(false, "we are closed");
-
-// console.log(rest.get("name"));
-// console.log(rest.get(true));
-
-rest
-  .set("categories", ["Italian", "Pizzeria", "Vegetarian", "Organic"])
-  .set("open", 11)
-  .set("close", 23)
-  .set(true, "we are open")
-  .set(false, "we are close");
-
-console.log(rest.get("close"));
-
-const time = 21;
-
-console.log(rest.get(time > rest.get("open") && time < rest.get("close")));
