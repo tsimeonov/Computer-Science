@@ -3,7 +3,7 @@
 ---
 
 - `Tautology` - a formula that is `always true`
-- Example: p V ¬ p // "_p or not p_"
+- Example: p ∨ ¬ p // "_p or not p_"
   - (p∧q) -> p // "_If p and q are true, then p is true_"
   - (p∧q) -> q // "_If p and q are true, then q is true_"
 - Not a tautology
@@ -20,12 +20,12 @@
 - All the connectives are consistent
 - Not consistent or inconsistent is a formula that is never true
 - p ∧ ¬ p // "_p and not p_"
-- (p V ¬ p) -> (p ∧ ¬ p) // "_p or not p then p and not p_"
+- (p ∨ ¬ p) -> (p ∧ ¬ p) // "_p or not p then p and not p_"
 - It's also called `Contradiction`
 
 ---
 
-(¬ p ∧ q) ⟺ (p V ¬ q) // "_not p and q if and only if p or not q_"
+(¬ p ∧ q) ⟺ (p ∨ ¬ q) // "_not p and q if and only if p or not q_"
 
 |   p   |   q   |  ¬p   |  ¬q   | ¬p ∧ q | p ∨ ¬q | (¬p ∧ q) ⟺ (p ∨ ¬q) |
 | :---: | :---: | :---: | :---: | :----: | :----: | :-----------------: |
@@ -40,9 +40,17 @@ Tautology and Contradiction
 
 - Tautology: A formula that is `always true`
 
-  - Example: p V ¬ p // "_p or not p_"
-  - The same as p V ¬ p ≡ True
+  - Example: p ∨ ¬ p // "_p or not p_"
+  - The same as p ∨ ¬ p ≡ True
 
 - Contradiction: is a formula that is `always false`
   - Example: p ∧ ¬ p // "_p and not p_"
   - The same as p ∧ ¬ p ≡ False
+
+---
+
+Tautology? Consistent? Contradiction?
+
+- (p ∨ ¬p) ⟺ (p ∧ ¬p) // "_p or not p OR p and npt p_"
+  - p ∨ ¬ p ≡ True
+  - p ∧ ¬ p ≡ False
