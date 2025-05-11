@@ -80,3 +80,16 @@ Some useful relations?
 - Tautology ∧ contradiction ≡ contradiction
 - Contradiction -> Tautology ≡ Tautology
 - Contradiction -> consistent ≡ Tautology
+
+---
+
+Tautology and consistency - examples
+(without using truth tables)
+
+Example 1:
+
+- p -> (q ∨ (p ∧¬p))
+- p -> (q ∨ False)
+- p -> q
+
+It's consistent
