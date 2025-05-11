@@ -51,6 +51,18 @@ Tautology and Contradiction
 
 Tautology? Consistent? Contradiction?
 
+Example 1:
+
 - (p ∨ ¬p) ⟺ (p ∧ ¬p) // "_p or not p OR p and npt p_"
   - p ∨ ¬ p ≡ True
   - p ∧ ¬ p ≡ False
+
+(p ∨ ¬p) ⟺ (p ∧ ¬p) ≡ True ∨ False ≡ `True`
+
+Example 2:
+
+- (p -> p) ∨ (q ∧ r)
+  - p -> p ≡ `True`
+  - q ∧ r ≡ consistent
+  - `True` ∨ ≡ consistent ≡ `True`
+- So, (p -> p) ∨ (q ∧ r) `is a tautology`
