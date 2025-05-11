@@ -66,3 +66,17 @@ Example 2:
   - q ∧ r ≡ consistent
   - `True` ∨ ≡ consistent ≡ `True`
 - So, (p -> p) ∨ (q ∧ r) `is a tautology`
+
+---
+
+Some useful relations?
+
+- Tautology ∨ consistent ≡ Tautology
+- Tautology ∧ consistent ≡ consistent
+- Tautology ∨ contradiction ≡ Tautology
+- Tautology ∨ contradiction ≡ contradiction
+- Contradiction ∧ consistent ≡ Tautology
+- Contradiction ∨ consistent ≡ contradiction
+- Tautology ∧ contradiction ≡ contradiction
+- Contradiction -> Tautology ≡ Tautology
+- Contradiction -> consistent ≡ Tautology
