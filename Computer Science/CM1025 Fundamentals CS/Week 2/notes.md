@@ -35,3 +35,14 @@
 | true  | true  | false | false | false  |  true  |        false        |
 
 ---
+
+Tautology and Contradiction
+
+- Tautology: A formula that is `always true`
+
+  - Example: p V ¬ p // "_p or not p_"
+  - The same as p V ¬ p ≡ True
+
+- Contradiction: is a formula that is `always false`
+  - Example: p ∧ ¬ p // "_p and not p_"
+  - The same as p ∧ ¬ p ≡ False
