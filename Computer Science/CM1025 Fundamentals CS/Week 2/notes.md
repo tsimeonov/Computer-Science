@@ -8,3 +8,14 @@ Propositional Equivalences
 - Note that `≡` is not a connective
 
 ---
+
+De Morgan's laws
+
+De Morgan’s Laws describe how negation interacts with conjunction (∧) and disjunction (∨).
+They are fundamental in propositional logic, Boolean algebra, and digital circuit design.
+
+The Two Laws:
+
+¬(P ∧ Q) ≡ (¬P ∨ ¬Q)
+
+"Not (P and Q)" is equivalent to "Not P or Not Q"
