@@ -16,10 +16,10 @@ They are fundamental in propositional logic, Boolean algebra, and digital circui
 
 The Two Laws:
 
-¬(P ∧ Q) ≡ (¬P ∨ ¬Q)
+`¬(P ∧ Q) ≡ (¬P ∨ ¬Q)`
 
 "Not (P and Q)" is equivalent to "Not P or Not Q"
 
-¬(P ∨ Q) ≡ (¬P ∧ ¬Q)
+`¬(P ∨ Q) ≡ (¬P ∧ ¬Q)`
 
 "Not (P or Q)" is equivalent to "Not P and Not Q"
