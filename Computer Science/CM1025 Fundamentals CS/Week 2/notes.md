@@ -66,3 +66,26 @@ Important equivalence
 - **So, (p → q) ≡ ¬(p ∧ ¬q)**
 
 ----
+
+Another Equivalence: Conrapositive
+
+- **p → q ≡ ¬q → ¬p** If p implies q, then not q implies not p — both mean the same thing.
+
+- *Why is it true?*
+
+1. Start with the basic implication equivalence:  
+   **p → q ≡ ¬p ∨ q**
+
+2. Now rewrite **¬p ∨ q** using commutativity:  
+   **¬p ∨ q ≡ q ∨ ¬p**
+
+3. Use implication identity again:  
+   **q ∨ ¬p ≡ ¬q → ¬p**
+
+- So, **p → q ≡ ¬q → ¬p**
+
+
+
+
+
+
