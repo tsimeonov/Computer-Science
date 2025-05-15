@@ -42,14 +42,6 @@ Here's your truth table correctly formatted in **Markdown**:
 | 0 | 1 |   1   |    0     |  1 |  0 |    0     |
 | 0 | 0 |   0   |    1     |  1 |  1 |    1     |
 
-
-
-
-✅ You can paste this directly into any Markdown-compatible viewer or editor (like GitHub, Obsidian, or VS Code) to see the table nicely formatted.
-
-Would you like the second De Morgan’s law (`¬(P ∨ Q) ≡ (¬P ∧ ¬Q)`) in this format too?
-
-
 ---- 
 
 Example: negate the following
