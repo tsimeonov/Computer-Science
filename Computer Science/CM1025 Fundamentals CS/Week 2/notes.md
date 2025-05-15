@@ -32,6 +32,22 @@ The Two Laws:
 
 "Not (P or Q)" is equivalent to "Not P and Not Q"
 
+Here's your truth table correctly formatted in **Markdown**:
+
+|   P   |   Q   | P ∨ Q | ¬(P ∨ Q) |  ¬P   |  ¬Q   | ¬P ∧ ¬Q | ¬(P ∨ Q) ≡ (¬P ∧ ¬Q) |
+|:-----:|:-----:|:-----:|:--------:|:-----:|:-----:|:--------:|:------------------------:|
+| true  | true  | true  |  false   | false | false |  false   |          true            |
+| true  | false | true  |  false   | false | true  |  false   |          true            |
+| false | true  | true  |  false   | true  | false |  false   |          true            |
+| false | false | false |  true    | true  | true  |  true    |          true            |
+
+
+
+✅ You can paste this directly into any Markdown-compatible viewer or editor (like GitHub, Obsidian, or VS Code) to see the table nicely formatted.
+
+Would you like the second De Morgan’s law (`¬(P ∨ Q) ≡ (¬P ∧ ¬Q)`) in this format too?
+
+
 ---- 
 
 Example: negate the following
