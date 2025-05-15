@@ -52,3 +52,17 @@ Example: negate the following
 - It is NOT Wednesday or it is sunny
 
 ----
+
+Important equivalence
+
+- **(p → q) ≡ (¬p ∨ q)**
+
+- *Can you write the right-hand side using conjunction?*
+
+- *Use De Morgan's Law*
+
+- **(¬p ∨ q) ≡ ¬(¬(¬p) ∧ ¬q) ≡ ¬(p ∧ ¬q)**
+
+- **So, (p → q) ≡ ¬(p ∧ ¬q)**
+
+----
