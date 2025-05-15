@@ -20,6 +20,14 @@ The Two Laws:
 
 "Not (P and Q)" is equivalent to "Not P or Not Q"
 
+| P     | Q     | P ∧ Q | ¬(P ∧ Q) | ¬P    | ¬Q    | ¬P ∨ ¬Q | ¬(P ∧ Q) ≡ (¬P ∨ ¬Q) |
+|:-------:|:-------:|:--------:|:-----------:|:-------:|:-------:|:----------:|:------------------------:|
+| true  | true  | true   | false     | false | false | false    | true                   |
+| true  | false | false  | true      | false | true  | true     | true                   |
+| false | true  | false  | true      | true  | false | true     | true                   |
+| false | false | false  | true      | true  | true  | true     | true                   |
+
+
 `¬(P ∨ Q) ≡ (¬P ∧ ¬Q)`
 
 "Not (P or Q)" is equivalent to "Not P and Not Q"
