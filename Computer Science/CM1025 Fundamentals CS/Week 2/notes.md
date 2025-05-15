@@ -35,12 +35,13 @@ The Two Laws:
 
 Here's your truth table correctly formatted in **Markdown**:
 
-|   P   |   Q   | P ∨ Q | ¬(P ∨ Q) |  ¬P   |  ¬Q   | ¬P ∧ ¬Q | ¬(P ∨ Q) ≡ (¬P ∧ ¬Q) |
-|:-----:|:-----:|:-----:|:--------:|:-----:|:-----:|:--------:|:------------------------:|
-| true  | true  | true  |  false   | false | false |  false   |          true            |
-| true  | false | true  |  false   | false | true  |  false   |          true            |
-| false | true  | true  |  false   | true  | false |  false   |          true            |
-| false | false | false |  true    | true  | true  |  true    |          true            |
+| p | q | p ∨ q | ¬(p ∨ q) | ¬p | ¬q | ¬p ∧ ¬q |
+|:-:|:-:|:-----:|:--------:|:--:|:--:|:--------:|
+| 1 | 1 |   1   |    0     |  0 |  0 |    0     |
+| 1 | 0 |   1   |    0     |  0 |  1 |    0     |
+| 0 | 1 |   1   |    0     |  1 |  0 |    0     |
+| 0 | 0 |   0   |    1     |  1 |  1 |    1     |
+
 
 
 
