@@ -2,7 +2,7 @@
 
 Propositional Equivalences
 
-- Formula A and B are `equivalent` if they have the sme truth tables
+- Formula A and B are `equivalent` if they have the same truth tables
 - We denote the equivalence by `≡`
 - `A ≡ B` means that A and B always have the same truth values regardless of how the variables are assigned
 - Note that `≡` is not a connective
