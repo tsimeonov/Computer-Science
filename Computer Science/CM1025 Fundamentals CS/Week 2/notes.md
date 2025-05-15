@@ -23,3 +23,14 @@ The Two Laws:
 `¬(P ∨ Q) ≡ (¬P ∧ ¬Q)`
 
 "Not (P or Q)" is equivalent to "Not P and Not Q"
+
+---- 
+
+Example: negate the following
+
+- It's Wednesday and it is not funny
+- NOT (It's Wednesday and it is not sunny)
+- NOT (It's Wednesday or NOT it is not sunny)
+- It is NOT Wednesday or it is sunny
+
+----
