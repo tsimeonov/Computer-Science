@@ -120,3 +120,22 @@ Example
 
 -----
 
+Important Notions
+
+🔺 **Predicates** describe properties of objects  
+- `Odd(3)` means 3 is an odd number; **Odd** is a predicate, **3** is an object  
+- `Equal(5,6)` means 5 and 6 are equal; **Equal** is a predicate, **5, 6** are objects  
+
+🔺 Predicates take arguments and become propositions
+
+🔺 The connectives for propositional logic apply the same way  
+- `Odd(3) ∧ Prime(3)` means 3 is odd and 3 is prime — **true**  
+- `Even(4) → Prime(4)` means if 4 is even, then 4 is prime — **false**
+
+🔺 Quantifiers make reasoning on multiple objects possible
+
+🔺 The objects for the quantified statements are chosen from a **Domain**
+
+----
+
+
