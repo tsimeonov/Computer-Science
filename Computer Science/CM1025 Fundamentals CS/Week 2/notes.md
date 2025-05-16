@@ -149,3 +149,12 @@ Quantifiers allow us to reason about multiple objects
 
 -----
 
+Universal quantifier, denoted by ∀
+
+- `∀x` *"some formula"*
+- Means for **ALL x**, the statement *"some formula"* is true
+- **Example**: `∀x (Odd(x) ∨ Even(x))` — it means all numbers are either odd or even
+- `∀x (x < x+1)` — it means all numbers increase when you add 1
+- **NOTE**: It is **NOT** enough to find some elements that make the formula true — it must hold for **all** elements
+
+---
