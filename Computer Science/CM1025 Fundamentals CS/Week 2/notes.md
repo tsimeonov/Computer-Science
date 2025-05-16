@@ -84,7 +84,14 @@ Another Equivalence: Conrapositive
 
 - So, **p → q ≡ ¬q → ¬p**
 
+-----
 
+Equivalency with conjunction and negation
+
+- Is it possible to convert all operators to conjunction and negation?
+- For example, p ∨ q `based on the De Morgan's Law`, cam be written as ¬(¬p ∧ ¬q)
+- Or, p -> q can be written as its equivalent ¬p ∨ q, and based on the De Morgan's Law, can be written as ¬(¬p ∧ ¬q)
+- Since we can write the equivalence of disjunction. using negation and conjunction, it means we can rewritte all logical formulae using these two operators.
 
 
 
