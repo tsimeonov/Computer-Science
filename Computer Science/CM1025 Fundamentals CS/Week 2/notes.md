@@ -104,8 +104,19 @@ Rewrite `p ∨ (q → r)` only using **conjunction** and **negation**
 
 
 - We can also convert each conjunction to its equivalent using disjunction and negation!**
-
-
 ----
 
+Example
+
+**Show without a truth table that:**  
+¬(∃x[P(x) ∧ Q(x)]) ≡ ∀x[P(x) → ¬Q(x)]
+
+1. ¬(∃x[P(x) ∧ Q(x)]) ≡ // ➡️ This is the starting expression: "It is not true that there exists an x such that P(x) and Q(x) are both true."
+2. ∀x¬[P(x) ∧ Q(x)] ≡  // ➡️ Apply quantifier negation:
+¬∃x φ(x) ≡ ∀x ¬φ(x)
+3. ∀x[¬P(x) ∨ ¬Q(x)] ≡  // ➡️ Apply De Morgan’s Law inside the brackets: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
+4. ∀x[P(x) → ¬Q(x)]   // ➡️ Use the identity for implication: P → Q ≡ ¬P ∨ Q // So, ¬P ∨ ¬Q ≡ P → ¬Q
+5. ¬(∃x[P(x) ∧ Q(x)]) ≡ ∀x[P(x) → ¬Q(x)] // ➡️ This shows that the original negated existential statement is logically equivalent to a universal conditional.
+
+-----
 
