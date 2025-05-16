@@ -138,4 +138,14 @@ Important Notions
 
 ----
 
+Quantifiers allow us to reason about multiple objects
+
+🔺 **Existential quantifier**, denoted by ∃  
+- `∃x` *"some formula"*  
+- Means: for **some** `x`, the statement *"some formula"* is true  
+- **Example**: `∃x Odd(x)` → means some numbers are odd  
+- `∃x Prime(x)` → means there exists at least one number that is prime  
+- **NOTE**: It is *enough* to find **one** element to make the formula **true**
+
+-----
 
