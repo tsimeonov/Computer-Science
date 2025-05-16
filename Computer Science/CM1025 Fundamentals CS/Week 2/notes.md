@@ -156,6 +156,27 @@ Quantifiers allow us to reason about multiple objects
 - **Example**: `∀x (Odd(x) ∨ Even(x))` — it means all numbers are either odd or even
 - `∀x (x < x+1)` — it means all numbers increase when you add 1
 - **NOTE**: It is **NOT** enough to find some elements that make the formula true — it must hold for **all** elements
-
-
+  
 ---
+
+# Universal Quantifier
+
+🔺 "All Ps are Qs" translates as ∀x (P(x) → Q(x))
+
+- A counter-example proves that a universally quantified statement is false.
+- **Example**: ∀x (Prime(x) → Odd(x))  
+  This means all prime numbers are odd.  
+  Let x = 2. But 2 is prime and not odd, so the statement is false.
+- **Example**: ∀x (Multiple4(x) → Multiple2(x))  
+  This means all multiples of 4 are multiples of 2.  
+  ✅ True
+
+🔺 "No Ps are Qs" translates as ∀x (P(x) → ¬Q(x))
+
+- If we find one P that is Q, then we prove the statement above is false.
+- **Example**: ∀x (Prime(x) → ¬Square(x))  
+  This means no prime number is square. ✅ True
+- **Example**: ∀x (Prime(x) → ¬Even(x))  
+  This means no prime number is even. ❌ False (because 2 is even and prime)
+
+----
