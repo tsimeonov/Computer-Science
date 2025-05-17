@@ -176,3 +176,18 @@ Universal Quantifier
 
 
 ---
+
+Existential Quantifier
+
+**"Some Ps are Qs" translates as** ∃x (P(x) ∧ Q(x))
+
+- Existentially quantified statements are true if an evidence example exists.
+- **Example:** ∃x (Prime(x) ∧ Even(x)) – some prime numbers are even. **True**
+- **Example:** ∃x (Professor(x) ∧ Under2(x)) – some professors are under 2. **Not true!**
+
+
+**"Some Ps are not Qs" translates as** ∃x (P(x) ∧ ¬Q(x))
+
+- **Example:** ∃x (Prime(x) ∧ ¬Even(x)) – some prime numbers are not even. **True**
+
+---
