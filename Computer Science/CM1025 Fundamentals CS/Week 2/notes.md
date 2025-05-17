@@ -28,7 +28,6 @@ The Two Laws:
 | 0 | 0 |    1     |  1 |  1 |    1     |
 
 
-
 `¬(P ∨ Q) ≡ (¬P ∧ ¬Q)`
 
 "Not (P or Q)" is equivalent to "Not P and Not Q"
@@ -162,22 +161,18 @@ Quantifiers allow us to reason about multiple objects
 
 Universal Quantifier
 
-🔺 "All Ps are Qs" translates as ∀x (P(x) → Q(x))
+**"All Ps are Qs" translates as** ∀x (P(x) → Q(x))
 
 - A counter-example proves that a universally quantified statement is false.
-- **Example**: ∀x (Prime(x) → Odd(x))  
-  This means all prime numbers are odd.  
-  Let x = 2. But 2 is prime and not odd, so the statement is false.
-- **Example**: ∀x (Multiple4(x) → Multiple2(x))  
-  This means all multiples of 4 are multiples of 2.  
-  ✅ True
+- **Example:** ∀x (Prime(x) → Odd(x)), which means all prime numbers are odd.
+- Let x be 2. But 2 is prime and not odd, so the statement is **false**.
+- ∀x (Multiple4(x) → Multiple2(x)), which means all multiples of 4 are multiples of 2. **True**.
 
-🔺 "No Ps are Qs" translates as ∀x (P(x) → ¬Q(x))
+**"No Ps are Qs" translates as** ∀x (P(x) → ¬Q(x))
 
-- If we find one P that is Q, then we prove the statement above is false.
-- **Example**: ∀x (Prime(x) → ¬Square(x))  
-  This means no prime number is square. ✅ True
-- **Example**: ∀x (Prime(x) → ¬Even(x))  
-  This means no prime number is even. ❌ False (because 2 is even and prime)
+- If we find one P that is Q, then we prove that the statement above is false.
+- **Example:** ∀x (Prime(x) → ¬Square(x)), which means no prime number is square. **True**.
+- ∀x (Prime(x) → ¬Even(x)), which means no prime number is even. **False**.
+
 
 ---
