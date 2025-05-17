@@ -191,3 +191,16 @@ Existential Quantifier
 - **Example:** ∃x (Prime(x) ∧ ¬Even(x)) – some prime numbers are not even. **True**
 
 ---
+
+Quantifiers to Connectives
+
+- **∃x, _P(x)_** and domain is D = {x₁, x₂, ..., xₙ} means:
+
+  _P(x₁)_ ∨ _P(x₂)_ ∨ ... ∨ _P(xₙ)_
+
+- **∀x, _P(x)_** and domain is D = {x₁, x₂, ..., xₙ} means:
+
+  _P(x₁)_ ∧ _P(x₂)_ ∧ ... ∧ _P(xₙ)_
+
+
+---
