@@ -204,3 +204,16 @@ Quantifiers to Connectives
 
 
 ---
+
+De Morgan’s Law
+
+- **∀x, _P(x)_** and domain is D = {x₁, x₂, ..., xₙ} means:
+
+  _P(x₁)_ ∧ _P(x₂)_ ∧ ... ∧ _P(xₙ)_
+
+- **¬∀x, _P(x)_** ≡ ¬(_P(x₁)_ ∧ _P(x₂)_ ∧ ... ∧ _P(xₙ)_)  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≡ ¬_P(x₁)_ ∨ ¬_P(x₂)_ ∨ ... ∨ ¬_P(xₙ)_  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;≡ 
+  **∃x, ¬_P(x)_**
+
+---
