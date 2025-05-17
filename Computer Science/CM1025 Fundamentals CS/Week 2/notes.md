@@ -42,7 +42,7 @@ Here's your truth table correctly formatted in **Markdown**:
 | 0 | 1 |   1   |    0     |  1 |  0 |    0     |
 | 0 | 0 |   0   |    1     |  1 |  1 |    1     |
 
----- 
+--- 
 
 Example: negate the following
 
@@ -51,7 +51,7 @@ Example: negate the following
 - NOT (It's Wednesday or NOT it is not sunny)
 - It is NOT Wednesday or it is sunny
 
-----
+---
 
 Important equivalence
 
@@ -65,7 +65,7 @@ Important equivalence
 
 - **So, (p → q) ≡ ¬(p ∧ ¬q)**
 
-----
+---
 
 Another Equivalence: Conrapositive
 
@@ -84,7 +84,7 @@ Another Equivalence: Conrapositive
 
 - So, **p → q ≡ ¬q → ¬p**
 
------
+---
 
 Equivalency with conjunction and negation
 
@@ -104,7 +104,8 @@ Rewrite `p ∨ (q → r)` only using **conjunction** and **negation**
 
 
 - We can also convert each conjunction to its equivalent using disjunction and negation!**
-----
+
+---
 
 Example
 
@@ -118,7 +119,7 @@ Example
 4. ∀x[P(x) → ¬Q(x)]   // ➡️ Use the identity for implication: P → Q ≡ ¬P ∨ Q // So, ¬P ∨ ¬Q ≡ P → ¬Q
 5. ¬(∃x[P(x) ∧ Q(x)]) ≡ ∀x[P(x) → ¬Q(x)] // ➡️ This shows that the original negated existential statement is logically equivalent to a universal conditional.
 
------
+---
 
 Important Notions
 
@@ -136,7 +137,7 @@ Important Notions
 
 🔺 The objects for the quantified statements are chosen from a **Domain**
 
-----
+---
 
 Quantifiers allow us to reason about multiple objects
 
@@ -147,7 +148,7 @@ Quantifiers allow us to reason about multiple objects
 - `∃x Prime(x)` → means there exists at least one number that is prime  
 - **NOTE**: It is *enough* to find **one** element to make the formula **true**
 
------
+---
 Quantifiers allow us to reason about multiple objects
 
 🔺Universal quantifier, denoted by ∀
@@ -159,7 +160,7 @@ Quantifiers allow us to reason about multiple objects
   
 ---
 
-# Universal Quantifier
+Universal Quantifier
 
 🔺 "All Ps are Qs" translates as ∀x (P(x) → Q(x))
 
@@ -179,4 +180,4 @@ Quantifiers allow us to reason about multiple objects
 - **Example**: ∀x (Prime(x) → ¬Even(x))  
   This means no prime number is even. ❌ False (because 2 is even and prime)
 
-----
+---
