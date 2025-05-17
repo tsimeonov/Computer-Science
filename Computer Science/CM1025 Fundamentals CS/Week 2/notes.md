@@ -217,3 +217,11 @@ De Morgan’s Law
   **∃x, ¬_P(x)_**
 
 ---
+
+Negate the Following
+
+- **∀x (p(x) → q(x))**
+
+- **¬∀x (p(x) → q(x))** ≡ ∃x ¬(p(x) → q(x)) ≡ ∃x ¬(¬p(x) ∨ q(x))
+
+---
