@@ -11,3 +11,14 @@ In discrete mathematics, a proof is a logical argument that demonstrates the tru
 ---
 
 #### Lesson 2.2 Formal Proof
+
+---
+
+Direct Proof
+
+- Easy because no particular technique is used
+- Not easy - starting point in not obvious 
+- Know your definitions
+- Allowed to use any theorem (e.g axiom, logic)
+
+---
