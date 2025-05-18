@@ -21,4 +21,16 @@ Direct Proof
 - Know your definitions
 - Allowed to use any theorem (e.g axiom, logic)
 
+Theorem: If n and m are both even, then n + m is even
+
+- **Proof**: What does *even* mean?
+- If an integer is **even**, it can be made by **twice another integer**
+- Let n = 2k, m = 2l, where *k* and *l* are integers
+- Then:  
+  m + n = 2k + 2l
+- Factorise:  m + n = 2(k + l)
+- Integers are closed under addition
+- k + l is an integer, call it *t*
+- m + n = 2t. So, it is even
+
 ---
