@@ -21,7 +21,7 @@ Direct Proof
 - Know your definitions
 - Allowed to use any theorem (e.g axiom, logic)
 
-Theorem: If n and m are both even, then n + m is even
+`Theorem`: If n and m are both even, then n + m is even
 
 - **Proof**: What does *even* mean?
 - If an integer is **even**, it can be made by **twice another integer**
@@ -32,5 +32,15 @@ Theorem: If n and m are both even, then n + m is even
 - Integers are closed under addition
 - k + l is an integer, call it *t*
 - m + n = 2t. So, it is even
+
+`Theorem`: For \( n \in \mathbb{N} \), \( n^2 + n \) is even
+
+Proof:
+- **If** \( n \) **is even**, \( n = 2k \)
+- \( n^2 + n = (2k)^2 + 2k = 4k^2 + 2k \) → **Even**
+
+- **If** \( n \) **is odd**, \( n = 2k + 1 \)
+- \( n^2 + n = (2k + 1)^2 + 2k + 1 \)
+- \( = 4k^2 + 4k + 1 + 2k + 1 = 4k^2 + 6k + 2 \) → **Even**
 
 ---
