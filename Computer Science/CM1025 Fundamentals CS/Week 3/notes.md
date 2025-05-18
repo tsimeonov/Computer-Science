@@ -54,5 +54,14 @@ Proof:
 - \( a^2 > b \cdot a > b^2 \)
 - \( a^2 > b^2 \)
 
+`Theorem`: For all \( x \in \mathbb{N} \), \( 2x^3 + x \) is a multiple of 3
+
+Proof:
+- \( 2x^3 + x = x(2x^2 + 1) \)
+- If \( x \) is a multiple of 3, we are complete!
+- If \( x = 3k + 1 \):
+  - \( x(2x^2 + 1) = (3k + 1)[2(3k + 1)^2 + 1] = (3k + 1)(18k^2 + 12k + 3) = 3(3k + 1)(6k^2 + 4k + 1) \)
+- If \( x = 3k + 2 \):
+  - \( x(2x^2 + 1) = (3k + 2)[2(3k + 2)^2 + 1] = (3k + 2)(18k^2 + 24k + 9) = 3(3k + 2)(6k^2 + 8k + 3) \)
 
 ---
