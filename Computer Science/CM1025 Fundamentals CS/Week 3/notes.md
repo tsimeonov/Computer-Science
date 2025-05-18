@@ -43,4 +43,16 @@ Proof:
 - \( n^2 + n = (2k + 1)^2 + 2k + 1 \)
 - \( = 4k^2 + 4k + 1 + 2k + 1 = 4k^2 + 6k + 2 \) → **Even**
 
+`Theorem`: If \( a < b < 0 \) then \( a^2 > b^2 \)
+
+Proof:
+- \( a < b \) and \( a < 0 \), so multiply the inequality by \( a \)
+- \( a \cdot a > b \cdot a \) so \( a^2 > b \cdot a \)
+- \( a < b \) and \( b < 0 \), so multiply the inequality by \( b \)
+- \( a \cdot b > b \cdot b \) so \( a \cdot b > b^2 \)
+- *Commutative property* of multiplication: \( b \cdot a = a \cdot b \)
+- \( a^2 > b \cdot a > b^2 \)
+- \( a^2 > b^2 \)
+
+
 ---
