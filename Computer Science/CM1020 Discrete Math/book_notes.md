@@ -82,3 +82,19 @@ and *q* is called the *conclusion* (or *consequence*).
 <sub>Table 5: The Truth Table for the Conditional Statement *p → q*</sub>
 
 ---
+
+`Definition 6`
+
+Let *p* and *q* be propositions. The *biconditional statement* *p ⇔ q* is the proposition  
+**“p if and only if q.”** The biconditional statement *p ⇔ q* is true when *p* and *q* have the same truth values,  
+and is false otherwise. Biconditional statements are also called *bi-implications*.
+
+| p | q | p ⇔ q |
+|:---:|:---:|:--------:|
+| T | T | T      |
+| T | F | F      |
+| F | T | F      |
+| F | F | T      |
+
+<sub>Table 6: The Truth Table for the Biconditional p ⇔ q</sub>
+
