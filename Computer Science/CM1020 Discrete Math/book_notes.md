@@ -98,3 +98,14 @@ and is false otherwise. Biconditional statements are also called *bi-implication
 
 <sub>Table 6: The Truth Table for the Biconditional p ⇔ q</sub>
 
+---
+
+`Definition 7`
+
+A *bit string* is a sequence of zero or more bits. The *length* of this string is the number of bits in the string.
+
+Example 15
+
+`101010011` is a bit string of length nine.
+
+---
