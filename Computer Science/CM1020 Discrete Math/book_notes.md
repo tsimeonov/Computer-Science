@@ -48,3 +48,11 @@ Let *p* and *q* be propositions. The *disjunction* of *p* and *q*, denoted by *p
 <sub>Table 3: The Truth Table for the Disjunction of Two Proposition</sub>
 
 ---
+
+`Definition 4`
+
+Let *p* and *q* be propositions. The *exclusive or* of *p* and *q*, denoted by *p ⊕ q* (or *p XOR q*),  
+is the proposition that is true when exactly one of *p* and *q* is true and is false otherwise.
+
+---
+
