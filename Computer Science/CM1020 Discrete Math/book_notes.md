@@ -21,5 +21,6 @@ of the truth value of p.
 
 Let *p* and *q* be propositions. The *conjunction* of *p* and *q*, denoted by *p ∧ q*, is the proposition  
 **"p and q."** The conjunction *p ∧ q* is true when both *p* and *q* are true and is false otherwise.
+
 ---
 
