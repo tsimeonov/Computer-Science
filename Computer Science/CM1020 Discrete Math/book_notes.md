@@ -65,3 +65,11 @@ is the proposition that is true when exactly one of *p* and *q* is true and is f
 
 ---
 
+`Definition 5`
+
+Let *p* and *q* be propositions. The *conditional statement* *p → q* is the proposition  
+**“if p, then q.”** The conditional statement *p → q* is false when *p* is true and *q* is false, and true otherwise.  
+In the conditional statement *p → q*, *p* is called the *hypothesis* (or *antecedent* or *premise*)  
+and *q* is called the *conclusion* (or *consequence*).
+
+---
