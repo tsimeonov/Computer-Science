@@ -72,4 +72,13 @@ Let *p* and *q* be propositions. The *conditional statement* *p → q* is the pr
 In the conditional statement *p → q*, *p* is called the *hypothesis* (or *antecedent* or *premise*)  
 and *q* is called the *conclusion* (or *consequence*).
 
+| p | q | p → q |
+|:---:|:---:|:--------:|
+| T | T | T      |
+| T | F | F      |
+| F | T | T      |
+| F | F | T      |
+
+<sub>Table 5: The Truth Table for the Conditional Statement *p → q*</sub>
+
 ---
