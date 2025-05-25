@@ -94,3 +94,13 @@ Proof by contradiction
 - Therefore, there are **infinitely many prime numbers**
 
 ---
+
+Proof by contrapositive
+
+`Proof by contrapositive`, a logical technique closely related to proof by contradiction. It leverages the idea that a conditional statement:
+
+If  𝐴 then  𝐵
+
+is logically equivalent to its contrapositive:
+
+If not B then not A
