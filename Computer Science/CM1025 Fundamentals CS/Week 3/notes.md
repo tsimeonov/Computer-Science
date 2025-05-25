@@ -116,3 +116,18 @@ Contrapositive:
 - Assume $n = 2k + 1$ (odd form)
 - Then compute $(2k + 1)^3 + 1 = 8k^3 + 12k^2 + 6k + 2$, which is clearly even
 - ✅ Therefore, the contrapositive is true → original statement is true
+
+🔸 **Example 2:**
+
+Statement:
+**If $y^3 + yx^2 < x^3 + xy^2$, then $y \leq x$**
+
+Contrapositive:
+**If $y > x$, then $y^3 + yx^2 > x^3 + xy^2$**
+
+- Assume $y > x$, so $y - x > 0$
+- Multiply both sides by $y^2 + x^2$, a positive quantity
+- Algebra leads to the desired inequality
+- ✅ Thus, the contrapositive holds → original implication is true
+
+---
