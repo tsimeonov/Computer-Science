@@ -104,3 +104,15 @@ If  𝐴 then  𝐵
 is logically equivalent to its contrapositive:
 
 If not B then not A
+
+🔸 **Example 1:**
+
+Statement:
+**If $n^3 + 1$ is odd, then $n$ is even**
+
+Contrapositive:
+**If $n$ is odd, then $n^3 + 1$ is even**
+
+- Assume $n = 2k + 1$ (odd form)
+- Then compute $(2k + 1)^3 + 1 = 8k^3 + 12k^2 + 6k + 2$, which is clearly even
+- ✅ Therefore, the contrapositive is true → original statement is true
