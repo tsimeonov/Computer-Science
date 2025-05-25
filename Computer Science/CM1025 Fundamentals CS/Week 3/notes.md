@@ -76,3 +76,11 @@ Proof:
 Proof by contradiction
 
 `Proof by contradiction`, a logical method used to prove a statement A is true by assuming A is false, and then demonstrating that this leads to a contradiction.
+
+🔸 **Example 1: √2 is Irrational**
+
+- **Assume** √2 is rational: $\sqrt{2} = \frac{p}{q}$, where $p$ and $q$ are integers in simplest form.
+- Squaring gives: $2 = \frac{p^2}{q^2}$ → $p^2 = 2q^2$, so **p is even**.
+- Let $p = 2k$; this leads to $q^2$ also being even, so **q is even**.
+- But now both $p$ and $q$ are even → contradiction (not in simplest form).
+- Therefore, √2 **must be irrational**.
