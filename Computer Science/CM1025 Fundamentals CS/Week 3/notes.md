@@ -68,3 +68,5 @@ Proof:
   - \( x(2x^2 + 1) = (3k + 2)[2(3k + 2)^2 + 1] = (3k + 2)(18k^2 + 24k + 9) = 3(3k + 2)(6k^2 + 8k + 3) \)
 
 ---
+
+#### Lesson 2.2 Proof by contradiction
