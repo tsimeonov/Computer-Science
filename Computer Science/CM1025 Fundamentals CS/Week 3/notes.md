@@ -84,3 +84,13 @@ Proof by contradiction
 - Let $p = 2k$; this leads to $q^2$ also being even, so **q is even**.
 - But now both $p$ and $q$ are even → contradiction (not in simplest form).
 - Therefore, √2 **must be irrational**.
+
+🔸 **Example 2: Infinite Primes**
+
+- **Assume** there are only finitely many primes: $P_1, P_2, ..., P_n$
+- Let $N = (P_1 \cdot P_2 \cdot ... \cdot P_n) + 1$
+- $N$ is not divisible by any listed prime (always leaves remainder 1)
+- So $N$ is a **new prime**, not in the original list → contradiction
+- Therefore, there are **infinitely many prime numbers**
+
+---
