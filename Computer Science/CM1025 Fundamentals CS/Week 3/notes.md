@@ -70,3 +70,9 @@ Proof:
 ---
 
 #### Lesson 2.2 Proof by contradiction
+
+---
+
+Proof by contradiction
+
+`Proof by contradiction`, a logical method used to prove a statement A is true by assuming A is false, and then demonstrating that this leads to a contradiction.
