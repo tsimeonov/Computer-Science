@@ -53,7 +53,9 @@ console.log(b); // 20
   <summary>Skipping Elements</summary>
   
   ```javascript
-// You can skip unwanted elements
+const arr = ['apple', 'banana', 'cherry'];
 const [first, , third] = arr;
+console.log(first); // 'apple'
+console.log(third); // 'cherry'
   ```
 </details>
