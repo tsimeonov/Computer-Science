@@ -37,3 +37,11 @@ const restaurant = {
 };
 ```
 
+<details>
+  <summary>Basic Destructing</summary>
+  
+  ```javascript
+// Instead of assigning array values individually
+const a = arr[0], b = arr[1];
+  ```
+</details>
