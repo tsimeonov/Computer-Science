@@ -71,3 +71,17 @@ console.log(x); // 'tea'
 console.log(y); // 'coffee'
   ```
 </details>
+
+<details>
+  <summary>Destructing Function Return Values</summary>
+  
+  ```javascript
+function getCoordinates() {
+  return [12, 34];
+}
+const [lat, long] = getCoordinates();
+console.log(lat);  // 12
+console.log(long); // 34
+
+  ```
+</details>
