@@ -41,11 +41,11 @@ const restaurant = {
   <summary>Basic Destructing</summary>
   
   ```javascript
-// Instead of assigning array values individually
-const a = arr[0], b = arr[1];
+const arr = [10, 20];
+const [a, b] = arr;
+console.log(a); // 10
+console.log(b); // 20
 
-// You can use
-const [x, y] = arr;
   ```
 </details>
 
