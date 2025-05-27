@@ -59,3 +59,15 @@ console.log(first); // 'apple'
 console.log(third); // 'cherry'
   ```
 </details>
+
+<details>
+  <summary>Swapping Variables</summary>
+  
+  ```javascript
+let x = 'coffee';
+let y = 'tea';
+[x, y] = [y, x];
+console.log(x); // 'tea'
+console.log(y); // 'coffee'
+  ```
+</details>
