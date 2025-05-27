@@ -97,3 +97,16 @@ console.log(n); // 4
   ```
 </details>
 
+<details>
+  <summary>Default Values</summary>
+  
+  ```javascript
+const values = [7];
+const [p = 1, q = 1, r = 1] = values;
+console.log(p); // 7
+console.log(q); // 1
+console.log(r); // 1
+
+  ```
+</details>
+
