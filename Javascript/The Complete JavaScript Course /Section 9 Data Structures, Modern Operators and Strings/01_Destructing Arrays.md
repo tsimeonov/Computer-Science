@@ -85,3 +85,15 @@ console.log(long); // 34
 
   ```
 </details>
+
+<details>
+  <summary>Nested Destructing</summary>
+  
+  ```javascript
+const nested = [1, 2, [3, 4]];
+const [ , , [m, n]] = nested;
+console.log(m); // 3
+console.log(n); // 4
+  ```
+</details>
+
