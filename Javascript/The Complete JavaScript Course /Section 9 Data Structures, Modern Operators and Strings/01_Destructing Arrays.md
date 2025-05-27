@@ -48,3 +48,12 @@ const a = arr[0], b = arr[1];
 const [x, y] = arr;
   ```
 </details>
+
+<details>
+  <summary>Skipping Elements</summary>
+  
+  ```javascript
+// You can skip unwanted elements
+const [first, , third] = arr;
+  ```
+</details>
