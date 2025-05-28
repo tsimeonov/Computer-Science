@@ -1,9 +1,8 @@
 ### Spread Operator
 
-<details>
-  <summary>Restaurant object</summary>
-
 ```js
+// Restaurant Object
+
 const restaurant = {
   name: "Classico Italiano",
   location: "Via Angelo Tavanti 23, Firenze, Italy",
@@ -47,10 +46,6 @@ const restaurant = {
 };
 ```
 
-</details>
-
-<br>
-
 <details>
   <summary>Adding values to an existing array</summary>
 
@@ -69,103 +64,6 @@ console.log(newGoodArr); // [ 1, 2, 7, 8, 9 ]
 
 <br>
 
-<details>
-  <summary>Adding a new value to restaurant.mainMenu</summary>
 
-```js
-const newMenu = [...restaurant.mainMenu, "Gnocci"];
-console.log(newMenu); // [ 'Pizza', 'Pasta', 'Risotto', 'Gnocci' ]
-```
 
-</details>
 
-<br>
-
-<details>
-  <summary>Create a copy of an array</summary>
-
-```js
-const mainMenuCopy = [...restaurant.mainMenu];
-console.log(mainMenuCopy); // [ 'Pizza', 'Pasta', 'Risotto' ]
-```
-
-</details>
-
-<br>
-
-<details>
-  <summary>Join two arrays</summary>
-
-```js
-const wholeMenu = [...restaurant.starterMenu, ...restaurant.mainMenu];
-
-console.log(wholeMenu); // ['Focaccia','Bruschetta','Garlic Bread','Caprese Salad','Pizza','Pasta','Risotto']
-```
-
-</details>
-
-<br>
-
-<details>
-  <summary>Use spread operator on a string</summary>
-
-```js
-// Iterables: arrays, strings, maps, sets. NOT objects
-const str = "Todor";
-const letters = [...str, "", "S."];
-
-console.log(letters); //['T',  'o', 'd','o',  'r', '','S.']
-```
-
-</details>
-
-<br>
-
-<details>
-  <summary>Real world example</summary>
-
-```js
-const ingredients = [
-  prompt("Let's make pasta! Ingredient 1?"),
-  prompt("Ingredient 2?"),
-  prompt("Ingredient 3?"),
-];
-console.log(ingredients); // (3) ['a', 'b', 'c']
-
-restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
-// Output Here is your delicious pasta with a, b, c
-
-restaurant.orderPasta(...ingredients);
-// Output Here is your delicious pasta with a, b, c
-```
-
-</details>
-
-<br>
-
-<details>
-  <summary>Add new properties to an object</summary>
-
-```js
-// Add new properties to an object
-const newRestaurant = { foundedIn: 1988, ...restaurant, founder: "Guiseppe" };
-console.log(newRestaurant);
-```
-
-</details>
-
-<br>
-
-<details>
-  <summary>Crate a copy of an object</summary>
-
-```js
-const restaurantCopy = { ...restaurant };
-restaurantCopy.name = "Ristorante Roma";
-console.log(restaurantCopy.name); // Ristorante Roma
-console.log(restaurant.name); //Classico Italiano
-```
-
-</details>
-
-<br>
