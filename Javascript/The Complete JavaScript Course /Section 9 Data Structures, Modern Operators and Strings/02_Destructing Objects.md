@@ -145,3 +145,28 @@ console.log(c); // 23
 </details>
 
 ---
+
+<details>
+  <summary>6. Destructing in Function Parameters</summary>
+
+```javascript
+restaurant.orderDelivery = function ({
+  starterIndex = 1,
+  mainIndex = 0,
+  time = "20:00",
+  address
+}) {
+  console.log(`Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}.`);
+};
+
+restaurant.orderDelivery({
+  address: "Via del Sole, 21",
+  starterIndex: 2
+});
+// Output: Order received! Garlic Bread and Pizza will be delivered to Via del Sole, 21 at 20:00.
+
+```
+
+</details>
+
+---
