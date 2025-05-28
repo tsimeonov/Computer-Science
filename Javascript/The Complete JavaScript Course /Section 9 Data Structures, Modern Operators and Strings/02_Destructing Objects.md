@@ -51,72 +51,27 @@ const restaurant = {
 };
 ```
 
-<br>
+---
 
 <details>
-  <summary>Destructing an object, rename the variables</summary>
+  <summary>1. Basic Object Destructing</summary>
 
 ```javascript
-const {
-  name: restaurantName,
-  openingHours: hours,
-  categories: tags,
-} = restaurant;
+const restaurant = {
+  name: "Classico Italiano",
+  categories: ["Italian", "Pizzeria", "Vegetarian"],
+  openingHours: {
+    fri: { open: 11, close: 23 }
+  }
+};
 
-console.log(restaurantName, hours, tags);
+const { name, categories, openingHours } = restaurant;
 
-// Output
-// Classico Italiano {
-//     thu: { open: 12, close: 22 },
-//     fri: { open: 11, close: 23 },
-//     sat: { open: 0, close: 24 }
-//   } [ 'Italian', 'Pizzeria', 'Vegetarian', 'Organic' ]
-```
-
-</details>
-<br>
-
-<details>
-  <summary>Set a default value</summary>
-
-```javascript
-const { menu = [], starterMenu: starters = [] } = restaurant;
-console.log(menu, starters);
-
-// Output
-// [] [ 'Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad' ]
+console.log(name);         // "Classico Italiano"
+console.log(categories);   // ["Italian", "Pizzeria", "Vegetarian"]
+console.log(openingHours); // { fri: { open: 11, close: 23 } }
 ```
 
 </details>
 
-<br>
-
-<details>
-  <summary>Mutating Variables while destructuring objects</summary>
-
-```javascript
-let a = 111;
-let b = 999;
-const obj = { a: 23, b: 7, c: 14 };
-
-({ a, b } = obj);
-console.log(a, b);
-```
-
-</details>
-
-<br>
-
-<details>
-  <summary>Nested Objects</summary>
-
-```javascript
-// Nested Objects
-const {
-  fri: { open, close },
-} = openingHours;
-console.log(open, close);
-// Output 11 23
-```
-
-</details>
+---
