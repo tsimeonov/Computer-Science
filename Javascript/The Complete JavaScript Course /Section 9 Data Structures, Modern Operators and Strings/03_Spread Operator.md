@@ -84,4 +84,16 @@ console.log(newMenu); // ['Pizza', 'Pasta', 'Risotto', 'Gnocchi']
 
 <br>
 
+<details>
+  <summary>4. Copying Arrays (Shallow Copy)</summary>
+
+```js
+const mainMenuCopy = [...restaurant.mainMenu];
+
+```
+
+</details>
+
+<br>
+
 
