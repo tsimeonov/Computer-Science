@@ -96,4 +96,19 @@ const mainMenuCopy = [...restaurant.mainMenu];
 
 <br>
 
+<details>
+  <summary>5. Merging Array</summary>
+
+```js
+const fullMenu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(fullMenu); 
+// ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad', 'Pizza', 'Pasta', 'Risotto']
+
+```
+
+</details>
+
+<br>
+
+
 
