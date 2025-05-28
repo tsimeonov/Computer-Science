@@ -123,5 +123,19 @@ console.log(letters); // ['J', 'o', 'n', 'a', 's', ' ', 'S.']
 
 <br>
 
+<details>
+  <summary>7. Passing Array as Function Arguments</summary>
+
+```js
+const ingredients = ['mushrooms', 'asparagus', 'cheese'];
+restaurant.orderPasta(...ingredients);
+// Output: Here is your delicious pasta with mushrooms, asparagus, cheese
+
+```
+
+</details>
+
+<br>
+
 
 
