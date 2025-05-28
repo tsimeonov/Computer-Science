@@ -104,3 +104,21 @@ console.log(starterMenu); // ["Focaccia", "Bruschetta", "Garlic Bread"]
 </details>
 
 ---
+
+<details>
+  <summary>4. Mutaing Existing Varialbes</summary>
+
+```javascript
+let a = 10, b = 20;
+const obj = { a: 5, b: 15 };
+
+({ a, b } = obj);
+
+console.log(a); // 5
+console.log(b); // 15
+
+```
+
+</details>
+
+---
