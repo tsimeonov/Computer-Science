@@ -122,3 +122,26 @@ console.log(b); // 15
 </details>
 
 ---
+
+<details>
+  <summary>5. Nested Object Destructing</summary>
+
+```javascript
+// Extract values from nested obhects directly
+
+const { fri: { open, close } } = restaurant.openingHours;
+
+console.log(open);  // 11
+console.log(close); // 23
+
+// You can also rename nested values:
+
+const { fri: { open: o, close: c } } = restaurant.openingHours;
+
+console.log(o); // 11
+console.log(c); // 23
+```
+
+</details>
+
+---
