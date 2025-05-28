@@ -47,17 +47,13 @@ const restaurant = {
 ```
 
 <details>
-  <summary>Adding values to an existing array</summary>
+  <summary>1. Expanding Arrays</summary>
 
 ```js
-// Without spread operator
 const arr = [7, 8, 9];
-const badNewArr = [1, 2, arr[0], arr[1], arr[2]];
-console.log(badNewArr); // [ 1, 2, 7, 8, 9 ]
+const newArr = [1, 2, ...arr];
+console.log(newArr); // [1, 2, 7, 8, 9]
 
-// With spread operator
-const newGoodArr = [1, 2, ...arr];
-console.log(newGoodArr); // [ 1, 2, 7, 8, 9 ]
 ```
 
 </details>
