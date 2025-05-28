@@ -110,5 +110,18 @@ console.log(fullMenu);
 
 <br>
 
+<details>
+  <summary>6. Using Spread on Strings</summary>
+
+```js
+const name = "Jonas";
+const letters = [...name, ' ', 'S.'];
+console.log(letters); // ['J', 'o', 'n', 'a', 's', ' ', 'S.']
+```
+
+</details>
+
+<br>
+
 
 
