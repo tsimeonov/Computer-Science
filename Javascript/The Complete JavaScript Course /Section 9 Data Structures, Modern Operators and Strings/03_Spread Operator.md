@@ -71,4 +71,17 @@ console.log(...newArr); // 1 2 7 8 9
 
 <br>
 
+<details>
+  <summary>3. Adding Items to existing Arrays</summary>
+
+```js
+const newMenu = [...restaurant.mainMenu, "Gnocchi"];
+console.log(newMenu); // ['Pizza', 'Pasta', 'Risotto', 'Gnocchi']
+
+```
+
+</details>
+
+<br>
+
 
