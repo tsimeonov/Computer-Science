@@ -60,6 +60,15 @@ console.log(newArr); // [1, 2, 7, 8, 9]
 
 <br>
 
+<details>
+  <summary>2. Logging Array elements individually</summary>
 
+```js
+console.log(...newArr); // 1 2 7 8 9
+```
+
+</details>
+
+<br>
 
 
