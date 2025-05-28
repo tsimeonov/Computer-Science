@@ -137,5 +137,29 @@ restaurant.orderPasta(...ingredients);
 
 <br>
 
+<details>
+  <summary>8. Spread with Objects (ES2018+)</summary>
+
+```js
+// Create a new object
+const newRestaurant = {
+  ...restaurant,
+  founder: "Giuseppe",
+  foundedIn: 1998,
+};
+console.log(newRestaurant);
+
+// Copy an Object
+const restaurantCopy = { ...restaurant };
+restaurantCopy.name = "Ristorante Roma";
+console.log(restaurant.name);        // Classico Italiano
+console.log(restaurantCopy.name);   // Ristorante Roma
+
+```
+
+</details>
+
+<br>
+
 
 
