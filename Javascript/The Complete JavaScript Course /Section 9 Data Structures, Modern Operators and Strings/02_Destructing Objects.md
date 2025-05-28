@@ -90,3 +90,17 @@ console.log(tags);           // ["Italian", "Pizzeria", "Vegetarian"]
 </details>
 
 ---
+
+<details>
+  <summary>3. Default variables</summary>
+
+```javascript
+const { menu = [], starterMenu = [] } = restaurant;
+
+console.log(menu);        // [] (default, since `menu` does not exist)
+console.log(starterMenu); // ["Focaccia", "Bruschetta", "Garlic Bread"]
+```
+
+</details>
+
+---
