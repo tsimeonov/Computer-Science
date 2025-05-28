@@ -75,3 +75,18 @@ console.log(openingHours); // { fri: { open: 11, close: 23 } }
 </details>
 
 ---
+
+<details>
+  <summary>2. Renaming Variables</summary>
+
+```javascript
+const { name: restaurantName, categories: tags } = restaurant;
+
+console.log(restaurantName); // "Classico Italiano"
+console.log(tags);           // ["Italian", "Pizzeria", "Vegetarian"]
+
+```
+
+</details>
+
+---
