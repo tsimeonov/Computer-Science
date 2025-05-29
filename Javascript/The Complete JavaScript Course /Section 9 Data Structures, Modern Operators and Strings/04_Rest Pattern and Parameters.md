@@ -110,3 +110,25 @@ add(...x); // 35 (spread passed to rest)
 </details>
 
 ---
+
+<details>
+  <summary>4. Real-World Example – Restaurant Pizza Order Function</summary>
+
+```js
+restaurant.orderPizza = function (mainIngredient, ...otherIngredients) {
+	console.log(mainIngredient);
+	console.log(otherIngredients);
+};
+
+restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
+// 'mushrooms'
+// ['onion', 'olives', 'spinach']
+
+restaurant.orderPizza('mushrooms');
+// 'mushrooms'
+// []
+```
+
+</details>
+
+---
