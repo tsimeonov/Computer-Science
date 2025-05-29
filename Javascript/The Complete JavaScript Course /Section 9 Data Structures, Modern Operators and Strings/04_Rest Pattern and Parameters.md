@@ -132,3 +132,16 @@ restaurant.orderPizza('mushrooms');
 </details>
 
 ---
+
+<details>
+  <summary>5. Usage Rule of thumb</summary>
+
+|         Use Case         |  Use   |        Example         |
+| :----------------------: | :----: | :--------------------: |
+|    Expanding an array    | Spread |      ` add(...x)`      |
+|   Collecting elements    |  Rest  |  `[a, ...rest] = arr`  |
+| Collecting function args |  Rest  | `function(...args) {}` |
+
+</details>
+
+---
