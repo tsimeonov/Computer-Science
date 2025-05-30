@@ -86,4 +86,28 @@ Theorem: The sum of the first _n_ powers of 2 is `2ⁿ - 1`
 - 2⁰ + 2¹ + 2² + 2³ + 2⁴ = 1 + 2 + 4 + 8 + 16 = 31 = 2⁵ - 1
 - 2⁰ + 2¹ + 2² + 2³ + 2⁴ + 2⁵ = 1 + 2 + 4 + 8 + 16 + 32 = 63 = 2⁶ - 1
 
+Let `P(n)` be:  
+`2⁰ + 2¹ + ... + 2ⁿ⁻¹ = 2ⁿ - 1`
+
+Goal:
+Prove that `P(n)` is true for all `n`.
+
+Basis:
+**Prove `P(1)` is true:**  
+`P(1): 2⁰ = 1 = 2¹ - 1`
+
+Inductive Step:
+**Prove:** `P(k) → P(k + 1)`
+
+- **Assume `P(k)` is true:**  
+  `2⁰ + 2¹ + ... + 2ᵏ⁻¹ = 2ᵏ - 1`
+
+- **Prove `P(k+1)` is true:**  
+  `P(k+1): 2⁰ + 2¹ + ... + 2ᵏ⁻¹ + 2ᵏ = 2ᵏ⁺¹ - 1`
+
+**LHS:**  
+`2⁰ + 2¹ + ... + 2ᵏ⁻¹ + 2ᵏ`  
+Using the inductive hypothesis:  
+`= (2ᵏ - 1) + 2ᵏ = 2ᵏ⁺¹ - 1`
+
 ---
