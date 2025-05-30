@@ -60,4 +60,17 @@ Prove that P(k) → P(k + 1).
 - _Since it is true for 3 then it is true for 3 + 1_
 - ...
 
+`Three Steps of Induction`
+
+- **Prove** `P(0)` is true
+
+  - This step is called the **Basis**
+
+- **Prove** If `P(k)` then `P(k + 1)`
+
+  - This step is called the **Inductive Step**
+  - The assumption that `P(k)` is true is called the **Inductive Hypothesis**
+
+- **Conclude**, by induction, that `P(n)` is true for all `n`
+
 ---
