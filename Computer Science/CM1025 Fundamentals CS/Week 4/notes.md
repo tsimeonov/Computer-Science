@@ -28,4 +28,8 @@ The Principle of Mathematical Induction
                       │
            (So it remains true for all n)
 
+🧠 Explanation
+
+Mathematical induction is a powerful proof technique used to show that a statement P(n) holds for all natural numbers (or for all values from some starting point like 0 or 1). It works in two main steps:
+
 ---
