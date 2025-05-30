@@ -1,12 +1,12 @@
-### Proof techniques - part 2
+## Proof techniques - part 2
 
-#### Lesson 2.3 Inductive proof
+### Lesson 2.3 Inductive proof
 
 ---
 
-##### `Proof by induction`
+#### Proof by induction
 
-The Principle of Mathematical Induction
+`The Principle of Mathematical Induction`
 
              ┌────────────────────┐
              │  P(0) is true      │
@@ -47,5 +47,17 @@ You assume the statement is true for some arbitrary number k, and then show it m
 📌 This is like showing if one domino falls, the next will too:
 
 Prove that P(k) → P(k + 1).
+
+`What does it mean?`
+
+- **P(0)**
+- **∀k ∈ ℕ. P(k) → P(k + 1)**
+
+- It is true at the beginning: for **0**
+- _Since it is true for 0 then it is true for 0 + 1_
+- _Since it is true for 1 then it is true for 1 + 1_
+- _Since it is true for 2 then it is true for 2 + 1_
+- _Since it is true for 3 then it is true for 3 + 1_
+- ...
 
 ---
