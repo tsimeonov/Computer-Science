@@ -74,3 +74,7 @@ Prove that P(k) → P(k + 1).
 - **Conclude**, by induction, that `P(n)` is true for all `n`
 
 ---
+
+#### Example of a correct proof
+
+---

@@ -1,6 +1,7 @@
 ### 1.1 Propositional Logic
 
 ---
+
 `Definition 1`
 
 Let p be a proposition. The negation of p, denoted by ¬p (also denoted by p), is the statement
@@ -8,10 +9,10 @@ Let p be a proposition. The negation of p, denoted by ¬p (also denoted by p), i
 The proposition¬p is read “not p.” The truth value of the negation of p,
 of the truth value of p.
 
-|p|¬p |
-|:---:|:---:|
-|T|F|
-|F|T|
+|  p  | ¬p  |
+| :-: | :-: |
+|  T  |  F  |
+|  F  |  T  |
 
 <sub>The truth table for the negation if a propostion</sub>
 
@@ -19,31 +20,31 @@ of the truth value of p.
 
 `Definition 2`
 
-Let *p* and *q* be propositions. The *conjunction* of *p* and *q*, denoted by *p ∧ q*, is the proposition  
-**"p and q."** The conjunction *p ∧ q* is true when both *p* and *q* are true and is false otherwise.
+Let _p_ and _q_ be propositions. The _conjunction_ of _p_ and _q_, denoted by _p ∧ q_, is the proposition  
+**"p and q."** The conjunction _p ∧ q_ is true when both _p_ and _q_ are true and is false otherwise.
 
 ---
 
 **Definition 3**
 
-Let *p* and *q* be propositions. The *disjunction* of *p* and *q*, denoted by *p ∨ q*, is the proposition  
-**"p or q."** The disjunction *p ∨ q* is false when both *p* and *q* are false and is true otherwise.
+Let _p_ and _q_ be propositions. The _disjunction_ of _p_ and _q_, denoted by _p ∨ q_, is the proposition  
+**"p or q."** The disjunction _p ∨ q_ is false when both _p_ and _q_ are false and is true otherwise.
 
-| p | q | p ∧ q |
-|:---:|:---:|:--------:|
-| T | T | T      |
-| T | F | F      |
-| F | T | F      |
-| F | F | F      |
+|  p  |  q  | p ∧ q |
+| :-: | :-: | :---: |
+|  T  |  T  |   T   |
+|  T  |  F  |   F   |
+|  F  |  T  |   F   |
+|  F  |  F  |   F   |
 
 <sub>Table 2: The Truth Table for the Conjunction of Two Propositions</sub>
 
-| p | q | p ∨ q |
-|:---:|:---:|:-------:|
-| T | T | T      |
-| T | F | T      |
-| F | T | T      |
-| F | F | F      |
+|  p  |  q  | p ∨ q |
+| :-: | :-: | :---: |
+|  T  |  T  |   T   |
+|  T  |  F  |   T   |
+|  F  |  T  |   T   |
+|  F  |  F  |   F   |
 
 <sub>Table 3: The Truth Table for the Disjunction of Two Proposition</sub>
 
@@ -51,15 +52,15 @@ Let *p* and *q* be propositions. The *disjunction* of *p* and *q*, denoted by *p
 
 `Definition 4`
 
-Let *p* and *q* be propositions. The *exclusive or* of *p* and *q*, denoted by *p ⊕ q* (or *p XOR q*),  
-is the proposition that is true when exactly one of *p* and *q* is true and is false otherwise.
+Let _p_ and _q_ be propositions. The _exclusive or_ of _p_ and _q_, denoted by _p ⊕ q_ (or _p XOR q_),  
+is the proposition that is true when exactly one of _p_ and _q_ is true and is false otherwise.
 
-| p | q | p ⊕ q |
-|:---:|:---:|:--------:|
-| T | T | F      |
-| T | F | T      |
-| F | T | T      |
-| F | F | F      |
+|  p  |  q  | p ⊕ q |
+| :-: | :-: | :---: |
+|  T  |  T  |   F   |
+|  T  |  F  |   T   |
+|  F  |  T  |   T   |
+|  F  |  F  |   F   |
 
 <sub>Table 4: The Truth Table for the Exclusive Or of Two Propositions</sub>
 
@@ -67,34 +68,34 @@ is the proposition that is true when exactly one of *p* and *q* is true and is f
 
 `Definition 5`
 
-Let *p* and *q* be propositions. The *conditional statement* *p → q* is the proposition  
-**“if p, then q.”** The conditional statement *p → q* is false when *p* is true and *q* is false, and true otherwise.  
-In the conditional statement *p → q*, *p* is called the *hypothesis* (or *antecedent* or *premise*)  
-and *q* is called the *conclusion* (or *consequence*).
+Let _p_ and _q_ be propositions. The _conditional statement_ _p → q_ is the proposition  
+**“if p, then q.”** The conditional statement _p → q_ is false when _p_ is true and _q_ is false, and true otherwise.  
+In the conditional statement _p → q_, _p_ is called the _hypothesis_ (or _antecedent_ or _premise_)  
+and _q_ is called the _conclusion_ (or _consequence_).
 
-| p | q | p → q |
-|:---:|:---:|:--------:|
-| T | T | T      |
-| T | F | F      |
-| F | T | T      |
-| F | F | T      |
+|  p  |  q  | p → q |
+| :-: | :-: | :---: |
+|  T  |  T  |   T   |
+|  T  |  F  |   F   |
+|  F  |  T  |   T   |
+|  F  |  F  |   T   |
 
-<sub>Table 5: The Truth Table for the Conditional Statement *p → q*</sub>
+<sub>Table 5: The Truth Table for the Conditional Statement _p → q_</sub>
 
 ---
 
 `Definition 6`
 
-Let *p* and *q* be propositions. The *biconditional statement* *p ⇔ q* is the proposition  
-**“p if and only if q.”** The biconditional statement *p ⇔ q* is true when *p* and *q* have the same truth values,  
-and is false otherwise. Biconditional statements are also called *bi-implications*.
+Let _p_ and _q_ be propositions. The _biconditional statement_ _p ⇔ q_ is the proposition  
+**“p if and only if q.”** The biconditional statement _p ⇔ q_ is true when _p_ and _q_ have the same truth values,  
+and is false otherwise. Biconditional statements are also called _bi-implications_.
 
-| p | q | p ⇔ q |
-|:---:|:---:|:--------:|
-| T | T | T      |
-| T | F | F      |
-| F | T | F      |
-| F | F | T      |
+|  p  |  q  | p ⇔ q |
+| :-: | :-: | :---: |
+|  T  |  T  |   T   |
+|  T  |  F  |   F   |
+|  F  |  T  |   F   |
+|  F  |  F  |   T   |
 
 <sub>Table 6: The Truth Table for the Biconditional p ⇔ q</sub>
 
@@ -102,7 +103,7 @@ and is false otherwise. Biconditional statements are also called *bi-implication
 
 `Definition 7`
 
-A *bit string* is a sequence of zero or more bits. The *length* of this string is the number of bits in the string.
+A _bit string_ is a sequence of zero or more bits. The _length_ of this string is the number of bits in the string.
 
 Example 15
 
