@@ -40,4 +40,12 @@ You prove that the statement is true for the starting value (usually n = 0 or n 
 
 Show that P(0) is true.
 
+2. Inductive Step:
+
+You assume the statement is true for some arbitrary number k, and then show it must be true for k + 1.
+
+📌 This is like showing if one domino falls, the next will too:
+
+Prove that P(k) → P(k + 1).
+
 ---
