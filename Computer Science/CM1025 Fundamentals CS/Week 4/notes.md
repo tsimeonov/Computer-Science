@@ -32,4 +32,12 @@ The Principle of Mathematical Induction
 
 Mathematical induction is a powerful proof technique used to show that a statement P(n) holds for all natural numbers (or for all values from some starting point like 0 or 1). It works in two main steps:
 
+1. Base Case:
+
+You prove that the statement is true for the starting value (usually n = 0 or n = 1).
+
+📌 This is like proving the first domino falls:
+
+Show that P(0) is true.
+
 ---
