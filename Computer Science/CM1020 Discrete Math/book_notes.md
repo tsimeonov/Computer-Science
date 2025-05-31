@@ -148,3 +148,21 @@ Truth Table:
 | False | False | False |
 
 ---
+
+`Converse`
+
+Definition: Swap the hypothesis and conclusion.
+
+- Original: p → q
+
+- Converse: q → p
+
+- Example:
+
+Original: If it rains (p), then the ground gets wet (q).
+
+Converse: If the ground gets wet (q), then it rains (p).
+
+🔍 Not always true.
+
+---
