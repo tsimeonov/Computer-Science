@@ -184,3 +184,21 @@ Inverse: If it does not rain (¬p), then the ground does not get wet (¬q).
 🔍 Not always true.
 
 ---
+
+`Contrapositive`
+
+Definition: Swap and negate both the hypothesis and conclusion.
+
+- Original: p → q
+
+- Contrapositive: ¬q → ¬p
+
+Example:
+
+Original: If it rains (p), then the ground gets wet (q).
+
+Contrapositive: If the ground does not get wet (¬q), then it did not rain (¬p).
+
+✅ Always logically equivalent to the original.
+
+---
