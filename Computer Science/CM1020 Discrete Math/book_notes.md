@@ -110,3 +110,22 @@ Example 15
 `101010011` is a bit string of length nine.
 
 ---
+
+`Inclusive OR (Logical OR / Disjunction)`
+
+Definition:
+
+A or B is true if either A is true, B is true, or both are true.
+
+Symbol: A ∨ B (logical OR)
+
+Truth Table:
+
+|   A   |   B   | A ∨ B |
+| :---: | :---: | :---: |
+| True  | True  | True  |
+| True  | False | True  |
+| False | True  | True  |
+| False | False | False |
+
+--
