@@ -166,3 +166,21 @@ Converse: If the ground gets wet (q), then it rains (p).
 🔍 Not always true.
 
 ---
+
+`Inverse`
+
+Definition: Negate both the hypothesis and conclusion.
+
+- Original: p → q
+
+- Inverse: ¬p → ¬q
+
+Example:
+
+Original: If it rains (p), then the ground gets wet (q).
+
+Inverse: If it does not rain (¬p), then the ground does not get wet (¬q).
+
+🔍 Not always true.
+
+---
