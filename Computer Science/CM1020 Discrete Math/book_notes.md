@@ -128,4 +128,23 @@ Truth Table:
 | False | True  | True  |
 | False | False | False |
 
---
+---
+
+`Exclusive OR (XOR)`
+
+Definition:
+
+A xor B is true only if A or B is true, but not both.
+
+Symbol: A ⊕ B or XOR
+
+Truth Table:
+
+|   A   |   B   | A ⊕ B |
+| :---: | :---: | :---: |
+| True  | True  | False |
+| True  | False | True  |
+| False | True  | True  |
+| False | False | False |
+
+---
