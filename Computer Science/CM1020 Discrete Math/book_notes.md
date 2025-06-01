@@ -226,3 +226,23 @@ A compound proposition that is neither a tautology nor a contradiction is called
 <sub>Example of a tautology and a contradiction</sub>
 
 </details>
+
+<details>
+  <summary>Definition 2</summary>
+  
+  
+The compound propositions p and q are called logically equivalent if p ↔ q is a `tautology`.
+
+The notation p ≡ q denotes that p and q are `logically equivalent`.
+
+p ↔ q meaning:
+
+The biconditional statement p↔q (read as "p if and only if q") means that:
+
+p and q have the same truth value — either both are true, or both are false.
+
+p ≡ q meaning:
+
+Logical equivalence. This indicates that propositions p and 𝑞 always have the same truth value in all possible cases — that is, their truth tables match.
+
+</details>
