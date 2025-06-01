@@ -208,3 +208,11 @@ Contrapositive: If the ground does not get wet (¬q), then it did not rain (¬p)
 ---
 
 ### 1.3 Propositional Equivalences
+
+<details>
+  <summary>Definition 1</summary>
+  
+A compound proposition that is always true, no matter what the truth values of the propositional variables that occur in it, is called a `tautology`. 
+A compound proposition that is always false is called a `contradiction`. A compound proposition that is neither a tautology nor a contradiction is called a `contingency`.
+
+</details>
