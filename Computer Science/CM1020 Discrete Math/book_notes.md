@@ -251,10 +251,10 @@ Logical equivalence. This indicates that propositions p and 𝑞 always have the
   
 | **Equivalence**                        | **Name**               |
 |:----------------------------------------:|:------------------------:|
-| p ∧ T ≡ p                              | Identity law           |
-| p ∨ F ≡ p                              | Identity law           |
-| p ∨ T ≡ T                              | Domination law         |
-| p ∧ F ≡ F                              | Domination law         |
+| p ∧ `T` ≡ p                              | Identity law           |
+| p ∨ `F` ≡ p                              | Identity law           |
+| p ∨ `T` ≡ `T`                              | Domination law         |
+| p ∧ `F` ≡ `F`                              | Domination law         |
 | p ∨ p ≡ p                              | Idempotent law         |
 | p ∧ p ≡ p                              | Idempotent law         |
 | ¬(¬p) ≡ p                              | Double negation law    |
@@ -268,8 +268,8 @@ Logical equivalence. This indicates that propositions p and 𝑞 always have the
 | ¬(p ∨ q) ≡ ¬p ∧ ¬q                     | De Morgan’s law        |
 | p ∨ (p ∧ q) ≡ p                        | Absorption law         |
 | p ∧ (p ∨ q) ≡ p                        | Absorption law         |
-| p ∨ ¬p ≡ T                             | Negation law           |
-| p ∧ ¬p ≡ F                             | Negation law           |
+| p ∨ ¬p ≡ `T`                             | Negation law           |
+| p ∧ ¬p ≡ `F`                             | Negation law           |
 
 <sub>Logical Equivalences</sub>
 
