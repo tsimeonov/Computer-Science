@@ -229,8 +229,7 @@ A compound proposition that is neither a tautology nor a contradiction is called
 
 <details>
   <summary>Definition 2</summary>
-  
-  
+
 The compound propositions p and q are called logically equivalent if p ↔ q is a `tautology`.
 
 The notation p ≡ q denotes that p and q are `logically equivalent`.
@@ -244,5 +243,34 @@ p and q have the same truth value — either both are true, or both are false.
 p ≡ q meaning:
 
 Logical equivalence. This indicates that propositions p and 𝑞 always have the same truth value in all possible cases — that is, their truth tables match.
+
+</details>
+
+<details>
+  <summary>Definition 3</summary>
+  
+| **Equivalence**                        | **Name**               |
+|:----------------------------------------:|:------------------------:|
+| p ∧ T ≡ p                              | Identity law           |
+| p ∨ F ≡ p                              | Identity law           |
+| p ∨ T ≡ T                              | Domination law         |
+| p ∧ F ≡ F                              | Domination law         |
+| p ∨ p ≡ p                              | Idempotent law         |
+| p ∧ p ≡ p                              | Idempotent law         |
+| ¬(¬p) ≡ p                              | Double negation law    |
+| p ∨ q ≡ q ∨ p                          | Commutative law        |
+| p ∧ q ≡ q ∧ p                          | Commutative law        |
+| (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)              | Associative law        |
+| (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)              | Associative law        |
+| p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)        | Distributive law       |
+| p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)        | Distributive law       |
+| ¬(p ∧ q) ≡ ¬p ∨ ¬q                     | De Morgan’s law        |
+| ¬(p ∨ q) ≡ ¬p ∧ ¬q                     | De Morgan’s law        |
+| p ∨ (p ∧ q) ≡ p                        | Absorption law         |
+| p ∧ (p ∨ q) ≡ p                        | Absorption law         |
+| p ∨ ¬p ≡ T                             | Negation law           |
+| p ∧ ¬p ≡ F                             | Negation law           |
+
+<sub>Logical Equivalences</sub>
 
 </details>
