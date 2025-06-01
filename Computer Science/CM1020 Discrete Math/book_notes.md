@@ -204,3 +204,7 @@ Contrapositive: If the ground does not get wet (¬q), then it did not rain (¬p)
 ---
 
 ### 1.2 Applications of Propositional Logic
+
+---
+
+### 1.3 Propositional Equivalences
