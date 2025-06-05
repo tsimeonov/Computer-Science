@@ -67,4 +67,9 @@ Example: RSA
 - People usually connect through local networks (home, work, public places)
 - These local networks connect to Internet Service Providers (ISPs)
 - ISPs connect to larger international networks called the Internet Backbone.
+
+#### ✉️ How Messages Travel
+- Messages do not travel directly from sender to receiver.
+- They pass through multiple routers and networks, possibly spanning countries and continents.
+- Messages may also pass through platforms like Coursera, adding more network hops.
 ----
