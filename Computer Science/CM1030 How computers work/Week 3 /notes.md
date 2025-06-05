@@ -55,3 +55,14 @@ Example: AES (Advanced Encryption Standard)
 Example: RSA
 
 -----
+### The internet
+
+#### 🌐 What is the Internet?
+
+-  The internet is a network of networks that enables communication between computers across the globe.
+-  Routers connect different networks and forward messages, allowing communication across boundaries
+
+
+
+
+----
