@@ -62,7 +62,9 @@ Example: RSA
 -  The internet is a network of networks that enables communication between computers across the globe.
 -  Routers connect different networks and forward messages, allowing communication across boundaries
 
+#### 📶 Connecting to the Internet
 
-
-
+- People usually connect through local networks (home, work, public places)
+- These local networks connect to Internet Service Providers (ISPs)
+- ISPs connect to larger international networks called the Internet Backbone.
 ----
