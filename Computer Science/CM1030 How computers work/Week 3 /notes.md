@@ -72,4 +72,12 @@ Example: RSA
 - Messages do not travel directly from sender to receiver.
 - They pass through multiple routers and networks, possibly spanning countries and continents.
 - Messages may also pass through platforms like Coursera, adding more network hops.
+
+📦 Protocols and Packets
+- Communication uses multiple protocols at once (e.g., Wi-Fi, IP, TCP, HTTP).
+- A protocol defines the rules for data exchange, like a virtual envelope.
+- Messages are wrapped in multiple layers:
+  - Application protocol (like email or web)
+  - IP (Internet Protocol)
+  - Network-specific protocols (like Wi-Fi)
 ----
