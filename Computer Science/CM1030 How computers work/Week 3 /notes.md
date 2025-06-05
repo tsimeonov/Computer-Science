@@ -80,4 +80,11 @@ Example: RSA
   - Application protocol (like email or web)
   - IP (Internet Protocol)
   - Network-specific protocols (like Wi-Fi)
+ 
+#### 🧭 IP Addresses and Domain Names
+- Every device has an IP address so routers can deliver data correctly.
+- We use URLs (like www.example.com) instead of IPs for convenience.
+- URLs are converted to IP addresses using DNS (Domain Name Service).
+
+
 ----
