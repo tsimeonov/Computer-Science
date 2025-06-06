@@ -87,3 +87,5 @@ Example: RSA
 - URLs are converted to IP addresses using DNS (Domain Name Service).
 
 ----
+
+### Lesson 3.2: Security
