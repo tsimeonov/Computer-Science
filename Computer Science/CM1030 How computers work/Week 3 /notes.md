@@ -1,4 +1,4 @@
-### Networks
+### Lesson 3.1: Networks
 
 #### What is a computer network ?
 
@@ -21,7 +21,7 @@ A computer network id a group of connected computers and other devices (like pri
 
 ----
 
-### Security
+### Lesson 3.2: Security
 
 A virus is a piece of software that copies itself from one computer to another without your knowledge, and is normally aimed at damaging your computer in some way. This could mean that it slows it down, or interferes in other ways with the working of your operating system, or it could perform specifically harmful actions like stealing your data, or hacking other machines on your network. 
 One example of this is spyware, which records what you do on a computer and sends the information to a third party. 
@@ -85,6 +85,5 @@ Example: RSA
 - Every device has an IP address so routers can deliver data correctly.
 - We use URLs (like www.example.com) instead of IPs for convenience.
 - URLs are converted to IP addresses using DNS (Domain Name Service).
-
 
 ----
