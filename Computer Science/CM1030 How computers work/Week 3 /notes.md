@@ -91,3 +91,15 @@ Example: RSA
 ### Lesson 3.2: Security
 
 #### Security threats
+
+🦠 Types of Threats:
+1. Malicious Software (Malware):
+- Virus: Self-replicates and harms your system (slows it down, steals data, etc.).
+- Spyware: Secretly records activity (e.g., keystrokes) and sends data to third parties.
+- Trojan Horse: Disguised as legitimate software but secretly harmful.
+2. Hacking:
+- Unauthorized access to computer systems (typically servers) to steal data.
+3. Phishing:
+- Fake emails or websites trick users into giving up personal info (e.g., passwords, bank details).
+
+
