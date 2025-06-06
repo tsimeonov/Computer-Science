@@ -89,3 +89,5 @@ Example: RSA
 ----
 
 ### Lesson 3.2: Security
+
+#### Security threats
