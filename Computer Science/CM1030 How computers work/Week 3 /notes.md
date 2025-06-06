@@ -102,4 +102,20 @@ Example: RSA
 3. Phishing:
 - Fake emails or websites trick users into giving up personal info (e.g., passwords, bank details).
 
+#### Encryption
+
+The Internet sends messages through many routers, which means others could intercept and read them. **Encryption** protects privacy by turning readable messages into coded ones that only the intended receiver can understand.
+
+Encryption relies on two things:
+
+* An **algorithm** (e.g., Caesar’s method of shifting letters).
+* A **key** (a number that controls the algorithm).
+
+Modern encryption is highly secure and often uses **public key encryption**, where anyone can encrypt a message, but only the receiver can decrypt it.
+
+However, threats still exist—like **phishing attacks** or fake websites—that trick users into using the **wrong key**. To prevent this, browsers check **security certificates** issued by trusted authorities. If a certificate is invalid, users should take the warning seriously.
+
+Encryption is a key part of staying secure online.
+
+
 
