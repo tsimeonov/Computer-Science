@@ -90,7 +90,7 @@ Example: RSA
 
 ### Lesson 3.2: Security
 
-#### Security threats
+#### `Security threats`
 
 🦠 Types of Threats:
 1. Malicious Software (Malware):
@@ -102,7 +102,7 @@ Example: RSA
 3. Phishing:
 - Fake emails or websites trick users into giving up personal info (e.g., passwords, bank details).
 
-#### Encryption
+#### `Encryption`
 
 The Internet sends messages through many routers, which means others could intercept and read them. **Encryption** protects privacy by turning readable messages into coded ones that only the intended receiver can understand.
 
