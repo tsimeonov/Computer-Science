@@ -117,5 +117,13 @@ However, threats still exist—like **phishing attacks** or fake websites—that
 
 Encryption is a key part of staying secure online.
 
+#### `Security defences`
+
+There are various ways to protect against online security threats. **Antivirus software** helps detect and remove malware, while a **firewall** blocks suspicious traffic to and from your computer. **Access control** ensures that only authorized users can access certain parts of a system, using **usernames and passwords**.
+
+Different users have different levels of access to prevent misuse—for example, learners can't view or change other people's grades. These systems rely on **passwords**, which are encrypted but often vulnerable if they're easy to guess.
+
+To improve security, websites encourage **strong passwords** and use **two-factor authentication**, which adds a second step like a phone code. Understanding and using these protections can help keep your personal data safe online.
+
 
 
