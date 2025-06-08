@@ -24,3 +24,9 @@ Web pages are often `dynamically generated` and sent in multiple packets, especi
 To protect this information, websites use `HTTPs`, the secure version of HTTP, which encrypts all data sent between your browser and the server. You can recognize it by the "HTTPS" in the URL and the padlock icon in your browser.
 
 Websites also use `access control`, requiring users to log in to access private information
+
+#### `State and the web`
+
+Webistes have `state`, which refers to changing conditions like the page you are on, whether you are logged in, or which products you've viewd.
+This state affectsd how you interact with the site.
+Interestingly, `web servers themselves are stateless` - they respond the same way to the same requests. The user's state is tracked mostly through cookies, ehich are small pieces of data stored in your browser. Cookies help websites remember login status, browsing history, and preferences
