@@ -28,3 +28,13 @@ Each storage has trade-offs between `speed, size, power use and cost` and unders
 ---
 
 ### Lesson 5.2 Data representation
+
+#### `Bytes and numbers`
+
+`Bits` are the simplest unit of data, but to represent complex information, they are combined into larger units like `bytes` (8 bits).
+A `byte` can represent 256 different values and is the standard unit for measurring memory.
+
+Modern computers access data in `64-bit chunks` for efficiency, even for simple values like true/false. `Bit patterns` can represnt many things - letters, colors, numbers.
+`Numbers` are especially useful because they can represnet almost everyting else (e.g images, text).
+
+Binary numbers use base 2 and work similarly to decimal, enabling bits to represent both `whole and complex values`
