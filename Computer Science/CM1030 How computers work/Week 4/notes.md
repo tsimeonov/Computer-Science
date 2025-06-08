@@ -16,3 +16,11 @@ Modern webistes are complex, `networked applications` that rely on core computer
 They operate over the `Internet`, using `clients` (like your browser) to sent HTTP requersts to servets, which respond with web pages.
 Web communication uses protocols like `IP` and `HTTP`. A URL in a request includes the protocol, domain name and page location.
 Web pages are often `dynamically generated` and sent in multiple packets, especially images ans text, which explains why texts may load before pictures on slow connections.
+
+#### `Security and the web`
+
+`Websites security `is crucial because web dat travels over the internet and can be intercepted or targeted by hackers. Websites often handle sensitive information like personal photos, banking details and business data.
+
+To protect this information, websites use `HTTPs`, the secure version of HTTP, which encrypts all data sent between your browser and the server. You can recognize it by the "HTTPS" in the URL and the padlock icon in your browser.
+
+Websites also use `access control`, requiring users to log in to access private information
