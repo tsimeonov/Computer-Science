@@ -9,3 +9,10 @@ The web is just one part of the internet - others include email and video confer
 
 A `webpage` is single document, and website is a collection of related pages.
 Moders webistes arte far more than static pages- they are interactive, data-driven and constantly changing based on user actions.
+
+#### `Networks and the web`
+
+Modern webistes are complex, `networked applications` that rely on core computer science concepts like `networks, state, modularity and security`.
+They operate over the `Internet`, using `clients` (like your browser) to sent HTTP requersts to servets, which respond with web pages.
+Web communication uses protocols like `IP` and `HTTP`. A URL in a request includes the protocol, domain name and page location.
+Web pages are often `dynamically generated` and sent in multiple packets, especially images ans text, which explains why texts may load before pictures on slow connections.
