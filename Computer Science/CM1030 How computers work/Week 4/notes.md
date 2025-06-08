@@ -40,3 +40,14 @@ Interestingly, `web servers themselves are stateless` - they respond the same wa
 - `HTML/CSS` for stucture and desing
 
 The server fills templates with data from the database to create pages on demand.
+
+#### `Embedding and API's`
+
+Webistes often combine content from `multiple sources`, not just their own server.
+Examples include:
+
+- `Embedded videos` (e.g from Youtube)
+- `Ads` third-party services
+- `Online payments` via secure platforms like PayPal
+
+Webistes also use `API's` (application programming interfaces) to share with other systems or apps. API's let developers create `mobile appls` ot other services that access and display the same ddata in different way.
