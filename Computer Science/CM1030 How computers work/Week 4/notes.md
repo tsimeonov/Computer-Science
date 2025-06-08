@@ -30,3 +30,13 @@ Websites also use `access control`, requiring users to log in to access private 
 Webistes have `state`, which refers to changing conditions like the page you are on, whether you are logged in, or which products you've viewd.
 This state affectsd how you interact with the site.
 Interestingly, `web servers themselves are stateless` - they respond the same way to the same requests. The user's state is tracked mostly through cookies, ehich are small pieces of data stored in your browser. Cookies help websites remember login status, browsing history, and preferences
+
+#### `Clients and servers`
+
+`Modularity` is key to how websites work -built from many parts that work together. The main components are the `client` (your browser) and the `server` (which handles requests). Modern webistes don't store full page but `generate them dynamically` using:
+
+- `Database` to store user date
+- `Templates` with placeholders for content
+- `HTML/CSS` for stucture and desing
+
+The server fills templates with data from the database to create pages on demand.
