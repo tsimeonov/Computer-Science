@@ -24,3 +24,7 @@ Computers use two main types of storage: `main memory (RAM)` and `mass storage`
 `Cloud storage` offers remote, reliable storage but is slower due to Internet access.
 `Cache memory` is very fast and stores data being used the right way.
 Each storage has trade-offs between `speed, size, power use and cost` and understanding them is essentioal for designing and using modern computers.
+
+---
+
+### Lesson 5.2 Data representation
