@@ -38,3 +38,12 @@ Modern computers access data in `64-bit chunks` for efficiency, even for simple 
 `Numbers` are especially useful because they can represnet almost everyting else (e.g images, text).
 
 Binary numbers use base 2 and work similarly to decimal, enabling bits to represent both `whole and complex values`
+
+#### `Other types of data`
+
+`Bits` are the foundation of all digital data. By combining them, we can represent numbers, text, images, audio and video.
+
+- `Text` is stored using number codes like `ASCII` or `Unicode`, which support global languages.
+- `Images` use pixels, each represented by numebrs indicating `brightness` or `color`
+- `Sound` is stored as fas sequences of `samples`, recording air pressure changes as numbers
+- `Videos` are made of sequence of images, making them `data-heavy`
