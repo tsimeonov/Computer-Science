@@ -62,3 +62,7 @@ Example: Adding values to variables or performing mathematical operations are ta
   - Description: While CPU speed (measured in gigahertz) is important, other factors like bus speed, memory speed, and cache size also significantly impact performance.
 
   - Example: A fast CPU with a slow bus or small cache may not perform as well as a balanced system with optimised components.
+
+---
+
+### Lesson 7.2 Machine language and execution
