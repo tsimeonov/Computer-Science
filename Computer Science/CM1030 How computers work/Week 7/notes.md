@@ -66,3 +66,28 @@ Example: Adding values to variables or performing mathematical operations are ta
 ---
 
 ### Lesson 7.2 Machine language and execution
+
+#### `Machine language`
+
+Here's a `short summary `of how a CPU executes instructions:
+
+- `CPU instructions` are made of `binary patterns`, broken into two main parts:
+
+  - `Opcode`: tells the CPU what operation to perform (e.g., `ADD`, `LOAD`, `JUMP`).
+  - `Operands`: specify the data (or register addresses) used in the operation.
+
+- `Types of instructions`:
+
+  - `Arithmetic` (e.g., `ADD R1 R2 R3`: add contents of R1 and R2, store in R3).
+  - `Data transfer` (e.g., `LOAD` from memory to register, `STORE` from register to memory).
+  - `Control flow` (e.g., `JUMP`, `JUMP IF` based on condition in a register).
+
+- `Registers` are small, fast storage locations in the CPU for holding data during operations.
+
+- `The program counter `keeps track of the next instruction to execute.
+
+- `Conditional jumps` enable decision-making, like `if` statements in code.
+
+- High-level code (e.g., JavaScript, Python) is `translated into machine instructions` by compilers or interpreters.
+
+- All software ultimately runs through these low-level instructions executed by the CPU.
