@@ -15,3 +15,11 @@ Unix is a foundational operating system developed in the 1970s, known for its po
 ---
 
 ### Lesson 9.2 Operating system function
+
+#### `File systems and memory management`
+
+The operating system (OS) does far more than just provide a user interface. At its core lies the `kernel`, which offers essential services to applications. Key functions include.
+
+- `Device driver management` - allowing apps to interact with hardware like printers using standrard interface.
+- `File management` - organizing data into files and directories, including metadata like dates and ownership
+- `Memory management` - allocating memory to applications and ensuring they don't interfere with each other. If memory runs low, it uses `virtual memory` by moving inactive data to the hard disk.
