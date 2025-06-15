@@ -69,7 +69,7 @@ Example: Adding values to variables or performing mathematical operations are ta
 
 #### `Machine language`
 
-Here's a `short summary `of how a CPU executes instructions:
+Here's a `short summary` of how a CPU executes instructions:
 
 - `CPU instructions` are made of `binary patterns`, broken into two main parts:
 
@@ -91,3 +91,15 @@ Here's a `short summary `of how a CPU executes instructions:
 - High-level code (e.g., JavaScript, Python) is `translated into machine instructions` by compilers or interpreters.
 
 - All software ultimately runs through these low-level instructions executed by the CPU.
+
+1. NOT MEMLOAD 35 4
+   NOT LOAD 35 4
+   YES MEMLOAD 4 35
+
+2. YES control
+
+3.
+
+4. YES AN Opperand
+
+5. not sure
