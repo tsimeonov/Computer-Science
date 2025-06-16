@@ -42,3 +42,52 @@ Let S = {1,2,3,4,5,6,7,8,9,10}
   -> Truth set P = {2,4,6,8,10}
 - Propostion `q(n)`: `"n is odd"`
   -> Truth set Q = {1,3,5,7,9}
+
+#### `Compound propositions`
+
+In propositional logic, `compound propositions` are built by combining simple propositions using ligical operators.
+The main operators include:
+
+1. **Negation (¬p)**
+
+Reverses the truth value.
+
+- Example:
+  If `p`: “It is raining” is **True**, then `¬p`: “It is not raining” is **False**.
+
+2. **Conjunction (p ∧ q)**
+
+True only when **both** p and q are true.
+
+- Example:
+  `p`: “n is even”
+  `q`: “n < 10”
+  `p ∧ q`: “n is even and less than 10”
+  ➤ True only if **both** conditions are met.
+
+3. **Disjunction (p ∨ q)**
+
+True when **at least one** of p or q is true.
+
+- Example:
+  `p`: “n is even”
+  `q`: “n < 10”
+  `p ∨ q`: “n is even or less than 10”
+  ➤ True if either or both conditions are true.
+
+4. **Exclusive-Or (p ⊕ q)**
+
+True when **only one** of p or q is true.
+
+- Example:
+  `p`: “n is even”
+  `q`: “n < 10”
+  `p ⊕ q`: “n is even or less than 10, but not both”
+  ➤ True only if **exactly one** condition is true.
+
+🧠 Operator Precedence
+
+- **Negation (¬)** is evaluated first
+- Then **conjunction (∧)**
+- Followed by **disjunction (∨)**
+- Parentheses can change the order
