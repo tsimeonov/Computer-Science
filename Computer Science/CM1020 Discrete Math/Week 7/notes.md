@@ -23,6 +23,25 @@ Given the statement: "`x` squared is equal to 4"
 </details>
 
 <details>
-  <summary>Solution</summary>
+  <summary>Definitions of a predicate</summary>
+
+- `Predicates` are a more `general` form of `proposition`
+- Predicates behave as `functions`whose values are `T or F` depending on their varialbes
+- Predicates `become propositions` when their variables are `given` actual `values`
+
+- The statement "x squared is equal to 4" has two parts:
+
+  - The `variable` x, which is the subject of the statement
+  - The `predicate` "squared is equal to 4", which is the property that the subject of the statement can have
+
+- This statement can be formalised as `P(x)` where P is the predicate "squared is equal to 4" and x is the variable
+
+- `P` is said to be the `propositional function`
+- Once a value is assigned to the variable x, the statement P(x)
+  becomes a proposition and has a truth value.
+
+   </details>
+
+     <summary>Solution</summary>
 
 </details>
