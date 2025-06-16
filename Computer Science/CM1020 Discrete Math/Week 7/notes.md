@@ -40,8 +40,26 @@ Given the statement: "`x` squared is equal to 4"
 - Once a value is assigned to the variable x, the statement P(x)
   becomes a proposition and has a truth value.
 
-   </details>
+</details>
 
+<details>
+    <summary>Example</summary>
+
+- Let `x` be an integer
+- Let `P` be the propositional function "squared is eqaul to 4"
+
+- Let ecaluate P(x) for specific values of the variable x:
+  - P(2) is `True`
+  - P(3) is `False`
+
+</details>
+
+<details>
+     <summary>Solution</summary>
+
+</details>
+
+<details>
      <summary>Solution</summary>
 
 </details>
