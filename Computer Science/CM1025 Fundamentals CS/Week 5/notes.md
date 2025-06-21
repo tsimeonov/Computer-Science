@@ -66,3 +66,17 @@ $25^5$ = 11881376
 - The sum rule : 28 + 21 + 24 + 25 + 27 = 125
 
 </details>
+
+#### `Complex counting`
+
+<details>
+  <summary>How many valid passwords are there </summary>
+
+- It has to be `five to seven characters` drawn from uppercase letters or digits.
+  Every password must contain at least one uppercase letter.
+
+- The oppsote/complement of a password with `no letters`
+
+Passwords of length `5` or `6` or `7`
+
+</details>
