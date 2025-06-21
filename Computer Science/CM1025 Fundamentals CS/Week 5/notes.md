@@ -80,3 +80,19 @@ $25^5$ = 11881376
 Passwords of length `5` or `6` or `7`
 
 </details>
+
+<details>
+  <summary>Passwords</summary>
+
+|      Length five      |      Length six       |     Length seven      |
+| :-------------------: | :-------------------: | :-------------------: |
+| All Passwords: $36^5$ | All Passwords: $36^6$ | All Passwords: $36^7$ |
+|  No letters: $10^5$   |  No letters: $10^6$   |  No letters: $10^7$   |
+|   Valid passwords:    |   Valid passwords:    |   Valid passwords:    |
+|    $36^5$ - $10^5$    |    $36^6$ - $10^6$    |    $36^7$ - $10^7$    |
+|      60,366,176       |     2,175,782,336     |    78,354,164,096     |
+
+Total number of valid passwords:
+60,366,176 + 2,175,782,336 + 78,354,164,096 = 80,590,312,608
+
+</details>
