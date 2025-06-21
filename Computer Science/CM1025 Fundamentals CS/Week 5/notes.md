@@ -14,3 +14,13 @@
 5 \* 7 = 35
 
 </details>
+
+<details>
+  <summary>What if you have 5 shirts, 3 pairs of trousers and 2 pairs of shoes?</summary>
+
+- We can first consider 5 shirts and 3 pairs of trousers
+- Using the product rule, there are `5 * 3 = 15` ways to pick an outfit
+- Now, consider these `15 ways` and `two pairs of shoes`
+- Again, based on the product rule, there are `15 \* 2 =30 ways`
+
+</details>
