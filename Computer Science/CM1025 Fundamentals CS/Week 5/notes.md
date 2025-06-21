@@ -98,7 +98,7 @@ Total number of valid passwords:
 </details>
 
 <details>
-  <summary>The subtractiction rule</summary>
+  <summary>The subtraction rule</summary>
 
 - What happens when lists have `items in common`
 - Otherwise known as the principle of `Inclusion-Exclusion`
