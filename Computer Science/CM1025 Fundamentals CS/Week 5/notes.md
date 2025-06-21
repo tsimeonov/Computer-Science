@@ -35,3 +35,12 @@
 - There are 5 _ 3 _ 2 = 30 ways of schoosing an outfit
 
 </details>
+
+<details>
+  <summary>Example</summary>
+
+- How many sequences of 5 letters can yuo make using the english alphabet?
+
+$25^5$ = 11881376
+
+</details>
