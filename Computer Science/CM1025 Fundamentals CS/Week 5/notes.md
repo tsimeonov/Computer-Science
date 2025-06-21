@@ -21,6 +21,17 @@
 - We can first consider 5 shirts and 3 pairs of trousers
 - Using the product rule, there are `5 * 3 = 15` ways to pick an outfit
 - Now, consider these `15 ways` and `two pairs of shoes`
-- Again, based on the product rule, there are `15 \* 2 =30 ways`
+- Again, based on the product rule, there are ` `
+
+</details>
+
+<details>
+  <summary>Product rule for more tasks</summary>
+
+- Suppose there is a job with `k` tasks
+- If there are $n_i$ ways to completing task `i`
+- Then there are $n_i * n_2 ... n_k$ ways of completing this job
+- What if you have `5` shirts, `3` pairs of trousers and `2` pairs of shoes?
+- There are 5 _ 3 _ 2 = 30 ways of schoosing an outfit
 
 </details>
