@@ -108,3 +108,15 @@ Total number of valid passwords:
   `n + m - the number of items in common` in the two lists
 
 </details>
+
+<details>
+  <summary>The subtraction rule example</summary>
+
+- How many integers less than 100 are divisible by either 2 or 3?
+- Divisible by 2: 99 / 2 = 49.5 = 49
+- Divisible by 3: 99 / 3 = 33 = 33
+- Divisible by 6: 99 / 6 = 16.5 = 16
+
+- Divisible by either 2 or 3: 49 + 33 - 16 = 66
+
+</details>
