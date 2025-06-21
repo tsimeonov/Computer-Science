@@ -55,3 +55,14 @@ $25^5$ = 11881376
   choosing an item from them.
 
 </details>
+
+<details>
+  <summary>The Sum Rule Example</summary>
+
+- A teacher can choose a student to be her assistant from `5 classes`
+- The classes contain 28, 21, 24, 25 and 27 students
+- `Eaxh student` belongs to `only one class`
+- How many possible assistants are there to choose from?
+- The sum rule : 28 + 21 + 24 + 25 + 27 = 125
+
+</details>
