@@ -96,3 +96,15 @@ Total number of valid passwords:
 60,366,176 + 2,175,782,336 + 78,354,164,096 = 80,590,312,608
 
 </details>
+
+<details>
+  <summary>The subtractiction rule</summary>
+
+- What happens when lists have `items in common`
+- Otherwise known as the principle of `Inclusion-Exclusion`
+
+- If a chooce can be made from two lists containing `n` and `m` items
+- The number of ways to make this choice is
+  `n + m - the number of items in common` in the two lists
+
+</details>
