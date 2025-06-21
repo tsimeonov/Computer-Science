@@ -44,3 +44,14 @@
 $25^5$ = 11881376
 
 </details>
+
+<details>
+  <summary>The Sum Rule</summary>
+
+- If a job can be done either in `n` ways OR in `m` ways, then the job can be
+  completed in `m+n` ways.
+
+- So, if you have `5` pairs of trousers and `7` shirts, we have (5+7) = 12 ways of
+  choosing an item from them.
+
+</details>
