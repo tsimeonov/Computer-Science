@@ -120,3 +120,5 @@ Total number of valid passwords:
 - Divisible by either 2 or 3: 49 + 33 - 16 = 66
 
 </details>
+
+### Lesson 3.2 The Pigeonhole Principle
