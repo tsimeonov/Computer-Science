@@ -82,7 +82,7 @@ Passwords of length `5` or `6` or `7`
 </details>
 
 <details>
-  <summary>Passwords</summary>
+  <summary>Passwords Example</summary>
 
 |      Length five      |      Length six       |     Length seven      |
 | :-------------------: | :-------------------: | :-------------------: |
@@ -122,3 +122,27 @@ Total number of valid passwords:
 </details>
 
 ### Lesson 3.2 The Pigeonhole Principle
+
+<details>
+  <summary>The pigenhole Principle</summary>
+
+📌 Basic Version:
+
+If you put more items (pigeons) into fewer containers (holes) than there are items, at least one container must contain more than one item.
+
+Example:
+If you have 10 pigeons and 9 holes, then at least one hole must contain at least 2 pigeons.
+
+📌 Generalized Version:
+
+If n items are placed into m containers, then at least one container has at least
+
+$\lceil \frac{m}{n} \rceil$
+
+Example:
+
+If 100 balls are placed in 9 boxes, then at least one box has
+
+$\lceil \frac{100}{9} \rceil $= 12 balls
+
+</details>
