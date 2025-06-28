@@ -114,6 +114,7 @@ The answer is 366
 
 - Total 8-letter passwords with no repeated letters
   Total (no restriction)=P(26,8)=26×25×24×23×22×21×20×19
+
 - We must choose and arrange 8 distinct consonants from the 21 available.
   All consonants (no vowels)=P(21,8)=21×20×19×18×17×16×15×14
 - Subtract to get number of valid passwords (at least one vowel)
@@ -127,6 +128,14 @@ Which is
 
 $$
 {54,\!786,\!211,\!200}
-
-
 $$
+
+`Question 3 (C)`
+
+Given: $x_1$ + $x_2$ + $x_3$ + $x_4$ = 20
+
+Each $x_i$ > 1 and $x_i$ ≠ 2, 3
+
+Let $x_i$ >= 4: so define $y_i$ = $x_i$ - 4 -> $y_i$ >= 0
+
+$y_1$ + $y_2$ + $y_3$ + $y_4$ => $\frac{4+4-1}{3}$ = $\frac{7}{3}$ = 35
