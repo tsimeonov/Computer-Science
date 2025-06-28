@@ -181,3 +181,9 @@ Regex for: no "11", ends in "0":
 (0+10) \* 0
 
 All binary strings that do not contain "11" and end with
+
+`Question 5 (A)`
+
+- abc123
+- A1b2C3
+- z9
