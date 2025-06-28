@@ -78,3 +78,18 @@ is irrational,
 -> contradiction: $\frac{r}{\sqrt{3}}$ can't be both rational and irrational
 
 So, the product must be irrational
+
+`Question 2 (C)`
+
+Using inclusion-exclusion:
+Total solutions without constraints:
+
+$\frac{(12+3-1)}{2}$ = $\frac{(14)}{2}$ = 91
+
+Subtract:
+
+- x > 5 -> $\frac{8}{2}$ = 28
+- y > 6 -> $\frac{7}{2}$ = 21
+- z > 7 -> $\frac{6}{2}$ = 15
+
+91 - (28 + 21 + 15) = 27
