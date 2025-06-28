@@ -190,6 +190,24 @@ All binary strings that do not contain "11" and end with
 
 `Question 5 (B)`
 
-Regex: (0 + 1) _ 101 (0 + 1 )_
+Regex: (0 + 1) \* 101 (0 + 1 )\*
 
 Then filter out strings containgin "111"
+
+`Question 5 (C)`
+
+Use Pumping Lemma to show:
+
+L = {$a^p$ | p is prime} is not regualar.
+
+Assume regular -> pumping length p
+
+Pick {$a^p$ | p is prime} is not regular
+
+Assume regual -> pumping length p
+
+Pick $a^q$, where q > p,q prime
+
+Split $a^q$ = xyz, pump y: get length non-prime → contradiction.
+
+Not regular
