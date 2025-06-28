@@ -35,3 +35,12 @@ X ∪ (Y∖Z) = {2,4,6,8,10}
 Clearly, X ∉ {10}
 
 The anser is No, X ∉ X ∩ Y ∩ Z because elements like 2, 4, 6, and 8 are in X but not in the intersection.
+
+`Question 1 (A) iii`
+
+Step 1: Y ∩ Z = {10,12}
+Step 2: X ∪ ( Y ∩ Z) = {2,4,6,8,10,12}
+
+This set has 6 elements.
+
+So:∣ P ( X ∪ ( Y ∩ Z ) )∣= $2^6$ =64
