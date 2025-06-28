@@ -29,3 +29,7 @@ if Q, then R
 So,
 
 ( P ∨ Q ) → R holds.
+
+`Question 1 (B)`
+
+A, C, and D are tautologies.
