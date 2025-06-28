@@ -109,3 +109,24 @@ bad cases (two specific peopel together)
 Need at least 366 people to ensure a shared birthday
 
 The answer is 366
+
+`Qestion 3 (B)`
+
+- Total 8-letter passwords with no repeated letters
+  Total (no restriction)=P(26,8)=26×25×24×23×22×21×20×19
+- We must choose and arrange 8 distinct consonants from the 21 available.
+  All consonants (no vowels)=P(21,8)=21×20×19×18×17×16×15×14
+- Subtract to get number of valid passwords (at least one vowel)
+  Valid passwords=P(26,8)−P(21,8)
+
+$$
+{26 \times 25 \times 24 \times 23 \times 22 \times 21 \times 20 \times 19 - 21 \times 20 \times 19 \times 18 \times 17 \times 16 \times 15 \times 14}
+$$
+
+Which is
+
+$$
+{54,\!786,\!211,\!200}
+
+
+$$
