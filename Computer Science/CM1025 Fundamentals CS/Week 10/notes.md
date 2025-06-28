@@ -62,3 +62,19 @@ If $\frac{1}{f(x)}$ is not continuous, then f(x) = 0 at some point
 Because if f(x) ≠ 0 everywhere and is continuius, then $\frac{1}{f(x)}$ is continuous.
 
 It's Proved via contrapositive.
+
+`Question 2 (B)`
+
+Proof of contradiction:
+
+Assume $\sqrt{2}$ \* $\sqrt{3}$ = r, where r is rational and $\sqrt{2}$ is irrational
+
+Then:
+
+$\sqrt{3}$ = $\frac{r}{\sqrt{2}}$
+
+Since r is rational and $\sqrt{2}$ is irrational, $\frac{r}{\sqrt{2}}$
+is irrational,
+-> contradiction: $\frac{r}{\sqrt{3}}$ can't be both rational and irrational
+
+So, the product must be irrational
