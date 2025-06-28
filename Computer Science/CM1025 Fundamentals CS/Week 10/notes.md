@@ -165,3 +165,11 @@ String: "1101"
 
 - Loops on $q_1$ with extra 1s
 - Exits to accept via "01"
+
+`Question 4A iii`
+
+Modify DFA to accept even number of 1s.
+Track parity: even ↔ odd ↔ even.
+
+New string accepted: "1100"
+Not accepted under old DFA (no "101").
