@@ -67,7 +67,8 @@ It's Proved via contrapositive.
 
 Proof of contradiction:
 
-Assume $\sqrt{2}$ \* $\sqrt{3}$ = r, where r is rational and $\sqrt{2}$ is irrational
+Assume $\sqrt{2}$ \* $\sqrt{3}$ = r, where r is rational and $\sqrt{2}$ is
+irrational
 
 Then:
 
