@@ -173,3 +173,11 @@ Track parity: even ↔ odd ↔ even.
 
 New string accepted: "1100"
 Not accepted under old DFA (no "101").
+
+`Question 4 (B)`
+
+Regex for: no "11", ends in "0":
+
+(0+10) \* 0
+
+All binary strings that do not contain "11" and end with
