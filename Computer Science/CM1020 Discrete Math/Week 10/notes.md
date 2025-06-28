@@ -2,10 +2,27 @@
 
 `Question 1 (A) i`
 
-First: X ∩ Y ∩ Z
+Step 1: X ∩ Y ∩ Z
 
-Second: X ∩ Y = {4,6,8,10}
-
-Then: ( X ∩ Y ) ∩ Z = { 10 }
+- X ∩ Y = {4,6,8,10}
+- ( X ∩ Y ) ∩ Z = { 10 }
 
 The Answer is: X ∩ Y ∩ Z = {10}
+
+Step 2: Y ∖ Z (elements inY but not in Z)
+
+- Y = {4,6,8,10,12}
+- Z = {2,10,12,14,16}
+
+So:
+
+Y∖Z={4,6,8}
+
+Now: X ∪ (Y∖Z)
+
+- X = {2,4,6,8,10}
+- Y ∖ Z={4,6,8}
+
+So the union is:
+
+X ∪ (Y∖Z) = {2,4,6,8,10}
