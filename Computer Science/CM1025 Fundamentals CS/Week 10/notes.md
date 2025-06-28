@@ -158,3 +158,10 @@ DFA for accepting binary strings containing `"101"`:
 - Accepting State: q3
 
 - Accepts strings containing `"101"` as a substring.
+
+`Question 4A ii`
+
+String: "1101"
+
+- Loops on $q_1$ with extra 1s
+- Exits to accept via "01"
