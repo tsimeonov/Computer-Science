@@ -62,3 +62,9 @@ The only sets A satisfying P (A) ⊆ {∅,{∅},{{∅}}} are:
   A ⊆ B must hold.
 
 The statement is correct
+
+`Question 1 (D)`
+
+A ⊆ B and C ⊆ B only mean both sets are inside B, but they can still share elements.
+
+Being subsets of the same set does not imply disjointness.
