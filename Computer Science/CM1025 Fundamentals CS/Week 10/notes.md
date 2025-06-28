@@ -39,3 +39,18 @@ A, C, and D are tautologies.
 P → ( Q → R ) ≡ P → ( ¬ Q ∨ R ) ≡ ¬ P ∨ ¬ Q ∨ R ≡ ¬ ( P ∧ Q ) ∨ R ≡( P ∧ Q ) → R
 
 So both expressions are logically equivalent.
+
+`Question 1 (D)`
+
+Let:
+
+- C(x): "x owns a cat"
+- L(x): "x loves animals"
+
+Then:
+
+- Premise 1: ∀ x ( C( x ) → L ( x ) )
+- Premise 2: ∃ x C ( x )
+- Conclusion: ∃ x L ( x )
+
+`Valid by universal instantiation and modus ponens`.
