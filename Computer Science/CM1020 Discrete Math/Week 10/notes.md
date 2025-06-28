@@ -52,3 +52,9 @@ The only sets A satisfying P (A) ⊆ {∅,{∅},{{∅}}} are:
 - A=∅,
 - A={∅}
 - A={{∅}}
+
+`Question 1 (C)`
+
+A ⊆ B ⟺ A ∩ C ⊆ B ∩ C for all sets C
+
+The statement is correct
