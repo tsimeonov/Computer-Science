@@ -102,3 +102,10 @@ bad cases (two specific peopel together)
 (5 -1) ! \* 2 = 48
 
 120 - 48 = 72
+
+`Question 3 (A)`
+
+365 possible birthdays
+Need at least 366 people to ensure a shared birthday
+
+The answer is 366
