@@ -187,3 +187,9 @@ All binary strings that do not contain "11" and end with
 - abc123
 - A1b2C3
 - z9
+
+`Question 5 (B)`
+
+Regex: (0 + 1) _ 101 (0 + 1 )_
+
+Then filter out strings containgin "111"
