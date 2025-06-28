@@ -211,3 +211,16 @@ Pick $a^q$, where q > p,q prime
 Split $a^q$ = xyz, pump y: get length non-prime → contradiction.
 
 Not regular
+
+`Question 5 (D)`
+
+Let:
+
+- $G^1$ : S -> aSb | ε
+- $G^2$ : S -> aS | b
+
+String "aabb" ∈ $G_1$ (balanced recursion)
+
+Not ∈ $G_2$ (unbalanced structure)
+
+"aabb" ∈ L(G₁), but not ∈ L(G₂)
