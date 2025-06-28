@@ -54,3 +54,11 @@ Then:
 - Conclusion: ∃ x L ( x )
 
 `Valid by universal instantiation and modus ponens`.
+
+`Question 2 (A)`
+
+If $\frac{1}{f(x)}$ is not continuous, then f(x) = 0 at some point
+
+Because if f(x) ≠ 0 everywhere and is continuius, then $\frac{1}{f(x)}$ is continuous.
+
+It's Proved via contrapositive.
