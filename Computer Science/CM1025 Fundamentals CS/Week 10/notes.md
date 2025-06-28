@@ -93,3 +93,12 @@ Subtract:
 - z > 7 -> $\frac{6}{2}$ = 15
 
 91 - (28 + 21 + 15) = 27
+
+`Question 2 (D)`
+
+Total circular arrangements of 6 peole: (6 - 1)! = 120
+
+bad cases (two specific peopel together)
+(5 -1) ! \* 2 = 48
+
+120 - 48 = 72
