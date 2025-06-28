@@ -33,3 +33,9 @@ So,
 `Question 1 (B)`
 
 A, C, and D are tautologies.
+
+`Question 1 (C)`
+
+P → ( Q → R ) ≡ P → ( ¬ Q ∨ R ) ≡ ¬ P ∨ ¬ Q ∨ R ≡ ¬ ( P ∧ Q ) ∨ R ≡( P ∧ Q ) → R
+
+So both expressions are logically equivalent.
