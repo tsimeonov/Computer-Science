@@ -140,7 +140,7 @@ Let $x_i$ >= 4: so define $y_i$ = $x_i$ - 4 -> $y_i$ >= 0
 
 $y_1$ + $y_2$ + $y_3$ + $y_4$ => $\frac{4+4-1}{3}$ = $\frac{7}{3}$ = 35
 
-`Question 4A i`
+`Question 4 (A) i`
 
 DFA for accepting binary strings containing `"101"`:
 
@@ -159,14 +159,14 @@ DFA for accepting binary strings containing `"101"`:
 
 - Accepts strings containing `"101"` as a substring.
 
-`Question 4A ii`
+`Question 4 (A) ii`
 
 String: "1101"
 
 - Loops on $q_1$ with extra 1s
 - Exits to accept via "01"
 
-`Question 4A iii`
+`Question 4 (A) iii`
 
 Modify DFA to accept even number of 1s.
 Track parity: even ↔ odd ↔ even.
