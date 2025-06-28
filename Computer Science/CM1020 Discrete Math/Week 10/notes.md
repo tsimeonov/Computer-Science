@@ -55,6 +55,10 @@ The only sets A satisfying P (A) ⊆ {∅,{∅},{{∅}}} are:
 
 `Question 1 (C)`
 
-A ⊆ B ⟺ A ∩ C ⊆ B ∩ C for all sets C
+- (⇒) If A ⊆ B, then any element in A ∩ C is also in
+  B ∩ C. So the inclusion holds.
+- (⇐) If A ∩ C ⊆ B ∩ C for all C, choose C = A. Then:
+  A ∩ A = A ⊆ B ∩ A ⊆ B
+  A ⊆ B must hold.
 
 The statement is correct
