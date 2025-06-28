@@ -139,3 +139,22 @@ Each $x_i$ > 1 and $x_i$ ≠ 2, 3
 Let $x_i$ >= 4: so define $y_i$ = $x_i$ - 4 -> $y_i$ >= 0
 
 $y_1$ + $y_2$ + $y_3$ + $y_4$ => $\frac{4+4-1}{3}$ = $\frac{7}{3}$ = 35
+
+`Question 4A i`
+
+DFA for accepting binary strings containing `"101"`:
+
+- States: q0 (start), q1, q2, q3 (accepting)
+
+- Alphabet: {0, 1}
+
+- Transitions:
+
+  - q0 —1→ q1, q0 —0→ q0
+  - q1 —0→ q2, q1 —1→ q1
+  - q2 —1→ q3, q2 —0→ q0
+  - q3 —0/1→ q3 (stay in accepting)
+
+- Accepting State: q3
+
+- Accepts strings containing `"101"` as a substring.
