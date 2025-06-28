@@ -44,3 +44,11 @@ Step 2: X ∪ ( Y ∩ Z) = {2,4,6,8,10,12}
 This set has 6 elements.
 
 So:∣ P ( X ∪ ( Y ∩ Z ) )∣= $2^6$ =64
+
+`Question 1 (B)`
+
+The only sets A satisfying P (A) ⊆ {∅,{∅},{{∅}}} are:
+
+- A=∅,
+- A={∅}
+- A={{∅}}
