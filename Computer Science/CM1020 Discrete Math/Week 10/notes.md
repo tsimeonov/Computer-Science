@@ -26,3 +26,12 @@ Now: X ∪ (Y∖Z)
 So the union is:
 
 X ∪ (Y∖Z) = {2,4,6,8,10}
+
+`Question 1 (A) ii`
+
+- X = {2,4,6,8,10}
+- X ∩ Y ∩ Z = {10}
+
+Clearly, X ∉ {10}
+
+The anser is No, X ∉ X ∩ Y ∩ Z because elements like 2, 4, 6, and 8 are in X but not in the intersection.
