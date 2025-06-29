@@ -255,3 +255,9 @@ we can always choose small enough xy < 1
 `Question 4 (B) ii`
 
 There is no real x ≠ 0, and integer y such tha xy ≤ 1
+
+`Question 4 (B) iii`
+
+For any x ≠ 0, let y = $\frac{2}{x}$ ∈ R -> xy = x \* $\frac{2}{x}$ = 2
+
+So , it true such a y always exists
