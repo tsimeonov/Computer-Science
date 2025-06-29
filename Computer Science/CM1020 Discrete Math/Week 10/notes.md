@@ -100,3 +100,11 @@ g(${x}^2$ + b) = $\sqrt{x^2 + b + 3}$
 x + 6 $\sqrt{x}$ + 9 + b = $\sqrt{x^2 + b + 3}$
 
 - There is no value of b for which (f o g)(x) = (g o f)(x)
+
+`Question 2 (C)`
+
+- 2 $log_4$(x) = $log_4$($x^2$) => $log_4$($x^2$) - $log_4$(3x-2) = 0 => $log_4$ ($\frac{x^2}{3x-2}$) = 0
+
+- $\frac{x^2}{3x-2}$ = 1 => $x^2$ = 3x + 2 = 0 => (x-1)(x-2) = 0
+
+- x = 1 or x = 2
