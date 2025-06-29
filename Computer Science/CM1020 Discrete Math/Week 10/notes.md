@@ -213,3 +213,15 @@ r↔(p∧q)
 - Inverse
 
 ∀ x ∈ R, if $x^2$ − 3x + 2 ≤ 0 then 1 ≤ x ≤ 2
+
+`Question 3 (E)`
+
+Left Side
+
+(p∧q) ∨ (r→s) ≡ (p∧q) ∨ (¬r∨s)
+
+Right Side
+
+((p∨r) → s) ∧ ((q∨r) → s)
+
+The conclusion is the expression is not a tautology.
