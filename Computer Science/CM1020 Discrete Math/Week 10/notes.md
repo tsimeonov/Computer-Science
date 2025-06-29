@@ -151,3 +151,8 @@ This proves that g o f maps distinct inputs to disctinct outputs
 |  T  |  F  |  T  |   T   |      T      |   T   |   T   |         T         |
 |  T  |  T  |  F  |   F   |      T      |   T   |   F   |         F         |
 |  T  |  T  |  T  |   F   |      T      |   T   |   T   |         T         |
+
+`Question 3 (A) ii`
+
+- (p ⊕ q) -> r: not a tautology
+- (p V q) -> (p ∧ r): not a tautology
