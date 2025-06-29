@@ -108,3 +108,11 @@ x + 6 $\sqrt{x}$ + 9 + b = $\sqrt{x^2 + b + 3}$
 - $\frac{x^2}{3x-2}$ = 1 => $x^2$ = 3x + 2 = 0 => (x-1)(x-2) = 0
 
 - x = 1 or x = 2
+
+`Qestion 2 (D) i`
+
+f'(x) = $\frac{d}{dx}$ ($e^x$ + x ) = $e^x$ + 1 > 0
+
+ffor all x ∈ R\*
+
+Yes, f is one to one
