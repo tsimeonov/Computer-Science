@@ -86,3 +86,17 @@ Yes, this is a function from Z to Z
 f(x) is not defined for negative values of x
 
 So f is not a function from R to R
+
+`Question 2 (B)`
+
+- Compute both sides
+
+(f o g)(x) = f(g(x)) = f $(\sqrt{x} + 3)^2$ + b =
+c + $\sqrt{x}$ + 9 + b = (g o f) (x) + g (f(x)) =
+g(${x}^2$ + b) = $\sqrt{x^2 + b + 3}$
+
+- Set them equal
+
+x + 6 $\sqrt{x}$ + 9 + b = $\sqrt{x^2 + b + 3}$
+
+- There is no value of b for which (f o g)(x) = (g o f)(x)
