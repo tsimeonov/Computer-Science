@@ -229,3 +229,7 @@ The conclusion is the expression is not a tautology.
 `Question 4 (A) i`
 
 ∀ x (D(x) → M (x))
+
+`Question 4 (A) ii`
+
+∀ x (P(x) ∧ W (x) → H (x))
