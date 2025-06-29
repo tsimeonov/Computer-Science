@@ -225,3 +225,7 @@ Right Side
 ((p∨r) → s) ∧ ((q∨r) → s)
 
 The conclusion is the expression is not a tautology.
+
+`Question 4 (A) i`
+
+∀ x (D(x) → M (x))
