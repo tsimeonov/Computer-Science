@@ -295,3 +295,10 @@ So:
 `Question 5 (C)`
 
 (a+b)(c+d)=a⋅c+a⋅d+b⋅c+b⋅d
+
+`Question 5 (D) ii`
+
+|     | D=0 | D=1 |
+| :-: | :-: | :-: |
+| C=0 |  1  |  1  |
+| C=1 |  1  |  1  |
