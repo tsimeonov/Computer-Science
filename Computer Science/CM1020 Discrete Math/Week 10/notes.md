@@ -68,3 +68,9 @@ The statement is correct
 A ⊆ B and C ⊆ B only mean both sets are inside B, but they can still share elements.
 
 Being subsets of the same set does not imply disjointness.
+
+`Question 2 (A) i`
+
+f(x) is not defined for all x ∈ R
+
+So f is not a function from R to R
