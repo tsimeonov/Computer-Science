@@ -122,3 +122,19 @@ Yes, f is one to one
 f(x) never reaches values less than some bound
 
 So no, f is not onto.
+
+`Qestion 2 (E)`
+
+Let $a_1$, $a_1$ ∈ A and suppose:
+
+(g o f)($a_1$) = (g o f)($a_2$) => g(f($a_1$)) = g(f($a_2$))
+
+Since g is one-to one:
+
+f($a_1$) = f($a_2$)
+
+And since f is also one-to-one:
+
+$a_1$ = $a_2$
+
+This proves that g o f maps distinct inputs to disctinct outputs
