@@ -273,3 +273,17 @@ So:
 ¬[∀ x ∃y(M(x) ∧ N(y)) ∨ ∀z(K(z) → L(z))] ⇒ ¬∀x∃y(M(x) ∧ N(y)) ∧ ¬∀z(K(z) → L(z))
 
 ∃ x ∀ y¬(M(x) ∧ N(y)) ∧ ∃z(K(z) ∧ ¬L(z))
+
+`Question 5 (A) i`
+
+- Simplify:
+
+(p⋅q⋅r)+(r⋅s)
+
+- Negate:
+
+¬[(p⋅q⋅r)+(r⋅s)] = ¬(p⋅q⋅r)⋅¬(r⋅s)
+
+- Now apply again
+
+= (¬p+¬q+¬r)⋅(¬r+¬s)
