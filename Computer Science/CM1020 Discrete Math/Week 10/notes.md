@@ -251,3 +251,7 @@ Try x = -3 -> take y = -0.1:-3⋅0.1 = 0.3 < 1
 Try x = 0 -> take y = 1 => 0⋅1 = 0 < 1
 
 we can always choose small enough xy < 1
+
+`Question 4 (B) ii`
+
+There is no real x ≠ 0, and integer y such tha xy ≤ 1
