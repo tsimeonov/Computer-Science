@@ -116,3 +116,9 @@ f'(x) = $\frac{d}{dx}$ ($e^x$ + x ) = $e^x$ + 1 > 0
 ffor all x ∈ R\*
 
 Yes, f is one to one
+
+`Qestion 2 (D) ii`
+
+f(x) never reaches values less than some bound
+
+So no, f is not onto.
