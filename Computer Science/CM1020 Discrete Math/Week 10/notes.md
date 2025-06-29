@@ -237,3 +237,7 @@ The conclusion is the expression is not a tautology.
 `Question 4 (A) iii`
 
 ∃ x ∀ y(x ≠ y → L(x,y))
+
+`Question 4 (A) iv`
+
+∀ x ((A(x) ∧ W (x)) → F(x))
