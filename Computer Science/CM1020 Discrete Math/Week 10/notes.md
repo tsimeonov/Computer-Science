@@ -195,3 +195,7 @@ r→(p∧q)
 `Question 3 (C) ii`
 
 r→(p⊕q)
+
+`Question 3 (C) iii`
+
+r↔(p∧q)
