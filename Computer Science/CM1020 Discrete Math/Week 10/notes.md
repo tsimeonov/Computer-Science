@@ -138,3 +138,16 @@ And since f is also one-to-one:
 $a_1$ = $a_2$
 
 This proves that g o f maps distinct inputs to disctinct outputs
+
+`Question 3 (A) i`
+
+|  p  |  q  |  r  | p ⊕ q | (p ⊕ q) → r | p ∨ q | p ∧ r | (p ∨ q) → (p ∧ r) |
+| :-: | :-: | :-: | :---: | :---------: | :---: | :---: | :---------------: |
+|  F  |  F  |  F  |   F   |      T      |   F   |   F   |         T         |
+|  F  |  F  |  T  |   F   |      T      |   F   |   F   |         T         |
+|  F  |  T  |  F  |   T   |      F      |   T   |   F   |         F         |
+|  F  |  T  |  T  |   T   |      T      |   T   |   F   |         F         |
+|  T  |  F  |  F  |   T   |      F      |   T   |   F   |         F         |
+|  T  |  F  |  T  |   T   |      T      |   T   |   T   |         T         |
+|  T  |  T  |  F  |   F   |      T      |   T   |   F   |         F         |
+|  T  |  T  |  T  |   F   |      T      |   T   |   T   |         T         |
