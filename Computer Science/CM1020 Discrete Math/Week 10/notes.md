@@ -199,3 +199,17 @@ r→(p⊕q)
 `Question 3 (C) iii`
 
 r↔(p∧q)
+
+`Question 3 (D)`
+
+- Conrapositive
+
+∀ x ∈ R, if 1 ≤ x ≤ 2 then $x^2$ − 3 x + 2 ≤ 0
+
+- Converse
+
+∀ x ∈ R, if x > 2 or x < 1 then $x^2$ − 3x + 2 > 0
+
+- Inverse
+
+∀ x ∈ R, if $x^2$ − 3x + 2 ≤ 0 then 1 ≤ x ≤ 2
