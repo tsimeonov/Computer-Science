@@ -241,3 +241,13 @@ The conclusion is the expression is not a tautology.
 `Question 4 (A) iv`
 
 ∀ x ((A(x) ∧ W (x)) → F(x))
+
+`Question 4 (B) i`
+
+Try x = 5 -> take y = 0.1:5⋅0.1 = 0.5 < 1
+
+Try x = -3 -> take y = -0.1:-3⋅0.1 = 0.3 < 1
+
+Try x = 0 -> take y = 1 => 0⋅1 = 0 < 1
+
+we can always choose small enough xy < 1
