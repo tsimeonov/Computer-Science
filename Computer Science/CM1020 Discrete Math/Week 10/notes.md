@@ -80,3 +80,9 @@ So f is not a function from R to R
 Well defined for all integers, one output per input
 
 Yes, this is a function from Z to Z
+
+`Question 2 (A) iii`
+
+f(x) is not defined for negative values of x
+
+So f is not a function from R to R
