@@ -291,3 +291,7 @@ So:
 `Question 5 (A) ii`
 
 (x+y)⋅(x+y)⋅(y+z)=(x+y)⋅(y+z)
+
+`Question 5 (C)`
+
+(a+b)(c+d)=a⋅c+a⋅d+b⋅c+b⋅d
