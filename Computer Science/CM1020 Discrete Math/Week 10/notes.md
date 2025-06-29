@@ -74,3 +74,9 @@ Being subsets of the same set does not imply disjointness.
 f(x) is not defined for all x ∈ R
 
 So f is not a function from R to R
+
+`Question 2 (A) ii`
+
+Well defined for all integers, one output per input
+
+Yes, this is a function from Z to Z
