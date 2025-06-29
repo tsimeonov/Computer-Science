@@ -156,3 +156,34 @@ This proves that g o f maps distinct inputs to disctinct outputs
 
 - (p ⊕ q) -> r: not a tautology
 - (p V q) -> (p ∧ r): not a tautology
+
+`Question 3 (B)`
+
+We are given:
+
+- p = False
+- q = True
+- r = False
+- s = True
+
+The truth value needs to be evaluated
+
+((p∨¬r)∧(q→s))↔((¬p∧q)∨(r→s))
+
+- First the left side
+
+(p∨¬r)=(F∨¬F)=(F∨T)=T
+
+(q→s)=(T→T)=T
+
+T∧T=T
+
+- Right Side
+
+(¬p∧q)=(T∧T)=T
+
+(r→s)=(F→T)=T
+
+T∨T=T
+
+The conclusion is the compound proposition is true
