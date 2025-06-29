@@ -191,3 +191,7 @@ The conclusion is the compound proposition is true
 `Question 3 (C) i`
 
 r→(p∧q)
+
+`Question 3 (C) ii`
+
+r→(p⊕q)
