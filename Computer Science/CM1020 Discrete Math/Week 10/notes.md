@@ -187,3 +187,7 @@ T∧T=T
 T∨T=T
 
 The conclusion is the compound proposition is true
+
+`Question 3 (C) i`
+
+r→(p∧q)
