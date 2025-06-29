@@ -261,3 +261,15 @@ There is no real x ≠ 0, and integer y such tha xy ≤ 1
 For any x ≠ 0, let y = $\frac{2}{x}$ ∈ R -> xy = x \* $\frac{2}{x}$ = 2
 
 So , it true such a y always exists
+
+`Question 4 (C)`
+
+Using logical identity:
+
+¬ (P∨Q) ≡ ¬P ∧ ¬Q
+
+So:
+
+¬[∀ x ∃y(M(x) ∧ N(y)) ∨ ∀z(K(z) → L(z))] ⇒ ¬∀x∃y(M(x) ∧ N(y)) ∧ ¬∀z(K(z) → L(z))
+
+∃ x ∀ y¬(M(x) ∧ N(y)) ∧ ∃z(K(z) ∧ ¬L(z))
