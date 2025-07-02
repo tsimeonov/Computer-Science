@@ -54,14 +54,18 @@ Given the statement: "`x` squared is equal to 4"
 
 </details>
 
-<details>
-     <summary>Solution</summary>
-
-</details>
-
-<details>
-     <summary>Solution</summary>
-
-</details>
-
 #### Quantification
+
+<details>
+     <summary>Quantifiers</summary>
+
+     - Quantification expresses th extent to which a predicate is true over a range of elementss
+
+     - they express the meaning of the words all and some
+
+</details>
+
+<details>
+     <summary>Solution</summary>
+
+</details>
