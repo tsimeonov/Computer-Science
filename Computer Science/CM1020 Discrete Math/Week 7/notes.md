@@ -63,3 +63,5 @@ Given the statement: "`x` squared is equal to 4"
      <summary>Solution</summary>
 
 </details>
+
+#### Quantification
