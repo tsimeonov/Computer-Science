@@ -439,3 +439,25 @@ Both sets contains the same elements.
 </details>
 
 <br/>
+
+Read the following pages to consolidate your knowledge of the following topics: set operations; the complement of a set; symmetric difference; membership tables; De Morgan's laws; and set properties.
+
+Koshy, pp.78–86.
+
+Please also complete the following exercises on:
+
+pp.93: questions 5, 6, 7 , 8, 11, 12, 14, 17, 27, 34, 35, 39 and 42
+
+---
+
+### Week 3
+
+Read the following extracts to consolidate your knowledge of these topics: the definition of a function; the domain and co-domain; the range; injection (one-to-one); surjection (onto); and plotting functions.
+
+Koshy, pp.117–120, 122–123, 125 and 137–140.
+
+Once you’ve finished the reading, please attempt the following exercises:
+
+pp.123–124, exercises 1–4 and 25, 26, 41, 43.
+
+---
