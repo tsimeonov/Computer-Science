@@ -475,3 +475,29 @@ Once you’ve finished the reading, attempt the following exercises:
 - pp.155 exercises 1–8, 13, 15, 16.
 
 ---
+
+### Week 5
+
+Read the following pages to consolidate your knowledge of these topics: the definition of a proposition; truth tables and truth set; and compound propositions.
+
+Rosen, K.H. Discrete Mathematics and its Applications. (New York: McGraw Hill, 2012) 7th Edition [ISBN 9780073383095]
+pp.1–6
+.
+
+Once you’ve finished the readings, please attempt the following exercises from Rosen (2012):
+
+- pp.12 exercises 1–4
+
+- pp.13 exercises 5, 6, 8 (a, b, d, e, g and h), 9 (a, b, c and h)
+
+- pp. 15 exercises 34 and 36.
+
+You should also read the following:
+
+Koshy, pp.2–9.
+
+Once you’ve finished these pages, please attempt the following exercises from the Koshy (2004):
+
+- pp.17 exercises 3, 6, 9, 16, 19, 23, 25 and 31.
+
+---
