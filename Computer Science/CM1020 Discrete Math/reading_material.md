@@ -446,7 +446,7 @@ Koshy, pp.78–86.
 
 Please also complete the following exercises on:
 
-pp.93: questions 5, 6, 7 , 8, 11, 12, 14, 17, 27, 34, 35, 39 and 42
+- pp.93: questions 5, 6, 7 , 8, 11, 12, 14, 17, 27, 34, 35, 39 and 42
 
 ---
 
@@ -458,6 +458,20 @@ Koshy, pp.117–120, 122–123, 125 and 137–140.
 
 Once you’ve finished the reading, please attempt the following exercises:
 
-pp.123–124, exercises 1–4 and 25, 26, 41, 43.
+- pp.123–124, exercises 1–4 and 25, 26, 41, 43.
+
+---
+
+### Week 4
+
+Read the following extract to consolidate your knowledge on these topics: function composition; bijections; and the floor and ceiling functions.
+
+Koshy, pp.125–128 and 150–153.
+
+Once you’ve finished the reading, attempt the following exercises:
+
+- pp.134 exercises 1–3, 5, 6, 10, 11.
+
+- pp.155 exercises 1–8, 13, 15, 16.
 
 ---
