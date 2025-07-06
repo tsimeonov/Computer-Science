@@ -78,3 +78,17 @@ R = the set of real numbers
 <br/>
 
 </details>
+
+<details>
+     <summary>1.3.3. Empty set (∅)</summary>
+
+The empty set, also known as the `null set`, is a fundamental concept in set theory and mathematics.
+It is the set that contains no elements.
+
+`Definition 3`. The empty set is a set with no elements. It is denoted by ∅ or {}.
+
+In mathematical notation ∅ = {}
+
+<br/>
+
+</details>
