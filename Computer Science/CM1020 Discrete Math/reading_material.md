@@ -615,3 +615,11 @@ Please also complete the following exercises from the same book (Koshy 2004):
 - pp.849–850, exercises 1–5 and 25–31.
 
 ---
+
+### Week 11
+
+Read the following pages from the Levin textbook. These pages will cover the following topics: the definition of mathematical induction; the structure of induction; examples of correct and mistaken proofs by induction; the definition and examples of strong induction; and the definition and examples of the well-ordering property.
+
+- Levin, pp.177–88.
+
+---
