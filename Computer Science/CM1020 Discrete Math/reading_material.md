@@ -374,3 +374,42 @@ A ∪ B = {1,2,3} and A ∩ (A ∪ B) = {1,2} = A.
 </details>
 
 <br/>
+
+<details>
+     <summary>2.8 Double negation laws</summary>
+
+The double negation law states that taking the complement of a complement returns the original set.
+Let A be a set and U the universal set, then
+(Ac)c = A
+Example:
+If U = {1,2,3} and A = {1,2} , then
+Ac = {3} and (Ac)c = {1,2} = A.
+
+</details>
+
+<br/>
+
+2.9 De Morgan's laws
+
+De Morgan’s laws relate the complement of the union of sets to the intersection of their complements, and vice versa.
+
+<details>
+     <summary>2.9.1 Complement of union:</summary>
+
+The complement of the union of two sets is equal to the intersection of their complements.
+
+Let A,B, and C be three sets, then
+
+$(A ∪ B)^c$ = $A^c$ ∩ $B^c$
+
+Example:
+
+if U = {1,2,3,4}, A = {1,2} and B = {2,3}, then
+
+A ∪ B = {1,2,3}, $(A ∪ B)^c$ = {4}, and $A^c$ ∩ $B^c$ = {4}
+
+Both sets contains the same elements.
+
+</details>
+
+<br/>
