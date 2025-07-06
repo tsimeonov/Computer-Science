@@ -264,3 +264,20 @@ Both sets are equal.
 2.5 Identity laws
 
 The identity laws state that combining a set with the universal set or the empty set yields the set itself.
+
+<br/>
+
+<details>
+     <summary>2.5.1 Union with empty set</summary>
+
+Let A be a set, then
+
+A ∪ ∅ = A
+
+Example: If
+
+A = {1,2} , then A ∪ ∅ = {1,2} = A
+
+</details>
+
+<br/>
