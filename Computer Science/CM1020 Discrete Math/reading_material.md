@@ -126,3 +126,10 @@ Once you’ve finished reading, attempt the following questions from Exercises 2
 ### Week 2
 
 2. Laws of sets: Commutative, associative and distributives
+
+<details>
+     <summary>2.1 Introduction</summary>
+
+In set theory, several fundamental laws govern how sets interact with each other. These laws help in understanding and manipulating sets. Here’s a detailed overview of each law, with examples.
+
+</details>
