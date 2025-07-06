@@ -217,6 +217,27 @@ Both sets are equal.
 
 </details>
 
+<br/>
+
 2.4 Distributive laws
 
 The distributive laws describe how union and intersection distribute over each other.
+
+<details>
+     <summary>2.4.1 Union over intersection</summary>
+
+Let A, B and C be three sets, then
+
+A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+
+Example:
+
+If A={1,2} , B={2,3} , and C={2,4} , then
+
+A ∪ (B ∩ C) = {1,2} and (A ∪ B) ∩ (A ∪ C) = {1,2}
+
+Both sets are equal.
+
+</details>
+
+<br/>
