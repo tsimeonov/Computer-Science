@@ -153,3 +153,26 @@ A ∪ B = {1,2,3} and B ∪ A = {1,2,3}
 Both sets are equal.
 
 </details>
+
+<br/>
+
+<details>
+     <summary>2.2.2 Intersection</summary>
+
+Let A and B be two sets, then
+
+A ∩ B = B ∩ A
+
+A ∩ B = B ∩ A
+
+Example:
+
+If A = {1,2} and B = {2,3}, then
+
+A ∩ B = {2} and B ∩ A = {2}
+
+Both sets are equal.
+
+</details>
+
+<br/>
