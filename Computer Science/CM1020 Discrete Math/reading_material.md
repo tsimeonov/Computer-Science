@@ -199,3 +199,20 @@ Both sets are equal.
 </details>
 
 <br/>
+
+<details>
+     <summary>2.3.2 Intersection</summary>
+
+Let A, B and C be three sets, then
+
+A ∩ B ∩ C = A ∩ (B ∩ C)
+
+Example:
+
+If A={1,2,3}, B={2,3,4}, and C = {3,4,5}, then
+
+(A ∩ B) ∩ C = {3}and A ∩ (B ∩ C) = {3}.
+
+Both sets are equal.
+
+</details>
