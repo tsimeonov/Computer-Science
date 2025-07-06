@@ -62,6 +62,8 @@ Clearly 4 is not an element of A. We write 4 ∉ A.
 
 </details>
 
+<br/>
+
 <details>
      <summary>1.3.2 Special sets of numbers</summary>
 
@@ -79,6 +81,8 @@ R = the set of real numbers
 
 </details>
 
+<br/>
+
 <details>
      <summary>1.3.3. Empty set (∅)</summary>
 
@@ -93,6 +97,8 @@ In mathematical notation ∅ = {}
 
 </details>
 
+<br/>
+
 <details>
      <summary>1.3.4 Finite and infinite sets</summary>
 
@@ -104,6 +110,15 @@ Infinite set: A set with an unlimited number of elements.
 
 Example: The set of natural numbers N = {1,2,3,…}
 
+</details>
+
 <br/>
 
-</details>
+Read the following extracts from the Koshy textbook. These pages will cover the following topics: the definition of a set; elements of a set; cardinality of a set; listing method; set builder method; subsets of a set; and powersets.
+
+Koshy, T. Discrete Mathematics with Applications. (Burlington: Elsevier Academic Press, 2004),
+pp. 67–70 and pp.72–75.
+
+Once you’ve finished reading, attempt the following questions from Exercises 2.1 on pp.76: 1–27, 30–36 and 41–44.
+
+---
