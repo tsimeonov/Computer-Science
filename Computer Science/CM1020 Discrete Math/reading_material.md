@@ -131,9 +131,25 @@ Once you’ve finished reading, attempt the following questions from Exercises 2
 
 In set theory, several fundamental laws govern how sets interact with each other. These laws help in understanding and manipulating sets. Here’s a detailed overview of each law, with examples.
 
-<details>
-     <summary>2.1 Introduction</summary>
+2.2 Commutative laws
 
-In set theory, several fundamental laws govern how sets interact with each other. These laws help in understanding and manipulating sets. Here’s a detailed overview of each law, with examples.
+The commutative laws state that the order in which two sets are combined does not affect the result.
+
+<details>
+     <summary>2.2.1 Union</summary>
+
+Let A and B be two sets, then:
+
+A ∪ B = B ∪ A
+
+A ∪ B = B ∪ A
+
+Example:
+
+If A={1,2} and B={2,3}, then
+
+A ∪ B = {1,2,3} and B ∪ A = {1,2,3}
+
+Both sets are equal.
 
 </details>
