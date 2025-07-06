@@ -3,13 +3,13 @@
 1. The Definition of a Set
 
 <details>
-     <summary>1.1 Introduction</summary>
+    <summary>1.1 Introduction</summary>
 
 <br/>
 
 A set is a fundamental concept in mathematics and computer science. It’s a collection of distinct objects, considered as an object in its own right. Sets are used to group related items together and to perform operations on these groups
 
-<detail/>
+</details>
 
 <details>
      <summary>1.2 Definition of a set</summary>
@@ -22,11 +22,4 @@ Definition 2. A set is an unordered collection of distinct elements.
 For example: The set of primary colours can be written as {red, blue, yellow}
 Elements of a set are also called members.
 
-<detail/>
-
-<details>
-     <summary>1.1 </summary>
-
-<br/>
-
-<detail/>
+</details>
