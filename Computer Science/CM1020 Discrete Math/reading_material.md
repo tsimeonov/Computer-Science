@@ -357,3 +357,20 @@ A ∩ B = {2} and A ∪ (A ∩ B) = {1,2} = A.
 </details>
 
 <br/>
+
+<details>
+     <summary>2.7.2 Intersection</summary>
+
+Let A and B be two sets, then
+
+A ∩ (A ∪ B) = A
+
+Example:
+
+If A = {1,2} and B = {2,3} , then
+
+A ∪ B = {1,2,3} and A ∩ (A ∪ B) = {1,2} = A.
+
+</details>
+
+<br/>
