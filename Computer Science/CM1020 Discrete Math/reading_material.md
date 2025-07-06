@@ -334,3 +334,7 @@ $A^c$ = {3} and A ∩ $A^c$ = ∅
 </details>
 
 <br/>
+
+2.7 Absorption laws
+
+The absorption laws simplify expressions by showing how combining a set with another set and their union or intersection affects the result.
