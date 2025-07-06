@@ -281,3 +281,16 @@ A = {1,2} , then A ∪ ∅ = {1,2} = A
 </details>
 
 <br/>
+
+<details>
+     <summary>2.5.2 Intersection with universal set:</summary>
+
+Let A be a set, then
+
+A ∩ U = A
+
+Example: If A = {1,2} and U is the universal set, then A ∩ U = {1,2} = A
+
+</details>
+
+<br/>
