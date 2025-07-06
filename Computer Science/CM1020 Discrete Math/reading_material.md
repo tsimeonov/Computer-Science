@@ -398,6 +398,8 @@ $A^c$ = {3} and ($A^c)^c$ = {1,2} = A.
 
 De Morgan’s laws relate the complement of the union of sets to the intersection of their complements, and vice versa.
 
+<br/>
+
 <details>
      <summary>2.9.1 Complement of union:</summary>
 
@@ -412,6 +414,25 @@ Example:
 if U = {1,2,3,4}, A = {1,2} and B = {2,3}, then
 
 A ∪ B = {1,2,3}, $(A ∪ B)^c$ = {4}, and $A^c$ ∩ $B^c$ = {4}
+
+Both sets contains the same elements.
+
+</details>
+
+<br/>
+
+<details>
+     <summary>2.9.2 Complement of intersection:</summary>
+
+Let a, B and C be three sets, then
+
+$(A ∩ B)^c$ = $A^c$ ∪ $B^c$
+
+Example:
+
+if U = {1,2,3,4}, A = {1,2} and B = {2,3}, then
+
+A ∩ B = {1,2,3}, $(A ∩ B)^c$ = {4}, and $A^c$ ∪ $B^c$ = {4}
 
 Both sets contains the same elements.
 
