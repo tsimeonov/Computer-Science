@@ -557,3 +557,31 @@ Once you’ve finished the reading, please attempt the following exercises from 
 - pp.36–37 exercises 1, 2, 3, 21, 22.
 
 ---
+
+### Week 8
+
+Read the following pages to consolidate your knowledge of the following topics: De Morgan’s laws; rules of inference; rules of inference with quantifiers.
+
+- Rosen, pp.46–47 and pp.69–79.
+
+Once you’ve finished the readings, please attempt the following exercises from Rosen (2012):
+
+- pp.55 exercises 32, 33 and 34
+
+- pp.79 exercises 2, 3, 12, 13 and 16
+
+- pp.80 exercises 23, 29 and 30.
+
+Koshy, pp.43–44 .
+
+Levin, pp.6, 202–203 and 205–209 .
+
+(This work is licensed under the
+Creative Commons Attribution-Share Alike 4.0 International License
+.)
+
+Please also complete the following exercises from Levin (2019):
+
+- pp.209–211, exercises 9, 12, 13, 14 and 15.
+
+---
