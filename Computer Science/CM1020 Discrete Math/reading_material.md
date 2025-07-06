@@ -260,3 +260,7 @@ Both sets are equal.
 </details>
 
 <br/>
+
+2.5 Identity laws
+
+The identity laws state that combining a set with the universal set or the empty set yields the set itself.
