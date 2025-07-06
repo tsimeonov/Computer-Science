@@ -623,3 +623,15 @@ Read the following pages from the Levin textbook. These pages will cover the fol
 - Levin, pp.177–88.
 
 ---
+
+### Week 12
+
+Read the following extracts from the Koshy textbook. These pages cover the following topics: the definition of recursion; recursively defined functions; recursively defined sets; and recursively defined algorithms and examples.
+
+Koshy, pp.104–06, pp.261–66 and pp.278–82 .
+
+Once you’ve finished the reading, attempt the following exercises from Koshy (2004):
+
+- p.283, exercises 1–6.
+
+---
