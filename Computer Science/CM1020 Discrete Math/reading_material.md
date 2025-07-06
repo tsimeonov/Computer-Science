@@ -585,3 +585,17 @@ Please also complete the following exercises from Levin (2019):
 - pp.209–211, exercises 9, 12, 13, 14 and 15.
 
 ---
+
+### Week 9
+
+Read the following pages to consolidate your knowledge of these topics: the definition of Boolean algebra; Huntington’s postulates; De Morgan’s theorems; the principle of duality; and algebraic forms.
+
+- Koshy, pp.804–811 and 813–816 .
+
+Please also complete the following exercises:
+
+- p.812 exercises 36, 38, 39, 47 and 50.
+
+- p.822 exercises 13, 17, 18 and 22.
+
+---
