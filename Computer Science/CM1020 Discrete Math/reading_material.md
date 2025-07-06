@@ -529,3 +529,31 @@ Once you have finished the reading, please attempt the following exercises from 
 - p.29 exercises 3–7, 11 and 35–37.
 
 ---
+
+### Week 7
+
+Read the following pages to consolidate your knowledge of the following topics: the definition of predicates; quantifiers; logical operators; nested quantifiers.
+
+Rosen,
+
+- pp.36–45 and pp.57–62.
+
+Once you’ve finished the readings, please attempt the following exercises from Rosen (2012):
+
+- pp.53 exercises 1, 4, 5 , 7, 16,
+
+- pp.54 exercises 21, 25 and 27,
+
+- pp.56 exercises 43, 45, And 53,
+
+- pp.64 exercises 1, 2 and 3.
+
+Koshy,
+
+- pp.32–35.
+
+Once you’ve finished the reading, please attempt the following exercises from Koshy (2004):
+
+- pp.36–37 exercises 1, 2, 3, 21, 22.
+
+---
