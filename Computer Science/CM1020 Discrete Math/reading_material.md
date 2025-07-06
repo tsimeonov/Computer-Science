@@ -216,3 +216,7 @@ If A={1,2,3}, B={2,3,4}, and C = {3,4,5}, then
 Both sets are equal.
 
 </details>
+
+2.4 Distributive laws
+
+The distributive laws describe how union and intersection distribute over each other.
