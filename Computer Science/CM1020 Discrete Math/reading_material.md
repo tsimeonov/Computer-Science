@@ -501,3 +501,31 @@ Once you’ve finished these pages, please attempt the following exercises from 
 - pp.17 exercises 3, 6, 9, 16, 19, 23, 25 and 31.
 
 ---
+
+### Week 6
+
+Consolidate your understanding by reading the following pages on these topics: logical implication; converse, contrapositive and inverse; equivalence; the laws of propositional logic (including De Morgan's laws); and the precedence of logical operators.
+
+Rosen, pp.6–11 and pp 25–31 .
+
+Once you’ve finished the readings, please attempt the following exercises from the same book (Rosen 2012):
+
+- pp.14: exercises 22–23,
+
+- pp.13: exercises 10, 11, 12 and 14,
+
+- pp.15: exercises 32, 33, 35 and 37,
+
+- pp.35: exercises 9, 30, 31 and 34.
+
+Koshy,
+
+- pp.9–12, pp.15–16 and pp.20–25 .
+
+Once you have finished the reading, please attempt the following exercises from the same book (Koshy 2004):
+
+- p.19 exercises 54–56,
+
+- p.29 exercises 3–7, 11 and 35–37.
+
+---
