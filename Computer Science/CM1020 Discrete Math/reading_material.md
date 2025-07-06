@@ -338,3 +338,22 @@ $A^c$ = {3} and A ∩ $A^c$ = ∅
 2.7 Absorption laws
 
 The absorption laws simplify expressions by showing how combining a set with another set and their union or intersection affects the result.
+
+<br/>
+
+<details>
+     <summary>2.7.1 Union</summary>
+
+Let A and B be two sets, then
+
+A ∪ (A ∩ B) = A
+
+Example:
+
+If A = {1,2} and B={2,3} , then
+
+A ∩ B = {2} and A ∪ (A ∩ B) = {1,2} = A.
+
+</details>
+
+<br/>
