@@ -599,3 +599,19 @@ Please also complete the following exercises:
 - p.822 exercises 13, 17, 18 and 22.
 
 ---
+
+### Week 10
+
+Read the following pages to consolidate your knowledge of these topics: the definition of a gate and a circuit; writing Boolean expressions; and circuit simplification (including algebraic and Karnaugh maps).
+
+- Koshy, pp.824–837 and 840–848.
+
+Please also complete the following exercises from the same book (Koshy 2004):
+
+- p.829, exercises 1–10
+
+- pp.837–838, exercises 1–10, 12, 28
+
+- pp.849–850, exercises 1–5 and 25–31.
+
+---
