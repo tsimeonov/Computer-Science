@@ -61,3 +61,20 @@ For example: let A be a set with A = {1,2,3}.
 Clearly 4 is not an element of A. We write 4 ∉ A.
 
 </details>
+
+<details>
+     <summary>1.3.2 Special sets of numbers</summary>
+
+We designate these notations for some special sets of numbers:
+
+N = the set of natural numbers (positive integers)
+
+Z = the set of integers
+
+Q = the set of rational numbers
+
+R = the set of real numbers
+
+<br/>
+
+</details>
