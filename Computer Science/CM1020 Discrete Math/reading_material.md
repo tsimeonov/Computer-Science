@@ -92,3 +92,18 @@ In mathematical notation ∅ = {}
 <br/>
 
 </details>
+
+<details>
+     <summary>1.3.4 Finite and infinite sets</summary>
+
+`Finite set`: A set with a limited number of elements.
+
+Example: {2,4,6}
+
+Infinite set: A set with an unlimited number of elements.
+
+Example: The set of natural numbers N = {1,2,3,…}
+
+<br/>
+
+</details>
