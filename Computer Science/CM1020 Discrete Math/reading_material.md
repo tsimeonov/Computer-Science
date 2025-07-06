@@ -241,3 +241,22 @@ Both sets are equal.
 </details>
 
 <br/>
+
+<details>
+     <summary>2.4.2 Intersection over union</summary>
+
+Let A, B and C be three sets, then
+
+A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+
+Example:
+
+If A = {1,2,3} , B = {2,3,4} , and C = {3,4,5} , then
+
+A ∩ (B ∪ C) = {2,3} and (A ∩ B) ∪ (A ∩ C) = {2,3}
+
+Both sets are equal.
+
+</details>
+
+<br/>
