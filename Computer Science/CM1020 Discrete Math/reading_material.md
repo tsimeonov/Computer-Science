@@ -294,3 +294,7 @@ Example: If A = {1,2} and U is the universal set, then A ∩ U = {1,2} = A
 </details>
 
 <br/>
+
+2.6 Complement laws
+
+The complement laws describe the relationship between a set and its complement. Please note that the notation Ac and A‾ both represent the same concept in set theory and logic:
