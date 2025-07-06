@@ -122,3 +122,7 @@ pp. 67–70 and pp.72–75.
 Once you’ve finished reading, attempt the following questions from Exercises 2.1 on pp.76: 1–27, 30–36 and 41–44.
 
 ---
+
+### Week 2
+
+2. Laws of sets: Commutative, associative and distributives
