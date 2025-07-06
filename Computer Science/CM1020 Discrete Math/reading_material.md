@@ -379,11 +379,16 @@ A ∪ B = {1,2,3} and A ∩ (A ∪ B) = {1,2} = A.
      <summary>2.8 Double negation laws</summary>
 
 The double negation law states that taking the complement of a complement returns the original set.
+
 Let A be a set and U the universal set, then
-(Ac)c = A
+
+($A^c)^c$ = A
+
 Example:
+
 If U = {1,2,3} and A = {1,2} , then
-Ac = {3} and (Ac)c = {1,2} = A.
+
+$A^c$ = {3} and ($A^c)^c$ = {1,2} = A.
 
 </details>
 
