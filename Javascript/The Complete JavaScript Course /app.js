@@ -25,3 +25,5 @@ const createBooking = function (
 createBooking('LH123');
 createBooking('LH123', 2, 800);
 createBooking('LH123', 5);
+
+createBooking('LH123', undefined, 1000);
