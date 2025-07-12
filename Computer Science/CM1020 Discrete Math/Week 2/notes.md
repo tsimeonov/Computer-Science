@@ -12,3 +12,19 @@ The concept of a funciton is a central to computer programming.
 Most of what a programmer writes consists of "functions" that do parts of the work of the program.
 
 </details>
+
+<details>
+  <summary>Definition of a function</summary>
+  
+```mermaid
+Set 1 ─────▶ [ function ] ─────▶ Set 2
+
+           ↘                ↙
+             Collection of things:
+               numbers,  
+               letters,...
+```
+
+</details>
+
+
