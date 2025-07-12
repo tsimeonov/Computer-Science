@@ -114,7 +114,18 @@ Most of what a programmer writes consists of "functions" that do parts of the wo
 
   <br/>
   
-<img src="./images.png" width="500px"/>
+<img src="./images.png" width="600px"/>
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Example: This relation is not a function</summary>
+
+  <br/>
+  
+<img src="./example_1.png" width="500px"/>
 
 </details>
 
