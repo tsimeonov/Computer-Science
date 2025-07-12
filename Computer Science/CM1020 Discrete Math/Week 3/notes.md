@@ -141,3 +141,28 @@ Most of what a programmer writes consists of "functions" that do parts of the wo
 </details>
 
 <br/>
+
+<details>
+  <summary>Exercise 1</summary>
+
+  <br/>
+  
+Given the following function: f:  Z -> Z with f(x) = |x|
+
+🔍 Step-by-step explanation:
+
+1. Notation:
+
+- f is a function.
+- Z is the set of all integers:
+
+        Z = {...,−3,−2,−1,0,1,2,3,...}
+
+- So f : Z → Z means:
+
+    - The domain is Z (you can plug in any integer) 
+    - The co-domain is also Z (outputs are expected to be integers)
+
+</details>
+
+<br/>
