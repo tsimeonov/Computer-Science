@@ -186,3 +186,8 @@ So for example:
 </details>
 
 <br/>
+
+
+----
+
+#### `Plotting a function`
