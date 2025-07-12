@@ -74,3 +74,21 @@ y is called the image of x, whereas x is called the pre-image of y.
 We write `f(x) = y`
 
 </details>
+
+<br/>
+
+<details>
+  <summary>Domain, co-domain and range</summary>
+
+  <br/>
+  
+<img src="./domain, co-domain.png" width="400px"/>
+
+<br/>
+
+Domain: $D_f$ = A = {on, sea, land, sky}
+
+Co-domain: Co-$D_f$ = B = {1,2,3,4,5,6}
+
+Range: $R_f$ = {2,3,4}
+</details>
