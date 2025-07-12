@@ -163,6 +163,26 @@ Given the following function: f:  Z -> Z with f(x) = |x|
     - The domain is Z (you can plug in any integer) 
     - The co-domain is also Z (outputs are expected to be integers)
 
+    2. Function rule:
+
+    f(x)=∣x∣
+
+This is the absolute value function, which means:
+
+-   If x ≥ 0, then f(x) = x
+- If  x < 0, then f(x) = −x
+
+So for example:
+- f(3) = ∣3∣ = 3
+- f(−3) = ∣−3∣ = 3
+- f(0) = ∣0∣ = 0
+
+`Summary`
+
+- Domain: Z
+- Co-domain: Z
+- Range (actual output): Z = {0,1,2,3,4...}
+
 </details>
 
 <br/>
