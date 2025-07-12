@@ -91,4 +91,31 @@ Domain: $D_f$ = A = {on, sea, land, sky}
 Co-domain: Co-$D_f$ = B = {1,2,3,4,5,6}
 
 Range: $R_f$ = {2,3,4}
+
 </details>
+
+<br />
+
+<details>
+  <summary>Introduction</summary>
+  
+A function is a relation that assigns exactly one output to each input from a given set.
+
+The concept of a funciton is a central to computer programming.
+
+Most of what a programmer writes consists of "functions" that do parts of the work of the program.
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Images and pre-images</summary>
+
+  <br/>
+  
+<img src="./images.png" width="500px"/>
+
+</details>
+
+<br/>
