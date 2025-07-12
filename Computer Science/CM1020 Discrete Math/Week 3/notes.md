@@ -130,3 +130,14 @@ Most of what a programmer writes consists of "functions" that do parts of the wo
 </details>
 
 <br/>
+
+<details>
+  <summary>Example: This relation is a function</summary>
+
+  <br/>
+  
+<img src="./example_2.png" width="500px"/>
+
+</details>
+
+<br/>
