@@ -246,6 +246,14 @@ f(x) = 3x + 2
 <details>
   <summary>Decreasing Linear Function</summary>
 
+A `descreasing linear function` is a function whose graph slopes `downwards` from left to right.
+This happens when the `slope` m is `negative`.
+
+🧮 General Form: f(x) = mx + b where m < 0
+
+- m: the slope (negative for decreasing)
+- b: the y-intercept
+
 </details>
 
 <br/>
