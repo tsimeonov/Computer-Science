@@ -191,3 +191,28 @@ So for example:
 ----
 
 #### `Plotting a function`
+
+<br/>
+
+<details>
+  <summary>Linear function</summary>
+  
+  f(x) = mx + b
+
+  - A `linear function `is a function whose graph is a straight line
+  - m: Slope (rate of change)
+  - b: Y-intercept (ehere the line crosses the y-axis)
+
+Example: f(x) = 2x + 1
+
+This is a straight line with:
+
+- Slope (m) = 2
+
+- Y-intercept (b) = 1
+
+<img src="./linear function.png" width="300px" border-radius="10px"/>
+
+</details>
+
+<br/>
