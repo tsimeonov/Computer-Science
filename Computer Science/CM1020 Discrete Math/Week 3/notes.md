@@ -284,6 +284,17 @@ A Polynomial is a mathematica expression consisting of variables, coefficien, in
 
 <img src="./polynomial.png" width="170px" style = "border-radius: 10px"/>
 
+<br/>
+
+🧮 General Form:
+
+f(x) = $ax^2$ + bx + c
+
+Where:
+
+- a,b and c are real constants
+- a ≠ 0
+
 </details>
 
 <br/>
