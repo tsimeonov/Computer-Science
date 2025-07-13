@@ -352,6 +352,18 @@ f(x) = $x^2$ + 1
 
 An exponential function is a function where the variable is in the exponent, typically used to model growth or decay.
 
+🧮 General Form:
+
+f(x) = $a*b^2$
+
+Where:
+
+- a = initial value (when
+- b = base (rate of growth or decay)
+  - If b > 1: exponential growth
+  - If 0 < b < 1: exponential decay
+- x = exponent (independent variable)
+
 </details>
 
 <br/>
