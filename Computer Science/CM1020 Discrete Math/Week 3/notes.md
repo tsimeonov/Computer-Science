@@ -254,6 +254,17 @@ This happens when the `slope` m is `negative`.
 - m: the slope (negative for decreasing)
 - b: the y-intercept
 
+✅ Example:
+
+f(x) = -3x + 2
+
+📉 Key Properties:
+
+- Slope (m): −3 → negative, so this is a decreasing linear function
+- Y-intercept (b): 2 → the graph crosses the y-axis at(0,2)
+
+<img src="./decreasing linear function.png" width="250px" style = "border-radius: 10px"/>
+
 </details>
 
 <br/>
