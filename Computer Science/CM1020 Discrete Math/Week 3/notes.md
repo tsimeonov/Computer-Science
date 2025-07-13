@@ -34,11 +34,10 @@ This function takes an element of the set 1 and maps it to an element of the set
 `Definition`: A function `f` from a set `A` to a set `B` is an assignement of exactly one element of `B` to each element of `A`.
 
 If f is a fucntion from A to B we write:
-    
+
     `f: A -> B`
 
 This can be read as `f maps A to B`
-
 
 The expression
 
@@ -60,12 +59,12 @@ Breakdown:
 <details>
   <summary>Terminology</summary>
   
-Given a function: `f: A -> B` 
+Given a function: `f: A -> B`
 
 `x ∈ A -> f(x) = y ∈ B`
 
 A is the set of inputs and is called the domain of f. We write $D_f$ = A .
-B is the set containing the outputs and is called the co-domain of f. We 
+B is the set containing the outputs and is called the co-domain of f. We
 write co-$D_f$ = B.
 
 The set of outputs is called the range of f and it is written as $R_f$.
@@ -160,19 +159,20 @@ Given the following function: f:  Z -> Z with f(x) = |x|
 
 - So f : Z → Z means:
 
-    - The domain is Z (you can plug in any integer) 
-    - The co-domain is also Z (outputs are expected to be integers)
+  - The domain is Z (you can plug in any integer)
+  - The co-domain is also Z (outputs are expected to be integers)
 
-    2. Function rule:
+  2. Function rule:
 
-    f(x)=∣x∣
+  f(x)=∣x∣
 
 This is the absolute value function, which means:
 
--   If x ≥ 0, then f(x) = x
-- If  x < 0, then f(x) = −x
+- If x ≥ 0, then f(x) = x
+- If x < 0, then f(x) = −x
 
 So for example:
+
 - f(3) = ∣3∣ = 3
 - f(−3) = ∣−3∣ = 3
 - f(0) = ∣0∣ = 0
@@ -187,8 +187,7 @@ So for example:
 
 <br/>
 
-
-----
+---
 
 #### `Plotting a function`
 
@@ -199,9 +198,9 @@ So for example:
   
   f(x) = mx + b
 
-  - A `linear function `is a function whose graph is a straight line
-  - m: Slope (rate of change)
-  - b: Y-intercept (ehere the line crosses the y-axis)
+- A `linear function `is a function whose graph is a straight line
+- m: Slope (rate of change)
+- b: Y-intercept (ehere the line crosses the y-axis)
 
 Example: f(x) = 2x + 1
 
@@ -211,7 +210,34 @@ This is a straight line with:
 
 - Y-intercept (b) = 1
 
-<img src="./linear function.png" width="300px" border-radius="10px"/>
+<img src="./linear function.png" width="300px" style = "border-radius: 10px"/>
+
+</details>
+
+<br/>
+
+<details>
+  <summary>Increasing Linear Function</summary>
+  
+An `increasing linear function` is a function whose `slope` is `positive`, meaning the graph goes `up` as you move from left to right
+
+🧮 General Form: f(x) = mx + b where m > 0
+
+- m: Slope (positive for increasing)
+
+- b: Y-intercept
+
+✅ Example:
+
+f(x) = 3x + 2
+
+|  x  | f(x) |
+| :-: | :--: |
+| -2  |  -4  |
+|  0  |  2   |
+|  2  |  8   |
+
+<img src="./increasing linear function.png" width="250px" style = "border-radius: 10px"/>
 
 </details>
 
