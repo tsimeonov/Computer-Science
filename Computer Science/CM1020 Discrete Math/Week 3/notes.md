@@ -364,6 +364,43 @@ Where:
   - If 0 < b < 1: exponential decay
 - x = exponent (independent variable)
 
+✅ Example:
+
+f(x) = $2^x$
+
+🔍 Key Characteristics:
+
+- Base b = 2 → This is exponential growth
+- Initial value f(0) = 1
+- Domain: R (all real numbers)
+- Range: (0,∞)
+- Asymptote: Horizontal line at y = 0
+- Always positive: f(x) > 0
+
+<div style="display: flex; align-items: flex-start; gap: 30px;">
+
+<div>
+
+#### Function table
+
+| $x$ | $f(x) = 2^x$ |
+| :-: | :----------: |
+| -2  |     0.25     |
+| -1  |     0.5      |
+|  0  |      1       |
+|  1  |      2       |
+|  2  |      4       |
+|  3  |      8       |
+
+</div>
+
+<div>
+
+<img src="./Exponential function.png" width="250px" style="border-radius: 10px;"/>
+
+</div>
+
+</div>
 </details>
 
 <br/>
