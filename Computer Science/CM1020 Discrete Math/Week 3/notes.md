@@ -272,6 +272,9 @@ f(x) = -3x + 2
 <details>
   <summary>Quadratic function</summary>
 
+🔺 What is a Quadratic Function?
+A `quadratic function` is a polynomial of degree 2, and its graph is a parabola (a U-shaped curve).
+
 </details>
 
 <br/>
