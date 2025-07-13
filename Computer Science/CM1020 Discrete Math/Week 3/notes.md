@@ -342,3 +342,16 @@ f(x) = $x^2$ + 1
 </details>
 
 <br/>
+
+<details>
+  <summary>Exponential function</summary>
+
+  <br/>
+
+📈 What is an Exponential Function?
+
+An exponential function is a function where the variable is in the exponent, typically used to model growth or decay.
+
+</details>
+
+<br/>
