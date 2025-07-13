@@ -404,3 +404,7 @@ f(x) = $2^x$
 </details>
 
 <br/>
+
+---
+
+#### Injective and surjective function
