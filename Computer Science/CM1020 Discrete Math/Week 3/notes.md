@@ -295,6 +295,36 @@ Where:
 - a,b and c are real constants
 - a ≠ 0
 
+✅ Example:
+
+f(x) = $x^2$ + 1
+
+<div style="display: flex; align-items: flex-start; gap: 30px;">
+
+<div>
+
+#### Function table
+
+|  x  | f(x) |
+| :-: | :--: |
+| -3  |  10  |
+| -2  |  5   |
+| -1  |  2   |
+|  0  |  1   |
+|  1  |  2   |
+|  2  |  5   |
+|  3  |  10  |
+
+</div>
+
+<div>
+
+<img src="./quadratic function.png" width="250px" style="border-radius: 10px;"/>
+
+</div>
+
+</div>
+
 </details>
 
 <br/>
