@@ -97,6 +97,18 @@ If f(x) = $x^2$, then:
 - The image of 3 is f(3 )= 9
 - The image of -3 is also 9
 
+🔸 Pre-image:
+
+- The pre-image of y ∈ B is any input(s) x ∈ A such that f(x) = y.
+- It answers: "Which input(s) gave this output?"
+
+✅ Example:
+
+If f(x) = $x^2$, then:
+
+- The pre-image of 9 is both = 3 and x = -3
+- The pre-image of 4 is x = 2 and x = -
+
 </details>
 
 <br/>
