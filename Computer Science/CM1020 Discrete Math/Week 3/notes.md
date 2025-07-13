@@ -20,6 +20,10 @@ Most of what a programmer writes consists of "functions" that do parts of the wo
 <details>
   <summary>Definition of a function</summary>
 
+📘 Definition of a Function (Mathematics)
+
+A function is a rule or relationship that assigns exactly one output to each input from a set.
+
 </details>
 
 <br/>
