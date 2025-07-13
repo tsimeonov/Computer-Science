@@ -272,8 +272,17 @@ f(x) = -3x + 2
 <details>
   <summary>Quadratic function</summary>
 
+  <br/>
+
 🔺 What is a Quadratic Function?
+
 A `quadratic function` is a polynomial of degree 2, and its graph is a parabola (a U-shaped curve).
+
+🔺 What is a Polynomial?
+
+A Polynomial is a mathematica expression consisting of variables, coefficien, integer expression.
+
+<img src="./polynomial.png" width="170px" style = "border-radius: 10px"/>
 
 </details>
 
