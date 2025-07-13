@@ -86,7 +86,16 @@ Range: $R_f$ = {2,3,4}
 
   <br/>
   
-<img src="./images.png" width="600px"/>
+🔹 Image:
+- The image of an input  x ∈ A is the output f(x) ∈ B.
+- It answers: "What value does this input map to?"
+
+✅ Example:
+
+If f(x) = $x^2$, then:
+
+- The image of 3 is f(3 )= 9
+- The image of -3 is also 9
 
 </details>
 
