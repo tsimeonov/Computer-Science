@@ -242,3 +242,10 @@ f(x) = 3x + 2
 </details>
 
 <br/>
+
+<details>
+  <summary>Decreasing Linear Function</summary>
+
+</details>
+
+<br/>
