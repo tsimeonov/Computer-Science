@@ -24,6 +24,20 @@ Most of what a programmer writes consists of "functions" that do parts of the wo
 
 A function is a rule or relationship that assigns exactly one output to each input from a set.
 
+🧮 Formal Definition:
+
+Let 𝐴 and B be two sets.
+
+A function f from A to B is a relation that associates every element
+𝑥 ∈ 𝐴 with exactly one element y ∈ B.
+We write:
+
+𝑓: 𝐴 → 𝐵 such that f(x) = y
+
+- A = domain (set of all valid inputs)
+- B = codomain (set where outputs live)
+- f(x) = the output of function
+
 </details>
 
 <br/>
