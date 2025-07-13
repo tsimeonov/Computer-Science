@@ -231,13 +231,27 @@ An `increasing linear function` is a function whose `slope` is `positive`, meani
 
 f(x) = 3x + 2
 
+<div style="display: flex; align-items: flex-start; gap: 30px;">
+
+<div>
+
+#### Function table
+
 |  x  | f(x) |
 | :-: | :--: |
 | -2  |  -4  |
 |  0  |  2   |
 |  2  |  8   |
 
-<img src="./increasing linear function.png" width="250px" style = "border-radius: 10px"/>
+</div>
+
+<div>
+
+<img src="./increasing linear function.png" width="220px" style="border-radius: 10px;" />
+
+</div>
+
+</div>
 
 </details>
 
