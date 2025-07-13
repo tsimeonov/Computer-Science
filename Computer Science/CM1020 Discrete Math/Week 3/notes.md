@@ -268,3 +268,10 @@ f(x) = -3x + 2
 </details>
 
 <br/>
+
+<details>
+  <summary>Quadratic function</summary>
+
+</details>
+
+<br/>
