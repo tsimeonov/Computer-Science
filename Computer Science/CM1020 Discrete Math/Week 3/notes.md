@@ -406,6 +406,8 @@ f(x) = $2^x$
 
 <details>
   <summary>Injective Funcition</summary>
+
+  <br/>
   
 A function f: A -> B is injective if every element in the domain maps to a unique element in the domain
 
@@ -419,3 +421,6 @@ f(x) = 2x from R -> R
 This is injective because different x values always produce different outputs
  
 </details>
+
+<br/>
+
