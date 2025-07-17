@@ -402,3 +402,15 @@ f(x) = $2^x$
 ---
 
 #### Injective and surjective function
+
+
+<details>
+  <summary>Injective Funcition</summary>
+  
+A function f: A -> B is injective if every element in the domain maps to a unique element in the domain
+
+- In other words:  f($x_1$) = f($x_2$) => $x_1$ = $x_2$
+- No two different inputs give the same output
+
+ 
+</details>
