@@ -412,5 +412,10 @@ A function f: A -> B is injective if every element in the domain maps to a uniqu
 - In other words:  f($x_1$) = f($x_2$) => $x_1$ = $x_2$
 - No two different inputs give the same output
 
+✅ Example:
+
+f(x) = 2x from R -> R
+
+This is injective because different x values always produce different outputs
  
 </details>
