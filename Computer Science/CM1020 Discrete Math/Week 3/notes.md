@@ -434,8 +434,11 @@ A function f: A -> B is surjective if every element in the codomain B is the ima
 - In other words:
   For every y ∈ B, there exists x ∈ A such that f(x) = y
 
+✅ Example:
 
+f(x) = $x^3$ from R -> R
 
+This is surjective because every real number y has a cube root x.
  
 </details>
 
