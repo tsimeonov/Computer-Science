@@ -424,3 +424,20 @@ This is injective because different x values always produce different outputs
 
 <br/>
 
+<details>
+  <summary>Surjective Funcition (Onto)</summary>
+
+  <br/>
+  
+A function f: A -> B is surjective if every element in the codomain B is the image of at least one element from the domain A.
+
+- In other words:
+  For every y ∈ B, there exists x ∈ A such that f(x) = y
+
+
+
+ 
+</details>
+
+<br/>
+
