@@ -14,6 +14,8 @@ To solve this, critical operations (like checking and setting flags) must be `un
 
 This ensures `mutual exclusion` where only one process can enter a `critical region` (code needing exclusive access) at a time.
 
+`Deadlock` accurs when processes wait indefinitely for resources held by each other.
+
 </details>
 
 </br>
