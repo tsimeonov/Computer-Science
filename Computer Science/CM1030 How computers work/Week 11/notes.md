@@ -19,3 +19,14 @@ Modern computers often have `multi-core processors`, allowing `load balancing` -
 </br>
 
 ### Lesson 11.2 Precesses
+
+<details>
+  <summary>Processes</summary>
+
+</br>
+
+The activity of executing a program under the control of the operating system is knowns as a `process`. Associated with a process is the current status of the activity, called the `process state`.
+
+</details>
+
+</br>
