@@ -27,7 +27,7 @@ Modern computers often have `multi-core processors`, allowing `load balancing` -
 
 The activity of executing a program under the control of the operating system is knowns as a `process`. Associated with a process is the current status of the activity, called the `process state`.
 
-A single core CPU cna only run `one instruction at a time`. but it uses `time slicing` to switch rapidly between `processes` , giving the illusion of multitasking. Each process runs briefly before being interrupted and replaced by another.
+A single core CPU can only run `one instruction at a time`. but it uses `time slicing` to switch rapidly between `processes` , giving the illusion of multitasking. Each process runs briefly before being interrupted and replaced by another.
 The `CPU scheduler` may prioritize certain processes or switch if one is waiting. This fast switching creates the impression that multiple programs run simultaneously.
 
 </details>
