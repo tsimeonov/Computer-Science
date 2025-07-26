@@ -59,6 +59,22 @@ Networks are categorized based on size and scope
 
 </details>
 
+</details>
+
 </br>
+
+<details>
+  <summary>Connecting Networks</summary>
+
+- `Repeaters`: Amplify and forward all signals
+- `Bridges`: Forward only necessary messages between two networks
+- `Switches`: Like multi-port bridges, only send messages to the relevant segments
+- `Routers`: Connect different networks (WiFi and Ethernet), forming internets.
+  Each device has both local and internet addresses.
+- `Gateways`: Devices that link a network to an internet often combining AP and router (as in home WiFi)
+
+</br>
+
+</details>
 
 ---
