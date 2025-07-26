@@ -125,4 +125,17 @@ Each layer `passes data down` the stack for transmission, and at the destination
 
 </details>
 
+</br>
+
+<details>
+  <summary>Packet-Switching System</summary>
+
+- The internet sends data as `packets` - small, manageable chunks of data
+- Rach packet is routed `independently`, possibly through different paths
+- `Routers` use forwarding tables and `hop counts` (limits on packet lifespan) to ensure efficient delivery.
+
+</br>
+
+</details>
+
 ---
