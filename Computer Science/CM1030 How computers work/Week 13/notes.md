@@ -36,4 +36,16 @@ Networks are categorized based on size and scope
 
 </br>
 
+<details>
+  <summary>Network Topologies</summary>
+
+- `Bus topology`: All dedices share a single communication line
+- `Star topology`: Devices connect to a central point (access point in WiFi)
+
+</br>
+
+</details>
+
+</br>
+
 ---
