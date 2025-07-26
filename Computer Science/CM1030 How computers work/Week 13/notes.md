@@ -48,4 +48,17 @@ Networks are categorized based on size and scope
 
 </br>
 
+<details>
+  <summary>Protocols</summary>
+
+- `Protocols` are rules for communication
+- `CSMA/CD` (used in Ethernet): Devices listen to the bus and stop if collisions occur.
+- `CSMA/CA` (used in wifi): Devices try to avoid collisions due to hidden termina; problems
+
+</br>
+
+</details>
+
+</br>
+
 ---
