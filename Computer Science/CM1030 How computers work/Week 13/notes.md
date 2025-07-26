@@ -106,4 +106,23 @@ Networks are categorized based on size and scope
 
 ### Lesson 13.2 Network Protocols
 
+</br>
+
+<details>
+  <summary>Layered Structure of Internet Communication</summary>
+
+Internet communication is organized into `4 layers` of software:
+
+1. `Application Layer` - Contains client and server software (e.g, web browsers email clients).
+   Responsible for preparing and requesting data transmission.
+2. `Tranport Layer` - Split messages into packets, adds sequence numbers, ensures proper reassembly and routes data to the correct application using `port tnumbers`
+3. `Network Layer` - Determines packet routing across the Internet using `forwarding tables` in routers.
+4. `Link Layer` - Handles actual data transmission over local network (via Ethernet or WiFi)
+
+Each layer `passes data down` the stack for transmission, and at the destination, each layer `reserves` the process to reconstruct the original message.
+
+</br>
+
+</details>
+
 ---
