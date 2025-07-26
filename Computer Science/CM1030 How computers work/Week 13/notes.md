@@ -89,4 +89,17 @@ Networks are categorized based on size and scope
 
 </details>
 
+</br>
+
+<details>
+  <summary>Distributed Systems</summary>
+  
+  - `Cluster computung`: A group of tightly connected computers acting as one (high availability and load balancing)
+  - `Grid computing`: Loosely connected computers acroos locations
+  - `Cloud computing`: On-demand access to virtual computers and storage over the Internet
+
+</br>
+
+</details>
+
 ---
