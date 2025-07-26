@@ -130,9 +130,38 @@ Each layer `passes data down` the stack for transmission, and at the destination
 <details>
   <summary>Packet-Switching System</summary>
 
+  </br>
+
 - The internet sends data as `packets` - small, manageable chunks of data
-- Rach packet is routed `independently`, possibly through different paths
+- Each packet is routed `independently`, possibly through different paths
 - `Routers` use forwarding tables and `hop counts` (limits on packet lifespan) to ensure efficient delivery.
+
+</details>
+
+</br>
+
+<details>
+  <summary>TCP/IP Protocol Suite</summary>
+
+  </br>
+
+The Internet is governed by TCP/IP, a collection of open standards that enable interoperability.
+
+- `TCP (Transmission Control Protocol)`
+
+  - Reliable connection
+  - Uses acknowledgments, retransmissionsm flow control and congestion contorl
+  - Used for email, websites
+
+- `UDP (User Datagram Protocol)`
+
+  - Faster, but unreliable and connectionless
+  - Used for DNS lookups, streaming and real--time communicaion
+
+- `IP (Internet Protocol)`
+  - Handles packet routing and forwarding
+  - Includes IPv4 (32-bit) and IPv6 (128-bit) addressing
+  - IPv6 is replacing IPv4 due to address exhaustion and added features.
 
 </br>
 
