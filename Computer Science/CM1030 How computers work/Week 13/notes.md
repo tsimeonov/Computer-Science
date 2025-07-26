@@ -77,4 +77,16 @@ Networks are categorized based on size and scope
 
 </details>
 
+</br>
+
+<details>
+  <summary>Process Communication</summary>
+
+- `Client/Server model`: One server provides services (e.g. print ot file server) to multiple clients.
+- `Peer-to-Peer`: Devices act as both clients and servers (e.g. file sharing, messaging)
+
+</br>
+
+</details>
+
 ---
