@@ -103,3 +103,7 @@ Networks are categorized based on size and scope
 </details>
 
 ---
+
+### Lesson 13.2 Network Protocols
+
+---
