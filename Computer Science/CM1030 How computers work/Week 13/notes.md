@@ -24,4 +24,16 @@ Networks are categorized based on size and scope
 
 </br>
 
+<details>
+  <summary>Open vs Close Networks</summary>
+
+- `Open networks`: Use publicly available protocols (e.g, TCP/IP). The internet is an open network
+- `Closed (proprietary) networks`: Use company-owned designs: (e.g Microsoft systems)
+
+</br>
+
+</details>
+
+</br>
+
 ---
