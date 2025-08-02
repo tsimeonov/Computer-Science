@@ -77,6 +77,7 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
+// SLICE
 console.log(arr.slice(2));
 console.log(arr.slice(2, 4));
 console.log(arr.slice(-2));
@@ -84,3 +85,7 @@ console.log(arr.slice(-1));
 console.log(arr.slice(1, -2));
 
 console.log(arr.slice());
+
+// SPLICE (mutates the original array)
+console.log(arr.splice(2));
+console.log(arr);
