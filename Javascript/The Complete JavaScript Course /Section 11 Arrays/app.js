@@ -108,3 +108,14 @@ console.log([...arr, ...arr2]);
 
 // JOIN
 console.log(letters.join('-'));
+
+//////
+
+const example = [23, 11, 64];
+console.log(example[0]);
+console.log(example.at(0));
+
+// Getting the last element
+console.log(example[example.length - 1]);
+console.log(example.slice(-1)[0]);
+console.log(example.at(-1));
