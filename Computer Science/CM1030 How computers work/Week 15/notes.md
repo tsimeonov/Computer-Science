@@ -28,6 +28,8 @@ The `application layer` focuses on what data is send an how it's used. Common In
 <details>
   <summary>Web servers</summary>
 
+</br>
+
 Web pages are delivered using the HTTP protocol, where `clients request` and `servers respond` with HTML.
 
 Originallt, URL's pointed directly to `static HTML files` on a server.
@@ -38,6 +40,22 @@ Today, most websites are `dynamic`, meaning pages are generated on request using
 - `Assets` (e.g videos, images) stored as separate files.
 
 Many modern websites use scripts (lik PHO) or `routing engines` to interpret URLs and create pages dynamically. The routing engines determines which template and data to use, and a `templating engine `builds the final HTML pagfe for the browser.
+
+</br>
+
+</details>
+
+</br>
+
+<details>
+  <summary>Client side interaction</summary>
+
+</br>
+
+Modern websites are interactive, not just static pages. `Early interaction` used simple `links`, but today's features (like video controls) require `client-side interaction`, handled in the browser using `JS`.
+
+JS has evolved to handle more advanced tasks, like `client-side templating`, where the browser receives a `template` and `data` separately and combines them into a web page.
+This makes websites faster and more responsive.
 
 </br>
 
