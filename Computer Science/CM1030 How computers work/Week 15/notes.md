@@ -22,3 +22,14 @@ The `application layer` focuses on what data is send an how it's used. Common In
 </br>
 
 ---
+
+### 15.2 The web
+
+<details>
+  <summary>Web servers</summary>
+
+</br>
+
+</details>
+
+</br>
