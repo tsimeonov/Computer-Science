@@ -62,3 +62,16 @@ This makes websites faster and more responsive.
 </details>
 
 </br>
+
+<details>
+  <summary>Cluster and clouds</summary>
+
+Modern web servers are rarely single computers - they are usually `clusters` of multiple machines sharing tasks like routing and databse access. A single physical server can host many webistes using virtual servers, implemented as either:
+
+</br>
+
+</br>
+
+</details>
+
+</br>
