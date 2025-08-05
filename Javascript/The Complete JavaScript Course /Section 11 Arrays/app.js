@@ -73,49 +73,10 @@ const currencies = new Map([
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
-/////////////////////////////////////////////////
-
-let arr = ['a', 'b', 'c', 'd', 'e'];
-
-// SLICE
-console.log(arr.slice(2));
-console.log(arr.slice(2, 4));
-console.log(arr.slice(-2));
-console.log(arr.slice(-1));
-console.log(arr.slice(1, -2));
-
-console.log(arr.slice());
-
-// SPLICE (mutates the original array)
-// console.log(arr.splice(2));
-arr.splice(-1);
-console.log(arr);
-arr.splice(1, 2);
-console.log(arr);
-
-// REVERSE (mutates the original array)
-arr = ['a', 'b', 'c', 'd', 'e'];
-
-const arr2 = ['j', 'i', 'h', 'g', 'f'];
-
-console.log(arr2.reverse());
-console.log(arr2);
-
-// CONTAC
-const letters = arr.concat(arr2);
-console.log(letters);
-console.log([...arr, ...arr2]);
-
-// JOIN
-console.log(letters.join('-'));
-
-//////
-
-const example = [23, 11, 64];
-console.log(example[0]);
-console.log(example.at(0));
-
-// Getting the last element
-console.log(example[example.length - 1]);
-console.log(example.slice(-1)[0]);
-console.log(example.at(-1));
+for (const movement of movements) {
+	if (movement > 0) {
+		console.log(`You deposited ${movement}`);
+	} else {
+		console.log(`You withdre ${movement}`);
+	}
+}
