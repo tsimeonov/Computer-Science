@@ -68,6 +68,9 @@ This makes websites faster and more responsive.
 
 Modern web servers are rarely single computers - they are usually `clusters` of multiple machines sharing tasks like routing and databse access. A single physical server can host many webistes using virtual servers, implemented as either:
 
+- Hypertext Transfer Protocol (HTTP)
+- Uniform Resource Locator (URL)
+
 </br>
 
 </br>
