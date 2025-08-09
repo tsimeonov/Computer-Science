@@ -71,10 +71,6 @@ Modern web servers are rarely single computers - they are usually `clusters` of 
 - Hypertext Transfer Protocol (HTTP)
 - Uniform Resource Locator (URL)
 
-</br>
-
-</br>
-
 </details>
 
 </br>
