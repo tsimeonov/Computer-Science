@@ -19,5 +19,23 @@
 // § Data 1: Julia's data [3, 5, 2, 12, 7], Kate's data [4, 1, 15, 8, 3]
 // § Data 2: Julia's data [9, 16, 6, 8, 3], Kate's data [10, 5, 6, 1, 4]
 
-const dogsJulia = [3, 5, 2, 12, 7];
-const dogsKate = [4, 1, 15, 8, 3];
+const dogsJulia1 = [3, 5, 2, 12, 7];
+const dogsKate1 = [4, 1, 15, 8, 3];
+
+const dogsJulia2 = [9, 16, 6, 8, 3];
+const dogsKate2 = [10, 5, 6, 1, 4];
+
+const checkDogs = function (dogsJulia, dogsKate) {
+  const correctedDogsJulia = dogsJulia.slice(1, -2);
+
+  const allDogs = [...correctedDogsJulia, ...dogsKate];
+
+  allDogs.forEach((age, i) => {
+    age > 3
+      ? console.log(`Dog ${i + 1} is an adult`)
+      : console.log(`Dog ${i + 1} is a puppy`);
+  });
+};
+
+checkDogs(dogsJulia1, dogsKate1);
+checkDogs(dogsJulia2, dogsKate2);
