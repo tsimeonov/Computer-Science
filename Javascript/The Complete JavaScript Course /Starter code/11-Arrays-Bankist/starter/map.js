@@ -5,7 +5,7 @@ const eurToUsd = 1.1;
 //   return mov * eutToUsd;
 // });
 
-const movementsUSD = movements.map(function (mov) {
+const movementsUSD = movements.map(mov => {
   return mov * eurToUsd;
 });
 
