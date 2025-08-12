@@ -1,21 +1,18 @@
-'use strict';
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const eurToUsd = 1.1;
 
-// Map
-const currencies = new Map([
-	['USD', 'United States dollar'],
-	['EUR', 'Euro'],
-	['GBP', 'Pound sterling'],
-]);
+// const movementsUSD = movements.map(function (mov) {
+//   return mov * eutToUsd;
+// });
 
-currencies.forEach(function (value, key, map) {
-	console.log(`${key}, ${value}`);
+const movementsUSD = movements.map((mov) => {
+	return mov * eurToUsd;
 });
 
-// Set
-const currenciesUnique = new Set(['USD', 'GBP', 'USD', 'EUR', 'EUR']);
+console.log(movements);
+console.log(movementsUSD);
 
-console.log(currenciesUnique);
-
-currenciesUnique.forEach(function (value, _, map) {
-	console.log(`${value}: ${value}`);
-});
+const movemenrsUSFfor = [];
+for (const mov of movements) {
+	movemenrsUSFfor.push(mov * eurToUsd);
+}
