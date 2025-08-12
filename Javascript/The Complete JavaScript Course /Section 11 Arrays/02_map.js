@@ -16,3 +16,13 @@ const movemenrsUSFfor = [];
 for (const mov of movements) {
 	movemenrsUSFfor.push(mov * eurToUsd);
 }
+
+const movementDescription = movements.map((mov, i, arr) => {
+	if (mov > 0) {
+		return `Movement ${i + 1}: You deposited ${mov}`;
+	} else {
+		return `Movement ${i + 1}: You deposited ${Math.abs(mov)}`;
+	}
+});
+
+console.log(movementDescription);
