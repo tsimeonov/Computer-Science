@@ -91,8 +91,7 @@ const createUsernames = function (accounts) {
       .split(' ')
       .map(function (name) {
         return name[0];
-      })
-      .join('');
+      });
   });
 };
 
