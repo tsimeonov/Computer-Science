@@ -84,18 +84,21 @@ displayMovements(account1.movements);
 
 // NEW
 
-const createUsernames = function (user) {
-  const username = user
-    .toLowerCase()
-    .split(' ')
-    .map(function (name) {
-      return name[0];
-    })
-    .join('');
-  return username;
+const createUsernames = function (accounts) {
+  accounts.forEach(function (account) {
+    account.username = account.owner
+      .toLowerCase()
+      .split(' ')
+      .map(function (name) {
+        return name[0];
+      })
+      .join('');
+  });
 };
 
-console.log(createUsernames('Steven Thomas Williams'));
+createUsernames(accounts);
+
+console.log(accounts);
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
