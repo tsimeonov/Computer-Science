@@ -15,3 +15,9 @@ for (const mov of movements) {
 }
 
 console.log(depositsFor);
+
+const withdrawal = movements.filter(function (mov) {
+  return mov < 0;
+});
+
+console.log(withdrawal);
