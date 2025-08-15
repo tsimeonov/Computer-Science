@@ -42,7 +42,6 @@ body {
 	margin: 3px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	outline: 1px solid red;
 }
 
 .seat.selected {
@@ -61,4 +60,15 @@ body {
 /* Target the nth element of its type from the end */
 .seat:nth-last-of-type(2) {
 	margin-right: 18px;
+}
+
+.showcase {
+	background: rgba(0, 0, 0, 0.1);
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #777;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	outline: 1px solid red;
 }
