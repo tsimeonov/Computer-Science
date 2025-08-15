@@ -67,6 +67,11 @@ body {
 	transform: scale(1.2);
 }
 
+.showcase .seat:not(.occupied):hover {
+	cursor: default;
+	transform: scale(1);
+}
+
 .showcase {
 	background: rgba(0, 0, 0, 0.1);
 	padding: 5px 10px;
