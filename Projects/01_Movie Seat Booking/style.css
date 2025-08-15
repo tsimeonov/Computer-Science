@@ -44,3 +44,11 @@ body {
 	border-top-right-radius: 10px;
 	outline: 1px solid red;
 }
+
+.seat.selected {
+	background-color: #6feaf6;
+}
+
+.seat.accupied {
+	background-color: lightcoral;
+}
