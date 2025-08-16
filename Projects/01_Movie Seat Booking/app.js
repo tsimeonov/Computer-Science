@@ -18,7 +18,7 @@ function setMovieData(movieIndex, moviePrice) {
 }
 
 // Update total and count
-function UpdateSelectedCount() {
+function updateSelectedCount() {
 	const selectedSeats = document.querySelectorAll('.row .seat.selected');
 
 	const seatsIndex = [...selectedSeats].map((seat) => [...seats].indexOf(seat));
@@ -60,6 +60,9 @@ container.addEventListener('click', (e) => {
 	) {
 		e.target.classList.toggle('selected');
 
-		UpdateSelectedCount();
+		updateSelectedCount();
 	}
 });
+
+// Initial count and total set
+updateSelectedCount();
