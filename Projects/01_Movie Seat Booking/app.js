@@ -10,3 +10,9 @@ const movieSelect = document.querySelector('#movie');
 
 // +movieSelect.value -> unary operator
 let ticketPrice = +movieSelect.value;
+
+// Save selected movie index and price
+function seMovieData(movieIndex, moviePrice) {
+	localStorage.setItem('SelectedMovieIndex', movieIndex);
+	localStorage.setItem('SelectedMoviePrice', moviePrice);
+}
