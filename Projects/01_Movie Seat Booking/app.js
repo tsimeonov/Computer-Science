@@ -1,12 +1,12 @@
 'use strict';
 
 const container = document.querySelector('.container');
-const seats = document.querySelectorAll('.rwo .seat:not(.occupied)');
+const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.querySelector('#count');
 const total = document.querySelector('#total');
 const movieSelect = document.querySelector('#movie');
 
-// populateUI();
+populateUI();
 
 // +movieSelect.value -> unary operator
 let ticketPrice = +movieSelect.value;
@@ -25,10 +25,10 @@ function updateSelectedCount() {
 
 	localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
 
-	const selectedSeatsCount = selectedSeats.count;
+	const selectedSeatsCount = selectedSeats.length;
 
 	count.innerText = selectedSeatsCount;
-	total.innerText = selectedSeatsCount + ticketPrice;
+	total.innerText = selectedSeatsCount * ticketPrice;
 
 	setMovieData(movieSelect.selectedIndex, movieSelect.value);
 }
@@ -52,7 +52,7 @@ function populateUI() {
 	}
 }
 
-// Movie click event
+// Seat click event
 container.addEventListener('click', (e) => {
 	if (
 		e.target.classList.contains('seat') &&
