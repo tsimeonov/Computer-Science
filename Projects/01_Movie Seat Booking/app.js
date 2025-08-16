@@ -16,3 +16,19 @@ function seMovieData(movieIndex, moviePrice) {
 	localStorage.setItem('SelectedMovieIndex', movieIndex);
 	localStorage.setItem('SelectedMoviePrice', moviePrice);
 }
+
+// Update total and count
+function UpdateSelectedCount() {
+	const selectedSeats = document.querySelectorAll('.row .seat.selected');
+
+	const seatsIndex = [...selectedSeats].map((seat) => [...seats].indexOf(seat));
+
+	localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
+
+	const selectedSeatsCount = selectedSeats.count;
+
+	count.innerText = selectedSeatsCount;
+	total.innerText = selectedSeatsCount + ticketPrice;
+
+	setMovieData(movieSelect.selectedIndex, movieSelect.value);
+}
