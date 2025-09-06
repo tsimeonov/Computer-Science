@@ -62,3 +62,31 @@ To find the cardinality, we just count the elements. There are three colors in t
 </details>
 
 <br/>
+
+<details>
+  <summary>1.3 Types of sets:</summary>
+
+  <br/>
+
+1. Finite Sets
+
+A <b>finite set</b> is a set where you can count all the elements and the counting eventually stops.
+
+2. Infinite sets
+
+An <b>infinite</b> set is a set that goes on forever. You could never finish counting its elements. A classic example is the set of all positive whole numbers, W
+
+`W = { 1, 2, 3, 4, 5, 6 …}`
+
+The three dots `...` (called an ellipsis) mean that the first list continues forever following the same pattern.
+
+3. The empty set
+
+The <b>empty set</b> (or null set) is a set that has no elements at all. Its cardinality is 0. An example would be the set of fish that can fly. Since there is no one, the set is empty.
+We write the empty set using the symbol ∅ or just empty curly braces `{}`.
+
+So , if F is the set of flying fish, we would say F = ∅m and |F| = 0
+
+</details>
+
+<br/>
