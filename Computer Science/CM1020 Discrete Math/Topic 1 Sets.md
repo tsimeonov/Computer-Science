@@ -136,3 +136,50 @@ Venn diagrams make it easy to see how different sets relate to each other:
 ---
 
 3. Describe and prove De Morgan’s law using membership tables.
+
+De Morgan's laws are two fundamental rules in set theory that show how the operations of `union`, `intersection`, and `complementation` relate to each other.
+
+They are incredibly useful for simplifying complex set expressions.
+
+The two laws are:
+
+1. The complement of the union of two sets is the same as the intersection of their complements:
+
+   ( A ∪ B)′ = A′ ∩ B′
+
+2. The complement of the intersection of two sets is the same as the union of their complements:
+
+   ( A ∩ B)′ = A′ ∪ B′
+
+3.1 Membership tables
+
+A `membership table` is a tool used to prove relationships between sets. It works much like a truth table in logic. For any given element, it can either be in a set or not in a set. We use 1 to mean an element is in the set and 0 to mean it is not in the set. By checking all possible membership scenarios for the sets involved (A and B), we can see if two expressions are equivalent.
+
+3.2 Proof of the first Law: ( A ∪ B)′ = A′ ∩ B′
+
+To prove this law, we will construct a table that evaluates both sides of the equation for all possible membership cases of an element in sets A and B.
+
+The table below shows the step-by-step evaluation:
+
+1. `Columns A and B`: List all four possible membership combinations for an element.
+
+2. `Column A ∪ B:` An element is in the union if it's in A OR B (1 if A or B is 1).
+
+3. `Column ( A ∪ B)′`:
+   This is the complement of the previous column, so we flip the values (0 becomes 1, 1 becomes 0). This is the left side of our equation.
+
+4. `Columns A′and B′:`
+   Flip the values from columns A and B, respectively.
+
+5. `Column A′∩ B′`: An element is in the intersection if it's in A′ AND B′(1 only if both A′ and B′ are 1).
+   This is the right side of our equation.
+
+|  A  |  B  | A ∪ B | ( A ∪ B)′ | A′  | B′  | A′∩ B′ |
+| :-: | :-: | :---: | :-------: | :-: | :-: | :----: |
+|  1  |  1  |   1   |     0     |  0  |  0  |   0    |
+|  1  |  0  |   1   |     0     |  0  |  1  |   0    |
+|  0  |  1  |   1   |     0     |  1  |  0  |   0    |
+|  0  |  0  |   0   |     1     |  1  |  1  |   1    |
+
+As you can see, the column for (A ∪ B)′ is identical to the column for A′ ∩ B ′.
+This proves that the first law is true for any element, and thus the sets are equal.
