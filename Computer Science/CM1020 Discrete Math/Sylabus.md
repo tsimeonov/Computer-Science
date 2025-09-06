@@ -43,65 +43,6 @@ The course consists of 10 topics, each of which spans 2 weeks.
 9: Relations <ul><li>Define a relation.</li><li>Define a relation digraph.</li><li>Describe the properties of a relation.</li><li>Define an equivalence relation.</li><li>Define partial and total order.</li></ul>
 10: Combinatorics <ul><li>Apply the addition principle and the multiplication principle to count objects when they are sampled with or without replacement.</li><li>Calculate the number of permutations of length r chosen from a set of n objects.</li><li>Demonstrate how to use combination formulae to count the number of unordered subsets of r objects taken from a set of n distinct objects.</li><li>Distinguish between combinations and permutations.</li><li>Apply the techniques learnt to new counting problems.</li></ul>
 
-Topic
-Learning objectives
-Topic 1: Sets
-Define a set, the elements of a set and the cardinality of a set
-Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.
-Describe and prove De Morgan’s law using membership tables.
-Define the concepts of the union, intersection, set difference and symmetric difference, and the concept of a membership table.
-Define the concepts of the universal set and the complement of a set, and the difference between a set and a powerset of a set.
-Topic 2: Functions
-Define a function.
-Describe the properties of functions.
-Explain how to plot a function.
-Discuss special functions.
-Describe inverse functions.
-Topic 3: Propositional logic
-Explain and apply basic concepts of propositional logic.
-Construct truth tables of propositions and use them to demonstrate the equivalence of logical statements.
-Translate natural language statements into symbolic logical statements and vice versa.
-Demonstrate how to formalise a logical implication.
-Apply the laws of propositional to analyse propositions and arguments.
-Topic 4: Predicate logic
-Describe the basic concepts of predicate logic.
-Describe existential and universal quantifiers.
-Assign truth values to quantified statements.
-Identify logical equivalence involving quantifiers and apply De Morgan's laws.
-Apply predicate logic to programming.
-Topic 5: Boolean algebra
-Write Boolean expressions.
-Use the laws of Boolean algebra to simplify Boolean expressions.
-Represent a Boolean function. Simplify logic circuits/expressions.
-Convert truth tables into Boolean expressions and vice versa.
-Topic 6: Mathematical induction
-State the principle of mathematical induction.
-Discuss the ideas of the base step and inductive step in a proof by mathematical induction.
-Apply the ideas of mathematical induction to recursion and recursively defined structures.
-Describe the concept of recursion and give examples of its application.
-Identify the base case and the general case of a recursively defined problem.
-Topic 7: Graphs
-Define a graph, edges, vertices, parallel edges, loops, cycles and walk, path and connected graphs.
-Describe the degree sequence of a graph and the relation that links the sum of the degree sequence.
-Describe special graphs: simple graphs, complete graphs and r-regular graphs.
-Define the adjacency matrix of a graph.
-Topic 8: Trees
-Define a tree.
-Define spanning trees.
-Define non-isomorphic spanning trees.
-Topic 9: Relations
-Define a relation.
-Define a relation digraph.
-Describe the properties of a relation.
-Define an equivalence relation.
-Define partial and total order.
-Topic 10: Combinatorics
-Apply the addition principle and the multiplication principle to count objects when they are sampled with or without replacement.
-Calculate the number of permutations of length r chosen from a set of n objects.
-Demonstrate how to use combination formulae to count the number of unordered subsets of r objects taken from a set of n distinct objects.
-Distinguish between combinations and permutations.
-Apply the techniques learnt to new counting problems.
-
 Learning Activities of This Course
 
 The course is comprised of the following elements:
@@ -119,29 +60,15 @@ The course is comprised of the following elements:
 - Discussion Prompt. Each topic include discussion prompts. You will see the discussion prompt alongside other items in the lesson. Each prompt provides a space for you to respond. After responding, you can see and comment on your peers' responses. All prompts and responses are also accessible from your private group discussion forum.
 
 How to Pass This Course
+
 The course has two major assessments each worth 50% of your grade:
-Coursework: this consists of several activities that you do on the Coursera platform and which will be assessed half way through the course.
-Written examination: this will be an online timed assessment.
+
+- Coursework: this consists of several activities that you do on the Coursera platform and which will be assessed half way through the course.
+
+- Written examination: this will be an online timed assessment.
+
 There are also peer reviews in every topic that are graded but have 0 weight. That means that they will not count towards your final grade, but they are a key part of your learning and you need to do them.
+
 The mark shown on the Coursera platform is your coursework mark and you should remember that the exam counts for another 50%.
+
 The assessment consists of several activities. This is a detailed breakdown of all of the marks.
-Activity
-Required?
-Deadline week
-Estimated time per module
-% of final grade
-End of week quizzes for Topics 1–5
-Yes
-1–12
-1–2 hours
-20%
-Written, staff graded coursework
-Yes
-13
-20 hours
-30%
-Written examination
-Yes
-22
-3 hours
-50%
