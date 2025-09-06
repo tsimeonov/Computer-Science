@@ -183,3 +183,27 @@ The table below shows the step-by-step evaluation:
 
 As you can see, the column for (A ∪ B)′ is identical to the column for A′ ∩ B ′.
 This proves that the first law is true for any element, and thus the sets are equal.
+
+3.3 Proof of the Second Law: (A ∩ B)′= A′∪ B′
+
+We use the same method to prove the second law.
+
+1. `Columns A and B`: Same as before.
+
+2. `Column A ∩ B`: An element is in the intersection if it's in A AND B (1 only if both A and B are 1).
+
+3. `Column (A ∩ B)′`: Flip the values from the previous column. This is the left side.
+
+4. `Columns A′and B′`: Same as before.
+
+5. `Column A′ ∪ B′`: An element is in the union if it's in A′ OR B′ (1 if either A′ or B ′ is 1).
+   This is the right side.
+
+|  A  |  B  | A ∩ B | ( A ∩ B)′ | A′  | B′  | A′∪ B′ |
+| :-: | :-: | :---: | :-------: | :-: | :-: | :----: |
+|  1  |  1  |   1   |     0     |  0  |  0  |   0    |
+|  1  |  0  |   0   |     1     |  0  |  1  |   1    |
+|  0  |  1  |   0   |     1     |  1  |  0  |   1    |
+|  0  |  0  |   0   |     1     |  1  |  1  |   1    |
+
+Again, the column for (A ∩ B)′ is identical to the column for A′ ∪ B′ , which proves that the second law is also true.
