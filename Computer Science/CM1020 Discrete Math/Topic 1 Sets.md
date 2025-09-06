@@ -1,6 +1,7 @@
 1. Define a set, the elements of a set and the cardinality of a set
 
 2. Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.
+
 3. Describe and prove De Morgan’s law using membership tables.
 
 4. Define the concepts of the union, intersection, set difference and symmetric difference, and the concept of a membership table.
@@ -90,3 +91,48 @@ So , if F is the set of flying fish, we would say F = ∅m and |F| = 0
 </details>
 
 <br/>
+
+---
+
+2. Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.
+
+2.1 What is Venn Diagram?
+
+A Venn diagram is a visual tool that uses overlapping circles to show the relationships between sets.
+Each circle represents a specific set, and the area where the circles overlap represents the elements that are common to both sets.
+
+2.2 Representing set operation
+
+- `Intersection (A ∩ B)`
+
+The intersection of two sets, A and B, includes all the elements that are in both A and B. In a Venn diagram, this is the overlapping area of the two circles.
+
+Example: If Set A = {1, 2, 3} and Set B = {3, 4, 5}, the intersection is A∩B={3}, as 3 is the only element found in both sets.
+
+- `Union (A ∪ B)`
+
+The union of two sets, A and B, includes all the elements that are in either set A or set B, or both. In a Venn diagram, this includes all the areas covered by both circles, including their overlap.
+
+Example: If Set A = {1, 2, 3} and Set B = {3, 4, 5}, the union is A∪B={1,2,3,4,5}. Notice that the common element '3' is only listed once.
+
+- `Complement (A<sup>c</sup> or A′)`
+
+The `complement` of a set A includes all the elements in the universal set that are not in set A.
+In a Venn diagram, this is the area outside of the circle for set A but still within the rectangle of the universal set.
+
+Example: If the universal set U = {1, 2, 3, 4, 5} and Set A = {1, 2, 3},
+the complement of A is A<sup>c</sup> = { 4, 5}.
+
+2.3 Comparing Sets and Expressions
+
+Venn diagrams make it easy to see how different sets relate to each other:
+
+- `Disjoint Sets`: If two sets have no elements in common, their circles in a Venn diagram will not overlap.
+  This visually shows that their intersection is the empty set (∅).
+
+- `Subsets (A ⊂ B)`: If all the elements of set A are also in set B, then A is a subset of B.
+  In a Venn diagram, the circle for set A would be drawn completely inside the circle for set B.
+
+---
+
+3. Describe and prove De Morgan’s law using membership tables.
