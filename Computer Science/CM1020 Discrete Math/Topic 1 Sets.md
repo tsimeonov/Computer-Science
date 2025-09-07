@@ -220,3 +220,11 @@ Imagine you and a friend are making a playlist. The union of your favorite songs
 Formally, the union of two sets, A and B is a set containing all elements that are in A or in B or in both.
 
 The symbol for union is `∪`.
+
+4.2 The Intersection of sets ( ∩ )
+
+The `intersection` of two sets is what they `share`. If the union is a party where everybody is invited, the intersection is a smaller club for only the members who are in bot groups.
+
+Formally, the intersection of two sets A and B , is the set of elements that are in `both` A and B.
+
+The symbol for intersection is `∩`
