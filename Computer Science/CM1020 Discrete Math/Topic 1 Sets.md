@@ -227,4 +227,14 @@ The `intersection` of two sets is what they `share`. If the union is a party whe
 
 Formally, the intersection of two sets A and B , is the set of elements that are in `both` A and B.
 
-The symbol for intersection is `∩`
+The symbol for intersection is `∩`.
+
+4.3 The Set Difference ( - )
+
+The `set difference` is what you get when you remove the elements of one set from another. Think of it like a recipe. If Set A is your list of all ingredients and Set B is the list of ingredients you're allergic to, the set difference A−B would be the list of ingredients you can actually eat.
+
+Formally, the difference A−B is the set of elements that are in A but not in B.
+
+In our Venn diagram with the two overlapping circles, A−B is the part of the A circle that does not overlap with B.
+
+It's important to remember that the order matters here: A−B is different from B−A.
