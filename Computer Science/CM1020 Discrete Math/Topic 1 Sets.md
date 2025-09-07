@@ -10,7 +10,7 @@
 
 ---
 
-1 . Define a set, the elements of a set and the cardinality of a set
+`1 . Define a set, the elements of a set and the cardinality of a set`
 
 A set is simply a collection of distinct objects, like a list of your favorite colors or the numbers 1,2 and 3.
 The elements of a set are the individual objects in it. So, in a set of your favorite colors, each color is an element. The cardinality of a set is the total count of elements in that set.
@@ -94,7 +94,7 @@ So , if F is the set of flying fish, we would say F = ∅m and |F| = 0
 
 ---
 
-2. Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.
+`2. Explain the concept of Venn diagrams and how they are used to represent and compare different set expressions.`
 
 2.1 What is Venn Diagram?
 
@@ -135,7 +135,7 @@ Venn diagrams make it easy to see how different sets relate to each other:
 
 ---
 
-3. Describe and prove De Morgan’s law using membership tables.
+`3. Describe and prove De Morgan’s law using membership tables.`
 
 De Morgan's laws are two fundamental rules in set theory that show how the operations of `union`, `intersection`, and `complementation` relate to each other.
 
