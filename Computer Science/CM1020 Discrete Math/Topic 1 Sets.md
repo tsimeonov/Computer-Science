@@ -207,3 +207,16 @@ We use the same method to prove the second law.
 |  0  |  0  |   0   |     1     |  1  |  1  |   1    |
 
 Again, the column for (A ∩ B)′ is identical to the column for A′ ∪ B′ , which proves that the second law is also true.
+
+---
+
+`4. Define the concepts of the union, intersection, set difference and symmetric difference, and the concept of a membership table.`
+
+4.1 The union of Sets ( ∪ )
+
+Think of the `union` if two sets as combining them into one big group.
+Imagine you and a friend are making a playlist. The union of your favorite songs and your friend's favorite songs would be a new playlist that includes every song that either of you likes. If you both like the same song, it only gets added once!
+
+Formally, the union of two sets, A and B is a set containing all elements that are in A or in B or in both.
+
+The symbol for union is `∪`.
