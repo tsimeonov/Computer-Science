@@ -248,3 +248,38 @@ A great way to think about it is:
 Symmetric Difference = (A - B) ∪ (B - A)
 
 You're literally taking the two answers you just gave me and finding their union!
+
+4.5 Membership Tables
+
+If you've ever seen a truth table in logic, a membership table will feel very familiar. If not, no worries! The idea is simple.
+
+We use 1 to mean "the element is in the set."
+We use 0 to mean "the element is not in the set."
+
+A membership table shows every possible combination of whether an element, let's call it x, is in Set A or Set B.
+
+Here is the basic setup for two sets:
+
+|  A  |  B  |
+| :-: | :-: |
+|  1  |  1  |
+|  1  |  0  |
+|  0  |  1  |
+|  0  |  0  |
+
+- `Row 1`: The element x is in both A and B.
+
+- `Row 2`: x is in A, but not B.
+
+- `Row 3`: x is not in A, but is in B.
+
+- `Row 4`: x is in neither A nor B.
+
+Now, we can add new columns to this table to show the result of our operations. For example, let's add a column for the `intersection` (A∩B). An element is in the intersection only if it's in A `AND` B. So, the only '1' in this column will be in the first row.
+
+|  A  |  B  | A∩B |
+| :-: | :-: | :-: |
+|  1  |  1  |  1  |
+|  1  |  0  |  0  |
+|  0  |  1  |  0  |
+|  0  |  0  |  0  |
