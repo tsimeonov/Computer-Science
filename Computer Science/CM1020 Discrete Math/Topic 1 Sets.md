@@ -238,3 +238,13 @@ Formally, the difference A−B is the set of elements that are in A but not in B
 In our Venn diagram with the two overlapping circles, A−B is the part of the A circle that does not overlap with B.
 
 It's important to remember that the order matters here: A−B is different from B−A.
+
+4.4 The Symmetric Difference ( △ or ⊕ )
+
+The `symmetric difference` is everything that is in one set or the other, but not in both. Think of it as the "un-common ground." It’s the combination of what's unique to Set A and what's unique to Set B.
+
+A great way to think about it is:
+
+Symmetric Difference = (A - B) ∪ (B - A)
+
+You're literally taking the two answers you just gave me and finding their union!
