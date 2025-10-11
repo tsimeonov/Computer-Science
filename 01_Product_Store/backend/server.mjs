@@ -9,7 +9,9 @@ dotenv.config();
 
 const app = express();
 
-app.post('/products', async (req, res) => {
+app.use(express.json()); // allows us to accept JSON data in req.body
+
+app.post('/api/products', async (req, res) => {
 	const product = req.body; // User will end the data
 
 	if (!product.name || !product.price || !product.image) {
