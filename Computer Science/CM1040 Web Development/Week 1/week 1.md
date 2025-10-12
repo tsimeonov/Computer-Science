@@ -22,6 +22,7 @@ The era culminated in `1989` with the launch of the first commercial `Internet S
   <summary>From Web 1.0 to Society 5.0</summary>
 
 - `Web 1.0 (The Read-only Web)`: Starting aroubd 1990 wiht Tim Berners-Lee's invention, this era was characterized by static web pages created by a small group of developers. The primary focus was on oublishing ang accesiing information, not user interaction.
+- `Web 2.0 (The Social Web)`: Beginning in late 1990s and early 2000s, this phase marked the shift to "Read-Write" web. It empowered everydawy users to create and share content through blogs (Wordpress), social media (Facebook), and dynamic applications, enabled by technologies like AJAX and JSON.
 
 <br>
 
