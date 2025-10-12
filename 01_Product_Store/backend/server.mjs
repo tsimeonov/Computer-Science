@@ -42,11 +42,12 @@ app.post('/api/products', async (req, res) => {
 	}
 });
 
-app.put('/api/products', async (req, res) => {
+app.put('/api/products/:id', async (req, res) => {
 	const { id } = req.params;
+
 	const product = req.body;
 
-	if (mongoose.Types.ObjectId.isValid(id)) {
+	if (!mongoose.Types.ObjectId.isValid(id)) {
 		return res
 			.status(404)
 			.json({ success: false, message: 'Invalid Product id' });
