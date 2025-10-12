@@ -24,6 +24,7 @@ The era culminated in `1989` with the launch of the first commercial `Internet S
 - `Web 1.0 (The Read-only Web)`: Starting aroubd 1990 wiht Tim Berners-Lee's invention, this era was characterized by static web pages created by a small group of developers. The primary focus was on oublishing ang accesiing information, not user interaction.
 - `Web 2.0 (The Social Web)`: Beginning in late 1990s and early 2000s, this phase marked the shift to "Read-Write" web. It empowered everydawy users to create and share content through blogs (Wordpress), social media (Facebook), and dynamic applications, enabled by technologies like AJAX and JSON.
 - `Web 3.0 (The Semantic Web)`: This was a formal push by the W3C to create a more sturctures, machine-readable web using technologies like RFQ and OWL. The goal was for software to understand and reawson about data, but this vision was largely unrealized due to its complexity. Thisis distinct from the modern term `Web3`, which is base on blockchain technologie.
+- `Web 4.0 (The symbiotic Web)`: This describes our current era, where humans and automonous machine agents (AIs, algorithms) interact constantly. The web is a "jungle" of AI-generated content and complex systems operating alongside human users.
 
 <br>
 
