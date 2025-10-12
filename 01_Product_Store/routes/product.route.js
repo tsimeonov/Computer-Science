@@ -1,8 +1,11 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import Product from '../models/product.model.js';
+import { getProducts } from '../backend/controllers/product.controller.js';
 
 const router = express.Router();
+
+router.get('/', getProducts);
 
 router.post('/', async (req, res) => {
 	const product = req.body; // User will end the data
