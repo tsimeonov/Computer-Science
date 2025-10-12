@@ -1,0 +1,16 @@
+<details>
+  <summary>Quick history of the internet: From Arpanet to the 80s</summary>
+  
+<br>
+
+The history of the Internet began in the 1960s with the `ARPANET`, a US project created by the Advanced Research Project Agency (ARPA) in response to the Cold War arms race.
+
+A key innovation was the shift to `packet switching`, which breaks data into small pieces for more robust and efficient transmissions. The fist ARPANET node was established in 1969.
+
+During the 1970s, the network expanded, `email` was invented, and a public demo in 1972 sparked wilder interest, leadning to a "wild west" period of many incompatible networks.
+
+The turning point came in the early 1980s when ARPANET officially adopted the `RCP/IP` protocol, creating a universal standard for communication. This, combined with the formation of large educational networks, set the stage for the modern Internet.
+
+The era culminated in `1989` with the launch of the first commercial `Internet Service provider (ISP)` in the US, making the network publicly accessible and leadning to its exponential growth.
+
+</details>
