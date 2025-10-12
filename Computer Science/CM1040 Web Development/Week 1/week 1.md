@@ -14,3 +14,15 @@ The turning point came in the early 1980s when ARPANET officially adopted the `R
 The era culminated in `1989` with the launch of the first commercial `Internet Service provider (ISP)` in the US, making the network publicly accessible and leadning to its exponential growth.
 
 </details>
+
+---
+
+<details>
+
+  <summary>From Web 1.0 to Society 5.0</summary>
+
+- `Web 1.0 (The Read-only Web)`: Starting aroubd 1990 wiht Tim Berners-Lee's invention, this era was characterized by static web pages created by a small group of developers. The primary focus was on oublishing ang accesiing information, not user interaction.
+
+<br>
+
+</details>
