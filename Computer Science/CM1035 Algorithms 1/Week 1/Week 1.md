@@ -1,7 +1,9 @@
 <details>
   <summary>What is a problem? What is an algorithm?</summary>
 
-What is a problem?
+  <br>
+
+`What is a problem?`
 
 In computing, a `problem` isn't a rea--world issue but a well defined question with clear mathematical inputs and outputs. A vague question like "Should I take a holiday?" is not a computable problem. However, it can be translated into one:
 
@@ -11,11 +13,18 @@ In computing, a `problem` isn't a rea--world issue but a well defined question w
 
 A problem poses a precise question about a given input to generate a specific output.
 
-What is an Algorithm?
+`What is an Algorithm?`
 
 An `algorithm` is simple, step by step set of instuctions that, when folowed, correctly solves a problem. Think of it like a recipe. An algorith must have two key properties:
 
 1. `Correctness`: It must always produce the right answer
 2. `Basic instuctions`: It must be described using simple steps a computer can easily execute, like basic arithmetic (`+`, `-`, `*`. `/`) or simple logic (if-then statements).
+
+</details>
+
+<br>
+
+<details>
+  <summary>Al-Khwarizmi and Euclid</summary>
 
 </details>
