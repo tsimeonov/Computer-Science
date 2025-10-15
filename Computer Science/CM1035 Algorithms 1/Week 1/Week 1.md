@@ -34,4 +34,9 @@ The idea of a step-bystep procedure predates computers by centuries.
 - `Euclid's Algorithm`: Dataing back to around 300BC, this is one of the first knowm algorithms, designed to find the greatest common divisor of two numbers
 - `Al-khwarizmi`: The moder word "algorithm" is derived from the Latinized name of the 9th-century Persian mathematician Al-Khwarizmi, considered the father of algebra. His book provided the first systematic methods for solving kinear and qudratic equations.
 
+`Algorithm vs. Computer Program`
+
+- `Algorithm`: This is a general, mathematical concept. It's independent of any specific language or machine.
+- `Computer Program`: This is the concrete `implementation` of an algorithm, written in a specific programming language that a computer can execute.
+
 </details>
