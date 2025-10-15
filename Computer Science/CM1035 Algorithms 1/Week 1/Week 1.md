@@ -27,4 +27,11 @@ An `algorithm` is simple, step by step set of instuctions that, when folowed, co
 <details>
   <summary>Al-Khwarizmi and Euclid</summary>
 
+`Historical Origins`
+
+The idea of a step-bystep procedure predates computers by centuries.
+
+- `Euclid's Algorithm`: Dataing back to around 300BC, this is one of the first knowm algorithms, designed to find the greatest common divisor of two numbers
+- `Al-khwarizmi`: The moder word "algorithm" is derived from the Latinized name of the 9th-century Persian mathematician Al-Khwarizmi, considered the father of algebra. His book provided the first systematic methods for solving kinear and qudratic equations.
+
 </details>
