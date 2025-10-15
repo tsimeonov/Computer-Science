@@ -11,4 +11,11 @@ In computing, a `problem` isn't a real--world issue but a well defined question 
 
 A problem poses a precise question about a given input to generate a specific output.
 
+What is an Algorithm?
+
+An `algorithm` is simple, stepbystep set of instuctions that, when foloowed, correctly solves a problem. Think of it like a recipe. An algorith must have two key properties:
+
+1. `Correctness`: It must always produce the right answer
+2. `Basic instuctions`: It must be described using simple steps a computer can easily execute, like basic arithmetic (`+`, `-`, `*`. `/`) or simple logic (if-then statements).
+
 </details>
