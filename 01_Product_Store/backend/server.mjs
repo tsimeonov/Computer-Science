@@ -17,7 +17,7 @@ app.use('/api/products', productRoutes);
 
 // console.log(process.env.MONGO_URI);
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
 	connectBD();
 	console.log(`Server started at http://localhost:${PORT}`);
 });
