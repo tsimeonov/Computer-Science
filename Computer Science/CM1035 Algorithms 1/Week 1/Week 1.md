@@ -50,4 +50,8 @@ The idea of a step-bystep procedure predates computers by centuries.
 - `Whole Numbers` (integers) and `Rational Numners` (fractions of integers) can be stored exactly because they can be represented using a finite amount of information.
 - `Irrational Numbers` (like π or) $\sqrt{2}$ cannot be represented exactly in any number ystem using finite memory. They don't have a finite decimal representation or a representation as a simnple fraction.
 
+`Approximation is Key`
+
+To handle irrationale numbers, computers must use `approximation`. An irrational number is represented by a nearby rational number, with the difference between the true value and the approximation defining the `precision` (or error) of the calculation.
+
 </details>
