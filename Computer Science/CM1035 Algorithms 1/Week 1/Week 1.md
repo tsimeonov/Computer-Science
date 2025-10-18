@@ -29,7 +29,11 @@ An `algorithm` is simple, step by step set of instuctions that, when folowed, co
 
 </details>
 
+<br>
+
 ---
+
+<br>
 
 Al-Khwarizmi and Euclid
 
@@ -57,19 +61,30 @@ The idea of a step-bystep procedure predates computers by centuries.
 
 </details>
 
+<br>
+
 ---
 
 <br>
 
-<details>
-  <summary>From Mathematics to digital computers</summary>
+From Mathematics to digital computers
 
-`Representing Numbers`
+<details>
+  <summary>Representing Numbers</summary>
+
+  <br>
 
 - `Whole Numbers` (integers) and `Rational Numners` (fractions of integers) can be stored exactly because they can be represented using a finite amount of information.
 - `Irrational Numbers` (like π or) $\sqrt{2}$ cannot be represented exactly in any number ystem using finite memory. They don't have a finite decimal representation or a representation as a simnple fraction.
 
-`Approximation is Key`
+</details>
+
+<br>
+
+<details>
+  <summary>Approximation is Key</summary>
+
+  <br>
 
 To handle irrationale numbers, computers must use `approximation`. An irrational number is represented by a nearby rational number, with the difference between the true value and the approximation defining the `precision` (or error) of the calculation.
 
@@ -82,5 +97,24 @@ To approximate $\sqrt{2}$
    So, $\sqrt{2}$ is between 1.33 and 1.5
 3. Iterate: Take a new guess as the average of those bounds (1.33 + 1.5)/2 ≈ 1.416
 4. RepeatL Continue this process of averaging the current guess (x<sub>g</sub>) and 2/ x<sub>g</sub>
-to get progressively better approximationsw until the desired precision is reached.
+   to get progressively better approximationsw until the desired precision is reached.
+
+</details>
+
+<br>
+
+<details>
+  <summary>Heron's Method: An ancient approximation algorithm</summary>
+
+  <br>
+
+To approximate $\sqrt{2}$
+
+1. Start: Know that 1 < $\sqrt{2}$ < 2. Take an inline guess x<sub>g</sub>, as the average: x<sub>g</sub> = (1 + 2) / 2 = 1.5
+2. Refine: since 1.5<sup>2</sup> = 2.25 > 2, we kmow 1.5 > $\sqrt{2}$. Also 2 / 1.5 ≈ 3 < $\sqrt{2}$.
+   So, $\sqrt{2}$ is between 1.33 and 1.5
+3. Iterate: Take a new guess as the average of those bounds (1.33 + 1.5)/2 ≈ 1.416
+4. RepeatL Continue this process of averaging the current guess (x<sub>g</sub>) and 2/ x<sub>g</sub>
+   to get progressively better approximationsw until the desired precision is reached.
+
 </details>
