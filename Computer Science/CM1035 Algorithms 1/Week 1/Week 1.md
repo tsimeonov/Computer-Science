@@ -33,12 +33,8 @@ An `algorithm` is simple, step by step set of instuctions that, when folowed, co
 
 Al-Khwarizmi and Euclid
 
-<br>
-
 <details>
-  <summary>Al-Khwarizmi and Euclid</summary>
-
-`Historical Origins`
+  <summary>Historical Origins</summary>
 
 The idea of a step-bystep procedure predates computers by centuries.
 
@@ -51,6 +47,18 @@ The idea of a step-bystep procedure predates computers by centuries.
 - `Computer Program`: This is the concrete `implementation` of an algorithm, written in a specific programming language that a computer can execute.
 
 </details>
+<br>
+
+<details>
+  <summary>Algorithm vs. Computer Program</summary>
+
+- `Algorithm`: This is a general, mathematical concept. It's independent of any specific language or machine.
+- `Computer Program`: This is the concrete `implementation` of an algorithm, written in a specific programming language that a computer can execute.
+
+</details>
+
+---
+
 <br>
 
 <details>
