@@ -40,3 +40,14 @@ The idea of a step-bystep procedure predates computers by centuries.
 - `Computer Program`: This is the concrete `implementation` of an algorithm, written in a specific programming language that a computer can execute.
 
 </details>
+<br>
+
+<details>
+  <summary>From Mathematics to digital computers</summary>
+
+`Representing Numbers`
+
+- `Whole Numbers` (integers) and `Rational Numners` (fractions of integers) can be stored exactly because they can be represented using a finite amount of information.
+- `Irrational Numbers` (like π or) $\sqrt{2}$ cannot be represented exactly in any number ystem using finite memory. They don't have a finite decimal representation or a representation as a simnple fraction.
+
+</details>
