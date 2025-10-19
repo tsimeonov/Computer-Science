@@ -88,3 +88,20 @@ To get a resource (like a file or webpage) from point on the internet to another
 <br>
 
 </details>
+
+<details>
+
+  <summary>The need for protocols</summary>
+
+Informal requests are ambiguous ("Give me the file"). For computers to communicate reliably they need a formal, structured set of rules - a protocol. Protocols define exactly how request and responses should be formatted so both client and server understand each other.
+
+Key questions a protocol helps answer include:
+
+- Where is the server located?
+- Which specific resource on that server in needed?
+- Where should the server send the response back to (the clients address)?
+- What/ who is the client (for security or compatibility)?
+
+<br>
+
+</details>
