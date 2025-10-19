@@ -46,3 +46,17 @@ Statistics show exponential growth in internet users worldwide since the 1990s, 
 <br>
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>Human Integration and Challenges</summary>
+
+The concept of the evolution if the cyborg is introduced, describing how humans are becoming increasigly integrated with and dependent on the internet, augmenting their lives with technology and blurring the lines between the physical and digital self.
+
+`Cybersecurity` remains a major concern, encompassing cyber attacks, data breaches and ransome, highlighting the need to protect personal information in our increasingly connected lives.
+
+<br>
+
+</details>
