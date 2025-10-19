@@ -6,6 +6,7 @@ import {
 	HStack,
 	Button,
 	useColorMode,
+	useColorModeValue,
 } from '@chakra-ui/react';
 import { FaPlus } from 'react-icons/fa';
 import { FaMoon } from 'react-icons/fa6';
