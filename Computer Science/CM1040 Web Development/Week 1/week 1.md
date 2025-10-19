@@ -34,3 +34,15 @@ The era culminated in `1989` with the launch of the first commercial `Internet S
 ---
 
 The internet today
+
+<details>
+
+  <summary>Internet growth and usage</summary>
+
+Statistics show exponential growth in internet users worldwide since the 1990s, although significant regional differences remain, with some areas still having relatively low penetration even in 2020. Asia has surpassed other regions in the total number of users.
+
+`Usage patterns` have dramatically diversified. Early usage focused on fewer activities, while today (using UK data up to 2020) people use the internet for a wide array of things like social networking, instant messaging, streaming video and so on.
+
+<br>
+
+</details>
