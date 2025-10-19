@@ -1,7 +1,14 @@
-import { Button } from '@chakra-ui/react';
+import { Box, Button } from '@chakra-ui/react';
 
 function App() {
-	return <></>;
+	return (
+		<Box minH={'100vh'}>
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+				<Route path="/create" element={<CreatePage />} />
+			</Routes>
+		</Box>
+	);
 }
 
 export default App;
