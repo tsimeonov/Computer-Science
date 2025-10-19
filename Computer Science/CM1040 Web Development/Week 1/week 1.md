@@ -79,6 +79,12 @@ The client-server concept and the need for protocols
 
   <summary>How resources are accessed</summary>
 
+To get a resource (like a file or webpage) from point on the internet to another, we use a client-server architecture:
+
+- `Server`: A computer or software that `holds` the resource or provides a service.
+- `Client`: A computer or software (like your browser) that `wants` to access the resource.
+- `Interaction`: The client sends a `request` to the server asking for the resource, and the server sends back a `response` containing the resource or an error message.
+
 <br>
 
 </details>
