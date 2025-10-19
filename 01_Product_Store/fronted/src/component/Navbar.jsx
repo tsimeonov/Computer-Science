@@ -1,4 +1,4 @@
-import { Container } from '@chakra-ui/react';
+import { Container, Flex, Link, Text } from '@chakra-ui/react';
 
 const Navbar = () => {
 	return (
@@ -10,7 +10,17 @@ const Navbar = () => {
 				flexDir={{
 					base: 'column',
 					sm: 'row',
-				}}></Flex>
+				}}>
+				<Text
+					fontSize={{ base: '22', sm: '28' }}
+					fontWeight={'bold'}
+					textTransform={'uppercase'}
+					textAlign={'center'}
+					bgGradient={'linera(to-r, cyan.400, blue.500)'}
+					bgClip={'text'}>
+					<Link to={'/'}>Product Store 🛒</Link>
+				</Text>
+			</Flex>
 		</Container>
 	);
 };
