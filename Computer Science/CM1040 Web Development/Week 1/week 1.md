@@ -60,3 +60,15 @@ The concept of the evolution if the cyborg is introduced, describing how humans 
 <br>
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>Future Trends</summary>
+
+The video touches on future trends like `5G/6G`, the `internet of everything (IoT)`, the ongoing impach of `AI`, and the potential of the Metaverse, questioning what the internet of tommorw will look like
+
+<br>
+
+</details>
