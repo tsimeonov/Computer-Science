@@ -43,7 +43,15 @@ const CreatePage = () => {
 						name="price"
 						type="number"
 						onChange={(e) =>
-							setNewProduct({ ...newProduct, name: e.target.value })
+							setNewProduct({ ...newProduct, price: e.target.value })
+						}
+					/>
+					<Input
+						placeholder="Image URL"
+						name="image"
+						value={newProduct.name}
+						onChange={(e) =>
+							setNewProduct({ ...newProduct, image: e.target.value })
 						}
 					/>
 				</VStack>
