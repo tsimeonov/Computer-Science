@@ -1,4 +1,5 @@
 import { Box, useColorModeValue, VStack } from '@chakra-ui/react';
+import e from 'express';
 import { Route, Routes } from 'react-router-dom';
 
 const CreatePage = () => {
@@ -26,7 +27,18 @@ const CreatePage = () => {
 					bg={useColorModeValue('white', 'gray.800')}
 					p={6}
 					rounded={'lg'}
-					shadow={'md'}></Box>
+					shadow={'md'}
+				/>
+				<VStack spacing={4}>
+					<Input
+						placeholder="Product Name"
+						name="name"
+						value={newProduct.name}
+						onChange={(e) =>
+							setNewProduct({ ...newProduct, name: e.target.value })
+						}
+					/>
+				</VStack>
 			</VStack>
 		</Container>
 	);
