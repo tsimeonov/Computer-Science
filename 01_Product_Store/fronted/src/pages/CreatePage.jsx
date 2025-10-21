@@ -1,4 +1,4 @@
-import { Box, useColorModeValue, VStack } from '@chakra-ui/react';
+import { Box, Button, useColorModeValue, VStack } from '@chakra-ui/react';
 import e from 'express';
 import { Route, Routes } from 'react-router-dom';
 
@@ -54,6 +54,10 @@ const CreatePage = () => {
 							setNewProduct({ ...newProduct, image: e.target.value })
 						}
 					/>
+
+					<Button colorScheme="blue" onClick={handleAddProduct} w={'full'}>
+						Add Product
+					</Button>
 				</VStack>
 			</VStack>
 		</Container>
