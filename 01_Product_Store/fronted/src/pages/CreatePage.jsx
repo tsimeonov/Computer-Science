@@ -38,6 +38,14 @@ const CreatePage = () => {
 							setNewProduct({ ...newProduct, name: e.target.value })
 						}
 					/>
+					<Input
+						placeholder="Price"
+						name="price"
+						type="number"
+						onChange={(e) =>
+							setNewProduct({ ...newProduct, name: e.target.value })
+						}
+					/>
 				</VStack>
 			</VStack>
 		</Container>
