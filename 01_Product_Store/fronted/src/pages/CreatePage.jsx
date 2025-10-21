@@ -17,7 +17,16 @@ const CreatePage = () => {
 					mb={8}
 					Create
 					New
-					Product></Heading>
+					Product>
+					Create New Product
+				</Heading>
+
+				<Box
+					w={'full'}
+					bg={useColorModeValue('white', 'gray.800')}
+					p={6}
+					rounded={'lg'}
+					shadow={'md'}></Box>
 			</VStack>
 		</Container>
 	);
