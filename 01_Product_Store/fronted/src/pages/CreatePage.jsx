@@ -1,6 +1,14 @@
-import { Box, Button, useColorModeValue, VStack } from '@chakra-ui/react';
-import e from 'express';
+import {
+	Box,
+	Button,
+	useColorModeValue,
+	VStack,
+	Container,
+	Heading,
+	Input,
+} from '@chakra-ui/react';
 import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 const CreatePage = () => {
 	const [newProduct, setNewProduct] = useState({
@@ -8,6 +16,11 @@ const CreatePage = () => {
 		price: '',
 		image: '',
 	});
+
+	const handleAddProduct = () => {
+		console.log(newProduct);
+	};
+
 	return (
 		<Container maxW={'container.sm'}>
 			<VStack spacing={8}>
