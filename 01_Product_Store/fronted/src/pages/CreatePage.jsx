@@ -7,7 +7,7 @@ import {
 	Heading,
 	Input,
 } from '@chakra-ui/react';
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 
 const CreatePage = () => {
@@ -26,7 +26,7 @@ const CreatePage = () => {
 			<VStack spacing={8}>
 				<Heading
 					as={'h1'}
-					size={'2x1'}
+					size={'2xl'}
 					textAlign={'center'}
 					mb={8}
 					Create
