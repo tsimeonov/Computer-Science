@@ -62,7 +62,7 @@ const CreatePage = () => {
 						<Input
 							placeholder="Image URL"
 							name="image"
-							value={newProduct.name}
+							value={newProduct.image}
 							onChange={(e) =>
 								setNewProduct({ ...newProduct, image: e.target.value })
 							}
