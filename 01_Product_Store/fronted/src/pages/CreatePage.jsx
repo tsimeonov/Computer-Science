@@ -40,38 +40,38 @@ const CreatePage = () => {
 					bg={useColorModeValue('white', 'gray.800')}
 					p={6}
 					rounded={'lg'}
-					shadow={'md'}
-				/>
-				<VStack spacing={4}>
-					<Input
-						placeholder="Product Name"
-						name="name"
-						value={newProduct.name}
-						onChange={(e) =>
-							setNewProduct({ ...newProduct, name: e.target.value })
-						}
-					/>
-					<Input
-						placeholder="Price"
-						name="price"
-						type="number"
-						onChange={(e) =>
-							setNewProduct({ ...newProduct, price: e.target.value })
-						}
-					/>
-					<Input
-						placeholder="Image URL"
-						name="image"
-						value={newProduct.name}
-						onChange={(e) =>
-							setNewProduct({ ...newProduct, image: e.target.value })
-						}
-					/>
+					shadow={'md'}>
+					<VStack spacing={4}>
+						<Input
+							placeholder="Product Name"
+							name="name"
+							value={newProduct.name}
+							onChange={(e) =>
+								setNewProduct({ ...newProduct, name: e.target.value })
+							}
+						/>
+						<Input
+							placeholder="Price"
+							name="price"
+							type="number"
+							onChange={(e) =>
+								setNewProduct({ ...newProduct, price: e.target.value })
+							}
+						/>
+						<Input
+							placeholder="Image URL"
+							name="image"
+							value={newProduct.name}
+							onChange={(e) =>
+								setNewProduct({ ...newProduct, image: e.target.value })
+							}
+						/>
 
-					<Button colorScheme="blue" onClick={handleAddProduct} w={'full'}>
-						Add Product
-					</Button>
-				</VStack>
+						<Button colorScheme="blue" onClick={handleAddProduct} w={'full'}>
+							Add Product
+						</Button>
+					</VStack>
+				</Box>
 			</VStack>
 		</Container>
 	);
