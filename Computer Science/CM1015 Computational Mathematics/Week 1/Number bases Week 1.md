@@ -84,9 +84,11 @@ Subtraction uses borrowing, similar to decimal:
 
 Example: Substract 1101<sup>2</sup> (5 in decimal) from 1100<sup>2</sup> (12 in decimal)
 
-  0 1 1 (borrow)
+```
+  0 1 1  (borrow)
   1 1 0 0  (12)
 -   1 0 1  ( 5)
 -------
    0 1 1 1  ( 7)
+```
 
