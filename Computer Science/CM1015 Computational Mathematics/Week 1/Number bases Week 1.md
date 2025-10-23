@@ -24,7 +24,8 @@ Hense 110101~2~ and 53~10~ are equivalent
 
 Octal numbers use 8 as a base.
 
-328~8~ = 3(8^2^) + 2(8^1^) + 5(8^0^)
+325<sub>8</sub> = 3(8<sup>2</sup>) + 2(8<sup>1</sup>) + 5(8<sup>0</sup>)
+
 
 ### 14.4: Hexadecimal system
 
