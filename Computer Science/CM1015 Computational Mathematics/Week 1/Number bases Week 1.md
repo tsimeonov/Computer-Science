@@ -50,3 +50,19 @@ The number systems whisch use 16 as a base are called `hexadecimal`. There are 1
 |13|D|
 |14|E|
 |15|F|
+
+
+------ 
+
+Basic arithmetics operattions
+
+`Binary addition`
+
+Addition follows these rules:
+- 0 + 0 = 0
+- 0 + 1 = 1
+- 1 + 0 = 1
+- 1 + 1 = 0, carry over 1 to the next left column
+- 1 + 1 + 1 = 1, carry over 1 to the next left column (this happens when there's carry-in)
+
+
