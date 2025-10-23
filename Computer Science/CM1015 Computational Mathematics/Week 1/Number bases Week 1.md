@@ -73,4 +73,20 @@ Example: Add 11011<sup>2</sup> (11 in decimal) and 110<sup>2</sup> ( 6 in decima
 ------
  10001  (17)
 
+`Binary Substraction`
+
+Subtraction uses borrowing, similar to decimal:
+
+- 0 - 0 = 0
+- 1 - 0 = 1
+- 1 - 1 = 0
+- 0 - 1 = 1, borrow 1 from the next left column (making that columns value decrease, and the current co,ums value increase by 2, because its base 2)
+
+Example: Substract 1101<sup>2</sup> (5 in decimal) from 1100<sup>2</sup> (12 in decimal)
+
+  0 1 1 (borrow)
+  1 1 0 0  (12)
+-   1 0 1  ( 5)
+-------
+   0 1 1 1  ( 7)
 
