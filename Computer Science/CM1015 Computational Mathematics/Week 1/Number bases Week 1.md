@@ -5,7 +5,7 @@
 When we use 10 as a base we say we are writting in the `decimal system`.
 
 253 = 2(100) + 5(10) + (1)
-= 2(10^2^) + 5(10^1^) + (10^0^)
+= 2(10<sup>2</sup>) + 5(10<sup>1</sup>) + (10<sup>0</sup>)
 
 ### 14.2: The binary system
 
