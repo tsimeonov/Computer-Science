@@ -67,11 +67,13 @@ Addition follows these rules:
 
 Example: Add 11011<sup>2</sup> (11 in decimal) and 110<sup>2</sup> ( 6 in decimal)
 
+```
   1 1  (carry)
   1011  (11)
 +  110  ( 6)
 ------
  10001  (17)
+```
 
 `Binary Substraction`
 
