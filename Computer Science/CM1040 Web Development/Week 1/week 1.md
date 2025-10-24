@@ -164,6 +164,8 @@ Different actions are performed using different methods:
   - `404 NOT FOUND`: The requested resource doens't exist on the sercer
   - `500 Internal Server Error`: Something went wrong on the server side.
 
-
-
 </details>
+
+----
+
+Statelessness, cookies and HTTPS
