@@ -114,7 +114,7 @@ The HTTP Protocol
 
   <summary>Core Concepts</summary>
 
-    <br>
+<br>
 
 - `Client-Server Model`: The internet largely operates on this model. A `client` (e.g, your web browser) wants a resource and a `server` (e.g, a websites computer) provides it.
 - `Request-Response Cycle` - The client sends a `request` to the server, and the server sends back a response.
@@ -128,7 +128,7 @@ The HTTP Protocol
 
   <summary>HTTP Message Structure</summary>
 
-    <br>
+  <br>
 
 Both requests and responses consist of:
 
@@ -150,9 +150,5 @@ Different actions are performed using different methods:
 - `POST`: Used by the client to `send/push` data to the server (e.g, submitting a login form). POST requests include the data in the `body`.
 - `PUT`: Sililat to the POST, but typically uses to `update or replace` and exisitng resource at a specific URL.
 - `DELETE`: Used to `remove` a resource from the server. 
-
-Servers 
-  
-<br>
 
 </details>
