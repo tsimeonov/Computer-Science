@@ -169,3 +169,17 @@ Different actions are performed using different methods:
 ----
 
 Statelessness, cookies and HTTPS
+
+<details>
+
+  <summary>The Problem with Statelessness</summary>
+
+  <br>
+
+Because HTTP is stateless:
+
+- Servers can't remember if a user is `logged in`
+- Features like `shopping carts` wouldn't work, as the server forgets what items you added on previous page visits.
+- Tracking users for analytics or advertising is impossible with basic HTTP
+
+</details>
