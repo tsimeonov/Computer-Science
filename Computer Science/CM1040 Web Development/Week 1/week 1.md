@@ -152,3 +152,18 @@ Different actions are performed using different methods:
 - `DELETE`: Used to `remove` a resource from the server. 
 
 </details>
+
+<details>
+
+  <summary>Status Codes</summary>
+
+  <br>
+
+  - `200 OK`: Success
+  - `400 Bad Request`: The server couldn't understand the rqquest (e.g, malformation syntax).
+  - `404 NOT FOUND`: The requested resource doens't exist on the sercer
+  - `500 Internal Server Error`: Something went wrong on the server side.
+
+
+
+</details>
