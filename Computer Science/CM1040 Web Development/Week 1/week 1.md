@@ -139,8 +139,10 @@ Both requests and responses consist of:
 
   <summary>HTTP Methods (Verbs)</summary>
 
+  <br>
+
 Different actions are performed using different methods:
-- `Get`: Used by the client to `request/pull` data from server (e.g loading a webpage). GET requests typically have an empty body.
+- `GET`: Used by the client to `request/pull` data from server (e.g loading a webpage). GET requests typically have an empty body.
 - `POST`: Used by the client to `send/push` data to the server (e.g, submitting a login form). POST requests include the data in the `body`.
 - `PUT`: Sililat to the POST, but typically uses to `update or replace` and exisitng resource at a specific URL.
 - `DELETE`: Used to `remove` a resource from the server. 
