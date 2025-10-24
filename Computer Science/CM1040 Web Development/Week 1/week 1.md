@@ -121,3 +121,17 @@ The HTTP Protocol
 <br>
 
 </details>
+
+<details>
+
+  <summary>HTTP Message Structure</summary>
+
+Both requests and responses consist of:
+
+- `Headers`: Metadata providing contect about the request/response (e.g, client capabilities like `Accept` encodings/languages, server information like `Content-length`, `Data`)
+- `Body`: contains the actual data beign transferred (e.g, the HTML of a webpage in a response, or form data in a request)
+
+  
+<br>
+
+</details>
