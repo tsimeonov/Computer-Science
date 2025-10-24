@@ -109,3 +109,15 @@ Key questions a protocol helps answer include:
 --- 
 
 The HTTP Protocol
+
+<details>
+
+  <summary>Core Concepts</summary>
+
+- `Client-Server Model`: The internet largely operates on this model. A `client` (e.g, your web browser) wants a resource and a `server` (e.g, a websites computer) provides it.
+- `Request-Response Cycle` - The client sends a `request` to the server, and the server sends back a response.
+- `Need for Protocols`: To avoid ambiguity, structured rules (`protocols`) like HTTP are needed to define how clients ans servers communicate, specifyiong details like server location, resource requested, client address, etc.
+  
+<br>
+
+</details>
