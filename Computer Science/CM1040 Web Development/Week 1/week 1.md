@@ -183,3 +183,18 @@ Because HTTP is stateless:
 - Tracking users for analytics or advertising is impossible with basic HTTP
 
 </details>
+
+<details>
+
+  <summary>The Solution: Cookies 🍪</summary>
+
+  <br>
+
+To overcome statelessness, `cookies` were introduced. They work like this:
+
+1. `Server Sends Cookie`: When a client first connects, the server sends a unique identifier (the cookie) back in the reponse
+2. `Client Stores Cookie`: The client's browser stores this coolie, associating it with the specific server (domain)
+3. `Client Sends Cookie Back`: On subsequent requests to the same server, the client includese the stores cookie in the request headers.
+4. `Server Recognizes Client`: The server reads the cookie and uses it to identify the returning client, thus maintainig state (e.g, keeping the user )
+
+</details>
