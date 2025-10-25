@@ -105,3 +105,96 @@ Key questions a protocol helps answer include:
 <br>
 
 </details>
+
+--- 
+
+The HTTP Protocol
+
+<details>
+
+  <summary>Core Concepts</summary>
+
+<br>
+
+- `Client-Server Model`: The internet largely operates on this model. A `client` (e.g, your web browser) wants a resource and a `server` (e.g, a websites computer) provides it.
+- `Request-Response Cycle` - The client sends a `request` to the server, and the server sends back a response.
+- `Need for Protocols`: To avoid ambiguity, structured rules (`protocols`) like HTTP are needed to define how clients ans servers communicate, specifyiong details like server location, resource requested, client address, etc.
+  
+<br>
+
+</details>
+
+<details>
+
+  <summary>HTTP Message Structure</summary>
+
+  <br>
+
+Both requests and responses consist of:
+
+- `Headers`: Metadata providing contect about the request/response (e.g, client capabilities like `Accept` encodings/languages, server information like `Content-length`, `Data`)
+- `Body`: contains the actual data beign transferred (e.g, the HTML of a webpage in a response, or form data in a request)
+  
+<br>
+
+</details>
+
+<details>
+
+  <summary>HTTP Methods (Verbs)</summary>
+
+  <br>
+
+Different actions are performed using different methods:
+- `GET`: Used by the client to `request/pull` data from server (e.g loading a webpage). GET requests typically have an empty body.
+- `POST`: Used by the client to `send/push` data to the server (e.g, submitting a login form). POST requests include the data in the `body`.
+- `PUT`: Sililat to the POST, but typically uses to `update or replace` and exisitng resource at a specific URL.
+- `DELETE`: Used to `remove` a resource from the server. 
+
+</details>
+
+<details>
+
+  <summary>Status Codes</summary>
+
+  <br>
+
+  - `200 OK`: Success
+  - `400 Bad Request`: The server couldn't understand the rqquest (e.g, malformation syntax).
+  - `404 NOT FOUND`: The requested resource doens't exist on the sercer
+  - `500 Internal Server Error`: Something went wrong on the server side.
+
+</details>
+
+----
+
+Statelessness, cookies and HTTPS
+
+<details>
+
+  <summary>The Problem with Statelessness</summary>
+
+  <br>
+
+Because HTTP is stateless:
+
+- Servers can't remember if a user is `logged in`
+- Features like `shopping carts` wouldn't work, as the server forgets what items you added on previous page visits.
+- Tracking users for analytics or advertising is impossible with basic HTTP
+
+</details>
+
+<details>
+
+  <summary>The Solution: Cookies 🍪</summary>
+
+  <br>
+
+To overcome statelessness, `cookies` were introduced. They work like this:
+
+1. `Server Sends Cookie`: When a client first connects, the server sends a unique identifier (the cookie) back in the reponse
+2. `Client Stores Cookie`: The client's browser stores this coolie, associating it with the specific server (domain)
+3. `Client Sends Cookie Back`: On subsequent requests to the same server, the client includese the stores cookie in the request headers.
+4. `Server Recognizes Client`: The server reads the cookie and uses it to identify the returning client, thus maintainig state (e.g, keeping the user )
+
+</details>

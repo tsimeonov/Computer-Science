@@ -5,16 +5,16 @@
 When we use 10 as a base we say we are writting in the `decimal system`.
 
 253 = 2(100) + 5(10) + (1)
-= 2(10^2^) + 5(10^1^) + (10^0^)
+= 2(10<sup>2</sup>) + 5(10<sup>1</sup>) + (10<sup>0</sup>)
 
 ### 14.2: The binary system
 
 A binary system uses base 2. A binary system has only two digits: 0 and 1. Numbers in base 2 are called `binary digits` or simply `bits` for short.
 
-1101012 = 1(2^5^) + 1(2^4^) + 0(2^3^) + 1(2^2^) + 0(2^1^) + 1(2^0^)
+110101<sub>2</sub> = 1(2<sup>5</sup>) + 1(2<sup>4</sup>) + 0(2<sup>3</sup>) + 1(2<sup>2</sup>) + 0(2<sup>1</sup>) + 1(2<sup>0</sup>)
 = 1(32) + 1(16) + 0(8) + 1(4) + 0(2) + 1(1)
 = 32 + 16 + 4 + 1
-= 531~10~
+= 531<sub>10</sub>
 
 Hense 110101~2~ and 53~10~ are equivalent
 
@@ -24,7 +24,8 @@ Hense 110101~2~ and 53~10~ are equivalent
 
 Octal numbers use 8 as a base.
 
-328~8~ = 3(8^2^) + 2(8^1^) + 5(8^0^)
+325<sub>8</sub> = 3(8<sup>2</sup>) + 2(8<sup>1</sup>) + 5(8<sup>0</sup>)
+
 
 ### 14.4: Hexadecimal system
 
@@ -49,3 +50,47 @@ The number systems whisch use 16 as a base are called `hexadecimal`. There are 1
 |13|D|
 |14|E|
 |15|F|
+
+
+------ 
+
+Basic arithmetics operattions
+
+`Binary addition`
+
+Addition follows these rules:
+- 0 + 0 = 0
+- 0 + 1 = 1
+- 1 + 0 = 1
+- 1 + 1 = 0, carry over 1 to the next left column
+- 1 + 1 + 1 = 1, carry over 1 to the next left column (this happens when there's carry-in)
+
+Example: Add 11011<sup>2</sup> (11 in decimal) and 110<sup>2</sup> ( 6 in decimal)
+
+```
+  1 1  (carry)
+  1011  (11)
++  110  ( 6)
+------
+ 10001  (17)
+```
+
+`Binary Substraction`
+
+Subtraction uses borrowing, similar to decimal:
+
+- 0 - 0 = 0
+- 1 - 0 = 1
+- 1 - 1 = 0
+- 0 - 1 = 1, borrow 1 from the next left column (making that columns value decrease, and the current co,ums value increase by 2, because its base 2)
+
+Example: Substract 1101<sup>2</sup> (5 in decimal) from 1100<sup>2</sup> (12 in decimal)
+
+```
+  0 1 1  (borrow)
+  1 1 0 0  (12)
+-   1 0 1  ( 5)
+-------
+   0 1 1 1  ( 7)
+```
+
