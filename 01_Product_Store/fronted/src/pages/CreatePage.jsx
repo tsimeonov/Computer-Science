@@ -17,6 +17,7 @@ const CreatePage = () => {
 		image: '',
 	});
 
+	const { createproduct } = useProductStore();
 	const handleAddProduct = () => {
 		console.log(newProduct);
 	};
