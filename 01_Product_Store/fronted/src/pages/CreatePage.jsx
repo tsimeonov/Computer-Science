@@ -7,8 +7,9 @@ import {
 	Heading,
 	Input,
 } from '@chakra-ui/react';
-// import { Route, Routes } from 'react-router-dom';
+
 import { useState } from 'react';
+import { useProductStore } from '../store/product';
 
 const CreatePage = () => {
 	const [newProduct, setNewProduct] = useState({
