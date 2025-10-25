@@ -7,7 +7,11 @@ export default defineConfig({
 	server: {
 		proxy: {
 			'/api': {
-				target: 'hppt//localhost:5000',
+				// Corrected the protocol to http://
+				target: 'http://localhost:5000',
+				// Optional: Add these if you encounter issues
+				// changeOrigin: true, // Recommended for virtual hosted sites
+				// secure: false,      // If your backend is not HTTPS
 			},
 		},
 	},
