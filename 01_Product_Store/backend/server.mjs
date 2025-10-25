@@ -2,7 +2,7 @@
 
 import dotenv from 'dotenv';
 import express from 'express';
-import { connectBD } from '../config/db.js';
+import { connectBD } from './config/db.js';
 
 import productRoutes from './routes/product.route.js';
 
