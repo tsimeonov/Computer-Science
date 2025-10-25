@@ -18,12 +18,8 @@ const CreatePage = () => {
 		image: '',
 	});
 
-	const { createProduct } = useProductStore();
-
-	const handleAddProduct = async () => {
-		const { success, message } = await createProduct(newProduct);
-		console.log('Success:', success);
-		console.log('Message:', message);
+	const handleAddProduct = () => {
+		console.log(newProduct);
 	};
 
 	return (
