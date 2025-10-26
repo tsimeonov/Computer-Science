@@ -1,4 +1,4 @@
-import { Container, Text, VStack } from '@chakra-ui/react';
+import { Container, Text, VStack, Link } from '@chakra-ui/react';
 
 const HomePage = () => {
 	return (
@@ -19,6 +19,14 @@ const HomePage = () => {
 					fontWeight={'bold'}
 					color={'gray.500'}>
 					No Product Found{' '}
+					<Link to={'/create'}>
+						<Text
+							as={'span'}
+							color="blue.500"
+							_hover={{ textDecoration: 'underline' }}>
+							Create a Product
+						</Text>
+					</Link>
 				</Text>
 			</VStack>
 		</Container>
