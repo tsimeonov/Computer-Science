@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import { useProductStore } from '../store/product';
 
 const HomePage = () => {
-	const { fetchProducts } = useProductStore();
+	const { fetchProducts, products } = useProductStore();
 	useEffect(() => {
 		fetchProducts();
 	}, [fetchProducts]);
+	console.log('Product', products);
 
 	return (
 		<Container maxW="container.xl" py={12}>
