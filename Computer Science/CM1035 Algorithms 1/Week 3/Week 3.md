@@ -1,7 +1,7 @@
 Discretisation and pseudocode
 
 <details>
-  <summary>Discretisation</summary>
+  <summary>Discretization</summary>
 
   <br>
 
