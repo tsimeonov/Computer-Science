@@ -10,3 +10,14 @@ First, it highlights that computers work in `discrete steps`, unlike some contin
 </details>
 
   <br>
+
+  <details>
+  <summary>What is Pseudocode?</summary>
+
+  <br>
+
+`Pseudocode` is a way to write down the steps of an algorithm using a mix of natural language and mathematical notation. It's designed to be easily readable by humans but structured wnough to resemble a computer program. It's more foramal than a flowchart but not tied to the struct syntax of any specific programming language.
+
+</details>
+
+  <br>
