@@ -12,6 +12,14 @@ const HomePage = () => {
 					textAlign={'center'}>
 					Current Products
 				</Text>
+
+				<Text
+					fontSize={'xl'}
+					textAlign={'center'}
+					fontWeight={'bold'}
+					color={'gray.500'}>
+					No Product Found{' '}
+				</Text>
 			</VStack>
 		</Container>
 	);
