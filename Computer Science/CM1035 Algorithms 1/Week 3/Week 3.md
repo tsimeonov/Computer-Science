@@ -1,11 +1,11 @@
-Pseudocode, Part 1
+Discretisation and pseudocode
 
 <details>
-  <summary>Discretisation and pseudocode</summary>
+  <summary>Discretisation</summary>
 
   <br>
 
-Flowcharts use standard `boxes and arrows` to represent the steps and flow of a process. Thy are usefull because they are abstract enough to describe many kinds of procedures, not just computer algorithms, and help in designing processes before implementing them.
+First, it highlights that computers work in `discrete steps`, unlike some continuous real-workd process (like gradually turning up a thermostat) .Therefore, any algorithm for a computer must break down actions into distinct, step-bystep instructions. This process of convering continous actions into discrete ones is called `discretization`.
 
 </details>
 
