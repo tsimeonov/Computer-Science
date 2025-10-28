@@ -1,4 +1,4 @@
-import { Box, Image, Heading } from '@chakra-ui/react';
+import { Box, Image, Heading, Text } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 
 const ProductCard = ({ product }) => {
@@ -21,6 +21,10 @@ const ProductCard = ({ product }) => {
 				<Heading as={'h3'} size={'md'} mb={2}>
 					{product.name}
 				</Heading>
+
+				<Text fontWeight={'bold'} fontSize={'xl'} color={textColor} mb={4}>
+					${product.price}
+				</Text>
 			</Box>
 		</Box>
 	);
