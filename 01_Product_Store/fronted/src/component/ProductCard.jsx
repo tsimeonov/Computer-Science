@@ -8,7 +8,15 @@ const ProductCard = ({ product }) => {
 			rounded={'lg'}
 			overflow={'hidden'}
 			transition={'all 0.3s'}
-			_hover={{ transform: 'translateY(-5px)', shadow: 'xl' }}></Box>
+			_hover={{ transform: 'translateY(-5px)', shadow: 'xl' }}>
+			<Image
+				src={product.image}
+				alt={product.name}
+				h={48}
+				w="full"
+				objectFit="cover"
+			/>
+		</Box>
 	);
 };
 
