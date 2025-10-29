@@ -36,14 +36,8 @@ const ProductCard = ({ product }) => {
 				</Text>
 
 				<HStack spacing={2}>
-					<IconButton
-						icon={<MdEdit />}
-						onClick={onOpen}
-						colorScheme="blue"></IconButton>
-					<IconButton
-						icon={<AiFillDelete />}
-						onClick={() => handleDelete(product._id)}
-						colorScheme="red"></IconButton>
+					<IconButton icon={<MdEdit />} colorScheme="blue"></IconButton>
+					<IconButton icon={<AiFillDelete />} colorScheme="red"></IconButton>
 				</HStack>
 			</Box>
 		</Box>
