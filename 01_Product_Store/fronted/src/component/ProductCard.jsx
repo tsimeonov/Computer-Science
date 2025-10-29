@@ -5,12 +5,15 @@ import {
 	Text,
 	HStack,
 	IconButton,
+	useColorModeValue,
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
 import { AiFillDelete } from 'react-icons/ai';
 
 const ProductCard = ({ product }) => {
+	const textColor = useColorModeValue('gray.600', 'gray.200');
+	const bg = useColorModeValue('white', 'gray.800');
 	return (
 		<Box
 			shadow={'lg'}
