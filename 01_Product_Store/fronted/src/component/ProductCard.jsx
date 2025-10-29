@@ -1,5 +1,13 @@
-import { Box, Image, Heading, Text } from '@chakra-ui/react';
+import {
+	Box,
+	Image,
+	Heading,
+	Text,
+	HStack,
+	IconButton,
+} from '@chakra-ui/react';
 import { transform } from 'framer-motion';
+import { MdEdit } from 'react-icons/md';
 
 const ProductCard = ({ product }) => {
 	return (
@@ -22,9 +30,16 @@ const ProductCard = ({ product }) => {
 					{product.name}
 				</Heading>
 
-				<Text fontWeight={'bold'} fontSize={'xl'} color={textColor} mb={4}>
+				<Text fontWeight={'bold'} fontSize={'xl'} mb={4}>
 					${product.price}
 				</Text>
+
+				<HStack spacing={2}>
+					<IconButton
+						icon={<MdEdit />}
+						onClick={onOpen}
+						colorScheme="blue"></IconButton>
+				</HStack>
 			</Box>
 		</Box>
 	);
