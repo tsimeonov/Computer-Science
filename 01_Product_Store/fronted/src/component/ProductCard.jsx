@@ -8,6 +8,7 @@ import {
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
+import { AiFillDelete } from 'react-icons/ai';
 
 const ProductCard = ({ product }) => {
 	return (
@@ -39,6 +40,10 @@ const ProductCard = ({ product }) => {
 						icon={<MdEdit />}
 						onClick={onOpen}
 						colorScheme="blue"></IconButton>
+					<IconButton
+						icon={<AiFillDelete />}
+						onClick={() => handleDelete(product._id)}
+						colorScheme="red"></IconButton>
 				</HStack>
 			</Box>
 		</Box>
