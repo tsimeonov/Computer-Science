@@ -7,6 +7,9 @@ import {
 	IconButton,
 	useColorModeValue,
 	useToast,
+	Modal,
+	useDisclosure,
+	ModalCloseButton,
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
@@ -19,6 +22,7 @@ const ProductCard = ({ product }) => {
 
 	const { deleteProduct } = useProductStore();
 	const toast = useToast();
+	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	const handleDeleteProduct = async (pid) => {
 		const { success, message } = await deleteProduct(pid);
@@ -74,6 +78,15 @@ const ProductCard = ({ product }) => {
 						colorScheme="red"></IconButton>
 				</HStack>
 			</Box>
+
+			<Modal isOpen={isOpen} onClose={onClose}>
+				<ModalOverlay />
+
+				<ModalContent>
+					<ModalHeader>Update Product</ModalHeader>
+					<ModalCloseButton />
+				</ModalContent>
+			</Modal>
 		</Box>
 	);
 };
