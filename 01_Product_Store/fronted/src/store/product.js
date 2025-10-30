@@ -33,5 +33,6 @@ export const useProductStore = create((set) => ({
 		set((state) => ({
 			products: state.products.filter((product) => product._id !== pid),
 		}));
+		return { succes: true, message: data.message };
 	},
 }));
