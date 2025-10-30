@@ -10,6 +10,8 @@ import {
 	Modal,
 	useDisclosure,
 	ModalCloseButton,
+	VStack,
+	Input,
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
