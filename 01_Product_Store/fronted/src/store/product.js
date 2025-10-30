@@ -23,4 +23,9 @@ export const useProductStore = create((set) => ({
 		const data = await res.json();
 		set({ products: data.data });
 	},
+	deleteProduct: async (pid) => {
+		const res = await fetch(`/api/products/${pid}`, {
+			method: 'DELETE',
+		});
+	},
 }));
