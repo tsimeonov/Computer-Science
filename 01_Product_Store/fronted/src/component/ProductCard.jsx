@@ -22,8 +22,11 @@ import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
 import { AiFillDelete } from 'react-icons/ai';
 import { useProductStore } from '../store/product';
+import { useState } from 'react';
 
 const ProductCard = ({ product }) => {
+	const [updatedProduct, setUpdateproduct] = useState(product);
+
 	const textColor = useColorModeValue('gray.600', 'gray.200');
 	const bg = useColorModeValue('white', 'gray.800');
 
@@ -96,9 +99,21 @@ const ProductCard = ({ product }) => {
 					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton />
 					<VStack spacing={4}>
-						<Input placeholder="Product Name" name="name" />
-						<Input placeholder="Product Name" name="name" />
-						<Input placeholder="Product Name" name="name" />
+						<Input
+							placeholder="Product Name"
+							name="name"
+							value={updatedProduct.name}
+						/>
+						<Input
+							placeholder="Product Name"
+							name="name"
+							value={updatedProduct.price}
+						/>
+						<Input
+							placeholder="Product Name"
+							name="name"
+							value={updatedProduct.image}
+						/>
 					</VStack>
 
 					<ModalFooter>
