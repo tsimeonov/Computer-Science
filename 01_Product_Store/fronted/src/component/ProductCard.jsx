@@ -88,24 +88,9 @@ const ProductCard = ({ product }) => {
 					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton />
 					<VStack spacing={4}>
-						<Input
-							placeholder="Product Name"
-							name="name"
-							value={updatedProduct.name}
-              onChange={(e) => setUpdatedProduct((...updatedProduct, price: e.target.value))}
-						/>
-            <Input
-							placeholder="Product Name"
-							name="name"
-							value={updatedProduct.name}
-              onChange={(e) => setUpdatedProduct((...updatedProduct, price: e.target.value))}
-						/>
-            <Input
-							placeholder="Product Name"
-							name="name"
-							value={updatedProduct.name}
-              onChange={(e) => setUpdatedProduct((...updatedProduct, price: e.target.value))}
-						/>
+						<Input placeholder="Product Name" name="name" />
+						<Input placeholder="Product Name" name="name" />
+						<Input placeholder="Product Name" name="name" />
 					</VStack>
 				</ModalContent>
 			</Modal>
