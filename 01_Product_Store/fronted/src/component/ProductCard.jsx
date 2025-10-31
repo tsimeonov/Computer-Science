@@ -26,7 +26,7 @@ import { useProductStore } from '../store/product';
 import { useState } from 'react';
 
 const ProductCard = ({ product }) => {
-	const [updatedProduct, setUpdateproduct] = useState(product);
+	const [updatedProduct, setUpdateProduct] = useState(product);
 
 	const textColor = useColorModeValue('gray.600', 'gray.200');
 	const bg = useColorModeValue('white', 'gray.800');
@@ -110,11 +110,17 @@ const ProductCard = ({ product }) => {
 								placeholder="Product Name"
 								name="name"
 								value={updatedProduct.name}
+								onChange={(e) =>
+									setUpdateProduct({ ...updateProduct, name: e.target.value })
+								}
 							/>
 							<Input
 								placeholder="Product Name"
 								name="name"
 								value={updatedProduct.price}
+								onChange={(e) =>
+									setUpdateProduct({ ...updateProduct, price: e.target.value })
+								}
 							/>
 							<Input
 								placeholder="Product Name"
@@ -128,7 +134,10 @@ const ProductCard = ({ product }) => {
 						<Button
 							colorScheme={'blue'}
 							mr={3}
-							onClick={() => handleDeleteProduct(product._id, updatedProduct)}>
+							onClick={() => handleDeleteProduct(product._id, updatedProduct)}
+							onChange={(e) =>
+								setUpdateProduct({ ...updateProduct, image: e.target.value })
+							}>
 							Update
 						</Button>
 						<Button variant="ghost" onClick={onClose}>
