@@ -103,9 +103,11 @@ const ProductCard = ({ product }) => {
 
 					<ModalFooter>
 						<Button colorScheme={'blue'} mr={3} onClick={onClose}>
-							Close
+							Update
 						</Button>
-						<Button variant="hgost">Secondary Action</Button>
+						<Button variant="ghost" onClick={onClose}>
+							Cancel
+						</Button>
 					</ModalFooter>
 				</ModalContent>
 			</Modal>
