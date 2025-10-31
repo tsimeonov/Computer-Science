@@ -31,7 +31,7 @@ const ProductCard = ({ product }) => {
 	const textColor = useColorModeValue('gray.600', 'gray.200');
 	const bg = useColorModeValue('white', 'gray.800');
 
-	const { deleteProduct } = useProductStore();
+	const { deleteProduct, updateProduct } = useProductStore();
 	const toast = useToast();
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -54,6 +54,11 @@ const ProductCard = ({ product }) => {
 				isClosable: true,
 			});
 		}
+	};
+
+	const handleUpdateProduct = async (pid, updatedProduct) => {
+		await updateProduct(pid, updatedProduct);
+		onClose();
 	};
 
 	return (
@@ -120,7 +125,10 @@ const ProductCard = ({ product }) => {
 					</ModalBody>
 
 					<ModalFooter>
-						<Button colorScheme={'blue'} mr={3} onClick={onClose}>
+						<Button
+							colorScheme={'blue'}
+							mr={3}
+							onClick={() => handleDeleteProduct(product._id, updatedProduct)}>
 							Update
 						</Button>
 						<Button variant="ghost" onClick={onClose}>
