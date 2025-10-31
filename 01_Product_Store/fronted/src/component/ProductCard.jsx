@@ -18,6 +18,8 @@ import {
 	Input,
 	Button,
 	ModalBody,
+	FormControl,
+	FormLab,
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
@@ -126,6 +128,9 @@ const ProductCard = ({ product }) => {
 								placeholder="Product Name"
 								name="name"
 								value={updatedProduct.image}
+								onChange={(e) =>
+									setUpdateProduct({ ...updateProduct, image: e.target.value })
+								}
 							/>
 						</VStack>
 					</ModalBody>
