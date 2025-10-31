@@ -1,38 +1,37 @@
+// import { DeleteIcon, EditIcon } from '@chakra-ui/icons';
 import {
 	Box,
-	Image,
+	Button,
 	Heading,
-	Text,
 	HStack,
 	IconButton,
-	useColorModeValue,
-	useToast,
-	Modal,
-	useDisclosure,
-	ModalCloseButton,
-	ModalOverlay,
-	ModalContent,
-	ModalHeader,
-	ModalFooter,
-	VStack,
+	Image,
 	Input,
-	Button,
+	Modal,
 	ModalBody,
-	FormControl,
-	FormLabel,
+	ModalCloseButton,
+	ModalContent,
+	ModalFooter,
+	ModalHeader,
+	ModalOverlay,
+	Text,
+	useColorModeValue,
+	useDisclosure,
+	useToast,
+	VStack,
 } from '@chakra-ui/react';
-import { MdEdit } from 'react-icons/md';
-import { AiFillDelete } from 'react-icons/ai';
 import { useProductStore } from '../store/product';
 import { useState } from 'react';
 
+import { AiFillDelete } from 'react-icons/ai';
+import { BiEditAlt } from 'react-icons/bi';
+
 const ProductCard = ({ product }) => {
-	const [updatedProduct, setUpdateProduct] = useState(product);
+	const [updatedProduct, setUpdatedProduct] = useState(product);
 
 	const textColor = useColorModeValue('gray.600', 'gray.200');
 	const bg = useColorModeValue('white', 'gray.800');
 
-	// Import both functions from the store
 	const { deleteProduct, updateProduct } = useProductStore();
 	const toast = useToast();
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -59,7 +58,7 @@ const ProductCard = ({ product }) => {
 	};
 
 	const handleUpdateProduct = async (pid, updatedProduct) => {
-		const { success, message } = await updateProduct(pid, updateProduct);
+		const { success, message } = await updateProduct(pid, updatedProduct);
 		onClose();
 		if (!success) {
 			toast({
@@ -72,7 +71,7 @@ const ProductCard = ({ product }) => {
 		} else {
 			toast({
 				title: 'Success',
-				description: 'Product update successfully',
+				description: 'Product updated successfully',
 				status: 'success',
 				duration: 3000,
 				isClosable: true,
@@ -82,10 +81,10 @@ const ProductCard = ({ product }) => {
 
 	return (
 		<Box
-			shadow={'lg'}
-			rounded={'lg'}
-			overflow={'hidden'}
-			transition={'all 0.3s'}
+			shadow="lg"
+			rounded="lg"
+			overflow="hidden"
+			transition="all 0.3s"
 			_hover={{ transform: 'translateY(-5px)', shadow: 'xl' }}
 			bg={bg}>
 			<Image
@@ -97,27 +96,29 @@ const ProductCard = ({ product }) => {
 			/>
 
 			<Box p={4}>
-				<Heading as={'h3'} size={'md'} mb={2}>
+				<Heading as="h3" size="md" mb={2}>
 					{product.name}
 				</Heading>
 
-				<Text fontWeight={'bold'} fontSize={'xl'} color={textColor} mb={4}>
+				<Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
 					${product.price}
 				</Text>
 
 				<HStack spacing={2}>
 					<IconButton
-						icon={<MdEdit />}
+						icon={<BiEditAlt />}
+						onClick={onOpen}
 						colorScheme="blue"
-						onClick={onOpen}></IconButton>
+					/>
 					<IconButton
 						icon={<AiFillDelete />}
 						onClick={() => handleDeleteProduct(product._id)}
-						colorScheme="red"></IconButton>
+						colorScheme="red"
+					/>
 				</HStack>
 			</Box>
 
-			<Modal isOpen={isOpen} onClose={onClose} isCentered>
+			<Modal isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 
 				<ModalContent>
@@ -130,16 +131,19 @@ const ProductCard = ({ product }) => {
 								name="name"
 								value={updatedProduct.name}
 								onChange={(e) =>
-									setUpdateProduct({ ...updatedProduct, name: e.target.value })
+									setUpdatedProduct({ ...updatedProduct, name: e.target.value })
 								}
 							/>
 							<Input
-								placeholder="Product Name"
+								placeholder="Price"
 								name="price"
 								type="number"
 								value={updatedProduct.price}
 								onChange={(e) =>
-									setUpdateProduct({ ...updatedProduct, price: e.target.value })
+									setUpdatedProduct({
+										...updatedProduct,
+										price: e.target.value,
+									})
 								}
 							/>
 							<Input
@@ -147,7 +151,10 @@ const ProductCard = ({ product }) => {
 								name="image"
 								value={updatedProduct.image}
 								onChange={(e) =>
-									setUpdateProduct({ ...updatedProduct, image: e.target.value })
+									setUpdatedProduct({
+										...updatedProduct,
+										image: e.target.value,
+									})
 								}
 							/>
 						</VStack>
@@ -155,7 +162,7 @@ const ProductCard = ({ product }) => {
 
 					<ModalFooter>
 						<Button
-							colorScheme={'blue'}
+							colorScheme="blue"
 							mr={3}
 							onClick={() => handleUpdateProduct(product._id, updatedProduct)}>
 							Update
@@ -169,5 +176,4 @@ const ProductCard = ({ product }) => {
 		</Box>
 	);
 };
-
 export default ProductCard;
