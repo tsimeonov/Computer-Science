@@ -19,9 +19,8 @@ import {
 	Button,
 	ModalBody,
 	FormControl,
-	FormLab,
+	FormLabel,
 } from '@chakra-ui/react';
-import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
 import { AiFillDelete } from 'react-icons/ai';
 import { useProductStore } from '../store/product';
@@ -33,21 +32,14 @@ const ProductCard = ({ product }) => {
 	const textColor = useColorModeValue('gray.600', 'gray.200');
 	const bg = useColorModeValue('white', 'gray.800');
 
+	// Import both functions from the store
 	const { deleteProduct, updateProduct } = useProductStore();
 	const toast = useToast();
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	const handleDeleteProduct = async (pid) => {
 		const { success, message } = await deleteProduct(pid);
-		if (success) {
-			toast({
-				title: 'Success',
-				description: message,
-				status: 'success',
-				duration: 3000,
-				isClosable: true,
-			});
-		} else {
+		if (!success) {
 			toast({
 				title: 'Error',
 				description: message,
@@ -55,12 +47,31 @@ const ProductCard = ({ product }) => {
 				duration: 3000,
 				isClosable: true,
 			});
+		} else {
+			toast({
+				title: 'Success',
+				description: message,
+				status: 'success',
+				duration: 3000,
+				isClosable: true,
+			});
 		}
 	};
 
-	const handleUpdateProduct = async (pid, updatedProduct) => {
-		await updateProduct(pid, updatedProduct);
-		onClose();
+	const handleUpdateProduct = async () => {
+		const { success, message } = await updatedProduct(
+			product._id,
+			updatedProduct
+		);
+
+		// Add toast feedback for update
+		toast({
+			title: success ? 'Success' : 'Error',
+			description: message,
+			status: success ? 'success' : 'error',
+			duration: 3000,
+			isClosable: true,
+		});
 	};
 
 	return (
