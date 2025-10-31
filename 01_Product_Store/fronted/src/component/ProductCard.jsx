@@ -16,6 +16,7 @@ import {
 	ModalFooter,
 	VStack,
 	Input,
+	Button,
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
@@ -99,6 +100,13 @@ const ProductCard = ({ product }) => {
 						<Input placeholder="Product Name" name="name" />
 						<Input placeholder="Product Name" name="name" />
 					</VStack>
+
+					<ModalFooter>
+						<Button colorScheme={'blue'} mr={3} onClick={onClose}>
+							Close
+						</Button>
+						<Button variant="hgost">Secondary Action</Button>
+					</ModalFooter>
 				</ModalContent>
 			</Modal>
 		</Box>
