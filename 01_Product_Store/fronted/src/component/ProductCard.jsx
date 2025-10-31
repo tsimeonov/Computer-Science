@@ -17,6 +17,7 @@ import {
 	VStack,
 	Input,
 	Button,
+	ModalBody,
 } from '@chakra-ui/react';
 import { transform } from 'framer-motion';
 import { MdEdit } from 'react-icons/md';
@@ -38,17 +39,17 @@ const ProductCard = ({ product }) => {
 		const { success, message } = await deleteProduct(pid);
 		if (success) {
 			toast({
-				title: 'Error',
+				title: 'Success',
 				description: message,
-				status: 'error',
+				status: 'success',
 				duration: 3000,
 				isClosable: true,
 			});
 		} else {
 			toast({
-				title: 'Success',
+				title: 'Error',
 				description: message,
-				status: 'success',
+				status: 'error',
 				duration: 3000,
 				isClosable: true,
 			});
@@ -92,29 +93,31 @@ const ProductCard = ({ product }) => {
 				</HStack>
 			</Box>
 
-			<Modal isOpen={isOpen} onClose={onClose}>
+			<Modal isOpen={isOpen} onClose={onClose} isCentered>
 				<ModalOverlay />
 
 				<ModalContent>
 					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton />
-					<VStack spacing={4}>
-						<Input
-							placeholder="Product Name"
-							name="name"
-							value={updatedProduct.name}
-						/>
-						<Input
-							placeholder="Product Name"
-							name="name"
-							value={updatedProduct.price}
-						/>
-						<Input
-							placeholder="Product Name"
-							name="name"
-							value={updatedProduct.image}
-						/>
-					</VStack>
+					<ModalBody>
+						<VStack spacing={4}>
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.name}
+							/>
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.price}
+							/>
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.image}
+							/>
+						</VStack>
+					</ModalBody>
 
 					<ModalFooter>
 						<Button colorScheme={'blue'} mr={3} onClick={onClose}>
