@@ -10,6 +10,9 @@ import {
 	Modal,
 	useDisclosure,
 	ModalCloseButton,
+	ModalOverlay,
+	ModalContent,
+	ModalHeader,
 	VStack,
 	Input,
 } from '@chakra-ui/react';
@@ -73,7 +76,10 @@ const ProductCard = ({ product }) => {
 				</Text>
 
 				<HStack spacing={2}>
-					<IconButton icon={<MdEdit />} colorScheme="blue"></IconButton>
+					<IconButton
+						icon={<MdEdit />}
+						colorScheme="blue"
+						onClick={onOpen}></IconButton>
 					<IconButton
 						icon={<AiFillDelete />}
 						onClick={() => handleDeleteProduct(product._id)}
