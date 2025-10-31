@@ -59,7 +59,7 @@ const ProductCard = ({ product }) => {
 	};
 
 	const handleUpdateProduct = async (pid, updatedProduct) => {
-		const { success, message } = await updatedProduct(pid, updateProduct);
+		const { success, message } = await updateProduct(pid, updateProduct);
 		onClose();
 		if (!success) {
 			toast({
@@ -130,7 +130,7 @@ const ProductCard = ({ product }) => {
 								name="name"
 								value={updatedProduct.name}
 								onChange={(e) =>
-									setUpdateProduct({ ...updateProduct, name: e.target.value })
+									setUpdateProduct({ ...updatedProduct, name: e.target.value })
 								}
 							/>
 							<Input
@@ -139,7 +139,7 @@ const ProductCard = ({ product }) => {
 								type="number"
 								value={updatedProduct.price}
 								onChange={(e) =>
-									setUpdateProduct({ ...updateProduct, price: e.target.value })
+									setUpdateProduct({ ...updatedProduct, price: e.target.value })
 								}
 							/>
 							<Input
@@ -147,7 +147,7 @@ const ProductCard = ({ product }) => {
 								name="image"
 								value={updatedProduct.image}
 								onChange={(e) =>
-									setUpdateProduct({ ...updateProduct, image: e.target.value })
+									setUpdateProduct({ ...updatedProduct, image: e.target.value })
 								}
 							/>
 						</VStack>
@@ -157,10 +157,7 @@ const ProductCard = ({ product }) => {
 						<Button
 							colorScheme={'blue'}
 							mr={3}
-							onClick={() => handleDeleteProduct(product._id, updatedProduct)}
-							onChange={(e) =>
-								setUpdateProduct({ ...updateProduct, image: e.target.value })
-							}>
+							onClick={() => handleUpdateProduct(product._id, updatedProduct)}>
 							Update
 						</Button>
 						<Button variant="ghost" onClick={onClose}>
