@@ -25,4 +25,22 @@ Hyperlinks
 
 </details>
 
+<br>
+
+<details>
+  <summary>Features of Hypertext Systems (Pre-web)</summary>
+
+The video lists several features found in vatious hypertext systems, before the World Wide Web existed. These include:
+
+- Hierarchical or graph-based (non-hierarchical) structures.
+- Different `link types` and `attributes` (key/value pairs on links)
+- `Paths`: The ablility to string multiple links together into a single "persistent object"
+- `Versions` of nodes and links
+- `Executable procedures`: The ability to run arbitary code when a link is clicked
+- Multi-user editing, embedded graphics, and a visual browser or "map" of the links.
+
+<br>
+
+</details>
+
 ---
