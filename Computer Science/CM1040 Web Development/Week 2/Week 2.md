@@ -63,8 +63,6 @@ Identifying common elements for real web pages
 
 Located at the top of the page, the header's main purpose is to establich the webisite's `identity`, usually with a prominent `logo`. It also frequently contains the `main`, `high-level navigation links`.
 
-<br>
-
 </details>
 
 <br>
@@ -74,7 +72,14 @@ Located at the top of the page, the header's main purpose is to establich the we
 
 This is the main, central part of the page that holds the primary contnet. The content varies greatly depending on the site's purpose, from articles and embedded videos.
 
+</details>
+
 <br>
+
+<details>
+  <summary>Navbar (Navigation Bar)</summary>
+
+A navbar lists essential links for site navigation. The video emphasizes that this element often overlaps with others. The main navigation bar is usually inside the header, and the footer contains a secondary naviagtion bar.
 
 </details>
 
