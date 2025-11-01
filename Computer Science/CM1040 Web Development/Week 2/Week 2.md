@@ -68,3 +68,14 @@ Located at the top of the page, the header's main purpose is to establich the we
 </details>
 
 <br>
+
+<details>
+  <summary>Body</summary>
+
+This is the main, central part of the page that holds the primary contnet. The content varies greatly depending on the site's purpose, from articles and embedded videos.
+
+<br>
+
+</details>
+
+<br>
