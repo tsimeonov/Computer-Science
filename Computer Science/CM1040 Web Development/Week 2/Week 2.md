@@ -15,8 +15,12 @@ What and why markup?
 Hyperlinks
 
 <details>
-  <summary>Origins of Markup</summary>
-  
+  <summary>What is Hypertext?</summary>
+
+- `Nonlinear`: Unlike a conventional book, it's not meant to be read sequentially. Users can jump around.
+- `Machine-Supported`: It relies on a computer for "interactive branching" and dynamic display.
+- `Linked`: It uses links to connect documents or points within a document, which is what enables the nonlinear organization.
+
 <br>
 
 </details>
