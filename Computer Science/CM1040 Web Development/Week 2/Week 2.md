@@ -84,3 +84,23 @@ A navbar lists essential links for site navigation. The video emphasizes that th
 </details>
 
 <br>
+
+---
+
+Well formed, valid and semantic HTML
+
+<details>
+
+  <summary>Well-Formed HTML (Syntax)</summary>
+
+This is about correct syntax. An HTML document is "well-formed" if it follows the basic strucrutal rules.
+
+- `Missing Closing Tags`: Forgetting to close a tag (`<h1> This is a heading`) without a corresponding `</h1>`.
+
+- `Improper Nesting`: Tags must be closed in the reverse order they were opened.
+  - `incorrrect`: `<h2><a>Link...</h2></a>`
+  - `Correct`: `<h2><a>Link...</a></h2>`
+
+</details>
+
+<br>
