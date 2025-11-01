@@ -43,4 +43,15 @@ The video lists several features found in vatious hypertext systems, before the 
 
 </details>
 
+<br>
+
+<details>
+  <summary>Hyperlinks vs. Modern Web Interaction</summary>
+
+A `Hyperlink` (like the HTML `<a>` tag) is a reference that allows a user to "jump" to another resource.
+
+<br>
+
+</details>
+
 ---
