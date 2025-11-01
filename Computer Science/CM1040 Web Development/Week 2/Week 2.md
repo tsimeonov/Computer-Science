@@ -55,3 +55,16 @@ A `Hyperlink` (like the HTML `<a>` tag) is a reference that allows a user to "ju
 </details>
 
 ---
+
+Identifying common elements for real web pages
+
+<details>
+  <summary>Header</summary>
+
+Located at the top of the page, the header's main purpose is to establich the webisite's `identity`, usually with a prominent `logo`. It also frequently contains the `main`, `high-level navigation links`.
+
+<br>
+
+</details>
+
+<br>
