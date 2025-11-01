@@ -117,3 +117,27 @@ This is about following the official HTML specification. Your HTML can be well-f
 </details>
 
 <br>
+
+<details>
+
+  <summary>Semantic HTML (Meaning)</summary>
+
+This is about using HTML tags that describe the meaning or purpose of the content, rather than just how it should look.
+
+- Example: Instead of using `<div>` for everyting, you use specific tags like:
+
+  - `<header>`: For the introductory content at the top of a page.
+
+  - `<nav>`: For the main navigation links.
+
+  - `<section>`: For grouping related content.
+
+  - `<article>`: For a self-contained piece of content (like a blog post or news story).
+
+  - `<footer>`: For the footer content at the bottom of a page.
+
+  - `<figure>`: For an image or diagram that is part of the content.
+
+</details>
+
+<br>
