@@ -104,3 +104,16 @@ This is about correct syntax. An HTML document is "well-formed" if it follows th
 </details>
 
 <br>
+
+<details>
+
+  <summary>Valid HTML (Rules)</summary>
+
+This is about following the official HTML specification. Your HTML can be well-formed but still invalid because you used tags in a way tha isn't allowed by the rules.
+
+- `Example`: placing a `<body>` tag inside an `<h2>` tag.
+- `Example`: Forgetting a required tag, like a `<title>` tag inside the `<head>` tag.
+
+</details>
+
+<br>
