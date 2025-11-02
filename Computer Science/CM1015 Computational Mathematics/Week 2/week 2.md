@@ -158,3 +158,20 @@ Step 1: The rightmost column (1s place) `0 - 1`. We need to borrow
 ---------
         1
 ```
+
+Step 2: The 2s place `0 - 1`. (Rememeber, we used the `1` to borrow). We need to borrow again.
+
+- We look to the 4s place, but it's a `0`. We can't borrow from it.
+
+- So, the 4s place must borrow from the 8s place.
+
+- The `1` in the 8s place becomes `0`.
+
+- The `0` in the 4s place becomes `10` (two).
+
+```
+    (0)(10)
+  1 1 0 1 0
+-   1 0 1 1
+---------
+```
