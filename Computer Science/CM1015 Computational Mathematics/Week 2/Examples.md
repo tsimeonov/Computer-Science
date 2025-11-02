@@ -22,3 +22,5 @@ Non-integer numbers conversion:
 - C
 
 4. Convert hexadecimal number D08.1C to binary
+
+5. Convert the binary number 110101001.001 to decimal
