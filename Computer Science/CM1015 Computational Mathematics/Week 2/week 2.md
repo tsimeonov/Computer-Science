@@ -144,3 +144,17 @@ Let's subtract `11010` (26) from `1011` (11)
 -   1 0 1 1
 ---------
 ```
+
+Step 1: The rightmost column (1s place) `0 - 1`. We need to borrow
+
+- We borrow from the `1` in the 2s place , which becomes 0
+- The `0` in the 1s place becomes `10` (two)
+- Now we calculate `10 - 1 = 1`
+
+```
+      (0)(10)
+  1 1 0 1 0
+-   1 0 1 1
+---------
+        1
+```
