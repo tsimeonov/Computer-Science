@@ -131,3 +131,27 @@ So, the binary number `1011` is equal to the decimal number 11.
 = (101101)<sup>2</sup>
 
 </details>
+
+10. `Convert the binary number 100111 to its decimal equivalent. Show your workings.`
+
+<details>
+
+  <summary>Answer </summary>
+
+  <br>
+
+(100111)₂ = (1 × 2⁵) + (0 × 2⁴) + (0 × 2³) + (1 × 2²) + (1 × 2¹) + (1 × 2⁰) = (39)₁₀
+
+</details>
+
+11. `Convert the binary number 11010 to its decimal equivalent. Show your workings.`
+
+<details>
+
+  <summary>Answer </summary>
+
+  <br>
+
+(11010)₂ = (1 × 2⁴) + (1 × 2³) + (0 × 2²) + (1 × 2¹) + (0 × 2⁰) = (26)₁₀
+
+</details>
