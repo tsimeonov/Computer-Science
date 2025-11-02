@@ -110,3 +110,15 @@ Step 5: The final column. Bring down the last carried 1
 ---------
   1 1 0 0 0
 ```
+
+So, `1011 + 1101 = 11000`
+
+Let's check out work (with decimal)
+
+- `1011` in binary = (1 x 8) + (0 x 4) + (1 x 2) + (1 x 1 ) = 11
+- `1101` in binary = (1 x 8) + (1 x 4) + (0 x 2) + (1 x 1 ) = 13
+- 11 + 13 = 24
+
+Now, lets check out answer
+
+- `11000` in binary = (1 x 16) + (1 x 8) + (0 x 4) + (0 x 2 ) + (0 x 1 ) = 24
