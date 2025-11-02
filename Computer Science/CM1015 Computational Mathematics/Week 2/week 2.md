@@ -182,4 +182,15 @@ Step 2: The 2s place `0 - 1`. (Rememeber, we used the `1` to borrow). We need to
 
 - The `0` in the 2s place becomes `10` (two).
 
-- We calculate `10 - 1 = 1`.
+- We calculate `s`.
+
+Step 3: The 4s place `1 - 0`. (Remeber, this column is now `1` after lending)
+
+- `1 - 0 = 1`
+
+```
+  1 1 0 1 0
+-   1 0 1 1
+---------
+      1 1 1
+```
