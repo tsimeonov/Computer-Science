@@ -136,3 +136,11 @@ The basic rules
 The only complex rule involces `borrowing`
 
 - `0 - 1 = 1` (with a borrow). To subtract 1 form 0, you must borrow form the next column to the left.
+
+Let's subtract `11010` (26) from `1011` (11)
+
+```
+  1 1 0 1 0
+-   1 0 1 1
+---------
+```
