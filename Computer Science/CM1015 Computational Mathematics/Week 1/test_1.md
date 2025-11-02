@@ -89,3 +89,24 @@ Finally, add the results: `8 + 0 + 2 + 1 = 11`
 So, the binary number `1011` is equal to the decimal number 11.
 
 </details>
+
+8. `How would you represent the decimal number 57 in binary?`
+
+<details>
+
+  <summary>Answer </summary>
+
+  <br>
+
+| Division by 2 | Remainder |
+| :-----------: | :-------: |
+|    (57)/2     |     1     |
+|    (28)/2     |     0     |
+|    (14)/2     |     0     |
+|     (7)/2     |     1     |
+|     (3)/2     |     1     |
+|     (1)/2     |     1     |
+
+= (111001)<sup>2</sup>
+
+</details>
