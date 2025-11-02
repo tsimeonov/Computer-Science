@@ -214,3 +214,15 @@ We calculate `10 - 1 = 1`.
 Step 5: The 16s place `0 - 0 = 0`. We can drop the leading zero.
 
 Final Answer: `1111`
+
+Let's Check Our Work (with decimal)
+
+- 11010 (binary) = (1 \* 16) + (1 \* 8) + (0 \* 4) + (1 \* 2) + (0 \* 1) = 26
+
+- 1011 (binary) = (1 \* 8) + (0 \* 4) + (1 \* 2) + (1 \* 1) = 11
+
+- 26 - 11 = 15
+
+Our binary answer:
+
+- 1111 (binary) = (1 \* 8) + (1 \* 4) + (1 \* 2) + (1 \* 1) = 15
