@@ -38,3 +38,12 @@ Conversions (Working Examples)
      - Answer: `1A9.6`
 
 ---
+
+#### Operations with binary numbers - addition
+
+The four basic rules
+
+1. `0 + 0 = 0`
+1. `1 + 0 = 1` (or `0 + 1 = 1`)
+1. `1 + 1 = 10` (This is the key! The value "two" in binary is written `10`. So, you write 0 and carry yhe 1 to the next column)
+1. `0 + 0 = 0` (This happens if you also have a carry from the revious column, The value "three" in binary is `11`). So you write 1 and 1)
