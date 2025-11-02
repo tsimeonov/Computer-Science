@@ -26,7 +26,6 @@ Octal numbers use 8 as a base.
 
 325<sub>8</sub> = 3(8<sup>2</sup>) + 2(8<sup>1</sup>) + 5(8<sup>0</sup>)
 
-
 ### 14.4: Hexadecimal system
 
 The number systems whisch use 16 as a base are called `hexadecimal`. There are 16 digits in the hexadecimal system: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
@@ -50,47 +49,3 @@ The number systems whisch use 16 as a base are called `hexadecimal`. There are 1
 |13|D|
 |14|E|
 |15|F|
-
-
------- 
-
-Basic arithmetics operattions
-
-`Binary addition`
-
-Addition follows these rules:
-- 0 + 0 = 0
-- 0 + 1 = 1
-- 1 + 0 = 1
-- 1 + 1 = 0, carry over 1 to the next left column
-- 1 + 1 + 1 = 1, carry over 1 to the next left column (this happens when there's carry-in)
-
-Example: Add 11011<sup>2</sup> (11 in decimal) and 110<sup>2</sup> ( 6 in decimal)
-
-```
-  1 1  (carry)
-  1011  (11)
-+  110  ( 6)
-------
- 10001  (17)
-```
-
-`Binary Substraction`
-
-Subtraction uses borrowing, similar to decimal:
-
-- 0 - 0 = 0
-- 1 - 0 = 1
-- 1 - 1 = 0
-- 0 - 1 = 1, borrow 1 from the next left column (making that columns value decrease, and the current co,ums value increase by 2, because its base 2)
-
-Example: Substract 1101<sup>2</sup> (5 in decimal) from 1100<sup>2</sup> (12 in decimal)
-
-```
-  0 1 1  (borrow)
-  1 1 0 0  (12)
--   1 0 1  ( 5)
--------
-   0 1 1 1  ( 7)
-```
-
