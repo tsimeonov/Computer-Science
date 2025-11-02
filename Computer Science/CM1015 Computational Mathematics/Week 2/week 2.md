@@ -210,3 +210,7 @@ We calculate `10 - 1 = 1`.
 ---------
    0 1 1 1 1
 ```
+
+Step 5: The 16s place `0 - 0 = 0`. We can drop the leading zero.
+
+Final Answer: `1111`
