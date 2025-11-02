@@ -329,3 +329,7 @@ Our binary answer:
 - <strong>Integer Numbers</strong>: Whole numbers, including positives, negatives, and zero (...-2, -1, 0, 1, 2...).
 - <strong>Rational Numbers</strong>: Any number that can be expressed as a fraction p/q (e.g., 3/4, 77/99).
 - <strong>Real Numbers (Irrational)</strong>: Numbers that cannot be expressed as a fraction p/q. Their decimal representation never repeats (e.g., $\pi$). Because they are infinite and non-repeating, they cannot be stored exactly in a computer's finite memory and must be approximated
+
+`Prime Numbers`
+
+The text also defines prime numbers as numbers that can only be divided by themselves and one (e.g., 2, 3, 5, 7, 11...). Two is the only even prime number. Primes are important in fields like cryptography.
