@@ -271,3 +271,26 @@ x 101
  1011
 0000 (shifted one place left)
 ```
+
+Step 3: Multiply by the third bit (leftmost) The leftmost bit of the multiplier `101` is 1.
+`1 x 1011 = 1011`. Shift this row two places to the left and write it down.
+
+```
+ 1011
+x 101
+---
+ 1011
+0000
+1011 (shifted two places left)
+```
+
+(Note: We add placeholder 0s to make the final addition easier)
+
+```
+  1011
+ x  101
+ ---
+   01011
+  00000
+ 101100
+```
