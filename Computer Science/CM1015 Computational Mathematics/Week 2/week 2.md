@@ -194,3 +194,19 @@ Step 3: The 4s place `1 - 0`. (Remeber, this column is now `1` after lending)
 ---------
       1 1 1
 ```
+
+Step 4: The 8s place `0 - 1`. (Remember, this column is now `0` from borrowing).
+
+We borrow from the `1` in the 16s place, which becomes `0`.
+
+The `0` in the 8s place becomes `10 `(two).
+
+We calculate `10 - 1 = 1`.
+
+```
+ (0)(10)
+  1 1 0 1 0
+-   1 0 1 1
+---------
+   0 1 1 1 1
+```
