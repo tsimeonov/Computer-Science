@@ -226,3 +226,15 @@ Let's Check Our Work (with decimal)
 Our binary answer:
 
 - 1111 (binary) = (1 \* 8) + (1 \* 4) + (1 \* 2) + (1 \* 1) = 15
+
+---
+
+#### Operations with binary numbers - multiplication
+
+The Rules 🧠
+
+- 0 x 0 = 0
+
+- 1 x 0 = 0
+
+- 1 x 1 = 1
