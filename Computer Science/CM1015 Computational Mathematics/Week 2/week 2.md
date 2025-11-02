@@ -306,3 +306,15 @@ Step 4: Add all the partial product rows Now, use binary addition to add all the
 ```
 
 So, `1011 x 101 = 110111`.
+
+Let's Check Our Work (with decimal) ✅
+
+- 1011 (binary) = (1 \* 8) + (0 \* 4) + (1 \* 2) + (1 \* 1) = 11
+
+- 101 (binary) = (1 \* 4) + (0 \* 2) + (1 \* 1) = 5
+
+- 11 \* 5 = 55
+
+Our binary answer:
+
+- 110111 (binary) = (1 \* 32) + (1 \* 16) + (0 \* 8) + (1 \* 4) + (1 \* 2) + (1 \* 1) = 55
