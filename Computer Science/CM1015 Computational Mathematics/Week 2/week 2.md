@@ -175,3 +175,11 @@ Step 2: The 2s place `0 - 1`. (Rememeber, we used the `1` to borrow). We need to
 -   1 0 1 1
 ---------
 ```
+
+- Now the 2s place can borrow from the 4s place.
+
+- The `10` in the 4s place becomes `1`.
+
+- The `0` in the 2s place becomes `10` (two).
+
+- We calculate `10 - 1 = 1`.
