@@ -24,3 +24,5 @@ Non-integer numbers conversion:
 4. Convert hexadecimal number D08.1C to binary
 
 5. Convert the binary number 110101001.001 to decimal
+
+6. Convert the decimal number 117.375 to binary
