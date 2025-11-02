@@ -1,4 +1,4 @@
-Non-integer numbers conversion
+Non-integer numbers conversion:
 
 1. In the decimal system, what does the number 37.3 represent?
 
