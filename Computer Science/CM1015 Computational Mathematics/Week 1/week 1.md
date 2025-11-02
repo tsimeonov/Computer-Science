@@ -52,6 +52,50 @@ Now, sun the values:
 
 8 + 0 + 2 + 1 = 11
 
-<h5>Working in other bases</h5>
+## Lesson 1.3: Working with other bases
 
-<h5>Conversion of integer numbers between different bases</h5>
+`Octal system`
+
+Octal numbers are based upon powers of 8.
+
+<details>
+
+  <summary>Convert 325<sub>8</sub> to a decimal number</summary>
+
+  <br>
+
+325<sub>8</sub> = 3(8<sup>2</sup>) + 2(8<sup>1</sup>) + 5(8<sup>0</sup>)
+= 3(64) + 2(8) + 5(1)
+= 192 + 16 + 5
+= 213<sub>10</sub>
+
+</details>
+
+  <br>
+
+<details>
+
+  <summary>Convert 7046<sub>8</sub> to a decimal number</summary>
+
+  <br>
+
+7046<sub>8</sub> = 7(8<sup>3</sup>) + 0(8<sup>2</sup>) + 4(8<sup>1</sup>) + 6(8<sup>0</sup>)
+= 7(512) + 0 + 4(8) + 6(1)
+= 3622<sub>10</sub>
+
+</details>
+
+  <br>
+
+<details>
+
+  <summary>Convert 1001 to an octal number</summary>
+
+- $1001 \div 8 \implies$ 125 Remainder 1
+- $125 \div 8 \implies$ 15 Remainder 5
+- $15 \div 8 \implies$ 7 Remainder 7
+- $1 \div 8 \implies$ 1 Remainder 1
+
+The correct result is 1751
+
+</details>
