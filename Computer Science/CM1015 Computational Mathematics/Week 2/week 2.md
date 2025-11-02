@@ -294,3 +294,15 @@ x 101
   00000
  101100
 ```
+
+Step 4: Add all the partial product rows Now, use binary addition to add all the rows together.
+
+```
+   01011
+   00000
++  101100
+---
+   110111
+```
+
+So, `1011 x 101 = 110111`.
