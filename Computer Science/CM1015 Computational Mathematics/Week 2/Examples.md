@@ -20,3 +20,5 @@ Non-integer numbers conversion:
 - A
 - 8
 - C
+
+4. Convert hexadecimal number D08.1C to binary
