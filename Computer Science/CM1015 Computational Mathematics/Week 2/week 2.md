@@ -46,4 +46,67 @@ The four basic rules
 1. `0 + 0 = 0`
 1. `1 + 0 = 1` (or `0 + 1 = 1`)
 1. `1 + 1 = 10` (This is the key! The value "two" in binary is written `10`. So, you write 0 and carry yhe 1 to the next column)
-1. `0 + 0 = 0` (This happens if you also have a carry from the revious column, The value "three" in binary is `11`). So you write 1 and 1)
+1. `0 + 0 = 0` (This happens if you also have a carry from the revious column, The value "three" in binary is `11`. So you write 1 and carry the 1)
+
+Step-by-step example
+
+Lets add the binary numbers `1011` and `1101`
+
+We set it up just like a regular math problem:
+
+```
+  1 0 1 1
++ 1 1 0 1
+---------
+```
+
+Step 1: The rightmost column (1s place) 1 + 1 = 10. Write 0, carry the 1
+
+```
+     (1)  <-- Carry
+  1 0 1 1
++ 1 1 0 1
+---------
+        0
+```
+
+Step 2: The second column from the right 1 (carry) + 1 + 0 = 10.
+Write 0, carry 1.
+
+```
+  (1)(1)
+  1 0 1 1
++ 1 1 0 1
+---------
+       0 0
+```
+
+Step 3: The third column from the right 1 (carry) + 0 + 1 = 10. Write 0, carry the 1
+
+```
+(1)(1)(1)
+  1 0 1 1
++ 1 1 0 1
+---------
+      0 0 0
+```
+
+Step 4: The forth column from the right 1 (carry) + 1 + 1 = 11. Write 1, carry the 1
+
+```
+(1)(1)(1)(1)
+  1 0 1 1
++ 1 1 0 1
+---------
+     1 0 0 0
+```
+
+Step 5: The final column. Bring down the last carried 1
+
+```
+(1)(1)(1)(1)
+  1 0 1 1
++ 1 1 0 1
+---------
+  1 1 0 0 0
+```
