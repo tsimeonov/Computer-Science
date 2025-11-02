@@ -238,3 +238,25 @@ The Rules 🧠
 - 1 x 0 = 0
 
 - 1 x 1 = 1
+
+Step-by-Step Example
+
+Let's multiply `1011` (11) by `101` (5).
+
+Setup:
+
+```
+ 1011 (this is 11)
+x 101 (this is 5)
+---
+```
+
+Step 1: Multiply by the first bit (rightmost) The rightmost bit of the multiplier `101` is 1.
+`1 x 1011 = 1011`. Write this down as the first partial product.
+
+```
+ 1011
+x 101
+---
+ 1011
+```
