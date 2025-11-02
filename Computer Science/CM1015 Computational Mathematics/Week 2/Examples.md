@@ -13,3 +13,10 @@ Non-integer numbers conversion:
 - 5.5
 - 5.25
 - 6.25
+
+3. Which of the following hexadecimal digits corresponds to the binary value 1100?
+
+- E
+- A
+- 8
+- C
