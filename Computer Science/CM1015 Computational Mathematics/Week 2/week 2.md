@@ -318,3 +318,14 @@ Let's Check Our Work (with decimal) ✅
 Our binary answer:
 
 - 110111 (binary) = (1 \* 32) + (1 \* 16) + (0 \* 8) + (1 \* 4) + (1 \* 2) + (1 \* 1) = 55
+
+---
+
+#### Number representations
+
+`Number Types`
+
+- <strong>Natural Numbers</strong>: Counting numbers from zero (0, 1, 2, 3...).
+- <strong>Integer Numbers</strong>: Whole numbers, including positives, negatives, and zero (...-2, -1, 0, 1, 2...).
+- <strong>Rational Numbers</strong>: Any number that can be expressed as a fraction p/q (e.g., 3/4, 77/99).
+- <strong>Real Numbers (Irrational)</strong>: Numbers that cannot be expressed as a fraction p/q. Their decimal representation never repeats (e.g., $\pi$). Because they are infinite and non-repeating, they cannot be stored exactly in a computer's finite memory and must be approximated
