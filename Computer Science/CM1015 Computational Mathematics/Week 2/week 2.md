@@ -8,9 +8,9 @@ The Main Concept
 
 The system works just like base 10, but the place values after the point are fractions of the base, not 10.
 
-- <strong>Decimal (Base 10)</strong>: `37.3` means (3 x 10<sup>1</sup>) + (7 x 10<sup>0</sup>) + (3 x 10<sup>-1</sup>). The column after the point is the <strong>tenths</strong> place.
+- <strong>Decimal (Base 10)</strong>: `37.3` means (3 \* 10<sup>1</sup>) + (7 \* 10<sup>0</sup>) + (3 \* 10<sup>-1</sup>). The column after the point is the <strong>tenths</strong> place.
 
-- <strong>Binary (Base 2)</strong>: `101.11` means (1 x 2<sup>2</sup>) + (0 x 2<sup>1</sup>) + (0 x 2<sup>0</sup>) + (1 x 2<sup>-1</sup>) + (1 x 2<sup>-2</sup>). The columns after the point are the <strong>halves</strong> (1/2) and <strong>quarters (1/4)</strong> places.
+- <strong>Binary (Base 2)</strong>: `101.11` means (1 \* 2<sup>2</sup>) + (0 \* 2<sup>1</sup>) + (0 \* 2<sup>0</sup>) + (1 \* 2<sup>-1</sup>) + (1 \* 2<sup>-2</sup>). The columns after the point are the <strong>halves</strong> (1/2) and <strong>quarters (1/4)</strong> places.
 
 For example the binary number `101.11` is converted to decimal as: 4 + 0 + 1 + 0.5 + 0.25 = 5.75
 
@@ -115,13 +115,13 @@ So, `1011 + 1101 = 11000`
 
 Let's check out work (with decimal)
 
-- `1011` in binary = (1 x 8) + (0 x 4) + (1 x 2) + (1 x 1 ) = 11
-- `1101` in binary = (1 x 8) + (1 x 4) + (0 x 2) + (1 x 1 ) = 13
+- `1011` in binary = (1 \* 8) + (0 \* 4) + (1 \* 2) + (1 \* 1 ) = 11
+- `1101` in binary = (1 \* 8) + (1 \* 4) + (0 \* 2) + (1 \* 1 ) = 13
 - 11 + 13 = 24
 
 Now, lets check out answer
 
-- `11000` in binary = (1 x 16) + (1 x 8) + (0 x 4) + (0 x 2 ) + (0 x 1 ) = 24
+- `11000` in binary = (1 \* 16) + (1 \* 8) + (0 \* 4) + (0 \* 2 ) + (0 \* 1 ) = 24
 
 ---
 
