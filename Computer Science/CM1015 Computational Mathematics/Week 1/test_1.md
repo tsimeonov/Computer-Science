@@ -110,3 +110,24 @@ So, the binary number `1011` is equal to the decimal number 11.
 = (111001)<sup>2</sup>
 
 </details>
+
+9. `Convert the decimal number 45 to binary.`
+
+<details>
+
+  <summary>Answer </summary>
+
+  <br>
+
+| Division by 2 | Remainder |
+| :-----------: | :-------: |
+|    (45)/2     |     1     |
+|    (22)/2     |     0     |
+|    (11)/2     |     1     |
+|     (5)/2     |     1     |
+|     (2)/2     |     0     |
+|     (1)/2     |     1     |
+
+= (101101)<sup>2</sup>
+
+</details>
