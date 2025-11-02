@@ -1,7 +1,6 @@
 import {
 	Container,
 	Flex,
-	Link,
 	Text,
 	HStack,
 	Button,
@@ -10,6 +9,7 @@ import {
 import { FaPlus } from 'react-icons/fa';
 import { FaMoon } from 'react-icons/fa6';
 import { AiFillSun } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
@@ -32,7 +32,7 @@ const Navbar = () => {
 					textAlign={'center'}
 					bgGradient={'linear(to-r, cyan.400, blue.500)'}
 					bgClip={'text'}>
-					<Link href={'/'}>Product Store 🛒</Link>
+					<Link to={'/'}>Product Store 🛒</Link>
 				</Text>
 
 				<HStack spacing={2} alignItems={'center'}>
