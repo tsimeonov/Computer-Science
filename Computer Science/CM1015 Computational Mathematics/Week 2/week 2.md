@@ -260,3 +260,14 @@ x 101
 ---
  1011
 ```
+
+Step 2: Multiply by the second bit The middle bit of the multiplier `101` is 0.
+`0 x 1011 = 0000`. Shift this row one place to the left and write it down.
+
+```
+ 1011
+x 101
+---
+ 1011
+0000 (shifted one place left)
+```
