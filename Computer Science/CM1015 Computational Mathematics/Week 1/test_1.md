@@ -1,0 +1,91 @@
+Introduction to number bases - conversion to decimal
+
+1. `Why do humans typically use base 10?`
+
+- Because we have 10 digits (fingers)
+
+- Because we have five fingers on each hand
+
+- Because we have 10 toes
+
+- Because it is the most efficient base
+
+2. `What does the number 327 represent in base 10?`
+
+- 3 hundreds 2 tens and 7 ones
+
+- 3 tens, 2 hundreds and 7 ones
+
+- 3 ones, 2 tens and 7 hundreds
+
+- 3 thousands, 2 hundreds and 7 tens
+
+3. `What is the base used by computers to represent numbers?`
+
+- Base 8
+
+- Base 2
+
+- Base 16
+
+- Base 10
+
+4. `Why do computers use base 2?`
+
+- It is the most familiar to humans
+
+- It was chosen arbitrarily
+
+- It is the most efficient base for calculations
+
+- It is simpler to implement with switches that have two states: on and off
+
+5. `What is the general rule for any number to the power of 1?`
+
+- It equals 0
+
+- It equals the number itself
+
+- It equals 1
+
+- It equals the base
+
+6. `How is the sound wave represented digitally on a computer?`
+
+- Using base 8
+
+- By sampling the wave and converting it into binary numbers
+
+- Using base 10
+
+- By recording it directly as a continuous signal
+
+7. `In base 2, what does the binary number 1011 represent in decimal?`
+
+<details>
+
+  <summary>Answer </summary>
+
+  <br>
+
+First digit (leftmost): 1 is in the 8s place.
+
+`1 \* 8 = 8`
+
+Second digit: 0 is in the 4s place.
+
+`0 \* 4 = 0`
+
+Third digit: 1 is in the 2s place.
+
+`1 \* 2 = 2`
+
+Fourth digit (rightmost): 1 is in the 1s place.
+
+`1 \* 1 = 1`
+
+Finally, add the results: `8 + 0 + 2 + 1 = 11`
+
+So, the binary number `1011` is equal to the decimal number 11.
+
+</details>
