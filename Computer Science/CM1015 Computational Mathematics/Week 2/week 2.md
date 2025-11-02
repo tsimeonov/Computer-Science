@@ -122,3 +122,17 @@ Let's check out work (with decimal)
 Now, lets check out answer
 
 - `11000` in binary = (1 x 16) + (1 x 8) + (0 x 4) + (0 x 2 ) + (0 x 1 ) = 24
+
+---
+
+#### Operations with binary numbers - substraction
+
+The basic rules
+
+- `0 - 0 = 0`
+- `1 - 0 = 1`
+- `1 - 1 = 0`
+
+The only complex rule involces `borrowing`
+
+- `0 - 1 = 1` (with a borrow). To subtract 1 form 0, you must borrow form the next column to the left.
