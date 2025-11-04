@@ -22,5 +22,6 @@ This model serves two main purposes:
 The DOM is described as a `finite, hierarchical tree structure`
 
 - `Hierarchical`: Elements are organized in layers, with some elements like `<html>` at the top of the hierarchy and others nested below.
+- `Finite`: The structure has a clear end. You can follow a path from the top (the root) down to the bottom (a leaf) but you cannot loop back up.
 
 </details>
