@@ -40,5 +40,6 @@ The hierarchical structure creates specific relationships between the nodes (ele
 - `Parent` - The node directly above another node (e.g. `<body>` is the parent of `<p>`)
 - `Child` - The node(s) directly below another node (e.g., `<head>` and `<body> `are children of `<html>`).
 - `Ancestor`: Any node above another node in the hierarchy. (e.g., `<html>` is an ancestor of `<a>`).
+- `Descendant`: Any node below another node in the hierarchy. (e.g., `<a>` is a descendant of `<body>`).
 
 </details>
