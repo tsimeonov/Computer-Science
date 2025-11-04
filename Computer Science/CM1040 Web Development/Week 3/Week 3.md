@@ -13,3 +13,14 @@ This model serves two main purposes:
 2. `For interactivity`: It defines a model for `events` such as a user clicking on an element which aloows web pages to become interactive.
 
 </details>
+
+<details>
+  <summary>Hierarchy and Structure</summary>
+  
+<br>
+
+The DOM is described as a `finite, hierarchical tree structure`
+
+- `Hierarchical`: Elements are organized in layers, with some elements like `<html>` at the top of the hierarchy and others nested below.
+
+</details>
