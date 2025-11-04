@@ -38,5 +38,6 @@ The DOM is described as a `finite, hierarchical tree structure`
 The hierarchical structure creates specific relationships between the nodes (elements) in the tree.
 
 - `Parent` - The node directly above another node (e.g. `<body>` is the parent of `<p>`)
+- `Child` - The node(s) directly below another node (e.g., `<head>` and `<body> `are children of `<html>`).
 
 </details>
