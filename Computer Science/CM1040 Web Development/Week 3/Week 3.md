@@ -91,3 +91,25 @@ This is the "Web 1.0 model". The webserver stores a collection of complete, pre-
 - This method is efficient but requires manual file edits to update content.
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>2. Dynamic Websites</summary>
+  
+<br>
+
+This model introduced server-side generation.
+
+When a user makes a request, it triggers middleware on the server.
+
+This middleware retrieves content (like news articles or user info) from a database.
+
+It dynamically builds a full HTML page by wrapping that data in HTML tags.
+
+The server sends this newly created, complete HTML page to the browser.
+
+This allowed for personalized content (e.g., based on a user login).
+
+</details>
