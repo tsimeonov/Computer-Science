@@ -60,6 +60,8 @@ This refers to HTML that changes after the page has been loaded by the browser. 
 
 <br>
 
+<details>
+
   <summary>Dynamic Web pages</summary>
   
 <br>
@@ -69,3 +71,23 @@ This refers to HTML that is generated on the fly by the server when a user reque
 </details>
 
 <br>
+
+The evolution of web page generation
+
+<details>
+
+  <summary>1. Static Websites</summary>
+  
+<br>
+
+This is the "Web 1.0 model". The webserver stores a collection of complete, pre-built HTML files.
+
+- When a user clicks a link, the browser requests a specific file (e.g., about.html).
+
+- The server finds that file and sends it.
+
+- The browser then loads this entirely new page.
+
+- This method is efficient but requires manual file edits to update content.
+
+</details>
