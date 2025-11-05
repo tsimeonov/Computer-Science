@@ -59,3 +59,13 @@ This refers to HTML that changes after the page has been loaded by the browser. 
 </details>
 
 <br>
+
+  <summary>Dynamic Web pages</summary>
+  
+<br>
+
+This refers to HTML that is generated on the fly by the server when a user requests a page. It is a `server-side` process. Middleware pulls data from a database, builds a complete HTML page with that data, and sends it to the browser. From the browser's perspective, it just receives a standard HTML page.
+
+</details>
+
+<br>
