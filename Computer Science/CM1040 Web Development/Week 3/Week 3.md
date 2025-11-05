@@ -44,3 +44,18 @@ The hierarchical structure creates specific relationships between the nodes (ele
 - `Sibling`: Nodes that are at the same level and share the same parent. (e.g., multiple `<li> `tags under one `<ul>` tag).
 
 </details>
+
+---
+
+### The DOM can change dynamically
+
+<details>
+  <summary>Dynamic HTML (DHTML)</summary>
+  
+<br>
+
+This refers to HTML that changes after the page has been loaded by the browser. It is a client-side (in browser) action, typically handled by JS, which modifies the DOM in response to user input (E.g, a mouse-over changing an image) or a timer.
+
+</details>
+
+<br>
