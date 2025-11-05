@@ -102,14 +102,34 @@ This is the "Web 1.0 model". The webserver stores a collection of complete, pre-
 
 This model introduced server-side generation.
 
-When a user makes a request, it triggers middleware on the server.
+- When a user makes a request, it triggers middleware on the server.
 
-This middleware retrieves content (like news articles or user info) from a database.
+- This middleware retrieves content (like news articles or user info) from a database.
 
-It dynamically builds a full HTML page by wrapping that data in HTML tags.
+- It dynamically builds a full HTML page by wrapping that data in HTML tags.
 
-The server sends this newly created, complete HTML page to the browser.
+- The server sends this newly created, complete HTML page to the browser.
 
-This allowed for personalized content (e.g., based on a user login).
+- This allowed for personalized content (e.g., based on a user login).
+
+</details>
+
+<br>
+
+<details>
+
+  <summary>3. Data-driven dynamic HTML</summary>
+  
+<br>
+
+This model, which powers modern Single Page Applications (SPAs), combines the dynamic server with dynamic HTML in the browser.
+
+- The browser loads an initial page.
+
+- When a user interacts (e.g., clicks a button), the browser uses JavaScript (often via AJAX) to make a small background request to the server for data only (not a full HTML page).
+
+- The server returns the data (e.g., in JSON format).
+
+- The JavaScript in the browser receives this data, generates the necessary new HTML, and dynamically updates only a small part of the DOM without a full-page reload.
 
 </details>
