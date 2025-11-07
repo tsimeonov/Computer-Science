@@ -133,3 +133,5 @@ This model, which powers modern Single Page Applications (SPAs), combines the dy
 - The JavaScript in the browser receives this data, generates the necessary new HTML, and dynamically updates only a small part of the DOM without a full-page reload.
 
 </details>
+
+---
