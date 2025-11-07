@@ -156,3 +156,19 @@ The core concept is that the HTML parser operates as a `state machine`. At any g
 - `End tag open state` (it has just seen "</")
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>➡️ State Transition Tables</summary>
+  
+<br>
+
+The parser moves between these states by reading the HTML `one character at a time`.
+This entire process is formally defined by a `state transition table`.
+
+This table essentially provides instructions for every posible scenario, mapping:
+(`Current State `+ `Input Character`) -> (`Next State` + `Optional Action`)
+
+</details>
