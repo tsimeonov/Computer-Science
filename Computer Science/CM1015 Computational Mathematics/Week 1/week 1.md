@@ -117,3 +117,17 @@ The correct result is 1751
 - <strong>Result</strong>: 1101 0000 1000
 
 </details>
+
+  <br>
+
+<details>
+
+  <summary>Convert 347<sub>10</sub> to binary</summary>
+
+- <strong>Method</strong>: Use the subtraction method. Find the largest power of two that fits into 347 (which is 256), subtract it, and then find the largest power of two that fits into the remainder (91), and so on.
+
+- `347 = 256 + 0 + 64 + 0 + 16 + 8 + 0 + 2 + 1`
+
+- <strong>Result</strong> `101011011`
+
+</details>
