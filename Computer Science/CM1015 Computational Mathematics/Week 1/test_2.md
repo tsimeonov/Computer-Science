@@ -51,7 +51,26 @@
 
   <br>
 
-16
+F
+
+</details>
+
+  <br>
+
+4. `Which number system uses the symbols 0 - 4 to represnt its values`
+
+- Hexadecimal
+- Decimal
+- Base 5
+- Binary
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+Base 5
 
 </details>
 
