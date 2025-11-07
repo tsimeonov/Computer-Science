@@ -131,3 +131,41 @@ The correct result is 1751
 - <strong>Result</strong> `101011011`
 
 </details>
+
+  <br>
+
+<details>
+
+  <summary>Convert `110100001` (base 2) to decimal, hexadecinal and octal</summary>
+
+  <br>
+
+- To Decimal (Base 10): Add the powers of two for each position that has a '1'.
+
+  - `256 + 128 + 32 + 1`
+
+  - Result: `417`
+
+- To Hexadecimal (Base 16): Group the bits into sets of four, starting from the right.
+
+  - `1` | `1010` | `0001`
+
+  - Pad the leftmost group: `0001` | `1010` | `0001`
+
+  - `0001` = 1
+
+  - `1010` = A (which is 10)
+
+  - `0001` = 1
+
+  - Result: `1A1`
+
+- To Octal (Base 8): Group the bits into sets of three, starting from the right.
+
+  - `110` | `100` | `001`
+
+  - `110` = 6
+
+  - `100` = 4
+
+</details>
