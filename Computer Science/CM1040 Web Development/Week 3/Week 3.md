@@ -137,3 +137,22 @@ This model, which powers modern Single Page Applications (SPAs), combines the dy
 ---
 
 ### Basic HTML parsing: the tag stack
+
+---
+
+### State transition tables and HTML parsing
+
+<details>
+
+  <summary>🤖 The Parser as a State Machine</summary>
+  
+<br>
+
+The core concept is that the HTML parser operates as a `state machine`. At any given momnet, the parser is in one of many defined "stats" such as:
+
+- `Data state` (Looking for the next tag or content)
+- `Tag open state` (it has just a `<`)
+- `Tag name state` (it is actively reading the characters of a tag name, like "h", "e","a","d")
+- `End tag open state` (it has just seen "</")
+
+</details>
