@@ -135,3 +135,5 @@ This model, which powers modern Single Page Applications (SPAs), combines the dy
 </details>
 
 ---
+
+### Basic HTML parsing: the tag stack
