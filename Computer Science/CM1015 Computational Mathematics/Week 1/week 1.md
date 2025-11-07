@@ -136,7 +136,7 @@ The correct result is 1751
 
 <details>
 
-  <summary>Convert `110100001` (base 2) to decimal, hexadecinal and octal</summary>
+  <summary>Convert `110100001` (base 2) to decimal, hexadecimal and octal</summary>
 
   <br>
 
