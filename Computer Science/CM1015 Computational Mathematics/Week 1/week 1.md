@@ -99,3 +99,21 @@ Octal numbers are based upon powers of 8.
 The correct result is 1751
 
 </details>
+
+## Lesson 1.4: Conversion of integer numbers between different bases
+
+<details>
+
+  <summary>Convert D08<sub>16</sub> to binary </summary>
+
+- <strong>Method</strong>: Convert each hexadecimal digit into its 4-bit binary equivalent.
+
+- <strong>D</strong> (which is 13) = 1101
+
+- <strong>0</strong> = 0000
+
+- <strong>8</strong> = 1000
+
+- <strong>Result</strong>: 1101 0000 1000
+
+</details>
