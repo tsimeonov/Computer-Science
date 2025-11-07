@@ -37,3 +37,22 @@
 </details>
 
   <br>
+
+3. `Which of the following correctly repserensts the decimal 15 in hexadecimal`
+
+- A
+- E
+- 10
+- F
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+16
+
+</details>
+
+  <br>
