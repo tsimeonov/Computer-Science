@@ -18,3 +18,22 @@
 </details>
 
   <br>
+
+2. `What is the base of the hexadecimal number system`
+
+- 2
+- 10
+- 16
+- 8
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+16
+
+</details>
+
+  <br>
