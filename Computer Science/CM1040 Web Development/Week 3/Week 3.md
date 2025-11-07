@@ -172,3 +172,21 @@ This table essentially provides instructions for every posible scenario, mapping
 (`Current State `+ `Input Character`) -> (`Next State` + `Optional Action`)
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>Actions and Building the DOM</summary>
+  
+<br>
+
+The "actions" are the crucial part. As the parser transitions between states, it might be instructed to:
+
+- `Append a character`: For example, when in the Tag name state and seeing an 'h', the action is to append 'h' to the current tag token's name.
+
+- `Emit a token`: When the parser sees a > (greater-than sign) at the end of a tag, its action is to "emit" the completed tag token (e.g., head). This "emit" action is what causes the tag to be pushed onto the tag stack mentioned in the previous video.
+
+- `Handle an end tag`: When it finishes parsing an end tag (like </title>), it emits a closed tag token, which instructs the tag stack to pop the corresponding tag.
+
+</details>
