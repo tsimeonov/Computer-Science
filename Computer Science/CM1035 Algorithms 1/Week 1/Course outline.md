@@ -74,4 +74,31 @@ To build a flowchart, you:
 
 </details>
 
+### Express elements of simple algorithms as flowchart
+
+<details>
+  <summary>1. Sequence (Simple Process)</summary>
+
   <br>
+
+This is a simple list of steps, one after the other.
+
+- Problem: Greet a user by name.
+
+- Algorithm:
+
+  1. Start
+
+  2. Get the user's name
+
+  3. Print "Hello, " + name
+
+  4. End
+
+- Flowchart:
+
+Start
+
+<img src="./image 1.png" style="width: 400px; border-radius: 10px"/>
+
+</details>
