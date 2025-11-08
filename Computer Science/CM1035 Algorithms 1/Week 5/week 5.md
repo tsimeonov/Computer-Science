@@ -16,3 +16,19 @@ A key featire of a vector is that an elements' position or `index` acts as its a
 </details>
 
   <br>
+
+<details>
+  <summary>⚙️ Core Operations</summary>
+
+  <br>
+
+There are three primary operations defined for a vector
+
+- `length`: Returns the length (total number of elements) of the vector.
+- `select[k]`: An operation that gets (returns) the value stored at the k-th element (
+  index)
+- `store![o.k]`: An operation that alters the vector by setting the value of the k-th element to a new value "o"
+
+</details>
+
+  <br>
