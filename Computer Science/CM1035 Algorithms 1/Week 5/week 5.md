@@ -32,3 +32,17 @@ There are three primary operations defined for a vector
 </details>
 
   <br>
+
+<details>
+  <summary>⛔ Limitations and Workarounds</summary>
+
+  <br>
+
+A vector's main limitation is its fixed size. You `cannot` add, delete or arbitrarily change the length of an exisitng vector.
+
+- `The workaround`: If you need a different size (e.g to add an element), you must create an entirely `new vector` with the desired new length.
+- `The reason`: This restriction is by desing. It allows a computer to set aside a fixed preductable amount of memory for the data.
+
+</details>
+
+  <br>
