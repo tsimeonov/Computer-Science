@@ -56,3 +56,32 @@ Iteration, also known as `looping`, is the concept of repeating a set of instuct
 </details>
 
   <br>
+
+  <details>
+  <summary>For loop</summary>
+
+  <br>
+
+A for loop is used when you want to repeat a task a `know or fixed number of times`.
+
+- `How it works`: It uses a variable (often called i) that acts as a counter. The loop is defined by a start value and a target value (e.g., "for i from 2 to 10").
+
+- `Structure`:
+
+  - Condition: The range of the counter (e.g., i = 2 TO 10).
+  - Body: The instructions to be repeated for each value of i.
+
+- `Example`: Summing the numbers from 1 to 10.
+
+```
+x = 1
+FOR i = 2 TO 10
+x = x + i
+END FOR
+```
+
+- `Key Point`: The counter variable (i) does not have to be used inside the body. A for loop can also be used to simply repeat an action (e.g., "do this 3 times") without using the counter's value.
+
+</details>
+
+  <br>
