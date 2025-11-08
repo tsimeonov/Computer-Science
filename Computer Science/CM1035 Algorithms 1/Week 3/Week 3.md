@@ -85,3 +85,35 @@ END FOR
 </details>
 
   <br>
+
+    <details>
+
+  <summary>While Loops</summary>
+
+  <br>
+
+A `while` loop is used to repeat instructions as long as a specific condition remains true. This is ideal when the number of repetitions is unknown beforehand.
+
+- `How it works`: The loop checks the condition before each iteration. If the condition is true, the body of the loop runs. If it's false, the loop stops.
+
+- `Structure`:
+
+  - Condition: A statement that is either true or false (e.g., x < 11).
+  - Body: The instructions to be repeated.
+
+- `Critical Rule:` The body of the loop must include an operation that will eventually make the condition false (like incrementing a variable). Otherwise, you will create an infinite loop.
+
+- `Example`: Summing the numbers from 1 to 10 (same result as the for loop example).
+
+```
+y = 0
+x = 1
+WHILE x < 11
+  y = y + x
+  x = x + 1
+END WHILE
+```
+
+</details>
+
+  <br>
