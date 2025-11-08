@@ -45,3 +45,14 @@ Key elements used in pseudocode include:
   <br>
 
 ## Lesson 2.2 Iteration
+
+<details>
+  <summary>🔁 What is iteration?</summary>
+
+  <br>
+
+Iteration, also known as `looping`, is the concept of repeating a set of instuctions multiple times. This is a fundamental concept in proframming that allows you to automate repetitive taks, such as increasing a thermostat's temperatire, calculating a times table or processing a list of items.
+
+</details>
+
+  <br>
