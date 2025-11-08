@@ -1,3 +1,5 @@
+## Lesson 2.1 Pseudocode
+
 Discretisation and pseudocode
 
 <details>
@@ -41,3 +43,5 @@ Key elements used in pseudocode include:
 </details>
 
   <br>
+
+## Lesson 2.2 Iteration
