@@ -99,6 +99,35 @@ This is a simple list of steps, one after the other.
 
 Start
 
-<img src="./image 1.png" style="width: 400px; border-radius: 10px"/>
+<img src="./image 1.png" style="width: 350px; border-radius: 10px"/>
+
+</details>
+
+  <br>
+
+<details>
+  <summary>2. Selection (Decision)</summary>
+
+  <br>
+
+This is an `if-then-else `statement, where the path changes based on a condition.
+
+- Problem: Decide if a number is positive or not.
+
+- Algorithm:
+
+1. Start
+
+2. Get number `x`
+
+3. If `x > 0`, print "Positive"
+
+4. Else, print "Not positive"
+
+5. End
+
+- Flowchart:
+
+<img src="./image 2.png" style="width: 350px; border-radius: 10px"/>
 
 </details>
