@@ -233,3 +233,17 @@ This component is the main "layout" for your entire application. It defines the 
 1. `<Route path="/create" element={<CreatePage />} />`: This one says, "If the user goes to the /create URL (like `http://localhost:5173/create`), show the `CreatePage` component."
 
 So, the `App` component essentially says: "Always show the `Navbar` at the top, and then, in the space below, show either the `HomePage` or the `CreatePage` depending on the URL."
+
+`fronted/src/component/Navbar.jsx` (The Navigation Bar) 🧭
+
+This is a reusable component whose only job is to be the navigation bar that you see at the top of every page (as defined in `App.jsx`).
+
+It has three main features:
+
+1. The Title: The text "Product Store 🛒". This is wrapped in a `<Link to={'/'}>` component, which means clicking it will always take you back to the home page.
+
+1. Add Product Button: This is the button with the `<FaPlus />` icon. It's also wrapped in a `<Link to={'/create'}>`, so clicking it takes you to the "Create New Product" page.
+
+1. Color Mode Toggle: This button uses Chakra UI's useColorMode hook. It cleverly checks if (colorMode === 'light') to decide whether to show the Moon icon (`<FaMoon />`) or the Sun icon (`<AiFillSun />`), and it calls toggleColorMode when clicked.
+
+This is a great example of a clean, simple component that does one job well.
