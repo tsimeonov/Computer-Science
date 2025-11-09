@@ -141,3 +141,55 @@ Here are the routes defined in that file:
 You might notice that the `getProducts` route points to a function, while the others have the code written directly in the routes file. This project also gives us a `controllers` file, which is a cleaner way to organize this.
 
 Let's look at that file next to see the "brain" behind these routes
+
+We've seen the "addresses" (`product.route.js`), now let's look at the "brain" that lives at those addresses.
+
+`backend/controllers/product.controller.js` (The API's Brain) 🧠
+
+This file is called a controller. Its job is to hold the actual logic for what to do when a route is called. A route (address) should be simple; it just points to a controller function (the brain) to do the heavy lifting.
+
+In this file, you see functions like `getProducts`, `createProduct`, `updateProduct`, and `deleteProduct`.
+
+Let's look at one:
+
+- `export const getProducts = async (req, res) => { ... }`
+
+  - This is the function that our `product.route.js` file calls.
+
+  - `const products = await Product.find({});`: This is the key line. It uses the `Product` model (the blueprint we saw earlier) and tells Mongoose, "Please `find` all (`{}`) products in the database."
+
+  - `res.status(200).json({ ... })`: This sends a "Success" (200) response back to the frontend, along with the `products` it found.
+
+A quick note on your code:
+
+You might have noticed something interesting. Your `product.route.js` file only uses the `getProducts` function from the controller.
+
+But your `product.controller.js` file also has functions for `createProduct`, `updateProduct`, and `deleteProduct`.
+
+Your `product.route.js` file also has logic for `POST`, `PUT`, and `DELETE` written directly inside it. This means you have the same logic in two places!
+
+This is a common thing to see when code is being developed. The "cleanest" way (and what was probably intended) is for the `product.route.js` file to be only an address book, like this:
+
+```js
+// A cleaner way to write product.route.js
+import express from 'express';
+import {
+	getProducts,
+	createProduct,
+	updateProduct,
+	deleteProduct,
+} from '../controllers/product.controller.js';
+
+const router = express.Router();
+
+router.get('/', getProducts);
+router.post('/', createProduct);
+router.put('/:id', updateProduct);
+router.delete('/:id', deleteProduct);
+
+export default router;
+```
+
+This way, your routes file is simple, and all your "brain" logic lives in the controller file. Your code works, but this is a great way to think about organizing it even better!
+
+That's the entire backend! We have a server, a database connection, a data model, API routes, and controllers.
