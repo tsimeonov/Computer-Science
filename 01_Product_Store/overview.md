@@ -21,3 +21,13 @@ This project is a perfect example of a `MERN` stack application. That's a popula
 - React.js: The `frontend library`. It's used to build the user interface (UI)—the website you actually see and click on.
 
 - Node.js: The `runtime environment`. It's what allows the server (the backend) to run
+
+`Project Folders`
+
+If you look at your files, you'll see two main folders:
+
+1. `backend`: This folder contains all the code for the Express.js server, the MongoDB connection, and the Node.js environment. It's the "engine" and the database part.
+
+1. `fronted`: This folder contains all the code for the React.js application. It's the website (the "User Interface") that the user interacts with.
+
+So, the `backend` is like the kitchen and stockroom of a restaurant (handling data and requests), and the `fronted` is the dining room and menu that the customer (the user) sees.
