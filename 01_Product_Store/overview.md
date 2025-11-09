@@ -93,3 +93,51 @@ So now we have:
 1. A strict blueprint for our data (`product.model.js`).
 
 Next, we need to create the "addresses" (or "routes") that our frontend can use to actually do things with this model. Ready to look at the API routes?
+
+Now we need a way for the outside world (like our frontend) to ask for that data. These are called `routes`.
+
+`backend/routes/product.route.js` (The API's Address Book) 📮
+
+This file is like the "address book" or "signpost" for our API. It defines the specific URLs (or "endpoints") that our frontend can contact to get, create, update, or delete products.
+
+Remember in `server.mjs`, we had this line: `app.use('/api/products', productRoutes);`
+
+That line means, "For any request that starts with `/api/products`, send it to the `product.route.js` file to figure out what to do next."
+
+Here are the routes defined in that file:
+
+- `router.get('/', getProducts);`
+
+  - Method: `GET`
+
+  - Full URL: `/api/products`
+
+  - Purpose: Gets the list of all products. It's set up to call a function named `getProducts`.
+
+- `router.post('/', async (req, res) => { ... });`
+
+  - Method: `POST`
+
+  - Full URL: `/api/products`
+
+  - Purpose: Creates one new product. The logic for this is written right inside this file.
+
+- `router.put('/:id', async (req, res) => { ... });`
+
+  - Method: `PUT`
+
+  - Full URL: `/api/products/123` (where `:id` is a variable for the product's ID)
+
+  - Purpose: Updates a specific product that matches the ID.
+
+- `router.delete('/:id', async (req, res) => { ... });`
+
+  - Method: `DELETE`
+
+  - Full URL: `/api/products/123`
+
+  - Purpose: Deletes a specific product that matches the ID.
+
+You might notice that the `getProducts` route points to a function, while the others have the code written directly in the routes file. This project also gives us a `controllers` file, which is a cleaner way to organize this.
+
+Let's look at that file next to see the "brain" behind these routes
