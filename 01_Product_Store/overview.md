@@ -289,3 +289,35 @@ This component's job is to render a form with three inputs and a button.
    - Resets the form by setting the state back to empty strings.
 
 So, on the `HomePage`, we saw that it loops over a list of products and renders a `<ProductCard>`for each one. Let's look at that component now to see how the data actually gets displayed.
+
+This is the component that the `HomePage` uses to display each individual product.
+
+`fronted/src/component/ProductCard.jsx` (The Reusable Product Display) 📇
+
+This is a reusable UI component. It's designed to receive a single `product` object as a "prop" (property) and display its details in a nice card format.
+
+Here's what it does:
+
+- Displays Product Info: It takes the `product` prop and uses `product.image`, `product.name`, and `product.price` to show the product's details.
+
+- Gets Store Functions: Just like our page components, it uses `useProductStore()` to get the `deleteProduct` and `updateProduct` functions.
+
+- Delete Button: It has an "Delete" `IconButton` (the trash can, `<AiFillDelete />`) with an `onClick` handler that calls `handleDeleteProduct(product.\_id)`. This function, in turn, calls the `deleteProduct` from the store.
+
+- Edit Button & Modal: This is the most complex part:
+
+  - The "Edit" `IconButton` (`<BiEditAlt />`) doesn't update the product directly. Instead, it calls `onOpen`.
+
+  - `onOpen` opens a Modal (a pop-up window).
+
+  - This modal contains another form (just like the `CreatePage`) for editing the name, price, and image.
+
+  - Clicking the "Update" button in that modal calls `handleUpdateProduct`, which then uses the `updateProduct` function from the store.
+
+That's the entire frontend UI! We've seen all the visual pieces. But you might be wondering...
+
+- How does the `HomePage` actually get the products?
+
+- How does the `CreatePage` actually send the new product?
+
+All the components (`HomePage`, `CreatePage`, `ProductCard`) keep mentioning `useProductStore()`. This "store" is the final and most important piece of the puzzl
