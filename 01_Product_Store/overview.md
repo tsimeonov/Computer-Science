@@ -363,3 +363,35 @@ The other functions work the same way:
 You might be asking, "How does the frontend (running on l`ocalhost:5173`) know to send `/api/products` to the backend (running on `localhost:5000`)?"
 
 That's the final piece of the puzzle, and it's in our `vite.config.js file`.
+
+You've hit on the final piece of magic. This is a common setup in development, and the answer is in the frontend's configuration file.
+
+`fronted/vite.config.js` (The "Redirect" Rule) ↪️
+
+When you're running this project, your frontend (the React app) is served by a tool called Vite, which runs on a specific port (like `http://localhost:5173`).
+
+But your backend (the Express server) is running on a different port, which you set in your `.env` file as `PORT=5000`.
+
+A web browser, for security reasons, will not let a website on port `5173` make a `fetch` request to port `5000`. This is called CORS (Cross-Origin Resource Sharing).
+
+To get around this during development, we use a proxy.
+
+Look inside your `vite.config.js` file:
+
+```js
+    server: {
+    	proxy: {
+    		'/api': {
+    			target: 'http://localhost:5000',
+    		},
+    	},
+    },
+```
+
+This little block of code tells the Vite development server (on `5173`): "Hey, if you see any request that starts with `/api` (like the `fetch('/api/products')` from our store), don't try to find it on your own server. Instead, forward that request to `http://localhost:5000`, which is where our real backend is listening!"
+
+So, `fronted/src/store/product.js` thinks it's just talking to `/api/products`, but the `vite.config.js` proxy secretly redirects that request to` http://localhost:5000/api/products` for it.
+
+And that's it! That's the complete connection!
+
+You've now seen how the whole MERN stack works together.
