@@ -61,3 +61,35 @@ You'll see the code uses `process.env.PORT` and `process.env.MONGO_URI`. This da
 - File: `backend/config/db.js` This file has one job: connect to MongoDB. The `connectBD` function (which was called from `server.mjs`) takes that `MONGO_URI` secret from the .env file and uses a tool called `mongoose` to establish the connection.
 
 So, to summarize: `server.mjs` starts the server, loads secrets from `.env`, and tells `db.js` to connect to the database.
+
+So, we've started the server and connected to the database. But how does our database know what a "product" is supposed to look like?
+
+That's the job of the `model`.
+
+`backend/models/product.model.js` (The Data Blueprint) 📜
+
+Think of this file as the official "blueprint" or "schema" for every single product in your database. It's a strict set of rules.
+
+Here's the breakdown of the `productSchema`:
+
+- `mongoose.Schema`: This is a tool from `mongoose` that helps you create the blueprint.
+
+- `name: { type: String, required: true }`: This rule says, "Every product MUST have a `name`, and it MUST be a String (text)."
+
+- `price: { type: Number, required: true }`: "Every product MUST have a `price`, and it MUST be a Number."
+
+- `image: { type: String, required: true }`: "Every product MUST have an `image`, and it MUST be a String (we're storing a link to the image, not the image itself)."
+
+- `timestamps: true`: This is a handy Mongoose feature. It automatically adds `createdAt` and `updatedAt` fields to your product, so you always know when it was created or last changed.
+
+Finally, the line `const Product = mongoose.model('Product', productSchema); `takes this blueprint and creates a "model." The model is the tool you'll actually use in your code to create, read, update, or delete products that follow this set of rules.
+
+So now we have:
+
+1. A server that's running (`server.mjs`).
+
+1. A connection to the database (`db.js`).
+
+1. A strict blueprint for our data (`product.model.js`).
+
+Next, we need to create the "addresses" (or "routes") that our frontend can use to actually do things with this model. Ready to look at the API routes?
