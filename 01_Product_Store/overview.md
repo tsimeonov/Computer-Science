@@ -11,3 +11,13 @@
 1. `Package Files`: We'll quickly look at the files that manage the project's setup.
 
 ## Step 1: High-Level Overview (The big picture)
+
+This project is a perfect example of a `MERN` stack application. That's a popular way to build websites, and the name "MERN" is an acronym for the four key technologies it uses:
+
+- MongoDB: The `database`. It's where all the product data (name, price, image link) is stored.
+
+- Express.js: The `backend framework`. It's a library that helps build the "engine" (the server) that runs on Node.js.
+
+- React.js: The `frontend library`. It's used to build the user interface (UI)—the website you actually see and click on.
+
+- Node.js: The `runtime environment`. It's what allows the server (the backend) to run
