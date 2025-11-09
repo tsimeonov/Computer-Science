@@ -267,3 +267,25 @@ This component's job is to get the list of products and display them as a grid o
 1. `{products.length === 0 && ...}`: This is a nice fallback. It checks if the `products` list is empty. If it is, it shows a "No Product Found" message with a link to the create page.
 
 So, the `HomePage` just knows to ask for the products and then loop over them, passing the details of each product to a `<ProductCard>` component to handle the actual display.
+
+Let's check out the "Add Product" form. This is the other page our `App.jsx` can show.
+
+`fronted/src/pages/CreatePage.jsx `(The "Add New Product" Form) ✍️
+
+This component's job is to render a form with three inputs and a button.
+
+1. `const [newProduct, setNewProduct] = useState({ ... });`: This is a React `useState` hook. It creates a "state" variable called `newProduct` to remember what the user types into the form fields. It's an object with `name`, `price`, and `image` keys.
+
+1. `const { createProduct } = useProductStore();`: Just like `HomePage` grabbed the `fetchProducts` function, this page grabs the `createProduct` function from our "store".
+
+1. `<Input ... onChange={(e) => ...} />`: Each `Input` field (for Name, Price, and Image) has an `onChange` handler. This handler calls setNewProduct every time the user types a character, keeping the `newProduct` state variable perfectly in sync with what's on the screen.
+   `
+1. `const handleAddProduct = async () => { ... }: This function is tied to the "Add Product" button's `onClick` event. When clicked, it:
+
+   - Calls the `createProduct(newProduct)` function it got from the store, passing in the object from its state.
+
+   - Uses a `toast` (a little pop-up) to tell the user if the action was a "Success" or "Error".
+
+   - Resets the form by setting the state back to empty strings.
+
+So, on the `HomePage`, we saw that it loops over a list of products and renders a `<ProductCard>`for each one. Let's look at that component now to see how the data actually gets displayed.
