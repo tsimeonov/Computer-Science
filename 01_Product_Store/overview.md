@@ -193,3 +193,27 @@ export default router;
 This way, your routes file is simple, and all your "brain" logic lives in the controller file. Your code works, but this is a great way to think about organizing it even better!
 
 That's the entire backend! We have a server, a database connection, a data model, API routes, and controllers.
+
+## Step 3: The Frontend (The 'User Interface')
+
+Just like the backend had a "starting" file (`server.mjs`), the frontend has one too.
+
+`fronted/src/main.jsx `(The App's Starting Gun) 🚀
+
+This file is the very first bit of your React code that runs. Its job is simple: find a spot on the webpage and inject your entire React application into it.
+
+1. `import ...`: It imports `React` (to make components), `ReactDOM` (to put components on the page), your main `App` component, and some tools for styling (`ChakraProvider`) and page routing (`BrowserRouter`).
+
+1. `createRoot(document.getElementById('root'))`: This line looks for an HTML element with the ID `root`. Where does it find this?
+
+1. File: `fronted/index.html`: This is the only HTML file in your project. It's a very simple shell. If you look inside, you'll see `<div id="root"></div>`. This empty `div` is the "container" for your entire app.
+
+1. `.render(...)`: Back in `main.jsx`, the `render` function injects your `<App />` component inside that `<div id="root">`.
+
+You'll also notice it wraps `<App /> `in two other components:
+
+- `<BrowserRouter>`: This enables "routing"—the ability to switch pages (like from `HomePage` to `CreatePage`) without the whole page reloading.
+
+- `<ChakraProvider>`: This provides all the stylish UI components (like `Button`, `Input`, `Box`) from the Chakra UI library to your entire app.
+
+So, `main.jsx` finds the empty `div` in `index.html` and fills it with your main `App` component, giving it styling and routing powers.
