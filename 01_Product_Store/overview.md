@@ -321,3 +321,45 @@ That's the entire frontend UI! We've seen all the visual pieces. But you might b
 - How does the `CreatePage` actually send the new product?
 
 All the components (`HomePage`, `CreatePage`, `ProductCard`) keep mentioning `useProductStore()`. This "store" is the final and most important piece of the puzzl
+
+## Step 4: Connecting Frontend & Backend.
+
+You were right to wonder about `useProductStore()`. That's the key. All your components are talking to one "store," and that store is the only thing that talks to the backend.
+
+`fronted/src/store/product.js` (The Frontend's "Mission Control") 🚀
+
+This file is your state management file. It uses a library called Zustand to create a "store."
+
+Think of this store as a single, central "brain" for your frontend.
+
+- It holds the state (the `products` array).
+
+- It holds the functions that can change that state (like `createProduct`, `fetchProducts`, `deleteProduct`, `updateProduct`).
+
+Any component (like `HomePage` or `ProductCard`) can use the `useProductStore()` hook to get access to this data and these functions.
+
+Let's look at one function:
+
+- `fetchProducts: async () => { ... }`
+
+  - `const res = await fetch('/api/products');`: This is the connection! It makes a `GET` request to the `/api/products` URL.
+    `
+  - This is the exact same URL we defined in our `backend/routes/product.route.js file`!
+
+  - `const data = await res.json();`: It gets the JSON data from the backend's response.
+
+  - `set({ products: data.data });`: It updates the store's central `products` array with the data it just fetched.
+
+Every component that uses `products` from the store will automatically re-render and show the new data!
+
+The other functions work the same way:
+
+- `createProduct` makes a `POST` request to `/api/products`.
+
+- `deleteProduct` makes a `DELETE` request to `/api/products/${pid}`.
+
+- `updateProduct` makes a `PUT` request to `/api/products/${pid}`.
+
+You might be asking, "How does the frontend (running on l`ocalhost:5173`) know to send `/api/products` to the backend (running on `localhost:5000`)?"
+
+That's the final piece of the puzzle, and it's in our `vite.config.js file`.
