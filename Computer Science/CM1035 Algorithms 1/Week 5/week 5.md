@@ -61,3 +61,22 @@ The fundamental principle of a queue is "First In, First Out" (FIFO), which is t
 </details>
 
   <br>
+
+  <details>
+  <summary>🚗 Queue vs. Vector</summary>
+
+  <br>
+
+Unlike a vector, which has a fixed size and allows access to any element, a queue has different properties:
+
+- `Sequential`: Like a vector, it's a line of elements
+- `Extensible`: Unlike a vector, its lenght is not fixed and can be altered
+- `Restricted access`: You cannot access arbitrary elements (like select[k]). You can only access two specific positions:
+  - `Head`: The front of the line, where elements are removed.
+  - `Tail`l: The back of the line, where elements are added
+
+To access an element in the middle of the quieue, you must first dequeue all the elements in front of it.
+
+</details>
+
+  <br>
