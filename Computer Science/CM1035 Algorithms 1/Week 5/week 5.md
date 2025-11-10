@@ -46,3 +46,18 @@ A vector's main limitation is its fixed size. You `cannot` add, delete or arbitr
 </details>
 
   <br>
+
+## Lesson 5.2: Abstract data structures: queues
+
+<details>
+  <summary>➡️ What is a Queue?</summary>
+
+  <br>
+
+A queue is an abstact data structure that mimics a real-worl waiting line (e.g. for a restaurant of customer suppot). It's used when a resource cannot be accessed immediately, so a wait is required.
+
+The fundamental principle of a queue is "First In, First Out" (FIFO), which is the computing term for "first come, first served". This means the first item to be added to the queue will be the first item to be removed.
+
+</details>
+
+  <br>
