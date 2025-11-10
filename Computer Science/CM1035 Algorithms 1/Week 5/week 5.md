@@ -60,8 +60,6 @@ The fundamental principle of a queue is "First In, First Out" (FIFO), which is t
 
 </details>
 
-  <br>
-
   <details>
   <summary>🚗 Queue vs. Vector</summary>
 
@@ -76,6 +74,23 @@ Unlike a vector, which has a fixed size and allows access to any element, a queu
   - `Tail`l: The back of the line, where elements are added
 
 To access an element in the middle of the quieue, you must first dequeue all the elements in front of it.
+
+</details>
+
+  <br>
+
+    <details>
+
+  <summary>⚙️ Core Operations</summary>
+
+  <br>
+
+The basic operations for a queue are:
+
+- `head`: Returns the value of the element at the head (front) without removing it.
+- `dequeue`!: Returns the element at hte head and removes it from the queue.
+- `enqueue![o]`: Adds a new element with `o` to the tail (back) of the queue,
+- `empty`: A check that returns `true` if the queue has no elements and `false` itherwise.
 
 </details>
 
