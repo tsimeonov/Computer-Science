@@ -222,3 +222,27 @@ The lecture revisits the `state transition table` from the previous lesson to sh
 The algorithm explicitly defines "Erro States". When the parser encounters unexpected characters, it doesn't crash, it transitions to a specific error-handling state that tells the how to proceed.
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>📝 Worked Examples</summary>
+  
+<br>
+
+The lecturer walks through two examples using the state transition logic:
+
+1. The double slash error (`</head//>`)
+
+- The parser reads the tag normally until it hits the seciond slash
+- The state table does not expect a slash in that position
+- Result: The parser transitions to a `"Bogus Comment State"`. The invalid tag is treated as a comment, and the browser continues parsing without crashing.
+
+2. The Hyphenated tag (`<my-tag>`)
+
+- The parser checks if a hyphen is allowed in a tag name
+- Result: The state table actually accepts "any other" characters in the tag name state.
+  Consequently, this is not an error, and the parser treats it as a valid custom tag.
+
+</details>
