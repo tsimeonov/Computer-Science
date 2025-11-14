@@ -190,3 +190,21 @@ The "actions" are the crucial part. As the parser transitions between states, it
 - `Handle an end tag`: When it finishes parsing an end tag (like </title>), it emits a closed tag token, which instructs the tag stack to pop the corresponding tag.
 
 </details>
+
+---
+
+### Error handling strategies in parsing
+
+<details>
+
+  <summary>🛡️ The Philosophy of Error Handling</summary>
+  
+<br>
+
+The lecture begins by addressing why browsers bother to handle errors instead of simply rejecting invalid code.
+
+- `Validity vs Utility`: While validity is a quality criterion, a webpages primary purpose is to present information to the user. An invalid page can still be useful if the browser can render it.
+- `Strictness vs. Leniency`: In the past, standards like XHTML were very strict - if the code wansn't perfect, it might not render. Modern HTML5 is a "living standard" and is much more lenient.
+- `Graceful Degredation`: This is the core software engineering philosopy adopted by browsers. Instead of crashing or showing an error message when they encounter bad code, browsers attampt to "limp along" and fix the errors on the fly to display as mushc as possible.
+
+</details>
