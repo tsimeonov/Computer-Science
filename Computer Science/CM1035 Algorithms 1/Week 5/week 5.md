@@ -60,6 +60,8 @@ The fundamental principle of a queue is "First In, First Out" (FIFO), which is t
 
 </details>
 
+  <br>
+
   <details>
   <summary>🚗 Queue vs. Vector</summary>
 
@@ -79,7 +81,7 @@ To access an element in the middle of the quieue, you must first dequeue all the
 
   <br>
 
-    <details>
+  <details>
 
   <summary>⚙️ Core Operations</summary>
 
