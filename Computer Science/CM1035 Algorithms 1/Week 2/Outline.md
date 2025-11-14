@@ -70,3 +70,24 @@ END WHILE
 </details>
 
 <br>
+
+<details>
+  <summary>Converting flowchart to pseudocode</summary>
+
+  <img src="./pseudocode.jpeg" style="width: 500px; border-radius: 10px"/>
+
+Converting a visual flowchart into text-based pseudocode is a critical skill.
+It involves translating the shapes into specific statements.
+
+| Flowchart shape |       Meaning        |        Pseudocode Equivalent        |
+| :-------------: | :------------------: | :---------------------------------: |
+|      Oval       |      Start/End       |            `BEGIN / END`            |
+|  Parallelogram  |     Input/Output     | `INPUT user_name / PRINT "Success"` |
+|    Rectangle    | Process / Assignemnt |      `x <- x + 1 or total = 5`      |
+|     Diamond     |  Decision (Yes/No)   |        IF condition THEN...         |
+
+<br>
+
+</details>
+
+<br>
