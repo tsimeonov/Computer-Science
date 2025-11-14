@@ -208,3 +208,17 @@ The lecture begins by addressing why browsers bother to handle errors instead of
 - `Graceful Degredation`: This is the core software engineering philosopy adopted by browsers. Instead of crashing or showing an error message when they encounter bad code, browsers attampt to "limp along" and fix the errors on the fly to display as mushc as possible.
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>⚙️ The Algorithm and State Transition</summary>
+  
+<br>
+
+The lecture revisits the `state transition table` from the previous lesson to show that error handling is not random guessing; it is a formal part ooof the HTML parsing specification.
+
+The algorithm explicitly defines "Erro States". When the parser encounters unexpected characters, it doesn't crash, it transitions to a specific error-handling state that tells the how to proceed.
+
+</details>
