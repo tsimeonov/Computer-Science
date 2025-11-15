@@ -37,3 +37,22 @@
 </details>
 
   <br>
+
+3. `How many binary digits does the number 79 have?`
+
+- 9
+- 8
+- 7
+- There is no solution
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+7
+
+</details>
+
+  <br>
