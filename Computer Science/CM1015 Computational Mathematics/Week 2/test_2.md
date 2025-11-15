@@ -42,7 +42,21 @@
 
   <br>
 
-4. `Multiply the binary numbers 110 and 101`
+4. `Multiply the binary numbers 10111 and 101`
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+1110011
+
+</details>
+
+  <br>
+
+5. `Multiply the binary numbers 110 and 101`
 
 <details>
 
