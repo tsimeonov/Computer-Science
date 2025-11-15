@@ -59,3 +59,18 @@ Users access the web through a vast spectrum of devices, wach with different scr
 </details>
 
 <br>
+
+<details>
+  <summary>💻 Querying the Screen (JavaScript)</summary>
+  
+<br>
+
+The lecture demostrates how to use JS to detect the user's screen context. Important objecs in the browser's namespace include:
+
+- `window.innerWidth`: The width of the specific browser window.
+- `screen.width`: The total resolution of the users' physical monitor
+- `document.documentElement.clientWidth`: The width of the actual document content.
+
+</details>
+
+<br>
