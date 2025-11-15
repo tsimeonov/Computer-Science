@@ -140,3 +140,17 @@ $1100011$
 </details>
 
   <br>
+
+9. `Add the binary numbers 1011 and 1101`
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+11000
+
+</details>
+
+  <br>
