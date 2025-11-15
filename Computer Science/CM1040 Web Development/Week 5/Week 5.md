@@ -38,6 +38,24 @@ This complex ecosystem of thousands of different clients and servers creates uni
 - DDos (Distributed Deniel of Service): An attacker uses a "botnet" (a huge network of infected clients) to flood a single server with millions of requests, overwhelming it.
 
 - Man-in-the middle: An attacker positions themselves between a client and a server to intercept or alter the data being communicated.
+
+</details>
+
+## Hardware used to accces the internet
+
+<details>
+  <summary>📱 Hardware Diversity & Screen Size</summary>
+  
+<br>
+
+Users access the web through a vast spectrum of devices, wach with different screen capabilities:
+
+- Small: Smartwaches (too small for complex sites)
+- Medium: Smartphones and Tablets
+- Large: Laptops, Desktops
+- Virtual: VR Headsets
+- Non-Visual: Screen readers (headphones) for visually impaired users, which rely on text-to-speach.
+
 </details>
 
 <br>
