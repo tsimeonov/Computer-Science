@@ -187,3 +187,32 @@ Combine the integer and fractional parts:
 </details>
 
   <br>
+
+9. Write the following numbers with the correct column headers 1212 <sub>8</sub>
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+Here are the correct answers.
+
+The number $1212_8$ is a base-8 (octal) number. Its columns represent the powers of 8, starting from $8^0$ on the right.
+
+For a 4-digit number, the columns from left to right are:
+$8^3$, $8^2$, $8^1$, $8^0$
+
+Calculating these values gives:
+$512$, $64$, $8$, $1$
+
+The following options from your list correctly describe these headers:
+
+- **$8$, cubed, comma, $8$, squared, comma, $8$, start superscript, 1, end superscript, comma, $8$, start superscript, 0, end superscript** (This describes $8^3, 8^2, 8^1, 8^0$)
+- **$512,64,8,1$**
+- **$512,64,8,1$** (This is a duplicate in your list)
+- **$512$, comma, $64$, comma, $8$, comma, $1$** (This is a verbose version of the same answer)
+
+</details>
+
+  <br>
