@@ -13,3 +13,17 @@
 </details>
 
   <br>
+
+1. `Subtract the binary numbers 1001 - 1100`
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+1101
+
+</details>
+
+  <br>
