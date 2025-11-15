@@ -112,3 +112,17 @@ The calculation was performed by converting the binary numbers to their decimal 
 </details>
 
   <br>
+
+7. `Add the binary numbers 1101 and 10111`
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+100100
+
+</details>
+
+  <br>
