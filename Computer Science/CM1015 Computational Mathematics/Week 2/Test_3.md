@@ -18,3 +18,22 @@
 </details>
 
   <br>
+
+2. `Convert the the decimal number (222) into binary`
+
+- 11011110
+- 1111001
+- 1010101
+- Not possible
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+11011110
+
+</details>
+
+  <br>
