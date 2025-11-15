@@ -96,3 +96,19 @@ The calculation was performed by converting the binary numbers to their decimal 
 </details>
 
   <br>
+
+  <br>
+
+6. `Multiply the binary numbers 111 and 11`
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+10101
+
+</details>
+
+  <br>
