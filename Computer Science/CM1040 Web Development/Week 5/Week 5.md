@@ -74,3 +74,19 @@ The lecture demostrates how to use JS to detect the user's screen context. Impor
 </details>
 
 <br>
+
+<details>
+  <summary>🖱️ Interaction Modes</summary>
+  
+<br>
+
+Developers must consider how users navigate the page. It isn't just about a mouse; users might employ:
+
+- Touchscreens
+- Stylus
+- Trackpads
+- Keyboards
+
+</details>
+
+<br>
