@@ -56,3 +56,22 @@
 </details>
 
   <br>
+
+4. `Conver the decimal number 20.25 into binary`
+
+- 10100.01
+- 10110.01
+- 10100.10
+- There is no solution
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+10100.01
+
+</details>
+
+  <br>
