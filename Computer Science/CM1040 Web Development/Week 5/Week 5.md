@@ -101,3 +101,17 @@ Not all devices have the same processing power. A complex webpage with heavy ren
 </details>
 
 <br>
+
+<details>
+  <summary>📶 Network Conditions</summary>
+  
+<br>
+
+Internet acees is not always a "constant stream"
+
+- Reliable: Fiber or 5G connections allow for data-heavy designs like video streaming.
+- Unrealiable: Rural areas or unstable connection might function like a "drip" that cuts off occasionally.
+
+</details>
+
+<br>
