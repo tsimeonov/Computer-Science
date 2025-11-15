@@ -90,3 +90,14 @@ Developers must consider how users navigate the page. It isn't just about a mous
 </details>
 
 <br>
+
+<details>
+  <summary>⚡ Power & Performance (CPU)</summary>
+  
+<br>
+
+Not all devices have the same processing power. A complex webpage with heavy rendering might run smootly on high-end developer workstation but strugle on an older laptop or low-power smartwatch. Developers are advised to test on lower-end hardware to ensure usability.
+
+</details>
+
+<br>
