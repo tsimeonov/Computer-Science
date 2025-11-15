@@ -126,3 +126,17 @@ The calculation was performed by converting the binary numbers to their decimal 
 </details>
 
   <br>
+
+8. `Add the binary numbers 110101 and 101110`
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+$1100011$
+
+</details>
+
+  <br>
