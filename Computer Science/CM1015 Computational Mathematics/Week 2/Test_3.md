@@ -216,3 +216,33 @@ The following options from your list correctly describe these headers:
 </details>
 
   <br>
+
+1. `Write the following numbers in expandend form 1212 base 8`
+
+- 15
+- F
+- 10001010111
+- Not possible (in decimal, the numbers from 0-9 are used)
+
+<details>
+
+  <summary>Answer</summary>
+
+Here are the correct ways to write $1212_8$ in expanded form from the options provided.
+
+The number $1212_8$ means:
+
+- **1** is in the $8^3$ (512s) place
+- **2** is in the $8^2$ (64s) place
+- **1** is in the $8^1$ (8s) place
+- **2** is in the $8^0$ (1s) place
+
+This gives the expression: $(1 \times 8^3) + (2 \times 8^2) + (1 \times 8^1) + (2 \times 8^0)$
+
+The correct answers from your list are:
+
+- **$1 \times 8^3 + 2 \times 8^2 + 1 \times 8^1 + 2 \times 8^0$**
+- **$1 \times 8^3 + 2 \times 8^2 + 1 \times 8^1 + 2 \times 8^0$** (This is a duplicate in your list)
+- **$1$, ×, $8$, cubed, plus, $2$, ×, $8$, squared, plus, $1$, ×, $8$, start superscript, 1, end superscript, plus, $2$, ×, $8$, start superscript, 0, end superscript** (This is a verbose version of the same correct answer)
+
+  <br>
