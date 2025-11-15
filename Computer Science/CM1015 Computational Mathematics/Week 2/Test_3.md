@@ -75,3 +75,22 @@
 </details>
 
   <br>
+
+5. `Perform the base 2 calculation 1110 + 101`
+
+- 10011
+- 11010
+- 1010111
+- Non of the above
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+10011
+
+</details>
+
+  <br>
