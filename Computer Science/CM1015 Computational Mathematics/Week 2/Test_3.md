@@ -114,12 +114,12 @@
 
   <br>
 
-6. `Perform the base 2 calculation 111110 - 11111`
+7. `Perform the base 2 calculation 1110 x 101`
 
-- 11101
-- 1011
-- 10111
-- 11111
+- 1111101
+- 0110001
+- 1000101
+- 1000110
 
 <details>
 
@@ -127,7 +127,62 @@
 
   <br>
 
-10011
+1000110
+
+</details>
+
+  <br>
+
+8. `Convert the decimal number 211.125 to hexadecimal`
+
+- 3D.02
+- D3.02
+- D3.2
+- None of the above
+
+<details>
+
+  <summary>Answer</summary>
+
+  <br>
+
+The decimal number $211.125$ is **$D3.2$** in hexadecimal (base 16).
+
+Here is the step-by-step conversion:
+
+---
+
+### 1. Convert the Integer Part (211)
+
+You convert the integer part by repeatedly dividing by 16 and recording the remainders.
+
+- $211 \div 16 = 13$ with a remainder of **$3$**
+- $13 \div 16 = 0$ with a remainder of **$13$**
+
+In hexadecimal, the number $13$ is represented by the letter **D**.
+
+Reading the remainders from bottom to top, you get: **D** then **3**.
+So, $211_{10} = D3_{16}$.
+
+---
+
+### 2. Convert the Fractional Part (0.125)
+
+You convert the fractional part by repeatedly multiplying by 16 and recording the integer part of the result.
+
+- $0.125 \times 16 = 2.0$
+
+The integer part is **$2$**, and the fractional part is now $0$, so the process is complete.
+
+Reading the integer parts from top to bottom, you get: **.2**
+So, $0.125_{10} = .2_{16}$.
+
+---
+
+### 3. Combine the Results
+
+Combine the integer and fractional parts:
+**$D3$** (integer) + **$.2$** (fractional) = **$D3.2_{16}$**
 
 </details>
 
