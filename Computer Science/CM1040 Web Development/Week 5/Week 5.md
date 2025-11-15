@@ -29,6 +29,15 @@ Like clients, there is a wide variety of server-side software. The video shows d
 - Cloudflare
 - Micrisift-IIS
 
+3. Security Threats
+
+This complex ecosystem of thousands of different clients and servers creates uniques security vulnerabilities:
+
+- Phishing - Malicious actors create a fake server (E.g a website that looks like your bank) to trick a user into givving up credentials
+
+- DDos (Distributed Deniel of Service): An attacker uses a "botnet" (a huge network of infected clients) to flood a single server with millions of requests, overwhelming it.
+
+- Man-in-the middle: An attacker positions themselves between a client and a server to intercept or alter the data being communicated.
 </details>
 
 <br>
