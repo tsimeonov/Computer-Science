@@ -80,7 +80,29 @@ const ProductCard = ({ product }) => {
 
 	return (
 		<Box>
-			<Box></Box>
+			<Image
+				src={product.image}
+				alt={product.image}
+				h={48}
+				w="full"
+				objectFit="contain"
+			/>
+			<Box>
+				<Heading>{product.name}</Heading>
+				<Text>${product.price}</Text>
+				<HStack>
+					<IconButton
+						icon={<BiEditAlt />}
+						colorScheme="blue"
+						onClick={onOpen}
+					/>
+					<IconButton
+						icon={<AiFillDelete />}
+						colorScheme="red"
+						onClick={() => handleDeleteProduct(product._id)}
+					/>
+				</HStack>
+			</Box>
 		</Box>
 	);
 };
