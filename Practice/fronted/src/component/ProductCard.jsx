@@ -103,6 +103,17 @@ const ProductCard = ({ product }) => {
 					/>
 				</HStack>
 			</Box>
+
+			<Modal>
+				<ModalOverlay />
+
+				<ModalContent>
+					<ModalHeader></ModalHeader>
+					<ModalCloseButton />
+					<ModalBody></ModalBody>
+					<ModalFooter></ModalFooter>
+				</ModalContent>
+			</Modal>
 		</Box>
 	);
 };
