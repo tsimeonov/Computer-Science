@@ -99,9 +99,11 @@ const ProductCard = ({ product }) => {
 					{product.name}
 				</Heading>
 
-				<Text>{product.price}</Text>
+				<Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
+					${product.price}
+				</Text>
 
-				<HStack>
+				<HStack spacing={2}>
 					<IconButton
 						icon={<BiEditAlt />}
 						onClick={onOpen}
@@ -112,7 +114,12 @@ const ProductCard = ({ product }) => {
 						colorScheme="red"></IconButton>
 				</HStack>
 			</Box>
-			<Modal></Modal>
+			<Modal>
+				<ModalHeader></ModalHeader>
+				<ModalCloseButton />
+				<ModalBody></ModalBody>
+				<ModalFooter></ModalFooter>
+			</Modal>
 		</Box>
 	);
 };
