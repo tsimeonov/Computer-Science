@@ -135,11 +135,22 @@ const ProductCard = ({ product }) => {
 								placeholder="Price"
 								name="price"
 								value={updatedProduct.price}
+								type="number"
 								onChange={(e) => {
-									setUpdatedProduct({ ...updateProduct, name: e.target.value });
+									setUpdatedProduct({
+										...updateProduct,
+										price: e.target.value,
+									});
 								}}
 							/>
-							<Input />
+							<Input
+								placeholder="Image URL"
+								name="image"
+								value={updateProduct.image}
+								onChange={(e) =>
+									setUpdatedProduct({ ...updateProduct, image: e.target.value })
+								}
+							/>
 						</VStack>
 					</ModalBody>
 					<ModalFooter></ModalFooter>
