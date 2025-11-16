@@ -92,7 +92,7 @@ const ProductCard = ({ product }) => {
 				alt={product.name}
 				h={48}
 				w="full"
-				objectFit="cover"
+				objectFit="contain"
 			/>
 
 			<Box p={4}>
