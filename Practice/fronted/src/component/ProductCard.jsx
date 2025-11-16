@@ -114,11 +114,29 @@ const ProductCard = ({ product }) => {
 						colorScheme="red"></IconButton>
 				</HStack>
 			</Box>
-			<Modal>
-				<ModalHeader></ModalHeader>
-				<ModalCloseButton />
-				<ModalBody></ModalBody>
-				<ModalFooter></ModalFooter>
+
+			<Modal isOpen={isOpen} onClose={onclose}>
+				<ModalOverlay />
+
+				<ModalContent>
+					<ModalHeader>Update Product</ModalHeader>
+					<ModalCloseButton />
+					<ModalBody>
+						<VStack spacing={5}>
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.name}
+								onChange={(e) => {
+									setUpdatedProduct({ ...updateProduct, name: e.target.value });
+								}}
+							/>
+							<Input />
+							<Input />
+						</VStack>
+					</ModalBody>
+					<ModalFooter></ModalFooter>
+				</ModalContent>
 			</Modal>
 		</Box>
 	);
