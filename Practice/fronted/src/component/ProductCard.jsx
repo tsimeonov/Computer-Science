@@ -104,13 +104,50 @@ const ProductCard = ({ product }) => {
 				</HStack>
 			</Box>
 
-			<Modal>
+			<Modal isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 
 				<ModalContent>
-					<ModalHeader></ModalHeader>
+					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton />
-					<ModalBody></ModalBody>
+					<ModalBody>
+						<VStack>
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.name}
+								onChange={(e) => {
+									setUpdatedProduct({
+										...updatedProduct,
+										name: e.target.values,
+									});
+								}}
+							/>
+							<Input
+								placeholder="Price"
+								name="price"
+								type="number"
+								value={updatedProduct.price}
+								onChange={(e) => {
+									setUpdatedProduct({
+										...updatedProduct,
+										price: e.target.value,
+									});
+								}}
+							/>
+							<Input
+								placeholder="Image URL"
+								name="image"
+								value={updatedProduct.image}
+								onChange={(e) => {
+									setUpdatedProduct({
+										...updatedProduct,
+										image: e.target.value,
+									});
+								}}
+							/>
+						</VStack>
+					</ModalBody>
 					<ModalFooter></ModalFooter>
 				</ModalContent>
 			</Modal>
