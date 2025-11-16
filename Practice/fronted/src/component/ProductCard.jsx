@@ -131,7 +131,14 @@ const ProductCard = ({ product }) => {
 									setUpdatedProduct({ ...updateProduct, name: e.target.value });
 								}}
 							/>
-							<Input />
+							<Input
+								placeholder="Price"
+								name="price"
+								value={updatedProduct.price}
+								onChange={(e) => {
+									setUpdatedProduct({ ...updateProduct, name: e.target.value });
+								}}
+							/>
 							<Input />
 						</VStack>
 					</ModalBody>
