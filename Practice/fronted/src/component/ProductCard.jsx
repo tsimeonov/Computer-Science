@@ -79,7 +79,14 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-		<Box>
+		<Box
+			shadow="xl"
+			rounded="xl"
+			overflow="hidden"
+			transition="all 0.3s"
+			bg={bg}
+			p={5}
+			_hover={{ transform: 'translateY(-5px)', shadow: 'lg' }}>
 			<Image
 				src={product.image}
 				alt={product.image}
@@ -87,10 +94,15 @@ const ProductCard = ({ product }) => {
 				w="full"
 				objectFit="contain"
 			/>
+
 			<Box>
-				<Heading>{product.name}</Heading>
-				<Text>${product.price}</Text>
-				<HStack>
+				<Heading as="h3" size="md" mb={2}>
+					{product.name}
+				</Heading>
+				<Text fontWeight="bold" fontSize="xl" color={textColor} mb="4">
+					${product.price}
+				</Text>
+				<HStack spacing={2}>
 					<IconButton
 						icon={<BiEditAlt />}
 						colorScheme="blue"
@@ -103,7 +115,6 @@ const ProductCard = ({ product }) => {
 					/>
 				</HStack>
 			</Box>
-
 			<Modal isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 
@@ -111,7 +122,7 @@ const ProductCard = ({ product }) => {
 					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>
-						<VStack>
+						<VStack spacing={5}>
 							<Input
 								placeholder="Product Name"
 								name="name"
