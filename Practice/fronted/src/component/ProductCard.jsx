@@ -78,6 +78,33 @@ const ProductCard = ({ product }) => {
 		}
 	};
 
-	return <Box></Box>;
+	return (
+		<Box>
+			<Image />
+			<Box>
+				<Heading></Heading>
+				<Text></Text>
+				<HStack></HStack>
+			</Box>
+
+			<Modal>
+				<ModalOverlay />
+
+				<ModalContent>
+					<ModalHeader></ModalHeader>
+					<ModalCloseButton />
+					<ModalBody>
+						<VStack>
+							<Input />
+							<Input />
+							<Input />
+						</VStack>
+					</ModalBody>
+
+					<ModalFooter></ModalFooter>
+				</ModalContent>
+			</Modal>
+		</Box>
+	);
 };
 export default ProductCard;
