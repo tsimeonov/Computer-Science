@@ -117,11 +117,11 @@ const ProductCard = ({ product }) => {
 				</HStack>
 			</Box>
 
-			<Modal>
+			<Modal isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 
 				<ModalContent>
-					<ModalHeader></ModalHeader>
+					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>
 						<VStack>
