@@ -98,7 +98,10 @@ const ProductCard = ({ product }) => {
 				<Heading as="h3" size="md" mb={2}>
 					{product.name}
 				</Heading>
-				<Text></Text>
+
+				<Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
+					${product.price}
+				</Text>
 				<HStack></HStack>
 			</Box>
 
