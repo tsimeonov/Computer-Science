@@ -3,6 +3,7 @@ import {
 	Button,
 	Heading,
 	HStack,
+	Icon,
 	IconButton,
 	Image,
 	Input,
@@ -102,7 +103,18 @@ const ProductCard = ({ product }) => {
 				<Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
 					${product.price}
 				</Text>
-				<HStack></HStack>
+				<HStack>
+					<IconButton
+						icon={<BiEditAlt />}
+						onClick={onOpen}
+						colorScheme="blue"
+					/>
+					<IconButton
+						icon={<AiFillDelete />}
+						onClick={() => handleDeleteProduct(product._id)}
+						colorScheme="red"
+					/>
+				</HStack>
 			</Box>
 
 			<Modal>
