@@ -163,3 +163,26 @@ Analyzing these logs provides critical insights for server management:
 </details>
 
 <br>
+
+<details>
+  <summary>Tools for Analysis</summary>
+  
+<br>
+
+The lecture highlights two specific command-line tools for working with log data:
+
+1. Tail (tail -f) This command allows for real-time monitoring of the server log. By running tail -f /path/to/log, administrators can "hook" onto the file and see requests populate in the terminal the instant a client hits the website.
+
+2. GoAccess GoAccess is a powerful log analyzer that converts raw text logs into an interactive, visual HTML dashboard. It is highly efficient, capable of processing gigabytes of data rapidly.
+
+The dashboard provides high-level visualizations, including:
+
+- Total requests and traffic timelines.
+
+- Breakdowns of operating systems and browsers derived from User Agent strings.
+
+- Status code distributions and identifying frequent visitors.
+
+</details>
+
+<br>
