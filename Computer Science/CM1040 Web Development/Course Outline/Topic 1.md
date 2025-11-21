@@ -84,4 +84,22 @@ Examples: Content-Type: text/html, Content-Length: 1024, Set-Cookie.
 
 3. Body (Required): Contains the actual requested resource (e.g., the HTML file, an image, or JSON data).
 
+`Retrieving Resources from Web Servers`
+
+To retrieve a resource (like a web page), the process involves several steps executed by the browser:
+
+1. DNS Lookup: The browser translates the human-readable domain name (e.g., example.com) into an IP address (e.g., 93.184.216.34).
+
+2. TCP Connection: The browser opens a reliable connection to the web server's IP address, usually on port 80 (for HTTP) or port 443 (for HTTPS).
+
+3. HTTP Request: The browser sends a GET request for the desired resource.
+
+Example: GET /index.html HTTP/1.1
+
+Note: The server uses the Host header to know which website the client is looking for, as a single IP address can host many different websites.
+
+4. HTTP Response: The server processes the request and, if successful, returns an HTTP/1.1 200 OK status code along with the HTML content in the response body.
+
+5. Rendering: The browser reads the content, sees references to other resources (like images, CSS, or JavaScript), and repeats steps 2–4 for each of those resources before assembling and displaying the final web page.
+
 </details>
