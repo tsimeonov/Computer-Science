@@ -117,3 +117,30 @@ Internet acees is not always a "constant stream"
 <br>
 
 ## Server access logs
+
+<details>
+  <summary>The anotomy of a log entry</summary>
+  
+<br>
+
+A server aceess log records every instance of a client (user) connecting to the server and making an HTTP request. A typical entry contains specific data points that allow administrators to track and identify users.
+
+Key components of a single line entry include:
+
+- `IP Address`: Identifies the user's location and tracks them across requests.
+
+- `Date/Time`: When the request occurred.
+
+- `HTTP Method`: The type of request made (e.g., GET, POST, PUT, DELETE).
+
+- T`arget Path`: The specific section of the site accessed (e.g., /user/profile).
+
+- `HTTP Version`: The protocol version used (e.g., 1.0 or 1.1).
+
+- `Response Code`: The server's status response (e.g., 200 OK, 403 Forbidden, 304 Not Modified).
+
+- `User Agent`: A string identifying the client's software, browser version, and operating system.
+
+</details>
+
+<br>
