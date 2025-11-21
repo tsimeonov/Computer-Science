@@ -119,7 +119,7 @@ Internet acees is not always a "constant stream"
 ## Server access logs
 
 <details>
-  <summary>The anotomy of a log entry</summary>
+  <summary>The anatomy of a log entry</summary>
   
 <br>
 
@@ -140,6 +140,25 @@ Key components of a single line entry include:
 - `Response Code`: The server's status response (e.g., 200 OK, 403 Forbidden, 304 Not Modified).
 
 - `User Agent`: A string identifying the client's software, browser version, and operating system.
+
+</details>
+
+<br>
+
+<details>
+  <summary>Why Logs are important</summary>
+  
+<br>
+
+Analyzing these logs provides critical insights for server management:
+
+- Security Monitoring: Helps identify suspicious activity, such as automated scripts probing for vulnerabilities or insecure configuration files.
+
+- Performance Optimization: Reveals which pages are most frequently accessed, allowing developers to prioritize optimization efforts where they matter most.
+
+- Troubleshooting: Essential for diagnosing errors and verifying that requests are passing correctly through complex setups, such as reverse proxies and load balancers.
+
+- Pattern Recognition: Highlights usage trends, such as peak traffic times, to assist with capacity planning.
 
 </details>
 
