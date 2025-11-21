@@ -103,3 +103,36 @@ Note: The server uses the Host header to know which website the client is lookin
 5. Rendering: The browser reads the content, sees references to other resources (like images, CSS, or JavaScript), and repeats steps 2–4 for each of those resources before assembling and displaying the final web page.
 
 </details>
+
+<details>🔒 Security Issues with HTTP and Solutions</summary>
+  
+<br>
+
+The primary security issue with HTTP is its lack of encryption, which makes data vulnerable to interception.
+
+1. Eavesdropping (Man-in-the-Middle Attacks)
+   Since HTTP traffic is sent as plain, readable text, anyone monitoring the network between the client and the server (e.g., a hacker on a public Wi-Fi network or an ISP) can read the transmitted data—including passwords, credit card numbers, and private correspondence.
+
+2. Data Tampering
+   A malicious party can not only read the data but also actively modify the HTTP request or response as it travels across the network. For example, they could inject malicious JavaScript into an unencrypted HTTP page before it reaches the user's browser.
+
+`The Solution: HTTPS (HTTP Secure)`
+
+The security issues inherent to HTTP are dealt with by wrapping the entire HTTP protocol inside the TLS (Transport Layer Security) encryption protocol, creating HTTPS.
+
+|   Feature    | HTTP (Unsecure) |              HTTPS (Secure)              |
+| :----------: | :-------------: | :--------------------------------------: |
+|   Protocol   |   HTTP alone    |              HTTP + TLS/SSL              |
+|     Port     |       80        |                   443                    |
+| Data Format  |   Plain Text    |            Encrypted/Ciphered            |
+| Key Function |  Data Transfer  | Confidentiality (Prevents Eavesdropping) |
+
+`How HTTPS Works`
+
+1. Handshake: When a browser attempts to connect to an HTTPS server, they perform a TLS Handshake to agree on encryption keys and algorithms. The server presents a digital certificate (issued by a trusted third party) to verify its identity.
+
+2. Encryption: Once the identity is verified and keys are established, all subsequent HTTP request and response messages are encrypted before transmission.
+
+3. Integrity: TLS also ensures data integrity by attaching a message authentication code (MAC) to the data. If any byte of the data is altered during transit, the receiving party immediately detects the tampering and rejects the data.
+
+</details>
