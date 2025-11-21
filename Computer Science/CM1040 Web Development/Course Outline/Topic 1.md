@@ -6,6 +6,8 @@ Using information about the historical context of the Internet and HTTP, explain
 
 - Discuss security issues with HTTP and how they are dealt with.
 
+<br>
+
 <details>
   <summary>🌐 Historical Context & Design Features</summary>
   
@@ -38,5 +40,34 @@ HTTP was designed in the late 1980s and early 1990s by Tim Berners-Lee to enable
 - Simplicity and Readability: The protocol uses human-readable, plain text messages (requests and responses). This made it easy to debug, test, and implement in early, resource-constrained systems.
 
 - Request-Response Paradigm: The client always initiates the transaction by sending a request, and the server always provides a response. This clear, synchronous structure is fundamental.
+
+</details>
+
+<br>
+
+<details>
+  <summary>⚙️ Details of the HTTP Protocol</summary>
+  
+<br>
+
+HTTP is an application-layer protocol that rides on top of TCP. It defines how messages are formatted and transmitted between the client (usually a web browser) and the server.
+
+`The HTTP Request`
+
+A client sends a request that consists of three main parts:
+
+1. Request Line: Defines the action and the target.
+
+- Method (Verb): Specifies the action to be performed (e.g., GET, POST).
+
+- Path: The location of the resource on the server (e.g., /index.html).
+
+- HTTP Version: (e.g., HTTP/1.1 or HTTP/2.0).
+
+2. Headers: Key-value pairs that provide metadata about the request.
+
+- Examples: Host: www.example.com, User-Agent: Mozilla/5.0 (identifying the browser), Accept-Language: en-US.
+
+3. Body (Optional): Used primarily with the POST method to send data (like form submissions or JSON data) to the serve
 
 </details>
