@@ -70,4 +70,18 @@ A client sends a request that consists of three main parts:
 
 3. Body (Optional): Used primarily with the POST method to send data (like form submissions or JSON data) to the serve
 
+`The HTTP Response`
+
+The server processes the request and sends a response with three main parts:
+
+1. Status Line: Includes the HTTP version and a Status Code indicating the result.
+
+Example: HTTP/1.1 200 OK
+
+2. Headers: Key-value pairs providing metadata about the response.
+
+Examples: Content-Type: text/html, Content-Length: 1024, Set-Cookie.
+
+3. Body (Required): Contains the actual requested resource (e.g., the HTML file, an image, or JSON data).
+
 </details>
