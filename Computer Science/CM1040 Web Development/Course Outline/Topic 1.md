@@ -104,6 +104,8 @@ Note: The server uses the Host header to know which website the client is lookin
 
 </details>
 
+<br>
+
 <details>🔒 Security Issues with HTTP and Solutions</summary>
   
 <br>
