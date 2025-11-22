@@ -86,12 +86,13 @@ const ProductCard = ({ product }) => {
 			overflow="hidden"
 			transition="all 0.3s"
 			bg={bg}
-			_hover={{ transition: 'translateY(-5px)', shadow: 'xl' }}>
+			_hover={{ transform: 'translateY(-5px)', shadow: 'xl' }}>
 			<Image
 				src={product.image}
 				alt={product.name}
-				h={48}
+				h={64}
 				w="full"
+				p={4}
 				objectFit="contain"
 			/>
 
@@ -155,7 +156,17 @@ const ProductCard = ({ product }) => {
 						</VStack>
 					</ModalBody>
 
-					<ModalFooter></ModalFooter>
+					<ModalFooter>
+						<Button
+							colorScheme="blue"
+							mr={3}
+							onClick={() => handleUpdateProduct(product._id, updatedProduct)}>
+							Update
+						</Button>
+						<Button varient="ghost" onClick={onClose}>
+							Cancel
+						</Button>
+					</ModalFooter>
 				</ModalContent>
 			</Modal>
 		</Box>
