@@ -125,7 +125,14 @@ const ProductCard = ({ product }) => {
 					<ModalCloseButton />
 					<ModalBody>
 						<VStack>
-							<Input />
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.name}
+								onChange={(e) =>
+									setUpdatedProduct({ ...updatedProduct, name: e.target.value })
+								}
+							/>
 							<Input />
 							<Input />
 						</VStack>
