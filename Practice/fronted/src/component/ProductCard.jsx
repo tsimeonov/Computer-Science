@@ -94,11 +94,14 @@ const ProductCard = ({ product }) => {
 					h={64}
 					w="full"
 					objectFit="contain"
+					mt={4}
 				/>
-				<Heading as="h3" size="md" m={2}>
+				<Heading as="h3" size="md" m={4}>
 					{product.name}
 				</Heading>
-				<Text></Text>
+				<Text fontWeight="bold" fontSize="xl" color={textColor} ml={4}>
+					$ {product.price}
+				</Text>
 				<HStack></HStack>
 			</Box>
 			<Modal>
