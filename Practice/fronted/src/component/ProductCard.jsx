@@ -95,7 +95,9 @@ const ProductCard = ({ product }) => {
 					w="full"
 					objectFit="contain"
 				/>
-				<Heading></Heading>
+				<Heading as="h3" size="md" m={2}>
+					{product.name}
+				</Heading>
 				<Text></Text>
 				<HStack></HStack>
 			</Box>
