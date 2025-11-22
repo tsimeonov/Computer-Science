@@ -80,14 +80,25 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-		<Box>
+		<Box
+			shadow="lg"
+			rounded="lg"
+			overflow="hidden"
+			transition="all 0.3s"
+			_hover={{ transform: 'translateY: (-5px)', shadow: 'xl' }}
+			bg={bg}>
 			<Box>
-				<Image />
+				<Image
+					src={product.image}
+					name={product.name}
+					h={64}
+					w="full"
+					objectFit="contain"
+				/>
 				<Heading></Heading>
 				<Text></Text>
 				<HStack></HStack>
 			</Box>
-
 			<Modal>
 				<ModalOverlay />
 
