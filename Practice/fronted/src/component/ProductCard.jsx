@@ -119,15 +119,22 @@ const ProductCard = ({ product }) => {
 				</HStack>
 			</Box>
 
-			<Modal>
+			<Modal isOpen={isOpen} onClose={onClose}>
 				<ModalOverlay />
 
 				<ModalContent>
-					<ModalHeader></ModalHeader>
+					<ModalHeader>Update Product</ModalHeader>
 					<ModalCloseButton></ModalCloseButton>
 					<ModalBody>
-						<VStack>
-							<Input />
+						<VStack spacing={4}>
+							<Input
+								placeholder="Product Name"
+								name="name"
+								value={updatedProduct.name}
+								onChange={(e) =>
+									setUpdatedProduct({ ...updatedProduct, name: e.target.value })
+								}
+							/>
 							<Input />
 							<Input />
 						</VStack>
