@@ -85,25 +85,40 @@ const ProductCard = ({ product }) => {
 			rounded="lg"
 			overflow="hidden"
 			transition="all 0.3s"
-			_hover={{ transform: 'translateY: (-5px)', shadow: 'xl' }}
+			_hover={{ transform: 'translateY(-5px)', shadow: 'xl' }}
 			bg={bg}>
-			<Box>
-				<Image
-					src={product.image}
-					name={product.name}
-					h={64}
-					w="full"
-					objectFit="contain"
-					mt={4}
-				/>
-				<Heading as="h3" size="md" m={4}>
+			<Image
+				src={product.image}
+				name={product.name}
+				h={64}
+				w="full"
+				objectFit="contain"
+				mt={4}
+			/>
+
+			<Box p={4}>
+				<Heading as="h3" size="md" mb={2}>
 					{product.name}
 				</Heading>
-				<Text fontWeight="bold" fontSize="xl" color={textColor} ml={4}>
+
+				<Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
 					$ {product.price}
 				</Text>
-				<HStack></HStack>
+
+				<HStack spacing={3}>
+					<IconButton
+						icon={<BiEditAlt />}
+						colorScheme="blue"
+						onClick={onOpen}
+					/>
+					<IconButton
+						icon={<AiFillDelete />}
+						onClick={() => handleUpdateProduct(product._id)}
+						colorScheme="red"
+					/>
+				</HStack>
 			</Box>
+
 			<Modal>
 				<ModalOverlay />
 
