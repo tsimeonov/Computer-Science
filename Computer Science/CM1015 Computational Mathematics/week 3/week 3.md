@@ -84,7 +84,10 @@ Some sequences continue indefinitely, and these are called `infinite sequences`
 
 ---
 
-`Sigma notation`
+<h4>12.5 Series and Sigma notation</h4>
+
+If the terms of a sequence are added the result is known as a series.
+For example, if we add the terms of the sequence 1, 2, 3, 4, 5 we obtain the series 1 + 2 + 3 + 4 + 5. Clearly a series is a `sum`.
 
 Sigma notation $\sum_{}$, provides a concise and convenient way of writing long sums.
 The sum 1+2+3 .... +10+11+12
