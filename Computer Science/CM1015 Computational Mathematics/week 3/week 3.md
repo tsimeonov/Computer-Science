@@ -158,3 +158,18 @@ This is the most well-known recursive function.
 | v<sub>5</sub> | 5 \* v<sub>4</sub> = 6 \* 24 |  120  |
 
 This formula generates the factorials ($n!$), which are used extensively in probability and combinatorics.
+
+2. The Fibonacci Sequence
+
+This sequence is defined by adding the two immediately preceding terms.
+
+- Grounding Terms: $u_1 = 0$ and $u_2 = 1$
+- Recursive Formula: $u_{n+2} = u_{n+1} + u_n$ (The next term is the sum of the two before it.)
+
+|   Term (n)    |               Calculation               | Value |
+| :-----------: | :-------------------------------------: | :---: |
+| v<sub>3</sub> | v<sub>2</sub> \+ v<sub>1</sub> = 1 \* 0 |   1   |
+| v<sub>4</sub> | v<sub>3</sub> \+ v<sub>2</sub> = 1 \* 2 |   2   |
+| v<sub>5</sub> | v<sub>4</sub> \+ v<sub>3</sub> = 2 \* 1 |   3   |
+| v<sub>6</sub> | v<sub>5</sub> \+ v<sub>4</sub> = 3 \* 2 |   5   |
+| v<sub>7</sub> | v<sub>6</sub> \+ v<sub>5</sub> = 5 \* 3 |   8   |
