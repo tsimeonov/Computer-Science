@@ -83,10 +83,17 @@ const ProductCard = ({ product }) => {
 		<Box
 			shadow="xl"
 			rounded="xl"
+			overflow="hidden"
 			transition="all 0.3s"
-			_hover={{ transform: 'translateY(-5px', shadow: 'xl' }}
+			_hover={{ transform: 'scale(1.1)', shadow: 'xl' }}
 			bg={bg}>
-			<Image />
+			<Image
+				src={product.image}
+				alt={product.image}
+				h={64}
+				w="full"
+				objectFit="contain"
+			/>
 
 			<Box>
 				<Heading></Heading>
