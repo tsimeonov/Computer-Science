@@ -136,3 +136,25 @@ Consdider the special case of an infinite geometric series for which the common 
 
 The sum of an infinite number of terms of a geomteric series is denoted by
 S<sub>∞</sub> = $\frac{a}{1 - r}$ provided -1 < r < 1
+
+---
+
+<h4>Recursion (not in book)</h4>
+
+This lecture introduces recursion, a powerful concept in mathematics and programming where a function or sequence is defined in terms of itself. To work with a recursive definition, it must always be grounded with one or more starting terms.
+
+1. Factorial Sequence ($n!$)
+
+This is the most well-known recursive function.
+
+- Grounding Terms: $u_1 = 1$
+- Recursive Formula: $u_n = n \times u_{n-1}$
+
+|   Term (n)    |         Calculation          | Value |
+| :-----------: | :--------------------------: | :---: |
+| v<sub>2</sub> | 2 \* v<sub>1</sub> = 2 \* 1  |   2   |
+| v<sub>3</sub> | 3 \* v<sub>2</sub> = 3 \* 2  |   6   |
+| v<sub>4</sub> | 4 \* v<sub>3</sub> = 4 \* 6  |  24   |
+| v<sub>5</sub> | 5 \* v<sub>4</sub> = 6 \* 24 |  120  |
+
+This formula generates the factorials ($n!$), which are used extensively in probability and combinatorics.
