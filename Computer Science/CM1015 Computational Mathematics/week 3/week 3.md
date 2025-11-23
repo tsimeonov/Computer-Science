@@ -47,7 +47,7 @@ a, a + d, a + 2d, a + 3d ....
 
 Study the following pattern:
 
-- The firs term is `a`
+- The first term is `a`
 - The second term is a + d
 - The third term is a + 2d
 - The forth term is a + 3d
@@ -61,26 +61,26 @@ And so on. This lead to the following formula for the `n`th term:
 <h5>Geometric Progression</h5>
 
 Another simple way of forming a sequence is to calculate each new term by `multiplying` the previous term by a fixed amount. For example, suppose the first term of a sequence is 2, and we find the second, third, and forth terms by repeatedly multiplying by 5. We obtain the sequence
-2,10,50,250
+2, 10, 50, 250.
 Such a sequence is called a `geometric sequence` or `geometric progression`.
 The fixed amount by which term is multiplied is called the `common ratio`
 
 <h5 style="color:FireBrick;">Key points</h5>
 
 A geometric progression can be written:
-_a, ar, ar^2^, ar^3^_ .....
+_a, ar, ar<sup>2</sup>, ar<sup>3</sup>_ .....
 _a_ is the `first term`, _r_ is the `common ratio`
 
 Study the following pattern:
 
 - The first term is _a_
 - The second term is _ar_
-- The third term is _ar^2^_
-- The fourth term is _ar^3^_
+- The third term is \_ar<sup>2</sup>
+- The fourth term is \_ar<sup>3</sup>
 
-and so on. This leads us to the following formula for the n^th^ term:
+and so on. This leads us to the following formula for the n<sup>th</sup> term:
 
-The n^th^ term of a geometric progression is given by ar^n-1^
+The n^th^ term of a geometric progression is given by ar<sup>n-1</sup>
 
 4. For n = 4: a~4~ = $\frac{1}{4}$ = 0.25
 
