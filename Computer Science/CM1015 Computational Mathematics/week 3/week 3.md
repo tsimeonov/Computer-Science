@@ -15,7 +15,7 @@ The number of terms in the first sequence above is five, and the number of terms
 
 Sometimes we use the symbol `'...'` to indicate that the sequence continues.
 
-All of the sequences given above have a finite number of terms. They are known as `finite sequences`. Some sequences go no for ever, and these are called `infinite sequences`. To indicate that a sequence might go on for ever we can use the '...' notation. So when we write
+All of the sequences given above have a finite number of terms. They are known as `finite sequences`. Some sequences go on for ever, and these are called `infinite sequences`. To indicate that a sequence might go on for ever we can use the '...' notation. So when we write
 1,3,5,7,9 ...
 it can be assumed that this sequence continues indefinitely.
 
@@ -23,9 +23,10 @@ it can be assumed that this sequence continues indefinitely.
 
 <h5>Notation used for sequences</h5>
 
-We use a subscript notation to refer to different terms in a sequence. For example, suppose we denote (indicate) the sequence 1,3,5,7,9,11 by x. Then the first term can be called x~1~, the second term x~2~ and so on.
+We use a subscript notation to refer to different terms in a sequence. For example, suppose we denote (indicate) the sequence 1,3,5,7,9,11 by x.
+Then the first term can be called x<sub>1</sub>, the second term x<sub>2</sub> and so on.
 That is,
-x~1~ = 1, x~2~ = 3, x~3~ = 5, x~4~ = 7, and so on
+x<sub>1</sub> = 1, x<sub>2</sub> = 3, x<sub>3</sub> = 5, x<sub>4</sub> = 7, and so on
 
 ---
 
