@@ -80,7 +80,12 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-		<Box>
+		<Box
+			shadow="xl"
+			rounded="xl"
+			transition="all 0.3s"
+			_hover={{ transform: 'translateY(-5px', shadow: 'xl' }}
+			bg={bg}>
 			<Image />
 
 			<Box>
