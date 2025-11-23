@@ -173,3 +173,11 @@ This sequence is defined by adding the two immediately preceding terms.
 | v<sub>5</sub> | v<sub>4</sub> \+ v<sub>3</sub> = 2 \* 1 |   3   |
 | v<sub>6</sub> | v<sub>5</sub> \+ v<sub>4</sub> = 3 \* 2 |   5   |
 | v<sub>7</sub> | v<sub>6</sub> \+ v<sub>5</sub> = 5 \* 3 |   8   |
+
+3. The Golden Ratio
+
+($\phi$)The Fibonacci sequence has a beautiful mathematical property: the ratio of consecutive terms approaches the Golden Ratio
+
+($\phi$) as $n$ approaches infinity.$$\lim_{n\to\infty} \frac{u_{n+1}}{u_n} = \phi$$
+
+The Golden Ratio is an irrational number (cannot be represented as a simple fraction $p/q$) and has historical significance in architecture and design.
