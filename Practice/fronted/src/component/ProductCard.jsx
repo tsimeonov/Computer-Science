@@ -80,61 +80,28 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-		<Box
-			shadow="lg"
-			rounded="lg"
-			overflow="hidden"
-			transition="all 0.3s"
-			_hover={{ transform: 'translateY(-5px)', shadow: 'xl' }}
-			bg={bg}>
-			<Image
-				src={product.image}
-				name={product.name}
-				h={64}
-				w="full"
-				objectFit="contain"
-				mt={4}
-			/>
+		<Box>
+			<Image />
 
-			<Box p={4}>
-				<Heading as="h3" size="md" mb={2}>
-					{product.name}
-				</Heading>
-
-				<Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
-					$ {product.price}
-				</Text>
-
-				<HStack spacing={3}>
-					<IconButton
-						icon={<BiEditAlt />}
-						colorScheme="blue"
-						onClick={onOpen}
-					/>
-					<IconButton
-						icon={<AiFillDelete />}
-						onClick={() => handleUpdateProduct(product._id)}
-						colorScheme="red"
-					/>
+			<Box>
+				<Heading></Heading>
+				<Text></Text>
+				<HStack>
+					<IconButton />
+					<IconButton />
 				</HStack>
 			</Box>
 
-			<Modal isOpen={isOpen} onClose={onClose}>
+			<Modal>
 				<ModalOverlay />
 
 				<ModalContent>
-					<ModalHeader>Update Product</ModalHeader>
-					<ModalCloseButton></ModalCloseButton>
+					<ModalHeader></ModalHeader>
+					<ModalCloseButton />
+
 					<ModalBody>
-						<VStack spacing={4}>
-							<Input
-								placeholder="Product Name"
-								name="name"
-								value={updatedProduct.name}
-								onChange={(e) =>
-									setUpdatedProduct({ ...updatedProduct, name: e.target.value })
-								}
-							/>
+						<VStack>
+							<Input />
 							<Input />
 							<Input />
 						</VStack>
