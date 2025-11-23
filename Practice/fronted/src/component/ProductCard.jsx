@@ -93,16 +93,17 @@ const ProductCard = ({ product }) => {
 				h={64}
 				w="full"
 				objectFit="contain"
+				mt={4}
 			/>
 
-			<Box p={4}>
+			<Box p={4} textAlign="center">
 				<Heading as="h3" size="md" mb={2}>
 					{product.name}
 				</Heading>
 				<Text fontWeight="bold" fontSize="xl" mb={4}>
 					$ {product.price}
 				</Text>
-				<HStack spacing={2}>
+				<HStack justifyContent="center" spacing={7}>
 					<IconButton
 						icon={<BiEditAlt />}
 						colorScheme="blue"
