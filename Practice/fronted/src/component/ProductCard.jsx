@@ -146,7 +146,17 @@ const ProductCard = ({ product }) => {
 									})
 								}
 							/>
-							<Input />
+							<Input
+								placeholder="Update Image URL"
+								name="image"
+								value={product.image}
+								onChange={(e) =>
+									setUpdatedProduct({
+										...updatedProduct,
+										image: e.target.image,
+									})
+								}
+							/>
 						</VStack>
 					</ModalBody>
 
