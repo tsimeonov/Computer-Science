@@ -102,9 +102,17 @@ const ProductCard = ({ product }) => {
 				<Text fontWeight="bold" fontSize="xl" mb={4}>
 					$ {product.price}
 				</Text>
-				<HStack>
-					<IconButton />
-					<IconButton />
+				<HStack spacing={2}>
+					<IconButton
+						icon={<BiEditAlt />}
+						colorScheme="blue"
+						onClick={onOpen}
+					/>
+					<IconButton
+						icon={<AiFillDelete />}
+						colorScheme="red"
+						onClick={() => handleDeleteProduct(product._id)}
+					/>
 				</HStack>
 			</Box>
 
