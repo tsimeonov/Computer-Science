@@ -99,7 +99,7 @@ The $\sum_{}$ stands for sum, in this case the sum of all the values of `k` as `
 
 ---
 
-<h5>Arithmetic series</h5>
+<h4>12.6 Arithmetic series</h4>
 
 If the terms of an arithmetic sequence are added, the result is known as an `arithmetic series`. For example, the arithmetic progression with five terms having first term 4 and common difference 5 is 4,9,14,19,24.
 It is easily verified that this has sum 70. If the series has a large number of terms then finding its sum by directly adding all the terms will be laborious.
@@ -109,11 +109,11 @@ Fortunately there is a formula that enables us to find the sum of an arithmetic 
 
 The sum of the first `n` terms of an arithmetic series with first term `a` and common difference `d` is denoted by S~n~ and give by:
 
-S~n~ = $\frac{n}{2}$ (2a + (n - 1) d)
+S<sub>n</sub> = $\frac{n}{2}$ (2a + (n - 1) d)
 
 ---
 
-<h5>Geometric series</h5>
+<h4>12.7 Geometric series</h4>
 
 If the terms of a geometric sequence are added, the result is known as a `geometric series`.
 For example, the geometric progression with five terms having first term 2 and common ration 3 is 2,6,18,54,162.
@@ -123,11 +123,11 @@ If hte terms are added we obtain the geometric series 2+6+18+54+162
 
 The sum of the first `n` terms of a geometric seriews with first term `a` and common ratio `r` is denoted by S~n~ and give by
 
-S~n~ = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
+S<sub>n</sub> = $\frac{a(1-r^n)}{1 - r}$ provided `r` is not equal to 1
 
 ---
 
-<h5>Infinite geometric series</h5>
+<h4>12.8 Infinite geometric series</h4>
 
 When the terms of an infinite sequence are added we obtain an infinite series. It way seem strange to try to add an infinite number of terms but under some circumstances their sum is finite and can be found.
 Consdider the special case of an infinite geometric series for which the common ratio `r` lies between -1 and 1.
@@ -135,4 +135,4 @@ Consdider the special case of an infinite geometric series for which the common 
 <h5 style="color:FireBrick;">Key points</h5>
 
 The sum of an infinite number of terms of a geomteric series is denoted by
-S~∞~ = $\frac{a}{1 - r}$ provided -1 < r < 1
+S<sub>∞</sub> = $\frac{a}{1 - r}$ provided -1 < r < 1
