@@ -80,8 +80,17 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-
-
+		<Box>
+			<Image />
+			<Box>
+				<Heading></Heading>
+				<Text></Text>
+				<HStack>
+					<IconButton />
+					<IconButton />
+				</HStack>
+			</Box>
+		</Box>
 	);
 };
 export default ProductCard;
