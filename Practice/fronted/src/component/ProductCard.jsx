@@ -88,8 +88,10 @@ const ProductCard = ({ product }) => {
 			bg={bg}
 			overflow="hidden">
 			<Image src={product.image} h={68} w="full" objectFit="contain" />
-			<Box>
-				<Heading></Heading>
+			<Box p={4}>
+				<Heading as="h3" size="md">
+					{product.name}
+				</Heading>
 				<Text></Text>
 				<HStack>
 					<IconButton></IconButton>
