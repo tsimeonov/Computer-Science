@@ -80,7 +80,7 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-		<Box>
+		<Box shadow="xl" bg={bg}>
 			<Image />
 			<Box>
 				<Heading></Heading>
