@@ -85,8 +85,9 @@ const ProductCard = ({ product }) => {
 			roinded="xl"
 			_hover={{ transform: 'scale(1.1)', shadow: 'xl' }}
 			transition="all 0.3s"
-			bg={bg}>
-			<Image />
+			bg={bg}
+			overflow="hidden">
+			<Image src={product.image} h={68} w="full" objectFit="contain" />
 			<Box>
 				<Heading></Heading>
 				<Text></Text>
