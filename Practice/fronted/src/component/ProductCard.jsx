@@ -80,7 +80,12 @@ const ProductCard = ({ product }) => {
 	};
 
 	return (
-		<Box shadow="xl" bg={bg}>
+		<Box
+			shadow="xl"
+			roinded="xl"
+			_hover={{ transform: 'scale(1.1)', shadow: 'xl' }}
+			transition="all 0.3s"
+			bg={bg}>
 			<Image />
 			<Box>
 				<Heading></Heading>
@@ -108,4 +113,5 @@ const ProductCard = ({ product }) => {
 		</Box>
 	);
 };
+
 export default ProductCard;
