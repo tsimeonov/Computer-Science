@@ -15,6 +15,7 @@ app.get('/api/products', async (req, res) => {
 		const products = await Product.find({});
 		res.status(200).json({ success: true, data: products });
 	} catch (error) {
+		console.log('Error in fetching products', error.messaage);
 		res.status(404).json({ success: false, message: 'Server error' });
 	}
 });
@@ -46,6 +47,7 @@ app.delete('/api/products/:id', async (req, res) => {
 		await Product.findByIdAndDelete(id);
 		res.status(200).json({ success: true, message: 'Product deleted' });
 	} catch (error) {
+		console.log('Error in deleting productL', error.messaage);
 		res.status(404).json({ success: false, messaage: 'Product not found' });
 	}
 });
