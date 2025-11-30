@@ -66,3 +66,24 @@ C. Stack
 </details>
 
 <br>
+
+<details>
+
+<br>
+
+  <summary>Comparison of Abstract Data Structures</summary>
+
+The primary difference between these three ADSs lies in their access rules and flexibility.
+
+|     Feature      |                       Vector (Array)                       |                                 Queue                                 |                                         Stack                                          |
+| :--------------: | :--------------------------------------------------------: | :-------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
+| Access Principle |                       Random Access                        |                      FIFO (First-In, First-Out)                       |                               LIFO (Last-In, First-Out)                                |
+|  Access Points   |                      Any index ($k$)                       |                Two: Head (Read/Remove) & Tail (Write)                 |                              One: Top (Read/Write/Remove)                              |
+|   Flexibility    | Highest. Allows for arbitrary modification and retrieval.  |             Low. Strict ordering imposed for processing.              |                      Low. Strict ordering imposed for processing.                      |
+|   Primary Use    | Storing structured data, lookup tables, list manipulation. | Task scheduling, handling data streams, processing requests in order. | Function call management (call stack), undo/redo functionality, expression evaluation. |
+
+  <br>
+
+</details>
+
+<br>
