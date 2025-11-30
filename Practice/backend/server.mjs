@@ -10,6 +10,15 @@ const app = express();
 // Witout this req.body will be undefined
 app.use(express.json());
 
+app.get('/api/products', async (req, res) => {
+	try {
+		const products = await Product.find({});
+		res.status(200).json({ success: true, data: products });
+	} catch (error) {
+		res.status(404).json({ success: false, message: 'Server error' });
+	}
+});
+
 app.post('/api/products', async (req, res) => {
 	const product = req.body; // User will send this data
 
