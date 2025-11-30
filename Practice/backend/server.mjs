@@ -35,13 +35,11 @@ app.post('/api/products', async (req, res) => {
 
 // 	try {
 // 		await Product.findByIdAndDelete(id);
-// 		res.status(200).json({ success: true, message: 'Product delted' });
+// 		res.status(200).json({ success: true, message: 'Product deleted' });
 // 	} catch (error) {
 // 		res.status(404).json({ success: false, message: 'Product not found' });
 // 	}
 // });
-
-app.delete('/api/products/:id');
 
 // console.log(process.env.MONGO_URI);
 
