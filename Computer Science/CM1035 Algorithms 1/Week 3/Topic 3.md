@@ -1,7 +1,7 @@
 ## Topic 3: Vectors, stacks and queues
 
 <details>
-  <summary>Basic elements of an abstract data strucutre (ADS)</summary>
+  <summary>Basic elements of an abstract data structure (ADS)</summary>
 
 An `Abstract Data Structure (ADS)` is a logical model for how data is organized and the operations that can be performed on it. It focuses on what the data structure does, not how it's implemented (which would be the concrete data structure).
 
