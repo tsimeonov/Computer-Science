@@ -10,13 +10,21 @@
 import { createServer } from 'http';
 
 const server = createServer((request, response) => {
-	response.writeHead(200, { 'content-type': 'text/plain; charset=utf=8' });
+	response.writeHead(200, { 'content-type': 'text/html; charset=utf=8' });
 
 	const body = `
   <!DOCTYPE html>
   <html>
-    <head></head>
+    <head>
+      <meta charset="utf-8">
+      <title>Node.js Demo</title>
+      <body>
+        <h1>Hello</h1>
+      </body>
+    </head>
   </html>`;
+
+	response.end(body);
 });
 
 server.listen(8000, () => {
