@@ -49,3 +49,23 @@ Array Capabilities
 </details>
 
   <br>
+
+<details>
+
+<summary>3. Implementing the Vector ADT with an Array</summary>
+
+  <br>
+
+The lecture uses the Vector ADT to clarify how an abstract structure is realized concretely:
+
+| Vector Operation (Abstract) |                                       Array Implementation (Concrete)(ADT)                                       |
+| :-------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+|           Length            | The array implementation often stores the vector's length in a separate, privileged element of the array itself. |
+|         SELECT $k$          |                       Directly implemented using the array's read operation at index $k$.                        |
+|         UPDATE $k$          |                  Directly implemented using the array's write/overwrite operation at index $k$.                  |
+
+The array is highly versatile; it can be used not only as the implementation for vectors but also as a basis for other ADTs like Stacks and Queues. The next lecture will explore a new abstract data structure motivated by the array but distinct from the vector.
+
+</details>
+
+  <br>
