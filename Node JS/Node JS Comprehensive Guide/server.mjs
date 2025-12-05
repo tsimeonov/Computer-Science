@@ -38,18 +38,10 @@ import { createServer } from 'http';
 const server = createServer((request, response) => {
 	response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
 
-	const url = new URL(request.url, 'htp://localhost:8000');
-
 	const body = `
   <!DOCTYPE html>
   <html>
-    <head>
-      <body>
-        <h1 style="color: red">Hello ${
-					url.searchParams.get('name') || 'Guest'
-				}</h1>
-      </body>
-    </head>
+  
   </html>`;
 
 	response.end(body);
