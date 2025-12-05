@@ -1,7 +1,6 @@
 // Manipulating Web pages via Parameters
 
 import { createServer } from 'http';
-import { url } from 'inspector';
 
 const server = createServer((request, response) => {
 	response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
