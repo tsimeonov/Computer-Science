@@ -12,6 +12,8 @@ import { createServer } from 'http';
 const server = createServer((request, response) => {
 	response.writeHead(200, { 'content-type': 'text/html; charset=utf=8' });
 
+	const url = new URL(request.url, 'http://localhost:8000');
+
 	const body = `
   <!DOCTYPE html>
   <html>
@@ -19,7 +21,7 @@ const server = createServer((request, response) => {
       <meta charset="utf-8">
       <title>Node.js Demo</title>
       <body>
-        <h1>Hello</h1>
+        <h1 style="color: green">${url.searchParams.get('name')}</h1>
       </body>
     </head>
   </html>`;
