@@ -161,3 +161,22 @@ Algorithms can be defined based on the abstract operations of a data type (like 
 </details>
 
   <br>
+
+<summary>2. The Searching Problem</summary>
+
+  <br>
+
+The lecture introduced searching where the input is an abstract data structure (like a stack, queue, or vector) instead of a simple integer.
+
+- Input: An abstract data structure (vector, stack, queue, etc.).
+- Structure vs. Values: The user knows the global structure (e.g., it's a stack) but nothing about the values or number of elements it contains.
+- Types of Search Problems:
+
+  - Existence: Is the value $x$ present? (Output is a Boolean: true/false). This makes sense for stacks and queues.
+  - Location: Which element (index $i$) contains the value $x$? (Output is an integer index). This only makes sense for vectors and dynamic arrays because their elements are readily accessible via an index (select k operation).
+
+- Constraint: Any algorithm must respect the limited operations allowed on the input structure (e.g., to inspect a stack, you must pop elements).
+
+</details>
+
+  <br>
