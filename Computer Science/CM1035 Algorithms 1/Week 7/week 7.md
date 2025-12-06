@@ -148,6 +148,8 @@ All the ADSs covered — `Vector, Queue, Stack, and Dynamic Array` —share one 
 
   <br>
 
+<details>
+
 <summary>1. Abstraction vs Implementation</summary>
 
   <br>
@@ -162,7 +164,9 @@ Algorithms can be defined based on the abstract operations of a data type (like 
 
   <br>
 
-<summary>2. The Searching Problem</summary>
+<details>
+
+  <summary>2. The Searching Problem</summary>
 
   <br>
 
@@ -176,6 +180,34 @@ The lecture introduced searching where the input is an abstract data structure (
   - Location: Which element (index $i$) contains the value $x$? (Output is an integer index). This only makes sense for vectors and dynamic arrays because their elements are readily accessible via an index (select k operation).
 
 - Constraint: Any algorithm must respect the limited operations allowed on the input structure (e.g., to inspect a stack, you must pop elements).
+
+</details>
+
+  <br>
+
+<details>
+
+  <summary>3. Linear Search Algorithm</summary>
+
+  <br>
+
+The linear search algorithm is presented as the first concrete solution for searching a vector.
+
+- Problem: Given a vector $v$ and a value $x$, find if $x$ is stored in any element of $v$ (returning a Boolean) or return the index $i$ if found (returning an integer index $i$).
+
+- Idea: Since nothing is known about the vector's contents, the algorithm must systematically inspect every element from beginning to end until the value is found or the end is reached.
+
+- Pseudocode (Index-Returning Variant):
+
+```
+FUNCTION LinearSearch(v, item):
+    FOR i FROM 1 UNTIL LENGTH[v]:
+        IF v[i] = item THEN
+            RETURN i
+    RETURN false
+```
+
+- Implementation Note: The linear search algorithm can be directly applied to arrays as well as vectors, provided the length of the vector/array is known (e.g., stored in the array's $0^{th}$ element).
 
 </details>
 
