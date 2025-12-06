@@ -69,3 +69,32 @@ The array is highly versatile; it can be used not only as the implementation for
 </details>
 
   <br>
+
+## Lesson 7.2 Arrays and dynamic arrays
+
+<details>
+
+<summary>1. The dynamic array: Structure and Operation</summary>
+
+  <br>
+
+The Dynamic array is an abstraction that combines the access capabilities of a vector with the flexibility of being resizable.
+
+Structure
+
+- It is finite, swequntial collection of data just like a Vector
+- Crucially, it is NOT fixed-size (unlike a Vector). It's length can change during use
+
+Operations
+
+The dynamic array inherits all Vector operations and adds two new ones
+
+|            Operation            | Inherited From |                                                                        Description                                                                        |
+| :-----------------------------: | :------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| length, select[k], store![o, k] |     Vector     |                                                       Standard read, write, and length operations.                                                        |
+|          removeAt![k]           |      New       | Eliminates the element at index $k$. Shifts all subsequent elements one place to the left ($k+1$ moves to $k$). Returns the value of the removed element. |
+|         insertAt![o, k]         |      New       |    Puts new element $o$ at index $k$. Shifts all subsequent elements one place to the right. If $k$ is $length + 1$, the element is added to the end.     |
+
+</details>
+
+  <br>
