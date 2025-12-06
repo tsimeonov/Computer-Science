@@ -125,3 +125,21 @@ Whenever a Dynamic array operation requires the collection to get larger (like `
 </details>
 
   <br>
+
+<summary>3. Linear abstraction data structures</summary>
+
+  <br>
+
+All the ADSs covered — `Vector, Queue, Stack, and Dynamic Array` —share one key property: they are sequential.
+
+- `Definition`: The data in these structures can be organized in a line, where one element comes after another in a fixed total order.
+
+- `Terminology`: This is why they are collectively called Linear Abstract Data Structures (or linear collections of data).
+
+- `Implementation Choice`: The simple, fixed-size array is an intuitive choice for implementing these linear ADSs because the array's memory is also ordered in a linear fashion.
+
+- `Future Note`: While linear implementations are intuitive, the lecturer notes that for some complex ADSs (like priority queues), non-linear implementations might prove far more efficient.
+
+</details>
+
+  <br>
