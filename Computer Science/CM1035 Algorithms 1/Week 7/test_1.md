@@ -160,3 +160,27 @@ The correct result, based on the code provided in the image, is 5.
 </details>
 
   <br>
+
+6. The following pseudocode command will copy j elements (from element 1 to element j) of a vector or dynamic array called s to j elements (from element 1 to element j) of a vector or dynamic array called d:
+
+d[1 : j] <- s[1 : j]
+
+new DynamicArray d
+d[1] <- 1
+d[2] <- 2
+d[3] <- 3
+new DynamicArray s
+s[1 : 2] <- d[2 : 3]
+x <- s[1] x s[2]
+
+<details>
+
+<summary>Answer</summary>
+
+  <br>
+
+6
+
+</details>
+
+  <br>
