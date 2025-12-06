@@ -102,3 +102,27 @@ What are the differences between an array and a dynamic array?
 </details>
 
   <br>
+
+4. Which of the following are operations on a dynamic array?
+
+- removeAt![k]
+- store![o,k]
+- length
+- write![o,k]
+- dequeue!
+- top
+
+<details>
+
+<summary>Answer</summary>
+
+  <br>
+
+- removeAt![k]
+- store![o,k]
+- length
+- write![o,k]
+
+</details>
+
+  <br>
