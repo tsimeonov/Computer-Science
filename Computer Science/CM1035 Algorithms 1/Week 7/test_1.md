@@ -78,3 +78,27 @@ The final value stored at element 0 is $\mathbf{6}$.
 </details>
 
   <br>
+
+3. What are the differences between an array and a dynamic array?
+
+What are the differences between an array and a dynamic array?
+
+- A dynamic array is an abstract data structure, but an array is a data structure
+
+- We can retrieve values stored in any element with an array, but not with a dynamic array
+
+- The number of elements in a dynamic array can be altered, but this number cannot be altered in an array
+
+<details>
+
+<summary>Answer</summary>
+
+  <br>
+
+- A dynamic array is an abstract data structure, but an array is a data structure
+
+- The number of elements in a dynamic array can be altered, but this number cannot be altered in an array
+
+</details>
+
+  <br>
