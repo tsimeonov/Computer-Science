@@ -121,7 +121,41 @@ What are the differences between an array and a dynamic array?
 - removeAt![k]
 - store![o,k]
 - length
-- write![o,k]
+- write![o,k]Í›
+
+</details>
+
+  <br>
+
+5. Consider the following piece of pseudocode
+
+new DynamicArray d
+
+d[1] <- 1
+d[2] <- 2
+d[3] <- 3
+x <- d[2]
+d[3] <- d[1] + d[2] + x
+x <- d[3]
+
+What is the final value of x?
+
+<details>
+
+<summary>Answer</summary>
+
+  <br>
+
+The notation $d[i] \leftarrow v$ means "store value $v$ at index $i$ in the dynamic array $d$."
+
+1. d[1]=1
+2. d[2]=2
+3. d[3]=3
+4. x = d[2] = 2
+5. d[3] = d[1] + d[2] + x = 1 + 2 + 2 = 5
+6. x = d[3] = 5
+
+The correct result, based on the code provided in the image, is 5.
 
 </details>
 
