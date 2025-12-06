@@ -74,7 +74,7 @@ The array is highly versatile; it can be used not only as the implementation for
 
 <details>
 
-<summary>1. The dynamic array: Structure and Operation</summary>
+<summary>1. The dynamic array: Structure and Operations</summary>
 
   <br>
 
@@ -94,6 +94,33 @@ The dynamic array inherits all Vector operations and adds two new ones
 | length, select[k], store![o, k] |     Vector     |                                                       Standard read, write, and length operations.                                                        |
 |          removeAt![k]           |      New       | Eliminates the element at index $k$. Shifts all subsequent elements one place to the left ($k+1$ moves to $k$). Returns the value of the removed element. |
 |         insertAt![o, k]         |      New       |    Puts new element $o$ at index $k$. Shifts all subsequent elements one place to the right. If $k$ is $length + 1$, the element is added to the end.     |
+
+</details>
+
+  <br>
+
+<details>
+
+<summary>2. Implementing the Dynamic array with concrete array</summary>
+
+  <br>
+
+Since concrete arrays are fixed-size, implementign a dynamic, extensible structure requires a workaround: `resizing the underlying array`
+
+`The main Idea`
+
+Whenever a Dynamic array operation requires the collection to get larger (like `insertAt!`) the computer must
+
+1. Create a new, larger array in memory
+2. Copy all elements from the old, full array into the new array
+3. Perform the insertion/addition
+
+`Implementation Details of new operation`
+
+- Implementing removeAt![k]: This involves two steps within the underlying array:
+  1. Shifting elements to fill the gap (e.g., writing the value at index $k+1$ into index $k$).
+  2. Updating the stored length value (usually at index 0 of the array implementation).
+- Implementing insertAt![o, k]: This is the most costly operation. If the current array is full, a new, larger array is created and copied. Then, existing elements are shifted one position to the right to make space for the new element $o$ at index $k$.
 
 </details>
 
