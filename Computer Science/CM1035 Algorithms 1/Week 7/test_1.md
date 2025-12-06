@@ -121,7 +121,6 @@ What are the differences between an array and a dynamic array?
 - removeAt![k]
 - store![o,k]
 - length
-- write![o,k]Í›
 
 </details>
 
