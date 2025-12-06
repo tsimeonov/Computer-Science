@@ -25,3 +25,56 @@ Note that the terms data structure and concrete data structure will be used inte
 </details>
 
   <br>
+
+2. Consider the following array
+
+[1,2,4,3,3, empty]
+
+Now, if we perform the following sequence of operations:
+
+- write![0, 5]
+
+- write![read[3]+read[4], 5]
+
+- write![read[5], 0]
+
+what is the final value stored at element 0?
+
+<details>
+
+<summary>Answer</summary>
+
+  <br>
+
+1. Initial StateThe array is $\mathbf{[1, 2, 4, 3, 3, 0]}$.
+
+2. Operation 1: write![0, 5]
+
+This operation writes the value $\mathbf{5}$ into the array element at index $\mathbf{0}$
+
+- Operation: Array[0] $\leftarrow 5$
+- Resulting State: $\mathbf{[5, 2, 4, 3, 3, 0]}$
+
+3. Operation 2: write![read[3]+read[4], 5]
+
+This operation calculates the sum of the values at indices 3 and 4, and writes that sum into the array element at index $\mathbf{5}$.
+
+- Value to Write (V): $read[3] + read[4] = 3 + 3 = \mathbf{6}$
+- Index to Write To (I): $\mathbf{5}$
+- Operation: Array[5] $\leftarrow 6$
+- Resulting State: $\mathbf{[5, 2, 4, 3, 3, 6]}
+
+4. Operation 3: write![read[5], 0]
+
+This operation reads the value at index 5, and writes that value into the array element at index $\mathbf{0}$.
+
+- Value to Write (V): $read[5] = \mathbf{6}$
+- Index to Write To (I): $\mathbf{0}$
+- Operation: Array[0] $\leftarrow 6$
+  -Final State: $\mathbf{[6, 2, 4, 3, 3, 6]}$
+
+The final value stored at element 0 is $\mathbf{6}$.
+
+</details>
+
+  <br>
