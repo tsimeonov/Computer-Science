@@ -143,3 +143,21 @@ All the ADSs covered — `Vector, Queue, Stack, and Dynamic Array` —share one 
 </details>
 
   <br>
+
+## 7.3 Linear Search Algorithm
+
+  <br>
+
+<summary>1. Abstraction vs Implementation</summary>
+
+  <br>
+
+Algorithms can be defined based on the abstract operations of a data type (like a stack's push or pop). However, implementation matters in algorithm design because the cost and difficulty of implementing a data structure vary.
+
+- Abstract Data Types (ADTs): Algorithms like the Euclidean algorithm or those using a stack are initially defined purely in terms of basic data operations, making them "agnostic about the implementation."
+
+- Implementation: In algorithm design, one must eventually consider the actual cost of implementation (e.g., using a static array vs. a dynamic array).
+
+</details>
+
+  <br>
