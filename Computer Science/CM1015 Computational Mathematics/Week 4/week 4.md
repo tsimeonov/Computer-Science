@@ -29,3 +29,18 @@
 </details>
 
   <br>
+
+<details>
+
+  <summary>3. Sigma Notation (∑)</summary>
+
+  <br>
+
+The Sigma notation ($\Sigma$) is introduced as a shorthand way to represent the sum of a series.
+
+- The expression $\sum_{k=1}^{n} k$ represents the sum of the first $n$ natural numbers: $1 + 2 + 3 + \ldots + (n-1) + n$.
+- Here, $k$ is a dummy variable that counts from the lower limit (1) up to the upper limit ($n$).
+
+</details>
+
+  <br>
