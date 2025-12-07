@@ -99,3 +99,17 @@ Searching a linked list requires a variation of the Linear Search algorithm. It 
 </details>
 
   <br>
+
+<details>
+
+<summary>4. Linked Lists for ADT Implementation</summary>
+
+  <br>
+
+Singly linked lists are a natural and efficient data structure for implementing stacks and queues because adding nodes (equivalent to `push` or `enqueue`) is most efficient when done at the head or tail, operations that minimize the need for list traversal.
+
+</details>
+
+  <br>
+
+<details>
