@@ -1,9 +1,17 @@
-### Lesson 2.3: Sequence and series
+## Week 4
 
-<h5>Learning Objectives</h5>
+### 4.1 Series
 
-- Define series and calculate the sum of a given number of terms.
-- Describe what a sequence is and how to either: write one down explicitly, use formulas or recursion to generate terms.
-- Understand, identify and represent algebraically geometric and arithmetic sequences.
-- Recognise the concept of convergence and divergence of a sequence and categorise sequences accordingly.
-- Give examples of sequences in the context of computing.
+<details>
+
+  <summary>1. Sequences vs. Series</summary>
+
+  <br>
+
+- A sequence is an ordered list of numbers (e.g., the natural numbers: $1, 2, 3, \ldots$).
+
+- A series is the result of adding all the elements of a sequence together.
+
+</details>
+
+  <br>
