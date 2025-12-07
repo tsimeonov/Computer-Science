@@ -243,3 +243,33 @@ Stacks are LIFO (Last-In, First-Out) structures, where only the top element is a
 </details>
 
   <br>
+
+<details>
+
+  <summary>2. Searching a Queue</summary>
+
+  <br>
+
+Queues are FIFO (First-In, First-Out) structures, where only the head element is accessible via the `head` and `dequeue` operations, and elements are added via `enqueue` to the tail.
+
+- Initial Approach (Reusing the Queue):The idea is to reuse the queue itself by moving elements from the head to the tail until the target value $x$ is found.
+  - `Process`: Check the head, if it's not $x$, dequeue it and immediately enqueue it back onto the tail.
+  - `The Problem`: If the value $x$ is not in the queue, this process results in an infinite loop, as elements continuously cycle from head to tail without stopping.
+- `Solution`: The "End of Queue" SentinelTo fix the infinite loop, a special sentinel value, often called $\mathbf{end\:of\:queue}$, is introduced.
+
+  1. Enqueue the end of queue sentinel value onto the tail of the queue.
+
+  2. Loop until the head of the queue equals the end of queue sentinel.
+
+  3. Inside the loop:
+
+     - Check if the head equals the target value $x$.
+     - If true, return $\mathbf{true}$.If false and the head is not the sentinel, dequeue the head and enqueue it to the tail.
+
+  4. When the head is the end of queue sentinel, it means all original elements have been inspected, and the loop terminates, returning $\mathbf{false}$.
+
+This sentinel value marks the boundary of the original data, guaranteeing termination regardless of whether $x$ is found.
+
+</details>
+
+  <br>
