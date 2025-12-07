@@ -226,3 +226,45 @@ $\frac{1}{2}(k+1)[2a + ((k+1)-1)d]$.
 </details>
 
   <br>
+
+<details>
+
+  <summary>2. Sum of a Geometric Progression (GP)</summary>
+
+  <br>
+
+The formula for the sum of the first $n$ terms of a GP with a first term $a$ and a common ratio $r$ is:
+
+$$S_n = \frac{a(1-r^n)}{1-r}, \quad r \neq 1$$
+
+Algebraic Proof
+
+The lecture uses an elegant algebraic method to prove this formula, not induction.
+
+1. Write the series $S_n$:
+
+$$S_n = a + ar + ar^2 + \ldots + ar^{n-2} + ar^{n-1} \tag{A}$$
+
+2. Multiply the series by the common ratio $r$ to create a second equation, $rS_n$:$$rS_n = ar + ar^2 + ar^3 + \ldots + ar^{n-1} + ar^n \tag{B}$$
+
+3. Subtract Equation (B) from Equation (A):$S_n - rS_n$
+
+   - When the two equations are subtracted, most terms on the right-hand side cancel out:
+
+   $$(a + ar + \ldots + ar^{n-1}) - (ar + ar^2 + \ldots + ar^n)$$
+
+   - Only the first term of (A) ($a$) and the last term of (B) ($ar^n$) remain:
+
+   $$S_n - rS_n = a - ar^n$$
+
+4. Solve for $S_n$:
+
+   - Factor $S_n$ out on the left: $S_n(1-r)$
+   - Factor $a$ out on the right: $a(1-r^n)$
+   - Divide both sides by $(1-r)$:
+
+   $$S_n = \frac{a(1-r^n)}{1-r}$$
+
+   - Conclusion: The formula is proven.
+
+</details>
