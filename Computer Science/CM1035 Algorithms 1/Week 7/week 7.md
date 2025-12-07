@@ -212,3 +212,34 @@ FUNCTION LinearSearch(v, item):
 </details>
 
   <br>
+
+## 7.4 Searching stacks and queues
+
+The Linear Search algorithm, which relies on the ability to access any element by index (like in a vector), cannot be directly applied to stacks or queues because their accessible elements are highly limited. The challenge is to inspect every element without destroying the data structure.
+
+<details>
+
+  <summary>1. Searching a stack</summary>
+
+  <br>
+
+Stacks are LIFO (Last-In, First-Out) structures, where only the top element is accessible via the `top` and `pop` operations.
+
+- Problem: Searching a stack by repeatedly using `pop` will destroy the data.
+- Solution: Using a Second Stack
+
+  1. Create a new empty stack (e.g., `second`).
+
+  2. Loop while the initial stack is not empty:
+     - Check if the value at the `top` of the initial stack equals the target value $x$.
+     - If true, return $\mathbf{true}$ (the search is complete).
+     - If false:
+       - `Push` the element from the top of the initial stack onto the second stack.
+       - `Pop` the element off the initial stack.
+  3. If the loop finishes without finding $x$, the initial stack is empty, and the algorithm returns $\mathbf{false}$.
+
+  This method preserves the data because all popped elements are immediately pushed onto the second stack. Reversing the process (popping from the second stack and pushing back to the first) can restore the original stack.
+
+</details>
+
+  <br>
