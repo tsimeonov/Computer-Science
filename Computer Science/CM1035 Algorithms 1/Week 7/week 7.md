@@ -1,3 +1,5 @@
+# Week 7 Data structures and Searhing part 1
+
 ## Lesson 7.1: Arrays
 
 <details>
