@@ -78,3 +78,31 @@ $n=100$:$$S\_{100} = \frac{1}{2}(100)(100+1) = 50 \times 101 = \mathbf{5050}$$
 </details>
 
   <br>
+
+### 4.2 Proof by induction
+
+The technique is used to prove the formula for the sum of the first $n$ natural numbers.
+
+<details>
+
+  <summary>📐 Proof by Induction</summary>
+
+  <br>
+
+Proof by induction is a powerful method used to prove that a statement or formula is true for all natural numbers (or all integers greater than some starting point). It operates in three main steps, like knocking over a domino chain:
+
+- Base Case: Show the statement is true for the first instance (e.g., $n=1$).
+
+- Inductive Hypothesis: Assume the statement is true for an arbitrary integer $n=k$.
+
+- Inductive Step: Prove that if the statement is true for $n=k$ (the hypothesis), it must also be true for the very next integer, $n=k+1$.
+
+If all three steps are successful, the proof is complete because:
+
+- It's true for 1 (Base Case).
+- Since it's true for 1, it must be true for 2 (Step).
+- Since it's true for 2, it must be true for 3 (Step), and so on, confirming it's true for all $n$.
+
+</details>
+
+  <br>
