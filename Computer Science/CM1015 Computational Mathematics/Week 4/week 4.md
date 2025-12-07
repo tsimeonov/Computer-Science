@@ -106,3 +106,57 @@ If all three steps are successful, the proof is complete because:
 </details>
 
   <br>
+
+<details>
+
+  <summary>Proof of the Sum of the First n Natural Numbers by Induction</summary>
+
+  <br>
+
+The formula to be proven is:
+
+$$S_n = \sum_{i=1}^{n} i = \frac{1}{2}n(n+1)$$
+
+Step 1: Base Case (Show true for $n=1$)
+
+We check if the formula holds for the sum of the first single term, $S_1$.
+
+- Actual Sum: $S_1 = 1$
+
+- Formula Result: Substitute $n=1$ into the formula:
+
+$$ S_1 = \frac{1}{2}(1)(1+1) = \frac{1}{2}(1)(2) = 1$$
+
+- Conclusion: Since $S_1 = 1$, the statement is true for $n=1$.
+
+Step 2: Inductive Hypothesis (Assume true for $n=k$)
+
+We assume the formula holds true for some arbitrary integer $k$:$$S_k = \frac{1}{2}k(k+1) \quad (\text{Assumption})$$
+
+Step 3: Inductive Step (Prove true for $n=k+1$)
+
+We must now prove that $S*{k+1}$ equals the formula with $(k+1)$ substituted for $n$:$$S_{k+1} = \frac{1}{2}(k+1)((k+1)+1) = \frac{1}{2}(k+1)(k+2) \quad (\text{Target})$$
+
+We start with the definition of $S_{k+1}$ using the Inductive Hypothesis ($S_k$):$$S_{k+1} = S_k + (k+1)$$
+
+Substitute the assumed formula for $S_k$:
+
+$$S_{k+1} = \frac{1}{2}k(k+1) + (k+1)$$
+
+To combine the terms, we factor out the common term $(k+1)$ and find a common denominator for the second term:
+
+$$S_{k+1} = \frac{1}{2}k(k+1) + \frac{2}{2}(k+1)$$
+
+Factor out $\frac{1}{2}(k+1)$:
+
+$$S_{k+1} = \frac{1}{2}(k+1) [k + 2]$$
+
+This result, $\frac{1}{2}(k+1)(k+2)$, exactly matches the Target formula.
+
+`Conclusion`
+
+Since the formula is true for $n=1$ (Base Case) and the truth for $n=k$ implies the truth for $n=k+1$ (Inductive Step), the formula $S_n = \frac{1}{2}n(n+1)$ is proven by induction for all natural numbers $n \ge 1$.
+
+</details>
+
+  <br>
