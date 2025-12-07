@@ -17,3 +17,29 @@ A `pointer` is a data item that stores a memory address. It tells the computer w
 </details>
 
   <br>
+
+<details>
+
+<summary>2. Linked Lists: Structure and Terminology</summary>
+
+  <br>
+
+A linked list is a sequential collection of data where data elements are not necessarily stored in contiguous memory locations. Instead, data is collected together by storing a pointer along with the data itself.
+
+- `Node`: The fundamental component of a linked list. Each node contains two fields:
+
+  1. `Value Field`: Stores the actual data (e.g., an integer).
+
+  2. `Link/Next Pointer`: Stores the memory address (pointer) of the next node in the sequence.
+
+- `Head`: A special pointer that stores the address of the very first node of the list. Dereferencing the head pointer accesses the value of the first node.
+
+- `Null`: The special memory address referenced by the final node's pointer, signifying the end of the linked list.
+
+- `Empty List`: A linked list where the head pointer references the null address.
+
+- `Singly Linked List`: A list where each node has only one pointer pointing to the next node.
+
+</details>
+
+  <br>
