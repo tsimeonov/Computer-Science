@@ -44,3 +44,37 @@ The Sigma notation ($\Sigma$) is introduced as a shorthand way to represent the 
 </details>
 
   <br>
+
+<details>
+
+  <summary>4. Formula for the Sum of the First $n$ Natural Numbers</summary>
+
+  <br>
+
+The lecture presents an elegant proof to derive the formula for the sum of the first $n$ natural numbers ($S_n$):
+
+$$\sum_{k=1}^{n} k = S_n = \frac{1}{2}n(n+1) \tag{1}$$
+
+Proof Steps
+
+1. Write the sum $S_n$ forwards: $S_n = 1 + 2 + 3 + \ldots + (n-2) + (n-1) + n$
+2. Write the sum $S_n$ backwards: $S_n = n + (n-1) + (n-2) + \ldots + 3 + 2 + 1$
+3. Add the two expressions term-by-term: $2S_n$$
+
+- 1 + n = n+1$$
+- 2 + (n-1) = n+1$$
+- 3 + (n-2) = n+1$
+- ... all $n$ pairs sum to $(n+1)$.
+
+4. The result of the sum is: $2S_n = n(n+1)$
+5. Divide by 2 to get the formula: $S_n = \frac{1}{2}n(n+1)$
+
+Example Calculation
+
+To calculate the sum of the first 100 natural numbers, set
+
+$n=100$:$$S\_{100} = \frac{1}{2}(100)(100+1) = 50 \times 101 = \mathbf{5050}$$
+
+</details>
+
+  <br>
