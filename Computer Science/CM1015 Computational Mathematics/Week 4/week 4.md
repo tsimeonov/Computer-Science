@@ -160,3 +160,69 @@ Since the formula is true for $n=1$ (Base Case) and the truth for $n=k$ implies 
 </details>
 
   <br>
+
+### 4.3 Formula for summing geometric and arithmetic sequences
+
+<details>
+
+  <summary>1. Sum of an Arithmetic Progression (AP)</summary>
+
+  <br>
+
+The formula for the sum of the first $n$ terms of an AP with a first term $a$ and a common difference $d$ is:
+
+$$S_n = \frac{1}{2}n[2a + (n-1)d]$$
+
+Proof by Induction
+
+The lecture uses mathematical induction to prove this formula.
+
+1. Base Case ($n=1$): Show the formula is true for $S_1$.
+
+   - Substituting $n=1$ into the formula:
+
+   $$S_1 = \frac{1}{2}(1)[2a + (1-1)d] = \frac{1}{2}(2a) = a$$
+
+   - Since $S_1$ is the first term, $a$, the formula is true for $n=1$.
+
+2. Inductive Hypothesis (Assume true for $n=k$):
+
+Assume the formula holds for an arbitrary integer $k$:$$S_k = \frac{1}{2}k[2a + (k-1)d] \quad (\text{Assumption})$$
+
+3. Inductive Step (Prove true for $n=k+1$): We must show that $S_{k+1}$ matches the formula with $n=k+1$.$
+
+   - S\*{k+1}$ is defined as the sum of the first $k$ terms plus the $(k+1)^{th}$ term:
+
+   $$S*{k+1} = S*k + U*{k+1}$$
+
+   - Recall the formula for the $(k+1)^{th}$ term of an AP is $U_{k+1} = a + (k+1-1)d = a + kd$.
+
+   - Substitute $S_k$ and $U_{k+1}$:$$
+
+   S\*{k+1} = \frac{1}{2}k[2a + (k-1)d] + (a + kd)$$
+
+   - Algebraic Simplification: By taking out $\frac{1}{2}$ from the entire expression and manipulating the terms:
+
+   $$S*{k+1} = \frac{1}{2} \left[ k(2a + (k-1)d) + 2(a + kd) \right]$$
+
+   $$S*{k+1} = \frac{1}{2} \left[ 2ak + k^2d - kd + 2a + 2kd \right]$$
+
+   $$S*{k+1} = \frac{1}{2} \left[ 2a(k+1) + d(k^2 + k) \right]$$
+
+   $$S*{k+1} = \frac{1}{2} \left[ 2a(k+1) + d \cdot k(k+1) \right]$$
+
+- Factor out the common term $(k+1)$:
+
+$$S*{k+1} = \frac{1}{2}(k+1)[2a + kd]$$
+
+- This matches the required formula for $S_{k+1}$, which is
+
+$\frac{1}{2}(k+1)[2a + ((k+1)-1)d]$.
+
+- Conclusion: The formula is proven by induction.
+
+- (Note: The general algebraic proof for the AP sum involves writing the series forwards and backwards and adding the terms, similar to the proof for the sum of natural numbers, as hinted in the lecture).
+
+</details>
+
+  <br>
