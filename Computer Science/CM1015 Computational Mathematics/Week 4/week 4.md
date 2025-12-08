@@ -296,3 +296,63 @@ The principle can be visualized using a set of domino tiles :
 </details>
 
   <br>
+
+<details>
+
+  <summary>2. Proof of the Sum of the First $n$ Natural Numbers</summary>
+
+  <br>
+
+The goal is to prove the formula (or conjecture) that the sum of the first $n$ natural numbers (starting from 0) is given by:
+
+$$S_n = \sum_{i=0}^{n} i = \frac{n(n+1)}{2} \quad (\text{Formula } F(n))$$
+
+Step 1: Base Case ($n=0$)
+
+The sum of the first $n=0$ natural numbers is simply $0$.
+
+- Formula Result ($F(0)$): Substitute $n=0$ into the formula:
+
+$$ F(0) = \frac{0(0+1)}{2} = 0$$
+
+- Conclusion: The statement is correct for $n=0$.
+
+Step 2: Inductive Hypothesis (Assume true for $n=k$)
+
+Assume that the formula holds for an arbitrary integer $k$:
+
+$$S*k = \frac{k(k+1)}{2}$$
+
+Step 3: Inductive Step (Prove true for $n=k+1$)
+
+We consider the sum of the first $k+1$ natural numbers, $S*{k+1}$:
+
+$$S_{k+1} = (0 + 1 + 2 + \ldots + k) + (k+1)$$
+
+This can be rewritten using the sum $S_k$:
+
+$$S_{k+1} = S_k + (k+1)$$
+
+Now, substitute the Inductive Hypothesis $S_k = \frac{k(k+1)}{2}$ into the equation:
+
+$$S_{k+1} = \frac{k(k+1)}{2} + (k+1)$$
+
+Factor out the common term $(k+1)$:
+
+$$S_{k+1} = (k+1) \left( \frac{k}{2} + 1 \right)$$
+
+Find the lowest common multiple (LCM) within the parenthesis:
+
+$$S_{k+1} = (k+1) \left( \frac{k+2}{2} \right)$$
+
+$$S_{k+1} = \frac{(k+1)((k+1)+1)}{2}$$
+
+This final result is exactly the original formula $F(n)$ with $n$ replaced by $k+1$ (i.e., $F(k+1)$).
+
+- Conclusion: Assuming the formula is valid for $n=k$, it has been proven that it remains valid for $n=k+1$.
+
+By the principle of mathematical induction, the formula $S_n = \frac{n(n+1)}{2}$ is true for any natural number $n$.
+
+</details>
+
+  <br>
