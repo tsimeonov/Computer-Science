@@ -268,3 +268,31 @@ $$S_n = a + ar + ar^2 + \ldots + ar^{n-2} + ar^{n-1} \tag{A}$$
    - Conclusion: The formula is proven.
 
 </details>
+
+### 4.3 Mathematical induction - review and example
+
+<details>
+
+  <summary>1. The Principle of Mathematical Induction</summary>
+
+  <br>
+
+Mathematical Induction is a powerful method used to prove that a statement is true for all natural numbers (positive integers, including zero, in this context). The principle involves three essential steps:
+
+1. `Base Case` ($n=n_0$): Prove that the statement is true for the smallest relevant integer, usually $n=0$ or $n=1$.
+2. `Inductive Hypothesis`: Assume that the statement is true for an arbitrary integer $n=k$.
+3. `Inductive Step`: Prove that, based on the assumption that it's true for $n=k$, the statement must also be true for the next integer, $n=k+1$.
+
+If all three conditions are met, the statement is proven true for any $n$.
+
+Domino Analogy
+
+The principle can be visualized using a set of domino tiles :
+
+- Base Case: Knocking down the first tile.
+- Inductive Step: Ensuring that if any generic tile $k$ falls down, it will knock down the next tile $k+1$ (i.e., there is no gap).
+- Conclusion: If the first tile is knocked and there are no gaps, then all the tiles must fall down, meaning the statement is true for all $n$.
+
+</details>
+
+  <br>
