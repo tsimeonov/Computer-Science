@@ -78,3 +78,33 @@ where $m$ is some integer.
 </details>
 
   <br>
+
+<details>
+
+  <summary>2. Handling Negative Numbers</summary>
+
+  <br>
+
+When calculating the equivalent positive number for a negative integer $\pmod{k}$, the result must be a number within the allowed set, which is typically $0$ to $k-1$.
+
+The strategy is to find the largest negative multiple of the modulus $k$ that is less than the negative number, and then find the remainder needed to reach the number.
+
+- Example 1: Find $-17 \pmod{12}$
+
+  1.  Go to the nearest multiple of 12 below $-17$: $-2 \times 12 = -24$.
+
+  2.  Determine what must be added to $-24$ to get $-17$: $-24 + \mathbf{7} = -17$.
+
+  3.  Therefore, $-17$ is equivalent to 7 $\pmod{12}$.
+
+- Example 2: Find $-39 \pmod{12}$
+
+  1. Go to the nearest multiple of 12 below $-39$: $-4 \times 12 = -48$.
+
+  2. Determine what must be added to $-48$ to get $-39$: $-48 + \mathbf{9} = -39$.
+
+  3. Therefore, $-39$ is equivalent to 9 $\pmod{12}$.
+
+</details>
+
+  <br>
