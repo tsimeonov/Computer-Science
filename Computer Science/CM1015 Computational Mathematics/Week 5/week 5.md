@@ -1,120 +1,45 @@
-## Learning Objectives:
+### 5.1 Introduction to modular numbers using the clock
 
-### Describe modular number systems
+<details>
 
-A `modular number system` is a mathematical framework where numbers wrap around after reaching a certain value, called the `modulus`.
-It forms the basis for the modular arithmetic, a system widely used in number theory, cryptography, computer science and many practical applications.
+  <summary>🕒 Introduction to Modular Arithmetic</summary>
 
-- Key Features of Modular Number Systems:
+  <br>
 
-1. Modulus:
+Modular arithmetic, or clock arithmetic, is a system where numbers wrap around upon reaching a certain value.
 
-   - The modulus, denoted as `n`, determines the range of numbers
-   - The numbers is a modular system are typically considered from 0 to n-1.
+Clock Analogy (Modulus 12)
 
-2. Congruence:
+- Wrapping Around: If the current time is 10:00, adding 6 hours does not result in 16:00; instead, the time wraps around the 12-hour cycle to 4:00.
 
-   - Two numbers are considered equivalent if they have the same remainder when divided by `n`
-   - Written as:
-     a ≡ b (mod n)
-     This means a and b are in the same equivalence class in modulo n .
+- Formal Set (Mod 12): In formal modular arithmetic, the number 12 on the clock is replaced by 0. The only allowed numbers in mod 12 are the finite set from 0 to 11. You cannot have negative numbers or numbers greater than 11.
 
-3. Wrapping Around:
+`Equivalence and Congruence`
 
-Numbers in modular systems "wrap around" when they exceed n-1.
-For instance, in modulo 5:
+Numbers that end up at the same position after wrapping around the modulus are said to be equivalent (or congruent) modulo $n$.
 
-- 6 ≡ 1 (mod 5) because 6 divided by 5 leaves a remainder of 1.
-- Similarly, -1 ≡ 4 (mod 5) because -1 + 5 = 4
+For example, 10, 22, and 34 are all the same on the clock. Therefore, they are equivalent $\pmod{12}$.$
 
-4. Residue Classes:
+- 10 + 12 = 22
+- 10 + 24 = 34
 
-- The numbers in a modular system are partitioned into `n` residue classes.
-- Each residue class corresponds to one of the remainders 0,1,2 ... , n -1
+`Defining Equivalence`
 
-### Explain and perform operations with congruent numbers
+Equivalence can be understood in two ways:
 
-##### Understanding congruence:
+1. Remainders: Two numbers are equivalent $\pmod{12}$ if they leave the same remainder when divided by 12.
 
-In number theory, the idea of congruence provides a systematic way to handle remainders when dividing integers. The notation and concept stem from the observation that two numbers share a consistent remainder upon division by a certain modulus.
+- $10 = (12 \times 0) + \mathbf{10}$
+- $22 = (12 \times 1) + \mathbf{10}$
+- $34 = (12 \times 2) + \mathbf{10}$
 
-##### Definition of congruence:
+2. Difference as a Multiple: Two numbers are equivalent $\pmod{12}$ if their difference is a multiple of 12.
 
-Let _m_ be a positive integer. Two integers _a_ and _b_ are said to be congruent modulo _m_ if they leave the same remainder when divided by _m_.
-Formally, we write:
+- $22 - 10 = 12$ (a multiple of 12)
+- $34 - 10 = 24$ (a multiple of 12)
 
-<center>a ≡ b (mod m)</center>
-<br>
-if m | (a-b), which means _m_ divides a - b. Another way of putting it is:
+Modular arithmetic ensures that all resulting numbers remain within a specific finite set.
 
-<br>
+</details>
 
-<center>a = b + km</center> for some integer k.
-
-For example, 17 ≡ 5 (mod 12) because when you divide 17 and 5 by 12, they both leave a remainder of 5. Also, 17 -5 = 12, which is divisible by 12.
-
-##### Performing Operations with Congruences:
-
-One of the greatest strengths of modular arithmetic is that it lets us perform addition, subtraction, and multiplication in a manner consistent with how we manipulate equations.
-
-1. Addition:
-
-<center>a ≡  b (mod m) and c ≡  d (mod m),</center>
-
-then you can add these congruences term-by-term:
-
-<center>a + c ≡ b + d (mod m)</center>
-
-Example: Suppose you know:
-
-17 ≡ 5 (mod 12) and 10 ≡ 10 (mod 12)
-
-Adding these gives:
-
-17 + 10 ≡ 5 + 10 (mod 12) ⟹ 27 ≡ 15 (mod 12)
-
-Now, 27 leaves a remainder of 3 when divided by 12, and 15 leaves a remainder of 3 when divided by 12.
-Indeed, 27-15 = 12, confirming the congruence:
-27 ≡ 15 ≡ 3 (mod 12)
-
-2. Subtraction: Similar to addition, if
-
-<center>a ≡  b (mod m) and c ≡  d (mod m),</center>
-
-then:
-
-<center>a - c ≡  b - d (mod m),</center>
-
-Example: using the same congruence as above
-
-17 ≡ 5 (mod 12) and 10 ≡ 10 (mod 12)
-
-Subtracting gives:
-
-17 - 10 ≡ 5 - 10 (mod 12)
-
-That is :
-
-7 ≡ 5 (mod 12)
-
-Since -5 ≡ 7 (mod 12) (adding 12 to -5 gives 7), this is consistent
-
-3. Multiplication:
-
-<center>a ≡ b (mod m) and c ≡ d (mod m,)</center>
-
-then:
-
-<center>ac ≡ bd (mod m)</center>
-
-Example: With 17 ≡ 5 (mod 12), multiply both sides by 3:
-
-17 x 3 ≡ 5 x 3 (mod 12) => 51 ≡ 15 (mod 12)
-
-### Explain the potential applications of modular numbers to computer science:
-
-Modular arithmetic - arithmetic done with integers under a fixed modulus - plays an essential tole in many areas in computer science.
-
-1. Cryptography and Security
-2. Data structures and Indexing
-3. Error-correcting codes and reliability
+  <br>
