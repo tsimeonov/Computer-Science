@@ -2,9 +2,8 @@
 
 // Loading the entire module
 
-const os = require('os');
+// const os = require('os');
 
-// Printing os.uptime() value
 let ut_sec = os.uptime();
 let ut_min = ut_sec / 60;
 let ut_hour = ut_min / 60;
