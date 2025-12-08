@@ -108,3 +108,23 @@ The strategy is to find the largest negative multiple of the modulus $k$ that is
 </details>
 
   <br>
+
+<details>
+
+  <summary>3. Visualizing Equivalence</summary>
+
+  <br>
+
+Equivalence can be visualized on a number line . For $a \equiv b \pmod{k}$, all equivalent numbers form a sequence separated by $k$ units.
+
+- Example ($\pmod{3}$): The numbers equivalent to $-1 \pmod{3}$ are those that differ by a multiple of 3.
+
+  - $\ldots, -7, -4, -1, \mathbf{2}, 5, 8, \ldots$
+
+  - The difference between any two circled numbers (e.g., $5 - (-4) = 9$) is a multiple of 3.
+
+- The next lecture will cover operations within modular arithmetic, specifically addition, multiplication, and inverses.
+
+</details>
+
+  <br>
