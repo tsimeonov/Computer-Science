@@ -43,3 +43,38 @@ Modular arithmetic ensures that all resulting numbers remain within a specific f
 </details>
 
   <br>
+
+### 5.2 Introduction to modular arithmetic
+
+<details>
+
+  <summary>1. Formal Definition of Modular Equivalence</summary>
+
+  <br>
+
+The lecture uses the clock analogy (Mod 12) to derive the formal mathematical definition of modular equivalence.
+
+`Equivalence by Remainder`
+
+Two integers, $a$ and $b$, are equivalent modulo a base $k$ (written $a \equiv b \pmod{k}$) if and only if they have the same remainder when divided by $k$.
+
+This means we can write both numbers in terms of a multiple of $k$ plus the same remainder $r$:
+
+- $a = n \cdot k + r$
+- $b = m \cdot k + r$where $n$ and $m$ are integers, and $r$ is the remainder.
+- Example ($\pmod{12}$): $34$ and $10$ are equivalent $\pmod{12}$ because:
+  - $34 = 2 \times 12 + \mathbf{10}$
+  - $10 = 0 \times 12 + \mathbf{10}$
+  - The remainder $r$ is 10 in both cases.
+
+`The General Definition (Difference)`
+
+The most common and general definition of modular equivalence is that $a$ and $b$ are equivalent modulo $k$ if their difference $(a - b)$ is a multiple of $k$.$
+
+$a \equiv b \pmod{k} \iff (a - b) = m \cdot k$$
+
+where $m$ is some integer.
+
+</details>
+
+  <br>
