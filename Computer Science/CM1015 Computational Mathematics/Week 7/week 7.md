@@ -1,30 +1,19 @@
-## Learning Objectives
+### 7.1 Introduction to triangles and trigonometry
 
-#### The trigonometric ratios
+<details>
 
-Consider the right-angled triangle ABC in the figure below.
-There is a right angle at B.
+  <summary>1. The 2D Plane and Angles</summary>
 
-<img src="./Figure 22.1.png" width="350px"/>
+  <br>
 
-The side opposite the right angle is always called the `hypotenuse`.
-So, in the figure the hypotenuse us AC. The side `opposite` _θ_ is BC. The remaining side, AB is said to be `adjacent` to _θ_ .
+- egrees: A full circle measures 360 degrees . A straight line defines an angle of 180 degrees.
 
-If we know the lights BC and AC we can calculate $\frac{BC}{AC}$.
-This is known as the `sine` of _θ_ , or simply sin _θ_ . Similarly, we call $\frac{AB}{AC}$ the `cosine` of _θ_, written cos _θ_ .
-Finally, $\frac{BC}{AB}$ is the `tangent` of _θ_, written tan _θ_.
-Sine, cosine and tangent are known as the `trigonometric ratios`
+- Direction: In this geometric space, movement is typically measured anticlockwise as a positive direction.
 
-<h5 style="color:FireBrick;">Key points</h5>
+- Perpendicular: Dropping a perpendicular line divides a straight angle (180 degrees) exactly in half.
 
-\[
-\sin(\theta) = \frac{\text{side opposite to } \theta}{\text{hypotenuse}} = \frac{BC}{AC}
-\]
+- Right Angle: The resulting 90-degree angle is a critical concept called a right angle.
 
-\[
-\cos(\theta) = \frac{\text{side adjacent to } \theta}{\text{hypotenuse}} = \frac{AB}{AC}
-\]
+</details>
 
-\[
-\tan(\theta) = \frac{\text{side opposite to } \theta}{\text{side adjacent to } \theta} = \frac{BC}{AB}
-\]
+  <br>
