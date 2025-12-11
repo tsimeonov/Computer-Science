@@ -111,3 +111,37 @@ The Number Pi ($\pi$)
 The constant $\pi$ is an irrational number because its decimal expansion never repeats and cannot be written as a simple fraction ($p/q$). Because $\pi$ cannot be stored exactly in a computer, calculations involving circles require careful consideration of the necessary degree of accuracy (e.g., using significant figures or decimal points).
 
 </details>
+
+<br>
+
+<details>
+
+  <summary>2. Radians: An Alternative Angle Measure</summary>
+
+<br>
+
+A radian is an angle measure defined by the relationship between the radius and the arc length of the circle.
+
+- Definition: An angle $\theta$ is 1 radian when the length of the arc it subtends is equal to the length of the radius ($r$).
+
+- Full Circle in Radians: The arc length for a full circle is the circumference, $2\pi r$. Since $r$ corresponds to 1 radian, the arc length of $2\pi r$ corresponds to $2\pi$ radians.
+
+Converting Between Degrees and Radians
+
+The relationship between the two units is critical for geometry and calculus:
+
+$$360^{\circ} = 2\pi \text{ radians}$$
+
+This allows for easy conversion between the two systems:
+
+- Degrees to Radians:
+
+$$\text{Radians} = \text{Degrees} \times \frac{2\pi}{360} \quad \text{or} \quad \text{Radians} = \text{Degrees} \times \frac{\pi}{180}$$
+
+- Radians to Degrees:
+
+$$\text{Degrees} = \text{Radians} \times \frac{180}{\pi}$$
+
+</details>
+
+<br>
