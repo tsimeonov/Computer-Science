@@ -85,3 +85,29 @@ $$\text{Hypotenuse}^2 = \text{Opposite}^2 + \text{Adjacent}^2 \quad \text{or} \q
 </details>
 
   <br>
+
+### 7.2 The circle
+
+<details>
+
+  <summary>1. Defining the Circle</summary>
+
+<br>
+
+A circle is entirely defined by a central point (the origin) and the radius ($r$).
+
+- Radius ($r$): The distance from the origin to any point on the circle's edgeShutterstock.
+
+Key Formulas
+
+- Circumference (C): The distance around the circle is given by:$$C = 2 \pi r$$
+
+- Area (A): The space enclosed by the circle is given by:$$A = \pi r^2$$
+
+- Degrees: A full rotation around the circle measures 360 degrees ($360^{\circ}$).
+
+The Number Pi ($\pi$)
+
+The constant $\pi$ is an irrational number because its decimal expansion never repeats and cannot be written as a simple fraction ($p/q$). Because $\pi$ cannot be stored exactly in a computer, calculations involving circles require careful consideration of the necessary degree of accuracy (e.g., using significant figures or decimal points).
+
+</details>
