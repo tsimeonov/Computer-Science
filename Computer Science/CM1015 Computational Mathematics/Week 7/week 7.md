@@ -181,3 +181,35 @@ Starts at 1 ($0^{\circ}$)._ Drops to 0 ($90^{\circ}$)._ Drops to a minimum of -1
 </details>
 
 <br>
+
+<details>
+
+  <summary>2. Generalizing to the Right-Angled Triangle</summary>
+
+<br>
+
+Since $\sin(\theta)$ and $\cos(\theta)$ for the unit circle only range between $-1$ and $1$, for any circle with a radius $H$ (the hypotenuse), the functions must be scaled by dividing by $H$.
+
+The Trigonometric Ratios (SOH CAH TOA)
+
+For any right-angled triangle:
+
+|        Function         |                    Ratio                    | Acronym |
+| :---------------------: | :-----------------------------------------: | :-----: |
+|  Sine ($\sin \theta$)   | $\frac{\text{Opposite}}{\text{Hypotenuse}}$ |   SOH   |
+| Cosine ($\cos \theta$)  | $\frac{\text{Adjacent}}{\text{Hypotenuse}}$ |   CAH   |
+| Tangent ($\tan \theta$) |  $\frac{\text{Opposite}}{\text{Adjacent}}$  |   TOA   |
+
+Tangent ($\tan$)
+
+The tangent function is a measure of the gradient (slope) of the line forming the hypotenuse.
+
+- Definition: $\tan \theta$ is the vertical change ($\text{Opposite}$) divided by the horizontal change ($\text{Adjacent}$).
+
+- Relation to Sine and Cosine: This ratio can also be expressed as:
+
+$$\tan \theta = \frac{\text{Opposite}/\text{Hypotenuse}}{\text{Adjacent}/\text{Hypotenuse}} = \frac{\sin \theta}{\cos \theta}$$
+
+</details>
+
+<br>
