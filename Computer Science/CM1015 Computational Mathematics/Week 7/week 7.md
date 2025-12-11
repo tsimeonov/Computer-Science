@@ -145,3 +145,39 @@ $$\text{Degrees} = \text{Radians} \times \frac{180}{\pi}$$
 </details>
 
 <br>
+
+### 7.3 From the circle to the sine and cosine graphs
+
+<details>
+
+  <summary>1. Visualizing Sine and Cosine with the Unit Circle</summary>
+
+<br>
+
+The lecture uses the unit circle , which is a circle with a radius ($r$) of 1, to derive the meaning of sine and cosine.
+
+A. Sine ($\sin$)
+
+- Definition: The sine of an angle $\theta$ is defined by the height of a point on the unit circle above the origin (the $y$-coordinate). This height is the opposite side of the right-angled triangle formed by the radius.
+
+- Sine Graph: Plotting this height as the angle traverses the circle results in the sine wave
+
+<img src="./sine.jpeg" width="500px">
+
+Starts at 0 ($0^{\circ}$)._ Rises to a maximum of 1 ($90^{\circ}$)._ Drops to 0 ($180^{\circ}$)._ Drops to a minimum of -1 ($270^{\circ}$)._ Returns to 0 ($360^{\circ}$).
+
+Unit Circle Formula: For $r=1$, $\sin(\theta)$ is simply equal to the length of the opposite side.
+
+B. Cosine ($\cos$)
+
+- Definition: The cosine of an angle $\theta$ is defined by the horizontal distance of a point on the unit circle from the origin (the $x$-coordinate). This distance is the adjacent side of the right-angled triangle.
+
+- Cosine Graph: Plotting this horizontal distance results in the cosine wave
+
+<img src="./cosine.jpeg" width="500px">
+
+Starts at 1 ($0^{\circ}$)._ Drops to 0 ($90^{\circ}$)._ Drops to a minimum of -1 ($180^{\circ}$).\_ Rises to 0 ($270^{\circ}$).\_ Returns to 1 ($360^{\circ}$).Unit Circle Formula: For $r=1$, $\cos(\theta)$ is simply equal to the length of the adjacent side.
+
+</details>
+
+<br>
