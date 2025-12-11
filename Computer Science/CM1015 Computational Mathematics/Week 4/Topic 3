@@ -36,7 +36,21 @@ A GP is a sequence where the ratio between consecutive terms ($r$) is constant (
 
 - Sum Formula Proof: The formula for the sum of the first $n$ terms of a GP, $S_n$, can be proven using an algebraic method.
 
-$$S_n = \frac{a(1-r^n)}{1-r}, \quad r \neq 1$$$
+$$S_n = \frac{a(1-r^n)}{1-r}, \quad r \neq 1$$
 
 - a$ is the first term.
 - $r$ is the common ratio.
+
+3. Notion of Series and SummationSeries:
+
+- A series is the result of adding all the elements of a sequence.
+
+- Sigma Notation ($\Sigma$): This notation is a shorthand used to represent the sum of a series.
+
+  - Example: $\sum_{k=1}^{n} k = 1 + 2 + 3 + \ldots + n$.Summation Formulas for Key Series
+
+|   Series Type   | Sequence Formula ($U_n$) |          Sum Formula ($S_n$)           |     Proof Method      |
+| :-------------: | :----------------------: | :------------------------------------: | :-------------------: |
+| Natural Numbers |        $U_n = n$         | $\sum_{k=1}^{n} k = \frac{1}{2}n(n+1)$ | Algebraic / Induction |
+|   Arithmetic    |    $U_n = a + (n-1)d$    |   $S_n = \frac{1}{2}n[2a + (n-1)d]$    |       Induction       |
+|    Geometric    |     $U_n = ar^{n-1}$     |      $S_n = \frac{a(1-r^n)}{1-r}$      |       Algebraic       |
