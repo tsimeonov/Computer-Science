@@ -8,3 +8,35 @@
 
   - A sequence converges if its terms approach a single finite limit.
   - A sequence diverges if its terms do not approach a single finite limit (e.g., they grow infinitely large or oscillate).
+
+2. Recursion and Induction in Defining Sequences
+
+A. Recursion
+
+A sequence can be defined recursively, where each term is defined by the preceding term(s).
+
+This definition must be grounded by stating the initial term(s).
+
+- General Recursive Formula for Sums ($S_n$): The sum of the first $n$ terms of a sequence is defined recursively as: $S_n = S_{n-1} + U_n$.
+
+B. Arithmetic Sequences (Arithmetic Progressions - AP)
+
+An AP is a sequence where the difference between consecutive terms ($d$) is constant (the common difference).
+
+- Sum Formula Proof: The formula for the sum of the first $n$ terms of an AP, $S_n$, can be proven using mathematical induction.
+
+$$S_n = \frac{1}{2}n[2a + (n-1)d]$$
+
+- $a$ is the first term.
+- $d$ is the common difference.C.
+
+Geometric Sequences (Geometric Progressions - GP)
+
+A GP is a sequence where the ratio between consecutive terms ($r$) is constant (the common ratio).
+
+- Sum Formula Proof: The formula for the sum of the first $n$ terms of a GP, $S_n$, can be proven using an algebraic method.
+
+$$S_n = \frac{a(1-r^n)}{1-r}, \quad r \neq 1$$$
+
+- a$ is the first term.
+- $r$ is the common ratio.
