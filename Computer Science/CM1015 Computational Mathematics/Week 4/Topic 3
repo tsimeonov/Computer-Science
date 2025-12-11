@@ -1,0 +1,10 @@
+### Topic 2: Sequences and series
+
+1. The Notion of a Number Sequence and Convergence/Divergence
+
+- Sequence: A sequence is an ordered list of numbers.
+  - Example: The natural numbers are a sequence: $1, 2, 3, \ldots$.
+- Convergence/Divergence: While not explicitly detailed in the sources, the concept relates to the behavior of the terms ($U_n$) as $n$ approaches infinity:
+
+  - A sequence converges if its terms approach a single finite limit.
+  - A sequence diverges if its terms do not approach a single finite limit (e.g., they grow infinitely large or oscillate).
