@@ -59,3 +59,29 @@ $$\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}$$
 </details>
 
   <br>
+
+<details>
+
+  <summary>4. Right-Angled Triangles and Pythagoras</summary>
+
+  <br>
+
+A right-angled triangle is a triangle that contains one 90-degree angle. This type of triangle has specialized terminology for its sides:
+
+- Hypotenuse (H): The longest side, always opposite the 90-degree angle.
+
+- Opposite (O): The side opposite the angle of interest (often labeled $\theta$).
+
+- Adjacent (A): The side adjacent to (next to) the angle of interest ($\theta$), not the hypotenuse.
+
+Pythagorean Theorem
+
+This theorem relates the lengths of the sides of a right-angled triangle: the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+
+$$\text{Hypotenuse}^2 = \text{Opposite}^2 + \text{Adjacent}^2 \quad \text{or} \quad H^2 = O^2 + A^2$$
+
+- Famous Example: The 3, 4, 5 triangle is the most famous right-angled triangle, as it satisfies the theorem: $5^2 = 3^2 + 4^2$, which simplifies to $25 = 9 + 16$.
+
+</details>
+
+  <br>
