@@ -1,3 +1,5 @@
+// File and directory name
+
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
