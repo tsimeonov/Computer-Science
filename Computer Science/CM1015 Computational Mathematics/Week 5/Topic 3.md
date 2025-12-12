@@ -21,3 +21,17 @@ Alternative Definition (Same Remainder):
 Notation:
 
 - Congruence is written as $a \equiv b \pmod{k}$.
+
+2. Classifying Two Integers as Congruent
+
+To classify two integers as congruent modulo $k$, you check the remainder property or the difference property.
+
+- Example (Mod 12): To show $34$ and $10$ are congruent $\pmod{12}$:
+
+  - Check Remainder: $34 = (12 \times 2) + \mathbf{10}$ and $10 = (12 \times 0) + \mathbf{10}$. Since the remainders are the same ($\mathbf{10}$), they are congruent.
+
+- Handling Negative Integers: To find the equivalent positive number for a negative integer (e.g., $-17$) $\pmod{12}$, you must find the number in the set $\{0, 1, \ldots, 11\}$.
+
+  - You find the nearest multiple of 12 below $-17$ (which is $-24$) and determine the positive remainder: $-24 + \mathbf{7} = -17$.
+
+  - Thus, $-17 \equiv \mathbf{7} \pmod{12}$.
