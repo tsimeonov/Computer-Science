@@ -47,3 +47,19 @@ In a right-angled triangle (containing one $90^{\circ}$ angle), sides are labele
 
 - Exact Values: The isosceles right-angled triangle ($45^{\circ}, 45^{\circ}, 90^{\circ}$) yields the exact value:
   $$\sin(45^{\circ}) = \cos(45^{\circ}) = \frac{1}{\sqrt{2}}$$
+
+3. Solving Basic Problems with Sine and Cosine Rules
+
+The primary tools for relating angles and sides in a right-angled triangle are the SOH CAH TOA ratios:
+
+|          Ratio          |                 Definition                  |                                 Application                                 |
+| :---------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------: |
+|  Sine ($\sin \theta$)   | $\frac{\text{Opposite}}{\text{Hypotenuse}}$ |       Used to find the height (Opposite) relative to the hypotenuse.        |
+| Cosine ($\cos \theta$)  | $\frac{\text{Adjacent}}{\text{Hypotenuse}}$ | Used to find the horizontal distance (Adjacent) relative to the hypotenuse. |
+| Tangent ($\tan \theta$) |  $\frac{\text{Opposite}}{\text{Adjacent}}$  |                     Used to find the gradient (slope).                      |
+
+- Sine/Cosine Rules (General Triangles): While the source materials focus on right-angled triangles, these rules are used to solve for unknown side lengths or angles in non-right-angled triangles.
+
+  - Law of Sines: $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$
+
+  - Law of Cosines: $c^2 = a^2 + b^2 - 2ab \cos C$
