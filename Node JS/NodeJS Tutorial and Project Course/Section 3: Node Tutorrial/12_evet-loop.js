@@ -1,15 +1,9 @@
-const { readFile } = require('fs');
+// started operating system process
 
-console.log('started first task');
+console.log('first');
+setTimeout(() => {
+	console.log('second');
+}, 0);
 
-// CHECK FILE PATH!!!
-readFile('./content/first.txt', 'utf-8', (err, result) => {
-	if (err) {
-		console.log(err);
-		return;
-	}
-	console.log(result);
-	console.log('complete first task');
-});
-
-console.log('starting next task');
+console.log('third');
+// completed and exited operating system process
