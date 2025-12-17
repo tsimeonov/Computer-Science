@@ -1,7 +1,9 @@
-const amount = 12;
+const EventEmitter = require('events');
 
-if (amount < 10) {
-	console.log('small numbr ');
-} else {
-	console.log('large number ');
-}
+const customEitter = new EventEmitter();
+
+customEitter.on('response', () => {
+	console.log(`data received`);
+});
+
+customEitter.emit('response');
