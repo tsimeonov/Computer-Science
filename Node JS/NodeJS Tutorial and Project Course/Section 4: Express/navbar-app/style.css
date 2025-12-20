@@ -217,3 +217,16 @@ nav {
 	color: var(--clr-primary-5);
 	padding-left: 1.5rem;
 }
+
+.social-icons {
+	display: none;
+}
+
+.links {
+	height: 0;
+	overflow: hidden;
+	transition: var(--transition);
+}
+.show-links {
+	height: 10rem;
+}
