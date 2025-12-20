@@ -165,3 +165,14 @@ main {
 	display: grid;
 	place-items: center;
 }
+
+/*
+=============== 
+Navbar
+===============
+*/
+
+nav {
+	background: var(--clr-white);
+	box-shadow: var(--light-shadow);
+}
