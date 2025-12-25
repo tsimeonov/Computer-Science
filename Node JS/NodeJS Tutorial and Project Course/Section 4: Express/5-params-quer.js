@@ -53,6 +53,15 @@ app.get('/api/products/:productID/reviews/:reviewID', (req, res) => {
 // 	res.status(200).json(sortedProducts);
 // });
 
+app.get('/api/v1/query', (req, res) => {
+	const { search, limit } = req.query;
+
+	let serchProducts = [...products];
+
+	if (search) {
+	}
+});
+
 app.listen(5000, () => {
 	console.log(`Server listening on port 5000...`);
 });
