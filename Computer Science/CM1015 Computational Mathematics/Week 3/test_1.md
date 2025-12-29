@@ -51,3 +51,23 @@ a
 </details>
 
 <br>
+
+---
+
+`4. How is the nth term of an arithmetic sequence represented?`
+
+- a + nd
+- a + (n-1)d
+- a/(n-1)
+- a \* r <sup>(n-1)</sup>
+
+<details>
+  <summary>Answer</summary>
+
+a + (n-1)d
+
+</details>
+
+<br>
+
+---
