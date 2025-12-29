@@ -33,3 +33,21 @@ r
 </details>
 
 <br>
+
+---
+
+`3. What is the term of an arithmetic sequence called?`
+
+- d
+- a
+- r
+- n
+
+<details>
+  <summary>Answer</summary>
+
+a
+
+</details>
+
+<br>
