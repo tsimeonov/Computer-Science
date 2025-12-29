@@ -71,3 +71,21 @@ a + (n-1)d
 <br>
 
 ---
+
+`5. What is a geometric sequence`
+
+- A sequence where each term is divided by a constant
+- A sequence where each term is added by a constant
+- A sequence where each term is multiplied by a constant
+- A sequence where eacg term is subtracted by a constant
+
+<details>
+  <summary>Answer</summary>
+
+A sequence where each term is multiplied by a constant
+
+</details>
+
+<br>
+
+---
