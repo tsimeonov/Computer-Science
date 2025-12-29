@@ -161,7 +161,7 @@ A sequence where each term is the sum of the two preceding terms
 
 ---
 
-10. Find the 10th term of an arithmetic sequence where the first term a is 5 and the common difference d is 3
+`10. Find the 10th term of an arithmetic sequence where the first term a is 5 and the common difference d is 3`
 
 <details>
   <summary>Answer</summary>
@@ -200,3 +200,42 @@ Step-by-Step Calculation
 <br>
 
 ---
+
+`11. Determine the 5th term of a geometric sequence where the first term a is 2 and the common ratio r is 3.`
+
+<details>
+  <summary>Answer</summary>
+
+To find the 5th term of a geometric sequence, you use the general formula for the $n^{th}$ term:
+
+$$a_n = a \cdot r^{(n - 1)}$$
+
+Step-by-Step Calculation
+
+1. Identify the given values:
+
+- First term ($a$): 2
+- Common ratio ($r$): 3
+- Term number ($n$): 5
+
+2. Substitute the values into the formula:
+
+- $a_5 = 2 \cdot 3^{(5 - 1)}$
+
+3. Simplify the exponent:
+
+- $a_5 = 2 \cdot 3^4$
+
+4. Calculate the power:
+
+- $3^4 = 3 \times 3 \times 3 \times 3 = 81$
+
+5. Final Multiplication:
+
+- $a_5 = 2 \cdot 81 = 162$
+
+The 5th term of this geometric sequence is 162.
+
+</details>
+
+<br>
