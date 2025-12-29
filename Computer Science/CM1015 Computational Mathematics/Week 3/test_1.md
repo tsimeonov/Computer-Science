@@ -89,3 +89,20 @@ A sequence where each term is multiplied by a constant
 <br>
 
 ---
+
+`6. What does the common ratio in a geometric sequence represent?`
+
+- The product of terms
+- The sum of terms
+- The ratio between consecutive terms
+
+<details>
+  <summary>Answer</summary>
+
+The ratio between consecutive terms
+
+</details>
+
+<br>
+
+---
