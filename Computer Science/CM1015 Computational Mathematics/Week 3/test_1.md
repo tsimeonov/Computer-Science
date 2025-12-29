@@ -142,3 +142,21 @@ It diverges to infinity
 <br>
 
 ---
+
+`9. What is a Fibonacci sequence?`
+
+- A sequence where each term is the quotient of the two proceding terms
+- A sequence where each term is the product of the two preceding terms
+- A sequence where each term is the sum of the two preceding terms
+- A sequence where each term is the difference of the two preceding terms
+
+<details>
+  <summary>Answer</summary>
+
+A sequence where each term is the sum of the two preceding terms
+
+</details>
+
+<br>
+
+---
