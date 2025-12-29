@@ -106,3 +106,19 @@ The ratio between consecutive terms
 <br>
 
 ---
+
+`7. How is the nth tem of a geometric sequence represented?`
+
+- a \* (n-1)
+- a + (n - 1 )d
+- a / r <sup>n-1</sup>
+- a \* r <sup>n-1</sup>
+
+<details>
+  <summary>Answer</summary>
+
+a \_ r <sup>n-1</sup>
+
+</details>
+
+<br>
