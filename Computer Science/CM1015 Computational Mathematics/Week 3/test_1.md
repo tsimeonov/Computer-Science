@@ -122,3 +122,23 @@ a \_ r <sup>n-1</sup>
 </details>
 
 <br>
+
+---
+
+`8. What happens to a geometric sequence if the common ratio r is greater than 1?`
+
+- It remains constant
+- It oscillates between values
+- It diverges to infinity
+- It converges to a number
+
+<details>
+  <summary>Answer</summary>
+
+It diverges to infinity
+
+</details>
+
+<br>
+
+---
