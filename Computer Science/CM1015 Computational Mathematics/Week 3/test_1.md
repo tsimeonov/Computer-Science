@@ -160,3 +160,43 @@ A sequence where each term is the sum of the two preceding terms
 <br>
 
 ---
+
+10. Find the 10th term of an arithmetic sequence where the first term a is 5 and the common difference d is 3
+
+<details>
+  <summary>Answer</summary>
+
+  <br>
+
+To find the 10th term of an arithmetic sequence, you use the general formula for the $n^{th}$ term:
+
+$$a_n = a_1 + (n - 1)d$$
+
+Step-by-Step Calculation
+
+1. Identify the given values:
+
+   - First term ($a_1$): 5
+   - Common difference ($d$): 3
+   - Term number ($n$): 10
+
+2. Substitute the values into the formula:
+
+   - $a_{10} = 5 + (10 - 1) \times 3$
+
+3. Simplify the expression:
+
+   - $a_{10} = 5 + (9) \times 3$
+   - $a_{10} = 5 + 27$
+
+4. Final Result:
+
+   - $a_{10} = 32$
+
+   The 10th term of this sequence is 32.
+
+</details>
+
+<br>
+
+---
