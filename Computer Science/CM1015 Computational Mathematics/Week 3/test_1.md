@@ -15,3 +15,21 @@ A sequence where each term is obtained by adding a constant to the previous term
 </details>
 
 <br>
+
+---
+
+`2. Which term represent the common difference in an arithmetic sequence?`
+
+- r
+- d
+- n
+- a
+
+<details>
+  <summary>Answer</summary>
+
+r
+
+</details>
+
+<br>
