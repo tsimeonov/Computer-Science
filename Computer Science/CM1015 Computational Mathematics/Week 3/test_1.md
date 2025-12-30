@@ -239,3 +239,16 @@ The 5th term of this geometric sequence is 162.
 </details>
 
 <br>
+
+12. If the 4th term of an arithmetic sequence is 20 and the common difference d is 5, find the first term a.
+
+<details>
+  <summary>Answer</summary>
+
+A sequence where each term is obtained by adding a constant to the previous term
+
+</details>
+
+<br>
+
+---
