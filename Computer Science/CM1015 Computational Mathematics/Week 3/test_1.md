@@ -245,7 +245,33 @@ The 5th term of this geometric sequence is 162.
 <details>
   <summary>Answer</summary>
 
-A sequence where each term is obtained by adding a constant to the previous term
+To find the first term ($a_1$) of an arithmetic sequence when given a specific term and the common difference, you use the general term formula:
+
+$$a_n = a_1 + (n - 1)d$$
+
+Step-by-Step Calculation
+
+1.  Identify the given values:
+
+    - The 4th term ($a_4$): 20
+
+    - Common difference ($d$): 5
+
+    - Term number ($n$): 4
+
+2.  Substitute these values into the formula:
+
+- $20 = a_1 + (4 - 1) \times 5$
+
+3. Simplify the expression:
+
+- $20 = a_1 + (3) \times 5$$20 = a_1 + 15$
+
+4. Solve for $a_1$:
+
+- $a_1 = 20 - 15$$a_1 = 5$
+
+The first term ($a_1$) of the sequence is 5.
 
 </details>
 
