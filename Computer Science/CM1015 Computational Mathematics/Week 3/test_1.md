@@ -461,3 +461,34 @@ The 4th term of this sequence is 19.
 <br>
 
 ---
+
+18. `Find the limit of the sequence $u_n = \frac{1}{2^n}$ as n approaches infinity`
+
+<details>
+  <summary>Answer</summary>
+
+Step-by-Step Analysis
+
+1. Understand the Terms: As $n$ increases, the denominator $2^n$ grows exponentially (e.g., $2, 4, 8, 16, 32, \dots$).
+
+2. Fractional Behavior: Because the numerator remains constant at $1$ and the denominator increases without bound, the overall value of the fraction becomes smaller and smaller, approaching zero.
+
+3. Formal Limit:
+
+$$\lim_{n \to \infty} \frac{1}{2^n} = 0$$
+
+Comparison to Provided Examples
+
+This behavior is identical to other sequences where the denominator grows while the numerator stays constant:
+
+- Sequence $u_n = \frac{1}{n-1}$: As $n$ approaches infinity, the limit is 0.
+
+- Geometric Series: In the sum $1 + \frac{1}{2} + \frac{1}{4} + \dots$, the individual terms $\frac{1}{2^n}$ eventually become so small that they vanish as $n$ goes to infinity.
+
+Final Result:The limit of the sequence $u_n = \frac{1}{2^n}$ as $n \to \infty$ is 0.
+
+</details>
+
+<br>
+
+---
