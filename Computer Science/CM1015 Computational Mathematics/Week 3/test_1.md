@@ -428,7 +428,7 @@ The 5th term of this sequence is 21.
 
 ---
 
-17. If $u_n = 2^n + 3$ calculate $u_4$
+17. `If $u_n = 2^n + 3$ calculate $u_4$`
 
 <details>
   <summary>Answer</summary>
@@ -437,23 +437,24 @@ Step-by-Step Calculation
 
 1. Identify the given formula and target term:
 
-   - General formula: $u_n = n^2 - n + 1$
-   - Term number ($n$): 5
+   - General formula: $u_n = 2^n + 3$
+   - Term number ($n$): 4
 
-2. Substitute $n = 5$ into the formula:
-   - $u_5 = (5)^2 - (5) + 1$
-3. Calculate the square:
+2. Substitute $n = 4$ into the formula:
 
-   - $5^2 = 25$
+   - $u_4 = 2^4 + 3$
 
-4. Complete the arithmetic:
-   - $u_5 = 25 - 5 + 1$
-   - $u_5 = 20 + 1$
-5. Final Result:
+3. Calculate the power:
 
-   - $u_5 = 21$
+   - $2^4 = 2 \times 2 \times 2 \times 2 = 16$
 
-The 5th term of this sequence is 21.
+4. Complete the addition:
+
+   - $u_4 = 16 + 3$
+
+Final Result:$u_4 = 19$
+
+The 4th term of this sequence is 19.
 
 </details>
 
