@@ -394,3 +394,69 @@ The sixth term of the sequence is 5.
 <br>
 
 ---
+
+16. `For the sequence defined by $u_n = n^2 - n + 1$ with $u_5$`
+
+<details>
+  <summary>Answer</summary>
+
+Step-by-Step Calculation
+
+1. Identify the given formula and target term:
+
+   - General formula: $u_n = n^2 - n + 1$
+   - Term number ($n$): 5
+
+2. Substitute $n = 5$ into the formula:
+   - $u_5 = (5)^2 - (5) + 1$
+3. Calculate the square:
+
+   - $5^2 = 25$
+
+4. Complete the arithmetic:
+   - $u_5 = 25 - 5 + 1$
+   - $u_5 = 20 + 1$
+5. Final Result:
+
+   - $u_5 = 21$
+
+The 5th term of this sequence is 21.
+
+</details>
+
+<br>
+
+---
+
+17. If $u_n = 2^n + 3$ calculate $u_4$
+
+<details>
+  <summary>Answer</summary>
+
+Step-by-Step Calculation
+
+1. Identify the given formula and target term:
+
+   - General formula: $u_n = n^2 - n + 1$
+   - Term number ($n$): 5
+
+2. Substitute $n = 5$ into the formula:
+   - $u_5 = (5)^2 - (5) + 1$
+3. Calculate the square:
+
+   - $5^2 = 25$
+
+4. Complete the arithmetic:
+   - $u_5 = 25 - 5 + 1$
+   - $u_5 = 20 + 1$
+5. Final Result:
+
+   - $u_5 = 21$
+
+The 5th term of this sequence is 21.
+
+</details>
+
+<br>
+
+---
