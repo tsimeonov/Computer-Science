@@ -356,3 +356,41 @@ The sum of the first four terms of this geometric sequence is 15
 <br>
 
 ---
+
+15. `Determine the sixth term of a Fibonacci sequence starting with u<sub>1</sub> = 0 and u<sub>2</sub> = 1`
+
+<details>
+  <summary>Answer</summary>
+
+To determine the sixth term of the Fibonacci sequence starting with $u_1 = 0$ and $u_2 = 1$, you use a recurrence relation where each subsequent term is the sum of the two preceding terms.
+
+Step-by-Step Calculation
+
+1. Identify the first two terms:
+
+   - $u_1 = 0$
+   - $u_2 = 1$
+
+2. Calculate the 3rd term ($u_3$):
+
+   - $u_3 = u_2 + u_1 = 1 + 0 = 1$
+
+3. Calculate the 4th term ($u_4$):
+
+   - $u_4 = u_3 + u_2 = 1 + 1 = 2$
+
+4. Calculate the 5th term ($u_5$):
+
+   - $u_5 = u_4 + u_3 = 2 + 1 = 3$
+
+5. Calculate the 6th term ($u_6$):
+
+   - $u_6 = u_5 + u_4 = 3 + 2 = 5$
+
+The sixth term of the sequence is 5.
+
+</details>
+
+<br>
+
+---
