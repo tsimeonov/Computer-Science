@@ -282,7 +282,7 @@ The first term ($a_1$) of the sequence is 5.
 
 ---
 
-13. Calculate the sum of the first 6 terms of an arithmetic sequence with a = 2, d = 4
+13. `Calculate the sum of the first 6 terms of an arithmetic sequence with a = 2, d = 4`
 
 <details>
   <summary>Answer</summary>
@@ -309,9 +309,47 @@ Step 3: Calculate the Sum ($S_6$)
 Now, use the sum formula $S_n = \frac{n}{2}(a_1 + a_n)$:
 
 - $S_6 = \frac{6}{2}(2 + 22)$
-- $S_6 = 3 \times (24)$$S_6 = 72$
+- $S_6 = 3 \times (24)$
+- $S_6 = 72$
 
 Final Result:The sum of the first 6 terms of the sequence is 72.
+
+</details>
+
+<br>
+
+---
+
+14. `Find the sum of the first four terms of a geometric sequence where a = 1 and r = 2`
+
+<details>
+  <summary>Answer</summary>
+
+To find the sum of the first four terms ($S_4$) of a geometric sequence, you use the geometric series formula provided in your materials.
+
+Step-by-Step Calculation
+
+1. Identify the given values:
+
+- First term ($a$): 1
+- Common ratio ($r$): 2
+- Number of terms ($n$): 4
+
+2. Substitute the values into the sum formula:
+
+- $S_4 = \frac{1(1 - 2^4)}{1 - 2}$
+
+3. Simplify the expression:
+
+- Calculate the power: $2^4 = 16$.
+  $S_4 = \frac{1(1 - 16)}{1 - 2}$
+- $S_4 = \frac{-15}{-1}$
+
+4. Final Result:
+
+- $S_4 = 15$
+
+The sum of the first four terms of this geometric sequence is 15
 
 </details>
 
