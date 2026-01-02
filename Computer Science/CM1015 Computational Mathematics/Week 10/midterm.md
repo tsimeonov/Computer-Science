@@ -420,3 +420,23 @@ Simplifying the squares and the product:
 $$c^2 = 49 + 64 - 112 \cos(x)$$
 
 $$c^2 = 113 - 112 \cos(x)$$
+
+(ii.)
+
+Now we are given that side $c = 9$. We substitute this into our equation from step (i):
+
+$$9^2 = 113 - 112 \cos(x)$$
+$$81 = 113 - 112 \cos(x)$$
+
+Rearrange the equation to isolate the term with $x$:
+
+$$112 \cos(x) = 113 - 81$$
+$$112 \cos(x) = 32$$
+
+Divide by 112:
+
+$$\cos(x) = \frac{32}{112}$$
+
+This fraction simplifies (divide numerator and denominator by 16):
+
+$$\cos(x) = \frac{2}{7}$$
