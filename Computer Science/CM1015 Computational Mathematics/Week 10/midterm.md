@@ -193,3 +193,48 @@ Result:
 
 - Number of terms: $n \approx 4.75$ (or 5 if the sum was intended to be 484).
   Last term: If $n=5$, the last term is 324.
+
+#### (c)
+
+To find the possible values of the common ratio, we can translate the given information into algebraic equations.
+
+1. Define the Terms
+
+Let the first term of the geometric progression (GP) be $a$ and the common ratio be $r$.
+The terms of the GP are defined as $T_n = ar^{n-1}$.
+
+- The 2nd term is $ar$.
+- The 4th term is $ar^3$.
+- The 6th term is $ar^5$.
+
+  2.Set up the Arithmetic Progression (AP) Condition
+
+  In an arithmetic progression, the difference between consecutive terms is constant. Therefore, the middle term is the average of the two surrounding terms:
+
+  $$2 \times (\text{4th term}) = (\text{2nd term}) + (\text{6th term})$$
+
+  Substituting our GP terms:
+
+  $$2(ar^3) = ar + ar^5$$
+
+  3. Simplify and Solve for $r$
+
+  Since we are told the first term $a$ is positive ($a > 0$), we can safely divide both sides by $a$. Additionally, if $r = 0$, the sequence becomes $a, 0, 0, 0...$, which is technically an AP, but typically $r \neq 0$ in these problems.
+
+  Dividing by $ar$:$$2r^2 = 1 + r^4$$
+
+  Rearrange this into a quadratic form by moving all terms to one side:
+
+  $$r^4 - 2r^2 + 1 = 0$$
+
+  This expression is a perfect square trinomial:
+
+  $$(r^2 - 1)^2 = 0$$
+
+  Taking the square root of both sides:
+
+  $$r^2 - 1 = 0$$
+
+  $$r^2 = 1$$
+
+  $$r = \pm 1$$
