@@ -276,3 +276,21 @@ Now, add the two totals together:
 $$£189 \text{ (Books 1-6)} + £2,448 \text{ (Books 7-10)} = \mathbf{£2,637}$$
 
 Total Amount Paid: £2,637
+
+### Question 3
+
+#### (a)
+
+We have two requirements for $x$:
+
+$x \equiv 5 \pmod 6$
+$x \equiv 3 \pmod 7$
+
+List Multiples (The "Simple" Method)
+
+Since the moduli (6 and 7) are small, we can list the numbers that satisfy the second (larger) modulus and check them against the first.
+Numbers satisfying $x \equiv 3 \pmod 7$:
+
+- $x = 3$ ($3 \div 6$ leaves remainder 3) — No
+- $x = 10$ ($10 \div 6$ leaves remainder 4) — No
+- $x = 17$ ($17 \div 6$ leaves remainder 5) — Yes!
