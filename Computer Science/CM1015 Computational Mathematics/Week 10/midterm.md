@@ -60,7 +60,7 @@ Convert the result back to base 2
 
 - $3_{10} = (1 \times 2^1) + (1 \times 2^0) = \mathbf{11_2}$
 
-(d)
+#### (d)
 
 Step 1: Expand the Base $b$ Expressions
 
@@ -109,3 +109,46 @@ Final SolutionBased on the factor analysis:
 
 - Base ($b$): $10$
 - Digits ($A$ and $B$): Any two distinct digits that sum to $11$. Examples include $A=5, B=6$ or $A=4, B=7$.
+
+### Question 2
+
+#### (a)
+
+To find the number of bacteria present immediately after the second sterilization, we calculate the population changes through each growth and sterilization phase step-by-step.
+
+Step 1: First Growth Phase (0 to 12 hours)
+
+The bacteria population follows a geometric growth pattern where the population doubles every 3 hours.
+
+- Initial population ($a$): 200
+- Doubling time: 3 hours
+- Total time: 12 hours
+- Number of doublings ($n$): $\frac{12}{3} = 4$ doublings.
+
+Using the geometric sequence logic $a_{n+1} = a \cdot r^n$ where $r=2$:
+
+$$N_{12} = 200 \cdot 2^4 = 200 \cdot 16 = 3,200 \text{ bacteria}$$
+
+Step 2: First Sterilization (at 12 hours)
+
+The agent kills $70\%$ of the bacteria instantly, leaving $30\%$ remaining.
+
+Remaining population: $3,200 \cdot 0.30 = 960 \text{ bacteria}$
+
+Step 3: Second Growth Phase (Additional 36 hours)
+
+The remaining bacteria continue to double every 3 hours.
+
+- Initial population for this phase: 960
+- Total time: 36 hours
+- Number of doublings: $\frac{36}{3} = 12$ doublings.
+
+The population after 36 hours of growth is:
+
+$$N_{48} = 960 \cdot 2^{12} = 960 \cdot 4,096 = 3,932,160 \text{ bacteria}$$
+
+Step 4: Second Sterilization (at 48 hours)
+
+A second identical agent is applied, again killing $70\%$ ($30\%$ remaining).
+
+- Final population: $3,932,160 \cdot 0.30 = 1,179,648$
