@@ -152,3 +152,28 @@ Step 4: Second Sterilization (at 48 hours)
 A second identical agent is applied, again killing $70\%$ ($30\%$ remaining).
 
 - Final population: $3,932,160 \cdot 0.30 = 1,179,648$
+
+#### (b)
+
+(i.)
+
+The formula for the sum of the first $n$ terms of a geometric sequence is $S_n = \frac{a(1 - r^n)}{1 - r}$.
+
+1. Identify the given values:
+
+- First term ($a$): 4
+- Common ratio ($r$): 3
+- Sum ($S_n$): 364
+
+2. Substitute the values into the formula:
+
+$$364 = \frac{4(1 - 3^n)}{1 - 3}$$
+
+3. Solve for $n$:
+
+- Simplify the denominator: $364 = \frac{4(1 - 3^n)}{-2}$
+- Divide 4 by -2: $364 = -2(1 - 3^n)$
+- Divide both sides by -2: $-182 = 1 - 3^n$
+- Rearrange the equation: $3^n = 182 + 1 = 183$
+
+Since $3^4 = 81$ and $3^5 = 243$, the value $n=6$ would require a sum of $1456$. If we assume the target was $3^n - 1 = 242$ ($S_n = 484$), $n$ would be 5. Given the exact prompt $3^n = 183$, $n$ is approximately 4.75. However, in discrete sequence problems, $n$ must be an integer. If the sum was 484, $n=5$. If the sum was 120, $n=4$.
