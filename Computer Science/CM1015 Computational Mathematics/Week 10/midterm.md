@@ -440,3 +440,11 @@ $$\cos(x) = \frac{32}{112}$$
 This fraction simplifies (divide numerator and denominator by 16):
 
 $$\cos(x) = \frac{2}{7}$$
+
+(iii.)
+
+To find $x$, we take the inverse cosine ($\arccos$) of the fraction we found.
+
+$$x = \cos^{-1}\left(\frac{2}{7}\right)$$
+
+Using a calculator:$$x \approx 73.39845...^\circ$$Rounding to 2 decimal places:$$C \approx 73.40^\circ$$
