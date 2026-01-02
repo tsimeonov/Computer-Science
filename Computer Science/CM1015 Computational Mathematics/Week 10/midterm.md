@@ -400,3 +400,23 @@ To find the specific solutions modulo 21, we substitute $k = 0, 1, 2$ (since the
 The integers $x$ satisfying the congruence are:
 
 $$x \equiv 6, 13, 20 \pmod{21}$$
+
+### Question 4
+
+#### (a)
+
+(i.)
+
+The Law of Cosines states that for a triangle with sides $a$, $b$, and $c$, and angle $C$ opposite side $c$:
+
+$$c^2 = a^2 + b^2 - 2ab \cos(C)$$
+
+Substitute the given values ($a = 7$, $b = 8$, and $C = x$):
+
+$$c^2 = 7^2 + 8^2 - 2(7)(8) \cos(x)$$
+
+Simplifying the squares and the product:
+
+$$c^2 = 49 + 64 - 112 \cos(x)$$
+
+$$c^2 = 113 - 112 \cos(x)$$
