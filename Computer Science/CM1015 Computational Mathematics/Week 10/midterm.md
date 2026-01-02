@@ -492,4 +492,59 @@ Case 2: Obtuse Angle
 
 $$A = 180^\circ - 27.49^\circ$$
 $$A \approx 152.51^\circ$$
+
+
+#### (c)
+
+To solve the equation $\sin(3x) = \sin(x)$ for $0^\circ \le x \le 360^\circ$, we use the general property of sine.
+
+If $\sin(A) = \sin(B)$, there are two possible cases for the angles:
+
+$A = B + 360^\circ n$ (The angles are coterminal)
+$A = 180^\circ - B + 360^\circ n$ (The angles are supplementary)
+
+Here, $A = 3x$ and $B = x$. We will solve for $x$ in both cases.
+
+Case 1: The angles are equal (plus full rotations)
+
+$$3x = x + 360^\circ n$$
+
+Subtract $x$ from both sides:
+
+$$2x = 360^\circ n$$
+
+Divide by 2:
+
+$$x = 180^\circ n$$
+
+Now, substitute integer values for $n$ to find solutions within $0^\circ \le x \le 360^\circ$:
+
+If $n = 0 \rightarrow x = \mathbf{0^\circ}$
+If $n = 1 \rightarrow x = \mathbf{180^\circ}$
+If $n = 2 \rightarrow x = \mathbf{360^\circ}$
+
+Case 2: The angles are supplementary
+
+$$3x = 180^\circ - x + 360^\circ n$$
+
+Add $x$ to both sides:$$4x = 180^\circ + 360^\circ n$$
+
+Divide by 4:
+
+$$x = 45^\circ + 90^\circ n$$
+
+Substitute integer values for $n$:
+
+-  If $n = 0 \rightarrow x = \mathbf{45^\circ}$
+-  If $n = 1 \rightarrow x = 45^\circ + 90^\circ = \mathbf{135^\circ}$
+-  If $n = 2 \rightarrow x = 135^\circ + 90^\circ = \mathbf{225^\circ}$
+-  If $n = 3 \rightarrow x = 225^\circ + 90^\circ = \mathbf{315^\circ}$
+-  (If $n = 4$, $x = 405^\circ$, which is outside our range.)
+
+
+Final Answer
+
+Combining the results from both cases and ordering them from smallest to largest, the solutions are:
+
+$x \in \{0^\circ, 45^\circ, 135^\circ, 180^\circ, 225^\circ, 315^\circ, 360^\circ\}$
 $$
