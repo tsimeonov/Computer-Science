@@ -605,5 +605,51 @@ Cosine is negative in Quadrants II and III. The reference angle where $\cos(\the
 - Quadrant III: $180^\circ + 60^\circ = \mathbf{240^\circ}$
 
 
-Combining all solutions and listing them in order:$$x \in \{0^\circ, 90^\circ, 120^\circ, 180^\circ, 240^\circ, 270^\circ, 360^\circ\}$$
+Combining all solutions and listing them in order:
+
+$$x \in \{0^\circ, 90^\circ, 120^\circ, 180^\circ, 240^\circ, 270^\circ, 360^\circ\}$$
+
+
+### Question 5
+
+#### (a)
+
+(i.)
+
+Since an object can change direction while maintaining a constant speed , none of the first three statements MUST be true. Therefore, the answer is None of the above.
+
+(ii.)
+
+Velocity: $0$
+Acceleration: $\approx 9.8 \, m/s^2$ (downwards)
+
+Therefore, Statement 2 is the truth.
+
+(iii.)
+
+
+1. $$v = u + at$$
+
+Substitute the known values:$$0 = 30 + (-10)t$$
+
+$$10t = 30$$
+
+$$t = 3 \, \text{s}$$
+
+2. We can use the equation relating displacement, initial velocity, and time:
+
+$$s = ut + \frac{1}{2}at^2$$
+
+Substitute the values:
+
+$$s = (30)(3) + \frac{1}{2}(-10)(3)^2$$
+
+$$s = 90 + (-5)(9)$$
+
+$$s = 90 - 45$$
+
+$$s = 45 \, \text{m}$$
+
+
+Conclusion: 45m, 3s
 $$
