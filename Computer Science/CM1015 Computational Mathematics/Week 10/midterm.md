@@ -1,3 +1,8 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+
 ### Question 1
 
 #### (a)
@@ -44,7 +49,7 @@ Convert binary to deciaml
 - $1000_2$: $(1 \times 2^3) + (0 \times 2^2) + (0 \times 2^1) + (0 \times 2^0) = \mathbf{8}$
 - $101_2$: $(1 \times 2^2) + (0 \times 2^1) + (1 \times 2^0) = 4 + 1 = \mathbf{5}$
 
-Solve the equation in decimal
+Use decimal to solve the equation
 
 $$\frac{3}{x} = \frac{8}{x + 5}$$
 
@@ -56,7 +61,7 @@ Now, cross-multiply to solve for $x$:
 - $15 = 5x$
 - $x = 3$
 
-Convert the result back to base 2
+Converting to base 2
 
 - $3_{10} = (1 \times 2^1) + (1 \times 2^0) = \mathbf{11_2}$
 
@@ -91,14 +96,14 @@ We now have two factors, $(A + B)$ and $(b + 1)$, which when multiplied equal $1
 
 We can evaluate these possibilities based on the constraints of number bases:
 
-1. Possibility 1: $(A+B) = 1$ and $(b+1) = 121$
+1. Possibility 1: $(A+B) = 1$ , $(b+1) = 121$
 
 - This implies $b = 120$. However, if $A+B=1$ and $A \neq B$, one digit must be $0$ and the other $1$. Since $A$ and $B$ are lead digits in $AB_b$ and $BA_b$, neither can be $0$. This is ruled out.
 
 2. Possibility 2: $(A+B) = 11$ and $(b+1) = 11$
 
    - This implies $b = 10$.
-   - If the base is 10, then $A+B=11$. Any pair of distinct digits that sum to 11 works (e.g., $A=5, B=6$ or $A=2, B=9$).
+   - If the base is 10, then $A+B=11$. Distinct digits that sum to 11 works (e.g., $A=5, B=6$ or $A=2, B=9$).
    - Verification: $56_{10} + 65_{10} = 121_{10}$. This holds true.
 
 3. Possibility 3: $(A+B) = 121$ and $(b+1) = 1$T
@@ -157,7 +162,7 @@ A second identical agent is applied, again killing $70\%$ ($30\%$ remaining).
 
 (i.)
 
-The formula for the sum of the first $n$ terms of a geometric sequence is $S_n = \frac{a(1 - r^n)}{1 - r}$.
+The equation for the sum of the first $n$ terms of any geometric sequence is $S_n = \frac{a(1 - r^n)}{1 - r}$.
 
 1. Identify the given values:
 
@@ -196,11 +201,11 @@ Result:
 
 #### (c)
 
-To find the possible values of the common ratio, we can translate the given information into algebraic equations.
+To find any possible values of common ratio, we can translate the given information into algebraic equations.
 
 1. Define the Terms
 
-Let the first term of the geometric progression (GP) be $a$ and the common ratio be $r$.
+Let's assume the first term of the geometric progression (GP) be $a$ and the common ratio be $r$.
 The terms of the GP are defined as $T_n = ar^{n-1}$.
 
 - The 2nd term is $ar$.
