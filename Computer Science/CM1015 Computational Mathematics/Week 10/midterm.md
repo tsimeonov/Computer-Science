@@ -317,7 +317,7 @@ Now, add the remaining 8 hours to the current time:
 
 ConclusionThe clock will show 22:00.
 
-(c)
+#### (c)
 
 Find the Least Common Multiple (LCM)
 
@@ -342,3 +342,61 @@ $$x = 2,520 - 1$$
 $$x = 2,519$$
 
 AnswerThe smallest positive integer is 2,519.
+
+#### (d)
+
+Check if its solvable
+
+A linear congruence of the form $ax \equiv b \pmod n$ has solutions if and only if the greatest common divisor (GCD) of $a$ and $n$ divides $b$.
+
+- $a = 6$
+- $n = 21$
+- $b = 15$
+
+Calculate the GCD of 6 and 21:
+
+$$\text{GCD}(6, 21) = 3$$
+
+Check if 3 divides 15:
+$$15 \div 3 = 5$$
+
+Since it divides evenly, solutions exist. Specifically, there are exactly 3 distinct solutions modulo 21.
+
+Simplify for congruence
+
+We can divide the entire congruence (including the modulus) by the GCD ($3$) to make it easier to solve.
+
+Original: $6x \equiv 15 \pmod{21}$Divide by 3:
+
+$$2x \equiv 5 \pmod 7$$
+
+Solve the simplified congruence
+
+Now we need to find an $x$ such that $2x$ leaves a remainder of 5 when divided by 7. We can test small integer values for $x$:
+
+- If $x=1$, $2(1)=2$
+- If $x=2$, $2(2)=4$
+- If $x=3$, $2(3)=6$
+- If $x=4$, $2(4)=8 \equiv 1 \pmod 7$
+- If $x=5$, $2(5)=10 \equiv 3 \pmod 7$
+- If $x=6$, $2(6)=12 \equiv 5 \pmod 7$ $\rightarrow$ This is the solution.
+
+So, $x \equiv 6 \pmod 7$.
+
+Find all solutions modulo 21
+
+The solution $x \equiv 6 \pmod 7$ means that $x$ can be written as:
+
+$$x = 6 + 7k$$
+
+where $k$ is an integer.
+
+To find the specific solutions modulo 21, we substitute $k = 0, 1, 2$ (since there are 3 solutions):
+
+- k = 0: $x = 6 + 7(0) = \mathbf{6}$
+- k = 1: $x = 6 + 7(1) = \mathbf{13}$
+- k = 2: $x = 6 + 7(2) = \mathbf{20}$
+
+The integers $x$ satisfying the congruence are:
+
+$$x \equiv 6, 13, 20 \pmod{21}$$
