@@ -177,3 +177,19 @@ $$364 = \frac{4(1 - 3^n)}{1 - 3}$$
 - Rearrange the equation: $3^n = 182 + 1 = 183$
 
 Since $3^4 = 81$ and $3^5 = 243$, the value $n=6$ would require a sum of $1456$. If we assume the target was $3^n - 1 = 242$ ($S_n = 484$), $n$ would be 5. Given the exact prompt $3^n = 183$, $n$ is approximately 4.75. However, in discrete sequence problems, $n$ must be an integer. If the sum was 484, $n=5$. If the sum was 120, $n=4$.
+
+(ii.)
+
+The formula for the $n^{th}$ (last) term of a geometric sequence is $a_n = a \cdot r^{(n-1)}$.
+
+If we use the calculated value (assuming $n = 5$ for a standard integer result):
+
+- $a_5 = 4 \cdot 3^4$
+- $a_5 = 4 \cdot 3^{(5-1)}$
+- $a_5 = 4 \cdot 81$
+- $a_5 = 324$
+
+Result:
+
+- Number of terms: $n \approx 4.75$ (or 5 if the sum was intended to be 484).
+  Last term: If $n=5$, the last term is 324.
