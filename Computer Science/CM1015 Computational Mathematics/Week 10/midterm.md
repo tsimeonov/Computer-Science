@@ -547,4 +547,63 @@ Final Answer
 Combining the results from both cases and ordering them from smallest to largest, the solutions are:
 
 $x \in \{0^\circ, 45^\circ, 135^\circ, 180^\circ, 225^\circ, 315^\circ, 360^\circ\}$
+
+
+#### (d)
+
+Group Terms
+
+It is often helpful to group the first and last terms
+
+($\sin x$ and $\sin 3x$) because their average angle is $2x$, which matches the middle term.
+
+$$(\sin 3x + \sin x) + \sin 2x = 0$$
+
+Apply Sum-to-Product Formulas
+
+Use the identity $\sin A + \sin B = 2 \sin(\frac{A+B}{2}) \cos(\frac{A-B}{2})$.Here, $A = 3x$ and $B = x$.
+
+verage angle: $\frac{3x+x}{2} = 2x$
+Difference angle: $\frac{3x-x}{2} = x$
+
+So, $(\sin 3x + \sin x)$ becomes $2 \sin(2x) \cos(x)$.
+
+Substitute this back into the equation:
+
+$$2 \sin(2x) \cos(x) + \sin(2x) = 0$$
+
+Factor the Equation
+
+Now, we can factor out the common term $\sin(2x)$:
+
+$$\sin(2x) [2 \cos(x) + 1] = 0$$
+
+This gives us two separate equations to solve:
+
+$\sin(2x) = 0$
+$2 \cos(x) + 1 = 0$
+
+Solve the First Part: $\sin(2x) = 0$
+
+We know $\sin(\theta) = 0$ when $\theta$ is a multiple of $180^\circ$ ($0^\circ, 180^\circ, 360^\circ, \dots$).Since our range for $x$ is $0^\circ$ to $360^\circ$, the range for $2x$ is $0^\circ$ to $720^\circ$.
+
+Possible values for $2x$:
+
+$$2x = 0^\circ, 180^\circ, 360^\circ, 540^\circ, 720^\circ$$
+
+Dividing by 2 gives the values for $x$:
+
+$$x = 0^\circ, 90^\circ, 180^\circ, 270^\circ, 360^\circ$$
+
+Solve the Second Part: $2 \cos(x) + 1 = 0$
+
+Rearrange to solve for $\cos(x)$:$$2 \cos(x) = -1$$$$\cos(x) = -\frac{1}{2}$$
+
+Cosine is negative in Quadrants II and III. The reference angle where $\cos(\theta) = 1/2$ is $60^\circ$.
+
+- Quadrant II: $180^\circ - 60^\circ = \mathbf{120^\circ}$
+- Quadrant III: $180^\circ + 60^\circ = \mathbf{240^\circ}$
+
+
+Combining all solutions and listing them in order:$$x \in \{0^\circ, 90^\circ, 120^\circ, 180^\circ, 240^\circ, 270^\circ, 360^\circ\}$$
 $$
