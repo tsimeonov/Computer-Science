@@ -294,3 +294,25 @@ Numbers satisfying $x \equiv 3 \pmod 7$:
 - $x = 3$ ($3 \div 6$ leaves remainder 3) — No
 - $x = 10$ ($10 \div 6$ leaves remainder 4) — No
 - $x = 17$ ($17 \div 6$ leaves remainder 5) — Yes!
+
+#### (b)
+
+1. Calculate the Remainder
+
+We need to find $224 \pmod{24}$.
+We know that $24 \times 10 = 240$.
+$240$ is exactly 10 full days.
+Subtracting 24 from 240 gives us $216$ ($24 \times 9 = 216$).
+The difference between the total hours (224) and the last full day (216) is:$$224 - 216 = 8 \text{ hours}$$
+
+So, 224 hours is equivalent to 9 full days and 8 hours.
+
+2. Apply the Elapsed Time
+
+Now, add the remaining 8 hours to the current time:
+
+- Current Time: 14:00
+- Elapsed Hours: + 8 hours
+- Calculation: $14 + 8 = 22$
+
+ConclusionThe clock will show 22:00.
