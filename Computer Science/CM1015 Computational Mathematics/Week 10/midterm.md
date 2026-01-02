@@ -316,3 +316,29 @@ Now, add the remaining 8 hours to the current time:
 - Calculation: $14 + 8 = 22$
 
 ConclusionThe clock will show 22:00.
+
+(c)
+
+Find the Least Common Multiple (LCM)
+
+| Prime | Highest power |
+| :---: | :-----------: |
+|   2   |    $2^3$=8    |
+|   3   |    $3^2$=9    |
+|   5   |    $5^1$=5    |
+|   7   |    $7^1$=7    |
+
+Multiply these highest powers together:
+
+$$\text{LCM} = 8 \times 9 \times 5 \times 7$$
+$$\text{LCM} = 72 \times 35$$
+$$\text{LCM} = 2,520$$
+
+Then we solve for x
+
+We know that $x + 1 = 2,520$.Therefore:
+
+$$x = 2,520 - 1$$
+$$x = 2,519$$
+
+AnswerThe smallest positive integer is 2,519.
