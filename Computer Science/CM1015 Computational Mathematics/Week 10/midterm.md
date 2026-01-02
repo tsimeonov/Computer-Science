@@ -238,3 +238,41 @@ The terms of the GP are defined as $T_n = ar^{n-1}$.
   $$r^2 = 1$$
 
   $$r = \pm 1$$
+
+#### (d)
+
+1. The First 6 Books (Full Price)The prices follow a geometric progression where the first term $a = 3$ and the common ratio $r = 2$.
+
+The prices are:
+
+- Book 1: £3
+- Book 2: £6
+- Book 3: £12
+- Book 4: £24
+- Book 5: £48
+- Book 6: £96
+
+Sum of first 6 books:$3 + 6 + 12 + 24 + 48 + 96 = \mathbf{£189}$
+
+2. The Last 4 Books (Discounted)
+
+First, let's find what these books would have cost at full price by continuing the doubling pattern:
+
+- Book 7: $96 \times 2 = £192$
+- Book 8: $192 \times 2 = £384$
+- Book 9: $384 \times 2 = £768$
+- Book 10: $768 \times 2 = £1,536$
+
+Total "Full Price" for books 7–10:$192 + 384 + 768 + 1,536 = £2,880$
+
+Apply the 15% discount:If the discount is 15%, Ben pays 85% of the price (1$100\% - 15\% = 85\%$).
+
+2$$2,880 \times 0.85 = \mathbf{£2,448}$$
+
+3. Total Expenditure
+
+Now, add the two totals together:
+
+$$£189 \text{ (Books 1-6)} + £2,448 \text{ (Books 7-10)} = \mathbf{£2,637}$$
+
+Total Amount Paid: £2,637
