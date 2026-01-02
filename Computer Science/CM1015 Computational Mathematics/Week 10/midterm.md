@@ -448,3 +448,48 @@ To find $x$, we take the inverse cosine ($\arccos$) of the fraction we found.
 $$x = \cos^{-1}\left(\frac{2}{7}\right)$$
 
 Using a calculator:$$x \approx 73.39845...^\circ$$Rounding to 2 decimal places:$$C \approx 73.40^\circ$$
+
+#### (b)
+
+To find the angle $A$, we can adapt the area formula provided. The general formula for the area of a triangle given two sides and the included angle is:
+
+$$
+Area = \frac{1}{2} \times \text{side}_1 \times \text{side}_2 \times \sin(\text{Included Angle})
+
+$$In this problem, the sides $AB$ and $AC$ meet at angle $A$.
+
+1. Set up the Equation
+
+Substitute the given values ($AB=10$, $AC=13$, $Area=30$) into the formula:
+
+$$30 = \frac{1}{2} \times 10 \times 13 \times \sin(A)$$
+
+2. Solve for $\sin(A)$
+
+First, multiply the constants on the right side:
+
+$$30 = 5 \times 13 \times \sin(A)$$
+$$30 = 65 \sin(A)$$
+
+Now, isolate $\sin(A)$:
+
+$$\sin(A) = \frac{30}{65}$$
+
+Simplifying the fraction by dividing top and bottom by 5:
+
+$$\sin(A) = \frac{6}{13}$$
+
+3. Calculate Angle $A$
+
+To find the angle, we take the inverse sine ($\sin^{-1}$) of the fraction. Note that there are two possible angles between $0^\circ$ and $180^\circ$ that have a positive sine value: one acute and one obtuse.
+
+Case 1: Acute Angle
+
+$$A = \sin^{-1}\left(\frac{6}{13}\right)$$
+$$A \approx 27.49^\circ$$
+
+Case 2: Obtuse Angle
+
+$$A = 180^\circ - 27.49^\circ$$
+$$A \approx 152.51^\circ$$
+$$
