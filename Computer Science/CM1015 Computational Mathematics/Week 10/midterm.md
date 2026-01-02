@@ -652,4 +652,44 @@ $$s = 45 \, \text{m}$$
 
 
 Conclusion: 45m, 3s
+
+
+#### (b)
+
+(i.)
+
+The domain is the set of all real numbers $x$ for which the function is defined. The function is undefined where the denominator is zero.Set the denominator to zero:$$x^2 + 9x - 22 = 0$$Factor the quadratic:$$(x + 11)(x - 2) = 0$$Identify excluded values:$$x = -11 \quad \text{and} \quad x = 2$$Answer:The domain is $x \in \mathbb{R}, x \neq -11, x \neq 2$.Interval notation: $(-\infty, -11) \cup (-11, 2) \cup (2, \infty)$.
+
+(ii.)
+
+To find the range, we determine which values $y$ can take. We set $y = f(x)$ and rearrange to form a quadratic equation in terms of $x$.
+
+Set up the equation:
+
+$$y = \frac{x-3}{x^2+9x-22}$$
+$$y(x^2+9x-22) = x-3$$
+$$yx^2 + 9yx - 22y - x + 3 = 0$$
+$$yx^2 + (9y - 1)x + (3 - 22y) = 0$$
+
+Analyze the Discriminant ($\Delta$):For $x$ to be a real number, the discriminant of this quadratic must be non-negative ($\Delta \ge 0$).
+
+$$\Delta = b^2 - 4ac$$
+$$\Delta = (9y - 1)^2 - 4(y)(3 - 22y)$$
+$$\Delta = (81y^2 - 18y + 1) - (12y - 88y^2)$$
+$$\Delta = 169y^2 - 30y + 1$$
+
+Solve the inequality $169y^2 - 30y + 1 \ge 0$:
+
+First, find the roots of $169y^2 - 30y + 1 = 0$:$$y = \frac{-(-30) \pm \sqrt{(-30)^2 - 4(169)(1)}}{2(169)}$$
+
+$$y = \frac{30 \pm \sqrt{900 - 676}}{338} = \frac{30 \pm \sqrt{224}}{338}$$
+
+$$y = \frac{30 \pm 4\sqrt{14}}{338} = \frac{15 \pm 2\sqrt{14}}{169}$$
+
+Approximate values:
+$y_1 \approx 0.0445$
+
+$y_2 \approx 0.1330$
+
+Since the quadratic in $y$ opens upwards, the inequality holds outside the roots.Answer:The range is:$$y \in \left(-\infty, \frac{15 - 2\sqrt{14}}{169}\right] \cup \left[\frac{15 + 2\sqrt{14}}{169}, \infty\right)$$Approximate Range: $y \in (-\infty, 0.044] \cup [0.133, \infty)$(There is a "gap" in the y-values between roughly 0.044 and 0.133)
 $$
