@@ -11,12 +11,19 @@ prev.addEventListener('click', () => {
 	if (currentActive < 1) {
 		currentActive = 1;
 	}
+	update();
+
+	// console.log(`currentActive: ${currentActive}`);
 });
+
 next.addEventListener('click', () => {
 	currentActive++;
 	if (currentActive > circles.length) {
 		currentActive = circles.length;
 	}
+
+	update();
+	// console.log(`currentActive: ${currentActive}`);
 });
 
 function update() {
@@ -26,6 +33,7 @@ function update() {
 		} else {
 			circle.classList.remove('active');
 		}
+		console.log(`idx: ${idx} | currentActive: ${currentActive}`);
 	});
 
 	const actives = document.querySelectorAll('.active');
