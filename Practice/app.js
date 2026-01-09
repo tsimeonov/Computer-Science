@@ -24,27 +24,3 @@ prev.addEventListener('click', () => {
 
 	update();
 });
-
-function update() {
-	cirlces.forEach((circle, index) => {
-		if (index < currentActive) {
-			circle.classList.add('active');
-		} else {
-			cirlces.classList.remove('active');
-		}
-	});
-
-	const actives = document.querySelectorAll('.active');
-
-	progress.style.width =
-		((actives.length - 1) / (cirlces.length - 1)) * 100 + '%';
-
-	if (currentActive === 1) {
-		prev.disabled = true;
-	} else if (currentActive === cirlces.length) {
-		next.disabled = true;
-	} else {
-		prev.disabled = false;
-		next.disabled = false;
-	}
-}
