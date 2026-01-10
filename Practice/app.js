@@ -18,7 +18,7 @@ prev.addEventListener('click', () => {
 next.addEventListener('click', () => {
 	currentActive++;
 
-	if (currentActive > 1) {
+	if (currentActive > cirlces.length) {
 		currentActive = cirlces.length;
 	}
 
