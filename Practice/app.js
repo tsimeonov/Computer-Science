@@ -1,46 +1,47 @@
 const progress = document.getElementById('progress');
 const prev = document.getElementById('prev');
 const next = document.getElementById('next');
-const cirles = document.querySelectorAll('.circle');
+const circles = document.querySelectorAll('.circle');
 
-let currentActives = 1;
+let currentActive = 1;
 
 next.addEventListener('click', () => {
-	currentActives++;
+	currentActive++;
 
-	if (currentActives > cirles.length) {
-		currentActives = cirles.length;
+	if (currentActive > circles.length) {
+		currentActive = circles.length;
 	}
 
 	update();
 });
 
 prev.addEventListener('click', () => {
-	currentActives--;
+	currentActive--;
 
-	if (currentActives < 1) {
-		currentActives = 1;
+	if (currentActive < 1) {
+		currentActive = 1;
 	}
 
 	update();
 });
 
 function update() {
-	cirles.forEach((circle, index) => {
-		if (index < currentActives) {
+	circles.forEach((circle, index) => {
+		if (index < currentActive) {
 			circle.classList.add('active');
 		} else {
-			circle.classList.remove('actives');
+			circle.classList.remove('active');
 		}
 	});
 
 	const actives = document.querySelectorAll('.active');
 
-	progress.style.width = ((actives.length - 1) / cirles.length) * 100 + '%';
+	progress.style.width =
+		((actives.length - 1) / (circles.length - 1)) * 100 + '%';
 
-	if (currentActives === 1) {
+	if (currentActive === 1) {
 		prev.disabled = true;
-	} else if (currentActives === circle.length) {
+	} else if (currentActive === circles.length) {
 		next.disabled = true;
 	} else {
 		prev.disabled = false;
