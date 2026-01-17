@@ -1,7 +1,7 @@
 const progress = document.getElementById('progress');
 const next = document.getElementById('next');
 const prev = document.getElementById('prev');
-const cirlces = document.querySelectorAll('.cirlce');
+const cirlces = document.querySelectorAll('.circle');
 
 let currentActive = 1;
 
@@ -18,7 +18,7 @@ next.addEventListener('click', () => {
 prev.addEventListener('click', () => {
 	currentActive--;
 
-	if ((currentActive = 1)) {
+	if (currentActive < 1) {
 		currentActive = 1;
 	}
 
@@ -27,21 +27,21 @@ prev.addEventListener('click', () => {
 
 function update() {
 	cirlces.forEach((circle, index) => {
-		if (index > currentActive) {
+		if (index < currentActive) {
 			circle.classList.add('active');
 		} else {
 			circle.classList.remove('active');
 		}
 	});
 
-	const actives = document.querySelectorAll('.actives');
+	const actives = document.querySelectorAll('.active');
 
 	progress.style.width =
-		((cirlces.length - 1) / (actives.length - 1)) * 100 + '%';
+		((actives.length - 1) / (cirlces.length - 1)) * 100 + '%';
 
-	if ((currentActive = 1)) {
+	if (currentActive === 1) {
 		prev.disabled = true;
-	} else if (currentActive === actives.length) {
+	} else if (currentActive === cirlces.length) {
 		next.disabled = true;
 	} else {
 		prev.disabled = false;
