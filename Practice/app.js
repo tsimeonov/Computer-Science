@@ -5,9 +5,19 @@ const cirlces = document.querySelectorAll('.cirlce');
 
 let currentActive = 1;
 
+next.addEventListener('click', () => {
+	currentActive++;
+
+	if (currentActive > cirlces.length) {
+		currentActive = cirlces.length;
+	}
+
+	update();
+});
+
 function update() {
 	cirlces.forEach((circle, index) => {
-		if (index > cirlces.length) {
+		if (index < currentActive) {
 			circle.classList.add('active');
 		} else {
 			circle.classList.remove('active');
@@ -20,7 +30,7 @@ function update() {
 		((actives.length - 1) / (cirlces.length - 1)) * 100 + '%';
 
 	if (currentActive === 1) {
-		prev.disabled = ture;
+		prev.disabled = true;
 	} else if (currentActive === cirlces.length) {
 		next.disabled = true;
 	} else {
