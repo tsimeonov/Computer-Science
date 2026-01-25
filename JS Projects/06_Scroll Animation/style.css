@@ -9,6 +9,7 @@ body {
 	align-items: center;
 	margin-top: 0;
 	background-color: #efedd6;
+	overflow-x: hidden;
 }
 
 h1 {
