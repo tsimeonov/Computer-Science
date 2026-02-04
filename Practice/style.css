@@ -32,7 +32,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	transform: translateX(400%);
-	transition: all 0.4 ease-in-out;
+	transition: transform 0.4s ease-in-out;
 }
 
 .box:nth-of-type(even) {
@@ -40,5 +40,5 @@ body {
 }
 
 .box.show {
-	transform: translateY(0);
+	transform: translateX(0);
 }
