@@ -20,29 +20,3 @@ body {
 	overflow-x: hidden;
 	background-color: #efedd6;
 }
-
-.box {
-	background-color: steelblue;
-	width: 600px;
-	height: 300px;
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 15px;
-	border-radius: 40px;
-	transform: translateX(400%);
-	transition: all 0.9s ease-in-out;
-}
-
-.box:nth-of-type(even) {
-	transform: translateX(-400%);
-}
-
-.box.show {
-	transform: translateX(0);
-}
-
-.box h2 {
-	font-size: 50px;
-}
