@@ -20,3 +20,25 @@ body {
 	overflow-x: hidden;
 	background-color: #efedd6;
 }
+
+.box {
+	background-color: steelblue;
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+	border-radius: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	transform: translateX(-400%);
+	transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+	transform: translateX(400%);
+}
+
+.box.show {
+	transform: translateX(0);
+}
