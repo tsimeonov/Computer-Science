@@ -10,6 +10,9 @@ let data = [];
 getRandomUser();
 getRandomUser();
 getRandomUser();
+getRandomUser();
+getRandomUser();
+getRandomUser();
 
 // fetch random ue rand add money
 async function getRandomUser() {
@@ -46,8 +49,18 @@ function updateDOM(providedData = data) {
 		const element = document.createElement('div');
 		element.classList.add('person');
 
-		element.innerHTML = `<strong>${item.name}</strong> ${item.money}`;
+		element.innerHTML = `<strong>${item.name}</strong> ${formatMoney(
+			item.money
+		)}`;
 
 		main.appendChild(element);
 	});
 }
+
+// Format number as number
+function formatMoney(number) {
+	return '$' + number.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+}
+
+// Event Listeners
+addUserBtn.addEventListener('click', getRandomUser);
