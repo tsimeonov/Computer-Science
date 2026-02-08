@@ -10,9 +10,6 @@ let data = [];
 getRandomUser();
 getRandomUser();
 getRandomUser();
-getRandomUser();
-getRandomUser();
-getRandomUser();
 
 // fetch random ue rand add money
 async function getRandomUser() {
@@ -63,6 +60,17 @@ function sortByRichest() {
 	updateDOM();
 }
 
+// Calculate total wealth
+function calculateWealth() {
+	const wealth = data.reduce((acc, user) => (acc += user.money), 0);
+
+	const wealthElm = document.createElement('div');
+	wealthElm.innerHTML = `<h3>Total Wealth: <strong>${formatMoney(
+		wealth
+	)}</strong></h3>`;
+	main.appendChild(wealthElm);
+}
+
 // Update DOM
 function updateDOM(providedData = data) {
 	// Clear main div
@@ -90,3 +98,4 @@ addUserBtn.addEventListener('click', getRandomUser);
 doubleBtn.addEventListener('click', doubleMoney);
 sortBtn.addEventListener('click', sortByRichest);
 ShowMillionairesBtn.addEventListener('click', showMillionaires);
+calculateWealthBtn.addEventListener('click', calculateWealth);
