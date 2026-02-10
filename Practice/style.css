@@ -11,3 +11,69 @@ body {
 	min-height: 100vh;
 	margin: 0;
 }
+
+.container {
+	display: flex;
+	padding: 20px;
+	margin: 0 20px;
+	max-width: 100%;
+	width: 800px;
+	outline: 1px solid red;
+}
+
+aside {
+	padding: 10px 20px;
+	width: 250px;
+	border-right: 1px solid black;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 8px;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+main {
+	flex: 1;
+	padding: 10px 20px;
+}
+
+h2 {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 300;
+	margin: 0 0 20px;
+}
+
+h2 strong {
+	font-weight: bold;
+}
+
+h3 {
+	background-color: white;
+	border-bottom: 1px solid #111;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 300;
+	margin: 20px 0 0;
+}
+
+.person {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
