@@ -11,7 +11,7 @@ getRandomUser();
 getRandomUser();
 getRandomUser();
 
-// fetch random ue rand add money
+// fetch random user and add money
 async function getRandomUser() {
 	const res = await fetch('https://randomuser.me/api');
 	const data = await res.json();
