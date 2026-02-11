@@ -5,7 +5,7 @@ const showMillionerBtn = document.getElementById('show-millionaires');
 const sortBtn = document.getElementById('sort');
 const calculateWealthBtn = document.getElementById('calculate-wealth');
 
-// let data = [];
+let data = [];
 
 getRandomUser();
 getRandomUser();
@@ -13,14 +13,13 @@ getRandomUser();
 
 // fetch random user and add money
 async function getRandomUser() {
-	// const res = await fetch('https://jsonplaceholder.typicode.com/users');
 	const res = await fetch('https://corsproxy.io/?https://randomuser.me/api');
 
-	const data = await res.json();
+	const resData = await res.json();
 
 	console.log(data);
 
-	const user = data.results[0];
+	const user = resData.results[0];
 
 	const newUser = {
 		name: `${user.name.first} ${user.name.last}`,
@@ -49,9 +48,8 @@ function updateDOM(providedData = data) {
 		element.innerHTML = `<strong>${item.name}</strong> ${formatMoney(
 			item.money
 		)}`;
+		main.appendChild(element);
 	});
-
-	main.appendChild(element);
 }
 
 // Format number as number
