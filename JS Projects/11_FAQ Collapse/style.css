@@ -27,3 +27,7 @@ h1 {
 	overflow: hidden;
 	transition: 0.3s ease;
 }
+
+.faq.active {
+	background-color: white;
+}
