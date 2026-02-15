@@ -20,7 +20,7 @@ body {
 }
 
 nav {
-	background-color: white;
+	background-color: #fff;
 	padding: 20px;
 	width: 80px;
 	display: flex;
@@ -29,11 +29,13 @@ nav {
 	border-radius: 3px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	transition: width 0.6s linear;
+	overflow-x: hidden;
 }
 
 nav.active {
 	width: 350px;
 }
+
 nav ul {
 	display: flex;
 	list-style-type: none;
@@ -60,13 +62,13 @@ nav.active ul li {
 
 nav ul a {
 	position: relative;
-	color: black;
+	color: #000;
 	text-decoration: none;
 	margin: 0 10px;
 }
 
 .icon {
-	background-color: white;
+	background-color: #fff;
 	border: 0;
 	cursor: pointer;
 	padding: 0;
@@ -83,9 +85,9 @@ nav ul a {
 	background-color: #5290f9;
 	height: 2px;
 	width: 20px;
+	position: absolute;
 	top: 10px;
 	left: 5px;
-	position: absolute;
 	transition: transform 0.6s linear;
 }
 
