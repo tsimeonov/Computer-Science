@@ -11,25 +11,3 @@ body {
 	background-color: lightblue;
 	overflow-x: hidden;
 }
-
-.box {
-	background-color: steelblue;
-	width: 500px;
-	height: 300px;
-	margin: 10px;
-	border-radius: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	transform: translateX(400%);
-	transition: transform 0.4s ease-in-out;
-}
-
-.box:nth-of-type(even) {
-	transform: translateX(-400%);
-}
-
-.box.show {
-	transform: translateX(0);
-}
