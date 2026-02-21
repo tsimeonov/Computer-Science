@@ -46,3 +46,19 @@ h1 {
 	left: 20px;
 	z-index: 0;
 }
+
+.faq.active:before {
+	color: blue;
+	top: -10px;
+	left: -30px;
+	transform: rotateY(180deg);
+}
+
+.faq-title {
+	margin: 0 35px 0 0;
+}
+
+.faq-text {
+	display: none;
+	margin: 30px 0 0;
+}
