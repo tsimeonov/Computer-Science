@@ -6,13 +6,13 @@ const dateEl = document.querySelector('.date');
 const toggle = document.querySelector('.toggle');
 
 const days = [
+	'Sunday',
 	'Monday',
 	'Tuesday',
 	'Wednesday',
 	'Thursday',
 	'Friday',
 	'Saturday',
-	'Sunday',
 ];
 
 const months = [
@@ -46,11 +46,12 @@ function setTime() {
 	const day = time.getDay();
 	const date = time.getDate();
 	const hours = time.getHours();
-	const hoursForClock = (hours) => (13 ? hours % 12 : hours);
+	const hoursForClock = hours >= (13 ? hours % 12 : hours);
 	const minutes = time.getMinutes();
 	const seconds = time.getSeconds();
 	const ampm = hours >= 12 ? 'PM' : 'AM';
 
+	// Hour hand
 	hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(
 		hoursForClock,
 		0,
@@ -58,6 +59,8 @@ function setTime() {
 		0,
 		360
 	)}deg)`;
+
+	// Minute Hand
 	minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(
 		minutes,
 		0,
@@ -65,7 +68,9 @@ function setTime() {
 		0,
 		360
 	)}deg)`;
-	secondEl.style.transform = `transform(-50%, -100%) rotate(${scale(
+
+	// Second hand
+	secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(
 		seconds,
 		0,
 		60,
