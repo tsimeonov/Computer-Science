@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #000;
-	--secondaty-color: #fff;
+	--secondary-color: #fff;
 }
 
 * {
@@ -22,14 +22,14 @@ body {
 	height: 150px;
 	width: 150px;
 	margin: 10px;
-	border: 1px solid black;
+	border: solid 1px black;
 	background: white;
 }
 
 .fill {
 	background-image: url('https://unsplash.com/blog/content/images/2025/11/3D---Blog.jpg');
-	height: 145px;
-	width: 145px;
+	height: 148px;
+	width: 148px;
 	background-size: contain;
 	cursor: pointer;
 }
