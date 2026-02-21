@@ -1,0 +1,9 @@
+:root {
+	--primary-color: #000;
+	--secondaty-color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
