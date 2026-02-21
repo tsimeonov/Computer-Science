@@ -53,3 +53,17 @@ main {
 	overflow: hidden;
 	border-radius: 5px;
 }
+
+.movie img {
+	width: 100%;
+}
+
+.move-info {
+	color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.3rem;
+	padding: 0.5rem 1rem 1rem;
+	letter-spacing: 0.5px;
+}
