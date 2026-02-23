@@ -1,4 +1,4 @@
-const button = document.getElementById('button');
+const button = document.getElementById('btn');
 const toasts = document.getElementById('toasts');
 
 const messages = [
@@ -9,6 +9,8 @@ const messages = [
 ];
 
 const types = ['info', 'success', 'error'];
+
+button.addEventListener('click', () => createNotification());
 
 function createNotification(message = null, type = null) {
 	const notification = document.createElement('div');
@@ -21,8 +23,7 @@ function createNotification(message = null, type = null) {
 
 	setInterval(() => {
 		notification.remove();
-	}),
-		3000;
+	}, 3000);
 }
 
 function getRandomMessage() {
