@@ -19,8 +19,7 @@ async function getUser(username) {
 
 async function getRepos(username) {
 	try {
-		const { data } = await axios(APIURL + username + '/repos ? sort = created');
-
+		const { data } = await axios(APIURL + username + '/repos?sort = created');
 		addReposToCard(data);
 	} catch (err) {
 		createErrorCard('Problem fetching repos');
@@ -39,9 +38,9 @@ function createUserCard(user) {
 				<h2>${userID}</h2>
 				${userBio}
 				<ul>
-					<li>${user.followers} <strong>Followers</strogn></li>
-					<li>${user.following} <strong>Following</strogn></li>
-					<li>${user.public_repos} <strong>Repos</strogn></li>
+					<li>${user.followers} <strong>Followers</strong></li>
+					<li>${user.following} <strong>Following</strong></li>
+					<li>${user.public_repos} <strong>Repos</strong></li>
 				</ul>
 				<div id="repos"></div>
 			</div>
@@ -51,8 +50,19 @@ function createUserCard(user) {
 	main.innerHTML = cardHTML;
 }
 
+function createErrorCard(msg) {
+	const cardHTML = `
+	<div class="card">
+		<h1>${msg}</h1>
+	</div>`;
+
+	main.innerHTML = cardHTML;
+}
+
 function addReposToCard(repos) {
 	const reposEl = document.getElementById('repos');
+
+	reposEl.innerHTML = '';
 
 	repos.slice(0, 5).forEach((repos) => {
 		const repoEl = document.createElement('a');
