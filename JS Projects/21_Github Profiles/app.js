@@ -70,6 +70,8 @@ function addReposToCard(repos) {
 		repoEl.href = repoEl.html_url;
 		repoEl.target = '_blank';
 		repoEl.innerText = repoEl.name;
+
+		reposEl.appendChild(repoEl);
 	});
 }
 
