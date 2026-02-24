@@ -16,3 +16,37 @@ async function getUser(username) {
 		}
 	}
 }
+
+async function getRepos(username) {
+	try {
+		const { data } = await axios(APIURL + username + '/repos ? sort = created');
+
+		addReposToCard(data);
+	} catch (err) {
+		createErrorCard('Problem fetching repos');
+	}
+}
+
+function createUserCard(user) {
+	const userID = user.name || user.login;
+	const userBio = user.bio ? `<p>${user.bio}</p>` : '';
+	const cardHTML = `
+		<div class="card">
+			<div>
+				<img src="${user.avatar_url}" alt="${user.name}" class="avatar"/>
+			</div>
+			<div class="user-info">
+				<h2>${userID}</h2>
+				${userBio}
+				<ul>
+					<li>${user.followers} <strong>Followers</strogn></li>
+					<li>${user.following} <strong>Following</strogn></li>
+					<li>${user.public_repos} <strong>Repos</strogn></li>
+				</ul>
+				<div id="repos"></div>
+			</div>
+		</div>
+	`;
+
+	main.innerHTML = cardHTML;
+}
