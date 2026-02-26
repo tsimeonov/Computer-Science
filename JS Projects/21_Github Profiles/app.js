@@ -19,7 +19,7 @@ async function getUser(username) {
 
 async function getRepos(username) {
 	try {
-		const { data } = await axios(APIURL + username + '/repos?sort = created');
+		const { data } = await axios(APIURL + username + '/repos?sort=created');
 		addReposToCard(data);
 	} catch (err) {
 		createErrorCard('Problem fetching repos');
@@ -64,14 +64,14 @@ function addReposToCard(repos) {
 
 	reposEl.innerHTML = '';
 
-	repos.slice(0, 5).forEach((repos) => {
-		const repoEl = document.createElement('a');
-		repoEl.classList.add('repo');
-		repoEl.href = repoEl.html_url;
-		repoEl.target = '_blank';
-		repoEl.innerText = repoEl.name;
+	repos.slice(0, 5).forEach((repo) => {
+		const repoLink = document.createElement('a');
+		repoLink.classList.add('repo');
+		repoLink.href = repo.html_url;
+		repoLink.target = '_blank';
+		repoLink.innerText = repo.name;
 
-		reposEl.appendChild(repoEl);
+		reposEl.appendChild(repoLink);
 	});
 }
 
