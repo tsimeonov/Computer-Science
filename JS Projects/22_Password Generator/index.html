@@ -7,9 +7,39 @@
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-		<title>Github Profiles</title>
+		<title>Password Generator</title>
 	</head>
 	<body>
+		<div class="container">
+			<h2>Password Generator</h2>
+			<div class="result-container">
+				<span id="result"></span>
+				<button id="clipboard">
+					<i class="far fa-clipboard"></i>
+				</button>
+			</div>
+
+			<div class="settings">
+				<div class="setting">
+					<label>Password Length</label>
+					<input type="number" id="length" min="4" max="20" value="20" />
+				</div>
+				<div class="setting">
+					<label>Include uppercase letters</label>
+					<input type="checkbox" id="uppercase" checked />
+				</div>
+				<div class="setting">
+					<label>Include lowercase letters</label>
+					<input type="checkbox" id="lowercase" checked />
+				</div>
+				<div class="setting">
+					<label>Include numbers</label>
+					<input type="checkbox" id="numbers" checked />
+				</div>
+			</div>
+
+			<button class="btn btn-large" id="generate">Generate Password</button>
+		</div>
 		<script src="app.js"></script>
 	</body>
 </html>
