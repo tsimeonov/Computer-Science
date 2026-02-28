@@ -14,6 +14,23 @@ const randomFunc = {
 	symbol: getRandomSymbol,
 };
 
+clipboardEl.addEventListener('click', () => {
+	const password = resultEl.innerText;
+	if (!password) {
+		return;
+	}
+	navigator.clipboard.writeText(password);
+	alert(`Password copied to clipboard`);
+});
+
+generateEl.addEventListener('click', () => {
+	const length = +lengthEl.value;
+	const hasLower = lowercaseEl.checked;
+	const hasUpper = uppercaseEl.checked;
+	const hasNumber = numberstEl.checked;
+	const hasSymbol = symbolsEl.checked;
+});
+
 function generatePassword(lower, upper, number, symbol, length) {
 	let generatePassword = '';
 	const typesCount = lower + upper + number + symbol;
