@@ -2,7 +2,7 @@ const resultEl = document.getElementById('result');
 const lengthEl = document.getElementById('length');
 const uppercaseEl = document.getElementById('uppercase');
 const lowercaseEl = document.getElementById('lowercase');
-const numberstEl = document.getElementById('numbers');
+const numbersEl = document.getElementById('numbers');
 const symbolsEl = document.getElementById('symbols');
 const generateEl = document.getElementById('generate');
 const clipboardEl = document.getElementById('clipboard');
@@ -23,11 +23,12 @@ clipboardEl.addEventListener('click', () => {
 	alert(`Password copied to clipboard`);
 });
 
+// Generate Event Listener
 generateEl.addEventListener('click', () => {
 	const length = +lengthEl.value;
 	const hasLower = lowercaseEl.checked;
 	const hasUpper = uppercaseEl.checked;
-	const hasNumber = numberstEl.checked;
+	const hasNumber = numbersEl.checked;
 	const hasSymbol = symbolsEl.checked;
 });
 
