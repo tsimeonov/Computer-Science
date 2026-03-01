@@ -17,7 +17,7 @@ function searchMeal(e) {
 
 	// Check for empty
 	if (term.trim()) {
-		fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=${term}')
+		fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${term}`)
 			.then((res) => res.json())
 			.then((data) => {
 				console.log(data);
@@ -29,12 +29,11 @@ function searchMeal(e) {
 					mealsEl.innerHTML = data.meals
 						.map(
 							(meal) => `
-						<div>
-							<img src="${meal.strMealThumb}" alt="${meal.strMeal}"/>
-							<div class="meal-info" data-mealId="${meal.idMeal}">
-							</div>
-						</div>
-						`
+    <div class="meal"> <img src="${meal.strMealThumb}" alt="${meal.strMeal}"/>
+        <div class="meal-info" data-mealid="${meal.idMeal}">
+            <h3>${meal.strMeal}</h3> </div>
+    </div>
+`
 						)
 						.join('');
 				}
@@ -48,7 +47,7 @@ function searchMeal(e) {
 
 // Fetch meal by ID
 function getMealById(mealId) {
-	fetch('https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}')
+	fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`)
 		.then((res) => res.json())
 		.then((data) => {
 			const meal = data.meals[0];
@@ -77,9 +76,9 @@ function addMealToDOM(meal) {
 	const ingredients = [];
 
 	for (let i = 1; i <= 20; i++) {
-		if (meal[`strIngredinet${i}`]) {
-			ingrediensts.push(
-				`${meal[`strIngredient${i}`]} - ${meal['strMeasure${i}']}`
+		if (meal[`strIngredient${i}`]) {
+			ingredients.push(
+				`${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}`
 			);
 		} else {
 			break;
