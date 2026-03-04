@@ -26,3 +26,6 @@ toggle.addEventListener('click', () => {
 	document.body.classList.toggle('show-nav');
 	document.body.addEventListener('click', closeNavbar);
 });
+
+// Show modal
+open.addEventListener('click', () => modal.classList.add('show-modal'));
