@@ -41,3 +41,18 @@ nav .logo img {
 	width: 75px;
 	border-radius: 50%;
 }
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+
+nav ul li {
+	border-bottom: 2px solid rgba(200, 200, 200, 0.2);
+	padding: 20px;
+}
+
+nav ul li:first-of-type {
+	border-top: 2px solid rgba(200, 200, 200, 0.2);
+}
