@@ -56,3 +56,13 @@ nav ul li {
 nav ul li:first-of-type {
 	border-top: 2px solid rgba(200, 200, 200, 0.2);
 }
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	transition: all 1s ease-in;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	transition: all 1s ease-in;
+}
