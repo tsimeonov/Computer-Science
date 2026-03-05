@@ -180,3 +180,12 @@ button:focus {
 	top: 0;
 	right: 0;
 }
+
+@keyframes modalOpen {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
