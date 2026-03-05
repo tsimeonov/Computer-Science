@@ -6,7 +6,7 @@ const navbar = document.getElementById('navbar');
 
 // This function closes the navbar if user clicks anywhere outside of navbar once it's opened
 
-function a(e) {
+function closeNavbar(e) {
 	if (
 		document.body.classList.contains('show-nav') &&
 		e.target !== toggle &&
@@ -22,9 +22,9 @@ function a(e) {
 }
 
 // Toggle nav
-toggle.addEventListener('click', () => {
+toggle.addEventListener('click', (e) => {
 	document.body.classList.toggle('show-nav');
-	document.body.addEventListener('click', closeNavbar);
+	e.stopPropagation();
 });
 
 // Show modal
