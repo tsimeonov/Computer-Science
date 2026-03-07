@@ -4,7 +4,7 @@ const money_minus = document.getElementById('money-minus');
 const list = document.getElementById('list');
 const form = document.getElementById('form');
 const text = document.getElementById('text');
-const amoun = document.getElementById('amoun');
+const amoun = document.getElementById('amount');
 
 const localStorageTransactions = JSON.parse(
 	localStorage.getItem('transactions')
@@ -17,7 +17,7 @@ let transactions =
 function addTransaction(e) {
 	e.preventDefault();
 
-	if (text.ariaValueMax.trim() === '' || amount.value.trim() === '') {
+	if (text.value.trim() === '' || amount.value.trim() === '') {
 		alert('Please add a text and amount');
 	} else {
 		const transaction = {
@@ -41,13 +41,13 @@ function addTransaction(e) {
 
 // Generate random ID
 function generateID() {
-	return Math.floor(Math.random() + 1000000);
+	return Math.floor(Math.random() * 1000000);
 }
 
 // Add transactions to DOM list
 function addTransactionDOM(transaction) {
 	// Get sign
-	const sign = transactions.amount < 0 ? '-' : '+';
+	const sign = transaction.amount < 0 ? '-' : '+';
 
 	const item = document.createElement('li');
 
@@ -57,7 +57,7 @@ function addTransactionDOM(transaction) {
 	item.innerHTML = `
 	${transaction.text} <span>${sign}${Math.abs(
 		transaction.amount
-	)}</span> <button class="delete-btn" onclick="removeTransaction">x</button>`;
+	)}</span> <button class="delete-btn" onclick="removeTransaction.id">x</button>`;
 
 	list.appendChild(item);
 }
@@ -102,9 +102,9 @@ function init() {
 	list.innerHTML = '';
 
 	transactions.forEach(addTransactionDOM);
-	updateValues;
+	updateValues();
 }
 
-init;
+init();
 
-form.addEventListener('sumbit', addTransaction);
+form.addEventListener('submit', addTransaction);
