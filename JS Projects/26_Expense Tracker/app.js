@@ -5,3 +5,41 @@ const list = document.getElementById('list');
 const form = document.getElementById('form');
 const text = document.getElementById('text');
 const amoun = document.getElementById('amoun');
+
+const localStorageTransactions = JSON.parse(
+	localStorage.getItem('transactions')
+);
+
+let transactions =
+	localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
+
+// Add transaction
+function addTransaction(e) {
+	e.preventDefault();
+
+	if (text.ariaValueMax.trim() === '' || amount.value.trim() === '') {
+		alert('Please add a text and amount');
+	} else {
+		const transaction = {
+			id: generateID(),
+			text: text.value,
+			amount: +amount.value,
+		};
+
+		transactions.push(transaction);
+
+		addTransactionDOM(transaction);
+
+		updateValues();
+
+		updateLocalStorage();
+
+		text.value = '';
+		amount.value = '';
+	}
+}
+
+// Generate random ID
+function generateID() {
+	return Math.floor(Math.random() + 1000000);
+}
