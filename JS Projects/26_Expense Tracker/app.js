@@ -43,3 +43,42 @@ function addTransaction(e) {
 function generateID() {
 	return Math.floor(Math.random() + 1000000);
 }
+
+// Add transactions to DOM list
+function addTransactionDOM(transaction) {
+	// Get sign
+	const sign = transactions.amount < 0 ? '-' : '+';
+
+	const item = document.createElement('li');
+
+	// Add class based on value
+	item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
+
+	item.innerHTML = `
+	${transaction.text} <span>${sign}${Math.abs(
+		transaction.amount
+	)}</span> <button class="delete-btn" onclick="removeTransaction">x</button>`;
+
+	list.appendChild(item);
+}
+
+// Update the balance, income and expence
+function updateValues() {
+	const amounts = transactions.map((transaction) => transaction.amount);
+
+	const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
+
+	const income = amounts
+		.filter((item) => item > 0)
+		.reduce((acc, item) => (acc += item), 0)
+		.toFixed(2);
+
+	const expence = (
+		amounts.filter((item) => item < 0).reduce((acc, item) => (acc += item), 0) *
+		-1
+	).toFixed(2);
+
+	balance.innerText = `$${total}`;
+	money_plus.innerText = `$${income}`;
+	money_minus.innerText = `$${expence}`;
+}
