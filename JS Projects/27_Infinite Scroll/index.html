@@ -7,11 +7,27 @@
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-		<title>Expense Tracker</title>
+		<title>Infinity Scroll</title>
 	</head>
 	<body>
+		<h1>My Blog</h1>
 
+		<div class="filter-container">
+			<input
+				type="text"
+				id="filter"
+				class="filter"
+				placeholder="Filter posts....." />
 		</div>
+
+		<div id="posts-container"></div>
+
+		<div class="loader">
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+		</div>
+
 		<script src="app.js"></script>
 	</body>
 </html>
