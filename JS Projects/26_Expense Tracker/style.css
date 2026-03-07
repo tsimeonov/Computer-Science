@@ -136,3 +136,23 @@ input[type='number'] {
 .list li.minus {
 	border-radius: 5px solid #c0392b;
 }
+
+.delete-btn {
+	cursor: pointer;
+	background-color: #e74c3c;
+	border: none;
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 2px 5px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(-100%, -50%);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+	opacity: 1;
+}
