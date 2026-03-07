@@ -82,3 +82,29 @@ function updateValues() {
 	money_plus.innerText = `$${income}`;
 	money_minus.innerText = `$${expence}`;
 }
+
+// Remove transaction ID
+function removeTransaction(id) {
+	transactions = transactions.filter((transaction) => transaction.id !== id);
+
+	updateLocalStorage();
+
+	init();
+}
+
+// Update local storage
+function updateLocalStorage() {
+	localStorage.setItem('transactions', JSON.stringify(transactions));
+}
+
+// Init app
+function init() {
+	list.innerHTML = '';
+
+	transactions.forEach(addTransactionDOM);
+	updateValues;
+}
+
+init;
+
+form.addEventListener('sumbit', addTransaction);
