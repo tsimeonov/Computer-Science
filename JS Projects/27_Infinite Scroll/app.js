@@ -1,4 +1,4 @@
-const postContainer = document.getElementById('post-container');
+const postContainer = document.getElementById('posts-container');
 const loading = document.querySelector('.loader');
 const filter = document.getElementById('filter');
 
@@ -72,8 +72,8 @@ showPosts();
 window.addEventListener('scroll', () => {
 	const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
 
-	if (scrollHeight - scroll === clientHeight) {
-		showLoading;
+	if (scrollHeight + clientHeight >= scrollHeight - 5) {
+		showLoading();
 	}
 });
 
