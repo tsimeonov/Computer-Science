@@ -39,7 +39,7 @@ let randomWord;
 let score = 0;
 
 // Init time
-let time = 0;
+let time = 10;
 
 let difficulty =
 	localStorage.getItem('difficulty') !== null
@@ -69,7 +69,13 @@ function addWordToDOM() {
 	word.innerHTML = randomWord;
 }
 
-// Update score
+// Update Score
+function updateScore() {
+	score++;
+	scoreEl.innerHTML = score;
+}
+
+// Update time
 function updateTime() {
 	time--;
 	timeEl.innerHTML = time + 's';
@@ -113,7 +119,7 @@ text.addEventListener('input', (e) => {
 			time += 5;
 		}
 
-		updateTime();
+		timeEl.innerHTML = time + 's';
 	}
 });
 
