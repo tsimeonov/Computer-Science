@@ -20,7 +20,7 @@ async function getPosts() {
 async function showPosts() {
 	const posts = await getPosts();
 
-	posts.foreEach((post) => {
+	posts.forEach((post) => {
 		const postEl = document.createElement('div');
 		postEl.classList.add('post');
 		postEl.innerHTML = `
@@ -51,7 +51,7 @@ function showLoading() {
 
 // Filter posts by input
 function filterPosts(e) {
-	const term = e.target.value.upperCase();
+	const term = e.target.value.toUpperCase();
 	const posts = document.querySelectorAll('.post');
 
 	posts.forEach((post) => {
@@ -59,9 +59,22 @@ function filterPosts(e) {
 		const body = post.querySelector('.post-body').innerText.toUpperCase();
 
 		if (title.indexOf(term) > -1 || body.indexOf(term) > -1) {
-			post.computedStyleMap.display = 'flex';
+			post.style.display = 'flex';
 		} else {
-			post.computedStyleMap.display = 'none';
+			post.style.display = 'none';
 		}
 	});
 }
+
+// Show initial posts
+showPosts();
+
+window.addEventListener('scroll', () => {
+	const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+
+	if (scrollHeight - scroll === clientHeight) {
+		showLoading;
+	}
+});
+
+filter.addEventListener('input', filterPosts);
