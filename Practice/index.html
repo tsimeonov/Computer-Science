@@ -3,90 +3,370 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<title>Scroll Animation</title>
-		<link rel="stylesheet" href="./style.css" />
+		<title>Glassmorphism Weather Pro</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+			rel="stylesheet" />
+
+		<style>
+			:root {
+				--bg-gradient: linear-gradient(
+					135deg,
+					#0f2027 0%,
+					#203a43 50%,
+					#2c5364 100%
+				);
+				--glass-bg: rgba(255, 255, 255, 0.1);
+				--glass-border: rgba(255, 255, 255, 0.15);
+				--text-color: #ffffff;
+				--accent: #4facfe;
+			}
+
+			.light-theme {
+				--bg-gradient: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+				--glass-bg: rgba(255, 255, 255, 0.5);
+				--glass-border: rgba(255, 255, 255, 0.3);
+				--text-color: #2c3e50;
+				--accent: #2980b9;
+			}
+
+			body {
+				margin: 0;
+				font-family: 'Inter', sans-serif;
+				background: var(--bg-gradient);
+				color: var(--text-color);
+				min-height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				transition: background 0.5s ease;
+			}
+
+			.dashboard {
+				display: grid;
+				grid-template-columns: 1.5fr 1fr;
+				gap: 25px;
+				width: 90%;
+				max-width: 1100px;
+				background: var(--glass-bg);
+				backdrop-filter: blur(15px);
+				border: 1px solid var(--glass-border);
+				border-radius: 24px;
+				padding: 40px;
+				box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+			}
+
+			header {
+				grid-column: 1 / -1;
+				display: flex;
+				gap: 15px;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			input {
+				flex: 1;
+				padding: 12px 20px;
+				border-radius: 12px;
+				border: 1px solid var(--glass-border);
+				background: rgba(255, 255, 255, 0.1);
+				color: var(--text-color);
+				outline: none;
+			}
+
+			button {
+				padding: 12px 24px;
+				border-radius: 12px;
+				border: none;
+				background: var(--accent);
+				color: white;
+				cursor: pointer;
+				font-weight: 600;
+				transition: 0.3s;
+			}
+
+			button:hover {
+				opacity: 0.8;
+				transform: translateY(-2px);
+			}
+
+			.weather-main {
+				text-align: center;
+			}
+			.weather-main img {
+				width: 120px;
+			}
+
+			.favorites-sidebar {
+				border-left: 1px solid var(--glass-border);
+				padding-left: 20px;
+			}
+
+			.fav-item {
+				background: rgba(255, 255, 255, 0.05);
+				padding: 15px;
+				margin: 10px 0;
+				border-radius: 12px;
+				cursor: pointer;
+				display: flex;
+				justify-content: space-between;
+				transition: 0.2s;
+			}
+
+			.fav-item:hover {
+				background: rgba(255, 255, 255, 0.15);
+			}
+
+			.chart-box {
+				height: 250px;
+				margin-top: 20px;
+			}
+
+			/* Theme Toggle Styling */
+			.theme-switch {
+				position: relative;
+				display: inline-block;
+				width: 50px;
+				height: 24px;
+			}
+			.theme-switch input {
+				opacity: 0;
+				width: 0;
+				height: 0;
+			}
+			.slider {
+				position: absolute;
+				cursor: pointer;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: #ccc;
+				transition: 0.4s;
+				border-radius: 34px;
+			}
+			.slider:before {
+				position: absolute;
+				content: '';
+				height: 18px;
+				width: 18px;
+				left: 4px;
+				bottom: 3px;
+				background-color: white;
+				transition: 0.4s;
+				border-radius: 50%;
+			}
+			input:checked + .slider {
+				background-color: #2196f3;
+			}
+			input:checked + .slider:before {
+				transform: translateX(24px);
+			}
+
+			@media (max-width: 768px) {
+				.dashboard {
+					grid-template-columns: 1fr;
+				}
+				.favorites-sidebar {
+					border-left: none;
+					border-top: 1px solid var(--glass-border);
+					padding-top: 20px;
+				}
+			}
+		</style>
 	</head>
-
 	<body>
-			<h1>Frequently asked question</h1>
-
-			<div class="faq-container">
-				<div class="faq active">
-					<h1 class="faq-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</h1>
-
-					<p class="faq-text">
-						Lorem ipsum dolor sit amet.
-					</p>
-
-					<button class="faq-toggle">
-						<i class="fas fa-chevron-down"></i>
-						<i class="fas fa-times"></i>
-					</button>
+		<div class="dashboard">
+			<header>
+				<input type="text" id="cityInput" placeholder="Enter city..." />
+				<button id="searchBtn">Search</button>
+				<button id="geoBtn" style="background: #6c757d">📍 Local</button>
+				<div
+					style="
+						margin-left: auto;
+						display: flex;
+						align-items: center;
+						gap: 10px;
+					">
+					<label class="theme-switch"
+						><input type="checkbox" id="themeToggle" /><span
+							class="slider"></span
+					></label>
+					<small>Theme</small>
 				</div>
-				<div class="faq">
-					<h1 class="faq-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</h1>
+			</header>
 
-					<p class="faq-text">
-						Lorem ipsum dolor sit amet.
-					</p>
-
-					<button class="faq-toggle">
-						<i class="fas fa-chevron-down"></i>
-						<i class="fas fa-times"></i>
-					</button>
-				</div>
-				<div class="faq">
-					<h1 class="faq-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</h1>
-
-					<p class="faq-text">
-						Lorem ipsum dolor sit amet.
-					</p>
-
-					<button class="faq-toggle">
-						<i class="fas fa-chevron-down"></i>
-						<i class="fas fa-times"></i>
-					</button>
-				</div>
-				<div class="faq">
-					<h1 class="faq-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</h1>
-
-					<p class="faq-text">
-						Lorem ipsum dolor sit amet.
-					</p>
-
-					<button class="faq-toggle">
-						<i class="fas fa-chevron-down"></i>
-						<i class="fas fa-times"></i>
-					</button>
-				</div>
-				<div class="faq">
-					<h1 class="faq-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</h1>
-
-					<p class="faq-text">
-						Lorem ipsum dolor sit amet.
-					</p>
-
-					<button class="faq-toggle">
-						<i class="fas fa-chevron-down"></i>
-						<i class="fas fa-times"></i>
-					</button>
-				</div>
-				<div class="faq">
-					<h1 class="faq-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quisquam.</h1>
-
-					<p class="faq-text">
-						Lorem ipsum dolor sit amet.
-					</p>
-
-					<button class="faq-toggle">
-						<i class="fas fa-chevron-down"></i>
-						<i class="fas fa-times"></i>
-					</button>
-				</div>
+			<div id="weatherDisplay" class="weather-main">
+				<p>Search for a city to see the weather...</p>
 			</div>
-	</body>
 
-		<script src="./app.js"></script>
+			<div class="favorites-sidebar">
+				<h3>⭐ Favorites</h3>
+				<div id="favList"></div>
+				<div class="chart-box"><canvas id="forecastChart"></canvas></div>
+			</div>
+		</div>
+
+		<script>
+			const API_KEY = 'YOUR_OPENWEATHER_API_KEY'; // <--- REPLACE THIS
+			let weatherChart;
+			let favorites = JSON.parse(localStorage.getItem('weatherFavs')) || [];
+
+			// Initialize
+			window.onload = () => {
+				renderFavorites();
+				initTheme();
+				getLocalWeather();
+			};
+
+			// --- API & Core Logic ---
+			async function fetchWeather(query, isCoords = false) {
+				const url = isCoords
+					? `https://api.openweathermap.org/data/2.5/weather?lat=${query.lat}&lon=${query.lon}&units=metric&appid=${API_KEY}`
+					: `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=${API_KEY}`;
+
+				try {
+					const res = await fetch(url);
+					if (!res.ok) throw new Error('City not found');
+					const data = await res.json();
+					renderMainWeather(data);
+					fetchForecast(data.name);
+				} catch (err) {
+					alert(err.message);
+				}
+			}
+
+			async function fetchForecast(city) {
+				const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${API_KEY}`;
+				const res = await fetch(url);
+				const data = await res.json();
+				const daily = data.list.filter((f) => f.dt_txt.includes('12:00:00'));
+				updateChart(
+					daily.map((d) =>
+						new Date(d.dt * 1000).toLocaleDateString('en', { weekday: 'short' })
+					),
+					daily.map((d) => d.main.temp)
+				);
+			}
+
+			// --- Geolocation ---
+			function getLocalWeather() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition((pos) => {
+						fetchWeather(
+							{ lat: pos.coords.latitude, lon: pos.coords.longitude },
+							true
+						);
+					});
+				}
+			}
+
+			// --- UI Rendering ---
+			function renderMainWeather(data) {
+				const container = document.getElementById('weatherDisplay');
+				const isFav = favorites.includes(data.name);
+				container.innerHTML = `
+            <h2>${data.name}</h2>
+            <img src="https://openweathermap.org/img/wn/${
+							data.weather[0].icon
+						}@4x.png">
+            <h1>${Math.round(data.main.temp)}°C</h1>
+            <p>${data.weather[0].description}</p>
+            <button onclick="toggleFav('${data.name}')" style="background: ${
+					isFav ? '#e74c3c' : '#2ecc71'
+				}">
+                ${isFav ? 'Remove Favorite' : 'Save City'}
+            </button>
+        `;
+			}
+
+			function renderFavorites() {
+				const list = document.getElementById('favList');
+				list.innerHTML = favorites
+					.map(
+						(city) => `
+            <div class="fav-item" onclick="fetchWeather('${city}')">
+                <span>${city}</span> <span>→</span>
+            </div>
+        `
+					)
+					.join('');
+			}
+
+			function toggleFav(city) {
+				favorites = favorites.includes(city)
+					? favorites.filter((c) => c !== city)
+					: [...favorites, city];
+				localStorage.setItem('weatherFavs', JSON.stringify(favorites));
+				renderFavorites();
+				fetchWeather(city);
+			}
+
+			// --- Charting ---
+			function updateChart(labels, temps) {
+				const ctx = document.getElementById('forecastChart').getContext('2d');
+				if (weatherChart) weatherChart.destroy();
+				const textColor = getComputedStyle(document.body).getPropertyValue(
+					'--text-color'
+				);
+
+				weatherChart = new Chart(ctx, {
+					type: 'line',
+					data: {
+						labels,
+						datasets: [
+							{
+								label: 'Temp',
+								data: temps,
+								borderColor: '#4facfe',
+								tension: 0.4,
+								fill: true,
+								backgroundColor: 'rgba(79, 172, 254, 0.2)',
+							},
+						],
+					},
+					options: {
+						responsive: true,
+						maintainAspectRatio: false,
+						plugins: { legend: { display: false } },
+						scales: {
+							y: { ticks: { color: textColor }, grid: { display: false } },
+							x: { ticks: { color: textColor }, grid: { display: false } },
+						},
+					},
+				});
+			}
+
+			// --- Theme Management ---
+			function initTheme() {
+				const saved = localStorage.getItem('theme');
+				if (saved === 'light') {
+					document.documentElement.classList.add('light-theme');
+					document.getElementById('themeToggle').checked = true;
+				}
+			}
+
+			document.getElementById('themeToggle').addEventListener('change', (e) => {
+				const theme = e.target.checked ? 'light' : 'dark';
+				document.documentElement.classList.toggle('light-theme');
+				localStorage.setItem('theme', theme);
+				if (weatherChart)
+					updateChart(
+						weatherChart.data.labels,
+						weatherChart.data.datasets[0].data
+					);
+			});
+
+			// --- Events ---
+			document
+				.getElementById('searchBtn')
+				.addEventListener('click', () =>
+					fetchWeather(document.getElementById('cityInput').value)
+				);
+			document
+				.getElementById('geoBtn')
+				.addEventListener('click', getLocalWeather);
+		</script>
 	</body>
 </html>
