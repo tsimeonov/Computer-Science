@@ -20,23 +20,29 @@
           outline: 1px solid red;
           display: grid;
           grid-template-columns:repeat(3, 1fr);
-          grid-template-rows: 200px;
+          grid-auto-rows: 100px;
         }
 
-        .wrapper div {
-          outline: 2px solid red;
+        .box1 {
+
+          grid-column-start: 1;
+          grid-column-end: 4;
+          grid-row-start: 1;
+          grid-row-end: 3;
         }
+
+        
       </Style>
 
 		<title>Bento grid</title>
 	</head>
 	<body>
     <div class="wrapper">
-      <div>One</div>
-      <div>Two</div>
-      <div>Three</div>
-      <div>FOur</div>
-      <div>Five</div>
+      <div class="box1">One</div>
+      <div class="box2">Two</div>
+      <div class="box3">Three</div>
+      <div class="box4">Four</div>
+      <div class="box5">Five</div>
     </div>
 		<!-- Social Media 10x Faster with AI Over 4,000 5-star reviews Manage multiple
 		accounts and platforms. Maintain a consistent posting schedule. Schedule to
