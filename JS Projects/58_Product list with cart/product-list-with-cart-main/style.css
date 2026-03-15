@@ -23,6 +23,11 @@ body {
 	padding: 80px 120px;
 }
 
+h1 {
+	color: var(--rose-900);
+	padding-bottom: 32px;
+}
+
 .container {
 	display: flex;
 	justify-content: space-between;
@@ -66,8 +71,40 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: all 0.2s ease-in-out;
+}
+
+.dessert-button:hover {
+	cursor: pointer;
+	border: none;
+	background-color: var(--red);
+	color: transparent;
+	transition: all 0.2s ease-in-out;
+}
+
+.dessert-button:hover img {
+	visibility: hidden;
 }
 
 .dessert-button img {
 	padding-right: 8px;
+}
+
+.dessert-title {
+	color: var(--rose-500);
+}
+
+.dessert-body {
+	color: var(--rose-900);
+	padding: 4px 0;
+}
+
+.dessert-price {
+	color: var(--red);
+}
+
+.cart-title {
+	font-size: 32px;
+	color: var(--red);
+	font-weight: bolder;
 }

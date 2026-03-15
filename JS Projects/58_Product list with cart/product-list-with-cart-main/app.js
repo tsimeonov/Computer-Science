@@ -5,6 +5,8 @@ async function loadAndRender() {
 	const response = await fetch('./data.json');
 	const dessertData = await response.json();
 
+	console.log(dessertData);
+
 	// 2. Define render logic
 	function renderDesserts() {
 		const viewportWidth = window.innerWidth;
