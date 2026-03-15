@@ -1,16 +1,20 @@
-const dessertImg = document.querySelector('.dessert-img');
+const AllDessertImg = document.querySelectorAll('.dessert-img');
 
 function updateImage() {
 	const viewportWidth = window.innerWidth;
 
-	// Update desktop image
-	if (viewportWidth < 375) {
-		dessertImg.src = './assets/images/image-waffle-mobile.jpg';
-	} else if (viewportWidth < 768) {
-		dessertImg.src = './assets/images/image-waffle-tablet.jpg';
-	} else {
-		dessertImg.src = './assets/images/image-waffle-desktop.jpg';
-	}
+	AllDessertImg.forEach((img) => {
+		const name = img.getAttribute('src');
+
+		// Update desktop image
+		if (viewportWidth < 375) {
+			img.src = `./assets/images/image-${name}-mobile.jpg`;
+		} else if (viewportWidth < 768) {
+			img.src = `./assets/images/image-${name}-tablet.jpg`;
+		} else {
+			img.src = `./assets/images/image-${name}-desktop.jpg`;
+		}
+	});
 }
 
 updateImage();
