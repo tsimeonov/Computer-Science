@@ -62,4 +62,12 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: white;
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dessert-button img {
+	padding-right: 8px;
 }

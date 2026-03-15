@@ -26,7 +26,10 @@ async function loadAndRender() {
 				return `
       <div class="dessert-card">
         <img class="dessert-img" src="${imageSrc}" alt="${dessert.name}">
-        <div class="dessert-button">Add to Cart</div>
+        <div class="dessert-button">
+          <img src="./assets/images/icon-add-to-cart.svg"/>
+          Add to Cart
+        </div>
         <div class="dessert-title">${dessert.category}</div>
         <div class="dessert-body">${dessert.name}</div>
         <div class="dessert-price">$${dessert.price.toFixed(2)}</div>
