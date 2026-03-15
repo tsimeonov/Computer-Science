@@ -37,6 +37,10 @@ body {
 	font-size: 16px;
 }
 
+.dessert-card {
+	position: relative;
+}
+
 .dessert-img {
 	width: 250px;
 	height: 240px;
@@ -44,8 +48,18 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 8px;
+	margin-bottom: 38px;
 }
 
-.desserts-container div:nth-of-type(1) .dessert-img {
-	outline: 3px solid green;
+.dessert-button {
+	color: var(--rose-900);
+	border: 1px solid var(--rose-400);
+	padding: 12.5px 28px;
+	border-radius: 30px;
+	width: 160px;
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
 }
