@@ -45,3 +45,7 @@ body {
 	background-position: center;
 	border-radius: 8px;
 }
+
+.desserts-container div:nth-of-type(1) .dessert-img {
+	outline: 3px solid green;
+}
