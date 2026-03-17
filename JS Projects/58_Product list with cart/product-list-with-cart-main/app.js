@@ -2,9 +2,6 @@ const container = document.querySelector('.desserts-container');
 
 // 1. Create the function to fetch the data
 async function loadAndRender() {
-	// const response = await fetch('./data.json');
-	// const dessertData = await response.json();
-
 	const response = await fetch('./data.json');
 	const dessertData = await response.json();
 
