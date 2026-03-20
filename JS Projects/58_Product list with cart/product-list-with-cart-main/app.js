@@ -16,13 +16,15 @@ async function loadAndRender() {
 		const html = dessertData
 			.map((dessert) => {
 				// Determine the correct image path based on width
-				let imageSrc = dessert.image.desktop;
+				let imageSrc = dessert.image.mobile;
 
 				// Update desktop image
-				if (viewportWidth < 375) {
+				if (viewportWidth >= 1024) {
 					imageSrc = dessert.image.mobile;
-				} else if (viewportWidth < 768) {
+					console.log('Desktop');
+				} else if (viewportWidth >= 768) {
 					imageSrc = dessert.image.tablet;
+					console.log('Tablet');
 				}
 
 				return `
