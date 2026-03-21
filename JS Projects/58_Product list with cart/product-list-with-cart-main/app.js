@@ -20,7 +20,7 @@ async function loadAndRender() {
 
 				// Update desktop image
 				if (viewportWidth >= 1024) {
-					imageSrc = dessert.image.mobile;
+					imageSrc = dessert.image.desktop;
 					console.log('Desktop');
 				} else if (viewportWidth >= 768) {
 					imageSrc = dessert.image.tablet;
