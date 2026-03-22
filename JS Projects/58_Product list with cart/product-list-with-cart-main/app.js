@@ -42,14 +42,6 @@ async function loadAndRender() {
 			})
 			.join('');
 		container.innerHTML = html;
-
-		const dessertButtons = document.querySelectorAll('.dessert-button');
-
-		dessertButtons.forEach((button) => {
-			return `
-        
-      `;
-		});
 	}
 	renderDesserts();
 
