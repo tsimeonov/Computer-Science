@@ -22,27 +22,27 @@ body {
 	background-color: var(--rose-50);
 	padding: 80px 120px;
 	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 h1 {
 	color: var(--rose-900);
 	padding-bottom: 32px;
+	max-width: 1200px;
 }
 
 .container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	/* grid-template-columns: 2fr 1fr; */
+	grid-template-columns: 1fr 350px;
+	max-width: 1200px;
 	justify-items: center;
 }
 
 .desserts-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: auto;
+	/* grid-template-rows: auto; */
+	width: 100%;
 	min-height: 100%;
 	gap: 24px;
 	font-size: 16px;
@@ -53,11 +53,12 @@ h1 {
 }
 
 .dessert-img {
-	width: 250px;
-	height: 240px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	/* width: 250px;
+	height: 240px; */
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
 	border-radius: 8px;
 	margin-bottom: 38px;
 }
@@ -68,51 +69,25 @@ h1 {
 	padding: 12.5px 28px;
 	border-radius: 30px;
 	width: 160px;
+	height: 44px;
 	position: absolute;
 	top: 62%;
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: white;
 	white-space: nowrap;
+	/* overflow: hidden; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	transition: all 0.2s ease-in-out;
 }
 
-/* Hide the quantity controls by default */
 .quantity-controls {
-	display: none;
 	width: 100%;
+	display: none;
 	justify-content: space-between;
 	align-items: center;
-}
-
-/* On hover: Swap the views */
-.dessert-button:hover {
-	background-color: var(--red);
-	border-color: var(--red);
-	color: white;
-}
-
-.dessert-button:hover .add-to-cart {
-	display: none;
-}
-
-.dessert-button:hover .quantity-controls {
-	display: flex;
-}
-
-/* Style SVG icons so they are clickable and visible */
-.quantity-controls img {
-	padding: 4px;
-	border: 1px solid white;
-	transition: transform 0.1s;
-}
-
-.quantity-controls img:hover {
-	background-color: white;
-	filter: invert(1); /* Makes the red icons look correct in white */
 }
 
 .dessert-button:hover {
