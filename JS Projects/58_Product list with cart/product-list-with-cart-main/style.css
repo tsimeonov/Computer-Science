@@ -109,6 +109,15 @@ h1 {
 	color: var(--red);
 }
 
+.cart-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 24px;
+	height: max-content;
+}
+
 .cart-title {
 	font-size: 32px;
 	color: var(--red);
