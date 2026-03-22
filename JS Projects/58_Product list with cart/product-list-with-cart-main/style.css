@@ -71,7 +71,7 @@ h1 {
 	width: 160px;
 	height: 44px;
 	position: absolute;
-	top: 62%;
+	top: 65%;
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: white;
@@ -91,15 +91,44 @@ h1 {
 }
 
 .dessert-button:hover {
-	cursor: pointer;
+	background-color: var(--red);
+	border-color: var(--red);
+	/* cursor: pointer;
 	border: none;
 	background-color: var(--red);
 	color: transparent;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out; */
 }
 
-.dessert-button:hover img {
-	visibility: hidden;
+.dessert-button:hover > span,
+.dessert-button:hover > img {
+	/* Hide "Add to Cart" and the icon */
+	display: none;
+}
+
+.dessert-button:hover .quantity-controls {
+	display: flex;
+	color: white;
+}
+
+/* +/- Icon styling */
+.icon-container {
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-container img {
+	padding: 0;
+	margin: 0;
+	width: 10;
+	height: auto;
+	/* outline: 2px solid green; */
 }
 
 .dessert-button img {
