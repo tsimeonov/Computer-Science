@@ -80,6 +80,41 @@ h1 {
 	transition: all 0.2s ease-in-out;
 }
 
+/* Hide the quantity controls by default */
+.quantity-controls {
+	display: none;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* On hover: Swap the views */
+.dessert-button:hover {
+	background-color: var(--red);
+	border-color: var(--red);
+	color: white;
+}
+
+.dessert-button:hover .add-to-cart {
+	display: none;
+}
+
+.dessert-button:hover .quantity-controls {
+	display: flex;
+}
+
+/* Style SVG icons so they are clickable and visible */
+.quantity-controls img {
+	padding: 4px;
+	border: 1px solid white;
+	transition: transform 0.1s;
+}
+
+.quantity-controls img:hover {
+	background-color: white;
+	filter: invert(1); /* Makes the red icons look correct in white */
+}
+
 .dessert-button:hover {
 	cursor: pointer;
 	border: none;

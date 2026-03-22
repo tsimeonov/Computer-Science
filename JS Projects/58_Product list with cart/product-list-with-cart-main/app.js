@@ -30,10 +30,18 @@ async function loadAndRender() {
 				return `
       <div class="dessert-card">
         <img class="dessert-img" src="${imageSrc}" alt="${dessert.name}">
+
         <div class="dessert-button">
           <img src="./assets/images/icon-add-to-cart.svg"/>
-          Add to Cart
+          <span>Add to Cart</span>
         </div>
+
+				<div class="quantity-controls">
+					<img src="./assets/images/icon-decrement-quantity.svg" class="decrement"/>
+      		<span class="qty-count">1</span>
+      		<img src="./assets/images/icon-increment-quantity.svg" class="increment"/
+				</div>
+
         <div class="dessert-title">${dessert.category}</div>
         <div class="dessert-body">${dessert.name}</div>
         <div class="dessert-price">$${dessert.price.toFixed(2)}</div>
