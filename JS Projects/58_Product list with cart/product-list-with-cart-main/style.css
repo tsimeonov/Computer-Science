@@ -29,9 +29,9 @@ h1 {
 }
 
 .container {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	justify-items: center;
 }
 
 .desserts-container {
