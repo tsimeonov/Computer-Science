@@ -53,8 +53,6 @@ h1 {
 }
 
 .dessert-img {
-	/* width: 250px;
-	height: 240px; */
 	width: 100%;
 	height: auto;
 	aspect-ratio: 1 / 1;
@@ -76,7 +74,6 @@ h1 {
 	transform: translateX(-50%);
 	background-color: white;
 	white-space: nowrap;
-	/* overflow: hidden; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -93,11 +90,6 @@ h1 {
 .dessert-button:hover {
 	background-color: var(--red);
 	border-color: var(--red);
-	/* cursor: pointer;
-	border: none;
-	background-color: var(--red);
-	color: transparent;
-	transition: all 0.2s ease-in-out; */
 }
 
 .dessert-button:hover > span,
@@ -128,7 +120,6 @@ h1 {
 	margin: 0;
 	width: 10;
 	height: auto;
-	/* outline: 2px solid green; */
 }
 
 .dessert-button img {
