@@ -83,50 +83,6 @@ h1 {
 	transition: all 0.2s ease-in-out;
 }
 
-.quantity-controls {
-	width: 100%;
-	display: none;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.dessert-button:hover {
-	background-color: var(--red);
-	border-color: var(--red);
-}
-
-.dessert-button:hover > span,
-.dessert-button:hover > img {
-	/* Hide "Add to Cart" and the icon */
-	display: none;
-}
-
-.dessert-button:hover .quantity-controls {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: blue;
-}
-
-/* +/- Icon styling */
-.icon-container {
-	border: 1px solid white;
-	border-radius: 50%;
-	width: 20px;
-	height: 20px;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.icon-container img {
-	padding: 0;
-	margin: 0;
-	width: 10;
-	height: auto;
-}
-
 .dessert-button img {
 	padding-right: 8px;
 }
