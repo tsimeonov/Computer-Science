@@ -1,5 +1,7 @@
 const container = document.querySelector('.desserts-container');
 
+const dessertCard = document.querySelector('.dessert-card');
+
 // 1. Create the function to fetch the data
 async function loadAndRender() {
 	const response = await fetch('./data.json');
@@ -7,54 +9,40 @@ async function loadAndRender() {
 
 	console.log(dessertData);
 
+	// Clear the container of the manual HTML placeholder
+	container.innerHTML = '';
+
 	// 2. Define render logic
 	function renderDesserts() {
-		const viewportWidth = window.innerWidth;
+		// Clear current list before re-rendering (useful for resize)
+		const cuurentCards = container.querySelectorAll('.dessert-card');
 
-		// Create HTML string
+		cuurentCards.forEach((card) => card.remove());
 
-		const html = dessertData
-			.map((dessert) => {
-				// Determine the correct image path based on width
-				let imageSrc = dessert.image.mobile;
+		const width = window.innerWidth;
 
-				// Update desktop image
-				if (viewportWidth >= 1024) {
-					imageSrc = dessert.image.desktop;
-					console.log('Desktop');
-				} else if (viewportWidth >= 768) {
-					imageSrc = dessert.image.tablet;
-					console.log('Tablet');
-				}
+		// 2. Clone the tempalte we grabbed earlier
+		const newCard = dessertCard.cloneNode(true);
 
-				return `
-      <div class="dessert-card">
-        <img class="dessert-img" src="${imageSrc}" alt="${dessert.name}">
+		// 3. Update Image based on Screen Width
+		const img = newCard.querySelector('.dessert-img');
+		let imageSrc = dessert.image.mobile;
 
-        <div class="dessert-button">
-          <img src="./assets/images/icon-add-to-cart.svg"/>
-          <span>Add to Cart</span>
-					<div class="quantity-controls">
-						<div class="icon-container decrement">
-						<img src="./assets/images/icon-decrement-quantity.svg" alt="minus" />
-			</div>
-			<span class="qty-count">1</span>
-			<div class="icon-container increment">
-				<img src="./assets/images/icon-increment-quantity.svg" alt="plus" />
-			</div>
-		</div>
-				</div>
+		if (width >= 1024) imageSrc = dessert.image.desktop;
+		else if (width >= 768) imageSrc = dessert.image.tablet;
 
-        <div class="dessert-title">${dessert.category}</div>
-        <div class="dessert-body">${dessert.name}</div>
-        <div class="dessert-price">$${dessert.price.toFixed(2)}</div>
-      </div>
-    `;
-			})
-			.join('');
-		container.innerHTML = html;
+		img.src = imageSrc;
+		img.alt = dessert.name;
+
+		// 4, Fill in the Text data
+		newCard.querySelector('.dessert-title').textContent = dessert.category;
+		newCard.querySelector('.dessert-body').textContent = dessert.name;
+		newCard.querySelector('.dessert-price').textContent =
+			dessert.price.toFixed(2);
+
+		// 5. Put it back i nthe container
+		container.appendChild(newCard);
 	}
-	renderDesserts();
 
 	window.addEventListener('resize', renderDesserts);
 }
