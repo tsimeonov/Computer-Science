@@ -114,3 +114,14 @@ h1 {
 	color: var(--red);
 	font-weight: bolder;
 }
+
+/* --------- */
+
+.quantity-controls {
+	outline: 1px solid red;
+	width: 300px;
+}
+
+.icon-container img {
+	color: black;
+}

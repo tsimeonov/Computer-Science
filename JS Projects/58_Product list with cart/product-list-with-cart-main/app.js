@@ -36,14 +36,14 @@ async function loadAndRender() {
           <span>Add to Cart</span>
 					<div class="quantity-controls">
 						<div class="icon-container decrement">
-    					<img src="./assets/images/icon-decrement-quantity.svg" alt="minus"/>
-  					</div>
-  					<span class="qty-count">1</span>
-  					<div class="icon-container increment">
-   				 <img src="./assets/images/icon-increment-quantity.svg" alt="plus"/>
-  				</div>
-					</div>
-        </div>
+						<img src="./assets/images/icon-decrement-quantity.svg" alt="minus" />
+			</div>
+			<span class="qty-count">1</span>
+			<div class="icon-container increment">
+				<img src="./assets/images/icon-increment-quantity.svg" alt="plus" />
+			</div>
+		</div>
+				</div>
 
         <div class="dessert-title">${dessert.category}</div>
         <div class="dessert-body">${dessert.name}</div>
