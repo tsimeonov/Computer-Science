@@ -103,7 +103,9 @@ h1 {
 
 .dessert-button:hover .quantity-controls {
 	display: flex;
-	color: white;
+	justify-content: space-between;
+	align-items: center;
+	color: blue;
 }
 
 /* +/- Icon styling */
