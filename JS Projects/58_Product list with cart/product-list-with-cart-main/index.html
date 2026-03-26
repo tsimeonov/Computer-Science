@@ -19,10 +19,17 @@
 
 		<div class="dessert-container">
 			<div class="dessert-card">
-				<img
-					src="./assets/images/image-waffle-desktop.jpg"
-					alt="dessert image"
-					class="dessert-img" />
+				<picture class="dessert-img">
+					<source
+						media="(min-width: 1024px)"
+						srcset="./assets/images/image-waffle-desktop.jpg"
+						src="src-desktop" />
+					<source
+						media="(min-width: 768px)"
+						srcset="./assets/images/image-waffle-tablet.jpg"
+						src="src-tablet" />
+					<img src="./assets/images/image-waffle-desktop.jpg" alt="" />
+				</picture>
 
 				<div class="dessert-button">
 					<img src="./assets/images/icon-add-to-cart.svg" alt="add to card" />

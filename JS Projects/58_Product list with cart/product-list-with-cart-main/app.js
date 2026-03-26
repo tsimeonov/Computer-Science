@@ -25,14 +25,17 @@ async function loadAndRender() {
 			const newCard = dessertCard.cloneNode(true);
 
 			// 3. Update Image based on Screen Width
-			const img = newCard.querySelector('.dessert-img');
-			let imageSrc = dessert.image.mobile;
+			const desktopSource = newCard.querySelector('source[media*="1024px"]');
+			const tabletSource = newCard.querySelector('source[media*="768px"]');
+			const fallbackImg = newCard.querySelector('img');
 
-			if (width >= 1024) imageSrc = dessert.image.desktop;
-			else if (width >= 768) imageSrc = dessert.image.tablet;
+			// Assign Unique images from the JSON data
+			if (desktopSource) desktopSource.srcset = dessert.image.desktop;
+			if (tabletSource) tabletSource.srcset = dessert.image.tablet;
 
-			img.src = imageSrc;
-			img.alt = dessert.name;
+			// The img tag handles mobile and general fallback
+			fallbackImg.src = dessert.image.mobile;
+			fallbackImg.alt = dessert.name;
 
 			// 4, Fill in the Text data
 			newCard.querySelector('.dessert-title').textContent = dessert.category;
@@ -40,9 +43,9 @@ async function loadAndRender() {
 			newCard.querySelector('.dessert-price').textContent =
 				dessert.price.toFixed(2);
 
-			// 5. Put it back i nthe container
-			container.appendChild(newCard);
+			fragment.appendChild(newCard);
 		});
+		container.appendChild(newCard);
 	}
 
 	// Inital call to show the items
