@@ -1,4 +1,4 @@
-const container = document.querySelector('.desserts-container');
+const container = document.querySelector('.dessert-container');
 
 const originalCard = document.querySelector('.dessert-card');
 
@@ -15,10 +15,8 @@ async function loadAndRender() {
 
 	// 2. Define render logic
 	function renderDesserts() {
-		// Clear current list before re-rendering (useful for resize)
-		const cuurentCards = container.querySelectorAll('.dessert-card');
-
-		cuurentCards.forEach((card) => card.remove());
+		// Use a DocumentFragment for better performance (avoid multiple repaints)
+		const fragment = document.createDocumentFragment();
 
 		const width = window.innerWidth;
 
