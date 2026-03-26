@@ -45,7 +45,7 @@ async function loadAndRender() {
 
 			fragment.appendChild(newCard);
 		});
-		container.appendChild(newCard);
+		container.appendChild(fragment);
 	}
 
 	// Inital call to show the items
