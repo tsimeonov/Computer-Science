@@ -25,6 +25,7 @@ body {
 
 .container {
 	display: flex;
+	position: relative;
 }
 
 .dessert-container {
@@ -37,4 +38,17 @@ body {
 .dessert-img img {
 	width: 250px;
 	border-radius: 12px;
+}
+
+.dessert-button {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	border: 1px solid var(--rose-400);
+	background-color: white;
+	border-radius: 20px;
+}
+
+.quantity-controls {
+	display: none;
 }
