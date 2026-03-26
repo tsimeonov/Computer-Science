@@ -50,8 +50,6 @@ async function loadAndRender() {
 
 	// Inital call to show the items
 	renderDesserts();
-
-	window.addEventListener('resize', renderDesserts);
 }
 
 loadAndRender();

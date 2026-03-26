@@ -21,9 +21,20 @@ body {
 	font-family: 'Red Hat Text', sans-serif;
 	background-color: var(--rose-50);
 	padding: 80px 120px;
+}
+
+.container {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+}
+
+.dessert-container {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(3, 1fr);
+	/* padding: 40px 50px; */
+}
+
+.dessert-img img {
+	width: 250px;
+	border-radius: 12px;
 }

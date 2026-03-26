@@ -17,47 +17,49 @@
 	<body>
 		<h1>Desserts</h1>
 
-		<div class="dessert-container">
-			<div class="dessert-card">
-				<picture class="dessert-img">
-					<source
-						media="(min-width: 1024px)"
-						srcset="./assets/images/image-waffle-desktop.jpg"
-						src="src-desktop" />
-					<source
-						media="(min-width: 768px)"
-						srcset="./assets/images/image-waffle-tablet.jpg"
-						src="src-tablet" />
-					<img src="./assets/images/image-waffle-desktop.jpg" alt="" />
-				</picture>
+		<div class="container">
+			<div class="dessert-container">
+				<div class="dessert-card">
+					<picture class="dessert-img">
+						<source
+							media="(min-width: 1024px)"
+							srcset="./assets/images/image-waffle-desktop.jpg"
+							src="src-desktop" />
+						<source
+							media="(min-width: 768px)"
+							srcset="./assets/images/image-waffle-tablet.jpg"
+							src="src-tablet" />
+						<img src="./assets/images/image-waffle-desktop.jpg" alt="" />
+					</picture>
 
-				<div class="dessert-button">
-					<img src="./assets/images/icon-add-to-cart.svg" alt="add to card" />
-					<span>Add to Cart</span>
+					<div class="dessert-button">
+						<img src="./assets/images/icon-add-to-cart.svg" alt="add to card" />
+						<span>Add to Cart</span>
 
-					<div class="quantity-controls">
-						<div class="icon-container decrement">
-							<img
-								src="./assets/images/icon-decrement-quantity.svg"
-								alt="minus" />
-						</div>
-						<span class="qty-count">1</span>
-						<div class="icon-container increment">
-							<img
-								src="./assets/images/icon-increment-quantity.svg"
-								alt="plus" />
+						<div class="quantity-controls">
+							<div class="icon-container decrement">
+								<img
+									src="./assets/images/icon-decrement-quantity.svg"
+									alt="minus" />
+							</div>
+							<span class="qty-count">1</span>
+							<div class="icon-container increment">
+								<img
+									src="./assets/images/icon-increment-quantity.svg"
+									alt="plus" />
+							</div>
 						</div>
 					</div>
+
+					<div class="dessert-title">Waffle</div>
+					<div class="dessert-body">Waffle with Berries</div>
+					<div class="dessert-price">$6.50</div>
 				</div>
-
-				<div class="dessert-title">Waffle</div>
-				<div class="dessert-body">Waffle with Berries</div>
-				<div class="dessert-price">$6.50</div>
 			</div>
-		</div>
 
-		<div class="cart-container">
-			<div class="cart-title">Your cart (0)</div>
+			<div class="cart-container">
+				<div class="cart-title">Your cart (0)</div>
+			</div>
 		</div>
 
 		<script src="./app.js"></script>
