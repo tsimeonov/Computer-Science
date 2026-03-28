@@ -78,7 +78,7 @@ body {
 }
 
 .quantity-controls {
-	display: none;
+	/* display: none; */
 }
 
 .dessert-title {
