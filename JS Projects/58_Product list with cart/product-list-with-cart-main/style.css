@@ -68,9 +68,39 @@ body {
 	justify-content: space-between;
 }
 
+/* Hide the origianl cart icon and the span text on hover */
+.dessert-button:hover img:not(.quantity-controls img),
+.dessert-button:hover span {
+	display: none;
+}
+
+/* Show the quantity controls on hover */
+.dessert-button:hover .quantity-controls {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	color: white;
+}
+
 .dessert-button:hover {
 	background-color: var(--red);
 	border-color: var(--red);
+	cursor: pointer;
+}
+
+.icon-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-container:hover {
+	background-color: white;
 }
 
 .dessert-button img {
