@@ -74,13 +74,13 @@ body {
 }
 
 .dessert-button img {
-	/* padding-right: 10px; */
+	padding-right: 10px;
 }
 
 .quantity-controls {
-	/* display: none; */
+	display: none;
 }
 
 .dessert-title {
-	/* margin-top: 40px; */
+	margin-top: 40px;
 }
