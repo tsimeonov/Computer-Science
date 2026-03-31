@@ -246,6 +246,44 @@ img {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home {
+	position: relative;
+}
+
+.home-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 95%;
+	background-color: hsl(0, 0%, 8%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+}
+
+.home-container {
+	position: relative;
+	padding-top: 2.5rem;
+	row-gap: 3.5rem;
+}
+
+.home-content {
+	row-gap: 3rem;
+}
+
+.home-subtitle {
+	background: var(--third-gradient);
+	background-clip: text;
+	color: transparent;
+	font-size: var(--normal-font-size);
+	margin-bottom: 0.5rem;
+}
+
+.home-title {
+	color: var(--white-color);
+	font-size: var(--bigger-font-size);
+	font-weight: var(--font-medium);
+	margin-bottom: 1.5rem;
+}
 
 /*=============== BUTTON ===============*/
 
