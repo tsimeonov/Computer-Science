@@ -314,6 +314,10 @@ img {
 	color: var(--first-color);
 }
 
+.home-info-subtitle {
+	font-size: var(--small-font-size);
+}
+
 /*=============== BUTTON ===============*/
 
 /*=============== POPULAR ===============*/
