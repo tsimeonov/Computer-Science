@@ -36,7 +36,7 @@ navLink.forEach((n) => n.addEventListener('click', linkAction));
 const scrollHeader = () => {
 	const header = document.getElementById('header');
 	// When the scroll is greater than 50 viewport height, and the scroll-header calls
-	this.srollY >= 50
+	window.scrollY >= 50
 		? header.classList.add('bg-header')
 		: header.classList.remove('bg-header');
 };
