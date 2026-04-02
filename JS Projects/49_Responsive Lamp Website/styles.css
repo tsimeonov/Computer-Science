@@ -296,6 +296,18 @@ img {
 	margin-bottom: 1.5rem;
 }
 
+.home-buttons .button {
+	box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.8);
+}
+
+.home-buttons .button-link {
+	color: var(--text-color);
+}
+
+.home-buttons .button-link i {
+	font-size: 2rem;
+}
+
 .home-info {
 	display: flex;
 	justify-content: center;
@@ -373,6 +385,12 @@ img {
 .button,
 .button-link {
 	font-weight: var(--font-medium);
+}
+
+.button-link {
+	display: flex;
+	align-items: center;
+	column-gap: 0.25rem;
 }
 
 /*=============== POPULAR ===============*/
