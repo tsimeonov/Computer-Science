@@ -402,6 +402,21 @@ img {
 }
 
 /*=============== POPULAR ===============*/
+.popular-data {
+	text-align: center;
+}
+
+.popular-content {
+	padding-block: 2.5rem 5rem;
+}
+
+.popular-card {
+	position: relative;
+	width: 200px;
+	height: 322px;
+	background-color: var(--container-color);
+	border-radius: 9rem 9rem 0 0;
+}
 
 /* Swiper class */
 
