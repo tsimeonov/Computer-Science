@@ -43,6 +43,23 @@ const scrollHeader = () => {
 window.addEventListener('scroll', scrollHeader);
 
 /*=============== SWIPER POPULAR ===============*/
+// Initialize Swiper
+const popularSwiper = new Swiper('.popular-content', {
+	// Optional parameters
+	slidesPerView: 'auto',
+	centeredSlides: true,
+	loop: true,
+
+	// Navigation arrows
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+
+	// Add this to help Swiper handle dynamic content/resizing
+	observer: true,
+	observeParents: true,
+});
 
 /*=============== CHOOSE FAQ ===============*/
 
