@@ -438,6 +438,19 @@ img {
 	margin: 0 auto;
 }
 
+.popular-name {
+	font-size: var(--normal-font-size);
+	margin-bottom: 0.35rem;
+}
+
+.popular-subtitle {
+	display: block;
+	font-size: var(--small-font-size);
+	font-family: var(--second-font);
+	font-weight: var(--font-medium);
+	margin-bottom: 1rem;
+}
+
 /* Swiper class */
 
 /*=============== CHOOSE ===============*/
