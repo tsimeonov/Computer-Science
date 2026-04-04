@@ -55,10 +55,6 @@ const popularSwiper = new Swiper('.popular-content', {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
-
-	// Add this to help Swiper handle dynamic content/resizing
-	observer: true,
-	observeParents: true,
 });
 
 /*=============== CHOOSE FAQ ===============*/
