@@ -503,6 +503,46 @@ img {
 }
 
 /*=============== CHOOSE ===============*/
+.choose-container {
+	row-gap: 3rem;
+}
+
+.choose-blob {
+	width: 220px;
+	height: 320px;
+	border: 6px solid transparent;
+	background: var(--second-gradient) padding-box,
+		linear-gradient(90deg, hsl(20, 72%, 65%) 0%, hsl(20, 78%, 80%) 100%)
+			border-box;
+	border-radius: 20rem 20rem 0 0;
+}
+
+.choose-image {
+	position: relative;
+	justify-self: center;
+}
+
+.choose-shadow {
+	position: absolute;
+	width: 170px;
+	height: 30px;
+	background-color: hsla(15, 60%, 52%, 0.6);
+	bottom: -0.75rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	filter: blur(12px);
+	z-index: -1;
+}
+
+.choose-img {
+	position: relative;
+	display: block;
+	width: 160px;
+	margin: 0 auto;
+	transform: translateY(-6px);
+	z-index: 2;
+}
 
 /* Rotate icon */
 
