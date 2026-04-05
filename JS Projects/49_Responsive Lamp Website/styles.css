@@ -654,6 +654,45 @@ img {
 	z-index: -1;
 }
 
+.features-img {
+	position: relative;
+	display: block;
+	width: 190px;
+	margin: 0 auto;
+	transform: translateY(-6px);
+	z-index: 2;
+}
+
+.features-blob-title {
+	font-size: 3.5rem;
+	letter-spacing: 15px;
+	color: hsla(0, 0%, 100%, 0.3);
+	font-weight: var(--font-medium);
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.5rem;
+	writing-mode: vertical-lr;
+}
+
+.features-data {
+	text-align: center;
+}
+
+.features-content,
+.features-info {
+	display: grid;
+}
+
+.features-content {
+	row-gap: 2rem;
+}
+
+.features-info {
+	outline: 1px solid red;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.5rem;
+}
+
 /*=============== PRODUCTS ===============*/
 
 /*=============== JOIN ===============*/
