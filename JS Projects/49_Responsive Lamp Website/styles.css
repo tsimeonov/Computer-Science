@@ -731,7 +731,6 @@ img {
 .products-content {
 	gap: 2rem;
 	justify-content: center;
-	outline: 1px solid red;
 }
 
 .products-card {
