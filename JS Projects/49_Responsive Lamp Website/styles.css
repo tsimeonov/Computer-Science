@@ -729,8 +729,10 @@ img {
 }
 
 .products-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
 	gap: 2rem;
-	justify-content: center;
 }
 
 .products-card {
