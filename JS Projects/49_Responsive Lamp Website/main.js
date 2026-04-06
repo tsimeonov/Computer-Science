@@ -1,109 +1,41 @@
-/*=============== SHOW MENU ===============*/
+// 1. Object literal the most common way
 
-const navMenu = document.getElementById('nav-menu');
-const navToggle = document.getElementById('nav-toggle');
-const navClose = document.getElementById('nav-close');
+// 2. Factory function is a normal function that builds and returns a new object literal
 
-// MENU SHOW
-// Valiadate if constant exists
-if (navToggle) {
-	navToggle.addEventListener('click', () => {
-		navMenu.classList.add('show-menu');
-	});
-}
+// 2. Factory function is a simple function that builds and returns a new object literal
 
-// MENU HIDDEN
-// Validate if constant exists
-if (navClose) {
-	navClose.addEventListener('click', () => {
-		navMenu.classList.remove('show-menu');
-	});
-}
+// 2. Factory function is simply a function that builds and returns a object literal
 
-/*=============== REMOVE MENU MOBILE ===============*/
+// 1. Object literal
+// 2. factory function
+// 3. ES6 classes, the modern standats
+// 4. constructor function the old-school way
 
-const navLink = document.querySelectorAll('.nav-link');
+// 1. Object literal, the most common
+// 2. Factory function
+// 3. ES6 classes, the modern way
+// 4. constructor function
 
-const linkAction = () => {
-	const navMenu = document.getElementById('nav-menu');
-	// When we click on each nav-link, we remove the show-menu
-	navMenu.classList.remove('show-menu');
+// 1. Object Literal
+const car = {
+	make: 'Toyota',
+	model: 'Rav4',
+	start: function () {
+		console.log('Vroom');
+	},
 };
 
-navLink.forEach((n) => n.addEventListener('click', linkAction));
-
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-const scrollHeader = () => {
-	const header = document.getElementById('header');
-	// When the scroll is greater than 50 viewport height, and the scroll-header calls
-	window.scrollY >= 50
-		? header.classList.add('bg-header')
-		: header.classList.remove('bg-header');
-};
-window.addEventListener('scroll', scrollHeader);
-
-/*=============== SWIPER POPULAR ===============*/
-// Initialize Swiper
-const popularSwiper = new Swiper('.popular-content', {
-	// Optional parameters
-	slidesPerView: 'auto',
-	centeredSlides: true,
-	loop: true,
-
-	// Navigation arrows
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-	breakpoits: {
-		768: {
-			centeredSlides: false,
-		},
-	},
-});
-
-/*=============== CHOOSE FAQ ===============*/
-const faqItems = document.querySelectorAll('.choose-faq-item');
-
-// 1. Select each item
-faqItems.forEach((item) => {
-	const faqHeader = item.querySelector('.choose-faq-header');
-
-	// 2. Select each button click
-	faqHeader.addEventListener('click', () => {
-		// 7. Select the current faq-open class
-		const openItem = document.querySelector('.faq-open');
-
-		// 5. Call the toggleItem function
-		toggleItem(item);
-
-		// 8. Remove the faq-open class from other items
-		if (openItem && openItem != item) {
-			toggleItem(openItem);
-		}
-	});
-});
-
-// 3. Create function to display the content
-const toggleItem = (item) => {
-	// 3.1 Select each faq content
-	const faqContent = item.querySelector('.choose-faq-content');
-
-	// 6. If the same item contains the faq-open class, remove
-	if (item.classList.contains('faq-open')) {
-		faqContent.removeAttribute('style');
-		item.classList.remove('faq-open');
-	} else {
-		// 4. Add max-height to the content and add the faq-open class
-		faqContent.style.height = faqContent.scrollHeight + 'px';
-		item.classList.add('faq-open');
+class Car {
+	constructor(make, model) {
+		this.make = make;
+		this.model = model;
 	}
-};
 
-/*=============== SHOW SCROLL UP ===============*/
+	start() {
+		console.log('Vroom');
+	}
+}
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+const newCar = new Car('Honda', 'Civic');
 
-/*=============== DARK LIGHT THEME ===============*/
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+console.log(newCar);
