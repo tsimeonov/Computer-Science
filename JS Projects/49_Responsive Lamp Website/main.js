@@ -39,6 +39,8 @@ const scrollHeader = () => {
 		: header.classList.remove('scroll-header');
 };
 
+window.addEventListener('scroll', scrollHeader);
+
 /*=============== SWIPER POPULAR ===============*/
 
 /*=============== CHOOSE FAQ ===============*/
