@@ -288,10 +288,23 @@ img {
 	margin-bottom: 1.5rem;
 }
 
-.home-button {
+.home-buttons {
 	display: flex;
 	justify-content: center;
 	column-gap: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.home-buttons .button {
+	box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.8);
+}
+
+.home-buttons .button-link {
+	color: var(--text-color);
+}
+
+.home-buttons .button-link i {
+	font-size: 2rem;
 }
 
 .home-info {
