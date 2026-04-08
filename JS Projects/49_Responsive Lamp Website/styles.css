@@ -531,6 +531,27 @@ img {
 	z-index: -1;
 }
 
+.choose-img {
+	position: relative;
+	display: block;
+	width: 160px;
+	margin: 0 auto;
+	transform: translateY(-6px);
+	z-index: 2;
+}
+
+.choose-blob-title {
+	font-size: 3.5rem;
+	letter-spacing: 3px;
+	color: hsla(0, 0%, 100%, 0.3);
+	font-weight: var(--font-medium);
+	position: absolute;
+	left: 0.5rem;
+	bottom: 2.5rem;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+}
+
 /* Rotate icon */
 
 /* Change color icon */
