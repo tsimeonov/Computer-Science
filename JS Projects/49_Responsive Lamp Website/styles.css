@@ -552,6 +552,19 @@ img {
 	transform: rotate(180deg);
 }
 
+.choose-content,
+.choose-faq {
+	display: grid;
+	row-gap: 2rem;
+}
+
+.choose-faq-header {
+	display: flex;
+	align-items: center;
+	column-gap: 0.75rem;
+	cursor: pointer;
+}
+
 /* Rotate icon */
 
 /* Change color icon */
