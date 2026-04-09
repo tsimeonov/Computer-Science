@@ -565,6 +565,21 @@ img {
 	cursor: pointer;
 }
 
+.choose-faq-title {
+	font-size: var(--normal-big-font-size);
+}
+
+.choose-faq-icon {
+	display: inline-flex;
+	padding: 0.25rem;
+	background: var(--third-gradient);
+	border-radius: 0.5rem;
+	color: var(--white-color);
+	font-size: 1.25rem;
+	box-shadow: 0 2px 8px hsla(15, 68%, 32%, 0.4);
+	transition: box-shadow 0.4s;
+}
+
 /* Rotate icon */
 
 /* Change color icon */
