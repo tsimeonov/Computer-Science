@@ -614,6 +614,57 @@ img {
 }
 
 /*=============== FEATURES ===============*/
+.features-container {
+	row-gap: 3rem;
+}
+
+.features-blob {
+	width: 220px;
+	height: 320px;
+	border: 6px solid transparent;
+	background: var(--second-gradient) padding-box,
+		linear-gradient(90deg, hsl(20, 72%, 65%) 0%, hsl(20, 78%, 80%) 100%)
+			border-box;
+	border-radius: 20rem 20rem 0 0;
+}
+
+.features-image {
+	position: relative;
+	justify-self: center;
+}
+
+.features-shadow {
+	position: absolute;
+	width: 170px;
+	height: 30px;
+	background: hsla(15, 60%, 52%, 0.6);
+	bottom: -0.75rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	filter: blur(8px);
+	z-index: -1;
+}
+
+.features-img {
+	position: relative;
+	display: block;
+	width: 190px;
+	margin: 0 auto;
+	transform: translateY(-6px);
+	z-index: 2;
+}
+
+.features-blob-title {
+	font-size: 3.5rem;
+	letter-spacing: 2px;
+	color: hsla(0, 0%, 100%, 0.3);
+	font-weight: var(--font-medium);
+	position: absolute;
+	right: 0.5rem;
+	bottom: 2.5rem;
+	writing-mode: vertical-lr;
+}
 
 /*=============== PRODUCTS ===============*/
 
