@@ -666,6 +666,24 @@ img {
 	writing-mode: vertical-lr;
 }
 
+.features-data {
+	text-align: center;
+}
+
+.features-content,
+.features-info {
+	display: grid;
+}
+
+.featurs-content {
+	row-gap: 2rem;
+}
+
+.features-info {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.5rem;
+}
+
 /*=============== PRODUCTS ===============*/
 
 /*=============== JOIN ===============*/
