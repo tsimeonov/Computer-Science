@@ -787,6 +787,82 @@ img {
 }
 
 /*=============== JOIN ===============*/
+.join-container {
+	padding-top: 2.5rem;
+}
+
+.join-bg {
+	row-gap: 0;
+	background-color: var(--container-color);
+	padding: 0 1.5rem 3.5rem 1.5rem;
+}
+
+.join-blob {
+	position: relative;
+	width: 220px;
+	height: 320px;
+	border: 6px solid transparent;
+	background: var(--second-gradient) padding-box,
+		linear-gradient(90deg, hsl(20, 72%, 65%) 0%, hsl(20, 78%, 80%) 100%)
+			border-box;
+	border-radius: 20rem 20rem 0 0;
+	z-index: 2;
+}
+
+.join-image {
+	position: relative;
+	justify-self: center;
+	transform: translateY(-3.5rem);
+}
+
+.join-shadow {
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	background-color: hsla(15, 60%, 52%, 0.6);
+	bottom: -0.75rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	filter: blur(8px);
+	z-index: -1;
+}
+
+.join-img {
+	display: block;
+	width: 190px;
+	margin: 0 auto;
+	transform: translateY(-6px);
+}
+
+.join-blob-title {
+	text-align: center;
+	font-size: 3.5rem;
+	letter-spacing: 2px;
+	color: hsla(0, 0%, -100%.3, alpha);
+	font-weight: var(--font-medium);
+}
+
+.join-content {
+	row-gap: 2rem;
+}
+
+.join-data {
+	text-align: center;
+}
+
+.join-form {
+	display: grid;
+	row-gap: 0.75rem;
+}
+
+.join-input {
+	width: 100%;
+	background-color: var(--body-color);
+	padding: 1.25rem 1.5rem;
+	border-radius: 4rem;
+	color: var(--text-color);
+}
 
 /*=============== FOOTER ===============*/
 
