@@ -695,6 +695,21 @@ img {
 	transition: box-shadow 0.4s;
 }
 
+.features-info-title {
+	font-size: var(--h3-font-size);
+	font-weight: var(--font-medium);
+}
+
+.features-info-card:hover {
+	box-shadow: 0 12px 16px hsla(0, 0%, 0%, 0.1);
+}
+
+.features-info-card:hover .features-info-title {
+	background: var(--third-gradient);
+	background-clip: text;
+	color: transparent;
+}
+
 /*=============== PRODUCTS ===============*/
 
 /*=============== JOIN ===============*/
