@@ -711,6 +711,18 @@ img {
 }
 
 /*=============== PRODUCTS ===============*/
+.product-container {
+	row-gap: 3rem;
+}
+
+.product-data {
+	text-align: center;
+}
+
+.product-content {
+	gap: 2rem;
+	justify-content: center;
+}
 
 /*=============== JOIN ===============*/
 
