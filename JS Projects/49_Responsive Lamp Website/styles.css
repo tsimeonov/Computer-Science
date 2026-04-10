@@ -843,6 +843,10 @@ img {
 	font-weight: var(--font-medium);
 }
 
+.join-description {
+	margin: 1.5rem 0;
+}
+
 .join-content {
 	row-gap: 2rem;
 }
@@ -862,6 +866,15 @@ img {
 	padding: 1.25rem 1.5rem;
 	border-radius: 4rem;
 	color: var(--text-color);
+}
+
+.join-input::placeholder {
+	font-family: var(--second-font);
+}
+
+.join-button {
+	padding-block: 1.1rem;
+	cursor: pointer;
 }
 
 /*=============== FOOTER ===============*/
