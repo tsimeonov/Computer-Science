@@ -878,6 +878,33 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+	padding-block: 3rem 2.5rem;
+}
+
+.footer-content {
+	row-gap: 3rem;
+}
+
+.footer-logo {
+	display: inline-block;
+	color: var(--title-color);
+	font-size: var(--h2-font-size);
+	font-family: var(--second-font);
+	font-weight: var(--font-medium);
+	margin-bottom: 0.75rem;
+}
+
+.footer-logo span {
+	background: var(--third-gradient);
+	background-clip: text;
+	color: transparent;
+}
+
+.footer-data {
+	grid-template-columns: repeat(2, max-content);
+	gap: 2.5rem 4rem;
+}
 
 /*=============== SCROLL BAR ===============*/
 
