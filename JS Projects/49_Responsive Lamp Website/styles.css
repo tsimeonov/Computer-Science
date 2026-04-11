@@ -926,6 +926,48 @@ img {
 	color: var(--title-color);
 }
 
+.footer-social,
+.footer-group,
+.footer-terms {
+	display: flex;
+}
+
+.footer-social {
+	column-gap: 1.25rem;
+}
+
+.footer-social-link {
+	font-size: 1.25rem;
+	background: var(--third-gradient);
+	background-clip: text;
+	color: transparent;
+	transition: transform 0.4s;
+}
+
+.footer-social-link:hover {
+	transform: translateY(-0.25rem);
+}
+
+.footer-group {
+	margin-top: 4rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-terms {
+	column-gap: 1.5rem;
+}
+
+.footer-terms a {
+	font-size: var(--small-font-size);
+	color: var(--text-color);
+}
+
+.footer-copy {
+	font-size: var(--small-font-size);
+	text-align: center;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
