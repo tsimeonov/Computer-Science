@@ -251,6 +251,11 @@ img {
 }
 
 /* Active link */
+.active-link {
+	background: var(--third-gradient);
+	background-clip: text;
+	color: transparent;
+}
 
 /*=============== HOME ===============*/
 .home {
