@@ -120,6 +120,18 @@ img {
 }
 
 /*=============== THEME ===============*/
+.nav-buttons {
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+}
+
+.change-theme {
+	font-size: 1.25rem;
+	color: var(--white-color);
+	transition: color 0.4s;
+	cursor: pointer;
+}
 
 /*========== Variables Dark theme ==========*/
 
@@ -246,7 +258,7 @@ img {
 	box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.1);
 }
 
-.bg-header :is(.nav-logo, .nav-toggle) {
+.bg-header :is(.nav-logo, .nav-toggle, .change-theme) {
 	color: var(--title-color);
 }
 
