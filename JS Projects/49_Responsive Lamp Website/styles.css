@@ -145,6 +145,34 @@ body.dark-theme {
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
+.dark-theme :is(.bg-header, .nav-menu) {
+	box-shadow: 0 2px 16px hsl(0, 0%, 0%, 0.2);
+}
+
+.dark-theme :is(.home-shadow, .choose-shadow, .features-shadow, .join-shadow) {
+	background: hsla(15, 60%, 52%, 0.4);
+}
+
+.dark-theme
+	:is(.popular-card:hover, .features-info-card:hover, .products-card:hover) {
+	box-shadow: 0 12px 16px hsla(0, 0%, 0%, 0.2);
+}
+
+.dark-theme :is(.popular-button) {
+	box-shadow: 0 2px 8px hsla(15, 80%, 50%, 0.5);
+}
+
+.dark-theme :is(.swiper-button-next, .swiper-button-prev) {
+	box-shadow: 0 2px 8px hsla(0, 0%, 0%, 0.2);
+}
+
+.dark-theme .features-info-card {
+	background: linear-gradient(180deg, hsla(0, 0%, 12%, 0), hsl(0, 0%, 15%));
+}
+
+.dark-theme .scrollup {
+	box-shadow: 0 4px 16px hsla(0, 0%, 0%, 0.25);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -440,7 +468,7 @@ body.dark-theme {
 	border-radius: 9rem 9rem 0 0;
 	padding: 0.75rem 0.75rem 1rem;
 	margin-inline: 1rem;
-	transition: box-shadow 0.4s;
+	transition: box-shadow 0.4s, background 0.4s;
 }
 
 .popular-card:hover {
@@ -452,6 +480,7 @@ body.dark-theme {
 	height: 200px;
 	border-radius: 8rem 8rem 0 0;
 	margin-bottom: 0.75rem;
+	transition: background 0.4s; /* for dark mode animation */
 }
 
 .popular-img {
@@ -511,6 +540,7 @@ body.dark-theme {
 	font-size: 1.8rem;
 	color: var(--first-color);
 	box-shadow: 0 2px 8px hsla(0, 0%, 0%, 0.1);
+	transition: background 0.4s; /* for dark mode animation */
 }
 
 .swiper-button-prev {
@@ -767,6 +797,7 @@ body.dark-theme {
 	height: 200px;
 	border-radius: 8rem 8rem 0 0;
 	margin-bottom: 0.75rem;
+	transition: background 0.4s; /* for dark mode animation */
 }
 
 .products-img {
@@ -818,6 +849,7 @@ body.dark-theme {
 	row-gap: 0;
 	background-color: var(--container-color);
 	padding: 0 1.5rem 3.5rem 1.5rem;
+	transition: background 0.4s; /* for dark mode animation */
 }
 
 .join-blob {
@@ -889,6 +921,7 @@ body.dark-theme {
 	padding: 1.25rem 1.5rem;
 	border-radius: 4rem;
 	color: var(--text-color);
+	transition: background 0.4s; /* for dark mode animation */
 }
 
 .join-input::placeholder {
