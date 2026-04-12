@@ -1067,6 +1067,37 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px) {
+	.container {
+		margin-inline: 1rem;
+	}
+
+	.home-buttons {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 1rem;
+	}
+
+	.home-title {
+		font-size: 1.75rem;
+	}
+
+	.features-info {
+		grid-template-columns: 1fr;
+	}
+
+	.join-bg {
+		padding: 0 0.5rem 2rem 0.5rem;
+	}
+
+	.footer-data {
+		gap: 2rem;
+	}
+
+	.footer-terms {
+		column-gap: 0.5rem;
+	}
+}
 
 /* For medium devices */
 
