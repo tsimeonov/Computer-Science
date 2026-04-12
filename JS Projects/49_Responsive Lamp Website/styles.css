@@ -1188,6 +1188,40 @@ body.dark-theme {
 	.join-bg {
 		padding: 0 3rem;
 	}
+
+	.join-form {
+		grid-template-columns: 1fr max-content;
+		column-gap: 0.5rem;
+		background-color: var(--body-color);
+		border-radius: 4rem;
+		padding-left: 1.5rem;
+	}
+
+	.join-input {
+		padding: 1rem 0;
+	}
+
+	.grid {
+		justify-items: center;
+	}
+
+	.footer-content {
+		display: flex;
+	}
+
+	.footer-data {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.footer-group {
+		padding: 0 3rem;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.footer-copy {
+		order: -1;
+	}
 }
 
 /* For large devices */
