@@ -1240,4 +1240,30 @@ body.dark-theme {
 		flex-direction: row;
 		column-gap: 4rem;
 	}
+
+	.nav-menu {
+		margin-left: auto;
+	}
+
+	.dark-theme,
+	.nav-menu {
+		box-shadow: none;
+	}
+
+	.change-theme {
+		color: var(--text-color);
+	}
+
+	.bg-header,
+	.change-theme {
+		color: var(--text-color);
+	}
+
+	.products-content {
+		grid-template-columns: repeat(3, max-content);
+	}
+
+	.footer-data {
+		grid-template-columns: repeat(4, max-content);
+	}
 }
