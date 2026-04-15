@@ -1225,3 +1225,19 @@ body.dark-theme {
 }
 
 /* For large devices */
+
+@media screen and (min-width: 1024px) {
+	.nav {
+		column-gap: 4rem;
+	}
+
+	.nav-close,
+	.nav-toggle {
+		display: none;
+	}
+
+	.nav-list {
+		flex-direction: row;
+		column-gap: 4rem;
+	}
+}
