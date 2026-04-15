@@ -1373,4 +1373,23 @@ body.dark-theme {
 	.popular-description {
 		font-size: var(--normal-big-font-size);
 	}
+
+	.popular-card {
+		width: 230px;
+		height: 410px;
+		padding: 1rem 1rem 1.5rem;
+	}
+
+	.popular-blob {
+		height: 240px;
+		margin-bottom: 1rem;
+	}
+
+	.popular-img {
+		width: 150px;
+	}
+
+	.popular-name {
+		font-size: var(--h3-font-size);
+	}
 }
