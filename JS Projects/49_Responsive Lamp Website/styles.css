@@ -1552,4 +1552,17 @@ body.dark-theme {
 	.join-form {
 		width: 400px;
 	}
+
+	.footer {
+		padding-block: 3rem;
+	}
+
+	.footer-logo {
+		margin-bottom: 1rem;
+	}
+
+	.footer-title {
+		font-size: var(--h2-font-size);
+		margin-bottom: 1.25rem;
+	}
 }
