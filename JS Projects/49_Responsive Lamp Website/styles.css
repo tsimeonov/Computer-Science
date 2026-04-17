@@ -894,7 +894,7 @@ body.dark-theme {
 	text-align: center;
 	font-size: 3.5rem;
 	letter-spacing: 2px;
-	color: hsla(0, 0%, -100%.3, alpha);
+	color: hsla(0, 0%, 100%, 0.3);
 	font-weight: var(--font-medium);
 }
 
@@ -1529,5 +1529,27 @@ body.dark-theme {
 		height: 60px;
 		bottom: -2rem;
 		filter: blur(20px);
+	}
+
+	.join-image {
+		transform: translateY(-8.5rem);
+	}
+
+	.join-img {
+		width: 360px;
+		transform: translateY(-10px);
+	}
+
+	.join-blob-title {
+		font-size: 7rem;
+	}
+
+	.join-content {
+		row-gap: 3rem;
+		padding-bottom: 5rem;
+	}
+
+	.join-form {
+		width: 400px;
 	}
 }
