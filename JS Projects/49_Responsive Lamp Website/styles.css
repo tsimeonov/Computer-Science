@@ -1429,6 +1429,19 @@ body.dark-theme {
 		row-gap: 2.5rem;
 	}
 
+	.choose-faq-header {
+		column-gap: 1.25rem;
+	}
+
+	.choose-faq-icon {
+		font-size: 1.8rem;
+		border-radius: 0.75rem;
+	}
+
+	.choose-faq-title {
+		font-size: var(--h2-font-size);
+	}
+
 	.choose-blob {
 		width: 500px;
 		height: 670px;
