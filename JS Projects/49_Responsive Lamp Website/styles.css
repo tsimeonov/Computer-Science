@@ -1372,35 +1372,44 @@ body.dark-theme {
 
 	.popular-description,
 	.choose-description,
-	.choose-faq-description {
+	.choose-faq-description,
+	.features-description,
+	.products-description,
+	.join-description {
 		font-size: var(--normal-big-font-size);
 	}
 
-	.popular-card {
+	.popular-card,
+	.products-card {
 		width: 230px;
 		height: 410px;
 		padding: 1rem 1rem 1.5rem;
 	}
 
-	.popular-blob {
+	.popular-blob,
+	.products-blob {
 		height: 240px;
 		margin-bottom: 1rem;
 	}
 
-	.popular-img {
+	.popular-img,
+	.products-img {
 		width: 150px;
 	}
 
-	.popular-name {
+	.popular-name,
+	.products-name {
 		font-size: var(--h3-font-size);
 	}
 
-	.popular-subtitle {
+	.popular-subtitle,
+	.products-subtitle {
 		font-size: var(--small-font-size);
 		margin-bottom: 1.5rem;
 	}
 
-	.popular-button {
+	.popular-button,
+	.products-button {
 		font-size: 1.8rem;
 		border-radius: 0.75rem;
 		right: 1rem;
@@ -1477,5 +1486,48 @@ body.dark-theme {
 
 	.features-content {
 		row-gap: 3.5rem;
+	}
+
+	.features-info {
+		grid-template-columns: repeat(2, 200px);
+		gap: 2rem;
+	}
+
+	.features-info-card {
+		padding: 3rem 2rem;
+	}
+
+	.products--container {
+		row-gap: 4.5rem;
+	}
+
+	.products-content {
+		grid-template-columns: repeat(4, max-content);
+		gap: 4rem 3rem;
+	}
+
+	.join-container {
+		padding-block: 9rem 5rem;
+	}
+
+	.join-bg {
+		grid-template-columns: 450px 380px;
+		justify-self: initial;
+		height: 442px;
+		column-gap: 6rem;
+		padding-inline: 6rem;
+	}
+
+	.join-blob {
+		width: 450px;
+		height: 580px;
+		border: 10px solid transparent;
+	}
+
+	.join-shadow {
+		width: 352px;
+		height: 60px;
+		bottom: -2rem;
+		filter: blur(20px);
 	}
 }
