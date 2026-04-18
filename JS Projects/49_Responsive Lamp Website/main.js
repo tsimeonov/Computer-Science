@@ -170,3 +170,17 @@ themeButton.addEventListener('click', () => {
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+const sr = ScrollReveal({
+	origin: 'top',
+	distance: '60px',
+	duration: 2500,
+	delay: 400,
+});
+
+sr.reveal(
+	`.home-content, .popular-container, .products-container, .join-bg, .footer-container`
+);
+sr.reveal(`.home-image`, { origina: 'bottom' });
+sr.reveal(`.choose-image, .features-image`, { origina: 'left' });
+sr.reveal(`.choose-content, .choose-content`, { origina: 'right' });
