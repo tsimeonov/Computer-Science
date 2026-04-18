@@ -112,7 +112,7 @@ window.addEventListener('scroll', scrollUp);
 const sections = document.querySelectorAll('section[id]');
 
 const scrollActive = () => {
-	const scrollY = window.pageYOffset;
+	const scrollY = window.scrollY;
 
 	sections.forEach((current) => {
 		const sectionHeight = current.offsetHeight;
@@ -166,7 +166,7 @@ themeButton.addEventListener('click', () => {
 	themeButton.classList.toggle(iconTheme);
 	// We save the theme and the current icon that the user chose
 	localStorage.setItem('selected-theme', getCurrentTheme());
-	localStorage.setItem('selected-theme', getCurrentIcon());
+	localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
@@ -181,6 +181,6 @@ const sr = ScrollReveal({
 sr.reveal(
 	`.home-content, .popular-container, .products-container, .join-bg, .footer-container`
 );
-sr.reveal(`.home-image`, { origina: 'bottom' });
-sr.reveal(`.choose-image, .features-image`, { origina: 'left' });
-sr.reveal(`.choose-content, .choose-content`, { origina: 'right' });
+sr.reveal(`.home-image`, { origin: 'bottom' });
+sr.reveal(`.choose-image, .features-image`, { origin: 'left' });
+sr.reveal(`.choose-content, .choose-content`, { origin: 'right' });
