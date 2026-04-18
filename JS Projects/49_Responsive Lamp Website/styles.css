@@ -1565,4 +1565,12 @@ body.dark-theme {
 		font-size: var(--h2-font-size);
 		margin-bottom: 1.25rem;
 	}
+
+	.footer-links {
+		row-gap: 1rem;
+	}
+
+	.footer-data {
+		column-gap: 4.5rem;
+	}
 }
