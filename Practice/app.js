@@ -1,7 +1,1 @@
-/*
-
-The period between the start of the block and the line where the let or const variables are declared.
-Accessing the varialbe in this block will result in Reference Error.
-
-
-*/
+// 1. Object literal
