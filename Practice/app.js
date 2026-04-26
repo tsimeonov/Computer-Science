@@ -24,3 +24,18 @@ function createCar(make, model) {
 
 const car2 = createCar('Honda', 'Civic');
 console.log(car2);
+
+// Es6 class
+class Car {
+	constructor(make, model) {
+		this.make = make;
+		this.model = model;
+		this.start();
+	}
+	start() {
+		console.log('Hello');
+	}
+}
+
+const car3 = new Car('Honda', 'Civic');
+console.log(car3);
