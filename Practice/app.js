@@ -12,3 +12,16 @@ console.log(car);
 console.log('-----------');
 
 // Factory function
+
+function createCar(make, model) {
+	return {
+		make: make,
+		model: model,
+		start() {
+			console.log('Vroommm');
+		},
+	};
+}
+
+const car2 = createCar('Honda', 'Civic');
+console.log(car2);
