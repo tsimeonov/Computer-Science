@@ -40,6 +40,59 @@
 /* Responsive typography */
 
 /*=============== BASE ===============*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	color: var(--text-color);
+}
+
+body {
+	background-color: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: var(--title-color);
+	font-weight: var(--weight-700);
+	line-height: 1.2;
+}
+
+p {
+	line-height: 1.75;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--title-color);
+}
+
+button,
+input,
+textarea {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
