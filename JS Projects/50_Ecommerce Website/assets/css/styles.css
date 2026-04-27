@@ -16,8 +16,20 @@
 	--gray-color: hsl(var(--hue), 4%, 85%);
 
 	/*========== Font family ==========*/
+	--body-font: 'Azeret Mono', monospace;
+	--second-font: 'Instrument Sans', sans-serif;
 
 	/*========== Font sizes ==========*/
+	--bid-font-size: 4rem;
+	--h1-font-size: 3rem;
+	--h2-font-size: 2.5rem;
+	--h3-font-size: 1.75rem;
+	--h4-font-size: 1.5rem;
+	--largest-font-size: 1.375rem;
+	--larger-font-size: 1.25rem;
+	--large-font-size: 1.125rem;
+	--normal-font-size: 1rem;
+	--small-font-size: 0.875rem;
 
 	/*========== Font weight ==========*/
 }
