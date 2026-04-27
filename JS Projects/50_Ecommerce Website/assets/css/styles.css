@@ -2,14 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&family=Instrument+Sans&family=Red+Hat+Text:wght@300..700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
+:root {
+	/*========== Colors ==========*/
+	--hue: 13;
+	--first-color: hsl(var(--hue), 90%, 45%);
+	--title-color: hsl(var(--hue), 4%, 12%);
+	--text-color: hsl(var(--hue), 4%, 27%);
+	--text-color-light: hsl(var(--hue), 4%, 65%);
+	--body-color: hsl(var(--hue), 4%, 100%);
+	--container-color: hsl(var(--hue), 4%, 96%);
+	--border-color: hsl(var(--hue), 4%, 62%);
+	--white-color: hsl(var(--hue), 4%, 100%);
+	--gray-color: hsl(var(--hue), 4%, 85%);
 
-/*========== Colors ==========*/
+	/*========== Font family ==========*/
 
-/*========== Font family ==========*/
+	/*========== Font sizes ==========*/
 
-/*========== Font sizes ==========*/
-
-/*========== Font weight ==========*/
+	/*========== Font weight ==========*/
+}
 
 /* Responsive typography */
 
