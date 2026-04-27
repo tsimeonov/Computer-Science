@@ -32,6 +32,9 @@
 	--small-font-size: 0.875rem;
 
 	/*========== Font weight ==========*/
+	--weight-500: 500;
+	--weight-600: 600;
+	--weight-700: 700;
 }
 
 /* Responsive typography */
