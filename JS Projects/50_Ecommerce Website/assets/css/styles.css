@@ -133,6 +133,18 @@ img {
 	column-gap: 3rem;
 }
 
+.topbar-item {
+	position: relative;
+}
+
+.topbar-item:not(:last-child)::before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background-color: var(--white-color);
+}
+
 .topbar-link,
 .topbar-text {
 	color: var(--white-color);
