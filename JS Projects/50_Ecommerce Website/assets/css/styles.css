@@ -158,6 +158,17 @@ img {
 	margin-right: auto;
 }
 
+.topbar-social-link {
+	width: 38px;
+	aspect-ratio: 1/1;
+	background-color: var(--white-color);
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	font-size: var(--large-font-size);
+	transition: all 0.3s ease;
+}
+
 /*========== Bottom bar ==========*/
 
 /*========== Navbar ==========*/
