@@ -102,7 +102,6 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-	background-color: var(--first-color);
 	max-width: 1416px;
 	margin-inline: auto;
 	padding-inline: 1.25rem;
