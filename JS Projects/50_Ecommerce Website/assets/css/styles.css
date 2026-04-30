@@ -169,6 +169,11 @@ img {
 	transition: all 0.3s ease;
 }
 
+.topbar-social-link:hover {
+	background-color: var(--first-color);
+	color: var(--white-color);
+}
+
 /*========== Bottom bar ==========*/
 
 /*========== Navbar ==========*/
