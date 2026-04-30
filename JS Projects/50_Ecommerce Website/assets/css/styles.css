@@ -143,6 +143,7 @@ img {
 	width: 1px;
 	height: 100%;
 	background-color: var(--white-color);
+	right: -1.5rem;
 }
 
 .topbar-link,
@@ -150,6 +151,11 @@ img {
 	color: var(--white-color);
 	font-weight: var(--weight-500);
 	text-transform: uppercase;
+}
+
+.topbar-socials {
+	column-gap: 0.5rem;
+	margin-right: auto;
 }
 
 /*========== Bottom bar ==========*/
