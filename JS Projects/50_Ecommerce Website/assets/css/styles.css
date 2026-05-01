@@ -205,6 +205,14 @@ img {
 	line-height: 44px;
 }
 
+.navbar-form .nice-select {
+	border-left: none;
+}
+
+.nice-select:hover {
+	border-color: var(--border-color);
+}
+
 /*========== Navbar ==========*/
 
 /*=============== HOME ===============*/
