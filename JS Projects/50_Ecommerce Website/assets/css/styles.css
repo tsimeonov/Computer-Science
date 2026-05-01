@@ -182,6 +182,28 @@ img {
 }
 
 /*========== Bottom bar ==========*/
+.bottom-bar {
+	padding-block: 1.25rem;
+}
+
+.navbar-form,
+.navbar-btns {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-form,
+.nice-select {
+	border: 1px solid var(--border-color);
+	height: 44px;
+	border-radius: 2rem;
+}
+
+.nice-select {
+	width: 230px;
+	background-color: var(--container-color);
+	line-height: 44px;
+}
 
 /*========== Navbar ==========*/
 
