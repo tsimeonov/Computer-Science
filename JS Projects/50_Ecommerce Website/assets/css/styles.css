@@ -116,7 +116,8 @@ img {
 }
 
 .topbar-container,
-.bottom-bar {
+.bottom-bar,
+.navbar {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -253,6 +254,33 @@ img {
 }
 
 /*========== Navbar ==========*/
+.navbar {
+	padding-block: 0.375rem;
+}
+
+.navbar-list,
+.navbar-contact {
+	display: flex;
+}
+
+.navbar-list {
+	column-gap: 2.5rem;
+}
+
+.navbar-link {
+	text-transform: uppercase;
+}
+
+.navbar-link,
+.navbar-call-link {
+	font-weight: var(--weight-500);
+	transition: color 0.3s ease;
+}
+
+.navbar-link:hover,
+.navbar-call-link:hover {
+	color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 
