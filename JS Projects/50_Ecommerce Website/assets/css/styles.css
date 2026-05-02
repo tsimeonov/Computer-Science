@@ -108,6 +108,9 @@ img {
 }
 
 /*=============== HEADER ===============*/
+.header {
+	margin-bottom: 1rem;
+}
 
 /*========== Topbar ==========*/
 .topbar {
@@ -280,6 +283,11 @@ img {
 .navbar-link:hover,
 .navbar-call-link:hover {
 	color: var(--first-color);
+}
+
+.navbar-contact {
+	align-items: center;
+	column-gap: 1.25rem;
 }
 
 /*=============== HOME ===============*/
