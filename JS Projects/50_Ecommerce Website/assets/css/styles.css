@@ -335,6 +335,12 @@ img {
 	width: 20px;
 	height: 4px;
 	background-color: var(--gray-color);
+	opacity: 1;
+	border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+	width: 80px;
 }
 
 /*=============== PRODUCTS ===============*/
