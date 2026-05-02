@@ -95,6 +95,22 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+	padding-block: 7.5rem;
+}
+
+.section-title {
+	font-size: var(--h1-font-size);
+	margin-bottom: 3rem;
+	position: relative;
+}
+
+.title-center {
+	text-align: center;
+	max-width: 800px;
+	margin-inline: auto;
+	margin-bottom: 5rem;
+}
 
 /*=============== SECTION TITLE ===============*/
 
