@@ -293,6 +293,31 @@ img {
 /*=============== HOME ===============*/
 
 /* Swiper */
+.home-swiper .swiper-slide {
+	padding-block: 10.5rem;
+}
+
+.home-tag {
+	background-color: var(--white-color);
+	color: var(--first-color);
+	display: inline-flex;
+	align-items: center;
+	column-gap: 0.5rem;
+	padding: 0.25rem 1.125rem;
+	border-radius: 2rem;
+	font-weight: var(--weight-700);
+}
+
+.home-title {
+	font-size: var(--bid-font-size);
+	max-width: 800px;
+	margin-block: 1rem 2.5rem;
+}
+
+.home-description {
+	max-width: 450px;
+	margin-bottom: 2rem;
+}
 
 /*=============== PRODUCTS ===============*/
 
