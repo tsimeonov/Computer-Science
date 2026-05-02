@@ -327,6 +327,16 @@ img {
 	margin-bottom: 2rem;
 }
 
+.swiper-pagination .swiper-pagination-horizontal {
+	bottom: 2rem;
+}
+
+.swiper-pagination-bullet {
+	width: 20px;
+	height: 4px;
+	background-color: var(--gray-color);
+}
+
 /*=============== PRODUCTS ===============*/
 
 /*=============== CATEGORIES ===============*/
