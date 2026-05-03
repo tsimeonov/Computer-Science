@@ -138,6 +138,7 @@ img {
 /*=============== BUTTON ===============*/
 .btn {
 	display: inline-flex;
+	justify-content: center;
 	background-color: var(--first-color);
 	padding: 1rem 2.5rem;
 	color: var(--white-color);
@@ -433,6 +434,56 @@ img {
 .product-color {
 	background-color: var(--background-color);
 	display: block;
+	border-radius: 50%;
+}
+
+.product-color-input {
+	float: left;
+	opacity: 0;
+}
+
+.product-size {
+	margin-block: 1.125rem;
+}
+
+.product-size-label {
+	width: 42px;
+	height: 23px;
+	border: 1px solid var(--border-color);
+	display: grid;
+	place-items: center;
+	border-radius: 2rem;
+	font-size: var(--small-font-size);
+	line-height: 1.5;
+}
+
+.product-size-input {
+	display: none;
+}
+
+.product-btn,
+.product-bottom {
+	display: flex;
+}
+
+.product-bottom {
+	justify-content: space-between;
+	padding-top: 1.25rem;
+}
+
+.product-title {
+	font-size: var(--large-font-size);
+	font-weight: var(--weight-500);
+	margin-bottom: 0.75rem;
+}
+
+.product-title a {
+	transition: color 0.3s ease-in;
+}
+
+.product-title:hover a,
+.product-price {
+	color: var(--first-color);
 }
 
 /*=============== CATEGORIES ===============*/
