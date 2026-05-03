@@ -399,6 +399,42 @@ img {
 	padding: 1.5rem;
 }
 
+.product-top,
+.product-stars {
+	display: flex;
+	align-items: center;
+}
+
+.product-top {
+	justify-content: space-between;
+}
+
+.product-starts {
+	column-gap: 0.25rem;
+}
+
+.product-rating {
+	font-size: var(--small-font-size);
+	margin-left: 0.25rem;
+}
+
+.product-colors,
+.product-size {
+	display: flex;
+	column-gap: 0.625rem;
+}
+
+.product-color-input,
+.product-color {
+	width: 16px;
+	height: 16px;
+}
+
+.product-color {
+	background-color: var(--background-color);
+	display: block;
+}
+
 /*=============== CATEGORIES ===============*/
 
 /*=============== FEATURES ===============*/
