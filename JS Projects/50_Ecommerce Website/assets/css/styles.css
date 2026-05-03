@@ -381,6 +381,23 @@ img {
 }
 
 /*=============== PRODUCTS ===============*/
+.product-header {
+	border: 1px solid var(--border-color);
+	position: relative;
+}
+
+.product-img,
+.product-content {
+	width: 100%;
+}
+
+.product-content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: var(--container-color);
+	padding: 1.5rem;
+}
 
 /*=============== CATEGORIES ===============*/
 
