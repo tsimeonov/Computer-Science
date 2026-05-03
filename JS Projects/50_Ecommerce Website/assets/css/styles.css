@@ -486,6 +486,30 @@ img {
 	color: var(--first-color);
 }
 
+.product-price {
+	font-size: var(--large-font-size);
+}
+
+.product-wishlist {
+	font-size: var(--h4-font-size);
+}
+
+.product-card .product-tag {
+	position: absolute;
+	top: 0.75rem;
+	right: 0.75rem;
+	background-color: var(--first-color);
+	color: var(--title-color);
+	width: 56px;
+	aspect-ratio: 1/1;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	text-transform: uppercase;
+	font-size: var(--small-font-size);
+	font-weight: var(--weight-700);
+}
+
 /*=============== CATEGORIES ===============*/
 
 /*=============== FEATURES ===============*/
