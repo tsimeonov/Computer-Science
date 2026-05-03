@@ -8,5 +8,10 @@ const homeSwiper = new Swiper('.home-swiper', {
 });
 
 /*=============== PRODUCT SWIPER ===============*/
+const productSwiper = new Swiper('.product-swiper', {
+	loop: true,
+	slidesPerView: 3,
+	spaceBetween: 30,
+});
 
 /*=============== ELEVATE SWIPER ===============*/
