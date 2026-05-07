@@ -534,6 +534,30 @@ img {
 	justify-content: space-between;
 }
 
+.categories-view {
+	background-color: transparent;
+	border: 1px solid var(--border-color);
+	color: var(--title-color);
+}
+
+.categories-container,
+.categories-items {
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+
+.categories-items .categories-item:first-child {
+	grid-column: 1/-1;
+}
+
+.categories-item {
+	position: relative;
+}
+
+.categories-img {
+	width: 100%;
+}
+
 /*=============== FEATURES ===============*/
 
 /*=============== PRODUCTS ===============*/
