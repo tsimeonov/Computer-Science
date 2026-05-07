@@ -153,6 +153,11 @@ img {
 	padding-inline: 1.25rem;
 }
 
+.grid {
+	display: grid;
+	gap: 1.5rem;
+}
+
 /*=============== HEADER ===============*/
 .header {
 	margin-bottom: 1rem;
@@ -523,6 +528,11 @@ img {
 }
 
 /*=============== CATEGORIES ===============*/
+.categories-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 
 /*=============== FEATURES ===============*/
 
