@@ -691,6 +691,12 @@ img {
 	flex-direction: column;
 	padding: 1rem;
 	z-index: 10;
+	opacity: 0;
+	transition: opacity;
+}
+
+.product-card:hover .product-style {
+	opacity: 1;
 }
 
 .product-color-title {
@@ -714,6 +720,28 @@ img {
 	justify-content: center;
 	column-gap: 0.5rem;
 	margin-top: 1rem;
+}
+
+.product-sold-last i {
+	color: var(--first-color);
+	font-size: var(--largest-font-size);
+}
+
+.product-elevate .product-tag {
+	all: unset;
+	position: absolute;
+	top: 0.75%;
+	left: 0.75%;
+	background-color: var(--title-color);
+	color: var(--white-color);
+	padding: 0.25rem 0.5rem;
+	border-radius: 2rem;
+	font-size: var(--small-font-size);
+	font-weight: var(--weight-700);
+}
+
+.product-elevate .product-bottom {
+	padding: 1rem;
 }
 
 /*=============== CATEGORY ===============*/
