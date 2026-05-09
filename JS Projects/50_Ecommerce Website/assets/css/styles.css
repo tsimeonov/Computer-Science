@@ -639,6 +639,20 @@ img {
 }
 
 /*=============== FEATURES ===============*/
+.features {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.features-item {
+	display: flex;
+	align-items: start;
+	column-gap: 1.25rem;
+}
+
+.features-title {
+	font-size: var(--largest-font-size);
+	margin-bottom: 0.625rem;
+}
 
 /*=============== PRODUCTS ===============*/
 
