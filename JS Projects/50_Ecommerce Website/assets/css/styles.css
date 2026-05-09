@@ -674,6 +674,48 @@ img {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+.product-elevate-container .product-card {
+	background-color: var(--white-color);
+	border: 1px solid var(--border-color);
+}
+
+.product-top {
+	position: relative;
+}
+
+.product-style {
+	background-color: hsla(var(--hue), 0%, 100%, 0.9);
+	position: absolute;
+	inset: 0;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	z-index: 10;
+}
+
+.product-color-title {
+	font-size: var(--normal-font-size);
+	font-weight: var(--weight-600);
+	margin-bottom: 1rem;
+}
+
+.product-color-img {
+	border-radius: 50%;
+}
+
+.product-sold-last {
+	background-color: hsl(var(--hue), 100%, 97%);
+	padding-block: 0.5rem;
+	border-radius: 2rem;
+	color: var(--title-color);
+	font-size: var(--small-font-size);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 0.5rem;
+	margin-top: 1rem;
+}
+
 /*=============== CATEGORY ===============*/
 
 /*=============== NEWSLETTER ===============*/
