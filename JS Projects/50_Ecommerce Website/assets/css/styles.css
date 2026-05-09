@@ -566,6 +566,20 @@ img {
 	flex-direction: column;
 }
 
+.categories-title {
+	text-transform: uppercase;
+	font-size: var(--h3-font-size);
+	margin-bottom: 0.75rem;
+}
+
+.categories-description {
+	max-width: 250px;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
+
 /*=============== FEATURES ===============*/
 
 /*=============== PRODUCTS ===============*/
