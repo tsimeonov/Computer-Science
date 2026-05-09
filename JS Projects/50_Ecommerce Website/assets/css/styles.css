@@ -580,6 +580,21 @@ img {
 	margin-top: auto;
 }
 
+.categories-list {
+	row-gap: 1rem;
+}
+
+.categories-link {
+	border: 1px solid var(--border-color);
+	width: 46%;
+	padding: 0.65rem 1rem;
+	border-radius: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: all 0.3s ease;
+}
+
 /*=============== FEATURES ===============*/
 
 /*=============== PRODUCTS ===============*/
