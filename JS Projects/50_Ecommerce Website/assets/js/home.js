@@ -15,3 +15,10 @@ const productSwiper = new Swiper('.product-swiper', {
 });
 
 /*=============== ELEVATE SWIPER ===============*/
+const productsSwiper = new Swiper('.product-elevate-swiper', {
+	loop: true,
+	// If we need pagination
+	pagination: {
+		el: '.swiper-pagination',
+	},
+});
