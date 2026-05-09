@@ -456,6 +456,7 @@ img {
 
 .product-size {
 	margin-block: 1.125rem;
+	outline: 1px solid red;
 }
 
 .product-size-label {
@@ -656,7 +657,7 @@ img {
 
 /*=============== PRODUCTS ===============*/
 .product-elevate {
-	grid-template-columns: 4fr 7fr 1fr;
+	grid-template-columns: 4fr 8fr 1fr;
 	align-items: center;
 }
 
