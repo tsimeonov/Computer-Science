@@ -655,6 +655,24 @@ img {
 }
 
 /*=============== PRODUCTS ===============*/
+.product-elevate {
+	grid-template-columns: 4fr 7fr 1fr;
+	align-items: center;
+}
+
+.product-elevate-swiper {
+	width: 92%;
+	margin-inline: initial;
+}
+
+.product-elevate-swiper .swiper-pagination.swiper-pagination-horizontal {
+	bottom: 1rem;
+}
+
+.product-elevate-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
 
 /*=============== CATEGORY ===============*/
 
