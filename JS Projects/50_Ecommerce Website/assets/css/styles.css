@@ -595,6 +595,12 @@ img {
 	transition: all 0.3s ease;
 }
 
+.categories-link:hover {
+	background-color: var(--white-color);
+	border-radius: var(--first-color);
+	color: var(--first-color);
+}
+
 /*=============== FEATURES ===============*/
 
 /*=============== PRODUCTS ===============*/
