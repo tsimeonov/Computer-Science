@@ -7,12 +7,14 @@ int main()
   while (true)
   {
     // Step 2: Print the menu to the user
+    std::cout << "==========" << std::endl;
     std::cout << "1: Print help" << std::endl;
     std::cout << "2: Print exchange stats" << std::endl;
     std::cout << "3: Place an ask" << std::endl;
     std::cout << "4: Place a bid" << std::endl;
     std::cout << "5: Print wallet" << std::endl;
     std::cout << "6: Continue" << std::endl;
+    std::cout << "==========" << std::endl;
 
     // Step 3: Declare variable to store the user input
     int userOption;
@@ -20,6 +22,7 @@ int main()
     // Step 4: Promp the user to enter their choice
     std::cout << "Type in 1-6" << std::endl;
     std::cin >> userOption;
+    std::cout << "You chose: " << userOption << std::endl;
 
     // Step 5: Process user choice using confitional statements
     if (userOption == 1)
@@ -47,10 +50,9 @@ int main()
     {
       std::cout << "Going to next time frame" << std::endl;
     }
-    // Step 6: Handle invalid inout outside the 1-6 range
-    else
+    if (userOption < 1 || userOption > 6)
     {
-      std::cout << "Invalid choice. Choose 1 -6" << std::endl;
+      std::cout << "Invalid choice. Choose 1 - 6" << std::endl;
     }
   }
 
