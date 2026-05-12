@@ -360,7 +360,7 @@ img {
 }
 
 .home-title {
-	font-size: var(--bid-font-size);
+	font-size: var(--big-font-size);
 	max-width: 800px;
 	margin-block: 1rem 2.5rem;
 }
@@ -456,7 +456,6 @@ img {
 
 .product-size {
 	margin-block: 1.125rem;
-	outline: 1px solid red;
 }
 
 .product-size-label {
@@ -693,7 +692,7 @@ img {
 	padding: 1rem;
 	z-index: 10;
 	opacity: 0;
-	transition: opacity;
+	transition: opacity 0.3s ease;
 }
 
 .product-card:hover .product-style {
