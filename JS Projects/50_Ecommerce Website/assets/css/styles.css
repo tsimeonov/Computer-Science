@@ -885,6 +885,18 @@ img {
 	font-size: var(--large-font-size);
 }
 
+.newsletter-images {
+	grid-template-columns: 4fr 8fr;
+	column-gap: 0.5rem;
+}
+
+.newsletter-images .flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	row-gap: 0.5rem;
+}
+
 /*=============== FOOTER ===============*/
 
 /*=============== SCROLL UP ===============*/
