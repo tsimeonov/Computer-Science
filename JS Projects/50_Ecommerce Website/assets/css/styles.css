@@ -745,6 +745,53 @@ img {
 }
 
 /*=============== CATEGORY ===============*/
+.category {
+	grid-template-columns: 4fr 8fr;
+	align-items: center;
+}
+
+.category-tabs {
+	width: 75%;
+}
+
+.category-tab-btn {
+	color: var(--title-color);
+	font-weight: var(--weight-500);
+	padding-block: 1.125rem;
+	position: relative;
+	cursor: pointer;
+}
+
+.category-tab-btn:first-child {
+	padding-top: 0;
+}
+
+.category-tab-btn::before,
+.category-tab-btn::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 1px;
+	background-color: var(--border-color);
+}
+
+.category-tab-btn::before {
+	width: 100%;
+	opacity: 0.4;
+}
+
+.category-tab-btn::after {
+	width: 16%;
+	left: 0;
+}
+
+.category-tab-active {
+	color: var(--first-color);
+}
+
+.category-content {
+	grid-template-columns: repeat(2, 1fr);
+}
 
 /*=============== NEWSLETTER ===============*/
 
