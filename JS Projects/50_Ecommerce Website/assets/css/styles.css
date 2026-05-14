@@ -788,9 +788,45 @@ img {
 .category-tab-active {
 	color: var(--first-color);
 }
+.category-tab-active::after {
+	background-color: var(--first-color);
+	width: 100%;
+}
 
 .category-content {
 	grid-template-columns: repeat(2, 1fr);
+}
+
+.category-card {
+	display: flex;
+	align-items: center;
+	border: 1px solid --border-color;
+	position: relative;
+}
+
+.category-data {
+	padding-left: 2rem;
+}
+
+.category-title {
+	width: 90%;
+	font-size: var(--large-font-size);
+	font-weight: var(--weight-500);
+	line-height: 1.5;
+	margin-block: 0.75rem 1.5rem;
+}
+
+.category-title a {
+	transition: color 0.3s ease;
+}
+
+.category-title:hover a,
+.category-price {
+	color: var(--first-color);
+}
+
+.category-price {
+	font-size: var(--larger-font-size);
 }
 
 /*=============== NEWSLETTER ===============*/
