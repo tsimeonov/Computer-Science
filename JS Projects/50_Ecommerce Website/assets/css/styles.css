@@ -848,6 +848,42 @@ img {
 }
 
 /*=============== NEWSLETTER ===============*/
+.newsletter {
+	background-color: var(--container-color);
+	padding-bottom: 4.5rem;
+}
+
+.newsletter-container {
+	grid-template-columns: repeat(2, 1fr);
+	align-items: start;
+}
+
+.section-title span {
+	color: var(--first-color);
+}
+
+.newsletter-form {
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+
+.newsletter-input {
+	background-color: var(--white-color);
+	border: 1px solid var(--border-color);
+	width: 100%;
+	height: 60px;
+	border-radius: 2rem;
+	padding-left: 2rem;
+}
+
+.newsletter-btn {
+	position: absolute;
+	right: 2rem;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	font-size: var(--large-font-size);
+}
 
 /*=============== FOOTER ===============*/
 
