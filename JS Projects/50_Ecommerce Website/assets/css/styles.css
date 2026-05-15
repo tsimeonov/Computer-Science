@@ -974,7 +974,41 @@ img {
 	color: var(--first-color);
 }
 
+.footer-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 2rem;
+}
+
+.footer-copy {
+	color: var(--white-color);
+	font-size: var(--small-font-size);
+}
 /*=============== SCROLL UP ===============*/
+.scrollUp {
+	position: fixed;
+	right: 1.75rem;
+	bottom: -100%;
+	height: 60px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	background-color: var(--body-color);
+	border: 4px solid --first-color;
+	display: grid;
+	place-items: center;
+	transition: all 0.4s ease;
+}
+
+.scrollup-icon {
+	font-size: 1.5rem;
+	color: var(--title-color);
+}
+
+/* Show scroll up */
+.show-scroll {
+	bottom: 1.75rem;
+}
 
 /*=============== BANNER ===============*/
 
