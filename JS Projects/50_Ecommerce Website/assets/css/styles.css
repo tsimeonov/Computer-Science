@@ -911,6 +911,33 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+	background-color: var(--title-color);
+}
+
+.footer-container {
+	grid-template-columns: repeat(2, 3fr) repeat(3, 2fr);
+}
+
+.footer-logo {
+	margin-bottom: 1.5rem;
+}
+
+.footer-socials {
+	display: flex;
+	column-gap: 1.25rem;
+}
+
+.footer-social-link {
+	background-color: var(--text-color);
+	color: var(--white-color);
+	width: 38%;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	transition: background 0.3s ease;
+}
 
 /*=============== SCROLL UP ===============*/
 
