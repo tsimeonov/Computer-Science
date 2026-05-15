@@ -939,6 +939,22 @@ img {
 	transition: background 0.3s ease;
 }
 
+.footer-social-link:hover {
+	background-color: var(--first-color);
+}
+
+.footer-title {
+	color: var(--white-color);
+	font-size: var(--larger-font-size);
+	font-weight: var(--weight-600);
+	margin-bottom: 2rem;
+}
+
+.footer-link,
+.footer-address {
+	color: var(--gray-color);
+}
+
 /*=============== SCROLL UP ===============*/
 
 /*=============== BANNER ===============*/
