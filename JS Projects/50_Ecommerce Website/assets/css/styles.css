@@ -1058,6 +1058,52 @@ img {
 /*=============== SHOP ===============*/
 
 /*========== Top ==========*/
+.top-filter-bar,
+.top-filter-left,
+.top-filter-right,
+.filter-btn {
+	display: flex;
+	align-items: center;
+}
+
+.top-filter-bar {
+	justify-content: space-between;
+	margin-bottom: 3.75rem;
+}
+
+.top-filter-left,
+.top-filter-right {
+	column-gap: 1.25rem;
+}
+
+.filter-btn {
+	column-gap: 0.5rem;
+	background-color: var(--container-color);
+	color: var(--title-color);
+	padding: 1rem 2rem;
+	border: 1px solid var(--border-color);
+	border-radius: 2rem;
+	cursor: pointer;
+}
+
+.filter-btn i {
+	font-size: var(--larger-font-size);
+}
+
+.filter-results,
+.filter-subtitle {
+	font-size: var(--small-font-size);
+}
+
+.filter-results {
+	color: var(--title-color);
+	font-weight: var(--weight-600);
+}
+
+.filter-subtitle {
+	color: var(--title-color);
+	font-weight: var(--weight-700);
+}
 
 /*========== Filters ==========*/
 
