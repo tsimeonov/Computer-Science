@@ -1015,6 +1015,45 @@ img {
 }
 
 /*=============== BANNER ===============*/
+.banner {
+	background-image: url(../img/banner.jpg);
+	padding-block: 8rem 2.25rem;
+	text-align: center;
+}
+
+.banner-title {
+	font-size: var(--big-font-size);
+}
+
+.banner-description {
+	letter-spacing: 2px;
+	margin-block: 0.625rem 2.5rem;
+}
+
+.banner-description,
+.breadcrumb-item {
+	color: var(--title-color);
+	text-transform: uppercase;
+}
+
+.breadcrumb {
+	background-color: var(--white-color);
+	width: fit-content;
+	margin-inline: auto;
+	border-radius: 2rem;
+	padding: 0.5rem 6.75rem;
+	display: flex;
+}
+
+.breadcrumb-item:not(:first-child)::before {
+	content: '/';
+	padding-right: 0.5rem;
+	color: var(--text-color);
+}
+
+.breadcrumb-item:not(:first-child) {
+	padding-left: 0.5rem;
+}
 
 /*=============== SHOP ===============*/
 
