@@ -994,7 +994,7 @@ img {
 	aspect-ratio: 1/1;
 	border-radius: 50%;
 	background-color: var(--body-color);
-	border: 4px solid --first-color;
+	border: 4px solid var(--first-color);
 	display: grid;
 	place-items: center;
 	transition: all 0.4s ease;
