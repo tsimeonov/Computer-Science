@@ -1105,6 +1105,33 @@ img {
 	font-weight: var(--weight-700);
 }
 
+.top-filter-right .nice-select {
+	width: 340px;
+	background-color: var(--white-color);
+}
+
+.view-btns {
+	display: flex;
+	column-gap: 0.5rem;
+}
+
+.view-btn {
+	width: 48px;
+	aspect-ratio: 1/1;
+	border: 1px solid var(--border-color);
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+}
+
+.active-view-btn {
+	background-color: var(--text-color);
+}
+
+.active-view-btn .view-icon {
+	filter: invert(1);
+}
+
 /*========== Filters ==========*/
 
 /*========== Products ==========*/
