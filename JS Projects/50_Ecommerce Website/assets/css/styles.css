@@ -950,9 +950,28 @@ img {
 	margin-bottom: 2rem;
 }
 
+.footer-contact {
+	row-gap: 2rem;
+}
+
+.footer-item {
+	display: flex;
+	align-items: center;
+	column-gap: 1.25rem;
+}
+
 .footer-link,
 .footer-address {
 	color: var(--gray-color);
+}
+
+.footer-link,
+.footer-address {
+	color: var(--gray-color);
+}
+
+.footer-link:hover {
+	color: var(--first-color);
 }
 
 /*=============== SCROLL UP ===============*/
