@@ -466,7 +466,14 @@
     NiceSelect.bind(document.getElementById('shop-select'), {
     	searchable: false,
     });
-</script>
+
+		const shopFilter = document.getElementById("shop-filters");
+		const filterBtn = document.getElementById("filter-btn")
+
+		filterBtn.addEventListener("click" , () => {
+			shopFilter.classList.toggle("show-filters")
+		})
+		</script>
 
 	</body>
 </html>
