@@ -1159,6 +1159,44 @@ img {
 	margin-bottom: 1rem;
 }
 
+.filter-checkbox {
+	width: 16px;
+	height: 16px;
+}
+
+.filter-text {
+	margin-right: auto;
+}
+
+.filter-range {
+	width: 100%;
+	margin-top: 1.25rem;
+	-webkit-appearance: none;
+}
+
+.filter-range::-webkit-slider-runnable-track {
+	background-color: var(--text-color);
+	height: 4px;
+}
+
+.filter-range::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: var(--white-color);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid var(--text-color);
+	position: relative;
+	top: -0.5rem;
+}
+
+.filter-color {
+	width: 18px;
+	height: 18px;
+	background-color: var(--first-color);
+	border-radius: 50%;
+}
+
 /*========== Products ==========*/
 
 /*========== Pagination ==========*/
