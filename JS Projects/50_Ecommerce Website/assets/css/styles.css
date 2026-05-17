@@ -1136,6 +1136,13 @@ img {
 .shop-filters {
 	grid-template-columns: repeat(4, 1fr);
 	align-items: start;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s ease-in-out;
+}
+
+.show-filters {
+	height: auto;
 }
 
 .fitler-item {
