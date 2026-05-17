@@ -1139,6 +1139,7 @@ img {
 	height: 0;
 	overflow: hidden;
 	transition: height 0.5s ease-in-out;
+	interpolate-size: allow-keywords;
 }
 
 .show-filters {
