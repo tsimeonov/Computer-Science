@@ -1206,6 +1206,15 @@ img {
 }
 
 /*========== Products ==========*/
+.shop-products {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2.5rem 1.5rem;
+	margin-top: 2rem;
+}
+
+.product-card {
+	position: relative;
+}
 
 /*========== Pagination ==========*/
 
