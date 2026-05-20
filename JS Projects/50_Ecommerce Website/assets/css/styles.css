@@ -1206,7 +1206,7 @@ img {
 }
 
 /*========== Products ==========*/
-/* .shop-products {
+.shop-products {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 2.5rem 1.5rem;
 	margin-top: 2rem;
@@ -1214,7 +1214,7 @@ img {
 
 .product-card {
 	position: relative;
-} */
+}
 
 /*========== Pagination ==========*/
 
