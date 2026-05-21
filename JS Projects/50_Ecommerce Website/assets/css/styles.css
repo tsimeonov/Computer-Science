@@ -1269,6 +1269,30 @@ img {
 }
 
 /*=============== DETAILS ===============*/
+.details-container {
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+
+.details-left {
+	display: flex;
+	align-items: flex-start;
+}
+
+.details-left,
+.details-images {
+	gap: 0.625rem;
+}
+
+.details-img {
+	width: 100px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.active-img {
+	opacity: 1;
+}
 
 /*=============== DETAILS CONTENT ===============*/
 
