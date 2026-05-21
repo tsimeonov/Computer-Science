@@ -1217,6 +1217,18 @@ img {
 }
 
 /*========== Pagination ==========*/
+.pagination,
+.page-link,
+.page-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pagination {
+	gap: 0.625rem;
+	margin-top: 4.5rem;
+}
 
 /*=============== DETAILS ===============*/
 
