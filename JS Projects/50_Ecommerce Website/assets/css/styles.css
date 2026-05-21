@@ -1248,6 +1248,21 @@ img {
 	transition: all 0.3s ease;
 }
 
+.page-btn:hover {
+	background-color: var(--title-color);
+	color: var(--white-color);
+}
+
+.pagination li:nth-child(2) .page-link::before,
+.pagination li:nth-child(3) .page-link::before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 10px;
+	background-color: var(--border-color);
+	right: -0.25rem;
+}
+
 /*=============== DETAILS ===============*/
 
 /*=============== DETAILS CONTENT ===============*/
