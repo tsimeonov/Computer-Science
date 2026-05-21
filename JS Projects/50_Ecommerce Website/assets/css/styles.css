@@ -1230,6 +1230,24 @@ img {
 	margin-top: 4.5rem;
 }
 
+.page-link,
+.page-btn {
+	width: 50px;
+	aspect-ratio: 1/1;
+	color: var(--title-color);
+	background-color: transparent;
+	border-radius: 50%;
+	font-size: var(--small-font-size);
+	cursor: pointer;
+	position: relative;
+}
+
+.page-btn {
+	background-color: var(--container-color);
+	font-size: var(--larger-font-size);
+	transition: all 0.3s ease;
+}
+
 /*=============== DETAILS ===============*/
 
 /*=============== DETAILS CONTENT ===============*/
