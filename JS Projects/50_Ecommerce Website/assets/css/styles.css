@@ -1263,6 +1263,11 @@ img {
 	right: -0.25rem;
 }
 
+.page-link.active {
+	color: var(--first-color);
+	font-weight: var(--weight-700);
+}
+
 /*=============== DETAILS ===============*/
 
 /*=============== DETAILS CONTENT ===============*/
