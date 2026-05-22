@@ -423,6 +423,20 @@
 
   <!--=============== MAIN JS ===============-->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const mainImg = document.querySelector(".details-main-img");
+    const smallImg = document.querySelectorAll(".details-img");
+
+    smallImg.forEach((img) => {
+      img.addEventListener("click", function ()  {
+        mainImg.src = this.src
+
+        smallImg.forEach((i) => i.classList.remove("active-img"))
+        this.classList.add("active-img")
+      })
+    })
+  </script>
 </body>
 
 </html>
