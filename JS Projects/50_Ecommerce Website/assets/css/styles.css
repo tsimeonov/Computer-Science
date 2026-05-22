@@ -1383,9 +1383,36 @@ img {
 
 .details-actions,
 .details-actions a,
-.details-actions li {
+.details-return li {
 	display: flex;
 	align-items: center;
+}
+
+.details-actions {
+	column-gap: 2rem;
+	font-weight: var(--weight-600);
+	margin-bottom: 3.75rem;
+}
+
+.details-actions a,
+.details-return li {
+	column-gap: 0.625rem;
+}
+
+.details-actions a {
+	transition: color 0.3s ease;
+}
+
+.details-actions a:hover {
+	color: var(--first-color);
+}
+
+.details-return {
+	background-color: var(--container-color);
+	color: var(--title-color);
+	padding: 2.25rem;
+	border-radius: 1.25rem;
+	row-gap: 0.625rem;
 }
 
 /*=============== DETAILS CONTENT ===============*/
