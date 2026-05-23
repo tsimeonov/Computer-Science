@@ -1510,6 +1510,25 @@ img {
 	font-weight: var(--weight-500);
 }
 
+.reviews {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.reviews-title {
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+
+.reviews-list {
+	row-gap: 2.5rem;
+}
+
+.review-item,
+.review-info,
+.review-stars {
+	display: flex;
+}
+
 /*=============== ACCOUNT ===============*/
 
 /*=============== CART ===============*/
