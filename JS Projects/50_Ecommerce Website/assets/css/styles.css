@@ -1550,6 +1550,55 @@ img {
 	font-size: var(--largest-font-size);
 }
 
+.review-stars {
+	margin-left: auto;
+	column-gap: 0.25rem;
+	background-color: hsl(51, 100%, 67%);
+	padding: 0.5rem 1.5rem;
+	border-radius: 2rem;
+	font-size: var(--small-font-size);
+}
+
+.review-description {
+	font-family: var(--second-font);
+	margin-top: 0.75rem;
+}
+
+.reviews-pagination {
+	justify-content: flex-start;
+	margin-top: 2.5rem;
+}
+
+.textarea {
+	height: 130px;
+	resize: none;
+	padding-top: 1.5rem;
+}
+
+.reviews-rating,
+.reviews-stars {
+	display: flex;
+}
+
+.reviews-rating-title {
+	font-weight: var(--weight-500);
+}
+
+.reviews-rating {
+	align-items: center;
+	column-gap: 1.25rem;
+	margin-bottom: 1rem;
+}
+
+.reviews-stars {
+	column-gap: 0.25rem;
+	font-size: var(--h4-font-size);
+}
+
+.review-btn {
+	justify-content: flex-start;
+}
+
 /*=============== ACCOUNT ===============*/
 
 /*=============== CART ===============*/
