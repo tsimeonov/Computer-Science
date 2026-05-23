@@ -259,9 +259,9 @@
     <!--=============== DETAILS CONTENT ===============-->
     <section class="details-content section container">
       <div class="tab-btns">
-        <button class="tab-btn tab-active" data-target="#">Description</button>
-        <button class="tab-btn" data-target="#">Specifications</button>
-        <button class="tab-btn" data-target="#">Reviews (04)</button>
+        <button class="tab-btn tab-active" data-target="#description">Description</button>
+        <button class="tab-btn" data-target="#specifications">Specifications</button>
+        <button class="tab-btn" data-target="#reviews">Reviews (04)</button>
       </div>
 
       <div class="tab-content">
@@ -326,7 +326,7 @@
           </ul>
         </div>
 
-        <div class="tab-item reviews">
+        <div class="tab-item reviews" id="reviews">
           <div class="reviews-grid">
             <div>
               <h3 class="reviews-title">Review</h3>
@@ -641,6 +641,27 @@
         this.classList.add("active-img")
       })
     })
+
+    const tabs = document.querySelectorAll("[data-target]")
+		const tabContents = document.querySelectorAll(".tab-item")
+
+		tabs.forEach((tab) => {
+			tab.addEventListener('click', () => {
+				const target = document.querySelector(tab.dataset.target)
+
+				tabContents.forEach((tabContent) => {
+					tabContent.classList.remove("tab-active")
+				})
+
+				target.classList.add("tab-active")
+
+        tabs.forEach((tab) => {
+          tab.classList.remove("tab-active")
+        })
+				tab.classList.add("tab-active")
+
+			})
+		})
   </script>
 </body>
 
