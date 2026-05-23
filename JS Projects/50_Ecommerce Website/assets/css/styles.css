@@ -1416,6 +1416,26 @@ img {
 }
 
 /*=============== DETAILS CONTENT ===============*/
+.details-content {
+	padding-top: 0;
+}
+
+.tab-btns {
+	display: flex;
+	justify-content: center;
+	column-gap: 3rem;
+	border-bottom: 3px solid var(--gray-color);
+	padding-bottom: 1rem;
+	margin-bottom: 3.75rem;
+}
+
+.tab-btn {
+	color: var(--border-color);
+	font-size: var(--h4-font-size);
+	font-weight: var(--weight-700);
+	cursor: pointer;
+	position: relative;
+}
 
 /*=============== ACCOUNT ===============*/
 
