@@ -137,6 +137,33 @@ img {
 	transform: translateY(-50%);
 }
 
+.form {
+	display: grid;
+	gap: 1rem;
+}
+
+.input {
+	border: 1px solid var(--gray-color);
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+}
+
+.checkbox-input {
+	display: flex;
+	align-items: center;
+	column-gap: 0.75rem;
+	margin-bottom: 1rem;
+}
+
+.checkbox-input input {
+	width: 16px;
+	height: 16px;
+}
+
+.checkbox-label {
+	font-size: var(--small-font-size);
+}
+
 /*=============== SECTION TITLE ===============*/
 
 /*=============== BUTTON ===============*/
