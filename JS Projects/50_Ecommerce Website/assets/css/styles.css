@@ -137,7 +137,8 @@ img {
 	transform: translateY(-50%);
 }
 
-.form {
+.form,
+.input-group {
 	display: grid;
 	gap: 1rem;
 }
@@ -146,6 +147,18 @@ img {
 	border: 1px solid var(--gray-color);
 	padding: 1rem 2rem;
 	border-radius: 2rem;
+}
+
+.input-gray {
+	background-color: var(--container-color);
+}
+
+.input-group {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-dark {
+	background-color: var(--title-color) !important;
 }
 
 .checkbox-input {
@@ -1627,6 +1640,48 @@ img {
 }
 
 /*=============== ACCOUNT ===============*/
+.account-container {
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+}
+
+.login {
+	width: 80%;
+	margin-inline: auto;
+}
+
+.account-title,
+.account-description {
+	text-align: center;
+}
+
+.account-title {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1rem;
+}
+
+.account-description {
+	margin-bottom: 2.25rem;
+}
+
+.forgot-password {
+	color: var(--title-color);
+	font-weight: var(--weight-500);
+}
+
+.account-btn {
+	margin-top: 1rem;
+}
+
+.register-form {
+	background-color: var(--container-color);
+	padding: 3.75rem;
+	border-radius: 2rem;
+}
+
+.register-form .input {
+	background-color: var(--white-color);
+}
 
 /*=============== CART ===============*/
 
