@@ -1765,7 +1765,7 @@ img {
 .content-info-header {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	margin-bottom: 1.25rem;
 }
 
@@ -1794,6 +1794,20 @@ img {
 .contact-list,
 .contact-mails {
 	row-gap: 0.5rem;
+}
+
+.contact-mail-link,
+.contact-item a {
+	transition: color 0.3s ease-in-out;
+}
+
+.contact-item-link:hover,
+.contact-item a:hover {
+	color: var(--first-color);
+}
+
+.contact-item a {
+	margin-left: 1rem;
 }
 
 /*=============== ACCORDION ===============*/
