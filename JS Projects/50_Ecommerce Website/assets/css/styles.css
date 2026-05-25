@@ -1706,7 +1706,72 @@ img {
 	display: flex;
 	align-items: center;
 	column-gap: 1.75rem;
+
 	margin-bottom: 3.25rem;
+}
+
+.contact-title {
+	font-size: var(--h1-font-size);
+	font-weight: var(--weight-600);
+	margin-bottom: 0.5rem;
+}
+
+.contact-description {
+	color: var(--title-color);
+	font-family: var(--second-font);
+	font-size: var(--large-font-size);
+}
+
+.contact-area {
+	height: 160px;
+	resize: none;
+	padding-block: 1.5rem;
+}
+
+.contact-checkbox {
+	margin-top: 0.25rem;
+}
+
+.contact-btn {
+	justify-content: flex-start;
+}
+
+.contact-content {
+	background-color: var(--title-color);
+	padding: 3rem;
+	border-radius: 2rem;
+}
+
+.contact-subtitle,
+.contact-info-title,
+.contact-timing b {
+	color: var(--white-color);
+}
+
+.contact-subtitle {
+	font-size: var(--h3-font-size);
+	margin-bottom: 2.5rem;
+}
+
+.contact-info {
+	padding-bottom: 2.5rem;
+	border-bottom: 1px solid --text-color;
+}
+
+.contact-info:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.content-info-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1.25rem;
+}
+
+.contact-info-title {
+	text-transform: uppercase;
+	font-weight: var(--weight-500);
 }
 
 /*=============== ACCORDION ===============*/
