@@ -1698,6 +1698,16 @@ img {
 /*=============== ACCORDION ===============*/
 
 /*=============== CONTACT ===============*/
+.contact-container {
+	grid-template-columns: 8fr 4fr;
+}
+
+.contact-data {
+	display: flex;
+	align-items: center;
+	column-gap: 1.75rem;
+	margin-bottom: 3.25rem;
+}
 
 /*=============== ACCORDION ===============*/
 
