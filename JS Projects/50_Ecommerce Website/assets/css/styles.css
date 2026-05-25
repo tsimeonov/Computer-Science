@@ -1774,6 +1774,28 @@ img {
 	font-weight: var(--weight-500);
 }
 
+.contact-timing {
+	display: block;
+	color: var(--text-color-light);
+}
+
+.contact-mail-link,
+.contact-item,
+.contact-item a,
+.location-description {
+	color: var(--text-color-light);
+	font-weight: var(--weight-500);
+}
+
+.contact-timing:not(:last-child) {
+	margin-bottom: 0.75rem;
+}
+
+.contact-list,
+.contact-mails {
+	row-gap: 0.5rem;
+}
+
 /*=============== ACCORDION ===============*/
 
 /*=============== BREAKPOINTS ===============*/
