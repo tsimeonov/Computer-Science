@@ -1792,6 +1792,49 @@ img {
 	height: 100%;
 }
 
+.steps-img {
+	width: 140px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	background-color: var(--white-color);
+	display: grid;
+	place-items: center;
+	margin-inline: auto;
+	position: relative;
+}
+
+.steps-img::before {
+	content: attr(data-no);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 36px;
+	background-color: var(--title-color);
+	color: var(--white-color);
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+}
+
+.steps-title {
+	font-size: var(--h4-font-size);
+	margin-block: 1.5rem 0.75rem;
+}
+
+.steps-description {
+	font-family: var(--second-font);
+}
+
+.steps-title,
+.steps-description {
+	transition: color 0.3s ease-in-out;
+}
+
+.steps-card:hover :is(.steps-title, .steps-description) {
+	color: var(--white-color);
+}
+
 /*=============== ACCORDION ===============*/
 
 /*=============== CONTACT ===============*/
