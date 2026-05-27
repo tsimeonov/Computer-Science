@@ -1873,7 +1873,7 @@ img {
 .accordion-content {
 	height: 0;
 	overflow: hidden;
-	transition: height 0.3s wase;
+	transition: height 0.3s ease-in-out;
 }
 
 /*=============== CONTACT ===============*/
