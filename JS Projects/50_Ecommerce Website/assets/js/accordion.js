@@ -12,16 +12,16 @@ accordionItems.forEach((item) => {
 		content.style.height = isOpen ? content.scrollHeight + 'px' : '0';
 		icon.className = isOpen ? 'ri-subtract-line' : 'ri-add-line';
 
-		accordionItems.forEach((otherItem) => {
-			if (
-				otherItem !== item &&
-				otherItem.classList.contains('accordion-open')
-			) {
-				otherItem.querySelector('.accordion-content').style.height = '0';
-				otherItem.querySelector('.accordion-header i').classList =
-					'ri-add-line';
-				otherItem.classList.remove == '0';
-			}
-		});
+		// accordionItems.forEach((otherItem) => {
+		// 	if (
+		// 		otherItem !== item &&
+		// 		otherItem.classList.contains('accordion-open')
+		// 	) {
+		// 		otherItem.querySelector('.accordion-content').style.height = '0';
+		// 		otherItem.querySelector('.accordion-header i').classList =
+		// 			'ri-add-line';
+		// 		otherItem.classList.remove == '0';
+		// 	}
+		// });
 	});
 });
