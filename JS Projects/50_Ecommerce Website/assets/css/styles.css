@@ -1836,6 +1836,45 @@ img {
 }
 
 /*=============== ACCORDION ===============*/
+.accordion-bg {
+	background-color: var(--container-color);
+	padding: 4.25rem 7.5rem;
+	border-radius: 2rem;
+}
+
+.accordion-title {
+	font-size: var(--h2-font-size);
+	margin-bottom: 3.75rem;
+}
+
+.accordion-item {
+	padding-left: 3rem;
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 1.5rem;
+}
+
+.accordion-subtitle {
+	font-size: var(--h4-font-size);
+}
+
+.accordion-header {
+	position: relative;
+	cursor: pointer;
+}
+
+.accordion-header i {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -2.5rem;
+	font-size: var(--largest-font-size);
+}
+
+.accordion-content {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.3s wase;
+}
 
 /*=============== CONTACT ===============*/
 .contact-container {
