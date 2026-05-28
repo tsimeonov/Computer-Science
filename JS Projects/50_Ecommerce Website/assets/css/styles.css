@@ -1876,6 +1876,10 @@ img {
 	transition: height 0.3s ease-in-out;
 }
 
+.accordion {
+	padding-top: 0;
+}
+
 /*=============== CONTACT ===============*/
 .contact-container {
 	grid-template-columns: 8fr 4fr;
