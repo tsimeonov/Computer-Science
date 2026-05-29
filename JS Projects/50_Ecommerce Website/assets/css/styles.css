@@ -1847,11 +1847,11 @@ img {
 	margin-bottom: 3.75rem;
 }
 
-.accordion-item {
+/* .accordion-item {
 	padding-left: 3rem;
 	border-bottom: 1px solid var(--border-color);
 	padding-bottom: 1.5rem;
-}
+} */
 
 .accordion-subtitle {
 	font-size: var(--h4-font-size);
