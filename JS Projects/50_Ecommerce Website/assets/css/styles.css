@@ -1686,6 +1686,7 @@ img {
 /*=============== CART ===============*/
 .table {
 	width: 100%;
+	border-collapse: collapse;
 }
 
 .cart-table {
@@ -1705,6 +1706,38 @@ img {
 
 .thead-title {
 	padding-left: 3.75rem;
+}
+
+.tbody {
+	border: 1px solid var(--gray-color);
+}
+
+.tbody tr {
+	border-bottom: 1px solid var(--gray-color);
+}
+
+.cart-data {
+	display: flex;
+	align-items: center;
+	column-gap: 1.75rem;
+	padding: 1rem;
+}
+
+.cart-img {
+	width: 130px;
+	border: 1px solid var(--gray-color);
+	margin-left: 1.75rem;
+}
+
+.cart-title {
+	font-size: var(--normal-font-size);
+	width: 70%;
+	line-height: 1.5;
+	margin-bottom: 0.25rem;
+}
+
+.cart-price {
+	color: var(--title-color);
 }
 
 /*=============== CART BOTTOM ===============*/
