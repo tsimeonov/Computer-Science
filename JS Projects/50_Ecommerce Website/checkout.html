@@ -205,7 +205,8 @@
             </li>
 
             <li class="payment-method">
-              <input type="radio" name="payment-method-paypal" id="payment-method-bt" class="checkout-radio" value="paypal">
+              <input type="radio" name="payment-method-paypal" id="payment-method-bt" class="checkout-radio"
+                value="paypal">
 
               <label class="payment-method-bt">
                 Paypal <img src="assets/img/paypal.png" alt="">
@@ -232,7 +233,86 @@
             </li>
           </ul>
 
+          <button type="submit" class="btn">Placed Order</button>
+
         </form>
+
+        <div class="checkout-content">
+          <ul class="cart-items grid">
+            <li class="cart-item">
+              <div class="cart-item-box">
+                <img src="assets/img/categories-img-1.jpg" alt="" class="cart-item-img">
+                <span class="cart-item-quantity">1</span>
+              </div>
+
+              <div>
+                <h3 class="cart-item-title">
+                  <a href="#">Lorem ipsum dolor sit amet.</a>
+                </h3>
+                <span class="cart-item-price">$145.00</span>
+              </div>
+            </li>
+
+            <li class="cart-item">
+              <div class="cart-item-box">
+                <img src="assets/img/categories-img-2.jpg" alt="" class="cart-item-img">
+                <span class="cart-item-quantity">1</span>
+              </div>
+
+              <div>
+                <h3 class="cart-item-title">
+                  <a href="#">Lorem ipsum dolor sit amet.</a>
+                </h3>
+                <span class="cart-item-price">$145.00</span>
+              </div>
+            </li>
+
+            <li class="cart-item">
+              <div class="cart-item-box">
+                <img src="assets/img/categories-img-3.jpg" alt="" class="cart-item-img">
+                <span class="cart-item-quantity">1</span>
+              </div>
+
+              <div>
+                <h3 class="cart-item-title">
+                  <a href="#">Lorem ipsum dolor sit amet.</a>
+                </h3>
+                <span class="cart-item-price">$145.00</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="cart-totals">
+            <div class="total-area">
+              <h3 class="total-title">Cart Totals</h3>
+
+              <ul class="total-list grid">
+                <li class="total-item">
+                  <h3 class="total-subtitle">Subtotal: </h3>
+                  <span class="total-value">$145.00</span>
+                </li>
+                <li class="total-item">
+                  <h3 class="total-subtitle">Shipping: </h3>
+                  <span class="total-value">Free</span>
+                </li>
+
+                <li>
+                  <hr class="total-rule">
+                </li>
+
+                <li class="total-item">
+                  <h3 class="total-subtitle">Total: </h3>
+                  <span class="total-value">$145.00</span>
+                </li>
+              </ul>
+
+              <div class="proceed-to-checkout grid">
+                <a href="checkout.html" class="btn btn-checkout">Checkout</a>
+                <a href="index.html" class="btn btn-checkout">Continue Shopping</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
