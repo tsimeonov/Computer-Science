@@ -160,27 +160,77 @@
 
           <input type="text" placeholder="Apartment, suite, etc." class="input">
 
-          <div>
-            <select name="" id="country" style="display: none" class="checkout-select input">
-              <option value="all" selected>Select City</option>
-              <option value="ny">New York City</option>
-              <option value="la">Los Angeles</option>
-              <option value="chi">Chicago</option>
-              <option value="hou">Houston</option>
-              <option value="phx">Phoenix</option>
-            </select>
+          <div class="checkout-group">
+            <div>
+              <select name="" id="country" style="display: none" class="checkout-select input">
+                <option value="all" selected>Select City</option>
+                <option value="ny">New York City</option>
+                <option value="la">Los Angeles</option>
+                <option value="chi">Chicago</option>
+                <option value="hou">Houston</option>
+                <option value="phx">Phoenix</option>
+              </select>
+            </div>
+
+            <div>
+              <select name="" id="country" style="display: none" class="checkout-select input">
+                <option value="all" selected>Select State</option>
+                <option value="nj">New Jersey</option>
+                <option value="nm">New Mexico</option>
+                <option value="ny">New York</option>
+                <option value="nc">North Carolina</option>
+                <option value="nd">North Dakota</option>
+              </select>
+            </div>
+
+            <input type="text" placeholder="Zip Code" class="input">
           </div>
 
-          <div>
-            <select name="" id="country" style="display: none" class="checkout-select input">
-              <option value="all" selected>Select State</option>
-              <option value="nj">New Jersey</option>
-              <option value="nm">New Mexico</option>
-              <option value="ny">New York</option>
-              <option value="nc">North Carolina</option>
-              <option value="nd">North Dakota</option>
-            </select>
+          <div class="checkbox-input checkout-save-info">
+            <input type="checkbox" id="save-data">
+
+            <label for="save-data">Save this information for next time</label>
           </div>
+
+          <h2 class="checkbox-title">Shipping method</h2>
+
+          <ul class="payment-methods grid">
+            <li class="payment-method">
+              <input type="radio" name="payment-method-bt" id="payment-method-bt" class="checkout-radio" value="basic">
+
+              <label class="payment-method-bt">
+                Bank Transfer <img src="assets/img/banktransfer.png" alt="">
+              </label>
+
+            </li>
+
+            <li class="payment-method">
+              <input type="radio" name="payment-method-paypal" id="payment-method-bt" class="checkout-radio" value="paypal">
+
+              <label class="payment-method-bt">
+                Paypal <img src="assets/img/paypal.png" alt="">
+              </label>
+
+            </li>
+
+            <li class="payment-method">
+              <input type="radio" name="payment-method-cc" id="payment-method-bt" class="checkout-radio" value="cc">
+
+              <label class="payment-method-bt">
+                Credit card <img src="assets/img/card.png" alt="">
+              </label>
+
+            </li>
+
+            <li class="payment-method">
+              <input type="radio" name="payment-method-cod" id="payment-method-cod" class="checkout-radio" value="cod">
+
+              <label class="payment-method-bt">
+                Cash On Delivery<img src="assets/img/dollar.png" alt="">
+              </label>
+
+            </li>
+          </ul>
 
         </form>
       </div>
