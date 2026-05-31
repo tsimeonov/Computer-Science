@@ -1876,6 +1876,14 @@ img {
 }
 
 /*=============== CHECKOUT ===============*/
+.checkout-container {
+	grid-template-columns: 8fr 4fr;
+	column-gap: 3rem;
+}
+
+.checkout-form {
+	margin-left: 10.5%;
+}
 
 /*=============== RETURNS ===============*/
 .returns-container {

@@ -479,6 +479,14 @@
 
   <!--=============== MAIN JS ===============-->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    ['country', 'state', 'city'].forEach((id) => {
+      NiceSelect.bind(document.getElementById(id), {
+        searchable: false,
+      });
+    })
+  </script>
 </body>
 
 </html>
