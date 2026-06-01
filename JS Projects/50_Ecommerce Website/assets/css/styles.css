@@ -1876,6 +1876,21 @@ img {
 }
 
 /*=============== CHECKOUT ===============*/
+.checkout {
+	position: relative;
+}
+
+.checkout::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: var(--container-color);
+	width: 40%;
+	height: 100%;
+	z-index: -10;
+}
+
 .checkout-container {
 	grid-template-columns: 8fr 4fr;
 	align-items: start;
