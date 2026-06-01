@@ -1885,6 +1885,23 @@ img {
 	margin-left: 10.5%;
 }
 
+.checkbox-title {
+	font-size: var(--h3-font-size);
+}
+
+.checkout-select {
+	background-color: var(--container-color);
+	width: 100%;
+	height: auto;
+	line-height: 1.4;
+}
+
+.checkout-select,
+.checkout-select:focus,
+.checkout-select:hover {
+	border-color: var(--gray-color);
+}
+
 /*=============== RETURNS ===============*/
 .returns-container {
 	grid-template-columns: repeat(2, 1fr);
