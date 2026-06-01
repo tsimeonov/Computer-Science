@@ -1878,6 +1878,7 @@ img {
 /*=============== CHECKOUT ===============*/
 .checkout-container {
 	grid-template-columns: 8fr 4fr;
+	align-items: start;
 	column-gap: 3rem;
 }
 
@@ -1915,6 +1916,29 @@ img {
 
 .payment-methods {
 	row-gap: 0.75rem;
+}
+
+.payment-method,
+.payment-method label {
+	display: flex;
+	align-items: center;
+}
+
+.payment-method {
+	column-gap: 0.75rem;
+	background-color: var(--container-color);
+	padding: 0.75rem 2rem;
+	border-radius: 2rem;
+}
+
+.checkout-radio {
+	transform: scale(1.5);
+}
+
+.payment-method label {
+	flex-grow: 1;
+	justify-content: space-between;
+	font-weight: var(--weight-700);
 }
 
 /*=============== RETURNS ===============*/
