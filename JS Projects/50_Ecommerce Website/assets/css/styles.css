@@ -365,6 +365,10 @@ img {
 	color: var(--white-color);
 }
 
+.nav-toggle {
+	display: none;
+}
+
 /*========== Navbar ==========*/
 .navbar {
 	padding-block: 0.375rem;
@@ -397,6 +401,13 @@ img {
 .navbar-contact {
 	align-items: center;
 	column-gap: 1.25rem;
+}
+
+.navbar-contact:not(:first-child),
+.mobile-logo,
+.mobile-form,
+.nav-close {
+	display: none;
 }
 
 /*=============== HOME ===============*/
