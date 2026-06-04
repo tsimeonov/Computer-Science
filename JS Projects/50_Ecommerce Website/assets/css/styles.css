@@ -2349,7 +2349,37 @@ img {
 	}
 
 	.product-content {
-		padding: 1.2;
+		padding: 1.25rem;
+		transform: translateY(6.75rem);
+	}
+
+	.product-elevate-swiper {
+		display: none;
+	}
+
+	.product-elevate,
+	.category {
+		grid-template-columns: 1fr;
+	}
+
+	.product-elevate {
+		padding-inline: 1.25rem;
+	}
+
+	.category-tabs {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 2rem;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.category-tab-btn:first-child {
+		padding-top: 1.125rem;
+	}
+
+	.category-tab-btn::after {
+		width: 26%;
 	}
 }
 
