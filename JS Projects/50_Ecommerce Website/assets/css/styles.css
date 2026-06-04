@@ -2366,8 +2366,17 @@ img {
 	}
 
 	.product-elevate,
-	.category {
+	.category,
+	.checkout-container {
 		grid-template-columns: 1fr;
+	}
+
+	.checkout-form {
+		margin-right: 0;
+	}
+
+	.checkout::before {
+		all: unset;
 	}
 
 	.product-elevate {
