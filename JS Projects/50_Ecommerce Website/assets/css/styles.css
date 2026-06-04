@@ -2319,6 +2319,38 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1400px) {
+	.home-title {
+		max-width: 600px;
+	}
+
+	.btn {
+		padding-inline: 2rem;
+	}
+
+	.swiper-pagination.swiper-pagination-horizontal {
+		bottom: 1rem;
+	}
+
+	.product-colors,
+	.product-size {
+		column-gap: 0.5rem;
+	}
+
+	.product-color-input,
+	.product-color {
+		width: 14px;
+		height: 14px;
+	}
+
+	.product-size-label {
+		width: 38px;
+		height: 20px;
+		line-height: 1.2;
+	}
+
+	.product-content {
+		padding: 1.2;
+	}
 }
 
 @media screen and (max-width: 1400px) {
