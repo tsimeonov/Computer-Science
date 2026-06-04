@@ -2353,6 +2353,14 @@ img {
 		transform: translateY(6.75rem);
 	}
 
+	.features {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.features-img {
+		width: 46px;
+	}
+
 	.product-elevate-swiper {
 		display: none;
 	}
@@ -2380,6 +2388,18 @@ img {
 
 	.category-tab-btn::after {
 		width: 26%;
+	}
+
+	.specifications {
+		padding: 3rem 6rem;
+	}
+
+	.login {
+		width: 100%;
+	}
+
+	.availability-col {
+		width: 170px;
 	}
 }
 
