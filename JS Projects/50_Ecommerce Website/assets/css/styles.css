@@ -393,10 +393,10 @@ img {
 	transition: color 0.3s ease;
 }
 
-/* .navbar-link:hover,
+.navbar-link:hover,
 .navbar-call-link:hover {
 	color: var(--first-color);
-} */
+}
 
 .navbar-contact {
 	align-items: center;
