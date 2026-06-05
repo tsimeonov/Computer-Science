@@ -398,10 +398,10 @@ img {
 	color: var(--first-color);
 }
 
-/* .navbar-contact {
+.navbar-contact {
 	align-items: center;
 	column-gap: 1.25rem;
-} */
+}
 
 .navbar-contact:not(:first-child),
 .mobile-logo,
