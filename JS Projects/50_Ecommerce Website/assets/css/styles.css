@@ -2423,7 +2423,22 @@ img {
 	}
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1208px) {
+	.header {
+		margin-bottom: 0;
+	}
+
+	.topbar,
+	.navbar-form:not(.mobile-form),
+	.navbar-btns {
+		display: none;
+	}
+
+	.nav-toggle,
+	.mobile-logo,
+	.nav-close {
+		display: inline-flex;
+	}
 }
 
 /* For medium devices */
