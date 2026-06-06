@@ -2464,7 +2464,11 @@ img {
 		row-gap: 2rem;
 		padding: 1.875rem;
 		z-index: 1000;
-		transition: var(--large-font-size) 0.3s ease-in-out;
+		transition: left 0.3s ease-in-out;
+	}
+
+	.show-menu {
+		left: 0;
 	}
 
 	.mobile-form,
