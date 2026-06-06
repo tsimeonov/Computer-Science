@@ -2452,7 +2452,7 @@ img {
 
 	.navbar {
 		position: fixed;
-		left: 0;
+		left: -100%;
 		top: 0;
 		background-color: var(--white-color);
 		width: 420px;
@@ -2482,6 +2482,43 @@ img {
 
 	.navbar-item:not(:last-child) {
 		border-bottom: 1px solid var(--gray-color);
+	}
+
+	.navbar-item:first-child {
+		padding-top: 0.5rem;
+	}
+
+	.navbar-link {
+		text-transform: capitalize;
+	}
+
+	.navbar-contacts {
+		display: grid;
+		row-gap: 1rem;
+	}
+
+	.navbar-contact {
+		column-gap: 0.75rem;
+	}
+
+	.navbar-icon {
+		width: 20px;
+	}
+
+	.navbar-address {
+		font-weight: var(--weight-500);
+	}
+
+	.navbar-address,
+	.nav-close {
+		color: var(--title-color);
+	}
+
+	.nav-close {
+		position: absolute;
+		top: 1rem;
+		right: 1.25rem;
+		font-size: 2rem;
 	}
 }
 
