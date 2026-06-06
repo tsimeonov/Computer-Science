@@ -2443,6 +2443,7 @@ img {
 	.nav-toggle {
 		color: var(--title-color);
 		font-size: 1.5rem;
+		cursor: pointer;
 	}
 
 	.navbar-toggle:not(:first-child),
