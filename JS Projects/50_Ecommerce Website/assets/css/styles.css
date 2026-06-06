@@ -2446,7 +2446,7 @@ img {
 	}
 
 	.navbar-toggle:not(:first-child),
-	.mobile-logo {
+	.mobile-form {
 		display: flex;
 	}
 
@@ -2464,6 +2464,24 @@ img {
 		padding: 1.875rem;
 		z-index: 1000;
 		transition: var(--large-font-size) 0.3s ease-in-out;
+	}
+
+	.mobile-form,
+	.mobile-form .navbar-input {
+		width: 100%;
+	}
+
+	.navbar-list {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.navbar-item {
+		padding-block: 1rem;
+	}
+
+	.navbar-item:not(:last-child) {
+		border-bottom: 1px solid var(--gray-color);
 	}
 }
 
