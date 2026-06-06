@@ -2561,6 +2561,21 @@ img {
 	.shop-products {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	.shop-products {
+		row-gap: 1.75rem;
+	}
+
+	.pagination {
+		gap: 0.25rem;
+		margin-top: 3.25rem;
+	}
+
+	.page-link,
+	.page-btn {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 /* For medium devices */

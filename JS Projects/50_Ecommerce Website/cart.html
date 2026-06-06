@@ -83,17 +83,33 @@
 				<a href="account.html" class="navbar-btn">
 					<i class="ri-user-line"></i>
 				</a>
-				<a href="wishlist.html" class="navbar-btn">
+				<a href="#" class="navbar-btn">
 					<i class="ri-heart-line"></i>
 				</a>
-				<a href="cart.html" class="navbar-btn">
+				<a href="#" class="navbar-btn">
 					<i class="ri-shopping-cart-line"></i>
 				</a>
+			</div>
+
+			<div class="nav-toggle" id="nav-toggle">
+				<i class="ri-menu-line"></i>
 			</div>
 		</div>
 
 		<!--======== Navbar ========-->
-		<nav class="navbar container">
+		<nav class="navbar container" id="nav-menu">
+			<a href="index.html" class="mobile-logo">
+				<img src="assets/img/logo.png" alt="">
+			</a>
+
+			<form action="" class="navbar-form mobile-form">
+				<input type="text" placeholder="Search...." class="navbar-input">
+
+				<button type="submit" class="navbar-search">
+					<i class="ri-search-line"></i>
+				</button>
+			</form>
+
 			<ul class="navbar-list">
 				<li class="navbar-item">
 					<a href="index.html" class="navbar-link">Home</a>
@@ -109,9 +125,23 @@
 				</li>
 			</ul>
 
-			<div class="navbar-contact">
-				<img src="assets/img/call.svg" alt="" class="navbar-icon" />
-				<a href="tel: +32-312-313" class="navbar-call-link">+32-312-313</a>
+			<div class="navbar-contacts">
+				<div class="navbar-contact">
+					<img src="assets/img/call.svg" alt="" class="navbar-icon" />
+					<a href="tel: +32-312-313" class="navbar-call-link">+32-312-313</a>
+				</div>
+				<div class="navbar-contact">
+					<img src="assets/img/message.svg" alt="" class="navbar-icon" />
+					<a href="mailto: username@domain.com" class="navbar-call-link">username@domain.com</a>
+				</div>
+				<div class="navbar-contact">
+					<img src="./assets/img/map.svg" alt="" class="navbar-icon" />
+					<p class="navbar-address">5400 N. Lakewood Ave, Chicago, IL</p>
+				</div>
+
+				<div class="nav-close" id="nav-close">
+					<i class="ri-close-circle-fill"></i>
+				</div>
 			</div>
 		</nav>
 	</header>
