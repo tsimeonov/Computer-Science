@@ -406,7 +406,8 @@ img {
 .navbar-contact:not(:first-child),
 .mobile-logo,
 .mobile-form,
-.nav-close {
+.nav-close,
+.mobile-item {
 	display: none;
 }
 
@@ -625,6 +626,7 @@ img {
 
 .categories-img {
 	width: 100%;
+	top: 0;
 }
 
 .categories-data {
@@ -1919,7 +1921,7 @@ img {
 .checkout-container {
 	grid-template-columns: 8fr 4fr;
 	align-items: start;
-	column-gap: 3rem;
+	gap: 3rem;
 }
 
 .checkout-form {
@@ -2575,6 +2577,19 @@ img {
 	.page-btn {
 		width: 40px;
 		height: 40px;
+	}
+
+	.account-container {
+		grid-template-columns: 1fr;
+		row-gap: 2.5rem;
+	}
+
+	.contact-container {
+		grid-template-columns: 7fr 5fr;
+	}
+
+	.accordion-bg {
+		padding: 3.25rem 4.5rem;
 	}
 }
 
