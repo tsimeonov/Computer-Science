@@ -2603,14 +2603,17 @@ img {
 	.details-container,
 	.description,
 	.reviews,
-	.contact-container {
+	.contact-container,
+	.returns-container,
+	.cart-bottom {
 		grid-template-columns: 1fr;
 	}
 
 	.newsletter-container,
 	.description,
 	.reviews,
-	.contact-container {
+	.contact-container,
+	.returns-container {
 		row-gap: 2.5rem;
 	}
 
@@ -2631,6 +2634,15 @@ img {
 		padding: 2.5rem;
 	}
 
+	.accordion-items {
+		row-gap: 1.25rem;
+	}
+
+	.accordion-item {
+		padding-left: 2.25rem;
+		padding-block: 1.25rem;
+	}
+
 	.newsletter {
 		padding-block: 3.75rem;
 	}
@@ -2645,12 +2657,17 @@ img {
 		margin-bottom: 2rem;
 	}
 
-	.product-elevate-container {
+	.product-elevate-container,
+	.steps-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.category-img {
 		width: 130px;
+	}
+
+	.table-container {
+		overflow-x: auto;
 	}
 }
 
