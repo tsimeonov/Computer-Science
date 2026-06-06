@@ -3,10 +3,6 @@ const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');
 const navClose = document.getElementById('nav-close');
 
-navToggle.addEventListener('click', () => {
-	console.log('Clicked');
-});
-
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if (navToggle) {
