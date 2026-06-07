@@ -2700,8 +2700,17 @@ img {
 	.shop-filters,
 	.shop-products,
 	.steps-container,
-	.details-left {
+	.details-left,
+	.input-group {
 		grid-template-columns: 1fr;
+	}
+
+	.contact-content {
+		padding: 2rem;
+	}
+
+	.register {
+		padding: 2.5rem;
 	}
 
 	.top-filter-right .nice-select {
@@ -2729,6 +2738,24 @@ img {
 	.review-item,
 	.reviews-info {
 		flex-direction: column;
+	}
+
+	.reviews-info {
+		align-items: start;
+	}
+
+	.review-stars {
+		margin-left: initial;
+		margin-block: 1.25rem 0.75rem;
+	}
+
+	.review-title {
+		margin-bottom: 0.5rem;
+	}
+
+	.specifications li {
+		column-gap: 2rem;
+		padding-inline: 1.75rem;
 	}
 
 	.footer-contact-div {
