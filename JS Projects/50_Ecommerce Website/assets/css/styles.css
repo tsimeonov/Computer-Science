@@ -2796,5 +2796,43 @@ img {
 	}
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 576px) {
+	.navbar {
+		width: 100%;
+	}
+
+	.container {
+		padding-inline: 1rem;
+	}
+
+	.categories-link {
+		max-width: 225rem;
+	}
+
+	.categories-items,
+	.product-elevate-container,
+	.newsletter-images {
+		grid-template-columns: 1fr;
+	}
+
+	.newsletter-images .flex {
+		row-gap: 1rem;
+	}
+
+	.breadcrumb {
+		padding-inline: 1.5rem;
+	}
+
+	.top-filter-right {
+		flex-direction: column;
+		row-gap: 0.75rem;
+	}
+
+	.tab-btns {
+		padding-bottom: 0.5rem;
+	}
+
+	.tab-btn.tab-active::after {
+		bottom: -0.65rem;
+	}
 }
