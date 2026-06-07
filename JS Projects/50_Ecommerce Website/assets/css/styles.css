@@ -2686,13 +2686,38 @@ img {
 	.subtotal-col {
 		width: 150px;
 	}
-}
 
-@media screen and (max-width: 1400px) {
+	.action-col {
+		width: 234px;
+	}
 }
 
 /* For small devices */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 768px) {
+	.category-content,
+	.footer-container,
+	.shop-filters,
+	.shop-products,
+	.steps-container {
+		grid-template-columns: 1fr;
+	}
+
+	.top-filter-right .nice-select {
+		width: 220px;
+	}
+
+	.details-images {
+		display: flex;
+		order: 2;
+	}
+
+	.footer-contact-div {
+		grid-column: initial;
+	}
+
+	.footer-group {
+		flex-direction: column;
+	}
 }
 
 @media screen and (max-width: 1400px) {
