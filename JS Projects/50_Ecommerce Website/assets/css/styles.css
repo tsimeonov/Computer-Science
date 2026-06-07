@@ -1344,8 +1344,9 @@ img {
 }
 
 .details-left {
-	display: flex;
-	align-items: flex-start;
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	align-items: start;
 }
 
 .details-left,
@@ -2698,7 +2699,8 @@ img {
 	.footer-container,
 	.shop-filters,
 	.shop-products,
-	.steps-container {
+	.steps-container,
+	.details-left {
 		grid-template-columns: 1fr;
 	}
 
@@ -2709,6 +2711,24 @@ img {
 	.details-images {
 		display: flex;
 		order: 2;
+	}
+
+	.description-images {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.description-img,
+	.details-main-img {
+		width: 100%;
+	}
+
+	.details-return {
+		padding: 1.75rem;
+	}
+
+	.review-item,
+	.reviews-info {
+		flex-direction: column;
 	}
 
 	.footer-contact-div {
