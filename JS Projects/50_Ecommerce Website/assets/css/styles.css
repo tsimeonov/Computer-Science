@@ -2669,6 +2669,23 @@ img {
 	.table-container {
 		overflow-x: auto;
 	}
+
+	.table {
+		table-layout: fixed;
+	}
+
+	.cart-data,
+	.thead-title {
+		width: 580px;
+	}
+
+	.quantity-col {
+		width: 250px;
+	}
+
+	.subtotal-col {
+		width: 150px;
+	}
 }
 
 @media screen and (max-width: 1400px) {
