@@ -3,6 +3,7 @@
 // Refactor code from 01_main.cpp
 
 #include <iostream>
+#include <string>
 
 void printMenu()
 {
@@ -93,6 +94,19 @@ void processUserOption(int userOption)
 
 int main()
 {
+
+  enum class OrderBookType
+  {
+    did,
+    ask
+  };
+
+  double price = 5219.450228;
+  double amount = 0.00020075;
+  std::string timeStamp{"2020/03/17 17:01:24.884492"};
+  std::string product{"BTC/USDT"};
+  OrderBookType orderType = OrderBookType::ask;
+
   while (true)
   {
     printMenu();
