@@ -118,15 +118,18 @@ int main()
   amounts.push_back(0.3234);
   timestamps.push_back("2020/03/17 17:01:24.884492");
   products.push_back("BTC/USDT");
-  orderTypes.push_back(OrderBookType::did);
+  orderTypes.push_back(OrderBookType::bid);
 
-  while (true)
-  {
-    printMenu();
+  std::cout << "Prices: " << prices[0] << std::endl;
+  std::cout << "Prices: " << prices[1] << std::endl;
 
-    int userOption = getUserOption();
+  // while (true)
+  // {
+  //   printMenu();
 
-    processUserOption(userOption);
-  }
+  //   int userOption = getUserOption();
+
+  //   processUserOption(userOption);
+  // }
   return 0;
 }
