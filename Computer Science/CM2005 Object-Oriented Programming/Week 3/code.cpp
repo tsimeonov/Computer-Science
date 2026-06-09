@@ -108,20 +108,26 @@ int main()
   // std::string product{"BTC/USDT"};
   // OrderBookType orderType = OrderBookType::ask;
 
-  std::vector<double> prices;
-  std::vector<double> amounts;
-  std::vector<std::string> timestamps;
-  std::vector<std::string> products;
-  std::vector<OrderBookType> orderTypes;
+  // std::vector<double> prices;
+  // std::vector<double> amounts;
+  // std::vector<std::string> timestamps;
+  // std::vector<std::string> products;
+  // std::vector<OrderBookType> orderTypes;
 
-  prices.push_back(500.002);
-  amounts.push_back(0.3234);
-  timestamps.push_back("2020/03/17 17:01:24.884492");
-  products.push_back("BTC/USDT");
-  orderTypes.push_back(OrderBookType::bid);
+  // prices.push_back(500.002);
+  // amounts.push_back(0.3234);
+  // timestamps.push_back("2020/03/17 17:01:24.884492");
+  // products.push_back("BTC/USDT");
+  // orderTypes.push_back(OrderBookType::bid);
 
-  std::cout << "Prices: " << prices[0] << std::endl;
-  std::cout << "Prices: " << prices[1] << std::endl;
+  // std::cout << "Prices: " << prices[0] << std::endl;
+  // std::cout << "Prices: " << prices[1] << std::endl;
+
+  // prices
+  // amounts
+  // timestamps
+  // products
+  // orderType
 
   // while (true)
   // {
