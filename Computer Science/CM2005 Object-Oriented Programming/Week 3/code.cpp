@@ -107,6 +107,12 @@ int main()
   std::string product{"BTC/USDT"};
   OrderBookType orderType = OrderBookType::ask;
 
+  double price2 = 5219.450228;
+  double amount2 = 0.00020075;
+  std::string timeStamp2{"2020/03/17 17:01:24.884492"};
+  std::string product2{"BTC/USDT"};
+  OrderBookType orderType2 = OrderBookType::ask;
+
   while (true)
   {
     printMenu();
