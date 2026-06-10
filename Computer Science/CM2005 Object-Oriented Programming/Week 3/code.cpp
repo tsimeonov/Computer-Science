@@ -135,15 +135,6 @@ int main()
   std::vector<std::string> products;
   std::vector<OrderBookType> orderType;
 
-  prices.push_back(412412.2414);
-  amounts.push_back(0.214);
-  timestamps.push_back("4234234");
-  products.push_back("@@$@4214");
-  orderType.push_back(OrderBookType::bid);
-
-  std::cout << "The data is: " << prices[0] << std::endl;
-  std::cout << "The data is: " << amounts[0] << std::endl;
-
   // while (true)
   // {
   //   printMenu();
