@@ -129,12 +129,6 @@ int main()
   // products
   // orderType
 
-  std::vector<double> prices;
-  std::vector<double> amounts;
-  std::vector<std::string> timestamps;
-  std::vector<std::string> products;
-  std::vector<OrderBookType> orderType;
-
   // while (true)
   // {
   //   printMenu();
