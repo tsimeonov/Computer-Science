@@ -6,6 +6,22 @@
 #include <string>
 #include <vector>
 
+enum class OrderBookType
+{
+  bid,
+  ask
+};
+
+class OrderBookEntry
+{
+public:
+  double price;
+  double amount;
+  std::string timestamp;
+  std::string product;
+  OrderBookType orderType;
+};
+
 void printMenu()
 {
   std::cout << "=====================" << std::endl;
@@ -96,32 +112,26 @@ void processUserOption(int userOption)
 int main()
 {
 
-  enum class OrderBookType
-  {
-    bid,
-    ask
-  };
+  // double price = 5219.450228;
+  // double amount = 0.00020075;
+  // std::string timeStamp{"2020/03/17 17:01:24.884492"};
+  // std::string product{"BTC/USDT"};
+  // OrderBookType orderType = OrderBookType::ask;
 
-  double price = 5219.450228;
-  double amount = 0.00020075;
-  std::string timeStamp{"2020/03/17 17:01:24.884492"};
-  std::string product{"BTC/USDT"};
-  OrderBookType orderType = OrderBookType::ask;
+  // std::vector<double> prices;
+  // std::vector<double> amounts;
+  // std::vector<std::string> timestamps;
+  // std::vector<std::string> products;
+  // std::vector<OrderBookType> orderTypes;
 
-  std::vector<double> prices;
-  std::vector<double> amounts;
-  std::vector<std::string> timestamps;
-  std::vector<std::string> products;
-  std::vector<OrderBookType> orderTypes;
+  // prices.push_back(500.002);
+  // amounts.push_back(0.3234);
+  // timestamps.push_back("2020/03/17 17:01:24.884492");
+  // products.push_back("BTC/USDT");
+  // orderTypes.push_back(OrderBookType::bid);
 
-  prices.push_back(500.002);
-  amounts.push_back(0.3234);
-  timestamps.push_back("2020/03/17 17:01:24.884492");
-  products.push_back("BTC/USDT");
-  orderTypes.push_back(OrderBookType::bid);
-
-  std::cout << "Prices: " << prices[0] << std::endl;
-  std::cout << "Prices: " << prices[1] << std::endl;
+  // std::cout << "Prices: " << prices[0] << std::endl;
+  // std::cout << "Prices: " << prices[1] << std::endl;
 
   // while (true)
   // {
@@ -131,5 +141,11 @@ int main()
 
   //   processUserOption(userOption);
   // }
-  return 0;
+
+  OrderBookEntry order1;
+  order1.price = 10000;
+  order1.amount = 0.0002;
+  order1.timestamp = "2020/03/17 17:01:24.884492";
+  order1.product = "BTC/USDT";
+  order1.orderType = OrderBookType::bid;
 }
