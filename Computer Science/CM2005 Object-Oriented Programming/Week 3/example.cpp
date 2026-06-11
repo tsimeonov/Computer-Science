@@ -3,15 +3,14 @@
 int main()
 {
 
-  char c = 0;
-  std::cout << "Char is: " << sizeof(c) << std::endl;
+  unsigned short i = 65534;
+  signed long l = 234234;
 
-  signed int i = 0;
-  std::cout << "signed int is: " << sizeof(i) << std::endl;
+  std::cout << "The size of the unsigned is: " << sizeof(i) << std::endl;
+  std::cout << "i contains " << i << std::endl;
 
-  float f = 0.0f;
-  std::cout << "float is: " << sizeof(f) << std::endl;
+  std::cout << "The size of the signed is: " << sizeof(l) << std::endl;
+  std::cout << "l contains " << l << std::endl;
 
-  long double d = 0.0;
-  std::cout << "long double is: " << sizeof(d) << std::endl;
+  return 0;
 }
