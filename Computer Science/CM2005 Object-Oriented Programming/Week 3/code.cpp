@@ -12,15 +12,15 @@ enum class OrderBookType
   ask
 };
 
-// class OrderBookEntry
-// {
-// public:
-//   double price;
-//   double amount;
-//   std::string timestamp;
-//   std::string product;
-//   OrderBookType orderType;
-// };
+class OrderBookEntry
+{
+public:
+  double price;
+  double amount;
+  std::string timestamp;
+  std::string product;
+  OrderBookType orderType;
+};
 
 void printMenu()
 {
