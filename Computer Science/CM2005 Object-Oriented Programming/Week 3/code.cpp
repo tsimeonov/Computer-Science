@@ -6,11 +6,11 @@
 #include <string>
 #include <vector>
 
-// enum class OrderBookType
-// {
-//   bid,
-//   ask
-// };
+enum class OrderBookType
+{
+  bid,
+  ask
+};
 
 class OrderBookEntry
 {
@@ -20,7 +20,6 @@ public:
   std::string timestamp;
   std::string product;
   OrderBookType orderType;
-  œ
 };
 
 void printMenu()
