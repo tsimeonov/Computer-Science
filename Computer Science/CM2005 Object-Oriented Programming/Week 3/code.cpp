@@ -15,11 +15,13 @@ enum class OrderBookType
 class OrderBookEntry
 {
 public:
-  double price;
-  double amount;
-  std::string timestamp;
-  std::string product;
-  OrderBookType orderType;
+  OrderBookEntry(double price,
+                 double amount,
+                 std::string timestamp,
+                 std::string product,
+                 OrderBookType orderType)
+  {
+  }
 };
 
 void printMenu()
@@ -142,13 +144,13 @@ int main()
   //   processUserOption(userOption);
   // }
 
-  OrderBookEntry order1;
+  OrderBookEntry order1{1000, 0.02, "2020/03/17 17:01:24.884492", "BTC/USDT", OrderBookType::bid};
 
-  order1.price = 10000;
-  order1.amount = 0.0002;
-  order1.timestamp = "2020/03/17 17:01:24.884492";
-  order1.product = "BTC/USDT";
-  order1.orderType = OrderBookType::bid;
+  // order1.price = 10000;
+  // order1.amount = 0.0002;
+  // order1.timestamp = "2020/03/17 17:01:24.884492";
+  // order1.product = "BTC/USDT";
+  // order1.orderType = OrderBookType::bid;
 
-  std::cout << "The price is " << order1.price << std::endl;
+  std::cout << "The price is " << std::endl;
 }
