@@ -20,13 +20,13 @@ public:
                  std::string _timestamp,
                  std::string _product,
                  OrderBookType _orderType)
+      //  Initialization list
+      : price(_price),
+        amount(_amount),
+        timestamp(_timestamp),
+        product(_product),
+        orderType(_orderType)
   {
-    // this->price = price;
-    price = _price;
-    amount = _amount;
-    timestamp = _timestamp;
-    product = _product;
-    orderType = _orderType;
   }
 
   double price;
