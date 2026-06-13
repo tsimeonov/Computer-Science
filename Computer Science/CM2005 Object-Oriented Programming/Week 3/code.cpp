@@ -22,6 +22,12 @@ public:
                  OrderBookType orderType)
   {
   }
+
+  double price;
+  double amount;
+  std::string timestamp;
+  std::string product;
+  OrderBookType orderTypex;
 };
 
 void printMenu()
@@ -152,5 +158,5 @@ int main()
   // order1.product = "BTC/USDT";
   // order1.orderType = OrderBookType::bid;
 
-  std::cout << "The price is " << std::endl;
+  std::cout << "The price is " << order1.price << std::endl;
 }
