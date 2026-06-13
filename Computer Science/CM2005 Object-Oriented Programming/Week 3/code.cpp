@@ -134,15 +134,21 @@ int main()
   std::cout
       << "The price is " << orders[0].price << std::endl;
 
-  // Call by reference
+  // Call by reference (example 1)
   for (OrderBookEntry order : orders)
   {
     std::cout << "The price is " << order.price << std::endl;
   }
 
-  // Iterate over a vector
+  // Iterate over a vector (example 2)
   for (unsigned int i = 0; i < orders.size(); ++i)
   {
     std::cout << "The price is " << orders[i].price << std::endl;
+  }
+
+  // Iterate over a vector (example 3)
+  for (unsigned int i = 0; i < orders.size(); ++i)
+  {
+    std::cout << "The price is " << orders.at(i).price << std::endl;
   }
 }
