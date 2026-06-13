@@ -126,43 +126,7 @@ void processUserOption(int userOption)
 int main()
 {
 
-  // double price = 5219.450228;
-  // double amount = 0.00020075;
-  // std::string timeStamp{"2020/03/17 17:01:24.884492"};
-  // std::string product{"BTC/USDT"};
-  // OrderBookType orderType = OrderBookType::ask;
-
-  // std::vector<double> prices;
-  // std::vector<double> amounts;
-  // std::vector<std::string> timestamps;
-  // std::vector<std::string> products;
-  // std::vector<OrderBookType> orderTypes;
-
-  // prices.push_back(500.002);
-  // amounts.push_back(0.3234);
-  // timestamps.push_back("2020/03/17 17:01:24.884492");
-  // products.push_back("BTC/USDT");
-  // orderTypes.push_back(OrderBookType::bid);
-
-  // std::cout << "Prices: " << prices[0] << std::endl;
-  // std::cout << "Prices: " << prices[1] << std::endl;
-
-  // while (true)
-  // {
-  //   printMenu();
-
-  //   int userOption = getUserOption();
-
-  //   processUserOption(userOption);
-  // }
-
   OrderBookEntry order1{1000, 0.02, "2020/03/17 17:01:24.884492", "BTC/USDT", OrderBookType::bid};
-
-  // order1.price = 10000;
-  // order1.amount = 0.0002;
-  // order1.timestamp = "2020/03/17 17:01:24.884492";
-  // order1.product = "BTC/USDT";
-  // order1.orderType = OrderBookType::bid;
 
   std::cout << "The price is " << order1.price << std::endl;
 }
