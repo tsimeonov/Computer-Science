@@ -139,4 +139,10 @@ int main()
   {
     std::cout << "The price is " << order.price << std::endl;
   }
+
+  // Iterate over a vector
+  for (unsigned int i = 0; i < orders.size(); ++i)
+  {
+    std::cout << "The price is " << orders[i].price << std::endl;
+  }
 }
