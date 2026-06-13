@@ -133,4 +133,10 @@ int main()
 
   std::cout
       << "The price is " << orders[0].price << std::endl;
+
+  // Call by reference
+  for (OrderBookEntry order : orders)
+  {
+    std::cout << "The price is " << order.price << std::endl;
+  }
 }
