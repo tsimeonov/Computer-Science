@@ -1,10 +1,13 @@
 #include "MerkelMain.h"
 #include <iostream>
+#include <vector>
+#include "OrderBookEntry.h"
 
 MerkelMain::MerkelMain() {}
 
 void MerkelMain::init()
 {
+  loadOrderBook();
   int input;
 
   while (true)
@@ -12,6 +15,34 @@ void MerkelMain::init()
     printMenu();
     input = getUserOption();
     processUserOption(input);
+  }
+}
+
+void MerkelMain::loadOrderBook()
+{
+
+  orders.push_back(OrderBookEntry{1000, 0.02, "2020/03/17 17:01:24.884492", "BTC/USDT", OrderBookType::bid});
+  orders.push_back(OrderBookEntry{2000, 0.04, "2020/03/17 17:01:24.884492", "BTC/USDT", OrderBookType::bid});
+
+  std::cout
+      << "The price is " << orders[0].price << std::endl;
+
+  // Call by reference (example 1)
+  for (OrderBookEntry order : orders)
+  {
+    std::cout << "The price is " << order.price << std::endl;
+  }
+
+  // Iterate over a vector (example 2)
+  for (unsigned int i = 0; i < orders.size(); ++i)
+  {
+    std::cout << "The price is " << orders[i].price << std::endl;
+  }
+
+  // Iterate over a vector (example 3)
+  for (unsigned int i = 0; i < orders.size(); ++i)
+  {
+    std::cout << "The price is " << orders.at(i).price << std::endl;
   }
 }
 
@@ -36,7 +67,7 @@ void MerkelMain::printHelp()
 
 void MerkelMain::printMarketStats()
 {
-  std::cout << "Market looks good" << std::endl;
+  std::cout << "OrderBook contains: " << orders.size() << "entries" << std::endl;
 }
 
 void MerkelMain::enterOffer()

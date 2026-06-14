@@ -1,3 +1,4 @@
+
 #include "OrderBookEntry.h";
 
 OrderBookEntry::OrderBookEntry(double _price,
