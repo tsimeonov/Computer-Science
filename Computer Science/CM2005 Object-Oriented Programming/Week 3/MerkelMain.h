@@ -1,7 +1,10 @@
+
+
 class MerkelMain
 {
 public:
   MerkelMain();
+  void init();
   void printMenu();
   void printHelp();
   void printMarketStats();

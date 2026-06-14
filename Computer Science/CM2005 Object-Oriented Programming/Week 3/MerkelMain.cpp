@@ -1,6 +1,10 @@
 #include "MerkelMain.h"
 #include <iostream>
 
+void MerkelMain() {}
+
+void MerkelMain::init() {}
+
 void MerkelMain::printMenu()
 {
   std::cout << "=====================" << std::endl;
