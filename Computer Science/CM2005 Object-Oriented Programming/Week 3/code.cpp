@@ -11,7 +11,7 @@
 int main()
 {
   MerkelMain app{};
-  app.printMenu();
+  app.init();
 
   // std::vector<OrderBookEntry> orders;
 
