@@ -1,7 +1,7 @@
 #include "MerkelMain.h"
 #include <iostream>
 
-void MerkelMain() {}
+MerkelMain::MerkelMain() {}
 
 void MerkelMain::init() {}
 
