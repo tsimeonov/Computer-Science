@@ -20,4 +20,11 @@ end = next "separator" after start
     token = scvLine.substr(start, csvLine.length - start) ## end is invalid
 
   token.push_back(token) ## save the token
+  start = end + 1 ## move past this token
+
+while (end > 0) ## continue loop condition
+
+DataRow row{}
+  signed int end;
+  char sep = ",";
 ```
