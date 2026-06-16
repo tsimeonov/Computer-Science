@@ -7,11 +7,11 @@ std::vector<std::string> tokenise(std::string csvLine, char separator)
   // string vector tokens ## stores the tokens
   std::vector<std::string> tokens;
 
-  // char separator = "," ## the character that separates the tokens
-
   // int start, end ## used to delineate the position of the tokens
+  signed int start, end;
 
   // start = csvLine.find_first_not_of(setarator)
+  start = csvLine.find_first_not_of(separator, 0);
   // do
   // end = next "separator" after start
   //   if start == csvLine.length or start == end ## noting more to find
