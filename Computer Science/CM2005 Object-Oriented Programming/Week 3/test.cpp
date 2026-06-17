@@ -28,10 +28,10 @@ std::vector<std::string> tokenise(std::string csvLine, char separator)
     // token  csvLine.substr(start, end - start) ## start, substring length
     // else
     else
-      token = csvLine.substr(start, csvLine.length - start);
+      token = csvLine.substr(start, csvLine.length() - start);
     // token = csvLine.substr(start, csvLine.length - start) ## end is invalid
     // token.push_back(token) ## save the token
-    token.push_back(token);
+    tokens.push_back(token);
     // start = end + 1 ## move past this token
     start = end + 1;
   }
