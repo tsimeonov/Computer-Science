@@ -43,6 +43,15 @@ std::vector<std::string> tokenise(std::string csvLine, char separator)
 
 int main()
 {
+  // std::vector<std::string> tokens;
+  // std::string s = "2020/03/17 17:01:24.884492,ETH/BTC,bid,0.0217499,0.04644343";
+
+  // tokens = tokenise(s, ',');
+
+  // for (std::string &t : tokens)
+  // {
+  //   std::cout << t << std::endl;
+  // }
 
   return 0;
 }
