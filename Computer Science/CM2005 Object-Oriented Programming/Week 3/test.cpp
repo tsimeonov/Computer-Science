@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <fstream>
 
 std::vector<std::string> tokenise(std::string csvLine, char separator)
 {
@@ -52,6 +53,18 @@ int main()
   // {
   //   std::cout << t << std::endl;
   // }
+
+  std::ifstream csvFile{"data1.csv"};
+
+  if (csvFile.is_open())
+  {
+    std::cout << "File open " << std::endl;
+    csvFile.close();
+  }
+  else
+  {
+    std::cout << "Could not open file " << std::endl;
+  }
 
   return 0;
 }
