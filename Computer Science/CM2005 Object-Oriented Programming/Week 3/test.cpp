@@ -56,10 +56,17 @@ int main()
 
   std::ifstream csvFile{"data.csv"};
   std::string line;
+  std::vector<std::string> tokens;
 
   if (csvFile.is_open())
   {
     std::cout << "File open " << std::endl;
+
+    tokens = tokenise(line, ',');
+    for (std::string &t : tokens)
+    {
+      std::cout << t << std::endl;
+    }
 
     while (std::getline(csvFile, line))
     {
