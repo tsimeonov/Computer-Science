@@ -62,6 +62,8 @@ int main()
     std::cout << "File open " << std::endl;
     std::getline(csvFile, line);
     std::cout << "Read line " << line << std::endl;
+    std::getline(csvFile, line);
+    std::cout << "Read line " << line << std::endl;
 
     csvFile.close();
   }
