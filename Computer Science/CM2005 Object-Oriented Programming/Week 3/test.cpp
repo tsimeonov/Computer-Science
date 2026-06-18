@@ -54,11 +54,15 @@ int main()
   //   std::cout << t << std::endl;
   // }
 
-  std::ifstream csvFile{"data1.csv"};
+  std::ifstream csvFile{"data.csv"};
+  std::string line;
 
   if (csvFile.is_open())
   {
     std::cout << "File open " << std::endl;
+    std::getline(csvFile, line);
+    std::cout << "Read line " << line << std::endl;
+
     csvFile.close();
   }
   else
