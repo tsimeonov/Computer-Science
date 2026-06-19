@@ -62,11 +62,11 @@ int main()
   {
     std::cout << "File open " << std::endl;
 
-    tokens = tokenise(line, ',');
-    for (std::string &t : tokens)
-    {
-      std::cout << t << std::endl;
-    }
+    // tokens = tokenise(line, ',');
+    // for (std::string &t : tokens)
+    // {
+    //   std::cout << t << std::endl;
+    // }
 
     while (std::getline(csvFile, line))
     {
