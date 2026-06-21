@@ -16,33 +16,40 @@ int main()
   // Variable to hold total inches
   int totalInches;
   // Variable to hold length in centimeters
-  int centimeters;
+  double centimeters;
 
   const double CENTIMETERS_PER_INCH = 2.54;
   const int INCHES_PER_FOOT = 12;
 
   // 1. Prompt the user for the input
-  std::cout << "Plese enter a number for the feet" << "Press the return key" << std::endl;
-
-  std::cout << "Plese enter a number for the inches" << "Press the return key" << std::endl;
+  std::cout << "Plese enter a number for the feet\n"
+            << "Press the return key" << std::endl;
 
   // 2. Get the data
   std::cin >> feet;
+
+  // 3. Prompt the user for the input
+  std::cout << "Plese enter a number for the inches\n"
+            << "Press the return key" << std::endl;
+
+  // 4. Get the data
   std::cin >> inches;
 
-  // 3. Echo the input - that is, output what the program read as input
+  // 5. Echo the input - that is, output what the program read as input
   std::cout << "The feet are: " << feet << std::endl;
   std::cout << "The inches are: " << inches << std::endl;
 
-  // 4. Find the lenght in inches
-  totalInches = (12 * feet) + inches;
+  // 6. Find the lenght in inches
+  totalInches = (INCHES_PER_FOOT * feet) + inches;
 
-  // 5. Ouput the length in inches
+  // 7. Ouput the length in inches
   std::cout << "The tolal inches are: " << totalInches << std::endl;
 
-  // 6. Convert the length to centimeters
+  // 8. Convert the length to centimeters
+  centimeters = totalInches * CENTIMETERS_PER_INCH;
 
-  // 7. Output the length in centimeters
+  // 9. Output the length in centimeters
+  std::cout << "The centimeters are: " << centimeters << std::endl;
 
   return 0;
 }
