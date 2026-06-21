@@ -9,10 +9,26 @@ It should then compute the number of half-dollars, quarters, nickels and pennies
 
 using namespace std;
 
+const int HALF_DOLLAR = 50;
+const int QUARTER = 25;
+const int DIME = 10;
+const int NICKEL = 5;
+
+double total;
+double haldDollar;
+double remainingChange;
+double numberQuarters;
+double numberDimes;
+double numberNickels;
+double numberPennies;
+
 int main()
 {
 
   // 1. Get the change in cents
+  cout << "Type the total change in cents " << endl;
+  cin >> total;
+  cout << endl;
 
   // 2. Find the number of half-dollars
 
