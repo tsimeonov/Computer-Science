@@ -26,3 +26,11 @@ int main()
 
   return 0;
 }
+
+// Simple data types
+/*
+Integral - dealt with whole numbers
+floating point - deals with decimal numbers
+enumeration - user defined data type
+
+*/
