@@ -36,7 +36,7 @@ int main()
 
   // 3. Calculate the remaining change
   remainingChange = total % HALF_DOLLAR;
-  cout << "Step 3:  " << remainingChange << endl;
+  // cout << "Step 3:  " << remainingChange << endl;
 
   // 4. Find the number of quarters.
   numberQuarters = remainingChange / QUARTER;
@@ -44,17 +44,23 @@ int main()
 
   // 5. Calculate the remaining change
   remainingChange = remainingChange % QUARTER;
-  cout << "Step 3:  " << remainingChange << endl;
+  // cout << "Step 3:  " << remainingChange << endl;
 
   // 6. Find the number of dimes
   numberDimes = remainingChange / DIME;
-  cout << "The numner of dimes is: " << numberDimes << endl;
+  cout << "The number of dimes is: " << numberDimes << endl;
 
   // 7. Calculate the remaining change
+  remainingChange = remainingChange % 10;
+  // cout << "Step 7:  " << remainingChange << endl;
 
   // 8. Find the number of nickels
+  numberNickels = remainingChange / NICKEL;
+  cout << "The number of nickels is: " << numberNickels << endl;
 
   // 9. Calculate the remaining change, which is the number of pennies
+  numberPennies = remainingChange % NICKEL;
+  cout << "The number of pennies is: " << numberPennies << endl;
 
   return 0;
 }
