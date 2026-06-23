@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
   // variable declaration
-  int num1 = 125;
-  int num2 = 28;
-  int num3 = -25;
-  int average = (num1 + num2 + num3) / 3;
+  double num1 = 75.35;
+  double num2 = -35.56;
+  double num3 = 15.76;
+  double average = (num1 + num2 + num3) / 3;
   // executable statements
 
   cout << average << endl;
