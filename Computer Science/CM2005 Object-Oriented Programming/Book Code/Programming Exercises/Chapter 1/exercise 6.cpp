@@ -18,7 +18,7 @@ int main()
   cout << "How many hours do you need to study: " << endl;
   cin >> studyHours;
 
-  cout << "Hello, " << name << "! on Saturday, you need to study 4.5 hrs. for the exam" << endl;
+  cout << "Hello, " << name << "! on Saturday, you need to study " << studyHours << " hrs. for the exam" << endl;
 
   // return statement
   return 0;
