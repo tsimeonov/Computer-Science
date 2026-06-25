@@ -1,9 +1,15 @@
 // include statement
+#include <iostream>
+#include <string>
+
 // using namespace statement
+using namespace std;
 
 int main()
 {
   // variable declaration
+  string name;
+  double studyHours;
 
   // executable statements
 
