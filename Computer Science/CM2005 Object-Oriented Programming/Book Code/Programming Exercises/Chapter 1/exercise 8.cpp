@@ -1,12 +1,49 @@
 // include statement
+#include <iostream>
+#include <string>
+
 // using namespace statement
+using namespace std;
+
+const int SECRET = 11;
+const double RATE = 12.5;
 
 int main()
 {
-
   // variable declaration
+  int num1;
+  int num2;
+  int newNum;
+  string name;
+  double hoursWorked;
+  double wages;
+
   // executable statements
+  cout << "Enter first number" << endl;
+  cin >> num1;
+
+  cout << "Enter second number" << endl;
+  cin >> num2;
+
+  cout << "The value of num1 is: "
+       << num1 << "\n"
+       << "The value of num2 is: "
+       << num2 << "\n"
+       << endl;
+
+  newNum = num1 * 2 + num2;
+  cout << newNum << endl;
+
+  cout << "Type your last name: " << endl;
+  cin >> name;
+
+  cout << "Enter a number between 0 and 70" << endl;
+  cin >> hoursWorked;
+
+  wages = RATE * hoursWorked;
+
   // return statement
+  return 0;
 }
 
 // A) Write a C++ statements that include the header files iostream and string
