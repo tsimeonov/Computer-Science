@@ -42,7 +42,12 @@ int main()
 
   wages = RATE * hoursWorked;
 
-  // return statement
+  cout << "Name: " << name << endl;
+  cout << "Pay Rate: " << RATE << "$" << endl;
+  cout << "Hours Worked: " << hoursWorked << endl;
+  cout << "Salary: " << wages << "$" << endl;
+
+    // return statement
   return 0;
 }
 
