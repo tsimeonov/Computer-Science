@@ -79,3 +79,15 @@ int main()
 
   // Line 27
 }
+
+/*
+
+Sample Run: In this sample run, the user input is shaded.
+Line 14: Enter the radius of the sphere: 3.3
+Line 18: The volume of the sphere is: 112.9
+Line 19: Enter the coordinates of two points in the X-Y plane: 3 -1 8 11
+Line 23: The distance between the points (3, -1) and (8, 11) is: 13
+Line 25:  The number of characters, including blanks, in "Programming
+with C++" is: 20
+
+*/
