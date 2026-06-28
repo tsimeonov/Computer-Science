@@ -68,11 +68,11 @@ int main()
        << endl;
 
   // Line 24
-  str = "Programming with C++ ";
+  str = "Programming with C++";
 
   // Line 25
   cout
-      << "Line 25: The numnber of characters, " << "including blanks, in \n     \"" << str << "\" is: " << str.length() << endl;
+      << "Line 25: The number of characters, " << "including blanks, in \n    \"" << str << "\" is: " << str.length() << endl;
 
   // Line 26
   return 0;
