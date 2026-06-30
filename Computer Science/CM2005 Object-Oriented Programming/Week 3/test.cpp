@@ -63,6 +63,7 @@ int main()
     std::cout << "File open " << std::endl;
 
     tokens = tokenise(line, ',');
+
     for (std::string &t : tokens)
     {
       std::cout << t << std::endl;
@@ -71,6 +72,11 @@ int main()
     while (std::getline(csvFile, line))
     {
       std::cout << "Read line " << line << std::endl;
+      if (tokens.size() != 5) // bad
+      {
+        std::cout << "Bad line" << std::endl;
+        continue;
+      }
     }
 
     csvFile.close();
