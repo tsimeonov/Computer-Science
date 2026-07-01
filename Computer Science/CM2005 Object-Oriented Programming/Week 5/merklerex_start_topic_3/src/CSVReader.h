@@ -11,5 +11,9 @@ class CSVReader
 public:
   CSVReader();
 
-  vector<OrderBookEntry> readCSV(string csvFile);
-}
+  static vector<OrderBookEntry> readCSV(string csvFile);
+
+private:
+  static vector<string> tokenise(string csvLine, char separator);
+  OrderBookEntry stringToOBE(vector<string> strings);
+};
