@@ -31,7 +31,7 @@ OrderBookEntry CSVReader::stringToOBE(vector<string> tokens)
   try
   {
     double price = stod(tokens[3]);
-    double price = stod(tokens[4]);
+    double amount = stod(tokens[4]);
     cout << price << ":" << amount << endl;
   }
   catch (const exception &e)
