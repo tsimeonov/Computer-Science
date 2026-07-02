@@ -23,4 +23,5 @@ OrderBookType OrderBookEntry::stringToOrderBookType(std::string s)
   {
     return OrderBookType::bid;
   }
+  return OrderBookType::unknown;
 }

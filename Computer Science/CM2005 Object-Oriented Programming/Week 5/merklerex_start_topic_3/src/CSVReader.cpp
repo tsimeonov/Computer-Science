@@ -41,7 +41,7 @@ OrderBookEntry CSVReader::stringToOBE(vector<string> tokens)
     throw;
   }
 
-  OrderBookEntry obe{price, amount, tokens[0], tokens[1], OrderBookType::bid};
+  OrderBookEntry obe{price, amount, tokens[0], tokens[1], OrderBookEntry::stringToOrderBookType(tokens[2])};
 
   return obe;
 }
