@@ -20,11 +20,12 @@ vector<string> CSVReader::tokenise(string csvLine, char separator)
 
 OrderBookEntry CSVReader::stringToOBE(vector<string> tokens)
 {
+  double price, amount;
 
   if (tokens.size() != 5) // bad
   {
     cout << "Bad line" << endl;
-    continue;
+    throw exception{};
   }
   // We have 5 tokens
   try
@@ -33,11 +34,11 @@ OrderBookEntry CSVReader::stringToOBE(vector<string> tokens)
     double price = stod(tokens[4]);
     cout << price << ":" << amount << endl;
   }
-  catch (exception &e)
+  catch (const exception &e)
   {
     cout << "Bad float! " << tokens[3] << endl;
     cout << "Bad float! " << tokens[4] << endl;
-    break;
+    throw;
   }
 
   OrderBookEntry obe{1, 1, "", "", OrderBookType::bid};
