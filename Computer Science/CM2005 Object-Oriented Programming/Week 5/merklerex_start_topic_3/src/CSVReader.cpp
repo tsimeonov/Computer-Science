@@ -1,4 +1,5 @@
 #include "CSVReader.h"
+#include <fstream>
 
 using namespace std;
 
@@ -6,9 +7,23 @@ CSVReader::CSVReader()
 {
 }
 
-vector<OrderBookEntry> CSVReader::readCSV(string csvFile)
+vector<OrderBookEntry> CSVReader::readCSV(string csvFileName)
 {
   vector<OrderBookEntry> entries;
+
+  std::ifstream csvFile{csvFileName};
+  std::string line;
+  if (csvFile.is_open())
+  {
+    while (getline(csvFile, line))
+    {
+      OrderBookEntry obe = stringsToOBE(tokenise(line, ','));
+      entries.push_back(obe);
+    } // end of while
+  }
+
+  cout << "CSVReader::readCSV read" << entries.size() << "entries" << endl;
+
   return entries;
 }
 
@@ -41,7 +56,7 @@ vector<string> CSVReader::tokenise(string csvLine, char separator)
   return tokens;
 }
 
-OrderBookEntry CSVReader::stringToOBE(vector<string> tokens)
+OrderBookEntry CSVReader::stringsToOBE(vector<string> tokens)
 {
   double price, amount;
 
@@ -53,8 +68,8 @@ OrderBookEntry CSVReader::stringToOBE(vector<string> tokens)
   // We have 5 tokens
   try
   {
-    double price = stod(tokens[3]);
-    double amount = stod(tokens[4]);
+    price = stod(tokens[3]);
+    amount = stod(tokens[4]);
     cout << price << ":" << amount << endl;
   }
   catch (const exception &e)

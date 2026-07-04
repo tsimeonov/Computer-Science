@@ -3,6 +3,7 @@
 #include "OrderBookEntry.h"
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -15,5 +16,5 @@ public:
 
 private:
   static vector<string> tokenise(string csvLine, char separator);
-  OrderBookEntry stringToOBE(vector<string> strings);
+  static OrderBookEntry stringsToOBE(vector<string> strings);
 };
