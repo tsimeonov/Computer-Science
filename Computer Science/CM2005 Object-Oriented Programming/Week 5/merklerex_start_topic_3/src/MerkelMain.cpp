@@ -51,6 +51,8 @@ void MerkelMain::printMarketStats()
     for (string const &p : OrderBook.getKnownProducts())
     {
         cout << "Product:  " << p << endl;
+        vector<OrderBookEntry> entries = OrderBook.getOrders(OrderBookType::ask, p, "2020/03/17 17:01:24.884492 ");
+        cout << "Asks seen: " << entries.size() << endl;
     }
 
     // std::cout << "OrderBook contains :  " << orders.size() << " entries" << std::endl;
