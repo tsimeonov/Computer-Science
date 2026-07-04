@@ -17,12 +17,17 @@ vector<OrderBookEntry> CSVReader::readCSV(string csvFileName)
   {
     while (getline(csvFile, line))
     {
-      OrderBookEntry obe = stringsToOBE(tokenise(line, ','));
-      entries.push_back(obe);
+      try
+      {
+        OrderBookEntry obe = stringsToOBE(tokenise(line, ','));
+        entries.push_back(obe);
+      }
+      catch (const exception &e)
+      {
+        cout << "CSVReader::readCSV read" << entries.size() << "entries" << endl;
+      }
     } // end of while
   }
-
-  cout << "CSVReader::readCSV read" << entries.size() << "entries" << endl;
 
   return entries;
 }
