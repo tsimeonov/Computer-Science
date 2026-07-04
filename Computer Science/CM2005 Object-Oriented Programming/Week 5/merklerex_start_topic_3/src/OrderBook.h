@@ -15,4 +15,7 @@ public:
   vector<string> getKnownProducts();
   // return vector of Orders according to the sent filters
   vector<OrderBookEntry> getOrders(OrderBookType type, string product, string timestamp);
+
+private:
+  vector<OrderBookEntry> orders;
 };
