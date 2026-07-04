@@ -4,6 +4,8 @@
 #include "OrderBookEntry.h"
 #include "CSVReader.h"
 
+using namespace std;
+
 MerkelMain::MerkelMain()
 {
 }
@@ -23,32 +25,32 @@ void MerkelMain::init()
 void MerkelMain::printMenu()
 {
     // 1 print help
-    std::cout << "1: Print help " << std::endl;
+    cout << "1: Print help " << endl;
     // 2 print exchange stats
-    std::cout << "2: Print exchange stats" << std::endl;
+    cout << "2: Print exchange stats" << endl;
     // 3 make an offer
-    std::cout << "3: Make an offer " << std::endl;
+    cout << "3: Make an offer " << endl;
     // 4 make a bid
-    std::cout << "4: Make a bid " << std::endl;
+    cout << "4: Make a bid " << endl;
     // 5 print wallet
-    std::cout << "5: Print wallet " << std::endl;
+    cout << "5: Print wallet " << endl;
     // 6 continue
-    std::cout << "6: Continue " << std::endl;
+    cout << "6: Continue " << endl;
 
-    std::cout << "============== " << std::endl;
+    cout << "============== " << endl;
 }
 
 void MerkelMain::printHelp()
 {
-    std::cout << "Help - your aim is to make money. Analyse the market and make bids and offers. " << std::endl;
+    cout << "Help - your aim is to make money. Analyse the market and make bids and offers. " << endl;
 }
 
 void MerkelMain::printMarketStats()
 {
 
-    for (std::string const &p : OrderBook.getKnownProducts())
+    for (string const &p : OrderBook.getKnownProducts())
     {
-        std::cout << "Product:  " << p << std::endl;
+        cout << "Product:  " << p << endl;
     }
 
     // std::cout << "OrderBook contains :  " << orders.size() << " entries" << std::endl;
@@ -72,31 +74,31 @@ void MerkelMain::printMarketStats()
 
 void MerkelMain::enterOffer()
 {
-    std::cout << "Mark and offer - enter the amount " << std::endl;
+    cout << "Mark and offer - enter the amount " << endl;
 }
 
 void MerkelMain::enterBid()
 {
-    std::cout << "Make a bid - enter the amount" << std::endl;
+    cout << "Make a bid - enter the amount" << endl;
 }
 
 void MerkelMain::printWallet()
 {
-    std::cout << "Your wallet is empty. " << std::endl;
+    cout << "Your wallet is empty. " << endl;
 }
 
 void MerkelMain::gotoNextTimeframe()
 {
-    std::cout << "Going to next time frame. " << std::endl;
+    cout << "Going to next time frame. " << endl;
 }
 
 int MerkelMain::getUserOption()
 {
     int userOption;
 
-    std::cout << "Type in 1-6" << std::endl;
-    std::cin >> userOption;
-    std::cout << "You chose: " << userOption << std::endl;
+    cout << "Type in 1-6" << endl;
+    cin >> userOption;
+    cout << "You chose: " << userOption << endl;
     return userOption;
 }
 
@@ -104,7 +106,7 @@ void MerkelMain::processUserOption(int userOption)
 {
     if (userOption == 0) // bad input
     {
-        std::cout << "Invalid choice. Choose 1-6" << std::endl;
+        cout << "Invalid choice. Choose 1-6" << endl;
     }
     if (userOption == 1)
     {
