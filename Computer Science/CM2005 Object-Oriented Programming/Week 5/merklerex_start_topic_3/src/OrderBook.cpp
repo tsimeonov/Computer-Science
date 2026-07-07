@@ -54,8 +54,25 @@ double OrderBook::getHighPrice(vector<OrderBookEntry> &orders)
   for (OrderBookEntry &e : orders)
   {
     if (e.price > max)
+    {
       max = e.price;
+    }
   }
 
   return max;
+}
+
+double OrderBook::getLowPrice(vector<OrderBookEntry> &orders)
+{
+
+  double min = orders[0].price;
+  for (OrderBookEntry &e : orders)
+  {
+    if (e.price < min)
+    {
+      min = e.price;
+    }
+  }
+
+  return min;
 }
