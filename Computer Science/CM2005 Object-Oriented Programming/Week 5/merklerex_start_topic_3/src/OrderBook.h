@@ -16,7 +16,11 @@ public:
   // return vector of Orders according to the sent filters
   vector<OrderBookEntry> getOrders(OrderBookType type, string product, string timestamp);
 
+  /** returns the earliest time in the orderbook */
   string getEarliestTime();
+
+  /** returns the next time after the sent time in the orderbook */
+  string getNextTime(string timestamp);
 
   static double getHighPrice(vector<OrderBookEntry> &orders);
   static double getLowPrice(vector<OrderBookEntry> &orders);
