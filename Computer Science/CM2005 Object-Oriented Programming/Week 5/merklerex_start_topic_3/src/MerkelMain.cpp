@@ -14,6 +14,7 @@ void MerkelMain::init()
 {
 
     int input;
+    currentTime = OrderBook.getEarliestTime();
     while (true)
     {
         printMenu();
