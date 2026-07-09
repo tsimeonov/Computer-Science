@@ -39,6 +39,8 @@ void MerkelMain::printMenu()
     cout << "6: Continue " << endl;
 
     cout << "============== " << endl;
+
+    cout << "Current time is: " << currentTime << endl;
 }
 
 void MerkelMain::printHelp()
