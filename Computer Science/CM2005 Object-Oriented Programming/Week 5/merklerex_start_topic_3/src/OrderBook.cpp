@@ -116,3 +116,49 @@ string OrderBook::getNextTime(string timestamp)
 
   return next_timestamp;
 }
+
+vector<OrderBook::OHLCEntry> OrderBook::getOHLCData(OrderBookType type, string product, string startDate, string endDate)
+{
+  // A map to group orders by their Date string (YYYY/MM/DD)
+  map<string, vector<OrderBookEntry>> ordersByDate;
+
+  for (OrderBookEntry &e : orders)
+  {
+    // Filter by type and product
+    if (e.orderType == type && e.product == product)
+    {
+      // Extract the date (first 10 characters of "YYYY/MM/DD HH:MM:SS.mmm")
+      string date = e.timestamp.substr(0, 10);
+
+      // Apply date range filters if the user provided them
+      if ((startDate == "" || date >= startDate) && (endDate == "" || date <= endDate))
+      {
+        ordersByDate[date].push_back(e);
+      }
+    }
+  }
+
+  vector<OHLCEntry> ohlcData;
+
+  // Calculate OHLC for each date group
+  for (auto const &pair : ordersByDate)
+  {
+    string date = pair.first;
+    vector<OrderBookEntry> dayOrders = pair.second;
+
+    if (dayOrders.empty())
+      continue;
+
+    // Assuming chronological order in CSV, Open is first, Close is last.
+    double open = dayOrders.front().price;
+    double close = dayOrders.back().price;
+
+    // Use your existing High/Low functions for the rest!
+    double high = OrderBook::getHighPrice(dayOrders);
+    double low = OrderBook::getLowPrice(dayOrders);
+
+    ohlcData.push_back({date, open, high, low, close});
+  }
+
+  return ohlcData;
+}

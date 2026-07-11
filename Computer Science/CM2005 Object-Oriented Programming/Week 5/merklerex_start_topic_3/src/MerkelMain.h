@@ -21,6 +21,7 @@ private:
     void gotoNextTimeframe();
     int getUserOption();
     void processUserOption(int userOption);
+    void computeOHLC();
 
     string currentTime;
 

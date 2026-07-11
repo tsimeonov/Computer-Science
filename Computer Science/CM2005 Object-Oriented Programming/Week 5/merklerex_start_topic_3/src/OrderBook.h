@@ -36,6 +36,9 @@ public:
     double close;
   };
 
+  // return a vector of OHLC entries for a specific product and type, filtered by date
+  vector<OHLCEntry> getOHLCData(OrderBookType type, string product, string startDate = "", string endDate = "");
+
 private:
   vector<OrderBookEntry> orders;
 };
