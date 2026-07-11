@@ -79,8 +79,8 @@ OrderBookEntry CSVReader::stringsToOBE(vector<string> tokens)
   }
   catch (const exception &e)
   {
-    cout << "Bad float! " << tokens[3] << endl;
-    cout << "Bad float! " << tokens[4] << endl;
+    cout << "CSVReader::stringsToOBE Bad float! " << tokens[3] << endl;
+    cout << "CSVReader::stringsToOBE Bad float! " << tokens[4] << endl;
     throw;
   }
 
