@@ -89,7 +89,7 @@ string OrderBook::getEarliestTime()
 {
   // Safety check
   if (orders.empty())
-    return 0.0;
+    return "Unknown";
   return orders[0].timestamp;
 }
 
