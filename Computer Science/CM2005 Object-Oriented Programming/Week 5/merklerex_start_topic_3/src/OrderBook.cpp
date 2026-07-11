@@ -50,6 +50,10 @@ vector<OrderBookEntry> OrderBook::getOrders(OrderBookType type, string product, 
 double OrderBook::getHighPrice(vector<OrderBookEntry> &orders)
 {
 
+  // Safety check
+  if (orders.empty())
+    return 0.0;
+
   double max = orders[0].price;
   for (OrderBookEntry &e : orders)
   {
@@ -65,6 +69,10 @@ double OrderBook::getHighPrice(vector<OrderBookEntry> &orders)
 double OrderBook::getLowPrice(vector<OrderBookEntry> &orders)
 {
 
+  // Safety check
+  if (orders.empty())
+    return 0.0;
+
   double min = orders[0].price;
   for (OrderBookEntry &e : orders)
   {
@@ -79,11 +87,18 @@ double OrderBook::getLowPrice(vector<OrderBookEntry> &orders)
 
 string OrderBook::getEarliestTime()
 {
+  // Safety check
+  if (orders.empty())
+    return 0.0;
   return orders[0].timestamp;
 }
 
 string OrderBook::getNextTime(string timestamp)
 {
+  // Safety check
+  if (orders.empty())
+    return "Unknown";
+
   string next_timestamp = "";
   for (OrderBookEntry &e : orders)
   {
