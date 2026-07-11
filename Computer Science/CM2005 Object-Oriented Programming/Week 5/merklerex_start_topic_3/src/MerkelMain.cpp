@@ -93,6 +93,12 @@ void MerkelMain::enterAsk()
     }
     else
     {
+        OrderBookEntry obe = CSVReader::stringsToOBE(
+            tokens[1],
+            tokens[2],
+            currentTime,
+            tokens[0],
+            OrderBookType::ask);
     }
 
     cout << "You typed: " << input << endl;
