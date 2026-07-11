@@ -84,7 +84,6 @@ void MerkelMain::enterAsk()
     cout << "Make an ask - enter the amount: product, price, amount, eg ETH/BTC,200,0.5 " << endl;
     string input;
     getline(cin, input);
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     vector<string> tokens = CSVReader::tokenise(input, ',');
     if (tokens.size() != 3)
@@ -126,6 +125,9 @@ int MerkelMain::getUserOption()
 
     cout << "Type in 1-6" << endl;
     cin >> userOption;
+
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
     cout << "You chose: " << userOption << endl;
     return userOption;
 }
