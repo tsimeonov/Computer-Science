@@ -27,6 +27,15 @@ public:
   static double getHighPrice(vector<OrderBookEntry> &orders);
   static double getLowPrice(vector<OrderBookEntry> &orders);
 
+  struct OHLCEntry
+  {
+    string date;
+    double open;
+    double high;
+    double low;
+    double close;
+  };
+
 private:
   vector<OrderBookEntry> orders;
 };
