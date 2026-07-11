@@ -86,6 +86,15 @@ void MerkelMain::enterAsk()
     getline(cin, input);
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
+    vector<string> tokens = CSVReader::tokenise(input, ',');
+    if (tokens.size() != 3)
+    {
+        cout << "Bad input! " << input << endl;
+    }
+    else
+    {
+    }
+
     cout << "You typed: " << input << endl;
 }
 
