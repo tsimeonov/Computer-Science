@@ -19,7 +19,9 @@ public:
   /** returns the earliest time in the orderbook */
   string getEarliestTime();
 
-  /** returns the next time after the sent time in the orderbook */
+  /** returns the next time after the sent time in the orderbook
+   * If there is no next timestamp, wraps around the start
+   */
   string getNextTime(string timestamp);
 
   static double getHighPrice(vector<OrderBookEntry> &orders);

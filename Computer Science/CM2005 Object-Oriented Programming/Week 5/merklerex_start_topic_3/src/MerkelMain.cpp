@@ -97,6 +97,7 @@ void MerkelMain::printWallet()
 void MerkelMain::gotoNextTimeframe()
 {
     cout << "Going to next time frame. " << endl;
+    currentTime = OrderBook.getNextTime(currentTime);
 }
 
 int MerkelMain::getUserOption()
