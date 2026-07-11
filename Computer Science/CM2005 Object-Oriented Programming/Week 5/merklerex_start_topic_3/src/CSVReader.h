@@ -13,8 +13,8 @@ public:
   CSVReader();
 
   static vector<OrderBookEntry> readCSV(string csvFile);
+  static vector<string> tokenise(string csvLine, char separator);
 
 private:
-  static vector<string> tokenise(string csvLine, char separator);
   static OrderBookEntry stringsToOBE(vector<string> strings);
 };

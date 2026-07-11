@@ -84,8 +84,8 @@ void MerkelMain::enterAsk()
     cout << "Make an ask - enter the amount: product, price, amount, eg ETH/BTC,200,0.5 " << endl;
     string input;
     getline(cin, input);
-
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
     cout << "You typed: " << input << endl;
 }
 
