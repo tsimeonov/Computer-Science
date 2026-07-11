@@ -81,3 +81,15 @@ string OrderBook::getEarliestTime()
 {
   return orders[0].timestamp;
 }
+
+string OrderBook::getNextTime(string timestamp)
+{
+  string next_timestamp = "";
+  for (OrderBookEntry &e : orders)
+  {
+    if (e.timestamp > timestamp)
+    {
+      next_timestamp = e.timestamp;
+    }
+  }
+}
