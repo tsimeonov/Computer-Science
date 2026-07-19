@@ -7,12 +7,13 @@ int main()
 {
   // Varialbles
   double hourRate;
-  double taxRate = 0.14;
   double hoursWorked;
-  // Money you receive after taxess
-  double netIncome;
+  double taxRate = 0.14;
+
   double grossIncome;
+  double taxIncome;
   double incomeAfterTaxes;
+
   double clothes = 0.1;
   double moneyOnClothes;
   double moneyOnSupplies;
@@ -36,8 +37,8 @@ int main()
   grossIncome = hourRate * hoursWorked;
   cout << "Your gross income is: $" << grossIncome << endl;
 
-  netIncome = grossIncome * taxRate;
-  incomeAfterTaxes = grossIncome - netIncome;
+  taxIncome = grossIncome * taxRate;
+  incomeAfterTaxes = grossIncome - taxIncome;
   cout << "Your net income is: $" << incomeAfterTaxes << endl;
 
   // B: Money spend on clothes and other accessories
@@ -65,34 +66,3 @@ int main()
 
   return 0;
 }
-
-/*
-Pay rate per hour = $15;
-Number of hours worked = 40;
-
-Gross income = 15 * 40 = 600;
-
-A: Income before and after taxes
-
-taxes = 0.14;
-
-600 * 0.14 = 84
-NetIcome = groos income * taxes;
-
-600 - 84 = 516
-income After taxes = gross income - net income
-
-B: Money spent on clothes
-516 * 0.1
-income After taxes * clothes = 51.6
-
-C: Money spent on supplies
-516 * 0.01
-income after taxes * supplies = 5.16
-
-D: Money spent on bonds
-459.24 Remaining
-
-114.81 * 0.5 = 57.405
-
-*/
