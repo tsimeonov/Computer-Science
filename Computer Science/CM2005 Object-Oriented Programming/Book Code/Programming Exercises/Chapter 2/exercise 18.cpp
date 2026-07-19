@@ -14,13 +14,16 @@ int main()
   double taxIncome;
   double incomeAfterTaxes;
 
-  double clothes = 0.1;
+  double clothes = 0.10;
   double moneyOnClothes;
-  double moneyOnSupplies;
+
   double supplies = 0.01;
-  double remainingMoney;
-  double bonds = 0.25;
+  double moneyOnSupplies;
+
+  double totalSpentSoFar;
   double remainingMoneyBonds;
+
+  double bonds = 0.25;
   double moneyOnBonds;
   double parentSpend = 0.5;
   double parentBonds;
@@ -50,10 +53,10 @@ int main()
   cout << "\033[31m" << "Money spent on supplies: $ " << moneyOnSupplies << "\033[0m" << endl;
 
   // D: The money you spend to buy savings bonds
-  remainingMoney = moneyOnClothes + moneyOnSupplies;
-  cout << "Remaining money: " << remainingMoney << endl;
+  totalSpentSoFar = moneyOnClothes + moneyOnSupplies;
+  cout << "Remaining money: " << totalSpentSoFar << endl;
 
-  remainingMoneyBonds = incomeAfterTaxes - remainingMoney;
+  remainingMoneyBonds = incomeAfterTaxes - totalSpentSoFar;
   moneyOnBonds = remainingMoneyBonds * bonds;
 
   cout << "\033[32m" << "Money spent on bonds: $ " << moneyOnBonds << "\033[0m" << endl;
