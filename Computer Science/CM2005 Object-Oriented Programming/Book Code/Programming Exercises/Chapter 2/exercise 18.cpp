@@ -25,6 +25,7 @@ int main()
 
   double bonds = 0.25;
   double moneyOnBonds;
+
   double parentSpend = 0.5;
   double parentBonds;
 
@@ -36,8 +37,10 @@ int main()
   cout << "Number of hours worked in a week" << endl;
   cin >> hoursWorked;
 
+  cout << fixed << setprecision(2);
+
   // A: Your income before and after taxes
-  grossIncome = hourRate * hoursWorked;
+  grossIncome = hourRate * hoursWorked * 5;
   cout << "Your gross income is: $" << grossIncome << endl;
 
   taxIncome = grossIncome * taxRate;
@@ -63,7 +66,6 @@ int main()
 
   // E: The money your parents spend to buy additional savings bonds for you
 
-  cout << fixed << setprecision(2);
   parentBonds = moneyOnBonds * parentSpend;
   cout << "\033[32m" << "Money parents spend on bonds: $ " << parentBonds << "\033[0m" << endl;
 
