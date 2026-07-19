@@ -12,8 +12,9 @@ int main()
   double netIncome;
   double grossIncome;
   double incomeAfterTaxes;
-  double clothes = 10;
-  double supplies = 1;
+  double clothes = 0.1;
+  double moneyOnClothes;
+  double supplies = 0.01;
 
   // Enter pay rate per hour
   cout << "Enter the hour rate" << endl;
@@ -30,6 +31,10 @@ int main()
   netIncome = grossIncome * taxRate;
   incomeAfterTaxes = grossIncome - netIncome;
   cout << "Your net income is: $" << incomeAfterTaxes << endl;
+
+  // B: Money spend on clothes and other accessories
+  moneyOnClothes = incomeAfterTaxes * clothes;
+  cout << "Money spent on clothes: $ " << moneyOnClothes << endl;
 
   // cout << "Hour rate: " << hourRate << endl;
   // cout << "Houurs worked " << hoursWorked << endl;
