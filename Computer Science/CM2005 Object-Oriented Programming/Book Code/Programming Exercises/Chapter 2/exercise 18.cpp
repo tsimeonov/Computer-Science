@@ -16,6 +16,9 @@ int main()
   double moneyOnClothes;
   double moneyOnSupplies;
   double supplies = 0.01;
+  double remainingMoney;
+  double bonds = 0.25;
+  double moneyOnBonds;
 
   // Enter pay rate per hour
   cout << "Enter the hour rate" << endl;
@@ -39,7 +42,11 @@ int main()
 
   // C: Money spent on school supplies
   moneyOnSupplies = incomeAfterTaxes * supplies;
-  cout << "Money spent on supplies: $ " << moneyOnSupplies << endl;
+  cout << "\033[31m" << "Money spent on supplies: $ " << moneyOnSupplies << "\033[0m" << endl;
+
+  // D: The money you spend to buy savings bonds
+  remainingMoney = moneyOnClothes - moneyOnSupplies;
+  cout << "\033[32m" << "Money spent on bonds: $ " << remainingMoney << "\033[0m" << endl;
 
   return 0;
 }
