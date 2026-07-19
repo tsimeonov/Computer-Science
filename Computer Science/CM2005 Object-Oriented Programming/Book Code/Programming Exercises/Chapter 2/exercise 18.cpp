@@ -14,6 +14,7 @@ int main()
   double incomeAfterTaxes;
   double clothes = 0.1;
   double moneyOnClothes;
+  double moneyOnSupplies;
   double supplies = 0.01;
 
   // Enter pay rate per hour
@@ -36,8 +37,9 @@ int main()
   moneyOnClothes = incomeAfterTaxes * clothes;
   cout << "Money spent on clothes: $ " << moneyOnClothes << endl;
 
-  // cout << "Hour rate: " << hourRate << endl;
-  // cout << "Houurs worked " << hoursWorked << endl;
+  // C: Money spent on school supplies
+  moneyOnSupplies = incomeAfterTaxes * supplies;
+  cout << "Money spent on supplies: $ " << moneyOnSupplies << endl;
 
   return 0;
 }
