@@ -54,3 +54,22 @@ What is the negation of each of these propositons?
 4. Briana doesnt sleeps longer than Gloria
 
 </details>
+
+### Exercise 5
+
+What is the negation of each of these propositons
+
+1. Mei has an MP3 Player
+2. There is no pollution in New Jersey
+3. 2 + 1 = 3
+4. The summer in Maine is hot and sunny
+
+<details>
+  <summary>Solution</summary>
+
+1. Mei doesnt has an MP3 Player
+2. There is pollution in New Jersey
+3. 2 + 1 = is not 3
+4. The summer in Maine is not hot and sunny
+
+</details>
