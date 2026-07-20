@@ -69,7 +69,7 @@ What is the negation of each of these propositons
 
 1. Mei doesnt has an MP3 Player
 2. There is pollution in New Jersey
-3. 2 + 1 = is not 3
-4. The summer in Maine is not hot and sunny
+3. 2 + 1 ≠ 3
+4. The summer in Maine is not hot and not sunny
 
 </details>
