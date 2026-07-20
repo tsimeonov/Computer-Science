@@ -33,3 +33,24 @@ C. Moshe is taller than Monica <br>
 
 D. Abby is richer than Ricardo <br>
 (Abby is not aricher than Ricardo)
+
+---
+
+### Exercise 4
+
+What is the negation of each of these propositons?
+
+1. Janice has more Facebook friends than Juan
+2. Quincy is smarter than Venkat
+3. Zelda drives more miles to school than Paola
+4. Briana sleeps longer than Gloria
+
+<details>
+  <summary>Solution</summary>
+
+1. Janice doenst have more Facebook friends than Juan
+2. Quincy is not smarter than Venkat
+3. Zelda doesnt drives more miles to school than Paola
+4. Briana doesnt sleeps longer than Gloria
+
+</details>
