@@ -80,11 +80,28 @@ What is the negation of each of these propositons
 
 ### Exercise 8
 
-Suppose that smartphone A has 256 MB RAM and 32 GB ROM, and the the resolution of its camera is 8 MP; Smartphone B has 288 GB and 64 GB ROM and the resoltion of its camera is 4MP; and smartphone C has 128 MB RAM and 32 GB ROM, and the resolution of its camera is 5 MP.
-Determine the truth value of each of these propostions:
+Suppose that:
+
+- Smartphone A has 256 MB RAM and 32 GB ROM, and the the resolution of its camera is 8 MP;
+- Smartphone B has 288 GB RAM and 64 GB ROM and the resoltion of its camera is 4MP;
+- Smartphone C has 128 MB RAM and 32 GB ROM, and the resolution of its camera is 5 MP.
+  Determine the truth value of each of these propostions:
 
 A: Smathone B has the most RAM of these three smarthones
 B: Smartphone C has more ROM or a higher resolution camera than Smarthone B
 C: Smarthone B has more RAM more ROM and a higher resolution camera that smarphone A
 D: If smarthone B has more RAM and more ROM than Smarthone C, then it also has a higher resoltion camera.
 E: Smarthone A has more RAM than smarthone B if and only if smarthone B has more RAM than smarthone A.
+
+<details>
+  <summary>Solution</summary>
+
+A: TRUE
+B: TRUE
+C: FALSE
+D: FALSE
+E: FALSE
+
+</details>
+
+---
