@@ -108,10 +108,27 @@ E: FALSE
 
 ### Exercise 9
 
-Suppose that during the most recent fiscal year, the annual revenue of Acme Computers was 128 billion dollars and its net profit was 8 billion dollars, the annual revenue of Nadir Software was 87 billion dollars and its net profirr was 5 billion dollars and the annual revenuw of Quixote Media was 111 billion dollars and its net profit was 13 billion dollars. Determine the truth value of each of these propostions for the most recent fiscal year.
+Suppose that during the most recent fiscal year, the annual revenue of:
+
+- Anual revenue of Acme Computers was 128 billion dollars and its net profit was 8 billion dollars,
+- annual revenue of Nadir Software was 87 billion dollars and its net profit was 5 billion dollars
+- annual revenue of Quixote Media was 111 billion dollars and its net profit was 13 billion dollars.
+
+Determine the truth value of each of these propostions for the most recent fiscal year.
 
 A: Quixote Media had the largest annual revenue
 B: Nadir Software had the lowest net profit and Acme Computer had the largest annual revenue
 C: Acme Computer had the largest net profit or Quixote Media had the largest net profit
 D: If Quixote Media had the smallest net profit, then Acme Computer had the largest annual revenue
 E: Nadir Softrware had the smallest net profit if and only if Acme Computer had the largest annual revenue.
+
+<details>
+  <summary>Solution</summary>
+
+A: FALSE
+B: TRUE
+C: TRUE
+D: TRUE
+E: TRUE
+
+</details>
