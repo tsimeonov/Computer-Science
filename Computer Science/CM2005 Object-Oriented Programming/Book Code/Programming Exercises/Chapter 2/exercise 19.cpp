@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
 
-  double quarters;
-  double dimes;
-  double nickels;
-  double pennies;
+  int quarters;
+  int dimes;
+  int nickels;
+  int pennies;
 
   cout << "Enter quarters: " << endl;
   cin >> quarters;
