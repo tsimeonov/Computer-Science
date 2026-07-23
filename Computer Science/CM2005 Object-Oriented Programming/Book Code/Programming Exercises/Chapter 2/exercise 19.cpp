@@ -9,12 +9,12 @@ int main()
   // dimes to pennies
   // nickels to pennies
 
-  double pennies;
+  double quarters;
   double dimes;
   double nickels;
 
-  cout << "Enter pennies: " << endl;
-  cin >> pennies;
+  cout << "Enter quarters: " << endl;
+  cin >> quarters;
 
   cout << "Enter dimes: " << endl;
   cin >> dimes;
