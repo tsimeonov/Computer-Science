@@ -5,13 +5,10 @@ using namespace std;
 int main()
 {
 
-  // quarters to pennies
-  // dimes to pennies
-  // nickels to pennies
-
   double quarters;
   double dimes;
   double nickels;
+  double pennies;
 
   cout << "Enter quarters: " << endl;
   cin >> quarters;
@@ -19,8 +16,12 @@ int main()
   cout << "Enter dimes: " << endl;
   cin >> dimes;
 
-  cout << "Enter nickesl: " << endl;
+  cout << "Enter nickels: " << endl;
   cin >> nickels;
+
+  pennies = (quarters * 25) + (dimes * 10) + (nickels * 5);
+
+  cout << "The total amount of pennies is: " << pennies << endl;
 
   return 0;
 }
