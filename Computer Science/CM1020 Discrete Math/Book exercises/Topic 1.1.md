@@ -146,13 +146,23 @@ Express each of these propositions as an English sentence
 
 a: ¬p
 b: p V q
-c: p -> q
+c: p -> q (logical implication, if p then q)
 d: p ∧ q
-e: p ↔ q
-f: ¬p ∧ ¬q
-g: ¬p V (p ∧ q)
+e: p ↔ q (biconditional statement, p if and only if q)
+f: ¬p -> ¬q
+g: ¬p ∧ ¬q
+h: ¬p V (p ∧ q)
 
 <details>
   <summary>Solution</summary>
+
+a: I did't buy a lotery thicket this week
+b: I bought a lottery ticket this weeek OR I won the million dollar jackpot
+c: If I bought a lottery ticket this week then I won the million dollar jackpot
+d: I bought a lottery ticket this week AND I won the million dollar jockpot
+e: If I bought a lottery ticket this week then I won the million dollar jackpot
+f: If I don't biut the lottery ticket this week then I will not win the million dollar jackpot
+g: I didn't buy a lottery ticket this week OR I will not wim the million dollar jackpot
+h: I didn't buy a lottery ticket this week OR I bought a lottery ticket this week AND I won the million dollar jackpot
 
 </details>
