@@ -269,3 +269,22 @@ d: It is either snowing or below freezing (or both)
 e: If it is below freezing, it is also snowing
 f: Either it is below freezing or it is snowing, but it is not snowing if it is below freezing
 g: That it is below freezing is necessary and sufficient for it to be snowing
+
+<details>
+  <summary>Solution</summary>
+
+a: p ∧ q
+
+b: p ∧ ¬q
+
+c: ¬p ∧ ¬q
+
+d: p V q
+
+e: p -> q
+
+f: (p V q) ∧ (p -> ¬q)
+
+</details>
+
+---
