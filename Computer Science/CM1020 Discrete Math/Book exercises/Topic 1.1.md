@@ -252,3 +252,20 @@ h: The votes have been not counted OR The election is not decided AND The votes 
 </details>
 
 ---
+
+### Exercise 13
+
+Let p and q be the propostions
+
+p: It is below freezing
+q: It is snowing
+
+Write these propositions using p and q and logical connectives (inlcuding negations)
+
+a: It is below freezing and snowing
+b: It is below freezing but not showing
+c: It is not below freezing and it is not snowing
+d: It is either snowing or below freezing (or both)
+e: If it is below freezing, it is also snowing
+f: Either it is below freezing or it is snowing, but it is not snowing if it is below freezing
+g: That it is below freezing is necessary and sufficient for it to be snowing
