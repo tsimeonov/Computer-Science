@@ -132,3 +132,27 @@ D: TRUE
 E: TRUE
 
 </details>
+
+---
+
+### Exercise 10
+
+Let p and q be the propositons
+
+p: I bought a lottery ticket this week
+q: I won the million dollar jackpot
+
+Express each of these propositions as an English sentence
+
+a: ¬p
+b: p V q
+c: p -> q
+d: p ∧ q
+e: p ↔ q
+f: ¬p ∧ ¬q
+g: ¬p V (p ∧ q)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
