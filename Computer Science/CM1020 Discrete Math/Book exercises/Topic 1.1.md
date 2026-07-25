@@ -160,9 +160,9 @@ a: I did't buy a lotery thicket this week
 b: I bought a lottery ticket this weeek OR I won the million dollar jackpot
 c: If I bought a lottery ticket this week then I won the million dollar jackpot
 d: I bought a lottery ticket this week AND I won the million dollar jockpot
-e: If I bought a lottery ticket this week then I won the million dollar jackpot
+e: I bought a lottery ticket this week if and only if I won the million dollar jackpot
 f: If I don't biut the lottery ticket this week then I will not win the million dollar jackpot
-g: I didn't buy a lottery ticket this week OR I will not wim the million dollar jackpot
+g: I didn't buy a lottery ticket this week AND I will not wim the million dollar jackpot
 h: I didn't buy a lottery ticket this week OR I bought a lottery ticket this week AND I won the million dollar jackpot
 
 </details>
