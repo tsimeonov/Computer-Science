@@ -309,6 +309,18 @@ f) (p ∧ q) ∨ (¬q ∧ r)
 <details>
   <summary>Solution</summary>
 
+a) If you have the flue then you miss the final examination
+
+b) You will not miss the final examination if and only you pass the course
+
+c) If you miss the final examination then you will not pass the course
+
+d) You have the flue OR You miss the final examination OR You pass the course
+
+e) If You have the flue then you will not pass the course OR If You miss the final examination then you will not pass the course
+
+f) You have the flue AND you miss the final examination OR You don't miss the final examination AND You pass the course
+
 </details>
 
 ---
