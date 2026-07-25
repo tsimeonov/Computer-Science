@@ -222,8 +222,8 @@ q: "The votes have been counted".
 Express each of these compound propositions as an English sentence.
 
 a: ¬p
-b: p V q
-c: ¬p ∧ q
+b: p V q (OR)
+c: ¬p ∧ q (AND)
 d: q -> p
 e: ¬q -> ¬p
 f: ¬p -> ¬q
