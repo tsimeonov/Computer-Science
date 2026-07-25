@@ -166,3 +166,23 @@ g: I didn't buy a lottery ticket this week AND I will not wim the million dollar
 h: I didn't buy a lottery ticket this week OR I bought a lottery ticket this week AND I won the million dollar jackpot
 
 </details>
+
+---
+
+### Exercise 11
+
+Let p and q be the propositions
+
+p: "Swimmming at the New Jersey shore is allowed"
+q: "Sharks have been spotted near the shore"
+
+Express wach of these compound propositions as an English sentence
+
+a: ¬p
+b: p ∧ q
+c: ¬p V ¬q
+d: p -> ¬q
+e: ¬q -> p
+f: ¬p -> ¬q
+g: p ↔ ¬q
+h: ¬p ∧ (p V ¬q)
