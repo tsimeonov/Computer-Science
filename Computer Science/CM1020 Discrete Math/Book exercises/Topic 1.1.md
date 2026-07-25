@@ -288,3 +288,27 @@ f: (p V q) ∧ (p -> ¬q)
 </details>
 
 ---
+
+### Exercise 14
+
+Let p, q and r be the proposition
+
+p: You have the flue
+q: You miss the final examination
+r: You pass the course
+
+Express each of these propositions as an Englich sentence
+
+a) p → q
+b) ¬q ↔ r
+c) q → ¬r
+d) p ∨ q ∨ r
+e) (p → ¬r) ∨ (q → ¬r)
+f) (p ∧ q) ∨ (¬q ∧ r)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
