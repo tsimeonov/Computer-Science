@@ -217,7 +217,7 @@ h: Swimming at the New Jersey shore is not allowed AND Swimmming at the New Jers
 Let p and q be the propositions:
 
 p: "The election is decided"
-q: "The votes have been counted".
+q: "The votes have been counted"
 
 Express each of these compound propositions as an English sentence.
 
@@ -232,6 +232,22 @@ h: ¬q V (¬p ∧ q)
 
 <details>
   <summary>Solution</summary>
+
+a: The election is not decided
+
+b: The election is decided OR The votes have been counted
+
+c: The election is not decided AND The votes have been counted
+
+d: If The votes have been counted then The election is decided
+
+e: If The votes have not been counted then The election is not decided
+
+f: If The election is not decided then The votes have not been counted
+
+g: The election is decided if and only if The votes have been counted
+
+h: The votes have been not counted OR The election is not decided AND The votes have been counted
 
 </details>
 
