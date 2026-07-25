@@ -209,3 +209,30 @@ g: Swimmming at the New Jersey shore is allowed if and only if Sharks have not b
 h: Swimming at the New Jersey shore is not allowed AND Swimmming at the New Jersey shore is allowed OR Sharks have not been spotted near the shore
 
 </details>
+
+---
+
+### Exercise 12
+
+Let p and q be the propositions:
+
+p: "The election is decided"
+q: "The votes have been counted".
+
+Express each of these compound propositions as an English sentence.
+
+a: ¬p
+b: p V q
+c: ¬p ∧ q
+d: q -> p
+e: ¬q -> ¬p
+f: ¬p -> ¬q
+g: p ↔ q
+h: ¬q V (¬p ∧ q)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
