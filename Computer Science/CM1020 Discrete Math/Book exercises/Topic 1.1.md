@@ -186,3 +186,26 @@ e: ¬q -> p
 f: ¬p -> ¬q
 g: p ↔ ¬q
 h: ¬p ∧ (p V ¬q)
+
+<details>
+  <summary>Solution</summary>
+
+a: Swimming at the New Jersey shore is not allowed
+
+b: Swimming at the New Jersey shore is allowed OR Sharks have been spotted near the shore
+
+c: Swimming at the New Jersey shore is not allowed AND Sharks have not been spotted near the shore
+
+d: If Swimmming at the New Jersey shore is allowed then
+Sharks have not been spotted near the shore
+
+e: If Sharks have not been spotted near the shore then Swimming at the New Jersey shore is not allowed
+
+f: If Swimming at the New Jersey shore is not allowed
+then Sharks have not been spotted near the shore
+
+g: Swimmming at the New Jersey shore is allowed if and only if Sharks have not been spotted near the shore
+
+h: Swimming at the New Jersey shore is not allowed OR Swimmming at the New Jersey shore is allowed AND Sharks have not been spotted near the shore
+
+</details>
