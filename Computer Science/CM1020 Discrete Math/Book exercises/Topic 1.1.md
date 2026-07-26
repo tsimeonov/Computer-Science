@@ -358,16 +358,18 @@ over 65 miles per hour.
 
 a. ¬p
 
-b. p V ¬q
+b. $p \land \neg q$
 
-c. q ∧ p
+c. p -> q
 
-d. p -> ¬q
+d. ¬p -> ¬q
 
-e. p ∧ q
+e. p -> q
 
-f. q V ¬p
+f. q ∧ ¬p
 
-g. q ↔ p
+g. q -> p
 
 </details>
+
+---
