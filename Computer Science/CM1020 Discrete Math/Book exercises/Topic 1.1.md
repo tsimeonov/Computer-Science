@@ -324,3 +324,36 @@ f) You have the flue AND you miss the final examination OR You don't miss the fi
 </details>
 
 ---
+
+### Exercise 15
+
+Let p and q be the propositions
+
+p: You drive over 65 miles pr hour
+q: You get a speeding ticket
+
+Wtite these propostions using p and q and logical connectives (including negations)
+
+a. You do not drive over 65 miles per hour
+
+b. You drive over 65 miles per, but you do not get a speeding ticket
+
+c. You will get a speeding ticket if you drive over
+65 miles per hour.
+
+d. If you do not drive over 65 miles per hour, then you
+will not get a speeding ticket.
+
+e. Driving over 65 miles per hour is suﬃcient for getting
+a speeding ticket.
+
+f. You get a speeding ticket, but you do not drive over
+65 miles per hour.
+
+g. Whenever you get a speeding ticket, you are driving
+over 65 miles per hour.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
