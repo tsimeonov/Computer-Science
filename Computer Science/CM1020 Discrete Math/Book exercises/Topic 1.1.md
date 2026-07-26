@@ -457,13 +457,13 @@ a) r ∧ ¬p
 
 b) ¬p ∧ q ∧ r
 
-c) r -> q ∧ ¬p
+c) r -> (q <-> ¬p)
 
 d) ¬q ∧ ¬p ∧ r
 
-e) q -> ¬r ∧ ¬p
+e) $(q \rightarrow (\neg r \land \neg p)) \land \neg((\neg r \land \neg p) \rightarrow q)$
 
-f) ¬q -> p ∧ r
+f) (p ∧ r) -> ¬q
 
 </details>
 
