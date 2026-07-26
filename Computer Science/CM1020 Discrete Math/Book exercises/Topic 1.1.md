@@ -410,6 +410,18 @@ final.
 <details>
   <summary>Solution</summary>
 
+a) r ∧ q
+
+b) p ∧ q ∧ r
+
+c) r -> p
+
+d) p ∧ ¬q <-> r
+
+e) p ∧ q -> r
+
+f) r -> q ∧ p
+
 </details>
 
 ---
