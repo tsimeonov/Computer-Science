@@ -536,3 +536,33 @@ d) TRUE
 </details>
 
 ---
+
+### Exercsie 21
+
+Inclusive OR
+($\lor$)This is the standard OR we have been using in all your exercises so far. It means "one, the other, or both."
+
+Exclusive OR
+($\oplus$)Often referred to as XOR, this means "one or the other, but strictly NOT both."
+
+For each of these sentences, determine whether an inclusive or, or an exclusive or, is intended.
+
+a) Co!ee or tea comes with dinner.
+
+b) A password must have at least three digits or be at least eight characters long.
+
+c) The prerequisite for the course is a course in number theory or a course in cryptography.
+
+d) You can pay using U.S. dollars or euros.
+
+<details>
+  <summary>Solution</summary>
+
+a) Exclusive OR
+b) Inclusive OR
+c) Inlcusinve OR
+d) Exclusive OR
+
+</details>
+
+---
