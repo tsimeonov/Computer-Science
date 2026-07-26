@@ -356,4 +356,18 @@ over 65 miles per hour.
 <details>
   <summary>Solution</summary>
 
+a. ¬p
+
+b. p V ¬q
+
+c. q ∧ p
+
+d. p -> ¬q
+
+e. p ∧ q
+
+f. q V ¬p
+
+g. q ↔ p
+
 </details>
