@@ -566,3 +566,27 @@ d) Exclusive OR
 </details>
 
 ---
+
+### Exercise 22
+
+For each of these sentences, determine whether an inclusive or, or an exclusive or, is intended.
+
+a) Experience with C++ or Java is required.
+
+b) Lunch includes soup or salad.
+
+c) To enter the country you need a passport or a voter registration card.
+
+d) Publish or perish.
+
+<details>
+  <summary>Solution</summary>
+
+a) Inclusive OR
+b) Exclusive OR
+c) Inclusive OR
+d) Exclusive OR
+
+</details>
+
+---
