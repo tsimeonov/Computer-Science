@@ -514,3 +514,25 @@ d) TRUE
 </details>
 
 ---
+
+### Exercise 20
+
+Determine whether each of these conditional statements
+is true or false.
+
+a) If 1 + 1= 3, then unicorns exist.
+b) If 1 + 1= 3, then dogs can fly.
+c) If 1 + 1= 2, then dogs can fly.
+d) If 2 + 2= 4, then 1 + 2 = 3.
+
+<details>
+  <summary>Solution</summary>
+
+a) TRUE
+b) TRUE
+c) FALSE
+d) TRUE
+
+</details>
+
+---
