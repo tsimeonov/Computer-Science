@@ -468,3 +468,23 @@ f) (p ∧ r) -> ¬q
 </details>
 
 ---
+
+### Exercise 18
+
+Determine whether these biconditionals are true or
+false.
+
+a) 2 + 2= 4 if and only if 1 + 1= 2.
+b) 1 + 1= 2 if and only if 2 + 3= 4.
+c) 1 + 1= 3 if and only if monkeys can fly.
+d) 0 > 1 if and only if 2 > 1
+
+<details>
+  <summary>Solution</summary>
+
+a) TRUE
+b) FALSE
+c) TRUE
+d) FALSE
+
+## </details>
