@@ -373,3 +373,43 @@ g. q -> p
 </details>
 
 ---
+
+### Exercise 16
+
+Let p, q, and r be the propositions
+
+p: You get an A on the final exam.
+
+q: You do every exercise in this book.
+
+r: You get an A in this class.
+
+Write these propositions using p, q, and r and logical con-
+nectives (including negations).
+
+a) You get an A in this class, but you do not do every
+exercise in this book.
+
+b) You get an A on the final, you do every exercise in
+this book, and you get an A in this class.
+
+c) To get an A in this class, it is necessary for you to get
+an A on the final.
+
+d) You get an A on the final, but you don’t do every ex-
+ercise in this book; nevertheless, you get an A in this
+class.
+
+e) Getting an A on the final and doing every exercise in
+this book is suﬃcient for getting an A in this class.
+
+f ) You will get an A in this class if and only if you either
+do every exercise in this book or you get an A on the
+final.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
