@@ -410,17 +410,17 @@ final.
 <details>
   <summary>Solution</summary>
 
-a) r ∧ q
+a) r ∧ ¬q
 
 b) p ∧ q ∧ r
 
 c) r -> p
 
-d) p ∧ ¬q <-> r
+d) p ∧ ¬q ∧ r
 
 e) p ∧ q -> r
 
-f) r -> q ∧ p
+f) r <-> (q V p)
 
 </details>
 
