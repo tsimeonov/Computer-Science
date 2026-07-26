@@ -488,3 +488,29 @@ c) TRUE
 d) FALSE
 
 ## </details>
+
+---
+
+### Exercise 19
+
+Determine whether each of these conditional statements
+is true or false. (p -> q)
+
+If the first part (the "If") is False, the statement automatically defaults to True, no matter what the second part says. This is known as a vacuous truth.
+
+a) If 1 + 1= 2, then 2 + 2= 5.
+b) If 1 + 1= 3, then 2 + 2= 4.
+c) If 1 + 1= 3, then 2 + 2= 5.
+d) If monkeys can fly, then 1 + 1= 3.
+
+<details>
+  <summary>Solution</summary>
+
+a) FALSE
+b) TRUE
+c) TRUE
+d) TRUE
+
+</details>
+
+---
