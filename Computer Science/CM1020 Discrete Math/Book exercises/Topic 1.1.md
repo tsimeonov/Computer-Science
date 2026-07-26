@@ -425,3 +425,46 @@ f) r <-> (q V p)
 </details>
 
 ---
+
+### Exercise 17
+
+Let p, q, and r be the propositions
+
+p: Grizzly bears have been seen in the area.
+
+q: Hiking is safe on the trail.
+
+r: Berries are ripe along the trail.
+
+Write these propositions using p, q, and r and logical connectives (including negations).
+
+a) Berries are ripe along the trail, but grizzly bears have not been seen in the area.
+
+b) Grizzly bears have not been seen in the area and hiking on the trail is safe, but berries are ripe along the trail.
+
+c) If berries are ripe along the trail, hiking is safe if and only if grizzly bears have not been seen in the area.
+
+d) It is not safe to hike on the trail, but grizzly bears have not been seen in the area and the berries along the trail are ripe.
+
+e) For hiking on the trail to be safe, it is necessary but not suﬃcient that berries not be ripe along the trail and for grizzly bears not to have been seen in the area
+
+f ) Hiking is not safe on the trail whenever grizzly bears have been seen in the area and berries are ripe along the trail.
+
+<details>
+  <summary>Solution</summary>
+
+a) r ∧ ¬p
+
+b) ¬p ∧ q ∧ r
+
+c) r -> q ∧ ¬p
+
+d) ¬q ∧ ¬p ∧ r
+
+e) q -> ¬r ∧ ¬p
+
+f) ¬q -> p ∧ r
+
+</details>
+
+---
