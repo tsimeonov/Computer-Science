@@ -590,3 +590,19 @@ d) Exclusive OR
 </details>
 
 ---
+
+### Exercise 23
+
+For each of these sentences, state what the sentence means if the logical connective or is an inclusive or (that is, a disjunction) versus an exclusive or. Which of these meanings of or do you think is intended?
+
+a) To take discrete mathematics, you must have taken
+calculus or a course in computer science.
+
+b) When you buy a new car from Acme Motor Company,
+you get $2000 back in cash or a 2% car loan.
+
+c) Dinner for two includes two items from column A or
+three items from column B.
+
+d) School is closed if more than two feet of snow falls or
+if the wind chill is below−100◦F.
