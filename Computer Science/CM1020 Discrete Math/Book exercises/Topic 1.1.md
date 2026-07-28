@@ -606,3 +606,29 @@ three items from column B.
 
 d) School is closed if more than two feet of snow falls or
 if the wind chill is below−100◦F.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
+
+### Exercise 29
+
+State the converse, contrapositive, and inverse of each of
+these conditional statements.
+
+a) If it snows today, I will ski tomorrow.
+
+b) I come to class whenever there is going to be a quiz.
+
+c) A positive integer is a prime only if it has no divisors
+other than 1 and itself.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
