@@ -614,7 +614,7 @@ if the wind chill is below−100◦F.
 
 ---
 
-<!-- ### Exercise 29
+### Exercise 29
 
 State the converse, contrapositive, and inverse of each of
 these conditional statements.
@@ -629,6 +629,6 @@ other than 1 and itself.
 <details>
   <summary>Solution</summary>
 
-</details> -->
+</details>
 
 ---
