@@ -27,4 +27,20 @@ int main()
 
 /*
 
+The proposition with a truth value opposite of p
+The proposition with the truth value opposite of p
+
+Exclusive OR
+Is true when exctly one of p and q is true
+
+The proposition p XOR q is true when exactly one of p and q is true
+
+The propostions  p XOR q is true ehen exctly one of p an q is true
+
+A proposition constructed by combinign propositions using logical operators
+
+A propostion constructed by combibng propostions using logical operators
+
+A propostion constructed by combining propostions using logical operators
+
 */
