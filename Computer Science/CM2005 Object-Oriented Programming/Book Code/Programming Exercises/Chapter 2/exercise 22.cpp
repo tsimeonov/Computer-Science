@@ -26,21 +26,18 @@ int main()
 }
 
 /*
+Operators used to combine propositions
 
-The proposition with a truth value opposite of p
-The proposition with the truth value opposite of p
+Operators used to combine propostions
 
-Exclusive OR
-Is true when exctly one of p and q is true
+Logical operators - Operators used to combine propostions
 
-The proposition p XOR q is true when exactly one of p and q is true
+Operators used to combine propostions
+Operators used to combine propostions
+Operators used to combine propostions
 
-The propostions  p XOR q is true ehen exctly one of p an q is true
-
-A proposition constructed by combinign propositions using logical operators
-
-A propostion constructed by combibng propostions using logical operators
-
-A propostion constructed by combining propostions using logical operators
+a table displaying all truth values of propostions
+a table displaying all truth valued of a propostions
+A table displaying all truth values of a propostions
 
 */
