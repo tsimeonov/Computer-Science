@@ -26,18 +26,16 @@ int main()
 }
 
 /*
-Operators used to combine propositions
-
-Operators used to combine propostions
-
-Logical operators - Operators used to combine propostions
-
-Operators used to combine propostions
-Operators used to combine propostions
-Operators used to combine propostions
-
-a table displaying all truth values of propostions
-a table displaying all truth valued of a propostions
+A table dispalying all truth values of a propostions
 A table displaying all truth values of a propostions
 
+Implication p -> q
+
+The propostion if p then q, which is fals eif an only if p is true and q is false
+
+The propostions if p thenq is false if and only if p is true and q ida false
+
+The propostion if p then q is false if and only if p is true and q is false
+
+The propostion if p then q is false if and only if p si true and q is false
 */
