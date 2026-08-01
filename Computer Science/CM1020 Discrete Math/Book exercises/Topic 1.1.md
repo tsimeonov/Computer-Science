@@ -676,20 +676,20 @@ c) When I stay up late, it is necessary that I sleep until noon
 a)
 
 - If I stay home then it will snows tonight
-- If it's not going to snow today, I will not stay at home
+- If it's not going to snow tonight, I will not stay at home
 - I will not stay at home, if it's not going to snow tonight
 
 b)
 
-- Whenever its a sunny summer day, I go to the beach
-- I will not go to the beach, if it's not a sunny summer day
-- if it's not a sunny summer day, I will not go to the beach
+- If its a sunny summer day, I go to the beach
+- If it's not a sunny summer day, then I will not go to the beach
+- If I do not go to the beach, then it is not a sunny summer day
 
 c)
 
 - It is necessary that I sleep until noon, when i stay up late
-- When I do not stay up late, it is not nessassary that I sleep until noon
-- It is not nessassary that I sleep until noon when I do not stay up late
+- If I do not stay up late, it is not nessassary that I sleep until noon
+- If I do not sleep until noon, then I did not stay up late
 
 </details>
 
