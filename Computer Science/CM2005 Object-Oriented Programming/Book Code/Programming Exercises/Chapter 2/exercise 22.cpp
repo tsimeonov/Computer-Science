@@ -27,17 +27,6 @@ int main()
 
 /*
 
-The proposition wiht a truth value oppoostion to the truth value of p
-
-Tje propostions with a truth value oppostiote to the truth value of p
-
-A propostion constructted by combining prpostions using logical operators
-
-A propostion constructed by combining propostions using logical operatos
-
-A propostion constructed by combing ppopostions using logical operators
-
-A propostions constructed by combining propostions using logical operators
 
 
 */
