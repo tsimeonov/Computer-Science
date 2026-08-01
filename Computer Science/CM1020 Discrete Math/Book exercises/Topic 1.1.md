@@ -694,3 +694,28 @@ c)
 </details>
 
 ---
+
+### Exercise 31
+
+How many rows appear in a truth table for each of these
+compound propositions?
+
+If the proposition p → ¬p, there is only one distinct variable (p)
+Therefore $2^1 = 2$ rows
+
+a) p → ¬p
+b) (p ∨ ¬r) ∧ (q ∨ ¬s)
+c) q ∨ p ∨ ¬s ∨ ¬r ∨ ¬t ∨ u
+d) (p ∧ r ∧ t) ↔ (q ∧ t)
+
+<details>
+  <summary>Solution</summary>
+
+a) 2 rows
+b) 16 rows
+c) 64 rows
+d) 16 rows
+
+</details>
+
+---
