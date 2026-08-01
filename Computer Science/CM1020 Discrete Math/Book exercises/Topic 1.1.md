@@ -622,6 +622,10 @@ d) inclusive OR
 
 State the converse, contrapositive, and inverse of each of these conditional statements.
 
+- converse, q -> p (if q, then p)
+- inverse, ¬p -> ¬q
+- contrapositive, ¬q -> ¬p
+
 a) If it snows today, I will ski tomorrow.
 
 b) I come to class whenever there is going to be a quiz.
@@ -631,6 +635,24 @@ other than 1 and itself.
 
 <details>
   <summary>Solution</summary>
+
+a)
+
+- If I ski tomorrow, it will snow today
+- If it's not going to snow today, I will not ski tomorrow
+- I will not ski tommorrow, and it will not sonow today
+
+b)
+
+- If I come to clas, then there is going to be a quiz
+- If there is not going to be a quiz, then I will not come to class
+- If I do not come to class, then there is not going to be a quiz
+
+c)
+
+- If it has no divisors other than 1 and itself a positive integer is a prime only
+- A positive integer is not a prime if it has divisors other than 1 and itself
+- If ot has divisors other than 1 and itself, a positive ingers is not a prime
 
 </details>
 
