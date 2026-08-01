@@ -595,20 +595,24 @@ d) Exclusive OR
 
 For each of these sentences, state what the sentence means if the logical connective or is an inclusive or (that is, a disjunction) versus an exclusive or. Which of these meanings of or do you think is intended?
 
-a) To take discrete mathematics, you must have taken
-calculus or a course in computer science.
+- Inclusive OR - "one, or the other, or both"
+- Exclusive OR - "strictly one or the other, but not both"
 
-b) When you buy a new car from Acme Motor Company,
-you get $2000 back in cash or a 2% car loan.
+a) To take discrete mathematics, you must have taken calculus or a course in computer science.
 
-c) Dinner for two includes two items from column A or
-three items from column B.
+b) When you buy a new car from Acme Motor Company, you get $2000 back in cash or a 2% car loan.
 
-d) School is closed if more than two feet of snow falls or
-if the wind chill is below−100◦F.
+c) Dinner for two includes two items from column A or three items from column B.
+
+d) School is closed if more than two feet of snow falls or if the wind chill is below−100◦F.
 
 <details>
   <summary>Solution</summary>
+
+a) inclusive OR
+b) exlusive OR
+c) exclusive OR
+d) inclusive OR
 
 </details>
 
@@ -616,8 +620,7 @@ if the wind chill is below−100◦F.
 
 ### Exercise 29
 
-State the converse, contrapositive, and inverse of each of
-these conditional statements.
+State the converse, contrapositive, and inverse of each of these conditional statements.
 
 a) If it snows today, I will ski tomorrow.
 
