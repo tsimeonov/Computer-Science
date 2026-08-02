@@ -796,7 +796,14 @@ e)
 | TRUE  | TRUE  | FALSE | FALSE | TRUE  |  TRUE   |        TRUE         |
 | FALSE | FALSE | TRUE  | TRUE  | TRUE  |  TRUE   |        TRUE         |
 
-f)
+f) (p → q) → (q → p)
+
+|  p  |  q  | p → q | q → p |
+| :-: | :-: | :---: | :---: |
+|  T  |  F  |   F   |   T   |
+|  F  |  T  |   T   |   F   |
+|  F  |  F  |   T   |   T   |
+|  T  |  T  |   T   |   T   |
 
  </details>
 
