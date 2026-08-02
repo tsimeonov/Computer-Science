@@ -808,3 +808,28 @@ f) (p → q) → (q → p)
  </details>
 
 ---
+
+### Exercise 34
+
+Construct a truth table for each of these compound propositions.
+
+a) p → ¬p
+b) p ↔ ¬p
+c) p ⊕ (p ∨ q)
+d) (p ∧ q) → (p ∨ q)
+e) (q → ¬p) ↔ (p ↔ q)
+f) (p ↔ q) ⊕ (p ↔ ¬q)
+
+<details>
+  <summary>Solution</summary>
+
+a) p → ¬p
+
+|  p  | ¬p  | p → ¬p |
+| :-: | :-: | :----: |
+|  T  |  F  |   F    |
+|  F  |  T  |   T    |
+
+</details>
+
+---
