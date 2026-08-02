@@ -719,3 +719,24 @@ d) 16 rows
 </details>
 
 ---
+
+### Exercise 32
+
+How many rows appear in a truth table for each of these compound propositions?
+
+a) (q → ¬p) ∨ (¬p → ¬q)
+b) (p ∨ ¬t) ∧ (p ∨ ¬s)
+c) (p → r) ∨ (¬s → ¬t) ∨ (¬u → v)
+d) (p ∧ r ∧ s) ∨ (q ∧ t) ∨ (r ∧ ¬t)
+
+<details>
+  <summary>Solution</summary>
+
+a) $2^2$ = 4 rows
+b) $2^3$ = 8 rows
+c) $2^6$ = 64 rows
+d) $2^5$ = 32 rows
+
+</details>
+
+---
