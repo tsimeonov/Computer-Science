@@ -740,3 +740,44 @@ d) $2^5$ = 32 rows
 </details>
 
 ---
+
+### Exercise 33
+
+Construct a truth table for each of these compound propositions.
+
+a) p ∧ ¬p  
+b) p ∨ ¬p
+c) (p ∨ ¬q) → q
+d) (p ∨ q) → (p ∧ q)
+e) (p → q) ↔ (¬q → ¬p)
+f ) (p → q) → (q → p)
+
+<details>
+  <summary>Solution</summary>
+
+a)
+
+|   p   |  ¬p   | p ∧ ¬p |
+| :---: | :---: | :----: |
+| TRUE  | FALSE | FALSE  |
+| FALSE | TRUE  | FALSE  |
+
+b)
+
+|   p   |  ¬p   | p v ¬p |
+| :---: | :---: | :----: |
+| TRUE  | FALSE |  TRUE  |
+| FALSE | TRUE  |  TRUE  |
+
+c)
+
+|   p   |   q   |  ¬q   | p ∨ ¬q |
+| :---: | :---: | :---: | :----: |
+| TRUE  | TRUE  | FALSE |  TRUE  |
+| TRUE  | FALSE | TRUE  |  TRUE  |
+| FALSE | TRUE  | FALSE | FALSE  |
+| FALSE | FALSE |  TUE  |  TRUE  |
+
+ </details>
+
+---
