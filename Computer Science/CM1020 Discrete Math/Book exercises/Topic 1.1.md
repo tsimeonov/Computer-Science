@@ -796,6 +796,8 @@ e)
 | TRUE  | TRUE  | FALSE | FALSE | TRUE  |  TRUE   |        TRUE         |
 | FALSE | FALSE | TRUE  | TRUE  | TRUE  |  TRUE   |        TRUE         |
 
+f)
+
  </details>
 
 ---
