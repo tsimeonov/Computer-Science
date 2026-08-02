@@ -787,6 +787,15 @@ d)
 | TRUE  | TRUE  | TRUE  | TRUE  |
 | FALSE | FALSE | FALSE | FALSE |
 
+e)
+
+|   p   |   q   |  ¬p   |  ¬q   | p → q | ¬q → ¬p | (p → q) ↔ (¬q → ¬p) |
+| :---: | :---: | :---: | :---: | :---: | :-----: | :-----------------: |
+| TRUE  | FALSE | FALSE | TRUE  | FALSE |  FALSE  |        TRUE         |
+| FALSE | TRUE  | TRUE  | FALSE | TRUE  |  TRUE   |        TRUE         |
+| TRUE  | TRUE  | FALSE | FALSE | TRUE  |  TRUE   |        TRUE         |
+| FALSE | FALSE | TRUE  | TRUE  | TRUE  |  TRUE   |        TRUE         |
+
  </details>
 
 ---
