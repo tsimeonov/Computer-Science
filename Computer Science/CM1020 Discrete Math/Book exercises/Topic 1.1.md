@@ -778,6 +778,15 @@ c)
 | FALSE | TRUE  | FALSE | FALSE  |
 | FALSE | FALSE |  TUE  |  TRUE  |
 
+d)
+
+|   p   |   q   | p ∨ q | p ∧ q |
+| :---: | :---: | :---: | :---: |
+| TRUE  | FALSE | TRUE  | FALSE |
+| FALSE | TRUE  | TRUE  | FALSE |
+| TRUE  | TRUE  | TRUE  | TRUE  |
+| FALSE | FALSE | FALSE | FALSE |
+
  </details>
 
 ---
