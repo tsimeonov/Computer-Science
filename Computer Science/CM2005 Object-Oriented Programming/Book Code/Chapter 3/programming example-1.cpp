@@ -1,7 +1,7 @@
 /*
 Program: Movie ticket sale
-This program determines the money yo be donated to a
-charity. Ot prompts the user to input the movie name, adult ticket ptice,
+This program determines the money to be donated to a
+charity. It prompts the user to input the movie name, adult ticket ptice,
 child ticket price, number of adult tickets sold, number of child tickets sold,
 and percentage of the gross amount to be donated to the charity
 */
