@@ -95,3 +95,23 @@ int main()
 
   return 0;
 }
+
+/*
+Sample run
+
+Enter movie name: Journey to Mars
+Enter the price of an adult ticket: 4.50
+Enter the price of a child ticket: 3.00
+Enter number of adult tickets sold: 800
+Enter number of child tickets sold: 1850
+Enter the percentage of donation: 10
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Movie Name: ....................... Journey to Mars
+Number of Tickets Sold: ........... 2650
+Gross Amount: ..................... $ 9150.00
+Percentage of Gross Amount Donated: 10.00%
+Amount Donated: ................... $ 915.00
+Net Sale: ......................... $ 8235.00
+
+*/
