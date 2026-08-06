@@ -61,5 +61,37 @@ int main()
 
   netSaleAmount = grossAmount - amountDonated;
 
+  // Step 2: Output results
+
+  cout << "*****************************************" << endl;
+
+  cout << setfill('.') << left << setw(35) << "Movie Name: "
+       << right << " " << movieName << endl;
+
+  cout << left << setw(35) << "Number of Tickets Sold: "
+       << setfill(' ') << right << setw(10)
+       << noOfAdultTicketSold + noOfChildTicketSold
+       << endl;
+
+  cout << setfill('.') << left << setw(35)
+       << "Gross Amount: "
+       << setfill(' ') << right << " $"
+       << setw(8) << grossAmount << endl;
+
+  cout << setfill('.') << left << setw(35)
+       << "Percentage of Gross Amount Donated: "
+       << setfill(' ') << right
+       << setw(9) << percentDonation << "%" << endl;
+
+  cout << setfill('.') << left << setw(35)
+       << "Amount Donated: "
+       << setfill(' ') << right << " $"
+       << setw(8) << amountDonated << endl;
+
+  cout << setfill('.') << left << setw(35)
+       << "Net Sale: "
+       << setfill(' ') << right << " $"
+       << setw(8) << netSaleAmount << endl;
+
   return 0;
 }
