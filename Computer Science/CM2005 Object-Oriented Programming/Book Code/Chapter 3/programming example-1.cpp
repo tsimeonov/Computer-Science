@@ -26,5 +26,40 @@ int main()
   double amountDonated;
   double netSaleAmount;
 
+  cout << fixed << showpoint << setprecision(2);
+
+  cout << "Enter the movie name: ";
+  getline(cin, movieName);
+  cout << endl;
+
+  cout << "Enter the price of an adult ticket: ";
+  cin >> adultTicketPrice;
+  cout << endl;
+
+  cout << "Enter the price of a child ticket: ";
+  cin >> childTicketPrice;
+  cout << endl;
+
+  cout << "Enter the number of adult tickets "
+       << "sold: ";
+  cin >> noOfAdultTicketSold;
+  cout << endl;
+
+  cout << "Enter the number of child tickets "
+       << "sold: ";
+  cin >> noOfChildTicketSold;
+  cout << endl;
+
+  cout << "Enter the percentage of donation: ";
+  cin >> percentDonation;
+  cout << endl
+       << endl;
+
+  grossAmount = adultTicketPrice * noOfAdultTicketSold + childTicketPrice * noOfChildTicketSold;
+
+  amountDonated = grossAmount * percentDonation / 100;
+
+  netSaleAmount = grossAmount - amountDonated;
+
   return 0;
 }
