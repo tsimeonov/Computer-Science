@@ -98,4 +98,20 @@ int main()
 
 /*
 
+An operation of bit or bits,
+An operaiont of bit or bits
+
+The proposition p XOR q is true when exactly one of p or q is true
+
+THe propostion p XOR q is true when exactly one of p or q is true
+
+Bitwise operations are fast and low level computations, that manipulate numbers by directly comparing, shifting or flipping their individual digits
+
+Bitwise operations are fast low level computations that manipulate numbers by comparing, shifting or flipping their individual binary digits
+
+Bitwise operation are fast low level compitations that manipulate numbers by comparing, shifting or flipping their individual binary digits
+
+Bitwise operations are fast low level computations that manipulate numbers by comparing shifting or flipping their individual binary digits
+
+
 */
