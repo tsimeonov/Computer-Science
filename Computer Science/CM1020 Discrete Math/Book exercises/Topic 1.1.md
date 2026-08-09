@@ -885,6 +885,19 @@ d) (p ↔ q) ⊕ (¬p ↔ q)
 |  F  |  F  |  T  |   T   |   F    |         T          |
 |  T  |  T  |  F  |   T   |   F    |         T          |
 
+e) (p ↔ q) ⊕ (¬p ↔ ¬r)
+
+|  p  |  q  |  r  | ¬p  | ¬r  | p ↔ q | ¬p ↔ ¬r | (p ↔ q) ⊕ (¬p ↔ ¬r) |
+| :-: | :-: | :-: | :-: | :-: | :---: | :-----: | :-----------------: |
+|  T  |  T  |  T  |  F  |  F  |   T   |    T    |          F          |
+|  T  |  T  |  F  |  F  |  T  |   T   |    F    |          T          |
+|  T  |  F  |  T  |  F  |  F  |   F   |    T    |          T          |
+|  T  |  F  |  F  |  F  |  T  |   F   |    F    |          F          |
+|  F  |  T  |  T  |  T  |  F  |   F   |    F    |          F          |
+|  F  |  T  |  F  |  T  |  T  |   F   |    T    |          T          |
+|  F  |  F  |  T  |  T  |  F  |   T   |    F    |          T          |
+|  F  |  F  |  F  |  T  |  T  |   T   |    T    |          F          |
+
 </details>
 
 ---

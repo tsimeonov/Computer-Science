@@ -4,6 +4,8 @@ Stands for Exclusive OR (often abbreviated as XOR).
 In plain English, it means: "Either $p$ or $q$, but not both."
 It is True (T) when the two values are different.
 
+---
+
 - (Implication $\rightarrow$):
   A conditional statement ($\rightarrow$) is always True (T) whenever the first part (the premise) is False
 
@@ -14,3 +16,13 @@ Here are the rules for how it evaluates:
 
 - It is True (T) when $p$ and $q$ have the same truth values (both are True, or both are False).
 - It is False (F) when $p$ and $q$ have different truth values (one is True and the other is False).
+
+---
+
+This is the Biconditional (often read as "if and only if").
+As a quick refresher from earlier, the rule for $p \leftrightarrow q$ is:
+
+- It is True (T) when $p$ and $q$ are the same (both T, or both F).
+- It is False (F) when $p$ and $q$ are different.
+
+---
