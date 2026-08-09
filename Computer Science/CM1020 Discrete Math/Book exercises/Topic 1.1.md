@@ -833,3 +833,22 @@ a) p → ¬p
 </details>
 
 ---
+
+### Exercise 35
+
+Construct a truth table for each of these compound propo-
+sitions.
+
+a) (p ∨ q) → (p ⊕ q)
+b) (p ⊕ q) → (p ∧ q)
+c) (p ∨ q) ⊕ (p ∧ q)
+d) (p ↔ q) ⊕ (¬p ↔ q)
+e) (p ↔ q) ⊕ (¬p ↔ ¬r)
+f ) (p ⊕ q) → (p ⊕¬q)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
