@@ -848,6 +848,15 @@ f ) (p ⊕ q) → (p ⊕¬q)
 
 <details>
   <summary>Solution</summary>
+  
+  a) (p ∨ q) → (p ⊕ q)
+
+|  p  |  q  | p ∨ q | p ⊕ q | (p ∨ q) → (p ⊕ q) |
+| :-: | :-: | :---: | :---: | :---------------: |
+|  T  |  F  |   T   |   T   |         T         |
+|  F  |  T  |   T   |   T   |         T         |
+|  F  |  F  |   F   |   F   |         T         |
+|  T  |  T  |   T   |   F   |         F         |
 
 </details>
 
