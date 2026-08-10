@@ -939,4 +939,13 @@ b) p ⊕ ¬p
 |  T  |  F  |   T    |
 |  F  |  T  |   T    |
 
+c) p ⊕ ¬q
+
+|  p  |  q  | ¬q  | p ⊕ ¬q |
+| :-: | :-: | :-: | :----: |
+|  T  |  F  |  T  |   F    |
+|  F  |  T  |  F  |   F    |
+|  F  |  F  |  T  |   T    |
+|  T  |  T  |  F  |   T    |
+
 </details>
