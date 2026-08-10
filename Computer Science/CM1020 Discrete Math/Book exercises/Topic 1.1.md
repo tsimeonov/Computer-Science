@@ -916,11 +916,11 @@ f)(p ⊕ q) → (p ⊕ ¬q)
 Construct a truth table for each of these compound propositions.
 
 a) p ⊕ p
-b) p ⊕¬p
-c) p ⊕¬q
-d)¬p ⊕¬q
+b) p ⊕ ¬p
+c) p ⊕ ¬q
+d) ¬p ⊕ ¬q
 e) (p ⊕ q) ∨ (p ⊕¬q)
-f ) (p ⊕ q) ∧ (p ⊕¬q)
+f) (p ⊕ q) ∧ (p ⊕¬q)
 
 <details>
   <summary>Solution</summary>
