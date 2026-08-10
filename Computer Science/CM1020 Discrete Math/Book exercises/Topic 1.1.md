@@ -910,3 +910,19 @@ f)(p ⊕ q) → (p ⊕ ¬q)
 </details>
 
 ---
+
+### Exercise 36
+
+Construct a truth table for each of these compound propositions.
+
+a) p ⊕ p
+b) p ⊕¬p
+c) p ⊕¬q
+d)¬p ⊕¬q
+e) (p ⊕ q) ∨ (p ⊕¬q)
+f ) (p ⊕ q) ∧ (p ⊕¬q)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
