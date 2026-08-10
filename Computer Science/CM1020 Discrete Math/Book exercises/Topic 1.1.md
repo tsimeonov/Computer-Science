@@ -925,4 +925,11 @@ f ) (p ⊕ q) ∧ (p ⊕¬q)
 <details>
   <summary>Solution</summary>
 
+a) p ⊕ p
+
+|  p  | p ⊕ p |
+| :-: | :---: |
+|  T  |   F   |
+|  F  |   F   |
+
 </details>
