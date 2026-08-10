@@ -844,7 +844,7 @@ b) (p ⊕ q) → (p ∧ q)
 c) (p ∨ q) ⊕ (p ∧ q)
 d) (p ↔ q) ⊕ (¬p ↔ q)
 e) (p ↔ q) ⊕ (¬p ↔ ¬r)
-f ) (p ⊕ q) → (p ⊕¬q)
+f)(p ⊕ q) → (p ⊕¬q)
 
 <details>
   <summary>Solution</summary>
@@ -897,6 +897,15 @@ e) (p ↔ q) ⊕ (¬p ↔ ¬r)
 |  F  |  T  |  F  |  T  |  T  |   F   |    T    |          T          |
 |  F  |  F  |  T  |  T  |  F  |   T   |    F    |          T          |
 |  F  |  F  |  F  |  T  |  T  |   T   |    T    |          F          |
+
+f)(p ⊕ q) → (p ⊕ ¬q)
+
+|  p  |  q  | ¬q  | p ⊕ q | p ⊕ ¬q | (p ⊕ q) → (p ⊕ ¬q) |
+| :-: | :-: | :-: | :---: | :----: | :----------------: |
+|  T  |  F  |  T  |   T   |   F    |         F          |
+|  F  |  T  |  F  |   T   |   F    |         F          |
+|  F  |  F  |  T  |   F   |   T    |         T          |
+|  T  |  T  |  F  |   F   |   T    |         T          |
 
 </details>
 
