@@ -976,3 +976,30 @@ f) (p ⊕ q) ∧ (p ⊕ ¬q)
 |  T  |  T  |  F  |   F   |   T    |         F          |
 
 </details>
+
+---
+
+#### Exercise 37
+
+Construct a truth table for each of these compound propositions.
+
+a) p → ¬q
+b) ¬p ↔ q
+c) (p → q) ∨ (¬p → q)
+d) (p → q) ∧ (¬p → q)
+e) (p ↔ q) ∨ (¬p ↔ q)
+f) (¬p ↔ ¬q) ↔ (p ↔ q)
+
+<details>
+  <summary>Solution</summary>
+
+a) p → ¬q
+
+|  p  |  q  | ¬q  | p → ¬q |
+| :-: | :-: | :-: | :----: |
+|  T  |  F  |  T  |   T    |
+|  F  |  T  |  F  |   T    |
+|  F  |  F  |  T  |   T    |
+|  T  |  T  |  F  |   F    |
+
+</details>
