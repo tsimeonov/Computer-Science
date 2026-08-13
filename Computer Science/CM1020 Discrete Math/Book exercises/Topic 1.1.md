@@ -993,13 +993,13 @@ f) (¬p ↔ ¬q) ↔ (p ↔ q)
 <details>
   <summary>Solution</summary>
 
-a) p → ¬q
+<!-- a) p → ¬q
 
 |  p  |  q  | ¬q  | p → ¬q |
 | :-: | :-: | :-: | :----: |
 |  T  |  F  |  T  |   T    |
 |  F  |  T  |  F  |   T    |
 |  F  |  F  |  T  |   T    |
-|  T  |  T  |  F  |   F    |
+|  T  |  T  |  F  |   F    | -->
 
 </details>
