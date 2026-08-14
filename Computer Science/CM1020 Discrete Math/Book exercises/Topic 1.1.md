@@ -1002,4 +1002,13 @@ a) p → ¬q
 |  F  |  F  |  T  |   T    |
 |  T  |  T  |  F  |   F    |
 
+b) ¬p ↔ q
+
+|  p  |  q  | ¬p  | ¬p ↔ q |
+| :-: | :-: | :-: | :----: |
+|  T  |  F  |  F  |   T    |
+|  F  |  T  |  T  |   T    |
+|  F  |  F  |  T  |   F    |
+|  T  |  T  |  F  |   F    |
+
 </details>
