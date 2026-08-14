@@ -1048,3 +1048,32 @@ f) (¬p ↔ ¬q) ↔ (p ↔ q)
 |  T  |  T  |  F  |  F  |    T    |   T   |          T          |
 
 </details>
+
+### Exercise 38
+
+Construct a truth table for each of these compound propositions.
+
+a) (p ∨ q) ∨ r
+b) (p ∨ q) ∧ r
+c) (p ∧ q) ∨ r
+d) (p ∧ q) ∧ r
+e) (p ∨ q) ∧ ¬r
+f) (p ∧ q) ∨ ¬r
+
+<details>
+  <summary>Solution</summary>
+
+a) (p ∨ q) ∨ r
+
+|  p  |  q  |  r  | p ∨ q | (p ∨ q) ∨ r |
+| :-: | :-: | :-: | :---: | :---------: |
+|  T  |  T  |  T  |   T   |      T      |
+|  T  |  T  |  F  |   T   |      T      |
+|  T  |  F  |  T  |   T   |      T      |
+|  T  |  F  |  F  |   T   |      T      |
+|  F  |  T  |  T  |   T   |      T      |
+|  F  |  T  |  F  |   T   |      T      |
+|  F  |  F  |  T  |   F   |      T      |
+|  F  |  F  |  F  |   F   |      F      |
+
+</details>
