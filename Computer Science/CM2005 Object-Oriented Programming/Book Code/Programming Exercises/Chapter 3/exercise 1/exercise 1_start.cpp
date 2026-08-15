@@ -24,5 +24,19 @@ int main()
   inFile.open("inData.txt");
   outFile.open("outData.txt");
 
+  // Part d: Read data from inData,txt and write formatted output to outData.txt
+
+  // Line 1: Read name and department
+  inFile >> firstName >> lastName >> department;
+
+  // Line 2: Read financial data
+  inFile >> grossSalary >> bonusPercent >> taxPercent;
+
+  // Line 3: Read travel data
+  inFile >> distance >> travelTime;
+
+  // Line 4: Read coffee data
+  inFile >> coffeeCupsSold >> coffeeCost;
+
   return 0;
 }
