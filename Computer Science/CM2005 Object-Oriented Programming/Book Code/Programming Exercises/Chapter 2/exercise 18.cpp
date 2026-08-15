@@ -74,21 +74,5 @@ int main()
 
 /*
 
-Logic gate
-a logic element that performs a logical operation on one or more bits to produce an outpur bit
-a logica element that performs logical operations on one or more bits to produce an outpur bit
-
-a logic element that perforsm a logical operation on on or more bits to produce an outpur bit
-
-logicla gate
-a logic element taht performs logical operations on one or more bits to produce an outopput bit
-
-a logical element that perfos a logical operation on one or more elements in order to produce an output bit
-
-a logic element that performs a logical operation on one or more elements in order to produce an oputput bit
-
-a logical element that performs a logical operation on one or more elements in order to produce an output bit
-
-a logicla eleemnt that performs a logical operaion on one or more elements it order ro produce a logical bit
-
+a logical element thatperforms a logical operation on one or more bits to produce an output bit
 */
