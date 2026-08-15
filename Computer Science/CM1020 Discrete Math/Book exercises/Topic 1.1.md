@@ -1102,4 +1102,17 @@ c) (p ∧ q) ∨ r
 |  F  |  F  |  T  |   F   |      T      |
 |  F  |  F  |  F  |   F   |      F      |
 
+d) (p ∧ q) ∧ r
+
+|  p  |  q  |  r  | p ∧ q | (p ∧ q) ∧ r |
+| :-: | :-: | :-: | :---: | :---------: |
+|  T  |  T  |  T  |   T   |      T      |
+|  T  |  T  |  F  |   T   |      F      |
+|  T  |  F  |  T  |   F   |      F      |
+|  T  |  F  |  F  |   F   |      F      |
+|  F  |  T  |  T  |   F   |      F      |
+|  F  |  T  |  F  |   F   |      F      |
+|  F  |  F  |  T  |   F   |      F      |
+|  F  |  F  |  F  |   F   |      F      |
+
 </details>
