@@ -38,5 +38,17 @@ int main()
   // Line 4: Read coffee data
   inFile >> coffeeCupsSold >> coffeeCost;
 
+  // Computations
+  double bonusAmount = grossSalary * (bonusAmount / 100);
+  double grossWithBonus = grossSalary + bonusAmount;
+  double taxAmount = grossWithBonus * (taxPercent / 100);
+  double netPaycheck = grossWithBonus - taxAmount;
+
+  double averageSpeed = distance / travelTime;
+  double totalSalesAmount = coffeeCupsSold * coffeeCost;
+
+  // Write formatted output to outData.txt
+  outFile << fixed << setprecision(2);
+
   return 0;
 }
