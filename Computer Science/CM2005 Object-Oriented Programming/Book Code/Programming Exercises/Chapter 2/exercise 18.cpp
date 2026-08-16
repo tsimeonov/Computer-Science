@@ -73,6 +73,13 @@ int main()
 }
 
 /*
+an input stream flows from a source to a computer
+an output stream flows from computer to destination
+
+an input stream flows from source to computer
+an output stream flows from computer to festination
+
+
 
 
 */
