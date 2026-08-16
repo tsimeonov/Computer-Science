@@ -74,5 +74,5 @@ int main()
 
 /*
 
-a logical element thatperforms a logical operation on one or more bits to produce an output bit
+
 */
