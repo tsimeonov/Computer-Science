@@ -39,7 +39,7 @@ int main()
   inFile >> coffeeCupsSold >> coffeeCost;
 
   // Computations
-  double bonusAmount = grossSalary * (bonusAmount / 100);
+  double bonusAmount = grossSalary * (bonusPercent / 100);
   double grossWithBonus = grossSalary + bonusAmount;
   double taxAmount = grossWithBonus * (taxPercent / 100);
   double netPaycheck = grossWithBonus - taxAmount;
@@ -49,6 +49,45 @@ int main()
 
   // Write formatted output to outData.txt
   outFile << fixed << setprecision(2);
+
+  // Write formatted output to ourData.txt
+  outFile << fixed << setprecision(2);
+
+  outFile << "Name: " << firstName << " " << lastName
+          << ", Department: " << department
+          << endl;
+
+  outFile << "---------------" << endl;
+
+  outFile << "Montly Gross Salary: " << "$" << grossSalary
+          << " Montly Bonus: " << bonusAmount << "%"
+          << " Taxes: " << taxPercent << "%" << endl;
+
+  outFile << "---------------" << endl;
+
+  outFile << "Paycheck: " << "$" << netPaycheck << endl;
+
+  outFile << "---------------" << endl;
+
+  outFile << "Distance Traveled: " << distance << " miles,"
+          << " Travelling time: " << travelTime << " hours"
+          << endl;
+
+  outFile << "---------------" << endl;
+
+  outFile << "Average Speed: " << averageSpeed
+          << " miles per hour"
+          << endl;
+
+  outFile << "---------------" << endl;
+
+  outFile << "Number of Coffee Cups Sold: " << coffeeCupsSold
+          << ", Cost: " << "$" << coffeeCost << " per cup"
+          << endl;
+
+  outFile << "---------------" << endl;
+
+  outFile << "Sales Amount = " << "$" << totalSalesAmount << endl;
 
   return 0;
 }
