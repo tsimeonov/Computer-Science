@@ -73,28 +73,6 @@ int main()
 }
 
 /*
-an input stream flows from a source to a computer
-an output stream flows from computer to destination
 
-an input stream flows from source to computer
-an output stream flows from computer to festination
-
-an inpput stream flows from source to destination
-an output stream flows from computer to destination
-
-
->>
-Stream extraction operator.
-THe left operand needs to be an input stream variable (cin)
-
-stream extraction operator
-The left operand needs to be an input stream variable
-the left operand needs to be an input stream variable
-the left operand needs to be an input stream variable
-
-stream extraction operator
-the left operand needs to be an input stream variable
-the left opeand needs to be an input stream variable
-the left operand needs to be an inut stream variable
 
 */
