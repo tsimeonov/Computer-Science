@@ -44,9 +44,10 @@ int main()
   cout << endl;
 
   cout << "The cost of the fertilizer per pound is: $"
-       << bagSize / cost << endl;
+       << cost / bagSize << endl;
+
   cout << "The cost of the fertilizing per square foot is: $"
-       << area / cost << endl;
+       << cost / area << endl;
 
   return 0;
 }
