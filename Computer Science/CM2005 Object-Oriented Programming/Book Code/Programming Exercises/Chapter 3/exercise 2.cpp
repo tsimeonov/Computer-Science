@@ -4,19 +4,20 @@
 
 using namespace std;
 
+const double PI = 3.14159;
+
 int main()
 {
 
-  const double PI = 3.14159;
   double height;
   double radius;
 
   cout << "Enter the height of the cylinder: ";
-  cin >> radius;
+  cin >> height;
   cout << endl;
 
   cout << "Enter the radius of the base of the cylinder: ";
-  cin >> height;
+  cin >> radius;
   cout << endl;
 
   cout << fixed << showpoint << setprecision(2);
