@@ -35,4 +35,22 @@ c) p ∧ F ≡ F
 
 they are equivalent
 
+d) p ∨ T ≡ T
+
+|  p  |  T  | p ∨ T |
+| :-: | :-: | :---: |
+|  T  |  T  |   T   |
+|  F  |  T  |   T   |
+
+they are equivalent
+
+e) p ∨ p ≡ p
+
+|  p  | p ∨ p |
+| :-: | :---: |
+|  T  |   T   |
+|  F  |   F   |
+
+they are equivalent
+
 </details>
