@@ -32,3 +32,21 @@ p: “You have the permission of a parent.”
 m -> (e V p)
 
 </details>
+
+---
+
+3. You can graduate only if you have completed the requirements of your major and you do not owe money to the university and you do not have an overdue library book. Express your answer in terms of g: “You can graduate,” m: “You owe money to the university,” r: “You have completed the requirements of your major,” and b: “You have an overdue library book.”
+
+<details>
+  <summary>Solution</summary>
+
+You can graduate only if you have completed the requirements of your major and you do not owe money to the university and you do not have an overdue library book.
+
+g: “You can graduate,”
+m: “You owe money to the university,”
+r: “You have completed the requirements of your major,”
+b: “You have an overdue library book.”
+
+g -> (r ∧ ¬m ∧ ¬b)
+
+</details>
