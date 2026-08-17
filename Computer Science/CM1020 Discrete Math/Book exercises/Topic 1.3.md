@@ -19,4 +19,11 @@ a) p ∧ T ≡ p
 
 its correct
 
+b) p ∨ F ≡ p
+
+|  p  |  F  | p ∨ F |
+| :-: | :-: | :---: |
+|  T  |  F  |   T   |
+|  F  |  F  |   F   |
+
 </details>
