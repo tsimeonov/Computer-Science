@@ -108,3 +108,41 @@ b) p ∧ q ≡ q ∧ p
 |  F  |  F  |   F   |   F   |
 
 </details>
+
+---
+
+4. Use truth tables to verify the associative laws
+
+a) (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+b) (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
+
+<details>
+  <summary>Solution</summary>
+
+a) (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+
+|  p  |  q  |  r  | p ∨ q | (p ∨ q) ∨ r | (q ∨ r) | p ∨ (q ∨ r) | (p ∨ q) ∨ r ≡ p ∨ (q ∨ r) |
+| :-: | :-: | :-: | :---: | :---------: | :-----: | :---------: | :-----------------------: |
+|  T  |  T  |  T  |   T   |      T      |    T    |      T      |            yes            |
+|  T  |  T  |  F  |   T   |      T      |    T    |      T      |            yes            |
+|  T  |  F  |  T  |   T   |      T      |    T    |      T      |            yes            |
+|  T  |  F  |  F  |   T   |      T      |    F    |      T      |            yes            |
+|  F  |  T  |  T  |   T   |      T      |    T    |      T      |            yes            |
+|  F  |  T  |  F  |   T   |      T      |    T    |      T      |            yes            |
+|  F  |  F  |  T  |   F   |      T      |    T    |      T      |            yes            |
+|  F  |  F  |  F  |   F   |      F      |    F    |      F      |            yes            |
+
+b) (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
+
+|  p  |  q  |  r  | p ∧ q | (p ∧ q) ∧ r | (q ∧ r) | p ∧ (q ∧ r) | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) |
+| :-: | :-: | :-: | :---: | :---------: | :-----: | :---------: | :-----------------------: |
+|  T  |  T  |  T  |   T   |      T      |    T    |      T      |            yes            |
+|  T  |  T  |  F  |   T   |      F      |    F    |      F      |            yes            |
+|  T  |  F  |  T  |   F   |      F      |    F    |      F      |            yes            |
+|  T  |  F  |  F  |   F   |      F      |    F    |      F      |            yes            |
+|  F  |  T  |  T  |   F   |      F      |    T    |      F      |            yes            |
+|  F  |  T  |  F  |   F   |      F      |    F    |      F      |            yes            |
+|  F  |  F  |  T  |   F   |      F      |    F    |      F      |            yes            |
+|  F  |  F  |  F  |   F   |      F      |    F    |      F      |            yes            |
+
+</details>
