@@ -26,4 +26,13 @@ b) p ∨ F ≡ p
 |  T  |  F  |   T   |
 |  F  |  F  |   F   |
 
+c) p ∧ F ≡ F
+
+|  p  |  F  | p ∧ F |
+| :-: | :-: | :---: |
+|  T  |  F  |   F   |
+|  F  |  F  |   F   |
+
+they are equivalent
+
 </details>
