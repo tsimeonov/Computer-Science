@@ -53,6 +53,29 @@ int main()
 }
 
 /*
+Bitwise operations are fast, low-level computations that manipulate numbers by
+comparing shifting or flipping their individual binary digits
 
+the propostion p XOR q is true when exaclty one og p or q is true
+
+the propositionp XPR q is true when exactly one of p or q is true
+
+logic gate
+a logic element the perforsm a logiacla operation on one or more bits to produce an output bit
+
+a logic element that performs a logical operaion on one or more bits to produce
+an output bit
+
+a logic element that performs a logical operation on one or more bits to produce a
+an output bit
+
+a logic element that performs a logical operation on one or more bits to produce an output bit
+
+a logic element thta performs a logical operation on one or more bits to produce an
+output bit
+
+a logical element that performs a logical operation on one or more bit to produce an output bit
+
+a logical element that performs a logical operation on one or more bits to produce an output bit
 
 */
