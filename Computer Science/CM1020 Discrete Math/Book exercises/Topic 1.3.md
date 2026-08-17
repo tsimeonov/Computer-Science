@@ -146,3 +146,49 @@ b) (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
 |  F  |  F  |  F  |   F   |      F      |    F    |      F      |            yes            |
 
 </details>
+
+---
+
+5. Use a truth table to verify the distributive law
+
+p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
+
+<details>
+  <summary>Solution</summary>
+
+p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
+
+|  p  |  q  |  r  | (q ∨ r) | p ∧ (q ∨ r) | (p ∧ q) | (p ∧ r) | (p ∧ q) ∨ (p ∧ r) |
+| :-: | :-: | :-: | :-----: | :---------: | :-----: | :-----: | :---------------: |
+|  T  |  T  |  T  |    T    |      T      |    T    |    T    |         T         |
+|  T  |  T  |  F  |    T    |      T      |    T    |    F    |         T         |
+|  T  |  F  |  T  |    T    |      T      |    F    |    T    |         T         |
+|  T  |  F  |  F  |    F    |      F      |    F    |    F    |         F         |
+|  F  |  T  |  T  |    T    |      F      |    F    |    F    |         F         |
+|  F  |  T  |  F  |    T    |      F      |    F    |    F    |         F         |
+|  F  |  F  |  T  |    T    |      F      |    F    |    F    |         F         |
+|  F  |  F  |  F  |    F    |      F      |    F    |    F    |         F         |
+
+</details>
+
+---
+
+6. Use a truth table to verify the first De Morgan law
+
+¬(p ∧ q) ≡ ¬p ∨ ¬q
+
+<details>
+  <summary>Solution</summary>
+
+¬(p ∧ q) ≡ ¬p ∨ ¬q
+
+|  p  |  q  | ¬p  | ¬q  | (p ∧ q) | ¬(p ∧ q) | ¬p ∨ ¬q |
+| :-: | :-: | :-: | :-: | :-----: | :------: | :-----: |
+|  T  |  T  |  F  |  F  |    T    |    F     |    F    |
+|  T  |  F  |  F  |  T  |    F    |    T     |    T    |
+|  F  |  T  |  T  |  F  |    F    |    T     |    T    |
+|  F  |  F  |  T  |  T  |    F    |    T     |    T    |
+
+</details>
+
+---
