@@ -26,3 +26,8 @@ As a quick refresher from earlier, the rule for $p \leftrightarrow q$ is:
 - It is False (F) when $p$ and $q$ are different.
 
 ---
+
+in logic, the $\equiv$ symbol stands for logical equivalence.
+When you put this symbol between two statements (like $A \equiv B$), you are saying that statement $A$ and statement $B$ mean the exact same thing logically.
+
+---
