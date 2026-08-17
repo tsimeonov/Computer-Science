@@ -53,4 +53,13 @@ e) p ∨ p ≡ p
 
 they are equivalent
 
+f) p ∧ p ≡ p
+
+|  p  | p ∧ p |
+| :-: | :---: |
+|  T  |   T   |
+|  F  |   F   |
+
+they are equivalent
+
 </details>
