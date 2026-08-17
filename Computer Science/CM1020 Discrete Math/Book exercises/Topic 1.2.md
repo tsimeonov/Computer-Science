@@ -50,3 +50,20 @@ b: “You have an overdue library book.”
 g -> (r ∧ ¬m ∧ ¬b)
 
 </details>
+
+---
+
+4. To use the wireless network in the airport you must pay the daily fee unless you are a subscriber to the service. Express your answer in terms of w: “You can use the wireless network in the airport,” d: “You pay the daily fee,” and s: “You are a subscriber to the service.”
+
+<details>
+  <summary>Solution</summary>
+
+To use the wireless network in the airport you must pay the daily fee unless you are a subscriber to the service.
+
+w: “You can use the wireless network in the airport,”
+d: “You pay the daily fee,”
+s: “You are a subscriber to the service.”
+
+w -> (d V s)
+
+</details>
