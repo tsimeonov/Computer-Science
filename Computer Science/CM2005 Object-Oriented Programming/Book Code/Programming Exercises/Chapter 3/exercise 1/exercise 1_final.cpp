@@ -10,78 +10,78 @@ using namespace std;
 int main()
 {
 
-  // PART B: Declare file stream variables and additional data variables
+	// PART B: Declare file stream variables and additional data variables
 
-  // ifstream stands for Input File Stream. It is a data type used specifically for reading data from a file (bringing data into your program).
+	// ifstream stands for Input File Stream. It is a data type used specifically for reading data from a file (bringing data into your program).
 
-  // ofstream stands for Output File Stream. It is a data type used specifically for writing data to a file (sending data out of your program).
+	// ofstream stands for Output File Stream. It is a data type used specifically for writing data to a file (sending data out of your program).
 
-  ifstream inFile;
-  ofstream outFile;
+	ifstream inFile;
+	ofstream outFile;
 
-  string firstName, lastName, department;
-  double grossSalary, bonusPercent, taxPercent;
-  double distance, travelTime;
-  int coffeeCupsSold;
-  double coffeeCost;
+	string firstName, lastName, department;
+	double grossSalary, bonusPercent, taxPercent;
+	double distance, travelTime;
+	int coffeeCupsSold;
+	double coffeeCost;
 
-  // PART C: Open files and associate streamns
-  inFile.open("inData.txt");
-  outFile.open("outData.txt");
+	// PART C: Open files and associate streamns
+	inFile.open("inData.txt");
+	outFile.open("outData.txt");
 
-  // PART D: Read data from inData.txt and write formatted output to outData.txt
+	// PART D: Read data from inData.txt and write formatted output to outData.txt
 
-  // Line 1: Read name and department
-  inFile >> firstName >> lastName >> department;
+	// Line 1: Read name and department
+	inFile >> firstName >> lastName >> department;
 
-  // Line 2: Read financial data
-  inFile >> grossSalary >> bonusPercent >> taxPercent;
+	// Line 2: Read financial data
+	inFile >> grossSalary >> bonusPercent >> taxPercent;
 
-  // Line 3: Read travel data
-  inFile >> distance >> travelTime;
+	// Line 3: Read travel data
+	inFile >> distance >> travelTime;
 
-  // Line 4: Read coffee data
-  inFile >> coffeeCupsSold >> coffeeCost;
+	// Line 4: Read coffee data
+	inFile >> coffeeCupsSold >> coffeeCost;
 
-  // Computations
-  double bonusAmount = grossSalary * (bonusPercent / 100);
-  double grossWithBonus = grossSalary + bonusAmount;
-  double taxAmount = grossWithBonus * (taxPercent / 100);
-  double netPaycheck = grossWithBonus - taxAmount;
+	// Computations
+	double bonusAmount = grossSalary * (bonusPercent / 100);
+	double grossWithBonus = grossSalary + bonusAmount;
+	double taxAmount = grossWithBonus * (taxPercent / 100);
+	double netPaycheck = grossWithBonus - taxAmount;
 
-  double averageSpeed = distance / travelTime;
-  double totalSalesAmount = coffeeCupsSold * coffeeCost;
+	double averageSpeed = distance / travelTime;
+	double totalSalesAmount = coffeeCupsSold * coffeeCost;
 
-  // Write formatted outputto outData.txt
-  outFile << fixed << setprecision(2);
+	// Write formatted output to outData.txt
+	outFile << fixed << setprecision(2);
 
-  // Write formatted output to outData.txt
-  outFile << fixed << setprecision(2);
+	// Write formatted output to outData.txt
+	outFile << fixed << setprecision(2);
 
-  outFile << "Name: " << firstName << " " << lastName
-          << ", Department: " << department << endl;
+	outFile << "Name: " << firstName << " " << lastName
+					<< ", Department: " << department << endl;
 
-  outFile << "Monthly Gross Salary: $" << grossSalary
-          << ", Monthly Bonus: " << bonusPercent << "%"
-          << ", Taxes: " << taxPercent << "%" << endl;
+	outFile << "Monthly Gross Salary: $" << grossSalary
+					<< ", Monthly Bonus: " << bonusPercent << "%"
+					<< ", Taxes: " << taxPercent << "%" << endl;
 
-  outFile << "Paycheck: $" << netPaycheck << endl;
+	outFile << "Paycheck: $" << netPaycheck << endl;
 
-  outFile << "Distance Traveled: " << distance << " miles"
-          << ", Traveling Time: " << travelTime << " hours" << endl;
+	outFile << "Distance Traveled: " << distance << " miles"
+					<< ", Traveling Time: " << travelTime << " hours" << endl;
 
-  outFile << "Average Speed: " << averageSpeed << " miles per hour" << endl;
+	outFile << "Average Speed: " << averageSpeed << " miles per hour" << endl;
 
-  outFile << "Number of Coffee Cups Sold: " << coffeeCupsSold
-          << ", Cost: $" << coffeeCost << " per cup" << endl;
+	outFile << "Number of Coffee Cups Sold: " << coffeeCupsSold
+					<< ", Cost: $" << coffeeCost << " per cup" << endl;
 
-  outFile << "Sales Amount = $" << totalSalesAmount << endl;
+	outFile << "Sales Amount = $" << totalSalesAmount << endl;
 
-  // PART E: Close input and output files
-  inFile.close();
-  outFile.close();
+	// PART E: Close input and output files
+	inFile.close();
+	outFile.close();
 
-  return 0;
+	return 0;
 }
 
 /*

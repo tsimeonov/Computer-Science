@@ -8,15 +8,16 @@ using namespace std;
 
 int main()
 {
-  // PART B
+  // PART B: Declare file stream varialbes and additional data variables
+
   ifstream inFile;
   ofstream outFile;
 
-  // PART C
+  // PART C: Open files and associated stream
   inFile.open("inData.txt");
   outFile.open("outData.txt");
 
-  // PART D
+  // PART D: Read data from inData.txt and write formatted putput to outData.txt
 
   string firstName, secondName, department;
   double grossSalary, bonusPercent, taxPercent;
@@ -27,9 +28,16 @@ int main()
   // Line 1: Read name and department
   inFile >> firstName >> secondName >> department;
 
+  // Line 2:
+  inFile >> grossSalary >> bonusPercent >> taxPercent;
+
   outFile << fixed << setprecision(2);
 
-  outFile << "Name: " << firstName << " " << secondName << ", Department: " << department << endl;
+  outFile << "Name: " << firstName << " " << secondName << ", Department:  " << department << endl;
+
+  outFile << "Montly Gross Salary: $" << grossSalary << ","
+          << " Montly Bonus: " << bonusPercent << "%, "
+          << "Taxes: " << taxPercent << "%" << endl;
 
   // PART E
   inFile.close();
@@ -39,9 +47,6 @@ int main()
 }
 
 /*
-ifstream
-input file stream, which is a data type, used specifically for reading data form a file
 
-ofstream
-output stream, which is a data type used for writting data to a file
+
 */

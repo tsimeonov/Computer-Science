@@ -1,1 +1,2 @@
-Name: Giselle Robinson, Department: Accounting
+Name: Giselle Robinson, Department:  Accounting
+Montly Gross Salary: $5600.00, Montly Bonus: 5.00%, Taxes: 30.00%
