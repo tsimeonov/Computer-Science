@@ -39,5 +39,9 @@ int main()
 }
 
 /*
+ifstream
+input file stream, which is a data type, used specifically for reading data form a file
 
+ofstream
+output stream, which is a data type used for writting data to a file
 */
