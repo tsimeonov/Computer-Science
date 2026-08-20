@@ -44,7 +44,7 @@ int main()
 
  cout << "------------------" << endl;
 
- cout << "Number of days in the billin cycle: ";
+ cout << "Number of days in the billing cycle: ";
  cin >> d1;
  cout << endl;
 
