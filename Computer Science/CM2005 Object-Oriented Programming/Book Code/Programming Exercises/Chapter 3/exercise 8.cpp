@@ -45,20 +45,21 @@ int main()
  cout << fixed << showpoint << setprecision(2);
 
  // 1. Calcualte total expenses
- expenses = merchandiseCost + employeeSalary + yearlyRent + electricityCost;
+ expenses = merchandiseCost + employeeSalary + yearlyRent +
+            electricityCost;
 
- // 2. Calculate the desired profit (10%)
+ // 2. Calculate desired profit (10%)
  double desiredProfit = merchandiseCost * 0.1;
 
- // 3. Calculate required revenue to cover expenses and hit the profit goal
+ // 3. Calcuate requred revenie to cover expenses and hit the profit goal
  double requiredRevenue = expenses + desiredProfit;
 
- // 4. Calcualte the marked up total price
- double markedUpTotalPrice = requiredRevenue / 0.85;
+ // 4. Calculate the marked up toal price (+15%)
+ double markedUpTotalPrice = requiredRevenue * 0.85;
 
  // 5. Calculate how much to mark it up as a percentage
- double markupAmout = markedUpTotalPrice - merchandiseCost;
- double markupPercentage = (markupAmout / merchandiseCost) * 100;
+ double markupAmount = markedUpTotalPrice - merchandiseCost;
+ double markupPercentage = (markupAmount / merchandiseCost) * 100;
 
  cout << "The merchandise need to be marked by: "
       << markupPercentage << "%" << endl;
