@@ -54,7 +54,7 @@ int main()
  // 3. Calcuate requred revenie to cover expenses and hit the profit goal
  double requiredRevenue = expenses + desiredProfit;
 
- // 4. Calculate the marked up toal price (+15%)
+ // 4. Calculate the marked up total price (+15%)
  double markedUpTotalPrice = requiredRevenue * 0.85;
 
  // 5. Calculate how much to mark it up as a percentage
