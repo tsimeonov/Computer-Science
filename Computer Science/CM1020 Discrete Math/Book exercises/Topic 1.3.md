@@ -294,3 +294,12 @@ d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
 </details>
 
 ---
+
+15. Show that each conditional statement in Exercise 11 is a tautology by applying a chain of logical identities as in Example 8. (Do not use truth tables.)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
