@@ -233,3 +233,16 @@ c) (¬q → p) → (p → ¬q)
 </details>
 
 ---
+
+10. For each of these compound propositions, use the conditional-disjunction equivalence (Example 3) to find an equivalent compound proposition that does not involve conditionals.
+
+a)¬p → ¬q
+b) (p ∨ q) → ¬p
+c) (p → ¬q) → (¬p → q)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
