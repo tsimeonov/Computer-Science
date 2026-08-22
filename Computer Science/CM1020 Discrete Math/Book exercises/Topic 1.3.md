@@ -206,3 +206,17 @@ d) Ibrahim is smart and hard working.
 </details>
 
 ---
+
+8 Use De Morgan’s laws to find the negation of each of the following statements.
+
+a) Kwame will take a job in industry or go to graduate school.
+b) Yoshiko knows Java and calculus.
+c) James is young and strong.
+d) Rita will move to Oregon or Washington.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
