@@ -192,3 +192,17 @@ p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
 </details>
 
 ---
+
+7. Use De Morgan’s laws to find the negation of each of the following statements.
+
+a) Jan is rich and happy.
+b) Carlos will bicycle or run tomorrow.
+c) Mei walks or takes the bus to class.
+d) Ibrahim is smart and hard working.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
