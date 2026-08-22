@@ -207,12 +207,25 @@ d) Ibrahim is smart and hard working.
 
 ---
 
-8 Use De Morgan’s laws to find the negation of each of the following statements.
+8. Use De Morgan’s laws to find the negation of each of the following statements.
 
 a) Kwame will take a job in industry or go to graduate school.
 b) Yoshiko knows Java and calculus.
 c) James is young and strong.
 d) Rita will move to Oregon or Washington.
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
+
+9. For each of these compound propositions, use the conditional-disjunction equivalence (Example 3) to find an equivalent compound proposition that does not involve conditionals.
+
+a) p → ¬q
+b) (p → q) → r
+c) (¬q → p) → (p → ¬q)
 
 <details>
   <summary>Solution</summary>
