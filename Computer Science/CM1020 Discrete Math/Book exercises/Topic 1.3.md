@@ -246,3 +246,19 @@ c) (p → ¬q) → (¬p → q)
 </details>
 
 ---
+
+11. Show that each of these conditional statements is a tautology by using truth tables.
+
+a)(p ∧ q) → p
+b) p → (p ∨ q)
+c) ¬p → (p → q)
+d) (p ∧ q) → (p → q)
+e) ¬(p → q) → p
+f) ¬(p → q) → ¬q
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
