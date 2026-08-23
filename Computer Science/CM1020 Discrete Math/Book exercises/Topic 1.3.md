@@ -252,12 +252,20 @@ c) ¬(q V p) V (¬p V ¬q)
 
 10. For each of these compound propositions, use the conditional-disjunction equivalence (Example 3) to find an equivalent compound proposition that does not involve conditionals.
 
-a)¬p → ¬q
+a) ¬p → ¬q
 b) (p ∨ q) → ¬p
 c) (p → ¬q) → (¬p → q)
 
 <details>
   <summary>Solution</summary>
+
+a) p V ¬q
+b) (¬p ∧ ¬q) V ¬p
+c) step 1: (¬p V ¬q) → (¬p → q)
+c) step 2: (¬p V ¬q) → (¬(¬p) → q), which simplifies to (p V q)
+c) step 3: (¬p V ¬q) → (p V q)
+c) step 4: ¬(¬p V ¬q) -> (p V q)
+c) step 5: (p ∧ q) V (p V q)
 
 </details>
 
