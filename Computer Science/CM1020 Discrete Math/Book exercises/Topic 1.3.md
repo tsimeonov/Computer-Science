@@ -273,7 +273,7 @@ c) step 5: (p ∧ q) V (p V q)
 
 11. Show that each of these conditional statements is a tautology by using truth tables.
 
-a)(p ∧ q) → p
+a) (p ∧ q) → p
 b) p → (p ∨ q)
 c) ¬p → (p → q)
 d) (p ∧ q) → (p → q)
@@ -291,6 +291,17 @@ a) (p ∧ q) → p
 |  T  |  F  |   F   |      T      |
 |  F  |  T  |   F   |      T      |
 |  F  |  F  |   F   |      T      |
+
+b) p → (p ∨ q)
+
+|  p  |  q  | p ∨ q | p → (p ∨ q) |
+| :-: | :-: | :---: | :---------: |
+|  T  |  T  |   T   |      T      |
+|  T  |  F  |   T   |      T      |
+|  F  |  T  |   T   |      T      |
+|  F  |  F  |   F   |      T      |
+
+Because every value in the final column is T, you have successfully proven that p → (p ∨ q) is a tautology.
 
 </details>
 
