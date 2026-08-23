@@ -203,6 +203,11 @@ d) Ibrahim is smart and hard working.
 <details>
   <summary>Solution</summary>
 
+a) Jan is not rich or not happy
+b) Carlos will not bicycle and not run tommorrow
+c) Mei doesn't walk and is not taking the bus to class
+d) Ibrahim is not smart or not working hard
+
 </details>
 
 ---
