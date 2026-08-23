@@ -222,6 +222,11 @@ d) Rita will move to Oregon or Washington.
 <details>
   <summary>Solution</summary>
 
+a) Kwame will not take a job in industry AND not go to graduate school
+b) Yoshiko doesnt know Java OR she doesnt know calculus.
+c) James is not young OR he is not too strong.
+d) Rita will not move to Oregon AND will not move to Washington.
+
 </details>
 
 ---
