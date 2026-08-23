@@ -283,6 +283,15 @@ f) ¬(p → q) → ¬q
 <details>
   <summary>Solution</summary>
 
+a) (p ∧ q) → p
+
+|  p  |  q  | p ∧ q | (p ∧ q) → p |
+| :-: | :-: | :---: | :---------: |
+|  T  |  T  |   T   |      T      |
+|  T  |  F  |   F   |      T      |
+|  F  |  T  |   F   |      T      |
+|  F  |  F  |   F   |      T      |
+
 </details>
 
 ---
