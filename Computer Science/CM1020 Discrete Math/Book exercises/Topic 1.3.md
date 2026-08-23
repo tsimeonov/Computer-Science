@@ -237,8 +237,14 @@ a) p → ¬q
 b) (p → q) → r
 c) (¬q → p) → (p → ¬q)
 
+The conditional-disjunction equivalence states that any conditional statement P -> Q is logically equivalent to ¬P V ¬Q
+
 <details>
   <summary>Solution</summary>
+
+a) ¬p V ¬q
+b) ¬(¬p V q) V r
+c) ¬(q V p) V (¬p V ¬q)
 
 </details>
 
