@@ -362,6 +362,19 @@ a) [¬p ∧ (p ∨ q)] → q
 |  F  |  T  |  T  |   T   |       T        |         T          |
 |  F  |  F  |  T  |   F   |       F        |         T          |
 
+b) [(p → q) ∧ (q → r)] → (p → r)
+
+|  p  |  q  |  r  | p → q | q → r | p → r | [(p → q) ∧ (q → r)] | [(p → q) ∧ (q → r)] → (p → r) |
+| :-: | :-: | :-: | :---: | :---: | :---: | :-----------------: | :---------------------------: |
+|  T  |  T  |  T  |   T   |   T   |   T   |          T          |               T               |
+|  T  |  T  |  F  |   T   |   F   |   F   |          F          |               T               |
+|  T  |  F  |  T  |   F   |   T   |   T   |          F          |               T               |
+|  T  |  F  |  F  |   F   |   T   |   F   |          F          |               T               |
+|  F  |  T  |  T  |   T   |   T   |   T   |          T          |               T               |
+|  F  |  T  |  F  |   T   |   F   |   T   |          F          |               T               |
+|  F  |  F  |  T  |   T   |   T   |   T   |          T          |               T               |
+|  F  |  F  |  F  |   T   |   T   |   T   |          T          |               T               |
+
 </details>
 
 ---
