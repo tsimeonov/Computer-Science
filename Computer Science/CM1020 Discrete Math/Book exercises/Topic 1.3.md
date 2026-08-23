@@ -303,6 +303,15 @@ b) p → (p ∨ q)
 
 Because every value in the final column is T, you have successfully proven that p → (p ∨ q) is a tautology.
 
+c) ¬p → (p → q)
+
+|  p  |  q  | ¬p  | p → q | ¬p → (p → q) |
+| :-: | :-: | :-: | :---: | :----------: |
+|  T  |  T  |  F  |   T   |      T       |
+|  T  |  F  |  F  |   F   |      T       |
+|  F  |  T  |  T  |   T   |      T       |
+|  F  |  F  |  T  |   T   |      T       |
+
 </details>
 
 ---
