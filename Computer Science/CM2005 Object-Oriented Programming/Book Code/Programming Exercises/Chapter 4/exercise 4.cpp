@@ -18,12 +18,12 @@ int main()
  string shape;
  double height;
 
- cout << "Enter the shape type: (rectangle, circle, cylinder)";
+ cout << "Enter the shape type: (rectangle, circle, cylinder): ";
  cin >> shape;
  cout << endl;
 
- double PI = 3.1416;
- double lenght;
+ const double PI = 3.1416;
+ double length;
  double width;
  double radius;
 
@@ -31,17 +31,17 @@ int main()
 
  if (shape == "rectangle")
  {
-  cout << "Enter the length of the rectangle ";
-  cin >> lenght;
+  cout << "Enter the length of the rectangle: ";
+  cin >> length;
   cout << endl;
 
-  cout << "Enter the width of the rectangle ";
+  cout << "Enter the width of the rectangle: ";
   cin >> width;
   cout << endl;
 
-  cout << "Perimeter of the rectangle = " << 2 * (lenght + width) << endl;
+  cout << "Perimeter of the rectangle = " << 2 * (length + width) << endl;
 
-  cout << "Area of the rectange = " << lenght * width << endl;
+  cout << "Area of the rectange = " << length * width << endl;
  }
  else if (shape == "circle")
  {
@@ -49,7 +49,7 @@ int main()
   cin >> radius;
   cout << endl;
 
-  cout << "Circumference of tthe circle: " << 2 * PI * radius << endl;
+  cout << "Circumference of the circle: " << 2 * PI * radius << endl;
 
   cout << "Area of the circle = " << PI * pow(radius, 2.0) << endl;
  }
@@ -59,13 +59,13 @@ int main()
   cin >> radius;
   cout << endl;
 
-  cout << "Enter the height of teh cylinder";
+  cout << "Enter the height of the cylinder: ";
   cin >> height;
   cout << endl;
 
   cout << "Volume of the cylinder = " << PI * pow(radius, 2.0) * height << endl;
 
-  cout << "Surface area of the cylinder"
+  cout << "Surface area of the cylinder = "
        << 2 * PI * radius * height + 2 * PI * pow(radius, 2.0)
        << endl;
  }
