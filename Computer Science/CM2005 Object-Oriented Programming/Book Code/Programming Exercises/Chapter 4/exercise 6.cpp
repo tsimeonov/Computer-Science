@@ -18,7 +18,8 @@ using namespace std;
 
 int main()
 {
- // 1.  Declare the variables
+
+ // 1. Declare variables
  int totalCookies, cookiesPerBox, boxesPerContainer;
  int totalBoxes, leftOverCookies;
  int totalContainers, leftOverBoxes;
@@ -38,7 +39,7 @@ int main()
 
  // 3. Calculate
  totalBoxes = totalCookies / cookiesPerBox;
- leftOverCookies = totalCookies % cookiesPerBox;
+ leftOverCookies = totalCookies % boxesPerContainer;
 
  totalContainers = totalBoxes / boxesPerContainer;
  leftOverBoxes = totalBoxes % boxesPerContainer;
@@ -47,14 +48,15 @@ int main()
  cout << "Total fully packed containers: " << totalContainers << endl;
  cout << "Total fully packed boxes to ship: " << totalBoxes << endl;
 
- // 5. Use IF statements to output leftovers ONLY if they exists
+ // 5. Use if statements to output leftovers only if they exist
  if (leftOverCookies > 0)
  {
-  cout << "We discarded " << leftOverCookies << " leftover cookies." << endl;
+  cout << "We discarded " << leftOverCookies << " leftover cookies" << endl;
  }
+
  if (leftOverBoxes > 0)
  {
-  cout << "We discarded " << leftOverBoxes << " leftover boxes." << endl;
+  cout << "We discarded " << leftOverBoxes << " leftover cookies" << endl;
  }
 
  return 0;
