@@ -22,7 +22,7 @@ int main()
  int sqB = sideB * sideB;
  int sqC = sideC * sideC;
 
- if ((sqA + sqB == sqC) || (sqA + sqC == sqB) || (sqB + sqC == sqB))
+ if ((sqA + sqB == sqC) || (sqA + sqC == sqB) || (sqB + sqC == sqA))
  {
   cout << "This is a right triangle" << endl;
  }
