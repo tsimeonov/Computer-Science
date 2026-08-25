@@ -19,30 +19,5 @@ using namespace std;
 int main()
 {
 
- // Declare variables
- int totalCookies, cookiesPerBox, boxesPerContainer;
- int totalBoxes, leftOverCookies;
- int totalContainers, leftOverBoxes;
-
- // 2. Prompt for output
- cout << "Enter the number of cookies: ";
- cin >> totalCookies;
- cout << endl;
-
- cout << "Enter the number of cookies per box:  ";
- cin >> totalBoxes;
- cout << endl;
-
- cout << "Enter the number of boxes per container: ";
- cin >> boxesPerContainer;
- cout << endl;
-
- // 3. Caclulate packaging and leftovers
- totalBoxes = totalCookies / cookiesPerBox;
- leftOverCookies = totalCookies % cookiesPerBox;
-
- totalContainers = totalBoxes / boxesPerContainer;
- leftOverBoxes = totalBoxes % boxesPerContainer;
-
  return 0;
 }
