@@ -24,20 +24,20 @@ int main()
  int totalBoxes, leftOverCookies;
  int totalContainers, leftOverBoxes;
 
- // 2. Prompt fot inputs
- cout << "Enter the number of cookies: ";
+ // 2. Prompt for input
+ cout << "Enter the total amount of cookies: ";
  cin >> totalCookies;
  cout << endl;
 
- cout << "Enter the amount of cookies per box: ";
+ cout << "Enter the total amount of cookies per box: ";
  cin >> cookiesPerBox;
  cout << endl;
 
- cout << "Enter the amount of boxes per container: ";
+ cout << "Ente rthe total amount of boxes per container: ";
  cin >> boxesPerContainer;
  cout << endl;
 
- // 3. Calculate packaging and leftovers
+ // 3. Calcualte
  totalBoxes = totalCookies / cookiesPerBox;
  leftOverCookies = totalCookies % cookiesPerBox;
 
@@ -45,17 +45,17 @@ int main()
  leftOverBoxes = totalBoxes % boxesPerContainer;
 
  // 4. Output the main shipping numbers
- cout << "Total fully packed continer: " << totalContainers << endl;
+ cout << "Total fully packed container: " << totalContainers << endl;
  cout << "Total fully packed boxes to ship: " << totalBoxes << endl;
 
- // 5. Check for an output discard leftovers
+ // 5. Check for and output discarded leftovers
  if (leftOverCookies > 0)
  {
-  cout << "We discarded " << leftOverCookies << " leftover cookies" << endl;
+  cout << "We discarded: " << leftOverCookies << " leftover cookies" << endl;
  }
  if (leftOverBoxes > 0)
  {
-  cout << "We discardrd " << leftOverBoxes << " leftover boxes" << endl;
+  cout << "We discarded: " << leftOverBoxes << " leftover boxes" << endl;
  }
 
  return 0;
