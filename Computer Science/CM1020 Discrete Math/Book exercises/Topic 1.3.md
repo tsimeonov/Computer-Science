@@ -350,6 +350,15 @@ d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
 <details>
   <summary>Solution</summary>
 
+a) [¬p ∧ (p ∨ q)] → q
+
+|  p  |  q  | ¬p  | p ∨ q | [¬p ∧ (p ∨ q)] | [¬p ∧ (p ∨ q)] → q |
+| :-: | :-: | :-: | :---: | :------------: | :----------------: |
+|  T  |  T  |  F  |   T   |       F        |         T          |
+|  T  |  F  |  F  |   T   |       F        |         T          |
+|  F  |  T  |  T  |   T   |       T        |         T          |
+|  F  |  F  |  T  |   F   |       F        |         T          |
+
 </details>
 
 ---
