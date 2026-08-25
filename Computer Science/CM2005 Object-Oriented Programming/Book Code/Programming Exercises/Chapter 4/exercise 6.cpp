@@ -18,45 +18,43 @@ using namespace std;
 
 int main()
 {
-
  // 1. Declare variables
  int totalCookies, cookiesPerBox, boxesPerContainer;
  int totalBoxes, leftOverCookies;
  int totalContainers, leftOverBoxes;
 
  // 2. Prompt for inputs
- cout << "Enter the total number of cookies: ";
+ cout << "Enter the number of cookies: ";
  cin >> totalCookies;
  cout << endl;
 
- cout << "Enter the number of cookies per box: ";
+ cout << "Enter the amount of cookies per box: ";
  cin >> cookiesPerBox;
  cout << endl;
 
- cout << "Enter the number of boxes per container: ";
+ cout << "Enter the amount of boxes per container: ";
  cin >> boxesPerContainer;
  cout << endl;
 
  // 3. Calculate
  totalBoxes = totalCookies / cookiesPerBox;
- leftOverCookies = totalCookies % boxesPerContainer;
+ leftOverCookies = totalCookies % cookiesPerBox;
 
  totalContainers = totalBoxes / boxesPerContainer;
  leftOverBoxes = totalBoxes % boxesPerContainer;
 
  // 4. Output the main shipping numbers
- cout << "Total fully packed containers: " << totalContainers << endl;
+ cout << "Total fully packed container: " << totalContainers << endl;
  cout << "Total fully packed boxes to ship: " << totalBoxes << endl;
 
- // 5. Use if statements to output leftovers only if they exist
+ // 5. Add the if statement
  if (leftOverCookies > 0)
  {
   cout << "We discarded " << leftOverCookies << " leftover cookies" << endl;
  }
-
  if (leftOverBoxes > 0)
  {
-  cout << "We discarded " << leftOverBoxes << " leftover cookies" << endl;
+  cout << "We discarded " << leftOverBoxes << " leftover boxes" << endl;
  }
 
  return 0;
