@@ -264,8 +264,7 @@ b) (¬p ∧ ¬q) V ¬p
 c) step 1: (¬p V ¬q) → (¬p → q)
 c) step 2: (¬p V ¬q) → (¬(¬p) → q), which simplifies to (p V q)
 c) step 3: (¬p V ¬q) → (p V q)
-c) step 4: ¬(¬p V ¬q) -> (p V q)
-c) step 5: (p ∧ q) V (p V q)
+c) step 4: ¬(¬p V ¬)
 
 </details>
 
@@ -273,7 +272,7 @@ c) step 5: (p ∧ q) V (p V q)
 
 11. Show that each of these conditional statements is a tautology by using truth tables.
 
-a) (p ∧ q) → p
+a)(p ∧ q) → p
 b) p → (p ∨ q)
 c) ¬p → (p → q)
 d) (p ∧ q) → (p → q)
@@ -292,53 +291,6 @@ a) (p ∧ q) → p
 |  F  |  T  |   F   |      T      |
 |  F  |  F  |   F   |      T      |
 
-b) p → (p ∨ q)
-
-|  p  |  q  | p ∨ q | p → (p ∨ q) |
-| :-: | :-: | :---: | :---------: |
-|  T  |  T  |   T   |      T      |
-|  T  |  F  |   T   |      T      |
-|  F  |  T  |   T   |      T      |
-|  F  |  F  |   F   |      T      |
-
-Because every value in the final column is T, you have successfully proven that p → (p ∨ q) is a tautology.
-
-c) ¬p → (p → q)
-
-|  p  |  q  | ¬p  | p → q | ¬p → (p → q) |
-| :-: | :-: | :-: | :---: | :----------: |
-|  T  |  T  |  F  |   T   |      T       |
-|  T  |  F  |  F  |   F   |      T       |
-|  F  |  T  |  T  |   T   |      T       |
-|  F  |  F  |  T  |   T   |      T       |
-
-d) (p ∧ q) → (p → q)
-
-|  p  |  q  | p ∧ q | p → q | (p ∧ q) → (p → q) |
-| :-: | :-: | :---: | :---: | :---------------: |
-|  T  |  T  |   T   |   T   |         T         |
-|  T  |  F  |   F   |   F   |         T         |
-|  F  |  T  |   F   |   T   |         T         |
-|  F  |  F  |   F   |   T   |         T         |
-
-e) ¬(p → q) → p
-
-|  p  |  q  | ¬(p → q) | p → q | ¬(p → q) → p |
-| :-: | :-: | :------: | :---: | :----------: |
-|  T  |  T  |    F     |   T   |      T       |
-|  T  |  F  |    T     |   F   |      T       |
-|  F  |  T  |    F     |   T   |      T       |
-|  F  |  F  |    F     |   T   |      T       |
-
-f) ¬(p → q) → ¬q
-
-|  p  |  q  | ¬q  | p → q | ¬(p → q) | ¬(p → q) → ¬q |
-| :-: | :-: | :-: | :---: | :------: | :-----------: |
-|  T  |  T  |  F  |   T   |    F     |       T       |
-|  T  |  F  |  T  |   F   |    T     |       T       |
-|  F  |  T  |  F  |   T   |    F     |       T       |
-|  F  |  F  |  T  |   T   |    F     |       T       |
-
 </details>
 
 ---
@@ -353,67 +305,14 @@ d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
 <details>
   <summary>Solution</summary>
 
-a) [¬p ∧ (p ∨ q)] → q
-
-|  p  |  q  | ¬p  | p ∨ q | [¬p ∧ (p ∨ q)] | [¬p ∧ (p ∨ q)] → q |
-| :-: | :-: | :-: | :---: | :------------: | :----------------: |
-|  T  |  T  |  F  |   T   |       F        |         T          |
-|  T  |  F  |  F  |   T   |       F        |         T          |
-|  F  |  T  |  T  |   T   |       T        |         T          |
-|  F  |  F  |  T  |   F   |       F        |         T          |
-
-b) [(p → q) ∧ (q → r)] → (p → r)
-
-|  p  |  q  |  r  | p → q | q → r | p → r | [(p → q) ∧ (q → r)] | [(p → q) ∧ (q → r)] → (p → r) |
-| :-: | :-: | :-: | :---: | :---: | :---: | :-----------------: | :---------------------------: |
-|  T  |  T  |  T  |   T   |   T   |   T   |          T          |               T               |
-|  T  |  T  |  F  |   T   |   F   |   F   |          F          |               T               |
-|  T  |  F  |  T  |   F   |   T   |   T   |          F          |               T               |
-|  T  |  F  |  F  |   F   |   T   |   F   |          F          |               T               |
-|  F  |  T  |  T  |   T   |   T   |   T   |          T          |               T               |
-|  F  |  T  |  F  |   T   |   F   |   T   |          F          |               T               |
-|  F  |  F  |  T  |   T   |   T   |   T   |          T          |               T               |
-|  F  |  F  |  F  |   T   |   T   |   T   |          T          |               T               |
-
-c) [p ∧ (p → q)] → q
-
-|  p  |  q  | p → q | [p ∧ (p → q)] | [p ∧ (p → q)] → q |
-| :-: | :-: | :---: | :-----------: | :---------------: |
-|  T  |  T  |   T   |       T       |         T         |
-|  T  |  F  |   F   |       F       |         T         |
-|  F  |  T  |   T   |       F       |         T         |
-|  F  |  F  |   T   |       F       |         T         |
-
-d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
-
-|  p  |  q  |  r  | p ∨ q | p → r | q → r | [(p ∨ q) ∧ (p → r) ∧ (q → r)] | [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r |
-| :-: | :-: | :-: | :---: | :---: | :---: | :---------------------------: | :-------------------------------: |
-|  T  |  T  |  T  |   T   |   T   |   T   |               T               |                 T                 |
-|  T  |  T  |  F  |   T   |   F   |   F   |               F               |                 T                 |
-|  T  |  F  |  T  |   T   |   T   |   T   |               T               |                 T                 |
-|  T  |  F  |  F  |   T   |   F   |   T   |               F               |                 T                 |
-|  F  |  T  |  T  |   T   |   T   |   T   |               T               |                 T                 |
-|  F  |  T  |  F  |   T   |   T   |   F   |               F               |                 T                 |
-|  F  |  F  |  T  |   F   |   T   |   T   |               F               |                 T                 |
-|  F  |  F  |  F  |   F   |   T   |   T   |               F               |                 T                 |
-
 </details>
 
 ---
 
 13. Show that each conditional statement in Exercise 11 is a tautology using the fact that a conditional statement is false exactly when the hypothesis is true and the conclusion is false. (Do not use truth tables.)
 
-a) (p ∧ q) → p
-b) p → (p ∨ q)
-c) ¬p → (p → q)
-d) (p ∧ q) → (p → q)
-e) ¬(p → q) → p
-f) ¬(p → q) → ¬q
-
 <details>
   <summary>Solution</summary>
-
-a) (p ∧ q) → p
 
 </details>
 
