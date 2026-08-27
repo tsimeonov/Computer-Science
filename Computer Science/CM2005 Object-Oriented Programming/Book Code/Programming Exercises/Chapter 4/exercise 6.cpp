@@ -20,25 +20,5 @@ using namespace std;
 int main()
 {
 
- // 1. Declare variables
- int totalCookies, cookiesPerBox, boxesPerContainer;
- int totalBoxes, leftOverCookies;
- int totalContainers, leftOverBoxes;
-
- // 2. Gather the data
- cout << "Enter the number of cookies: ";
- cin >> totalCookies;
- cout << endl;
-
- cout << "Enter the number of cookies per box: ";
- cin >> cookiesPerBox;
- cout << endl;
-
- cout << "Enter the number of boxes per container: ";
- cin >> boxesPerContainer;
- cout << endl;
-
- // 3. Do the math
-
  return 0;
 }
