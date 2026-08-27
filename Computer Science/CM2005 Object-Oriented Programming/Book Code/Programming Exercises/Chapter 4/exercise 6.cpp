@@ -6,10 +6,11 @@ If the last box of cookies contains less than the number of specified cookies, y
 can discard it and output the number of leftover cookies.
 Similarly, if the last container contains less than the number of specified boxes,
 you can discard it and output the number of leftover boxes.
-*/
 
-// 1 box = 24 cookies
-// 1 container = 75 boxes
+totalCookies = 100
+cookiesPerBox = 24
+boxesPerContainer = 75
+*/
 
 #include <iostream>
 #include <iomanip>
@@ -19,10 +20,25 @@ using namespace std;
 int main()
 {
 
- // Declare variables
+ // 1. Declare variables
  int totalCookies, cookiesPerBox, boxesPerContainer;
  int totalBoxes, leftOverCookies;
  int totalContainers, leftOverBoxes;
+
+ // 2. Gather the data
+ cout << "Enter the number of cookies: ";
+ cin >> totalCookies;
+ cout << endl;
+
+ cout << "Enter the number of cookies per box: ";
+ cin >> cookiesPerBox;
+ cout << endl;
+
+ cout << "Enter the number of boxes per container: ";
+ cin >> boxesPerContainer;
+ cout << endl;
+
+ // 3. Do the math
 
  return 0;
 }
