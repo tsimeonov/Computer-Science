@@ -19,5 +19,10 @@ using namespace std;
 int main()
 {
 
+ // Declare variables
+ int totalCookies, cookiesPerBox, boxesPerContainer;
+ int totalBoxes, leftOverCookies;
+ int totalContainers, leftOverBoxes;
+
  return 0;
 }
