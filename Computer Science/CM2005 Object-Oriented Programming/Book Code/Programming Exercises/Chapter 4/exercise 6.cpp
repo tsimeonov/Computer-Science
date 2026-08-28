@@ -25,5 +25,18 @@ int main()
  int totalBoxes, leftOverCookies;
  int totalContainers, leftOverBoxes;
 
+ // Ask for input
+ cout << "What is the total number of cookies: ";
+ cin >> totalCookies;
+ cout << endl;
+
+ cout << "What is the total number of cookies per box: ";
+ cin >> totalBoxes;
+ cout << endl;
+
+ cout << "What is the total number of boxes per container: ";
+ cin >> totalContainers;
+ cout << endl;
+
  return 0;
 }
