@@ -20,35 +20,5 @@ using namespace std;
 int main()
 {
 
- // Add Variables
- int totalCookies, cookiesPerBox, boxesPerContainer;
- int totalBoxes, leftOverCookies;
- int totalContainers, leftOverBoxes;
-
- // Ask for input
- cout << "What is the total number of cookies: ";
- cin >> totalCookies;
- cout << endl;
-
- cout << "What is the total number of cookies per box: ";
- cin >> totalBoxes;
- cout << endl;
-
- cout << "What is the total number of boxes per container: ";
- cin >> totalContainers;
- cout << endl;
-
- // Calculate
- // boxes
- totalBoxes = totalCookies / cookiesPerBox;
- leftOverCookies = totalCookies % cookiesPerBox;
- // container
- totalContainers = totalBoxes / boxesPerContainer;
- leftOverBoxes = totalBoxes % boxesPerContainer;
-
- // Output
- cout << "We delivered: " << totalBoxes << " boxes\n";
- cout << "We delivered: " << totalContainers << " containers";
-
  return 0;
 }
