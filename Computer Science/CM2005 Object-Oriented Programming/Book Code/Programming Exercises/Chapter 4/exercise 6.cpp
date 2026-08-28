@@ -38,5 +38,17 @@ int main()
  cin >> totalContainers;
  cout << endl;
 
+ // Calculate
+ // boxes
+ totalBoxes = totalCookies / cookiesPerBox;
+ leftOverCookies = totalCookies % cookiesPerBox;
+ // container
+ totalContainers = cookiesPerBox / boxesPerContainer;
+ leftOverBoxes = cookiesPerBox % boxesPerContainer;
+
+ // Output
+ cout << "We delivered: " << totalBoxes << " boxes";
+ cout << "We delivered: " << totalContainers << " containers";
+
  return 0;
 }
