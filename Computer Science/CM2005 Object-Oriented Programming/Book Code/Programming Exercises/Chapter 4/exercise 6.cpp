@@ -20,5 +20,10 @@ using namespace std;
 int main()
 {
 
+ // Variables
+ int totalCookies, cookiesPerBox, boxesPerContainer;
+ int totalBoxes, leftOverCookies;
+ int totalCookies, leftOverBoxes;
+
  return 0;
 }
