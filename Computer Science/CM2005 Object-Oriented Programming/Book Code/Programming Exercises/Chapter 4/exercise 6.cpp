@@ -45,5 +45,9 @@ int main()
  totalContainers = totalBoxes / boxesPerContainer;
  leftOverBoxes = totalBoxes % boxesPerContainer;
 
+ // Output
+ cout << "Total fully packed containers " << totalContainers << endl;
+ cout << "Total fully packed boxes " << totalBoxes << endl;
+
  return 0;
 }
