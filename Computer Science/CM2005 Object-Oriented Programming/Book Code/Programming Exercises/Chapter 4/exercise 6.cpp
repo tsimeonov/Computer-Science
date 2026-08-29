@@ -31,11 +31,11 @@ int main()
  cout << endl;
 
  cout << "Total number of cookies per box: ";
- cin >> totalCookies;
+ cin >> cookiesPerBox;
  cout << endl;
 
  cout << "Total number of cookies per container: ";
- cin >> totalCookies;
+ cin >> boxesPerContainer;
  cout << endl;
 
  // Calculate
@@ -43,7 +43,7 @@ int main()
  leftOverCookies = totalCookies % cookiesPerBox;
 
  totalContainers = totalBoxes / boxesPerContainer;
- totalContainers = totalBoxes % boxesPerContainer;
+ leftOverBoxes = totalBoxes % boxesPerContainer;
 
  return 0;
 }
