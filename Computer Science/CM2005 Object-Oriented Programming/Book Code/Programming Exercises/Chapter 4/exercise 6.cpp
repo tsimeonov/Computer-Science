@@ -23,7 +23,7 @@ int main()
  // Variables
  int totalCookies, cookiesPerBox, boxesPerContainer;
  int totalBoxes, leftOverCookies;
- int totalCookies, leftOverBoxes;
+ int totalContainers, leftOverBoxes;
 
  // Ask for input
  cout << "Total number of cookies: ";
@@ -37,6 +37,13 @@ int main()
  cout << "Total number of cookies per container: ";
  cin >> totalCookies;
  cout << endl;
+
+ // Calculate
+ totalBoxes = totalCookies / cookiesPerBox;
+ leftOverCookies = totalCookies % cookiesPerBox;
+
+ totalContainers = totalBoxes / boxesPerContainer;
+ totalContainers = totalBoxes % boxesPerContainer;
 
  return 0;
 }
