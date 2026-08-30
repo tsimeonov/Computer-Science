@@ -697,3 +697,19 @@ it's tautology
 </details>
 
 ---
+
+31. Show that p ↔ q and (p → q) ∧ (q → p) are logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  | p ↔ q | p → q | q → p | (p → q) ∧ (q → p) | p ↔ q and (p → q) ∧ (q → p) |
+| :-: | :-: | :---: | :---: | :---: | :---------------: | :-------------------------: |
+|  T  |  T  |   T   |   T   |   T   |         T         |              T              |
+|  T  |  F  |   F   |   F   |   T   |         F         |              T              |
+|  F  |  T  |   F   |   T   |   F   |         F         |              T              |
+|  F  |  F  |   T   |   T   |   T   |         T         |              T              |
+
+</details>
+
+---
