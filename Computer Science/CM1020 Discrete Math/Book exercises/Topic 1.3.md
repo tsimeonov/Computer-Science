@@ -463,3 +463,23 @@ b) p ∧ (p ∨ q) ≡ p
 </details>
 
 ---
+
+18. Determine whether (¬p ∧ (p → q)) → ¬q is a tautology.
+
+<details>
+  <summary>Solution</summary>
+
+(¬p ∧ (p → q)) → ¬q
+
+|  p  |  q  | ¬p  | ¬q  | p → q | (¬p ∧ (p → q)) | (¬p ∧ (p → q)) → ¬q |
+| :-: | :-: | :-: | :-: | :---: | :------------: | :-----------------: |
+|  T  |  T  |  F  |  F  |   T   |       F        |          T          |
+|  T  |  F  |  F  |  T  |   F   |       F        |          T          |
+|  F  |  T  |  T  |  F  |   T   |       T        |          F          |
+|  F  |  F  |  T  |  T  |   T   |       T        |          T          |
+
+it's false
+
+</details>
+
+---
