@@ -498,6 +498,22 @@ it's false
 |  F  |  T  |  T  |  F  |   T   |       T        |          T          |
 |  F  |  F  |  T  |  T  |   T   |       T        |          T          |
 
-it's false
+it's tautology
 
 </details>
+
+20. Show that p ↔ q and (p ∧ q) ∨ (¬p ∧ ¬q) are logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  | ¬p  | ¬q  | p ∧ q | ¬p ∧ ¬q | p ↔ q | (p ∧ q) ∨ (¬p ∧ ¬q) | p ↔ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q) |
+| :-: | :-: | :-: | :-: | :---: | :-----: | :---: | :-----------------: | :-------------------------: |
+|  T  |  T  |  F  |  F  |   T   |    F    |   T   |          T          |              T              |
+|  T  |  F  |  F  |  T  |   F   |    F    |   F   |          F          |              T              |
+|  F  |  T  |  T  |  F  |   F   |    F    |   F   |          F          |              T              |
+|  F  |  F  |  T  |  T  |   F   |    T    |   T   |          T          |              T              |
+
+</details>
+
+---
