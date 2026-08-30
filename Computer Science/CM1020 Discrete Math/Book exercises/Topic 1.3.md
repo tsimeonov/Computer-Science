@@ -400,6 +400,13 @@ d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
 
 13. Show that each conditional statement in Exercise 11 is a tautology using the fact that a conditional statement is false exactly when the hypothesis is true and the conclusion is false. (Do not use truth tables.)
 
+a)(p ∧ q) → p
+b) p → (p ∨ q)
+c) ¬p → (p → q)
+d) (p ∧ q) → (p → q)
+e) ¬(p → q) → p
+f) ¬(p → q) → ¬q
+
 <details>
   <summary>Solution</summary>
 
