@@ -483,3 +483,21 @@ it's false
 </details>
 
 ---
+
+19. Determine whether (¬q ∧ (p → q)) → ¬p is a tautology.
+
+<details>
+  <summary>Solution</summary>
+
+(¬q ∧ (p → q)) → ¬p
+
+|  p  |  q  | ¬p  | ¬q  | p → q | (¬p ∧ (p → q)) | (¬p ∧ (p → q)) → ¬p |
+| :-: | :-: | :-: | :-: | :---: | :------------: | :-----------------: |
+|  T  |  T  |  F  |  F  |   T   |       F        |          T          |
+|  T  |  F  |  F  |  T  |   F   |       F        |          T          |
+|  F  |  T  |  T  |  F  |   T   |       T        |          T          |
+|  F  |  F  |  T  |  T  |   T   |       T        |          T          |
+
+it's false
+
+</details>
