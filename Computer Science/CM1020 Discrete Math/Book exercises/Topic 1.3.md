@@ -565,3 +565,19 @@ it's tautology
 </details>
 
 ---
+
+24. Show that ¬(p ⊕ q) and p ↔ q are logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  | p ⊕ q | ¬(p ⊕ q) | p ↔ q | ¬(p ⊕ q) and p ↔ q |
+| :-: | :-: | :---: | :------: | :---: | :----------------: |
+|  T  |  T  |   F   |    T     |   T   |         T          |
+|  T  |  F  |   T   |    F     |   F   |         T          |
+|  F  |  T  |   T   |    F     |   F   |         T          |
+|  F  |  F  |   F   |    T     |   T   |         T          |
+
+</details>
+
+---
