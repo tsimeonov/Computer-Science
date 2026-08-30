@@ -442,6 +442,15 @@ b) p ∧ (p ∨ q) ≡ p
 <details>
   <summary>Solution</summary>
 
+a) p ∨ (p ∧ q) ≡ p
+
+|  p  |  q  | p ∧ q | p ∨ (p ∧ q) | p ∨ (p ∧ q) ≡ p |
+| :-: | :-: | :---: | :---------: | :-------------: |
+|  T  |  T  |   T   |      T      |        T        |
+|  T  |  F  |   F   |      T      |        T        |
+|  F  |  T  |   F   |      F      |        T        |
+|  F  |  F  |   F   |      F      |        T        |
+
 </details>
 
 ---
