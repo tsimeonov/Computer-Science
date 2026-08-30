@@ -713,3 +713,19 @@ it's tautology
 </details>
 
 ---
+
+32. Show that p ↔ q and ¬p ↔ ¬q are logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  | p ↔ q | ¬p  | ¬q  | ¬p ↔ ¬q | p ↔ q and ¬p ↔ ¬q |
+| :-: | :-: | :---: | :-: | :-: | :-----: | :---------------: |
+|  T  |  T  |   T   |  F  |  F  |    T    |         T         |
+|  T  |  F  |   F   |  F  |  T  |    F    |         T         |
+|  F  |  T  |   F   |  T  |  F  |    F    |         T         |
+|  F  |  F  |   T   |  T  |  T  |    T    |         T         |
+
+</details>
+
+---
