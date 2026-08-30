@@ -400,7 +400,7 @@ d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
 
 13. Show that each conditional statement in Exercise 11 is a tautology using the fact that a conditional statement is false exactly when the hypothesis is true and the conclusion is false. (Do not use truth tables.)
 
-a)(p ∧ q) → p
+a) (p ∧ q) → p
 b) p → (p ∨ q)
 c) ¬p → (p → q)
 d) (p ∧ q) → (p → q)
@@ -409,6 +409,8 @@ f) ¬(p → q) → ¬q
 
 <details>
   <summary>Solution</summary>
+
+a) (p ∧ q) → p
 
 </details>
 
@@ -424,6 +426,18 @@ f) ¬(p → q) → ¬q
 ---
 
 15. Show that each conditional statement in Exercise 11 is a tautology by applying a chain of logical identities as in Example 8. (Do not use truth tables.)
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
+
+17. Use truth tables to verify the absorption laws.
+
+a) p ∨ (p ∧ q) ≡ p
+b) p ∧ (p ∨ q) ≡ p
 
 <details>
   <summary>Solution</summary>
