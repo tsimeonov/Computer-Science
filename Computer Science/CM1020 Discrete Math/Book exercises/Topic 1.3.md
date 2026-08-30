@@ -517,3 +517,19 @@ it's tautology
 </details>
 
 ---
+
+21. Show that ¬(p ↔ q) and p ↔ ¬q are logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  | ¬q  | p ↔ q | ¬(p ↔ q) | p ↔ ¬q | ¬(p ↔ q) ≡ p ↔ ¬q |
+| :-: | :-: | :-: | :---: | :------: | :----: | :---------------: |
+|  T  |  T  |  F  |   T   |    F     |   F    |         T         |
+|  T  |  F  |  T  |   F   |    T     |   T    |         T         |
+|  F  |  T  |  F  |   F   |    T     |   T    |         T         |
+|  F  |  F  |  T  |   T   |    F     |   F    |         T         |
+
+</details>
+
+---
