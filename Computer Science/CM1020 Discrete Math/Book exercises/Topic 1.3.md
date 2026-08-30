@@ -637,3 +637,23 @@ it's tautology
 </details>
 
 ---
+
+28. Show that (p → q) ∨ (p → r) and p → (q ∨ r) are logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  |  r  | p → q | p → r | (p → q) ∨ (p → r) | q ∨ r | p → (q ∨ r) | (p → q) ∨ (p → r) and p → (q ∨ r) |
+| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-------------------------------: |
+|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
+|  T  |  T  |  F  |   T   |   F   |         T         |   T   |      T      |                 T                 |
+|  T  |  F  |  T  |   F   |   T   |         T         |   T   |      T      |                 T                 |
+|  T  |  F  |  F  |   F   |   F   |         F         |   F   |      F      |                 T                 |
+|  F  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
+|  F  |  T  |  F  |   T   |   T   |         T         |   T   |      T      |                 T                 |
+|  F  |  F  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
+|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                 T                 |
+
+</details>
+
+---
