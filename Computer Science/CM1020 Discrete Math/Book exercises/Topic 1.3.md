@@ -809,3 +809,31 @@ it's tautology
 </details>
 
 ---
+
+37. Show that (p → q) → (r → s) and (p → r) → (q → s) are not logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  |  r  |  s  | p → q | r → s | (p → q) → (r → s) | p → r | q → s | (p → r) → (q → s) | (p → q) → (r → s) ≡ (p → r) → (q → s) |
+| :-: | :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---: | :---------------: | :-----------------------------------: |
+|  T  |  T  |  T  |  T  |   T   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+|  T  |  T  |  T  |  F  |   T   |   F   |         F         |   T   |   F   |         F         |                   T                   |
+|  T  |  T  |  F  |  T  |   T   |   T   |         T         |   F   |   T   |         T         |                   T                   |
+|  T  |  T  |  F  |  F  |   T   |   T   |         T         |   F   |   F   |         T         |                   T                   |
+|  T  |  F  |  T  |  T  |   F   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+|  T  |  F  |  T  |  F  |   F   |   F   |         T         |   T   |   T   |         T         |                   T                   |
+|  T  |  F  |  F  |  T  |   F   |   T   |         T         |   F   |   T   |         T         |                   T                   |
+|  T  |  F  |  F  |  F  |   F   |   T   |         T         |   F   |   T   |         T         |                   T                   |
+|  F  |  T  |  T  |  T  |   T   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+|  F  |  T  |  T  |  F  |   T   |   F   |         F         |   T   |   F   |         F         |                   T                   |
+|  F  |  T  |  F  |  T  |   T   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+|  F  |  T  |  F  |  F  |   T   |   T   |         T         |   T   |   F   |         F         |                   F                   |
+|  F  |  F  |  T  |  T  |   T   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+|  F  |  F  |  T  |  F  |   T   |   F   |         F         |   T   |   T   |         T         |                   F                   |
+|  F  |  F  |  F  |  T  |   T   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+|  F  |  F  |  F  |  F  |   T   |   T   |         T         |   T   |   T   |         T         |                   T                   |
+
+</details>
+
+---
