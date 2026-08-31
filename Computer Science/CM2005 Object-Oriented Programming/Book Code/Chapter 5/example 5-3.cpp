@@ -74,5 +74,4 @@ Line 27: The total number of boxes sold: 1039
 Line 28: Enter the cost of one box: 3.50
 Line 31: The total money made by selling cookies: $3636.50
 Line 33: The average number of boxes sold by each volunteer: 207
-
 */
