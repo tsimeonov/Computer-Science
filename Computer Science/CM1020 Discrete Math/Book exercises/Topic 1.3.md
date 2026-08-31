@@ -729,3 +729,23 @@ it's tautology
 </details>
 
 ---
+
+33. Show that (p → q) ∧ (q → r) → (p → r) is a tautology.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  |  r  | p → q | q → r | (p → q) ∧ (q → r) | p → r | (p → q) ∧ (q → r) → (p → r) |
+| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :-------------------------: |
+|  T  |  T  |  T  |   T   |   T   |         T         |   T   |              T              |
+|  T  |  T  |  F  |   T   |   F   |         F         |   F   |              T              |
+|  T  |  F  |  T  |   F   |   T   |         F         |   T   |              T              |
+|  T  |  F  |  F  |   F   |   T   |         F         |   F   |              T              |
+|  F  |  T  |  T  |   T   |   T   |         T         |   T   |              T              |
+|  F  |  T  |  F  |   T   |   F   |         F         |   T   |              T              |
+|  F  |  F  |  T  |   T   |   T   |         T         |   T   |              T              |
+|  F  |  F  |  F  |   T   |   T   |         T         |   T   |              T              |
+
+</details>
+
+---
