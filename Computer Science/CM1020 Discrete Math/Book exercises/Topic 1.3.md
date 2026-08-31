@@ -623,16 +623,16 @@ it's tautology
 <details>
   <summary>Solution</summary>
 
-|  p  |  q  |  r  | p → r | q → r | (p → r) ∧ (q → r) | p ∨ q | (p ∨ q) → r | (p → r) ∧ (q → r) and (p ∨ q) → r |
-| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-------------------------------: |
-|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  T  |  T  |  F  |   F   |   F   |         F         |   T   |      F      |                 T                 |
-|  T  |  F  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  T  |  F  |  F  |   F   |   T   |         F         |   T   |      F      |                 T                 |
-|  F  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  F  |  T  |  F  |   T   |   F   |         F         |   T   |      F      |                 T                 |
-|  F  |  F  |  T  |   T   |   T   |         T         |   F   |      T      |                 T                 |
-|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                 T                 |
+|  p  |  q  |  r  | p → r | q → r | (p → r) ∧ (q → r) | p ∨ q | (p ∨ q) → r | (p → r) ∧ (q → r) ≡ (p ∨ q) → r |
+| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-----------------------------: |
+|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  T  |  T  |  F  |   F   |   F   |         F         |   T   |      F      |                T                |
+|  T  |  F  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  T  |  F  |  F  |   F   |   T   |         F         |   T   |      F      |                T                |
+|  F  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  F  |  T  |  F  |   T   |   F   |         F         |   T   |      F      |                T                |
+|  F  |  F  |  T  |   T   |   T   |         T         |   F   |      T      |                T                |
+|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                T                |
 
 </details>
 
@@ -643,16 +643,16 @@ it's tautology
 <details>
   <summary>Solution</summary>
 
-|  p  |  q  |  r  | p → q | p → r | (p → q) ∨ (p → r) | q ∨ r | p → (q ∨ r) | (p → q) ∨ (p → r) and p → (q ∨ r) |
-| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-------------------------------: |
-|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  T  |  T  |  F  |   T   |   F   |         T         |   T   |      T      |                 T                 |
-|  T  |  F  |  T  |   F   |   T   |         T         |   T   |      T      |                 T                 |
-|  T  |  F  |  F  |   F   |   F   |         F         |   F   |      F      |                 T                 |
-|  F  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  F  |  T  |  F  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  F  |  F  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                 T                 |
+|  p  |  q  |  r  | p → q | p → r | (p → q) ∨ (p → r) | q ∨ r | p → (q ∨ r) | (p → q) ∨ (p → r) ≡ p → (q ∨ r) |
+| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-----------------------------: |
+|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  T  |  T  |  F  |   T   |   F   |         T         |   T   |      T      |                T                |
+|  T  |  F  |  T  |   F   |   T   |         T         |   T   |      T      |                T                |
+|  T  |  F  |  F  |   F   |   F   |         F         |   F   |      F      |                T                |
+|  F  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  F  |  T  |  F  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  F  |  F  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                T                |
 
 </details>
 
@@ -663,16 +663,16 @@ it's tautology
 <details>
   <summary>Solution</summary>
 
-|  p  |  q  |  r  | p → r | q → r | (p → r) ∨ (q → r) | p ∧ q | (p ∧ q) → r | (p → r) ∨ (q → r) and (p ∧ q) → r |
-| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-------------------------------: |
-|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                 T                 |
-|  T  |  T  |  F  |   F   |   F   |         F         |   T   |      F      |                 T                 |
-|  T  |  F  |  T  |   T   |   T   |         T         |   F   |      T      |                 T                 |
-|  T  |  F  |  F  |   F   |   T   |         T         |   F   |      T      |                 T                 |
-|  F  |  T  |  T  |   T   |   T   |         T         |   F   |      T      |                 T                 |
-|  F  |  T  |  F  |   T   |   F   |         T         |   F   |      T      |                 T                 |
-|  F  |  F  |  T  |   T   |   T   |         T         |   F   |      T      |                 T                 |
-|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                 T                 |
+|  p  |  q  |  r  | p → r | q → r | (p → r) ∨ (q → r) | p ∧ q | (p ∧ q) → r | (p → r) ∨ (q → r) ≡ (p ∧ q) → r |
+| :-: | :-: | :-: | :---: | :---: | :---------------: | :---: | :---------: | :-----------------------------: |
+|  T  |  T  |  T  |   T   |   T   |         T         |   T   |      T      |                T                |
+|  T  |  T  |  F  |   F   |   F   |         F         |   T   |      F      |                T                |
+|  T  |  F  |  T  |   T   |   T   |         T         |   F   |      T      |                T                |
+|  T  |  F  |  F  |   F   |   T   |         T         |   F   |      T      |                T                |
+|  F  |  T  |  T  |   T   |   T   |         T         |   F   |      T      |                T                |
+|  F  |  T  |  F  |   T   |   F   |         T         |   F   |      T      |                T                |
+|  F  |  F  |  T  |   T   |   T   |         T         |   F   |      T      |                T                |
+|  F  |  F  |  F  |   T   |   T   |         T         |   F   |      T      |                T                |
 
 </details>
 
@@ -683,16 +683,16 @@ it's tautology
 <details>
   <summary>Solution</summary>
 
-|  p  |  q  |  r  | ¬p  | q → r | ¬p → (q → r) | p ∨ r | q → (p ∨ r) | ¬p → (q → r) and q → (p ∨ r) |
-| :-: | :-: | :-: | :-: | :---: | :----------: | :---: | :---------: | :--------------------------: |
-|  T  |  T  |  T  |  F  |   T   |      T       |   T   |      T      |              T               |
-|  T  |  T  |  F  |  F  |   F   |      T       |   T   |      T      |              T               |
-|  T  |  F  |  T  |  F  |   T   |      T       |   T   |      T      |              T               |
-|  T  |  F  |  F  |  F  |   T   |      T       |   T   |      T      |              T               |
-|  F  |  T  |  T  |  T  |   T   |      T       |   T   |      T      |              T               |
-|  F  |  T  |  F  |  T  |   F   |      F       |   F   |      F      |              T               |
-|  F  |  F  |  T  |  T  |   T   |      T       |   T   |      T      |              T               |
-|  F  |  F  |  F  |  T  |   T   |      T       |   F   |      T      |              T               |
+|  p  |  q  |  r  | ¬p  | q → r | ¬p → (q → r) | p ∨ r | q → (p ∨ r) | ¬p → (q → r) ≡ q → (p ∨ r) |
+| :-: | :-: | :-: | :-: | :---: | :----------: | :---: | :---------: | :------------------------: |
+|  T  |  T  |  T  |  F  |   T   |      T       |   T   |      T      |             T              |
+|  T  |  T  |  F  |  F  |   F   |      T       |   T   |      T      |             T              |
+|  T  |  F  |  T  |  F  |   T   |      T       |   T   |      T      |             T              |
+|  T  |  F  |  F  |  F  |   T   |      T       |   T   |      T      |             T              |
+|  F  |  T  |  T  |  T  |   T   |      T       |   T   |      T      |             T              |
+|  F  |  T  |  F  |  T  |   F   |      F       |   F   |      F      |             T              |
+|  F  |  F  |  T  |  T  |   T   |      T       |   T   |      T      |             T              |
+|  F  |  F  |  F  |  T  |   T   |      T       |   F   |      T      |             T              |
 
 </details>
 
@@ -703,12 +703,12 @@ it's tautology
 <details>
   <summary>Solution</summary>
 
-|  p  |  q  | p ↔ q | p → q | q → p | (p → q) ∧ (q → p) | p ↔ q and (p → q) ∧ (q → p) |
-| :-: | :-: | :---: | :---: | :---: | :---------------: | :-------------------------: |
-|  T  |  T  |   T   |   T   |   T   |         T         |              T              |
-|  T  |  F  |   F   |   F   |   T   |         F         |              T              |
-|  F  |  T  |   F   |   T   |   F   |         F         |              T              |
-|  F  |  F  |   T   |   T   |   T   |         T         |              T              |
+|  p  |  q  | p ↔ q | p → q | q → p | (p → q) ∧ (q → p) | p ↔ q ≡ (p → q) ∧ (q → p) |
+| :-: | :-: | :---: | :---: | :---: | :---------------: | :-----------------------: |
+|  T  |  T  |   T   |   T   |   T   |         T         |             T             |
+|  T  |  F  |   F   |   F   |   T   |         F         |             T             |
+|  F  |  T  |   F   |   T   |   F   |         F         |             T             |
+|  F  |  F  |   T   |   T   |   T   |         T         |             T             |
 
 </details>
 
@@ -719,12 +719,12 @@ it's tautology
 <details>
   <summary>Solution</summary>
 
-|  p  |  q  | p ↔ q | ¬p  | ¬q  | ¬p ↔ ¬q | p ↔ q and ¬p ↔ ¬q |
-| :-: | :-: | :---: | :-: | :-: | :-----: | :---------------: |
-|  T  |  T  |   T   |  F  |  F  |    T    |         T         |
-|  T  |  F  |   F   |  F  |  T  |    F    |         T         |
-|  F  |  T  |   F   |  T  |  F  |    F    |         T         |
-|  F  |  F  |   T   |  T  |  T  |    T    |         T         |
+|  p  |  q  | p ↔ q | ¬p  | ¬q  | ¬p ↔ ¬q | p ↔ q ≡ ¬p ↔ ¬q |
+| :-: | :-: | :---: | :-: | :-: | :-----: | :-------------: |
+|  T  |  T  |   T   |  F  |  F  |    T    |        T        |
+|  T  |  F  |   F   |  F  |  T  |    F    |        T        |
+|  F  |  T  |   F   |  T  |  F  |    F    |        T        |
+|  F  |  F  |   T   |  T  |  T  |    T    |        T        |
 
 </details>
 
@@ -785,6 +785,26 @@ it's tautology
 |  F  |  T  |  F  |   T   |      F      |   F   |      T      |              F              |
 |  F  |  F  |  T  |   T   |      T      |   T   |      T      |              T              |
 |  F  |  F  |  F  |   T   |      F      |   T   |      T      |              F              |
+
+</details>
+
+---
+
+36. Show that (p ∧ q) → r and (p → r) ∧ (q → r) are not logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  |  r  | p ∧ q | (p ∧ q) → r | p → r | q → r | (p → r) ∧ (q → r) | (p ∧ q) → r ≡ (p → r) ∧ (q → r) |
+| :-: | :-: | :-: | :---: | :---------: | :---: | :---: | :---------------: | :-----------------------------: |
+|  T  |  T  |  T  |   T   |      T      |   T   |   T   |         T         |                T                |
+|  T  |  T  |  F  |   T   |      F      |   F   |   F   |         F         |                T                |
+|  T  |  F  |  T  |   F   |      T      |   T   |   T   |         T         |                T                |
+|  T  |  F  |  F  |   F   |      T      |   F   |   T   |         F         |                F                |
+|  F  |  T  |  T  |   F   |      T      |   T   |   T   |         T         |                T                |
+|  F  |  T  |  F  |   F   |      T      |   T   |   F   |         F         |                F                |
+|  F  |  F  |  T  |   F   |      T      |   T   |   T   |         T         |                T                |
+|  F  |  F  |  F  |   F   |      T      |   T   |   T   |         T         |                T                |
 
 </details>
 
