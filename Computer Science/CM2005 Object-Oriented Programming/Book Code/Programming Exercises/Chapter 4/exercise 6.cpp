@@ -20,5 +20,45 @@ using namespace std;
 int main()
 {
 
+ // Variables
+ int totalCookies, cookiesPerBox, boxesPerContainer;
+ int totalBoxes, leftOverCookies;
+ int totalContainers, leftOverBoxes;
+
+ // Ask for input
+ cout << "Enter the total amount of cookies: ";
+ cin >> totalCookies;
+ cout << endl;
+
+ cout << "Enter the total amount of cookies per box: ";
+ cin >> cookiesPerBox;
+ cout << endl;
+
+ cout << "Enter the total amount of cookies: per container ";
+ cin >> boxesPerContainer;
+ cout << endl;
+
+ // Calculate
+ totalBoxes = totalCookies / cookiesPerBox;
+ leftOverCookies = totalCookies % cookiesPerBox;
+
+ totalContainers = totalBoxes / boxesPerContainer;
+ leftOverBoxes = totalBoxes % boxesPerContainer;
+
+ // Output
+ cout << "Total fully packed contianer: " << totalContainers << endl;
+ cout << "Total fully packed boxes to ship: " << totalBoxes << endl;
+
+ // if statement
+ if (leftOverCookies > 0)
+ {
+  cout << "We discarded " << leftOverCookies << " leftover cookies" << endl;
+ }
+
+ if (leftOverBoxes > 0)
+ {
+  cout << "We discarded " << leftOverBoxes << " leftover boxes" << endl;
+ }
+
  return 0;
 }
