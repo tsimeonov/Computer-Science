@@ -769,3 +769,23 @@ it's tautology
 </details>
 
 ---
+
+35. Show that (p → q) → r and p → (q → r) are not logically equivalent.
+
+<details>
+  <summary>Solution</summary>
+
+|  p  |  q  |  r  | p → q | (p → q) → r | q → r | p → (q → r) | (p → q) → r and p → (q → r) |
+| :-: | :-: | :-: | :---: | :---------: | :---: | :---------: | :-------------------------: |
+|  T  |  T  |  T  |   T   |      T      |   T   |      T      |              T              |
+|  T  |  T  |  F  |   T   |      F      |   F   |      F      |              T              |
+|  T  |  F  |  T  |   F   |      T      |   T   |      T      |              T              |
+|  T  |  F  |  F  |   F   |      T      |   T   |      T      |              T              |
+|  F  |  T  |  T  |   T   |      T      |   T   |      T      |              T              |
+|  F  |  T  |  F  |   T   |      F      |   F   |      T      |              F              |
+|  F  |  F  |  T  |   T   |      T      |   T   |      T      |              T              |
+|  F  |  F  |  F  |   T   |      F      |   T   |      T      |              F              |
+
+</details>
+
+---
