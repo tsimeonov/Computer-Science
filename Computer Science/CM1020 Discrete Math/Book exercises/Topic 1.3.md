@@ -871,3 +871,27 @@ c) (p ∨ F) ∧ (q ∨ T) // (p ∧ T) V (q ∧ F)
 </details>
 
 ---
+
+43. Why are the duals of two equivalent compound propositions also equivalent, where these compound
+    propositions contain only the operators ∧, ∨, and ¬?
+
+<details>
+  <summary>Solution</summary>
+
+</details>
+
+---
+
+NAND (Not-AND): Denoted by the Sheffer stroke |.
+
+- Example: p | q
+- (Note: Some textbooks also use an up arrow ↑ for NAND).
+- The proposition p NAND q is true when either p or q or both are false;
+  and it is fa;se when both p an q are true.
+
+NOR (Not-OR): Denoted by the Peirce arrow ↓.
+
+- Example: p ↓ q
+- The proposition p NOR q is true when both p and q are false, and it is false otherwise.
+
+50. Construct a truth table for the logical operator NAND
