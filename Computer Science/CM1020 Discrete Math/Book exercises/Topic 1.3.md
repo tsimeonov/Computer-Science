@@ -854,3 +854,20 @@ c) (p ∧ ¬q) ∨ (q ∧ F) // (p V ¬q) ∧ (q V T)
 </details>
 
 ---
+
+39. Find the dual of each of these compound propositions.
+
+a) p ∧ ¬q ∧ ¬r
+b) (p ∧ q ∧ r) ∨ s
+c) (p ∨ F) ∧ (q ∨ T)
+
+<details>
+  <summary>Solution</summary>
+
+a) p ∧ ¬q ∧ ¬r // p V ¬q V ¬r
+b) (p ∧ q ∧ r) ∨ s // (p V q V r) ∧ s
+c) (p ∨ F) ∧ (q ∨ T) // (p ∧ T) V (q ∧ F)
+
+</details>
+
+---
