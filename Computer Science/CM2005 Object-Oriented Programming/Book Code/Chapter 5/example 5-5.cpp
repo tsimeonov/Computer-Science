@@ -19,7 +19,7 @@ int main()
 
  cout << "To stop the program enter #." << endl;
 
- cout << "Enter the uppercase letter:";
+ cout << "Enter the uppercase letter: ";
  cin >> letter;
  cout << endl;
 

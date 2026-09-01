@@ -837,3 +837,20 @@ it's tautology
 </details>
 
 ---
+
+38. Find the dual of each of these compound propositions.
+
+a) p ∨ ¬q
+b) p ∧ (q ∨ (r ∧ T))
+c) (p ∧ ¬q) ∨ (q ∧ F)
+
+<details>
+  <summary>Solution</summary>
+
+a) p ∨ ¬q // dual p ∧ ¬q
+b) p ∧ (q ∨ (r ∧ T)) // p V (q ∧ (r V F))
+c) (p ∧ ¬q) ∨ (q ∧ F) // (p V ¬q) ∧ (q V T)
+
+</details>
+
+---
