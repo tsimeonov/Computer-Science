@@ -97,7 +97,7 @@ d) ∀x ¬P(x)
      <summary>Solution</summary>
 
 a)
-The existential quantifier ∃x translates to "There exists at least on x" or "Some x".
+The existential quantifier ∃x translates to "There exists at least one x" or "Some x".
 When combined with the domain (students) and the statement P(x), it translates to:
 "There is a student who spends more than five hours every weekday in class"
 
@@ -170,6 +170,88 @@ There is at least one person who, if they are a comedian, then they ar funny
 
 d) ∃x(C(x) ∧ F(x))
 There is at least one who is comedian and funny
+
+</details>
+
+---
+
+8. Translate these statements into English, where R(x) is “x is a rabbit” and H(x) is “x hops”
+   and the domain consist of all animals.
+
+a) ∀x(R(x) → H(x))
+b) ∀x(R(x) ∧ H(x))
+c) ∃x(R(x) → H(x))
+d) ∃x(R(x) ∧ H(x))
+
+<details>
+     <summary>Solution</summary>
+
+a) ∀x(R(x) → H(x))
+Every rabit hop
+
+b) ∀x(R(x) ∧ H(x))
+Every animal is a rabbit and hops
+
+c) ∃x(R(x) → H(x))
+There is at least one animal thats if its a rabbit then it hops
+
+d) ∃x(R(x) ∧ H(x))
+There is at least one animal thats a rabbit and it hops
+
+</details>
+
+---
+
+9. Let P(x) be the statement “x can speak Russian” and let
+   Q(x) be the statement “x knows the computer language C++.” Express each of these sentences in terms of P(x),
+   Q(x), quantifiers, and logical connectives. The domain for quantifiers consists of all students at your school.
+
+a) There is a student at your school who can speak Russian and who knows C++.
+
+b) There is a student at your school who can speak Russian but who doesn’t know C++.
+
+c) Every student at your school either can speak Russian or knows C++.
+
+d) No student at your school can speak Russian or knows C++.
+
+<details>
+     <summary>Solution</summary>
+
+a) ∃x(P(x) ∧ Q(x))
+
+b) ∃x(P(x) ∧ ¬Q(x))
+
+c) ∀x(P(x) V Q(x))
+
+d) ¬∃x(P(x) V Q(x))
+
+</details>
+
+---
+
+10. Let:
+    C(x) be the statement “x has a cat,”
+    let D(x) be the statement “x has a dog,” and let
+    F(x) be the statement “x has a ferret.”
+    Express each of these statements in terms
+    of C(x), D(x), F(x), quantifiers, and logical connectives.
+    Let the domain consist of all students in your class.
+
+a) A student in your class has a cat, a dog, and a ferret.
+b) All students in your class have a cat, a dog, or a ferret.
+c) Some student in your class has a cat and a ferret, but not a dog.
+d) No student in your class has a cat, a dog, and a ferret.
+e) For each of the three animals, cats, dogs, and ferrets,
+there is a student in your class who has this animal as a pet.
+
+<details>
+     <summary>Solution</summary>
+
+a) ∃x(C(x) ∧ D(x) ∧ F(x))
+b) ∀x(C(x) V D(x) V F(x))
+c) ∃x(C(x) ∧ F(x) ∧ ¬D(x))
+d) ¬∃x(C(x) ∧ D(x) ∧ F(x))
+e) ∃xC(x) ∧ ∃yD(y) ∧ ∃zF(z)
 
 </details>
 
