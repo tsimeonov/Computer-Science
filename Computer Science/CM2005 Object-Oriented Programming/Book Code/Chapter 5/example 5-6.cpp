@@ -59,9 +59,5 @@ int main()
 }
 
 /*
-a compound propostion that is always true
-a compound propostion that is always true
-a logic circuit
-Is an interconeected network of logic gates that processes binary signals to perform automated decisions and computation
-Is na interconnected netwoek of logic gates
+
 */
