@@ -59,9 +59,9 @@ int main()
 }
 
 /*
-a logica gate is a logic element that performs a logical operation on oneor more bits to produce an putput
-a logic gate is a logical element that performs a logical operation on one or more bits to produce an output
-a logic gate is an logical element that performs a logical operation on one or more elements
-a logical gate is a logical element that performs a logical operation on one ormore bits
-a logical gate is a logical element that performs a logical operation on one or more bits
+a compound propostion that is always true
+a compound propostion that is always true
+a logic circuit
+Is an interconeected network of logic gates that processes binary signals to perform automated decisions and computation
+Is na interconnected netwoek of logic gates
 */
