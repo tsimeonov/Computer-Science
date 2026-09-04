@@ -59,11 +59,5 @@ int main()
 }
 
 /*
-logic gate is a logic element that performs a logical operation on one or more bits to produce an output bit
-logic gate is a logic element that performas a logical operation on one or more bits to produce an output bit
-a ogic gate isa logical element that prodices a logical operation on one or more bits
-a logic gate is logical element that performs a logical operation one one or more bits
-bits
-a logic gate is a logical element that performs a logical operation on one or bore bits
-a logic gate is a logical element that performs a logical operation on one mor ebits
+a logic gate is a logical operation one one or more bits to produce an putput bit
 */
