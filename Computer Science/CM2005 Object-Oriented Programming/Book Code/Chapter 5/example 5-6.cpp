@@ -11,49 +11,59 @@ using namespace std;
 
 int main()
 {
- // Declare the variables
- // Variable to store the random number
- int num;
- // Variable to store the number guessed by the user
- int guess;
- // boolean variable to control the loop
- bool isGuessed;
+     // Declare the variables
+     // Variable to store the random number
+     int num;
+     // Variable to store the number guessed by the user
+     int guess;
+     // boolean variable to control the loop
+     bool isGuessed;
 
- srand(time(0));
+     srand(time(0));
 
- num = rand() % 100;
- cout << "The NUM is " << num << endl;
+     num = rand() % 100;
+     cout << "The NUM is " << num << endl;
 
- isGuessed = false;
+     isGuessed = false;
 
- while (!isGuessed)
- {
-  cout << "Enter an integer greater"
-       << " than or equal to 0 and"
-       << "less than 100: ";
+     while (!isGuessed)
+     {
+          cout << "Enter an integer greater"
+               << " than or equal to 0 and"
+               << "less than 100: ";
 
-  cin >> guess;
-  cout << endl;
+          cin >> guess;
+          cout << endl;
 
-  if (guess == num)
-  {
-   cout << "You guessed the correct "
-        << "number." << endl;
-   isGuessed = true;
-  }
-  else if (guess < num)
-  {
-   cout << "Your guess is lower than the "
-        << "number. \n Guess again!"
-        << endl;
-  }
-  else
-  {
-   cout << "Your guess is higher than "
-        << "the number. \n Guess again!"
-        << endl;
-  }
- }
+          if (guess == num)
+          {
+               cout << "You guessed the correct "
+                    << "number." << endl;
+               isGuessed = true;
+          }
+          else if (guess < num)
+          {
+               cout << "Your guess is lower than the "
+                    << "number. \n Guess again!"
+                    << endl;
+          }
+          else
+          {
+               cout << "Your guess is higher than "
+                    << "the number. \n Guess again!"
+                    << endl;
+          }
+     }
 
- return 0;
+     return 0;
 }
+
+/*
+logic gate is a logic element that performs a logical operation on one or more bits to produce an output bit
+logic gate is a logic element that performas a logical operation on one or more bits to produce an output bit
+a ogic gate isa logical element that prodices a logical operation on one or more bits
+a logic gate is logical element that performs a logical operation one one or more bits
+bits
+a logic gate is a logical element that performs a logical operation on one or bore bits
+a logic gate is a logical element that performs a logical operation on one mor ebits
+*/
