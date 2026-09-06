@@ -59,17 +59,25 @@ int main()
 }
 
 /*
-logic gate - logic element that performs a logical operation on one or more bits to produce an output bit
+A proposition that is always true
 
-logic gate is a logic element that performs a logical operationon one or more bits to produce an output
+Contradiction
+A compund propostion tht is always false
+a compound propostion that is always false
+a compound propostion that is always false
+a compound propostion that is always false
+a compound propostion that is always false
+a compound propostion that is always false
 
-logicgate is a logic element that performs a logical operation on one or more bits to produce an output
+contingency
+A compound propostion that is sometimes true and sometimes false
+a compound propostion that is sometime true an sometimes false
+a compound propostion that is sometimes tur and sometimes false
+a compound proposition that is sometimes true ans sometimes false
 
-logic gates is an logical element that performs a logical operation on one or more bits to produce an output bit
-
-logic gate is an logic element that performs a logical operation on one or more bits to produce an output
-
-logic gate is an logical element tha performs a logical operation o one or more bits to produce an ooutput
-
-logic gate is a logical element that performs alogical operation on one or more its to produce an output
+A proposition
+A statement that is true or false
+a statementthat is true or false
+a proposition that is true or false
+a proposition that is true or false
 */
