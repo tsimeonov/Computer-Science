@@ -59,5 +59,17 @@ int main()
 }
 
 /*
+logic gate - logic element that performs a logical operation on one or more bits to produce an output bit
 
+logic gate is a logic element that performs a logical operationon one or more bits to produce an output
+
+logicgate is a logic element that performs a logical operation on one or more bits to produce an output
+
+logic gates is an logical element that performs a logical operation on one or more bits to produce an output bit
+
+logic gate is an logic element that performs a logical operation on one or more bits to produce an output
+
+logic gate is an logical element tha performs a logical operation o one or more bits to produce an ooutput
+
+logic gate is a logical element that performs alogical operation on one or more its to produce an output
 */
