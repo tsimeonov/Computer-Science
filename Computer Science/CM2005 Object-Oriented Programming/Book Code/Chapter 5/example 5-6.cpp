@@ -57,27 +57,3 @@ int main()
 
      return 0;
 }
-
-/*
-A proposition that is always true
-
-Contradiction
-A compund propostion tht is always false
-a compound propostion that is always false
-a compound propostion that is always false
-a compound propostion that is always false
-a compound propostion that is always false
-a compound propostion that is always false
-
-contingency
-A compound propostion that is sometimes true and sometimes false
-a compound propostion that is sometime true an sometimes false
-a compound propostion that is sometimes tur and sometimes false
-a compound proposition that is sometimes true ans sometimes false
-
-A proposition
-A statement that is true or false
-a statementthat is true or false
-a proposition that is true or false
-a proposition that is true or false
-*/

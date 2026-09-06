@@ -285,3 +285,34 @@ f) ∀xP(x) // false
 </details>
 
 ---
+
+12. Let Q(x) be the statement “x + 1 > 2x.” If the domain consists of all integers, what are these truth values?
+
+a) Q(0)
+b) Q(−1)
+c) Q(1)
+d) ∃xQ(x)
+e) ∀xQ(x)
+f) ∃x¬Q(x)
+g) ∀x¬Q(x)
+
+<details>
+     <summary>Solution</summary>
+
+a) Q(0) // 0 + 1 > 2^0 // 1 > 0 // True
+
+b) Q(−1) // -1+1 > 2^(-1) // 0 > -2 // True
+
+c) Q(1) // 1+1 > 2
+
+d) ∃xQ(x)
+
+e) ∀xQ(x)
+
+f) ∃x¬Q(x)
+
+g) ∀x¬Q(x)
+
+</details>
+
+---
