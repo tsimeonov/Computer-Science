@@ -397,16 +397,29 @@ Meaning of the statement:
 
 - The symbol ∃ means: "There exists at least one integer n"
 - The condition (n = -n)
-- The statement claimd: "There is at least one integer where one time the number is equal to negative number
+- The statement claims: "There is at least one integer where one time the number is equal to negative number
 
 Evaluation
 Test n = 0
 
 - Left side n(0) = 0
 - Right side -n = -(0) 0
-- Sine 0 = 0, the candition is satisfaied and it is True
+- Since 0 = 0, the candition is satisfaied and it is True
 
 d) ∀n(3n ≤ 4n)
+
+Meaning of the statement
+
+- The symbol ∀ means: "For all integers n"
+- The condition (3n ≤ 4n)
+- The statement claims: "Three times the number is always less than or equal to four times the numer for every integer"
+
+Evaluation
+Test n = 1
+
+- Left side 3(-1) = -3
+- Right side 4(-1) = -4
+- Since -3 > -4, the condition is not satisfies and the condition is False
 
 </details>
 
