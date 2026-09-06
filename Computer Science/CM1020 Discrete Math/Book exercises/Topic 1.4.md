@@ -454,9 +454,25 @@ Check the candidate x = -1
 - Right side: -1
 - Check -1 = -1, Yes
 
-Because you can find an integer ($x = -1$) that satisfies the equation, the statement is True.
+Because you can find an integer (x = -1) that satisfies the equation, the statement is True.
 
 b) ∃x$(x^4 < x^2)$
+
+Meaning of the statement:
+
+- The symbol ∃ means: "There exists at least one integer n"
+- The condition $(x^4 < x^2)$
+
+Solve the equation algebraically:
+
+- $(x^4 < x^2)$
+
+Check the candidate x = 1
+
+- Is 1 an integer? Yes
+- Left side: $x^4$ = $1^4$ = 1
+- Right side: $x^2$ = $1^2$ = 1
+- Check 1 < 1, No, the statement is False
 
 c) ∀x$((−x)^2 = x^2)$
 
