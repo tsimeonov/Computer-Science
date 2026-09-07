@@ -27,9 +27,28 @@ int main()
 
      while (!isGuessed)
      {
-          cout << "Enter an integer greater"
+          cout << "Enter an integer greater "
                << "than or equal to 0 and "
                << "less than 100: ";
+
+          cin >> guess;
+          cout << endl;
+
+          if (guess == num)
+          {
+               cout << "You guessed the correct number" << endl;
+               isGuessed = true;
+          }
+          else if (guess < num)
+          {
+               cout << "Your gauess is lower than the number. "
+                    << "Guess again!" << endl;
+          }
+          else
+          {
+               cout << "Your guess the higher than the number. "
+                    << "Guess again!" << endl;
+          }
      }
      return 0;
 }
