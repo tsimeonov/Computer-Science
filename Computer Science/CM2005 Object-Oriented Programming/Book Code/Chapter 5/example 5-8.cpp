@@ -53,3 +53,17 @@ int main()
 
   return 0;
 }
+
+/*
+Sample Runs: In these sample runs, the user input is shaded.
+Sample Run 1:
+Enter the first two Fibonacci numbers: 12 16
+The first two Fibonacci numbers are 12 and 16
+Enter the position of the desired Fibonacci number: 10
+The Fibonacci number at position 10 is 796
+Sample Run 2:
+Enter the first two Fibonacci numbers: 1 1
+The first two Fibonacci numbers are 1 and 1
+Enter the position of the desired Fibonacci number: 15
+The Fibonacci number at position 15 is 610
+*/
