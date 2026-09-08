@@ -503,3 +503,39 @@ Check the candidate: -1
 </details>
 
 ---
+
+15. Determine the truth value of each of these statements if the domain for all variables consists of all integers.
+
+a) ∀n$(n^2 ≥ 0)$
+b) ∃n$(n^2 = 2)$
+c) ∀n$(n^2 ≥ n)$
+d) ∃n$(n^2 < 0)$
+
+<details>
+     <summary>Solution</summary>
+
+a) ∀n$(n^2 ≥ 0)$
+
+Meaning of the statement:
+
+- The symbol ∀ means: "For all integers n"
+- The condition: $(n^2 ≥ 0)$
+
+- Case 1: n is positive (n > 0)
+  A positive number multiplied by a positive number yields a positive result
+
+- Case 2: n is zero (n = 0)
+  Substracting zero yields $0^2 = 0$. This perfectly satisfies the "equal to" part of the ≥ 0
+
+- Case 3: n is negative (n < 0)
+  A negative number multiplied by a negative number yields a positive result (the negatives cancel out)
+
+b) ∃n$(n^2 = 2)$
+
+c) ∀n$(n^2 ≥ n)$
+
+d) ∃n$(n^2 < 0)$
+
+</details>
+
+---
