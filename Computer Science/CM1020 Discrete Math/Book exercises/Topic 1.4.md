@@ -476,6 +476,17 @@ Check the candidate x = 1
 
 c) ∀x$((−x)^2 = x^2)$
 
+Meaning of the statement:
+
+- The symbol ∀ means: "For all integers x"
+- The condition $((−x)^2 = x^2)$
+
+Check the candidate x = 1
+
+- Left side: $(-x)^2 = (-1x)^2 = 1 x^2 = x^2$
+- Right side: $x^2 = x^2$
+- Check 1 = 1, yes the statement is True
+
 d) ∀x$(2x > x)$
 
 </details>
