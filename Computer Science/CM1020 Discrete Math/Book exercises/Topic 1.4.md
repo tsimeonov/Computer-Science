@@ -532,6 +532,22 @@ Meaning of the statement:
 
 b) ∃n$(n^2 = 2)$
 
+Meaning of the statement:
+
+- The symbol ∃ means: "There exists at least one integer n"
+
+Proof (bounding):
+To prove an existential (∃) statement is true, you just need to find one single example that works.
+Let's test the closest integers:
+
+- $0^2 = 0$
+- $1^2 = 1$ (and $(-1)^2 = 1$)
+- $2^2 = 4$ (and $(02)^2 = 4$)
+
+The target value, 2, falls strictly between $1^2 and 2^2$. Because there are no
+whole integers between 1 and 2, it is impossible for any integers to square to exactly 2.
+Conclusion: Because not integer satisfies the equation, the statement is False
+
 c) ∀n$(n^2 ≥ n)$
 
 d) ∃n$(n^2 < 0)$
