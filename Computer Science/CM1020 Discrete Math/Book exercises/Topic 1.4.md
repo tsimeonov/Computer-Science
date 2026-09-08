@@ -550,6 +550,22 @@ Conclusion: Because not integer satisfies the equation, the statement is False
 
 c) ∀n$(n^2 ≥ n)$
 
+Meaning of the statement:
+
+- The symbol ∀ means: "For all integers n"
+
+- Case 1: n is positive (n > 0)
+  Since n is a positive integer, the smallest value it can be is 1.
+  If n ≥ 1, multiplying both sides by n (which is positive) gives $n^2 ≥ n$
+
+- Case 2: n is zero (n = 0)
+  This also satisfies the the statement
+
+- Case 3: n is negative (n < 0)
+  Squaring a negative number yields a positive result. Because a positive number is always strictly greater than a negative number
+
+Conclusion: Because $n^2 ≥ n$ holds true in ann three cases, the universal statement is True for all integers.
+
 d) ∃n$(n^2 < 0)$
 
 </details>
