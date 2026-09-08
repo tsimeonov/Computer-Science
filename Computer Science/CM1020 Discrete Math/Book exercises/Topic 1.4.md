@@ -489,6 +489,17 @@ Check the candidate x = 1
 
 d) ∀x$(2x > x)$
 
+Meaning of the statement:
+
+- The symbol ∀ means: "For all integers x"
+- The condtion: 2x > x
+
+Check the candidate: -1
+
+- Left side: 2(-1) = -2
+- Right side: -1
+- Check: -2 > -1? No, the statement is False
+
 </details>
 
 ---
