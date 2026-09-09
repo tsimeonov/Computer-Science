@@ -42,6 +42,44 @@
   - If True: Find any single number in the domain that makes the inequality true (e.g., for $\exists x (2x > x)$, testing $x = 5$ gives $10 > 5$, which completes the proof).
   - If False: Show that the inequality violates a mathematical rule for all numbers in the domain (e.g., showing $\exists x (x^2 < 0)$ is false because $x^2 \ge 0$ holds universally for all real numbers).
 
+To quickly check if a statement is true or false on an exam before you write out the formal proof, you should use a two-step mental routine: Test the Trick Numbers, then Solve the Algebra.
+
+Here is how to do it on your scratch paper:
+
+Step 1: Test the "Trick Numbers" (The Guessing Phase)
+
+Your first instinct should always be to plug in numbers that behave weirdly in math. Test these four specific numbers in your head:
+
+1. $0$ (Destroys multiplication and makes squares equal zero)
+2. $-1$ (Flips signs and tests negative cases)
+3. $1$ (The baseline positive number)$0.5$ (Fractions get smaller when squared:
+4. $0.5^2 = 0.25$)
+
+How this gives you the answer:
+
+- If you are checking a $\forall$ (For All) statement and even one of these numbers makes the inequality fail, stop checking. The statement is False. (You now have your counterexample).
+- If you are checking an $\exists$ (There Exists) statement and even one of these numbers makes the inequality work, stop checking. The statement is True. (You now have your proof example).
+
+Step 2: Solve for $x$ (The Confirmation Phase)
+
+If plugging in numbers didn't give you an immediate answer, ignore the $\forall$ or $\exists$ symbol for a second and just solve the inequality like a normal algebra problem.
+
+Let's say your inequality is $2x > x$. If you subtract $x$ from both sides, you get the solution: $x > 0$.
+
+Now look at that solution ($x > 0$) and ask yourself two questions based on your quantifier:
+
+If the problem asks $\forall x (2x > x)$:
+
+- Ask yourself: Does "$x > 0$" cover every single number in the domain?
+- Answer: No, it excludes negative numbers and zero.
+- Conclusion: False.
+
+If the problem asks $\exists x (2x > x)$:
+
+- Ask yourself: Does "$x > 0$" cover at least one number in the domain?
+- Answer: Yes, there are plenty of numbers greater than zero.
+- Conclusion: True.
+
 Step-by-Step Decision Checklist
 
 1. Check the Domain: Always identify if variables belong to integers ($\mathbb{Z}$) or real numbers ($\mathbb{R}$).
