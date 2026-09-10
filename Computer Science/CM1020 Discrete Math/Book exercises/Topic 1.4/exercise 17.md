@@ -69,3 +69,10 @@ When you distribute a negation intp a group, all OR's flip to AND's.
 ¬P(0) ∧ ¬P(1) ∧ ¬P(2) ∧ ¬P(3) ∧ ¬P(4)
 
 f) ¬∀xP(x)
+
+Rule:
+This is the universal qunatifier, it means "for all x"
+
+Answer:
+
+¬P(0) v ¬P(1) v ¬P(2) v ¬P(3) v ¬P(4)
