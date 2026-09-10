@@ -39,6 +39,20 @@ c) ∀x$(x^2 + 2 ≥ 1)$
 
 Meaning of the statement:
 
-- The symbol ∀ means: "For all integers n"
+- The symbol ∀ means: "For all integers x"
+
+1. 0 (Destroys multiplication and makes squares equal zero)
+   $(x0^2 + 2 ≥ 1)$ = 2 ≥ 1 // True
+
+2. −1 (Flips signs and tests negative cases)
+   $(x-1^2 + 2 ≥ 1)$ = 3 ≥ 1 // True
+
+3. 1 (The baseline positive number)
+   $(x1^2 + 2 ≥ 1)$ = 3 ≥ 1 // True
+
+4. 0.5 (Fractions get smaller when squared: $0.5^2 = 0.25$ )
+   $(x0.5^2 + 2 ≥ 1)$ = 2.25 ≥ 1 // True
+
+Conclusion: Because all test cases are True, the statement is True
 
 d) ∀x$(x^2 ≠ x)$
