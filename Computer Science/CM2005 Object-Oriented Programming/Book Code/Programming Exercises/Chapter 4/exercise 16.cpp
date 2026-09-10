@@ -26,28 +26,5 @@ int main()
  cin >> copiesSold;
  cout << endl;
 
- cout << "---- OPTION 1 ----" << endl;
- royalty1 = OPTION_1_FIXED;
- cout << "Total royalties: $" << royalty1 << endl;
-
- cout << "-------------" << endl;
-
- royalty2 = (netPrice * copiesSold) * OPTION_2_RATE;
-
- cout << "---- OPTION 2 ----" << endl;
- cout << "Total royalties: $" << royalty2 << endl;
-
- cout << "-------------" << endl;
-
- cout << "---- OPTION 3 ----" << endl;
- if (copiesSold < OPTION_3_THRESHOLD)
- {
-  royalty3 = (netPrice * copiesSold) * OPTION_3_RATE__TIER_1;
-  cout << "Total royalties: $" << royalty3 << endl;
- }
- else
- {
- }
-
  return 0;
 }

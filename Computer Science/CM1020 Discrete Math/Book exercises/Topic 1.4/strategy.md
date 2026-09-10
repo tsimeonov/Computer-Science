@@ -52,8 +52,8 @@ Your first instinct should always be to plug in numbers that behave weirdly in m
 
 1. $0$ (Destroys multiplication and makes squares equal zero)
 2. $-1$ (Flips signs and tests negative cases)
-3. $1$ (The baseline positive number)$0.5$ (Fractions get smaller when squared:
-4. $0.5^2 = 0.25$)
+3. $1$ (The baseline positive number)
+4. $0.5$ (Fractions get smaller when squared: $0.5^2 = 0.25$)
 
 How this gives you the answer:
 
