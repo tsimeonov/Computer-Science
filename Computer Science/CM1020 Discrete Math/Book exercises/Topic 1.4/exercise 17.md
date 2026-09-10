@@ -26,6 +26,19 @@ P(0) V P(1) V P(2) V P (3) V P(4)
 
 b) ∀xP(x)
 
+The rule:
+
+The universal quantifier (∀) means "for all x"
+In a finite domain this translates to a chain conjunction (the logical AND operator, represented by ∧)
+
+For the statement to true, P(x) needs to be true fot 0, AND, 1, AND, 2, AND 3, AND 4
+
+The answer
+
+P(0) ∧ P(1) ∧ P(2) ∧ P(3) ∧ P(4)
+
+The logic:
+
 c) ∃x¬P(x)
 
 d) ∀x¬P(x)
