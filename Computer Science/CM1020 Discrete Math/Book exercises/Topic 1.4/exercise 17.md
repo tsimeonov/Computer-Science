@@ -4,7 +4,7 @@ a) ∃xP(x)
 b) ∀xP(x)
 c) ∃x¬P(x)
 d) ∀x¬P(x)
-e) ¬+xP(x)
+e) ¬∃xP(x)
 f) ¬∀xP(x)
 
 ---
@@ -51,6 +51,21 @@ The answer
 
 d) ∀x¬P(x)
 
-e) ¬+xP(x)
+The rule:
+The universal quantifier (∀) means "for all x"
+
+Answer:
+¬P(0) ∧ ¬P(1) ∧ ¬P(2) ∧ ¬P(3) ∧ ¬P(4)
+
+e) ¬∃xP(x)
+
+The rule:
+The existential quantifier (∃) means "there exists at least one.
+
+Answer:
+If you want to distribute that negation to every item, you have to use the De Morgan's Law.
+When you distribute a negation intp a group, all OR's flip to AND's.
+
+¬P(0) ∧ ¬P(1) ∧ ¬P(2) ∧ ¬P(3) ∧ ¬P(4)
 
 f) ¬∀xP(x)
