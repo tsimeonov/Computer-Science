@@ -41,6 +41,14 @@ The logic:
 
 c) ∃x¬P(x)
 
+The rule
+
+The existential quantifier (∃) means "there exists at least one.
+
+The answer
+
+¬P(0) V ¬P(1) V ¬P(2) V ¬P(3) V ¬P(4)
+
 d) ∀x¬P(x)
 
 e) ¬+xP(x)
