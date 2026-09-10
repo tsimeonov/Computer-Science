@@ -56,3 +56,21 @@ Meaning of the statement:
 Conclusion: Because all test cases are True, the statement is True
 
 d) ∀x$(x^2 ≠ x)$
+
+Meaning of the statement
+
+- The symbol ∀ means: "For all integers x"
+
+1. 0 (Destroys multiplication and makes squares equal zero)
+   $(x0^2 ≠ x)$ = 0 ≠ 0 // False
+
+2. −1 (Flips signs and tests negative cases)
+   $(x-1^2 ≠ x)$ = 1 ≠ -1 // True
+
+3. 1 (The baseline positive number)
+   $(x1^2 ≠ x)$ = 1 ≠ 1 // False
+
+4. 0.5 (Fractions get smaller when squared: $0.5^2 = 0.25$ )
+   $(x0.5^2 ≠ x)$ = 0.25 ≠ 0.5 // True
+
+Conclusion: Because counterexamples exist (such as x = 1), the iniversal statement is False
