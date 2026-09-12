@@ -23,13 +23,9 @@ int main()
  sqSplit = basePriceSplit / areaSplit;
  sqSingle = basePriceSingle / areaSingle;
 
- // sqColonial = 1000;
- // sqSplit = 1500;
- // sqSingle = 500;
-
- cout << "sq colonial: " << sqColonial << endl;
- cout << "sq Split: " << sqSplit << endl;
- cout << "sq Single: " << sqSingle << endl;
+ // cout << "sq colonial: " << sqColonial << endl;
+ // cout << "sq Split: " << sqSplit << endl;
+ // cout << "sq Single: " << sqSingle << endl;
 
  if (sqColonial <= sqSplit && sqColonial <= sqSingle)
  {
