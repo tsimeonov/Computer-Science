@@ -24,7 +24,7 @@ int main()
 
  cout << fixed << setprecision(2);
 
- if (gender == "women")
+ if (gender == "female")
  {
   cout << "Type your bodyweight, wrist, waist, hip, forarm measurent: ";
   cin >> bodyWeightWomen >> wristWomen >> waistWomen >> hipWomen >> forarmWomen;
@@ -37,16 +37,16 @@ int main()
   double a5Women = forarmWomen * 0.434;
   double bWomen = a1Women + a2Women + a3Women + a4Women + a5Women;
   double fatWomen = bodyWeightWomen - bWomen;
-  double fatPerWomen = bWomen * 100 / bodyWeightWomen;
+  double fatPerWomen = fatWomen * 100 / bodyWeightWomen;
 
-  cout << "Your body fat is: " << fatPerWomen << endl;
+  cout << "Your body fat is: " << fatWomen << endl;
   cout << "Your body fat percentage is: " << fatPerWomen << "%" << endl;
  }
 
- if (gender == "men")
+ else if (gender == "male")
  {
   cout << "Type your bodyweigh and wrist measurent: ";
-  cin >> bodyWeightWomen >> wristMen;
+  cin >> bodyWeightMen >> wristMen;
   cout << endl;
 
   double a1Men = (bodyWeightMen * 1.082) + 94.42;
