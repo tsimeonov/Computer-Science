@@ -13,19 +13,19 @@ int main()
  cout << endl;
 
  // Loop through each character in the string
- for (char c : input)
+ for (int i = 0; i < input.size(); i++)
  {
   // Skip negative signs if the user types "-2345"
-  if (c == '-')
+  if (input[i] == '-')
    continue;
 
   // Convert the character to an integer
-  int digit = c - '0';
+  int digit = input[i] - '0';
 
   // Print the digit with a space for the row
   cout << digit << " ";
 
-  // Ass to the running total
+  // Add to the running total
   sum += digit;
  }
 
