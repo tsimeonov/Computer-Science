@@ -21,3 +21,5 @@
 - Examples:
   - $\{1, 2\} \subset \{1, 2, 3\}$ (True: 1 and 2 are there, and the second set has an extra number).
   - $\{1, 2\} \subset \{1, 2\}$ (False: they are exactly the same, so it is not a proper subset).
+
+---
