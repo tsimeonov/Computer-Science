@@ -13,4 +13,4 @@ b) {∅} // cardinality is 1
 
 c) {∅, {∅}} // cardinality is 2
 
-d) {∅, {∅}, {∅, {∅}}}
+d) {∅, {∅}, {∅, {∅}}} // cardinality is 3
