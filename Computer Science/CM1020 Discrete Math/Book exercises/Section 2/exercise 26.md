@@ -28,3 +28,7 @@ c) {∅, {a}, {∅, a}}
 - Conclusion: Because 3 is not a power of 2, this set cannot be the power set of any set
 
 d) {∅, {a}, {b}, {a, b}}
+
+- Size check: The set contains: 4 elements
+- The rule: The number of elements in any finite power set must be a power of 2
+- Conclusion: Because 4 is a power of 2, this set can be a set
