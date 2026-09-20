@@ -1,34 +1,47 @@
 #include <iostream>
-#include <string>
+#include <cctype> // for topper()
 
 using namespace std;
 
 int main()
 {
- string input;
- int sum = 0;
 
- cout << "Enter an integer number: ";
- cin >> input;
+ char letter;
+ int digit;
+
+ cout << "------" << endl;
+
+ cout << "This is a program to convert letters to \ntheir corresponding telephone digits" << endl;
+ cout << "------" << endl;
+
+ cout << "To stop the program type #." << endl;
+
+ cout << "------" << endl;
+
+ cout << "Enter a letter: ";
+ cin >> letter;
  cout << endl;
 
- for (int i = 0; i < input.size(); i++)
+ while (letter != '#')
  {
-  if (input[i] == '-')
+  // Convert lowercase to uppercase
+  char upper = toupper(letter);
+
+  if (upper >= 'A' && upper <= 'Z')
   {
-   continue;
+  }
+  else
+  {
+
+   cout << "Invalid input" << endl;
   }
 
-  int digit = input[i] - '0';
+  cout << "\nEnter another letter" << endl;
 
-  cout << digit << " ";
-
-  sum += digit;
+  cout << "Enter a letter: " << endl;
+  cin >> letter;
+  cout << endl;
  }
-
- cout << endl;
-
- cout << "Sum: " << sum << endl;
 
  return 0;
 }
