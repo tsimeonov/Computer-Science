@@ -4,3 +4,34 @@ Solution
 
 $3x^2y$
 $3*(2)^2*5 = 3*4*5 = 60$
+
+---
+
+2. Evaluate $8x + 17y - 2z$ when x = 6, y= 1 and z = -2.
+
+Solution
+
+$8x + 17y- 2z$
+$8*(6)+17*(1) - 2*(-2)$
+$48 + 17 - 4 = 69 $
+
+---
+
+3. The area A of a circle is found from the formula $A= pr^2$, where r is the length of the radius. Taking p to be 3.142 find the areas of the circles whose radii, in centimetres, are;
+
+- r = 10,
+- r = 3,
+- r = 0.2
+
+Solution
+
+- r = 10
+  $A= 3.142 \times 10^2 = 3.142 \times 100 = 314.2$
+
+- r = 3
+  $A= 3.142 \times 3^2 = 3.142 \times 9 = 28.278$
+
+- r = 0.2
+  $A= 3.142 \times 0.2^2 = 3.142 \times 0.04 = 0.12568$
+
+---
