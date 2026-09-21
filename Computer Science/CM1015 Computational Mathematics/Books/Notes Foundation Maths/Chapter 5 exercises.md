@@ -48,3 +48,19 @@ Solution
 - (b) $xy^2z^4 = x(y*y)(z*z*z*z)$
 
 ---
+
+5. Write the folling expressions compactly using indices:
+
+(a) $xxxyyx$
+(b) $xxyyzzz$
+(c) $xyzxyz$
+(d) $abccba$
+
+Solution
+
+(a) $xxxyyx = x^4y^2$
+(b) $xxyyzzz = x^2y^2z^3$
+(c) $xyzxyz = x^2y^2z^2$
+(d) $abccba = a^2b^2c^2$
+
+---
