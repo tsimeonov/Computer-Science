@@ -30,9 +30,21 @@ Solution
 
 3. Use a calculator to evaluate $11^4, 16^8, 39^4, 1.5^7$
 
+Solution
+
 - $11^4$ = 14.641
 - $16^8$ = 4.294.967.296
 - $39^4$ = 2.313.441
 - $1.5^7$ = 17.0859375
+
+---
+
+4. Write out fully (a) $a^4b^2c$ and (b) $xy^2z^4$
+
+Solution
+
+- (a) $a^4b^2c = (a*a*a*a)(b*b)c$
+
+- (b) $xy^2z^4 = x(y*y)(z*z*z*z)$
 
 ---
