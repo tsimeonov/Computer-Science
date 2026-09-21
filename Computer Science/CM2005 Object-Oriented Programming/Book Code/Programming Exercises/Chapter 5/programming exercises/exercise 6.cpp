@@ -14,7 +14,7 @@ int main()
  cout << endl;
 
  // Before doing any heavy math, the program handles special cases immediately
- // Number like 0, 1 or negative numbers ar never prime
+ // Number like 0, 1 or negative numbers are never prime
  if (num <= 1)
  {
   isPrime = false;
@@ -24,7 +24,7 @@ int main()
  {
   isPrime = true;
  }
- /* If a number is divisible by 2 (and isnt' 2 itself), it is ab even composite number
+ /* If a number is divisible by 2 (and isnt' 2 itself), it is an even composite number
 (4,6,8,10.....) We mark it as not prime */
  else if (num % 2 == 0)
  {
