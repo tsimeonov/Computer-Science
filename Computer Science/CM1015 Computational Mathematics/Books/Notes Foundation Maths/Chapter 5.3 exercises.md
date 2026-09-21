@@ -35,3 +35,12 @@ Solution
   $A= 3.142 \times 0.2^2 = 3.142 \times 0.04 = 0.12568$
 
 ---
+
+4. Evaluate $3x^2$ and $(3x)^2$ when x = 4.
+
+Solution
+
+- $3x^2 = 3 \times (4)^2 = 3\times 16 = 48$
+- $(3x)^2 = (3\times4) \times (3\times4) =12 \times 12 = 144$
+
+---
