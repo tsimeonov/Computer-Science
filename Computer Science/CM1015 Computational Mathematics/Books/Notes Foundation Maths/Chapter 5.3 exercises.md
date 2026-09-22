@@ -120,3 +120,23 @@ Solution:
 - $(- 3x)^2 = (-3)\times(-3) \times (-2)\times (-2) = 9 \times 4 = 36$
 
 ---
+
+11. Evaluate the following when x = -3
+
+- $\frac{x^2}{3}$
+- $(-x)^2$
+- $-(\frac{x}{3})^2$
+- $4x^2$
+- $-4x^2$
+- $(-4x)^2$
+
+Solution:
+
+- $\frac{x^2}{3} = \frac{(-3)\times(-3)}{3} = \frac{9}{3} = 3 $
+- $(-x)^2 = -(-3)\times -(-3) =9$
+- $-(\frac{x}{3})^2 = -(\frac{-3}{3}) \times (\frac{-3}{3}) = -\frac{9}{9} = -1$
+- $4x^2 = 4 \times (-3) \times (-3) = 4 \times 9 = 36$
+- $-4x^2 = -4 \times (-3) \times (-3) = 4 \times 9 = -36$
+- $(-4x)^2 = (-4\times -3)\times (-4\times -3)$
+
+---
