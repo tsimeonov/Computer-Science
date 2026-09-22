@@ -251,3 +251,22 @@ Solution
   $\frac{100}{5}+3 = 23$
 
 ---
+
+19. Evaluate $\frac{x^3}{2}$ when
+
+- x = -1
+- x = 2
+- x = 4
+
+Solution
+
+- x = -1
+  $\frac{(-1)\times(-1)\times(-1)}{2}= $
+  $\frac{-1}{2}= -0.5$
+- x = 2
+  $\frac{(2)\times(2)\times(2)}{2} = 4 $
+
+- x = 4
+  $\frac{(4)\times(4)\times(4)}{2} = 32 $
+
+---
