@@ -296,3 +296,22 @@ Solution
   $y = \frac{-1}{2} + 3 = -0.5 + 3 = 2.5$
 
 ---
+
+21. If $g = 2t^2-1$, find g when
+
+- t = 3
+- t = 0.5
+- t = -2
+
+Solution
+
+- t = 3
+  $g = 2\times(3)\times(3)-1 = 17$
+
+- t = 0.5
+  $g = 2\times(0.5)\times(0.5)-1 = 1.25$
+
+- t = -2
+  $g = 2\times(-2)\times(-2)-1 = 7$
+
+---
