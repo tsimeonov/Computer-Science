@@ -225,3 +225,29 @@ Solution
   $0.667-0.5=0.167$
 
 ---
+
+18. Evaluate $\frac{4x^2}{5}+3$ when
+
+- x = 0
+- x = 1
+- x = 5
+- x = -5
+
+Solution
+
+- x = 0
+  $\frac{4\times(0)\times(0)}{5}+3 = 3$
+
+- x = 1
+  $\frac{4\times(1)\times(1)}{5}+3 = $
+  $\frac{4}{5}+3 = 0.8 + 3 = 3.8$
+
+- x = 5
+  $\frac{4\times(5)\times(5)}{5}+3 = $
+  $\frac{100}{5}+3 = 23$
+
+- x = -5
+  $\frac{4\times(-5)\times(-5)}{5}+3 = $
+  $\frac{100}{5}+3 = 23$
+
+---
