@@ -4,60 +4,48 @@ using namespace std;
 
 int main()
 {
-
  int num;
  bool isPrime;
  int divisor = 0;
 
- cout << "Enter a positive integer: ";
+ cout << "Enter an integer number: ";
  cin >> num;
  cout << endl;
 
- // Before doing any heavy math, the program handles special cases
- // Numbers like 0,1 and negative numbers are never prime
+ // Before doing any heavy math, theprogram can handle some special cases immedialtly
+ // If a number is 0,1 or negative, it can't be a prime number
  if (num <= 1)
  {
   isPrime = false;
  }
- // 2 i the only even prime number. If the user enter 2, we immediatley mark it as 2
+ // 2 is the only even prime number
  else if (num == 2)
  {
   isPrime = true;
  }
- // If a number is divisiable by 2 (and isn't 2 itself), it is an even composite number
- // like 4,6,8, we mark it as not prime
+ // If a number is divisible by 2, but not 2 itself, it is an even composite number
+ // (4,6,8)
  else if (num % 2 == 0)
  {
   isPrime = false;
  }
- // If a number passes all three checks abovem it must be odd number greater that 2
+ // If a number passes all the above checks, it means the number is odd and greater than 2
  else
  {
-  // assume it's prime utin prove otherwise
+  // Assume it's a prime until preven otherwise
   isPrime = true;
-  // Start checking at 3, the first odd factor
+  // Start checking at 3 (the first odd number)
   divisor = 3;
 
   while (divisor * divisor <= num && isPrime == true)
   {
    if (num % divisor == 0)
    {
-    // it divided evenly so it's not prime
+    // If divided evenly, so it's not prime
     isPrime = false;
    }
-   // Jump to the next odd number (3,5,7...)
+   // Jump to the next odd number
    divisor = divisor + 2;
   }
  }
-
- if (isPrime == true)
- {
-  cout << num << " is a prime number" << endl;
- }
- else
- {
-  cout << num << " is not a prime number" << endl;
- }
-
- return 0;
 }

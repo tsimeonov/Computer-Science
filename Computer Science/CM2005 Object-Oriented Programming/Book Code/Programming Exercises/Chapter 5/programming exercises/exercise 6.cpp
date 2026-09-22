@@ -31,7 +31,7 @@ int main()
   isPrime = false;
  }
 
- /* If a number passes all three checks above, it must be odd number greater that 2 (sucha as 9,15,25,97)
+ /* If a number passes all three checks above, it must be odd number greater that 2 (such as 9,15,25,97)
   */
  else
  {
@@ -44,7 +44,7 @@ int main()
   {
    if (num % divisor == 0)
    {
-    // It divided evenly, so it's not prime
+    // If divided evenly, so it's not prime
     isPrime = false;
    }
    // Jump to the next odd number (3,5,7,9...)
