@@ -169,3 +169,35 @@ $-x^2 + 3x - 5$
 $-(-1)\times(-1)+3\times(-1)-5 = -1-3-5= -9$
 
 ---
+
+15. Evaluate $-9x^2 + 2x$ when x = 0
+
+Solution:
+
+$-9x^2 + 2x$
+$-9\times(0)\times(0) + 2\times(0) = 0$
+
+---
+
+16. Evaluate $5x^2 + x + 1$ when:
+
+- x = 3
+- x = -3
+- x = 0
+- x = -1
+
+Solution
+
+- x = 3
+  $5\times(3)\times(3) + (3) + 1 = 5\times9+4 = 49$
+
+- x = -3
+  $5\times(-3)\times(-3) + (-3) + 1 = 45+(-3)+1= 43$
+
+- x = 0
+  $5\times(0)\times(0) + (0) + 1 = 1$
+
+- x = -1
+  $5\times(-1)\times(-1) + (-1) + 1 = 5\times1 = 5$
+
+---
