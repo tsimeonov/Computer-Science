@@ -201,3 +201,27 @@ Solution
   $5\times(-1)\times(-1) + (-1) + 1 = 5\times1 = 5$
 
 ---
+
+17. Evaluate $\frac{2x^2}{3}-\frac{x}{2}$ when
+
+Solution
+
+- x = 6
+  $\frac{2\times(6)\times(6)}{3}-\frac{6}{2}$
+  $\frac{2\times36}{3}-\frac{6}{2}$
+  $\frac{72}{3}-\frac{6}{2}$
+  $24-3 = 21$
+- x = -6
+  $\frac{2\times(-6)\times(-6)}{3}-\frac{-6}{2}=$
+  $\frac{72}{3}-\frac{-6}{2}=$
+  $24-(-3)=  27$
+
+- x = 0
+  $\frac{2\times(0)\times(0)}{3}-\frac{0}{2}=0$
+
+- x = 1
+  $\frac{2\times(1)\times(1)}{3}-\frac{1}{2}=$
+  $\frac{2}{3}-\frac{1}{2}=$
+  $0.667-0.5=0.167$
+
+---
