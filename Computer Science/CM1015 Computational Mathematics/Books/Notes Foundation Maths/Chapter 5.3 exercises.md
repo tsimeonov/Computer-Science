@@ -137,6 +137,16 @@ Solution:
 - $-(\frac{x}{3})^2 = -(\frac{-3}{3}) \times (\frac{-3}{3}) = -\frac{9}{9} = -1$
 - $4x^2 = 4 \times (-3) \times (-3) = 4 \times 9 = 36$
 - $-4x^2 = -4 \times (-3) \times (-3) = 4 \times 9 = -36$
-- $(-4x)^2 = (-4\times -3)\times (-4\times -3)$
+- $(-4x)^2 = (-4\times -3)\times (-4\times -3) = 12 \times 12 = 144$
+
+---
+
+12. Evaluate $x^2 - 7x + 2$ when x = -9
+
+Solution
+
+$x^2 - 7x + 2$
+$(-9)\times(-9) - 7\times(-9) + 2$
+$81+63+2 = 146$
 
 ---
