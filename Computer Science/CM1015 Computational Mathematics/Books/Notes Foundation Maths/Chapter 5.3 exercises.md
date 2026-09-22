@@ -270,3 +270,29 @@ Solution
   $\frac{(4)\times(4)\times(4)}{2} = 32 $
 
 ---
+
+20. Use the formula $y = \frac{x^3}{2} + 3x^2$ to find y when
+
+- x = 0
+- x = 2
+- x = 3
+- x = -1
+
+Solution
+
+- x = 0
+  $y = \frac{(0)\times(0)\times(0)}{2} + 3\times(0)\times(0) = 0$
+
+- x = 2
+  $y = \frac{(2)\times(2)\times(2)}{2} + 3\times(2)\times(2)$
+  $y = \frac{8}{2} + 12 = 4 + 12 = 16$
+
+- x = 3
+  $y = \frac{(3)\times(3)\times(3)}{2} + 3\times(3)\times(3)$
+  $y = \frac{27}{2} + 27 = 13.5 + 27 = 40.5$
+
+- x = -1
+  $y = \frac{(-1)\times(-1)\times(-1)}{2} + 3\times(-1)\times(-1)$
+  $y = \frac{-1}{2} + 3 = -0.5 + 3 = 2.5$
+
+---
