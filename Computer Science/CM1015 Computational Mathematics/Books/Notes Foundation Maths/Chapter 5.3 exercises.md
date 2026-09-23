@@ -315,3 +315,18 @@ Solution
   $g = 2\times(-2)\times(-2)-1 = 7$
 
 ---
+
+22. In business calculations, the simple interest earned on an investment, I, is calculated from the formula I = Prn, where P is the amount invested, r is the interest rate and n is the number of time periods. Evaluate I when
+
+- P = 15000, r = 0.08 and n = 5
+- P = 12500, r = 0.075 and n = 3
+
+- P = 15000, r = 0.08 and n = 5
+  $15000 \times 0.08 \times 5 = 6000$
+
+- P = 12500, r = 0.075 and n = 3
+  $12500 \times 0.075 \times 3 = 2812.5$
+
+Solution
+
+---
