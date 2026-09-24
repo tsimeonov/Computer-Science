@@ -1,4 +1,4 @@
-### The laws of indices
+#### 6.1 The laws of indices
 
 - First law
   $a^m \times a^n = a^{m+n}$
@@ -12,3 +12,7 @@
   $(a^m)^n = a^{mn}$
 
 - Key point: $(a^mb^n)^k = a^{mk}b^{nk}$
+
+#### 6.2 Negative powers
+
+- key poits - $a^{-m} = \frac{1}{a^m}$, $a^{m} = \frac{1}{a^{-m}}$
