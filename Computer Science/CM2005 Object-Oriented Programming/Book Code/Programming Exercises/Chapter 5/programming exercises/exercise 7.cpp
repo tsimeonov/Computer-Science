@@ -10,48 +10,98 @@ using namespace std;
 
 int main()
 {
- // Variables
- // Holds the number you type in
+
+ // ==========================================
+ // STEP 1: SET UP CORE VARIABLES
+ // ==========================================
+ // 'num' : holds the original input
+ // 'alternating_sum' : acts as our running score
+ // 'sign' : acts as a flipper, boincing between 1 (add) and
+ // -1 (substract)
  int num;
- // A copy of num. We use this copy to chop up the digits so we don't destroy the
- // origirnal num
- int temp = num;
- // The running score
  int alternating_sum = 0;
- // Acts as a flipper. It starts as 1 (for addition), then flips to -1 (for substraction)
- // and keeps bouncing back and forth
  int sign = 1;
 
+ // ==========================================
+ // STEP 2: GET USER INPUT
+ // ==========================================
+ // Prompt the user and capture their number
  cout << "Enter a positive integer: ";
  cin >> num;
  cout << endl;
 
- // It processes the number one digit at a time, from right to left
+ // ==========================================
+ // STEP 3: PREPARE THE STATE FOR THE LOOP
+ // ==========================================
+ // 'temp' : is a working copy of 'num' so we can chop it up without losing the original.
+ int temp = num;
+
+ // 'is_first_digit': is a flag. We use it so we don't accidentally print
+ // "+" or "-" in front of the very first number is our visual equation
+ bool is_first_digit = true;
+
+ // Start printing the visual equation
+ cout << "t = ";
+
+ // ==========================================
+ // STEP 4: START THE EXTRACTION LOOP
+ // ==========================================
+ // Keep looping as long as there are digits to process
  while (temp > 0)
  {
-  // (Th grabber) This math trick always grabs the last digit of a number.
-  // For 425, it grabs 5
+  // STEP 4A: GRAB THE LAST DIGIT
+  // The modulo operator (%) divides bt 10 and gives the remainder
+  // (the last digit)
   int digit = temp % 10;
 
-  // (The math): It takes that 5 and multiplies it by our sign.
-  // Since sign is currently 1, it adds 5 to our score
+  // ==========================================
+  // STEP 5: BUILD THE VISUAL EQUATION
+  // ==========================================
+  if (is_first_digit)
+  {
+   // If it's the first digit, just print is plain, then turn the flag off forever
+   cout << digit;
+   is_first_digit = false;
+  }
+  else
+  {
+   // For all following digits, check the 'sign' variable to see if we
+   // should print a plus or a minus before the number
+   if (sign == 1)
+   {
+    cout << " + " << digit;
+   }
+   else
+   {
+    cout << " - " << digit;
+   }
+  }
+
+  // ==========================================
+  // STEP 6: PERFORM THE MATH & UPDATE STATE
+  // ==========================================
+  // Multiply the digit by our current sign (1 or -1) and add it to our score
   alternating_sum = alternating_sum + (digit * sign);
 
-  // Flip the sign for the next digit (1 becomes -1, -1 becomes 1)
+  // Flip the sign for the nect digit (1 becomes -1, and -1 becomes 1)
   sign = sign * -1;
 
-  // (The Eraser): This chops off the last digit. 425 becomes 42.
+  // Chop the last digit off our working number using integer division.
+  // Example: 425 becomes 42
   temp = temp / 10;
-
-  // The loop repeats. It grabs the 2, substracts it from the score, flips the sign back to positive and chops the 2 off so the number is just 4. It does this until the number is completly chopped down to 0, at which point the loop stops.
  }
 
- /*
- Once the loop finishes, all the addition and subtraction is done. The program looks at your final alternating_sum
- */
+ // ==========================================
+ // STEP 7: FINALIZE VISUAL OUTPUT
+ // ==========================================
+ // The loop is over. Cap off the equation by printing the final score
+ cout << "  = " << alternating_sum << endl;
 
- // Using if (alternating_sum % 11 == 0), it asks "Does this final score divide cleanly by 11 with zetro remainder"
-
+ // ==========================================
+ // STEP 8: EVALUATE DIVISIBILITY
+ // ==========================================
+ // If the final score divides evenly by 11 (meaning the remainder is 0)
+ // then the originalnumber is also divisible by 11
  if (alternating_sum % 11 == 0)
  {
   cout << num << " is divisible by 11" << endl;
@@ -60,4 +110,14 @@ int main()
  {
   cout << num << " is not divisible by 11" << endl;
  }
+
+ return 0;
 }
+
+/*
+Sample
+n = 8784204
+Then t = 4 - 0 + 2 - 4 + 8 - 7 + 8 = 11
+
+Because 2 is not divisible by 11, 54063297 is not divisible by 11
+*/
