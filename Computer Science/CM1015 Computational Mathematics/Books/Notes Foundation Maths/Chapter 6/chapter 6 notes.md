@@ -16,3 +16,9 @@
 #### 6.2 Negative powers
 
 - key poits - $a^{-m} = \frac{1}{a^m}$, $a^{m} = \frac{1}{a^{-m}}$
+
+#### 6.3 Square roots, cube roots and fractional powers
+
+- Key point: $x^\frac{1}{2} = \sqrt{x}$, $x^\frac{1}{3} = \sqrt[3]{x}$
+- Key point: $x^\frac{1}{n} = \sqrt[n]{x}$
+- Key point: $a^\frac{m}{n} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$
