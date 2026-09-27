@@ -22,3 +22,7 @@
 - Key point: $x^\frac{1}{2} = \sqrt{x}$, $x^\frac{1}{3} = \sqrt[3]{x}$
 - Key point: $x^\frac{1}{n} = \sqrt[n]{x}$
 - Key point: $a^\frac{m}{n} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$
+
+#### 6.4 Multiplication and division by powers of 10
+
+#### 6.5 Scientific notation
