@@ -37,7 +37,7 @@ int main()
  int temp = num;
 
  // 'is_first_digit': is a flag. We use it so we don't accidentally print
- // "+" or "-" in front of the very first number is our visual equation
+ // "+" or "-" in front of the very first number in our visual equation
  bool is_first_digit = true;
 
  // Start printing the visual equation
@@ -50,7 +50,7 @@ int main()
  while (temp > 0)
  {
   // STEP 4A: GRAB THE LAST DIGIT
-  // The modulo operator (%) divides bt 10 and gives the remainder
+  // The modulo operator (%) divides by 10 and gives the remainder
   // (the last digit)
   int digit = temp % 10;
 
@@ -59,7 +59,7 @@ int main()
   // ==========================================
   if (is_first_digit)
   {
-   // If it's the first digit, just print is plain, then turn the flag off forever
+   // If it's the first digit, just print it plain, then turn the flag off forever
    cout << digit;
    is_first_digit = false;
   }
@@ -83,7 +83,7 @@ int main()
   // Multiply the digit by our current sign (1 or -1) and add it to our score
   alternating_sum = alternating_sum + (digit * sign);
 
-  // Flip the sign for the nect digit (1 becomes -1, and -1 becomes 1)
+  // Flip the sign for the next digit (1 becomes -1, and -1 becomes 1)
   sign = sign * -1;
 
   // Chop the last digit off our working number using integer division.
