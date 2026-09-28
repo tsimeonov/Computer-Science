@@ -98,3 +98,9 @@ Final answer:
 $a^{\frac{1}{4}-\frac{1}{2a}}b^{\frac{3}{4}+\frac{1}{2a}}c^2$
 
 ---
+
+2. Simplify
+
+- $\frac{x^5}{z^{-5}}$
+- $z^0$
+- $\frac{x^5}{z^{-5}}$
