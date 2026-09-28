@@ -99,8 +99,19 @@ $a^{\frac{1}{4}-\frac{1}{2a}}b^{\frac{3}{4}+\frac{1}{2a}}c^2$
 
 ---
 
-2. Simplify
+#### 2. Simplify
 
 - $\frac{x^5}{z^{-5}}$
 - $z^0$
+- $\frac{z^8\times z^6}{z^{14}}$
+
+Solution
+
 - $\frac{x^5}{z^{-5}}$
+  <br>
+- $z^0$
+  <br>
+
+- $\frac{z^8\times z^6}{z^{14}}$
+
+---
