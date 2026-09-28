@@ -16,7 +16,7 @@ int main()
  // ==========================================
  // 'num' : holds the original input
  // 'alternating_sum' : acts as our running score
- // 'sign' : acts as a flipper, boincing between 1 (add) and
+ // 'sign' : acts as a flipper, bouncing between 1 (add) and
  // -1 (substract)
  int num;
  int alternating_sum = 0;
@@ -41,7 +41,7 @@ int main()
  bool is_first_digit = true;
 
  // Start printing the visual equation
- cout << "t = ";
+ cout << "Nr. splitted: ";
 
  // ==========================================
  // STEP 4: START THE EXTRACTION LOOP
@@ -101,7 +101,7 @@ int main()
  // STEP 8: EVALUATE DIVISIBILITY
  // ==========================================
  // If the final score divides evenly by 11 (meaning the remainder is 0)
- // then the originalnumber is also divisible by 11
+ // then the original number is also divisible by 11
  if (alternating_sum % 11 == 0)
  {
   cout << num << " is divisible by 11" << endl;
