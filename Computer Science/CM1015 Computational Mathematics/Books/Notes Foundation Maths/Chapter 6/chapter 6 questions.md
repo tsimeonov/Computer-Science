@@ -78,15 +78,23 @@ $\sqrt{b^{\frac{1}{a}}a^{-\frac{1}{a}} \times  a^{\frac{1}{2}}b^{\frac{3}{2}}c^4
 
 Combine the matching variables by adding their exponents:
 
-- For a: $-\frac{1}{a}+\frac{1}{a} = \frac{1}{2} - \frac{1}{a}$
-- For b: $-\frac{1}{a}+\frac{3}{2} = \frac{3}{2} + \frac{1}{a}$
+- For a: $-\frac{1}{a}+\frac{1}{2} = \frac{1}{2} - \frac{1}{a}$
+- For b: $\frac{1}{a}+\frac{3}{2} = \frac{3}{2} + \frac{1}{a}$
 - For c: 4
 
 This gives the fully combined inner equation:
-$\sqrt{a^{\frac{1}{2}-\frac{1}{a}}b^{\frac{3}{2}+\frac{1}{a}}c^2}$
+$\sqrt{a^{\frac{1}{2}-\frac{1}{a}}b^{\frac{3}{2}+\frac{1}{a}}c^4}$
 
 Step 5: Distribute the outer square root
 Raise the entire expression to the $\frac{1}{2}$ power by multiplying every
 exponent by $\frac{1}{2}$
+
+- For a: $(\frac{1}{2} - \frac{1}{a}) \times \frac{1}{2} = \frac{1}{4} - \frac{1}{2a}$
+- For b: $(\frac{3}{2} + \frac{1}{a}) \times \frac{1}{2} = \frac{3}{4} + \frac{1}{2a}$
+- For c: $4 \times \frac{1}{2} = 2$
+
+Final answer:
+
+$a^{\frac{1}{4}-\frac{1}{2a}}b^{\frac{3}{4}+\frac{1}{2a}}c^2$
 
 ---
