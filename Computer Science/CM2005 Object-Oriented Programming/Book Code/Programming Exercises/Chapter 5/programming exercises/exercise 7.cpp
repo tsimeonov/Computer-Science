@@ -95,7 +95,7 @@ int main()
  // STEP 7: FINALIZE VISUAL OUTPUT
  // ==========================================
  // The loop is over. Cap off the equation by printing the final score
- cout << "  = " << alternating_sum << endl;
+ cout << " = " << alternating_sum << endl;
 
  // ==========================================
  // STEP 8: EVALUATE DIVISIBILITY
