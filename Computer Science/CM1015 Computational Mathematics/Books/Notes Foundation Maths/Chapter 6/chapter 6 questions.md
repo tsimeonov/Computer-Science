@@ -171,3 +171,19 @@ Solution
 - $(8x^2)^{-3}$
 
 ---
+
+#### 7. Express each of the following numbers in scientific notation
+
+- 5792
+- 98.4
+- 0.001
+- -66.667
+
+Solution
+
+- 5792
+- 98.4
+- 0.001
+- -66.667
+
+---
