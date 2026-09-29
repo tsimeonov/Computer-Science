@@ -15,8 +15,7 @@ int main()
  if (firstNum < secondNum)
  {
   // a: output all odd numbers between the two numbers
-
-  cout << "Odd numbers: ";
+  cout << "The odd numbers are: ";
 
   while (firstNum <= secondNum)
   {

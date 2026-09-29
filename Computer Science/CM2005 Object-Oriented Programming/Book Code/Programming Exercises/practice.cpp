@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-
  // Variables
  int firstNum;
  int secondNum;
@@ -15,22 +14,20 @@ int main()
 
  if (firstNum < secondNum)
  {
-  // a: Output all odd numbers between the numbers
-
-  int current = firstNum + 1;
-
+  // a: output all odd numbers between the two numbers
   cout << "Odd numbers: ";
 
-  while (current < secondNum)
+  while (firstNum <= secondNum)
   {
-   if (current % 2 != 0)
+   if (firstNum % 2 != 0)
    {
-    cout << current << " " << flush;
+    cout << firstNum << " " << flush;
    }
-   current++;
+   firstNum++;
   }
   cout << endl;
  }
+
  else
  {
   cout << "The first number needs to be less than the second number" << endl;
