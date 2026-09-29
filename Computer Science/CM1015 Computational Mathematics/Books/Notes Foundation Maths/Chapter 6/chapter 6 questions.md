@@ -147,3 +147,27 @@ Solution
 $\frac{x^8x^{-3}}{x^{-5}x^{2}}$
 
 ---
+
+#### 5. Find the value of
+
+$(1/7)^0$
+
+Solution
+
+$(1/7)^0$
+
+---
+
+#### 6. Remove the brackets from
+
+- $(abc^2)^2$
+- $(xy^2z^3)^2$
+- $(8x^2)^{-3}$
+
+Solution
+
+- $(abc^2)^2$
+- $(xy^2z^3)^2$
+- $(8x^2)^{-3}$
+
+---
