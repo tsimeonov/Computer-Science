@@ -5,63 +5,35 @@ using namespace std;
 int main()
 {
 
- // Step 1: set up core variables
- int num;
- int alternating_sum = 0;
- int sign = 1;
+ // Variables
+ int firstNum;
+ int secondNum;
 
- // Step 2: get user input
- cout << "Enter an integer number: ";
- cin >> num;
+ cout << "Enter first and second num: ";
+ cin >> firstNum >> secondNum;
  cout << endl;
 
- // Step 3: Prepare the state for the loop
- int temp = num;
- bool is_first_digit = true;
- cout << "Nr. splitted: ";
-
- // Step 4: Star the extraction loop
- while (temp > 0)
+ if (firstNum < secondNum)
  {
-  int digit = temp % 10;
+  // a: Output all odd numbers between the numbers
 
-  // Step 5: Build the visual equation
-  if (is_first_digit)
+  int current = firstNum + 1;
+
+  cout << "Odd numbers: ";
+
+  while (current < secondNum)
   {
-   cout << digit;
-   is_first_digit = false;
-  }
-  else
-  {
-   if (sign == 1)
+   if (current % 2 != 0)
    {
-    cout << " + " << digit;
+    cout << current << " " << flush;
    }
-   else
-   {
-    cout << " - " << digit;
-   }
+   current++;
   }
-
-  // Step 6: Perform the math and update state
-  alternating_sum = alternating_sum + (digit * sign);
-
-  sign = sign * -1;
-  temp = temp / 10;
- }
-
- // Step 7: Finalize visual output
-
- cout << " = " << alternating_sum << endl;
-
- // Step 8: Evaluate divisibility
- if (alternating_sum % 11 == 0)
- {
-  cout << num << " is divisible by 11" << endl;
+  cout << endl;
  }
  else
  {
-  cout << num << " is not divisible by 11" << endl;
+  cout << "The first number needs to be less than the second number" << endl;
  }
 
  return 0;
