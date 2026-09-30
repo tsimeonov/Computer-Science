@@ -68,3 +68,9 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 #### 6.4 Multiplication and division by powers of 10
 
 #### 6.5 Scientific notation
+
+---
+
+### 7. Simplifying algebraic expressions
+
+#### 7.1 Addition and substraction of like terms
