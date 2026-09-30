@@ -39,7 +39,7 @@ $100_2 = (1 \times 4) + (0 \times 2) + (1 \times 21) = 5_{10}$
 
 2. Converting from Base 10 to any Base
 
-TO convert a decimal to another base, repeatedly divide the decimal number by the target base. Record the remainders, and read them from the bottom up to get the final answer
+To convert a decimal to another base, repeatedly divide the decimal number by the target base. Record the remainders, and read them from the bottom up to get the final answer
 
 - Example: Convert $25_{10} to binary (Base 2)$
   - 25 / 2 = 12 with a remainder of 1
@@ -54,8 +54,12 @@ TO convert a decimal to another base, repeatedly divide the decimal number by th
 Binary math follows the exact same logic as decimal math, but you carry over or borrow when you reach 2 instead of 10
 
 - Binary addition
-  The rules are: 0 + 0 = 0, 1 + 0 = 1, $1 + 1 = 10_2$ (write 0, carry 1), and
-  $1 + 1 + 1 = 11_2$ (write w, carry 1)
+  The rules are:
+
+  - 0 + 0 = 0
+  - 1 + 0 = 1
+  - $1 + 1 = 10_2$ (write 0, carry 1), and
+  - $1 + 1 + 1 = 11_2$ (write w, carry 1)
 
   - Example $1011_2 + 1101_2$
 
@@ -65,4 +69,21 @@ Binary math follows the exact same logic as decimal math, but you carry over or 
  + 1101 (13 in decimal)
 ```
 
-- 11000 (24 in decimal)
+- Binary Subtraction
+  The rules are:
+  - 0 - 0 = 0
+  - 1 - 0 = 1
+  - 1 - 1 = 0
+  - 0 - 1 = 1
+
+When subtracting 1 from 0, you must borrow 1 from the next comumn to the left.
+Just like borrowing a 10 in decimal math, a borrowed 1 in binary acts as a 2 in your current column.
+
+Example: $1102_2 - 11_2$ (which is 6 - 3 in decimal)
+
+- Step 1 (Right column): 0 - 1. You cannot do this, so borrow from the middle column.
+  The 0 becomes a 2. Now 2 - 1 = 1
+- Step 2 (Middle column): The middle 1 was borrowed, so it is now a 0. You have 0 - 1.
+  Borrow from the left column. The 0 becomes 2. Now, 2 - 1 = 1
+- Step 3 (Left column): The left 1 was borrowed in the previous step, so it is now a 0
+- Result $011_2$, which simplifies to $11_2$ (3 in decimal)
