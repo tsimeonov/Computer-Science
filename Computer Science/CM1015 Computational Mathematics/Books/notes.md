@@ -74,3 +74,12 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 ### 7. Simplifying algebraic expressions
 
 #### 7.1 Addition and substraction of like terms
+
+#### 7.2 Multiplying algebraic expressions and removing brackets
+
+- Key point
+  When multiplying
+  positive x positive = positive
+  positive x negative = negative
+  negative x positive = negative
+  negative x negative = positive
