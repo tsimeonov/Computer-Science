@@ -110,3 +110,45 @@ Solution
 - 5y+3y = 8y
 
 ---
+
+##### 7. Simplify each of the following
+
+- $(abc)(a^2bc)$
+- $(x^2y)(xy)$
+- $(xy^2)(xy^2)$
+
+Solution
+
+- $(abc)(a^2bc) = a^3b^2c^2$
+  <br>
+
+- $(x^2y)(xy) = x^3y^2$
+  <br>
+
+- $(xy^2)(xy^2) = x^2y^4$
+
+---
+
+##### 8. Explain th distinction, if any between
+
+- $(xy^2)(xy^2)$
+- $xy^2xy^2$
+
+Solution
+
+- $(xy^2)(xy^2) = x^2y^4$
+- $xy^2xy^2 = x^2y^4$
+
+---
+
+##### 9. Explain the distinction, if any between
+
+- $(xy^2)(xy^2)$
+- $(xy^2) + (xy^2)$
+
+Solution
+
+- $(xy^2)(xy^2) = x^2y^4$
+- $(xy^2) + (xy^2) = 2xy^2$
+
+---
