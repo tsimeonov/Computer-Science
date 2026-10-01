@@ -106,6 +106,31 @@ Solution
 - $(x+3)(x-3)=x^2-3x+3x-9=x^2-9$
   <br>
 
-- $(2-x)(3+2x)$
+- $(2-x)(3+2x)=6+4x-3x-2x^2=6+x-2x^2$
+
+---
+
+##### 6. Remove the brackets from
+
+- $\frac{1}{2}(x+2y)+\frac{7}{2}(4x-y)$
+- $\frac{3}{4}(x-1)+\frac{1}{4}(2x+8)$
+
+Solution
+
+- $\frac{1}{2}(x+2y)+\frac{7}{2}(4x-y)$
+  $\frac{1}{2}(x)=\frac{1}{2}x$
+  $\frac{1}{2}(2y)=\frac{1}{2}2y=y$
+  $\frac{7}{2}(4x)=\frac{28x}{2}=14x$
+  $\frac{7}{2}(-y)=-\frac{7}{2}y$
+  $\frac{1}{2}x+y+14x-\frac{7}{2}y$
+  Combine the x terms
+  $\frac{1}{2}x+14x = 0.5x+14x = 14.5x$
+  Combine the y terms
+  $1y-\frac{7}{2}y = -\frac{5}{2}y=-2.5y$
+  $14.5x-2.5y$
+
+  <br>
+
+- $\frac{3}{4}(x-1)+\frac{1}{4}(2x+8)$
 
 ---
