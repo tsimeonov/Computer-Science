@@ -83,3 +83,12 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
   positive x negative = negative
   negative x positive = negative
   negative x negative = positive
+
+#### 7.3 Removing brackets from a(b+c), a(b-c), (a+b)(c+d) and (a+b)(c-d)
+
+- Key point
+  $a(b+c) = ab+ac$
+  $a(b-c) = ab-ac$
+
+- Key point
+  $(a+b)(c+d)=ac+bc+ad+bd$
