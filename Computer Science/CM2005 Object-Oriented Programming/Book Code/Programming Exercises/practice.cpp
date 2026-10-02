@@ -14,12 +14,12 @@ int main()
 
   if (firstNum < secondNum)
   {
-    // Create a tracker variable so we don't destroy the original variable
+    // Create a tracker variable so we dont' destroy firstNum
     int current = firstNum;
 
-    // B: Output all odd numbers
-
+    // B: Output all odd numbers between firstNum and secondNum
     cout << "Odd numbers are: ";
+
     while (current <= secondNum)
     {
       if (current % 2 != 0)
@@ -30,13 +30,14 @@ int main()
     }
     cout << endl;
 
-    // C: Output even numbers and their sums
+    // C: Output the sum of all even numbers between firstNum and secondNum
+
+    cout << "Even numbers are: ";
+
     int sum = 0;
 
-    // Reset the current
+    // Reset the tracker variable
     current = firstNum;
-
-    cout << "Even numbers: ";
 
     while (current <= secondNum)
     {
@@ -48,7 +49,20 @@ int main()
       current++;
     }
     cout << endl;
+
     cout << "The sum is: " << sum << endl;
+
+    // D: Output the numbers and theit squares
+    cout << "The squares are: " << endl;
+
+    // Reset current variable
+    current = firstNum;
+
+    while (current <= secondNum)
+    {
+      cout << current << " squared is: " << (current * current) << endl;
+      current++;
+    }
   }
 
   else

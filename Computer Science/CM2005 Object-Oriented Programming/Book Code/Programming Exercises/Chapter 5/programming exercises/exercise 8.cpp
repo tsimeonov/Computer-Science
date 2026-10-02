@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -51,6 +53,37 @@ int main()
     cout << endl;
 
     cout << "The sum of even numbers is: " << sum << endl;
+
+    // D: Output the numbers and their squares between 1 and 10
+
+    cout << "Numbers and their squares between 1 and 10: " << endl;
+
+    // Hardcore the tracker to start from 1
+    current = 1;
+
+    while (current <= 10)
+    {
+      cout << current << " squared is " << (current * current) << endl;
+      current++;
+    }
+
+    // E. Output the sum of the squares of the odd numbers between firsrNum and secondNum
+
+    // Reset current variable
+    current = firstNum;
+
+    int sumSquare = 0;
+
+    while (current <= secondNum)
+    {
+      if (current % 2 != 0)
+      {
+        // Add the squares to a running total
+        sumSquare += (current * current);
+      }
+      current++;
+    }
+    cout << "The sum of the squares for add numbers is: " << sumSquare << endl;
   }
   else
   {
