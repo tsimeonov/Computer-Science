@@ -92,3 +92,19 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 
 - Key point
   $(a+b)(c+d)=ac+bc+ad+bd$
+
+---
+
+### 8. Factorisation
+
+#### 8.1 Factors and common factors
+
+#### 8.2 Factorising quadratic expressions
+
+- Key points
+
+An expression of the form $ax^2+bx+c$, where a, b and c are numbers, is called a quadratic expression. The coefficient of x^2 is a, the coefficient of x is b, and the constant term is c
+
+#### 8.3 Different of two squares
+
+- Expressions of the form $a^2-b^2$ are known as the difference of two squares
