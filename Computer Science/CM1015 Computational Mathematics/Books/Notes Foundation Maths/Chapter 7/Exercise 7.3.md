@@ -135,3 +135,20 @@ Solution
   $\frac{3}{4}x-\frac{1}{4}+2$
 
 ---
+
+##### 7. Remove the brackets from
+
+- $-(x-y)$
+- $-(a+2b)$
+- $-\frac{1}{2}(3p+q)$
+
+Solution
+
+- $-(x-y) = -x+y$
+  <br>
+- $-(a+2b) = aa-2b$
+  <br>
+
+- $-\frac{1}{2}(3p+q)=-\frac{3}{2}p-\frac{1}{2}q$
+
+---
