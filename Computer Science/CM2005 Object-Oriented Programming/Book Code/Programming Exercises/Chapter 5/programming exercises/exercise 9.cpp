@@ -49,13 +49,16 @@ int main()
 
   // D: Output the numbers and their squares between 1 and 10
 
-  cout << "Exercise D" << endl;
-  cout << "Numbers and their squares between 1 and 10: " << endl;
+  cout << "Exercise D:" << endl;
+  cout << "The numbers and their squares between firstNum and secondNum" << endl;
 
-  for (int current = 1; current <= 10; current++)
+  for (int current = firstNum; current <= secondNum; current++)
   {
    cout << current << " square is " << (current * current) << endl;
   }
+
+  cout << endl;
+
   cout << "============================" << endl;
 
   // E. Output the sum of the quares of the odd numbers between firstNum and secondNum
