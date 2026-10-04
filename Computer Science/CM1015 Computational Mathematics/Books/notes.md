@@ -105,6 +105,12 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 
 An expression of the form $ax^2+bx+c$, where a, b and c are numbers, is called a quadratic expression. The coefficient of x^2 is a, the coefficient of x is b, and the constant term is c
 
+- Quadratic expression where the coefficient of $x^2$ is 1
+
 #### 8.3 Different of two squares
+
+$(x+m)(x+n)=(x+m)x+(x+m)n$
+$x^2+mx+nx+mn$
+$x^2+(m+n)x+mn$
 
 - Expressions of the form $a^2-b^2$ are known as the difference of two squares
