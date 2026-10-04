@@ -58,7 +58,7 @@ int main()
     }
     cout << "============================" << endl;
 
-    // E. Output the sum of the quares of the odd numbers between firstNum and secondNum
+    // E. Output the sum of the squares of the odd numbers between firstNum and secondNum
 
     cout << "Exercise E" << endl;
 
