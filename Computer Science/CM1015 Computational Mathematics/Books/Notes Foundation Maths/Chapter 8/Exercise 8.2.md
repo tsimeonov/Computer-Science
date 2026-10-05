@@ -62,3 +62,65 @@ Solution
 - (n) $x^2-5x=x(x-5)$
 
 ---
+
+##### 2. Factorise the following quadratic expressions
+
+- (a) $2x^2-5x-3=$
+- (b) $3x^2-5x-2=$
+- (c) $10x^2+11x+3=$
+- (d) $2x^2+12x+16=$
+- (e) $2x^2+5x+3=$
+- (f) $3s^2+5s+2=$
+- (g) $3z^2+17z+10=$
+- (h) $9x^2-36=$
+- (i) $4x^2-25=$
+
+Solution:
+
+- (a) $2x^2-5x-3=$
+  Step 1: Multiply the first and last numbers
+  Multiply the coefficient of the $x^2$ term (2) by the constant term at the end (-3)
+  $2 \times (-3)=-6$
+  Step 2: Find the magic numbers
+  Just like a normal quadratic, find two numbers that multiply to your new number (-6) and add to your middle number (-5)
+  Those numbers are -6 and +1
+  Step 3: Split the middle term
+  Rewrite the original expression, replacing the -5x with the two new numbers:
+  $2x^2-6x+1x-3$
+  Step 4: Factor by grouping
+  Cut the expression in half and pull the Greatest Common Factor (GCF) out of each side.
+
+  - Left side: $(2x^2-6x)$ The GCF is 2x. Factoring it out leaves 2x(x-3)
+  - Right side side: $(1x-3)$ The GCF is 1. Factoring it out leaves 1(x-3)
+    Now put them side-by-side:
+    2x(x-3)+1(x-3)
+
+  Step 5: Combine the final answer
+  Notice how the parentheses (x-3) perfectly match? That becomes your first factor. The second factor is made from the "leftovers" on the outside (2x and +1)
+  (x-3)(2x+1)
+  <br>
+
+- (b) $3x^2-5x-2=$
+  <br>
+
+- (c) $10x^2+11x+3=$
+  <br>
+
+- (d) $2x^2+12x+16=$
+  <br>
+
+- (e) $2x^2+5x+3=$
+  <br>
+
+- (f) $3s^2+5s+2=$
+  <br>
+
+- (g) $3z^2+17z+10=$
+  <br>
+
+- (h) $9x^2-36=$
+  <br>
+
+- (i) $4x^2-25=$
+
+---
