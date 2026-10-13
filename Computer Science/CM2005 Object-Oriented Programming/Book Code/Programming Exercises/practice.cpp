@@ -9,20 +9,6 @@ using namespace std;
 
 int main()
 {
- long long currentValue = 0;
-
- // Prompt the user for input
- cout << "Enter the starting integer x: ";
- cin >> currentValue;
- cout << endl;
-
- // Validate input to ensure it is a positive integer
- if (currentValue <= 0)
- {
-  cout << "Please enter a positive integer greater than 0: " << endl;
-
-  return 1;
- }
 
  return 0;
 }
