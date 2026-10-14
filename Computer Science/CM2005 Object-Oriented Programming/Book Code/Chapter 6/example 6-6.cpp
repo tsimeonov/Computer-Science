@@ -28,5 +28,10 @@ int main()
 /*
 Sample run
 
-This program computes
+This program computes a cable bill
+Enter customer type: R, r (Residential), B, b (Business): B
+Enter the number of basic service connections: 25
+Enter the number of premium channels used: 9
+Account number = 21341
+Amount due = $615.00
 */
