@@ -240,8 +240,27 @@ Solution:
   <br>
 
 - (h) $9x^2-36=$
+  <b>Step 1: Multiply the first and last numbers</b>
+
+  <b>Step 2: Find the magic numbers</b>
+
+  <b>Step 3: Split the middle term</b>
+
+  <b>Step 4: Factor the grouping</b>
+
+  <b>Step 5: Combine into the final answer</b>
+
   <br>
 
 - (i) $4x^2-25=$
+  <b>Step 1: Multiply the first and last numbers</b>
+
+  <b>Step 2: Find the magic numbers</b>
+
+  <b>Step 3: Split the middle term</b>
+
+  <b>Step 4: Factor the grouping</b>
+
+  <b>Step 5: Combine into the final answer</b>
 
 ---
