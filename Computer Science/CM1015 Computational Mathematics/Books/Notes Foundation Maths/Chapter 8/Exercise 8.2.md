@@ -145,6 +145,7 @@ Solution:
 - (d) $2x^2+12x+16=$
   <b>Step 1: Multiply the first and last numbers</b>
   $2\times16=32$
+
   <b>Step 2: Find the magic numbers</b>
 
   1. Multiply to give 32, $4 \times 8$
@@ -153,12 +154,11 @@ Solution:
   The numbers are 4 and 8
 
   <b>Step 3: Split the middle term</b>
-
   $2x^2+4x+8x+16$
+
   <b>Step 4: Factor by grouping</b>
 
   1. Left Side: $2x^2+4x = 2x(x+2)$
-
   2. Right Side: $8x+16=8(x+2)$
 
   Combine them
@@ -170,10 +170,51 @@ Solution:
 <br>
 
 - (e) $2x^2+5x+3=$
+  <b>Step 1: Multiply the first and last numbers</b>
+  $2 \times 3 = 6$
+
+  <b>Step 2: Find the magic numbers</b>
+
+  1. Multiply to give 6 $2 \times 3$
+  2. Add to give 5 $2 + 3$
+
+  The numbers are 2 and 3
+
+  <b>Step 3: Split the middle term</b>
+  $2x^2+2x+3x+3$
+
+  <b>Step 4: Factor by grouping</b>
+
+  1. Left side: $2x^2+2x = 2x(x+1)$
+  2. Right side: $3x+3= 3(x+1)$
+
+  Combine them
+  2x(x+1)+3(x+1)
+
+  <b>Step 5: Combine into the final answer</b>
+  $(x+1)(2x+3) = 2x^2+3x+2x+3=2x^2+5x+3 $
+
   <br>
 
 - (f) $3s^2+5s+2=$
-  <br>
+  <b>Step 1: Multiply the first and last numbers</b>
+  $3 \times 2 = 6$
+  <b>Step 2: Find the magic numbers</b>
+
+  1. Multiply to give 6: $2 \times 3$
+  2. Add to give 5: $2 + 3$
+
+  <b>Step 3: Split the middle term</b>
+  $3s^2+3s+2s+2$
+
+  <b>Step 4: Factor the grouping</b>
+
+  1. Left side: $3s^2+3s=3s(s+1)$
+  2. Right side: $2s+2=2(s+1)$
+
+  <b>Step 5: Combine into the final answer</b>
+
+    <br>
 
 - (g) $3z^2+17z+10=$
   <br>
