@@ -213,10 +213,30 @@ Solution:
   2. Right side: $2s+2=2(s+1)$
 
   <b>Step 5: Combine into the final answer</b>
+  $(s+1)(3s+2)=3s^2+2s+3s+2=3s^2+5s+2$
 
     <br>
 
 - (g) $3z^2+17z+10=$
+  <b>Step 1: Multiply the first and last numbers</b>
+  $3 \times 10$
+
+  <b>Step 2: Find the magic numbers</b>
+
+  1. Multiply to give 30: $2 \times 15$
+  2. Add to give 17: $2 + 15$
+
+  <b>Step 3: Split the middle term</b>
+  $3z^2+15z+2z+10$
+
+  <b>Step 4: Factor the grouping</b>
+
+  1. Left side: $3z^2+15z = 3z(z+5)$
+  2. Right side: $2z+10 = 2(z+5)$
+
+  <b>Step 5: Combine into the final answer</b>
+  $(z+5)(3z+2)= 3z^2+2z+15z+10=3z^2+17z+10$
+
   <br>
 
 - (h) $9x^2-36=$
