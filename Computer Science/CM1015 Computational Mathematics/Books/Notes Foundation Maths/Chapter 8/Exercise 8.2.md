@@ -143,7 +143,31 @@ Solution:
   <br>
 
 - (d) $2x^2+12x+16=$
-  <br>
+  <b>Step 1: Multiply the first and last numbers</b>
+  $2\times16=32$
+  <b>Step 2: Find the magic numbers</b>
+
+  1. Multiply to give 32, $4 \times 8$
+  2. Add to give 12, $4 + 8$
+
+  The numbers are 4 and 8
+
+  <b>Step 3: Split the middle term</b>
+
+  $2x^2+4x+8x+16$
+  <b>Step 4: Factor by grouping</b>
+
+  1. Left Side: $2x^2+4x = 2x(x+2)$
+
+  2. Right Side: $8x+16=8(x+2)$
+
+  Combine them
+  $2x(x+2)+8(x+2)$
+
+  <b>Step 5: Combine into the final answer</b>
+  $(x+2)(2x+8)=2x^2+8x+4x+16=2x^2+12x+16 $
+
+<br>
 
 - (e) $2x^2+5x+3=$
   <br>
