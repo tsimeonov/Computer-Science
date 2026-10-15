@@ -101,24 +101,45 @@ Solution:
   <br>
 
 - (b) $3x^2-5x-2=$
-  Step 1: Multiply the first and last numbers
+  <b>Step 1: Multiply the first and last numbers</b>
   $3 \times (-2) = -6$
-  Step 2: Find the magic numbers
+  <b>Step 2: Find the magic numbers</b>
   -6 and +1
-  Step 3: Split the middle term
+  <b>Step 3: Split the middle term</b>
   $3x^2-6x+1x-2$
-  Step 4: Factor by grouping
+  <b>Step 4: Factor by grouping</b>
 
   - Left side: $(3x^2-6x)$ The GCF 3x(x-2)
   - Right side: $(1x-2)$ The GCF 1(x-2)
     Now put them side by side
     3x(x-2)+1(x-2)
 
-  Step 5: Combine into the final answer
+  <b>Step 5: Combine into the final answer</b>
   $(x-2)(3x+1) = 3x^2+1x-6x-2 = 3x^2-5x-2$
   <br>
 
 - (c) $10x^2+11x+3=$
+  <b>Step 1: Multiply the first and last numbers</b>
+  $10 \times 3 = 30$
+  <b>Step 2: Find the magic numbers</b>
+
+  1. Multiply to give 30 ($5 \times 6$)
+  2. Add to give 11 ($5 + 6$)
+
+  The numbers are 5 and 6
+
+  <b>Step 3: Split the middle term</b>
+  $10x^2+5x+6x+3$
+  <b>Step 4: Factor by grouping</b>
+
+  - Left side: ($10x^2+5x$) The GCF $5x(2x+1)$
+  - Right side: ($6x+3$) The GCF $3(2x+1)$
+
+  Combine them
+  $5x(2x+1)+3(2x+1)$
+
+  <b>Step 5: Combine into the final answer</b>
+  $(2x+1)(5x+3)=10x^2+6x+5x+3= 10x^2+11x+3$
   <br>
 
 - (d) $2x^2+12x+16=$
