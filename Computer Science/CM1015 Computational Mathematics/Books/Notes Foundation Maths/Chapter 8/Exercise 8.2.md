@@ -249,3 +249,50 @@ Solution:
   $(2x-5)(2x+5)$
 
 ---
+
+##### 3. Factorise the following quadratic expressions:
+
+- (a) $x^2+3x-10$
+- (b) $2x^2-3x-20$
+- (c) $9x^2-1$
+- (d) $10x^2+14x-12$
+- (e) $x^2+15x+26$
+- (f) $-x^2-2x+3$
+
+Solution
+
+(a) $x^2+3x-10$
+<b>Step 1: Multiply the first and last numbers</b>
+$1 \times -10 = -10$
+<b>Step 2: Find the magic numbers</b>
+
+1. Multiply to give -10: $-2 \times 5$
+2. Add to give 3: $-2 + 5$
+
+<b>Step 3: Split the middle term</b>
+$x^2+5x-2x-10$
+
+<b>Step 4: Factor the grouping</b>
+
+1. Left side: $x^2+5x = x(x+5)$
+2. Right side: $-2x-10=-2(x+5)$
+
+<b>Step 5: Combine into the final answer</b>
+$(x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10$
+
+<br>
+(b) $2x^2-3x-20$
+<br>
+
+(c) $9x^2-1$
+<br>
+
+(d) $10x^2+14x-12$
+<br>
+
+(e) $x^2+15x+26$
+<br>
+
+(f) $-x^2-2x+3$
+
+---
