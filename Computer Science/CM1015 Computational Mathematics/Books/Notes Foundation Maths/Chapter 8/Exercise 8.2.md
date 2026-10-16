@@ -352,29 +352,34 @@ $x^2+2x+13x+26$
 <b>Step 4: Factor the grouping</b>
 
 1. Left side: $x^2+2x=x(x+2)$
-2. Right side: $13x+26$
+2. Right side: $13x+26=13(x+2)$
 
 <b>Step 5: Combine into the final answer</b>
+$(x+2)(x+13)=x^2+13x+2x+26= x^2+15x+26$
 
 <br>
 
-(f) $-x^2-2x+3$
+(f) $-x^2-2x+3= -(x^2+2x-3)$
+
+<b>Step 1: Multiply the first and last numbers</b>
+$-1 \times 3 = -3$
+
+<b>Step 2: Find the magic numbers</b>
+
+1. Multiply yo give -3:
+2. Add to give 2:
+
+THe numbers are -1 and 3
+
+<b>Step 3: Split the middle term</b>
+$-x^2-1x+3x+3$
+
+<b>Step 4: Factor the grouping</b>
+
+1. Left side: $x^2+1x=x(x+1)$
+2. Right side: $3x+3=3(x+1)$
+
+<b>Step 5: Combine into the final answer</b>
+$-(x+1)(x+3)=-(x^2-x+3x-3)=-(x^2+2x-3)=-x^2-2x+3$
 
 ---
-
-26 and 15
-
-$1 \times 26= 26$
-$1 + 26=27$
-
-$2 \times 13=$
-$2 + 13=$
-
-$3 \times 26=$
-$3 + 26=$
-
-$4 \times 26=$
-$4 + 26=$
-
-$5 \times 26=$
-$5 + 26=$
