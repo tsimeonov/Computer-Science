@@ -310,6 +310,28 @@ $(3x-1)(3x+1) = 9x^2+3x-3x-1= 9x^2-1$
 <br>
 
 (d) $10x^2+14x-12$
+
+<b>Step 1: Multiply the first and last numbers <b>
+$10 \times (-12) = 120$
+
+<b>Step 2: Find the magic numbers<b>
+
+1. Multiply to give -120: $-6 \times 20 = -120$
+2. Add to give 14: $-6 + 20 = 14$
+
+The correct numbers are 20 and -6
+
+<b>Step 3: Split the middle term<b>
+$10x^2+20x-6x-12$
+
+<b>Step 4: Factor the grouping<b>
+
+1. Left Side: $10x^2-20x = 10x(x+2)$
+2. Right Side: $-6x-12 = -6(x+2)$
+
+<b>Step 5: Combine into the final answer<b>
+$(x+2)(10x-6)= 10x^2-6x+20x-12=10x^2+14x-12$
+
 <br>
 
 (e) $x^2+15x+26$
