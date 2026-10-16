@@ -282,6 +282,26 @@ $(x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10$
 
 <br>
 (b) $2x^2-3x-20$
+
+<b>Step 1: Multiply the first and last numbers</b>
+$2 \times (-20) = -40$
+
+<b>Step 2: Find the magic numbers</b>
+
+1. Multiply to give -40: $5 \times -8 = -40$
+2. Add to give -3: $5 + (-8) = -3$
+
+<b>Step 3: Split the middle term</b>
+$2x^2-8x+5x-20$
+
+<b>Step 4: Factor the grouping</b>
+
+1. Left Side: $2x^2-8x=2x(x-4) $
+2. Right Side: $5x-20=5(x-4)$
+
+<b>Step 5: Combine into the final answer</b>
+$(x-4)(2x+5)=2x^2+5x-8x-20=2z^2-3x-20$
+
 <br>
 
 (c) $9x^2-1$
@@ -296,3 +316,20 @@ $(x+5)(x-2)=x^2-2x+5x-10=x^2+3x-10$
 (f) $-x^2-2x+3$
 
 ---
+
+-40 -3
+
+$-1 \times -40 $
+$-1 + -40 $
+
+$-2 \times -20 $
+$-2 + -20 $
+
+$-3 \times -13.333 $
+$-3 + -13.333 $
+
+$-4 \times -10 $
+$-4 + -10 $
+
+$5 \times -8 = -40$
+$5 + -8 = -3$
