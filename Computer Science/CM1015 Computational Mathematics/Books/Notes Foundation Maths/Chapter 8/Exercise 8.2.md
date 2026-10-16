@@ -335,8 +335,46 @@ $(x+2)(10x-6)= 10x^2-6x+20x-12=10x^2+14x-12$
 <br>
 
 (e) $x^2+15x+26$
+
+<b>Step 1: Multiply the first and last numbers</b>
+$1 \times 26 = 26$
+
+<b>Step 2: Find the magic numbers</b>
+
+1. Multiply to give 26:
+2. Add to give 15:
+
+The numbers are 2 and 13
+
+<b>Step 3: Split the middle term</b>
+$x^2+2x+13x+26$
+
+<b>Step 4: Factor the grouping</b>
+
+1. Left side: $x^2+2x=x(x+2)$
+2. Right side: $13x+26$
+
+<b>Step 5: Combine into the final answer</b>
+
 <br>
 
 (f) $-x^2-2x+3$
 
 ---
+
+26 and 15
+
+$1 \times 26= 26$
+$1 + 26=27$
+
+$2 \times 13=$
+$2 + 13=$
+
+$3 \times 26=$
+$3 + 26=$
+
+$4 \times 26=$
+$4 + 26=$
+
+$5 \times 26=$
+$5 + 26=$
