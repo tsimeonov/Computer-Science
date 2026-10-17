@@ -34,10 +34,43 @@ Solution
 
 Solution
 
-- (a) $3x^2+x-2$
+(a) $3x^2+x-2$
+<b>Step 1: Multiply the first and last numbers</b>
+$3 \times (-2)=-6$
+
+<b>Step 2: Find the magic numbers</b>
+
+1. Multiply yo give -3:
+2. Add to give 2:
+
+The numbers are -1 and 3
+
+<b>Step 3: Split the middle term</b>
+
+<b>Step 4: Factor the grouping</b>
+
+1. Left side: $x^2+1x=x(x+1)$
+2. Right side: $3x+3=3(x+1)$
+
+<b>Step 5: Combine into the final answer</b>
+
   <br>
-- (b) $x^2-144$
+(b) $x^2-144$
   <br>
-- (c) $s^2-5s+6$
-  <br>
-- (d) $2y^2-y-15$
+(c) $s^2-5s+6$
+  <br> 
+ (d) $2y^2-y-15$
+
+-6 and 1
+
+$1 \times -6=$
+$1 + (-6)=$
+
+$1 \times -6=$
+$1 + (-6)=$
+
+$1 \times -6=$
+$1 + (-6)=$
+
+$1 \times -6=$
+$1 + (-6)=$
