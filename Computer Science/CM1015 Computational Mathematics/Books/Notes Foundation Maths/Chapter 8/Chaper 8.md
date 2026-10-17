@@ -22,3 +22,22 @@ Solution
   <br>
 
 - (e) $ab^2+ba^2=ab(b+a)=ab \times b+ab \times a=ab^2+a^2b= ab^2+ba^2 $
+
+---
+
+##### 2. Factorise the following expressions
+
+- (a) $3x^2+x-2$
+- (b) $x^2-144$
+- (c) $s^2-5s+6$
+- (d) $2y^2-y-15$
+
+Solution
+
+- (a) $3x^2+x-2$
+  <br>
+- (b) $x^2-144$
+  <br>
+- (c) $s^2-5s+6$
+  <br>
+- (d) $2y^2-y-15$
