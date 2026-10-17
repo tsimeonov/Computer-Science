@@ -21,4 +21,4 @@ Solution
 - (d) $ab+b^2=b(a+b)$
   <br>
 
-- (e) $ab^2+ba^2=ab(b+a)$
+- (e) $ab^2+ba^2=ab(b+a)=ab \times b+ab \times a=ab^2+a^2b= ab^2+ba^2 $
