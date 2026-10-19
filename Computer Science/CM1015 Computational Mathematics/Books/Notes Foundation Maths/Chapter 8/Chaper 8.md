@@ -291,53 +291,25 @@ $(4x-1)(10x+3)=40x^2+12x-10x-3=40x^2+2x-3$
 (b) $32x^2-21x-11$
 
 Step 1: Multiply the first and last numbers
+$32\times(-11)=-352$
 
 Step 2: Find the magic numbers
 
-1. Multiply to give
-2. Add to give
+1. Multiply to give -352
+2. Add to give -21
 
-The numbers are
+The numbers are -32 and 11
 
 Step 3: Split the middle term
 
+$32x^2-32x+11x-11$
+
 Step 4: Factor the grouping
 
-1. Left side:
-2. Right side:
+1. Left side: $32x^2-32x=32x(x-1)$
+2. Right side: $11x-11=11x(x-1)$
 
 Step 5: Combine the final answer
+$(x-1)(32x+11x)=32^2+11x-32x-11=32x^2-21x-11$
 
 ---
-
--120 2
-
-$1 \times -120=$
-$1 + -120=$
-
-$2 \times -60=$
-$2 + -60=$
-
-$3 \times -40=$
-$3 + -40=$
-
-$4 \times -30=$
-$4 + -30=$
-
-$5 \times -120=$
-$5 + -120=$
-
-$6 \times -120=$
-$6 + -120=$
-
-$7 \times -120=$
-$7 + -120=$
-
-$8 \times -120=$
-$8 + -120=$
-
-$ \times -120=$
-$5 + -120=$
-
-$10 \times -12=-120$
-$-10 + 12=2$
