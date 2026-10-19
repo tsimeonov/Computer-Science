@@ -313,3 +313,36 @@ Step 5: Combine the final answer
 $(x-1)(32x+11x)=32^2+11x-32x-11=32x^2-21x-11$
 
 ---
+
+##### 6. Factorise
+
+(a) $100-49x^2$
+(b) $36x^2-25y^2$
+(c) $\frac{1}{4}-9v^2$
+(d) $\frac{x^2}{y^2}-4$
+
+Solution
+
+(a) $100-49x^2=(10-7x)(10+7x)=100+70x-70x-49x^2=100-49x^2$
+
+(b) $36x^2-25y^2=(6x-5y)(6x+5y)=36x^2+30xy-30xy-25y^2=36x^2-25x^2$
+
+(c) $\frac{1}{4}-9v^2$
+
+Find the first square root (a)
+
+- top: $\sqrt{1}=1$
+- bottom: $\sqrt{4}=2$
+- put them together: $\frac{1}{2}\times\frac{1}{2}=\frac{1}{4}$
+
+Find the second square root (b)
+
+- look at $9v^2= 3v (since 3x\times3v = 9v^2)$
+
+Put them into the two brackets (a-b)(a+b)
+
+$(\frac{1}{2}-3v)(\frac{1}{2}+3v)$
+
+(d) $\frac{x^2}{y^2}-4$
+
+---
