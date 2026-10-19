@@ -151,20 +151,29 @@ Solution
 (b) $\frac{3}{s^2+3s+2}$
 
 Step 1: Multiply the first and last numbers
+$1 \times 2 =2 $
 
 Step 2: Find the magic numbers
 
-1. Multiply to give
-2. Add to give
+1. Multiply to give: 2
+2. Add to give: 3
+
+The numbers are 1 and 2
 
 Step 3: Split the middle term
+$s^2+1s+2s+2$
 
 Step 4: Factor the grouping
 
-1. Left side:
-2. Right side:
+1. Left side: $s^2+1s=s(s+1)$
+2. Right side: $2s+2=2(s+1)$
 
 Step 5: Combine the final answer
+$(s+1)(s+2)=s^2+2s+1s+2=s^2+3s+2$
+
+Final answer:
+
+$\frac{1}{(s+1)(s+2)}$
 
 (c) $\frac{3}{s^2+s-2}$
 
