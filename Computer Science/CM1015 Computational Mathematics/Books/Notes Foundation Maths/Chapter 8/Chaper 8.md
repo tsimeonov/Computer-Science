@@ -242,6 +242,61 @@ Step 2: Find the magic numbers
 The numbers are 1 and -18
 
 Step 3: Split the middle term
+$2x^2+1x-18x-9$
+
+Step 4: Factor the grouping
+
+1. Left side: $2x^2+1x=x(2x+1)$
+2. Right side: $-18x-9=-9(2x+1)$
+
+Step 5: Combine the final answer
+$(2x+1)(x-9)=2x^2-18x+1x-9=2x^2-17x-9$
+
+Final answer
+
+$\frac{x}{(2x+1)(x-9)}$
+
+---
+
+##### 5. Factorise
+
+(a) $40x^2+2x-3$
+(b) $32x^2-21x-11$
+
+Solution
+
+(a) $40x^2+2x-3$
+
+Step 1: Multiply the first and last numbers
+
+Step 2: Find the magic numbers
+
+1. Multiply to give
+2. Add to give
+
+The numbers are
+
+Step 3: Split the middle term
+
+Step 4: Factor the grouping
+
+1. Left side:
+2. Right side:
+
+Step 5: Combine the final answer
+
+(b) $32x^2-21x-11$
+
+Step 1: Multiply the first and last numbers
+
+Step 2: Find the magic numbers
+
+1. Multiply to give
+2. Add to give
+
+The numbers are
+
+Step 3: Split the middle term
 
 Step 4: Factor the grouping
 
@@ -251,26 +306,3 @@ Step 4: Factor the grouping
 Step 5: Combine the final answer
 
 ---
-
-9 and -17
-
-$1\times9=0$
-$1+9=10$
-
-$2\times4.5=$
-$2+4.5=$
-
-$3\times3=9$
-$3+3=6$
-
-$4\times2.25=$
-$4+2.25=$
-
-$5\times1.8=$
-$5+1.8=$
-
-$6\times1.5=$
-$6+1.5=$
-
-$7\times9=$
-$7+9=$
