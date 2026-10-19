@@ -268,22 +268,25 @@ Solution
 (a) $40x^2+2x-3$
 
 Step 1: Multiply the first and last numbers
+$40\times-3=-120$
 
 Step 2: Find the magic numbers
 
-1. Multiply to give
-2. Add to give
+1. Multiply to give -120
+2. Add to give 2
 
-The numbers are
+The numbers are -10 and 12
 
 Step 3: Split the middle term
+$40x^2-10x+12x-3$
 
 Step 4: Factor the grouping
 
-1. Left side:
-2. Right side:
+1. Left side: $(40x^2-10x)=10x(4x-1)$
+2. Right side: $(-12x-3)=3(4x-1)$
 
 Step 5: Combine the final answer
+$(4x-1)(10x+3)=40x^2+12x-10x-3=40x^2+2x-3$
 
 (b) $32x^2-21x-11$
 
@@ -306,3 +309,35 @@ Step 4: Factor the grouping
 Step 5: Combine the final answer
 
 ---
+
+-120 2
+
+$1 \times -120=$
+$1 + -120=$
+
+$2 \times -60=$
+$2 + -60=$
+
+$3 \times -40=$
+$3 + -40=$
+
+$4 \times -30=$
+$4 + -30=$
+
+$5 \times -120=$
+$5 + -120=$
+
+$6 \times -120=$
+$6 + -120=$
+
+$7 \times -120=$
+$7 + -120=$
+
+$8 \times -120=$
+$8 + -120=$
+
+$ \times -120=$
+$5 + -120=$
+
+$10 \times -12=-120$
+$-10 + 12=2$
