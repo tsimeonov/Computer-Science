@@ -110,19 +110,24 @@ $(y-3)(2y+5)=2y^2+5y-6y-15=2y^2-y-15$
 
 ---
 
-30 -1
+##### 3. Factorise the following expressions
 
-$1 \times 30 = $
-$1 add 30 = $
+- (a) $1-x^2$
+- (b) $x^2-1$
+- (c) $9-x^2$
+- (d) $x^2-81$
+- (e) $25-y^2$
 
-$1 \times 30 = $
-$1 add 30 = $
+Solution
 
-$1 \times 30 = $
-$1 add 30 = $
+(a) $1-x^2$
 
-$1 \times 30 = $
-$1 add 30 = $
+(b) $x^2-1$
 
-$5 \times 6 = $
-$5 add -6 = $
+(c) $9-x^2$
+
+(d) $x^2-81$
+
+(e) $25-y^2$
+
+---
