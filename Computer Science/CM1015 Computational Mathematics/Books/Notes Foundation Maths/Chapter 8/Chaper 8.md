@@ -131,3 +131,93 @@ Solution
 (e) $25-y^2=(5-y)(5+y)=25+5y-5y-y^2=25-y^2$
 
 ---
+
+##### 4. Factorise the denominators of the following expressions:
+
+(a) $\frac{1}{x^2+6x}$
+
+(b) $\frac{3}{s^2+3s+2}$
+
+(c) $\frac{3}{s^2+s-2}$
+
+(d) $\frac{5}{x^2+11x+28}$
+
+(e) $\frac{x}{2x^2-17x-9}$
+
+Solution
+
+(a) $\frac{1}{x^2+6x}=\frac{1}{x(x+6)}$
+
+(b) $\frac{3}{s^2+3s+2}$
+
+Step 1: Multiply the first and last numbers
+
+Step 2: Find the magic numbers
+
+1. Multiply to give
+2. Add to give
+
+Step 3: Split the middle term
+
+Step 4: Factor the grouping
+
+1. Left side:
+2. Right side:
+
+Step 5: Combine the final answer
+
+(c) $\frac{3}{s^2+s-2}$
+
+Step 1: Multiply the first and last numbers
+
+Step 2: Find the magic numbers
+
+1. Multiply to give
+2. Add to give
+
+Step 3: Split the middle term
+
+Step 4: Factor the grouping
+
+1. Left side:
+2. Right side:
+
+Step 5: Combine the final answer
+
+(d) $\frac{5}{x^2+11x+28}$
+
+Step 1: Multiply the first and last numbers
+
+Step 2: Find the magic numbers
+
+1. Multiply to give
+2. Add to give
+
+Step 3: Split the middle term
+
+Step 4: Factor the grouping
+
+1. Left side:
+2. Right side:
+
+Step 5: Combine the final answer
+
+(e) $\frac{x}{2x^2-17x-9}$
+
+Step 1: Multiply the first and last numbers
+
+Step 2: Find the magic numbers
+
+1. Multiply to give
+2. Add to give
+
+Step 3: Split the middle term
+
+Step 4: Factor the grouping
+
+1. Left side:
+2. Right side:
+
+Step 5: Combine the final answer
+
+---
