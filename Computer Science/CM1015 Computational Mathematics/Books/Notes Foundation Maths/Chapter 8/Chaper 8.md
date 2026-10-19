@@ -206,20 +206,28 @@ $\frac{1}{(s-1)(s+2)}$
 (d) $\frac{5}{x^2+11x+28}$
 
 Step 1: Multiply the first and last numbers
+$1\times 28=28$
 
 Step 2: Find the magic numbers
 
-1. Multiply to give
-2. Add to give
+1. Multiply to give: 28
+2. Add to give: 11
+
+The nuumbers are 4 and 7
 
 Step 3: Split the middle term
+$x^2+4x+7x+28$
 
 Step 4: Factor the grouping
 
-1. Left side:
-2. Right side:
+1. Left side: $(x^2+4x)=x(x+4)$
+2. Right side: $7x+28=7(x+4)$
 
 Step 5: Combine the final answer
+$(x+4)(x+7)=x^2+7x+4x+28=x^2+11x+28$
+
+Final answer
+$\frac{5}{(x+4)(x+7)}$
 
 (e) $\frac{x}{2x^2-17x-9}$
 
