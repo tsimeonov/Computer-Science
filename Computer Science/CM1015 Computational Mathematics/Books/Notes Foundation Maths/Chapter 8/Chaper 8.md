@@ -232,11 +232,14 @@ $\frac{5}{(x+4)(x+7)}$
 (e) $\frac{x}{2x^2-17x-9}$
 
 Step 1: Multiply the first and last numbers
+$2\times (-9)=-18$
 
 Step 2: Find the magic numbers
 
-1. Multiply to give
-2. Add to give
+1. Multiply to give -18: $1\times-18=-18$
+2. Add to give -17: $1 + (-18)=-17$
+
+The numbers are 1 and -18
 
 Step 3: Split the middle term
 
@@ -248,3 +251,26 @@ Step 4: Factor the grouping
 Step 5: Combine the final answer
 
 ---
+
+9 and -17
+
+$1\times9=0$
+$1+9=10$
+
+$2\times4.5=$
+$2+4.5=$
+
+$3\times3=9$
+$3+3=6$
+
+$4\times2.25=$
+$4+2.25=$
+
+$5\times1.8=$
+$5+1.8=$
+
+$6\times1.5=$
+$6+1.5=$
+
+$7\times9=$
+$7+9=$
