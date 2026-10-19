@@ -72,7 +72,7 @@ $1 \times 6 =6$
 
 The numbers -2 and -3
 
-<b>Step 3: Multiply the first and last numbers<b>
+<b>Step 3: Split the middle term<b>
 $s^2-2s-3s+6$
 
 <b>Step 4: Multiply the first and last numbers<b>
@@ -83,5 +83,46 @@ $s^2-2s-3s+6$
 <b>Step 5: Multiply the first and last numbers<b>
 $(s-2)(s-3)=s^2-3s-2s+6=s^2-5s+6$
 
-  <br> 
- (d) $2y^2-y-15$
+<br> 
+(d) $2y^2-y-15$
+
+<b>Step 1: Multiply the first and last numbers</b>
+$2 \times -15=-30$
+
+<b>Step 2: Find the magic numbers</b>
+
+1. Multiply to give -30:
+2. Add to give -1
+
+The numbers are 5 and -6
+
+<b>Step 3: Split the middle term </b>
+
+$2y^2-6y+5y-15$
+
+<b>Step 4: Factor the grouping</b>
+
+1. Left side: $2y^2-6y=2y(y-3)$
+2. Right side: $5y-15=5(y-3)$
+
+<b>Step 5: Combine the final answer</b>
+$(y-3)(2y+5)=2y^2+5y-6y-15=2y^2-y-15$
+
+---
+
+30 -1
+
+$1 \times 30 = $
+$1 add 30 = $
+
+$1 \times 30 = $
+$1 add 30 = $
+
+$1 \times 30 = $
+$1 add 30 = $
+
+$1 \times 30 = $
+$1 add 30 = $
+
+$5 \times 6 = $
+$5 add -6 = $
