@@ -88,3 +88,28 @@ Solution
 (h) $\frac{7x}{49x+7y}=\frac{7x}{7(7x+y)}=\frac{x}{7x+y}$
 
 ---
+
+##### 4. Simplify
+
+(a) $\frac{15x+3}{3}$
+(b) $\frac{15x+3}{3x+6y}$
+(c) $\frac{12}{4x+8}$
+(d) $\frac{12x}{4xy+8x}$
+(e) $\frac{13x}{x^2+5x}$
+(f) $\frac{17y}{9y^2+4y}$
+
+Solution
+
+(a) $\frac{15x+3}{3}=5x+1$
+
+(b) $\frac{15x+3}{3x+6y}=$
+
+(c) $\frac{12}{4x+8}$
+
+(d) $\frac{12x}{4xy+8x}$
+
+(e) $\frac{13x}{x^2+5x}$
+
+(f) $\frac{17y}{9y^2+4y}$
+
+---
