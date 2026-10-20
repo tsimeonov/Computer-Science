@@ -57,3 +57,34 @@ A negative divided by a negative is positive (- / - = +)
 $\frac{y^{-3}}{y^4}=\frac{1}{y^3\times y^4}= \frac{1}{y^7}$
 
 ---
+
+##### 3. Simplify the following algebraic fractions
+
+(a) $\frac{4}{12+8x}$
+(b) $\frac{5+10x}{5}$
+(c) $\frac{2}{4+14x}$
+(d) $\frac{2x}{4+14x}$
+(e) $\frac{2x}{2+14x}$
+(f) $\frac{7}{49x+7y}$
+(g) $\frac{7y}{49x+7y}$
+(h) $\frac{7x}{49x+7y}$
+
+Solution
+
+(a) $\frac{4}{12+8x}=\frac{1}{3+2x}$
+
+(b) $\frac{5+10x}{5}=\frac{5(1+5x)}{5}=1+5x$
+
+(c) $\frac{2}{4+14x}=\frac{1}{2+7x}$
+
+(d) $\frac{2x}{4+14x}=\frac{2x}{2(2+7x)}=\frac{x}{2+7x}$
+
+(e) $\frac{2x}{2+14x}=\frac{2x}{2(1+7x)}=\frac{x}{1+7x}$
+
+(f) $\frac{7}{49x+7y}=\frac{7}{7(7x+y)}=\frac{1}{7x+y}$
+
+(g) $\frac{7y}{49x+7y}=\frac{7y}{7(7x+y)}=\frac{y}{7x+y}$
+
+(h) $\frac{7x}{49x+7y}=\frac{7x}{7(7x+y)}=\frac{x}{7x+y}$
+
+---
