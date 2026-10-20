@@ -114,3 +114,34 @@ $x^2+mx+nx+mn$
 $x^2+(m+n)x+mn$
 
 - Expressions of the form $a^2-b^2$ are known as the difference of two squares
+
+---
+
+### 9. Algebraic fractions
+
+#### 9.1 Introduction
+
+When dividing
+
+- $\frac{positive}{positive}=positive$
+- $\frac{negative}{positive}=negative$
+- $\frac{positive}{negative}=negative$
+- $\frac{negative}{negative}=positive$
+
+#### 9.2 Cancelling common factors
+
+When simplifying an algebraic fraction only factors common to both the numerator and denominator can be cancelled.
+
+#### 9.3 Multiplication and division of algebraic fractions
+
+$\frac{a}{b}\times\frac{c}{d}=\frac{a\times c}{b\times d}$
+
+#### 9.4 Addition and subtraction of algebraic fractions
+
+#### 9.5. Partial fraction
+
+Let d = highest power of the denominator
+Let n = highest power of the numerator
+Then
+if n ≥ d the fraction is improper
+if n < d the fraction is proper
