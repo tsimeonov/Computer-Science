@@ -102,14 +102,39 @@ Solution
 
 (a) $\frac{15x+3}{3}=5x+1$
 
-(b) $\frac{15x+3}{3x+6y}=$
+(b) $\frac{15x+3}{3x+6y}=\frac{3(5x+1)}{3(x+2y)}=\frac{5x+1}{x+2y}$
 
-(c) $\frac{12}{4x+8}$
+(c) $\frac{12}{4x+8}=\frac{3}{x+2}$
 
-(d) $\frac{12x}{4xy+8x}$
+(d) $\frac{12x}{4xy+8x}=\frac{12x}{4x(y+2)}=\frac{3x}{y+2}$
 
-(e) $\frac{13x}{x^2+5x}$
+(e) $\frac{13x}{x^2+5x}=\frac{13x}{x(x+5)}=\frac{13}{x+5}$
 
-(f) $\frac{17y}{9y^2+4y}$
+(f) $\frac{17y}{9y^2+4y}=\frac{17y}{y(9y+4)}=\frac{17}{9y+4}$
+
+---
+
+##### 5. Simplify
+
+(a) $\frac{5}{15+10x}$
+(b) $\frac{2x}{x^2+7x}$
+(c) $\frac{2x+8}{x^2+2x-8}$
+(d) $\frac{x^2+2x+1}{x^2-2x-3}$
+(e) $\frac{2(x-3)}{(x-3)^2}$
+(f) $\frac{x-3}{(x-3)^2}$
+
+Solution
+
+(a) $\frac{5}{15+10x}$
+
+(b) $\frac{2x}{x^2+7x}$
+
+(c) $\frac{2x+8}{x^2+2x-8}$
+
+(d) $\frac{x^2+2x+1}{x^2-2x-3}$
+
+(e) $\frac{2(x-3)}{(x-3)^2}$
+
+(f) $\frac{x-3}{(x-3)^2}$
 
 ---
