@@ -207,3 +207,97 @@ $(x+1)(x-3)=x^2-3x+1x-3=x^2-2x-3$
 (f) $\frac{x-3}{(x-3)^2}=\frac{x-3}{(x-3)(x-3)}=\frac{1}{x-3}$
 
 ---
+
+##### 6. Simplify
+
+(a) $\frac{x-4}{(x-4)(x-2)}$
+(b) $\frac{2x-4}{x^2+x-6}$
+(c) $\frac{3x}{3x^2+6x}$
+(d) $\frac{x^2+2x+1}{x^2-2x-3}$
+(e) $\frac{2(x-3)}{(x-3)^2}$
+(f) $\frac{x-3}{(x-3)^2}$
+
+Solution
+
+(a) $\frac{x-4}{(x-4)(x-2)}=\frac{1}{x-2}$
+
+(b) $\frac{2x-4}{x^2+x-6}=\frac{2(x-2)}{(x-2)(x+3)}=\frac{2}{x+3}$
+
+$x^2+x-6$
+
+Step 1: Multiply the first and last numbers
+$1\times(-6)=-6$
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give -2: $3\times(-2)=-6$
+2. Add to give 3: $3 + (-2) = 1$
+
+The numbers are -2 and 3
+
+Step 3: Split the middle term
+$x^2+2x+3x-6$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2-2x=x(x-2)$
+2. Right side: $3x-6=3(x-2)$
+
+Step 5: Combine into the final answer
+$(x-2)(x+3)=x^2+3x-2x-6=x^2+x-6$
+
+(c) $\frac{3x}{3x^2+6x}=\frac{3x}{3x(x+2)}=\frac{1}{x+2}$
+
+(d) $\frac{x^2+2x+1}{x^2-2x-3}=\frac{(x+1)(x+1)}{(x+1)(x-3)}=\frac{x+1}{x-3}$
+
+$x^2+2x+1$
+
+Step 1: Multiply the first and last numbers
+$1\times 1= 1$
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give 1: $1\times1=1$
+2. Add to give 1: $1 + 1 = 1$
+
+The numbers are 1 and 1
+
+Step 3: Split the middle term
+$x^2+1x+1x+1$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2+1x=x(x+1)$
+2. Right side: $1x+1=1(x+1)$
+
+Step 5: Combine into the final answer
+$(x+1)(x+1)=x^2+1x+1x+1=x^2+2x+1$
+
+$x^2-2x-3$
+
+Step 1: Multiply the first and last numbers
+$1\times (-3)= -3$
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give -3: $1\times (-3)=-3$
+2. Add to give -2: $1 + (-3) = -2$
+
+The numbers are -3 and 1
+
+Step 3: Split the middle term
+$x^2+1x-3x-3$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2-1x=x(x+1)$
+2. Right side: $-3x-3=-3(x+1)$
+
+Step 5: Combine into the final answer
+$(x+1)(x-3)=x^2-3x+1x-3=x^2-2x-3$
+
+(e) $\frac{2(x-3)}{(x-3)^2}=\frac{2(x-3)}{(x-3)(x-3)}=\frac{2}{x-3}$
+
+(f) $\frac{x-3}{(x-3)^2}=\frac{x-3}{(x-3)(x-3)}=\frac{1}{x-3}$
+
+---
