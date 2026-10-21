@@ -354,3 +354,27 @@ $(x+3)(x+4)=x^2+4x+3x+12=x^2+7x+12$
 (p) $\frac{x+4}{2x+9}$
 
 ---
+
+##### 7. Simplify the following
+
+(a) $\frac{(2x+3x)^2}{10x^2}$
+
+(b) $\frac{(2+3)^2x}{10x^2}$
+
+(c) $\frac{2x-(3x)^2}{10x}$
+
+(d) $(\frac{2x-3x}{10})^2$
+
+(e) $\frac{(\frac{x}{y})^2+(\frac{y}{x})^2}{xy}$
+
+Solution
+
+(a) $\frac{(2x+3x)^2}{10x^2}=\frac{(5x)^2}{10x^2}=\frac{25x^2}{10x^2}=\frac{5}{2}$
+
+(b) $\frac{(2+3)^2x}{10x^2}=\frac{(5)^2x}{10x^2}=\frac{25x}{10x^2}=\frac{5}{2x}$
+
+(c) $\frac{2x-(3x)^2}{10x}=\frac{2x-9x^2}{10}=\frac{x(2-9x)}{10x}$
+
+(d) $(\frac{2x-3x}{10})^2=(\frac{-1x}{10})^2=\frac{x^2}{100}$
+
+---
