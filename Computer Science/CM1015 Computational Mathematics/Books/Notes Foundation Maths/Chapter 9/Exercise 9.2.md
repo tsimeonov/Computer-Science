@@ -216,6 +216,16 @@ $(x+1)(x-3)=x^2-3x+1x-3=x^2-2x-3$
 (d) $\frac{x^2+2x+1}{x^2-2x-3}$
 (e) $\frac{2(x-3)}{(x-3)^2}$
 (f) $\frac{x-3}{(x-3)^2}$
+(g) $\frac{x-3}{2(x-3)^2}$
+(h) $\frac{4(x-3)}{2(x-3^2)}$
+(i) $\frac{x+4}{2(x+4)^2}$
+(j) $\frac{x+4}{2(x+4)}$
+(k) $\frac{2(x+4)}{(x+4)}$
+(l) $\frac{(x+4)(x-3)}{x-3}$
+(m) $\frac{x+4}{(x-3)(x+4)}$
+(n) $\frac{x+3}{x^2+7x+12}$
+(o) $\frac{x+4}{2x+8}$
+(p) $\frac{x+4}{2x+9}$
 
 Solution
 
@@ -299,5 +309,48 @@ $(x+1)(x-3)=x^2-3x+1x-3=x^2-2x-3$
 (e) $\frac{2(x-3)}{(x-3)^2}=\frac{2(x-3)}{(x-3)(x-3)}=\frac{2}{x-3}$
 
 (f) $\frac{x-3}{(x-3)^2}=\frac{x-3}{(x-3)(x-3)}=\frac{1}{x-3}$
+
+(g) $\frac{x-3}{2(x-3)^2}=\frac{x-3}{2(x-3)(x-3)}=\frac{1}{2(x-3)}$
+
+(h) $\frac{4(x-3)}{2(x-3^2)}=\frac{4(x-3)}{2(x-3)(x-3)}=\frac{4}{2(x-3)}=\frac{2}{x-3}$
+
+(i) $\frac{x+4}{2(x+4)^2}=\frac{x+4}{2(x+4)(x+4)}=\frac{1}{2(x+4)}$
+
+(j) $\frac{x+4}{2(x+4)}=\frac{1}{2}$
+
+(k) $\frac{2(x+4)}{(x+4)}=\frac{2}{1}$
+
+(l) $\frac{(x+4)(x-3)}{x-3}=\frac{x+4}{1}$
+
+(m) $\frac{x+4}{(x-3)(x+4)}=\frac{1}{x-3}$
+
+(n) $\frac{x+3}{x^2+7x+12}=\frac{x+3}{(x+3)(x+4)}=\frac{1}{x+4}$
+
+$x^2+7x+12$
+
+Step 1: Multiply the first and last numbers
+$1\times (12)= 12$
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give 12: $3\times 4=12$
+2. Add to give 7: $3 + 4 = 7$
+
+The numbers are 3 and 4
+
+Step 3: Split the middle term
+$x^2+3x+4x+12$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2+3x=x(x+3)$
+2. Right side: $4x+12=4(x+3)$
+
+Step 5: Combine into the final answer
+$(x+3)(x+4)=x^2+4x+3x+12=x^2+7x+12$
+
+(o) $\frac{x+4}{2x+8}=\frac{x+4}{2(x+4)}=\frac{1}{2}$
+
+(p) $\frac{x+4}{2x+9}$
 
 ---
