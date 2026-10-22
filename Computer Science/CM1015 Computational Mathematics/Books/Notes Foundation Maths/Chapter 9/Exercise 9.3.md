@@ -163,3 +163,25 @@ Step 5: Combine into the final answer
 $(x-3)(3x+12)=3x^2+12x-9x-36=3x^2+3x-36$
 
 ---
+
+##### 4. Simplify
+
+(a) $\frac{3}{x}\times\frac{xy}{z^3}$
+
+(b) $\frac{(3x+x)}{x}\div\frac{y}{x}$
+
+(c) $\frac{4}{3}\div\frac{16}{x}$
+
+(d) $\frac{a}{hc^2}\times \frac{b^2c}{a}$
+
+Solution
+
+(a) $\frac{3}{x}\times\frac{xy}{z^3}=\frac{3xy}{xz^3}=\frac{3y}{z^3}$
+
+(b) $\frac{(3x+x)}{x}\div\frac{y}{x}=\frac{4x}{x}\times\frac{x}{y}=4\times\frac{x}{y}=\frac{4x}{y}$
+
+(c) $\frac{4}{3}\div\frac{16}{x}$
+
+(d) $\frac{a}{hc^2}\times \frac{b^2c}{a}$
+
+---
