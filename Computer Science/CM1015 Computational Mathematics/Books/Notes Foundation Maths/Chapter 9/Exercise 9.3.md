@@ -208,6 +208,74 @@ Solution
 
 (d) $\frac{x+3y}{2x}\div\frac{y}{4x^2}=\frac{(x+3y)}{2x}\times\frac{4x^2}{y}=\frac{(x+3y)}{1}\times\frac{2x}{y}=\frac{2x^2+6xy}{y}$
 
-(e) $\frac{3}{x}\times\frac{3}{y}\times\frac{1}{z}$
+(e) $\frac{3}{x}\times\frac{3}{y}\times\frac{1}{z}=\frac{9}{xyz}$
+
+---
+
+##### 6. Simplify
+
+$\frac{1}{x+1}\times\frac{2x+2}{x+3}$
+
+Solution
+
+$\frac{1}{x+1}\times\frac{2x+2}{x+3}=\frac{2x+2}{(x+1)(x+3)}=\frac{2(x+1)}{(x+1)(x+3)}=\frac{2}{x+3}$
+
+---
+
+##### 7. Simplify
+
+$\frac{x+1}{x+2}\times\frac{x^2+6x+8}{x^2+4x+3}=\frac{x+1}{x+2}\times\frac{(x+2)(x+4)}{(x+1)(x+3)}=\frac{x+4}{x+3}$
+
+Solution
+
+$\frac{x+1}{x+2}\times\frac{x^2+6x+8}{x^2+4x+3}=$
+
+$x^2+6x+8$
+
+Step 1: Multiply the first and last numbers
+
+$1 \times 8 = 8$
+
+Step 2: Find the magic numbers
+
+1. Multiply to give 8
+2. Add to give 6:
+
+The numbers are 2 and 4
+
+Step 3: Split the middle term
+$x^2+2x+4x+8$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2+2x=x(x+2)$
+2. Right side: $4x+8=4(x+2)$
+
+Step 5: Combine into the final answer
+$(x+2)(x+4)=x^2+4x+2x+8=x^2+6x+8$
+
+$x^2+4x+3$
+
+Step 1: Multiply the first and last numbers
+
+$1 \times 3 = 3$
+
+Step 2: Find the magic numbers
+
+1. Multiply to give 3
+2. Add to give 4:
+
+The numbers are 1 and 3
+
+Step 3: Split the middle term
+$x^2+1x+3x+3$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2+1x=x(x+1)$
+2. Right side: $3x+3=3(x+1)$
+
+Step 5: Combine into the final answer
+$(x+1)(x+3)=x^2+3x+1x+3=x^2+4x+3$
 
 ---
