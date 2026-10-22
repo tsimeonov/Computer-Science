@@ -65,3 +65,37 @@ Solution
 (o) $\frac{1}{3}\times\frac{3x}{2}=\frac{3x}{6}=\frac{x}{2}$
 
 ---
+
+##### 2. Simplify
+
+(a) $\frac{1}{2}\div\frac{x}{2}$
+
+(b) $\frac{1}{2}\div\frac{2}{x}$
+
+(c) $\frac{2}{x}\div\frac{2}{x}$
+
+(d) $\frac{x}{2}\div\frac{1}{2}$
+
+(e) $\frac{2}{x}\div 2$
+
+(f) $\frac{2}{x}\div\frac{1}{2}$
+
+(g) $\frac{3}{x}\div\frac{1}{2}$
+
+Solution
+
+(a) $\frac{1}{2}\div\frac{x}{2}=\frac{1}{2}\times\frac{2}{x}=\frac{2}{2x}=\frac{1}{x}$
+
+(b) $\frac{1}{2}\div\frac{2}{x}=\frac{1}{2}\times\frac{x}{2}=\frac{x}{4}$
+
+(c) $\frac{2}{x}\div\frac{2}{x}=\frac{2}{x}\times\frac{x}{2}=\frac{2x}{2x}=1$
+
+(d) $\frac{x}{2}\div\frac{1}{2}=\frac{x}{2}\times\frac{2}{1}=\frac{2x}{2}=x$
+
+(e) $\frac{2}{x}\div 2=\frac{2}{x}\times\frac{1}{2}=\frac{2}{2x}=\frac{1}{x}$
+
+(f) $\frac{2}{x}\div\frac{1}{2}=\frac{2}{x}\times\frac{2}{1}=\frac{4}{x}$
+
+(g) $\frac{3}{x}\div\frac{1}{2}=\frac{3}{x}\times\frac{2}{1}=\frac{6}{x}$
+
+---
