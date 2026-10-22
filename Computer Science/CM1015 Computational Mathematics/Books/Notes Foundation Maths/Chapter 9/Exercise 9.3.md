@@ -99,3 +99,67 @@ Solution
 (g) $\frac{3}{x}\div\frac{1}{2}=\frac{3}{x}\times\frac{2}{1}=\frac{6}{x}$
 
 ---
+
+##### 3. Simplify
+
+(a) $\frac{5}{4}\times\frac{a}{25}$
+
+(b) $\frac{5}{4}\times\frac{a}{b}$
+
+(c) $\frac{8a}{h^2}\times\frac{b}{16a^2}$
+
+(d) $\frac{9x}{3y}\times\frac{2x}{y^2}$
+
+(e) $\frac{3}{5a}\times\frac{b}{a}$
+
+(f) $\frac{1}{4}\times\frac{x}{y}$
+
+(g) $\frac{1}{3}\times\frac{x}{x+y}$
+
+(h) $\frac{x-3}{x+4}\times\frac{1}{3x-9}$
+
+Solution
+
+(a) $\frac{5}{4}\times\frac{a}{25}=\frac{5a}{100}=\frac{a}{20}$
+
+(b) $\frac{5}{4}\times\frac{a}{b}=\frac{5a}{4b}$
+
+(c) $\frac{8a}{h^2}\times\frac{b}{16a^2}=\frac{8ab}{h^216a^2}=\frac{b}{2ah^2}$
+
+(d) $\frac{9x}{3y}\times\frac{2x}{y^2}=\frac{18x^2}{3y^3}=\frac{6x^2}{y^3}$
+
+(e) $\frac{3}{5a}\times\frac{b}{a}=\frac{3b}{5a^2}$
+
+(f) $\frac{1}{4}\times\frac{x}{y}=\frac{x}{4y}$
+
+(g) $\frac{1}{3}\times\frac{x}{x+y}=\frac{x}{3(x+y)}=\frac{x}{3x+3y}=\frac{x}{3(x+y)}$
+
+(h) $\frac{x-3}{x+4}\times\frac{1}{3x-9}=\frac{(x-3)\times1}{(x+4)(3x-9)}$
+$\frac{x-3}{3x^2-9x+12x-36}=\frac{x-3}{3x^2+3-36}$
+$\frac{x-3}{(x-3)(3x+12)}=\frac{1}{3x+12}=\frac{x-3}{3(x+4)}$
+
+$3x^2+3-36$
+
+Step 1: Multiply the first and last numbers
+
+$3 \times -36 = -108$
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give -108: $9\times-12=-108$
+2. Add to give 3: $-9+12=3$
+
+The numbers are -9 and 12
+
+Step 3: Split the middle term
+$3x^2-9x+12x-36$
+
+Step 4: Factor the grouping
+
+1. Left side: $3x^2-9x=3x(x-3)$
+2. Right side: $12x-36=12(x-3)$
+
+Step 5: Combine into the final answer
+$(x-3)(3x+12)=3x^2+12x-9x-36=3x^2+3x-36$
+
+---
