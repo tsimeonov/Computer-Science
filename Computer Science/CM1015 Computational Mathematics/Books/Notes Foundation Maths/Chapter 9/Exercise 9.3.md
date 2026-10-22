@@ -180,8 +180,34 @@ Solution
 
 (b) $\frac{(3x+x)}{x}\div\frac{y}{x}=\frac{4x}{x}\times\frac{x}{y}=4\times\frac{x}{y}=\frac{4x}{y}$
 
-(c) $\frac{4}{3}\div\frac{16}{x}$
+(c) $\frac{4}{3}\div\frac{16}{x}=\frac{4}{3}\times\frac{x}{16}=\frac{x}{12}$
 
-(d) $\frac{a}{hc^2}\times \frac{b^2c}{a}$
+(d) $\frac{a}{hc^2}\times \frac{b^2c}{a}=\frac{b^2}{hc}$
+
+---
+
+##### 5. Simplify
+
+(a) $\frac{x+2}{(x+5)(x+4)}\times\frac{x+5}{x+2}$
+
+(b) $\frac{x-2}{4}\div\frac{x}{16}$
+
+(c) $\frac{12ab}{5ef}\div\frac{4ab^2}{f}$
+
+(d) $\frac{x+3y}{2x}\div\frac{y}{4x^2}$
+
+(e) $\frac{3}{x}\times\frac{3}{y}\times\frac{1}{z}$
+
+Solution
+
+(a) $\frac{x+2}{(x+5)(x+4)}\times\frac{x+5}{x+2}=\frac{1}{x+4}$
+
+(b) $\frac{x-2}{4}\div\frac{x}{16}=\frac{x-2}{4}\times\frac{16}{x-2}=4$
+
+(c) $\frac{12ab}{5ef}\div\frac{4ab^2}{f}=\frac{12ab}{5ef}\times\frac{f}{4ab^2}=\frac{3}{5eb}$
+
+(d) $\frac{x+3y}{2x}\div\frac{y}{4x^2}=\frac{(x+3y)}{2x}\times\frac{4x^2}{y}=\frac{(x+3y)}{1}\times\frac{2x}{y}=\frac{2x^2+6xy}{y}$
+
+(e) $\frac{3}{x}\times\frac{3}{y}\times\frac{1}{z}$
 
 ---
