@@ -44,8 +44,9 @@ int main()
  avgGroup2 = 0.0;
  numberOfCourses = 0;
 
- outfile << "Course No   Group No   "
-         << "Course Average" << endl;
+ outfile << left << setw(12) << "Course No"
+         << setw(12) << "Group No"
+         << right << setw(15) << "Course Average" << endl;
 
  group1 >> courseId1;
  group2 >> courseId2;
@@ -116,11 +117,14 @@ void printResult(ofstream &outp, string courseId, int groupNo, double avg)
 {
  if (groupNo == 1)
  {
-  outp << "   " << courseId << "   ";
+  outp << left << setw(12) << courseId;
  }
  else
  {
-  outp << "        ";
+  outp << left << setw(12) << "";
  }
- outp << setw(8) << groupNo << setw(17) << avg << endl;
+
+ // Print the group number and the average with clean alignment
+ outp << left << setw(12) << groupNo
+      << right << setw(15) << avg << endl;
 }
