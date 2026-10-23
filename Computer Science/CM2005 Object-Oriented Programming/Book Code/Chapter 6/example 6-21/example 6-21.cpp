@@ -12,6 +12,7 @@ using namespace std;
 // Function prototypes
 void calculateAverage(ifstream &inp, double &courseAvg);
 void printResult(ofstream &outp, string courseId, int groupNo, double avg);
+void printHeading(ofstream &outp);
 
 int main()
 {
@@ -156,8 +157,8 @@ void printResult(ofstream &outp, string courseId, int groupNo, double avg)
 void printHeading(ofstream &outp)
 {
  outp << "Course      Course Average" << endl;
- outp << " ID  0  10  20  30  40  50  60  70"
+ outp << "ID  0  10  20  30  40  50  60  70"
       << "  80  90  100" << endl;
- outp << " |....|....|....|....|....|....|....|"
+ outp << "|....|....|....|....|....|....|....|"
       << "....|....|....|" << endl;
 }
