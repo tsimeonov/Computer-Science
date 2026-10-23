@@ -40,6 +40,8 @@ int main()
  outfile.open("student.out");
  outfile << fixed << setprecision(2);
 
+ printHeading(outfile);
+
  avgGroup1 = 0.0;
  avgGroup2 = 0.0;
  numberOfCourses = 0;
@@ -69,6 +71,7 @@ int main()
    avgGroup1 = avgGroup1 + avg1;
    avgGroup2 = avgGroup2 + avg2;
    outfile << endl;
+
    numberOfCourses++;
   }
   group1 >> courseId1;
@@ -115,6 +118,9 @@ void calculateAverage(ifstream &inp, double &courseAvg)
 
 void printResult(ofstream &outp, string courseId, int groupNo, double avg)
 {
+ int noOfSymbols;
+ int count;
+
  if (groupNo == 1)
  {
   outp << left << setw(12) << courseId;
@@ -127,4 +133,31 @@ void printResult(ofstream &outp, string courseId, int groupNo, double avg)
  // Print the group number and the average with clean alignment
  outp << left << setw(12) << groupNo
       << right << setw(15) << avg << endl;
+
+ noOfSymbols = static_cast<int>(avg) / 2;
+
+ if (groupNo == 1)
+ {
+  for (count = 1; count <= noOfSymbols; count++)
+  {
+   outp << '*';
+  }
+ }
+ else
+ {
+  for (count = 1; count <= noOfSymbols; count++)
+  {
+   outp << '#';
+  }
+ }
+ outp << endl;
+}
+
+void printHeading(ofstream &outp)
+{
+ outp << "Course      Course Average" << endl;
+ outp << " ID  0  10  20  30  40  50  60  70"
+      << "  80  90  100" << endl;
+ outp << " |....|....|....|....|....|....|....|"
+      << "....|....|....|" << endl;
 }
