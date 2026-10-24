@@ -32,13 +32,13 @@ Solution
 
 Solution
 
-(a) $\frac{1}{2}+\frac{1}{x}$
+(a) $\frac{1}{2}+\frac{1}{x}=\frac{x}{2x}+\frac{2}{2x}=\frac{x+2}{2x}$
 
-(b) $\frac{1}{2}+x$
+(b) $\frac{1}{2}+x=\frac{1}{2}+\frac{2x}{2}=\frac{1+2x}{2}$
 
-(c) $\frac{1}{3}+y$
+(c) $\frac{1}{3}+y=\frac{1}{3}+\frac{3y}{3}=\frac{1+3y}{3}$
 
-(d) $\frac{1}{3}+\frac{1}{y}$
+(d) $\frac{1}{3}+\frac{1}{y}=\frac{y}{3y}+\frac{3}{3y}=\frac{y+3}{3y}$
 
 (e) $8+\frac{1}{y}$
 
