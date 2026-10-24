@@ -69,3 +69,55 @@ Solution
 (e) $\frac{x}{3}+\frac{1}{3}=\frac{x+1}{3}$
 
 ---
+
+##### 4. Express each of the following as a single fraction:
+
+(a) $\frac{3}{x}+\frac{4}{y}$
+
+(b) $\frac{3}{x^2}+\frac{4y}{x}$
+
+(c) $\frac{4ab}{x}+\frac{3ab}{2y}$
+
+(d) $\frac{4xy}{a}+\frac{3xy}{2b}$
+
+(e) $\frac{3}{x}-\frac{6}{2x}$
+
+(f) $\frac{3x}{2y}-\frac{7y}{4x}$
+
+(g) $\frac{3}{x+y}-\frac{2}{y}$
+
+(h) $\frac{1}{a+b}-\frac{1}{a-b}$
+
+(i) $2x+\frac{1}{2x}$
+
+(j) $2x-\frac{1}{2x}$
+
+Solution
+
+(a) $\frac{3}{x}+\frac{4}{y}=\frac{3y}{xy}+\frac{4x}{xy}=\frac{3y+4x}{xy}$
+
+(b) $\frac{3}{x^2}+\frac{4y}{x}=\frac{3}{x^2}+\frac{4xy}{x^2}=\frac{3+4xy}{x^2}$
+
+(c) $\frac{4ab}{x}+\frac{3ab}{2y}=\frac{8aby}{2xy}+\frac{3abx}{2xy}=\frac{8aby+3abx}{2xy}$
+
+(d) $\frac{4xy}{a}+\frac{3xy}{2b}=\frac{8xyb}{2ab}+\frac{3xya}{2ab}=\frac{8xyb+3xya}{2ab}$
+
+(e) $\frac{3}{x}-\frac{6}{2x}=\frac{6}{2x}-\frac{6}{2x}=\frac{6-6}{2x}=\frac{0}{2x}=0$
+
+(f) $\frac{3x}{2y}-\frac{7y}{4x}=\frac{12x^2}{8xy}-\frac{14y^2}{8xy}=\frac{12x^2-14y^2}{8xy}=\frac{2(6x^2-7y^2)}{2(4xy)}=\frac{6x^2-7y^2}{4xy}$
+
+(g) $\frac{3}{x+y}-\frac{2}{y}=\frac{3y}{y(x+y)}-\frac{2(x+y)}{y(x+y)}=\frac{3y-2(x+y)}{y(x+y)}=\frac{3y-2x-2y}{y(x+y)}=\frac{y-2y}{y(x+y)}$
+
+LCD: y(x+y)
+
+(h) $\frac{1}{a+b}-\frac{1}{a-b}=\frac{a-b}{(a+b)(a-b)}-\frac{a+b}{(a+b)(a-b)}=\frac{(a-b)-(a+b)}{(a+b)(a-b)}=\frac{a-b-a-b}{(a+b)(a-b)}=\frac{-2b}{(a+b)(a-b)}$
+
+LCD: (a+b)(a-b)
+
+(i) $2x+\frac{1}{2x}=\frac{4x^2}{2x}+\frac{1}{2x}=\frac{4x^2+1}{2x}$
+
+LCD: 2x
+
+(j) $2x-\frac{1}{2x}=\frac{4x^2}{2x}-\frac{1}{2x}=\frac{4x-1}{2x}$
+
+---
