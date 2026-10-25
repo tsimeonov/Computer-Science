@@ -46,6 +46,32 @@ Solution
 
 ##### 3. Express each of the following as a single fraction:
 
+(a) $\frac{5}{x}-\frac{1}{2}$
+
+(b) $\frac{5}{x}+2$
+
+(c) $\frac{3}{x}-\frac{1}{3}$
+
+(d) $\frac{x}{3}-\frac{1}{2}$
+
+(e) $\frac{3}{x}+\frac{1}{3}$
+
+Solution
+
+(a) $\frac{5}{x}-\frac{1}{2}=\frac{5\times(2)}{2x}-\frac{1\times(x)}{2x}=\frac{10-x}{2x}$
+
+(b) $\frac{5}{x}+2=\frac{5}{x}+\frac{2\times(x)}{x}=\frac{5+2x}{x}$
+
+(c) $\frac{3}{x}-\frac{1}{3}=\frac{3\times(3)}{3x}-\frac{1\times(x)}{3x}=\frac{9x-x}{3x}$
+
+(d) $\frac{x}{3}-\frac{1}{2}=\frac{x\times(2)}{6}-\frac{1\times(3)}{6}=\frac{2x-3}{6}$
+
+(e) $\frac{3}{x}+\frac{1}{3}=\frac{3\times(3)}{3x}+\frac{1\times(x)}{3x}=\frac{9+x}{3x}$
+
+---
+
+##### 4. Express each of the following as a single fraction:
+
 (a) $\frac{3}{x}+\frac{4}{y}$
 
 (b) $\frac{3}{x^2}+\frac{4y}{x}$
