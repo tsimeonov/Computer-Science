@@ -62,7 +62,7 @@ Solution
 
 (b) $\frac{5}{x}+2=\frac{5}{x}+\frac{2\times(x)}{x}=\frac{5+2x}{x}$
 
-(c) $\frac{3}{x}-\frac{1}{3}=\frac{3\times(3)}{3x}-\frac{1\times(x)}{3x}=\frac{9x-x}{3x}$
+(c) $\frac{3}{x}-\frac{1}{3}=\frac{3\times(3)}{3x}-\frac{1\times(x)}{3x}=\frac{9-x}{3x}$
 
 (d) $\frac{x}{3}-\frac{1}{2}=\frac{x\times(2)}{6}-\frac{1\times(3)}{6}=\frac{2x-3}{6}$
 
@@ -115,5 +115,35 @@ $\frac{(a-b)-(a+b)}{(a-b)(a+b)}=\frac{a-b-a-b}{a^2-b^2}=\frac{-2b}{a^2-b^2}$
 (i) $2x+\frac{1}{2x}=\frac{2x\times(2x)}{2x}+\frac{1}{2x}=\frac{4x^2+1}{2x}$
 
 (j) $2x-\frac{1}{2x}=\frac{2x\times(2x)}{2x}-\frac{1}{2x}=\frac{4x^2-1}{2x}$
+
+---
+
+##### 5. Express each of the following as a single fraction:
+
+(a) $\frac{x}{y}+\frac{3x^2}{z}$
+
+(b) $\frac{4}{a}+\frac{4}{b}$
+
+(c) $\frac{6x}{y}-\frac{2y}{x}$
+
+(d) $3x-\frac{3x+1}{4}$
+
+(e) $\frac{5a}{12}+\frac{9a}{18}$
+
+(f) $\frac{x-3}{4}+\frac{3}{5}$
+
+Solution
+
+(a) $\frac{x}{y}+\frac{3x^2}{z}=\frac{x\times(z)}{yz}+\frac{3x^2\times(y)}{yz}=\frac{x}{yz}$
+
+(b) $\frac{4}{a}+\frac{4}{b}=\frac{4\times(b)}{ab}+\frac{4\times(a)}{ab}=\frac{4b+4a}{ab}=\frac{4(a+b)}{ab}$
+
+(c) $\frac{6x}{y}-\frac{2y}{x}=\frac{6x\times(x)}{xy}-\frac{2y\times(y)}{xy}=\frac{6x^2-2y^2}{xy}=\frac{2(3x^2-y^2)}{xy}$
+
+(d) $3x-\frac{3x+1}{4}=\frac{3x\times(4)}{4}-\frac{3x+1}{4}=\frac{12x-(3x+1)}{4}=\frac{9x-1}{4}$
+
+(e) $\frac{5a}{12}+\frac{9a}{18}=\frac{5a\times(3)}{36}+\frac{9a\times(2)}{36}=\frac{15a+18a}{36}=\frac{33a}{36}$
+
+(f) $\frac{x-3}{4}+\frac{3}{5}$
 
 ---
