@@ -142,8 +142,56 @@ Solution
 
 (d) $3x-\frac{3x+1}{4}=\frac{3x\times(4)}{4}-\frac{3x+1}{4}=\frac{12x-(3x+1)}{4}=\frac{9x-1}{4}$
 
-(e) $\frac{5a}{12}+\frac{9a}{18}=\frac{5a\times(3)}{36}+\frac{9a\times(2)}{36}=\frac{15a+18a}{36}=\frac{33a}{36}$
+(e) $\frac{5a}{12}+\frac{9a}{18}=\frac{5a\times(3)}{36}+\frac{9a\times(2)}{36}=\frac{15a+18a}{36}=\frac{33a\div3}{36\div3}=\frac{11a}{12}$
 
-(f) $\frac{x-3}{4}+\frac{3}{5}$
+(f) $\frac{x-3}{4}+\frac{3}{5}=\frac{(x-3)\times5}{20}+\frac{3\times4}{20}=\frac{5x-15+12}{20}=\frac{5x-3}{20}=$
+
+---
+
+##### 6. Express each of the following as a single fraction:
+
+(a) $\frac{1}{x+1}+\frac{1}{x+2}$
+
+(b) $\frac{1}{x-1}+\frac{2}{x+3}$
+
+(c) $\frac{3}{x+5}+\frac{1}{x+4}$
+
+(d) $\frac{1}{x-2}+\frac{3}{x-4}$
+
+(e) $\frac{3}{2x+1}+\frac{1}{x+1}$
+
+(f) $\frac{3}{1-2x}+\frac{1}{x}$
+
+(g) $\frac{3}{x+1}+\frac{4}{(x+1)^2}$
+
+(h) $\frac{1}{x-1}+\frac{1}{(x-1)^2}$
+
+Solution
+
+(a) $\frac{1}{x+1}+\frac{1}{x+2}=\frac{(x+2)}{(x+1)(x+2)}+\frac{(x+1)}{(x+1)(x+2)}=$
+
+$\frac{(x+2)+(x+1)}{(x+1)(x+2)}=\frac{2x+3}{(x+1)(x+2)}$
+
+(b) $\frac{1}{x-1}+\frac{2}{x+3}=\frac{(x+3)}{(x-1)(x+3)}+\frac{2\times(x-1)}{(x-1)(x+3)}=\frac{x+3+2x-2}{(x-1)(x+3)}=\frac{3x+1}{(x-1)(x+3)}$
+
+(c) $\frac{3}{x+5}+\frac{1}{x+4}=\frac{3\times(x+4)}{(x+5)(x+4)}+\frac{x+5}{(x+5)(x+4)}=\frac{3x+12+x+5}{(x+5)(x+4)}=\frac{4x+17}{(x+5)(x+4)}$
+
+(d) $\frac{1}{x-2}+\frac{3}{x-4}=\frac{x-4}{(x-2)(x-4)}+\frac{3\times(x-2)}{(x-2)(x-4)}=$
+
+$\frac{x-4+3x-6}{(x-2)(x-4)}=\frac{4x-10}{(x-2)(x-4)}=\frac{2(2x-5)}{(x-2)(x-4)}$
+
+(e) $\frac{3}{2x+1}+\frac{1}{x+1}=\frac{3\times(x+1)}{(2x+1)(x+1)}+\frac{2x+1}{(2x+1)(x+1)}$
+
+$\frac{3x+3}{(2x+1)(x+1)}+\frac{2x+1}{(2x+1)(x+1)}=\frac{5x+4}{(2x+1)(x+1)}$
+
+(f) $\frac{3}{1-2x}+\frac{1}{x}=\frac{3x}{(1-2x)x}+\frac{1-2x}{(1-2x)x}=\frac{3x+1-2x}{(1-2x)x}=$
+
+$\frac{x+1}{(1-2x)x}$
+
+(g) $\frac{3}{x+1}+\frac{4}{(x+1)^2}=\frac{3\times(x+1)}{(x+1)^2}+\frac{4}{(x+1)^2}=$
+
+$\frac{3x+3}{(x+1)^2}+\frac{4}{(x+1)^2}=\frac{3x+7}{(x+1)^2}$
+
+(h) $\frac{1}{x-1}+\frac{1}{(x-1)^2}=\frac{x-1}{(x-1)^2}+\frac{1}{(x-1)^2}=\frac{x}{(x-1)^2}$
 
 ---
