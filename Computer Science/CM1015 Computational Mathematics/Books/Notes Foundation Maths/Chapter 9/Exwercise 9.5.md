@@ -232,3 +232,34 @@ Final answer
 $\frac{3x+11}{x^2+3x-2}=\frac{-1}{x+2}+\frac{5}{2x-1}$
 
 ---
+
+##### 2. Find the partial fractions of the following:
+
+$\frac{x+21}{2(2x+3)(3x-2)}$
+
+Step 1: Set up the particial fraction form
+
+$\frac{x+21}{(2x+3)(3x-2)}=\frac{A}{2x+3}+\frac{B}{3x-2}$
+
+Step 2: Clear the denominator
+
+$x+21=A(3x-2)+B(2x+3)$
+
+To find A, let x = $-\frac{3}{2}$
+$(-\frac{3}{2})+21=A(3(-\frac{3}{2})-2)+B(2x+3)$
+$(-\frac{3}{2})+21=A(3(-\frac{3}{2})-2)+B(0)$
+$(-\frac{3}{2}+\frac{42}{2})=A(-\frac{9}{2}-2)$
+$\frac{39}{2}=A(-\frac{9}{2}-\frac{4}{2})$
+$\frac{39}{2}=A(-\frac{13}{2})$
+$39=-13A$
+$A=\frac{39}{-13}=-3$
+
+To find B, let $\frac{2}{3}$
+$\frac{2}{3}+21=A(3(\frac{2}{3})-2)+B(2(\frac{2}{3})+3)$
+$\frac{2}{3}+\frac{63}{3}=A(0)+B(\frac{4}{3}+3)$
+$\frac{65}{3}=B(\frac{13}{3})$
+$65=13B$
+$B=\frac{65}{13}=5$
+
+Final answer
+$\frac{x+21}{2(2x+3)(x-2)}=\frac{-3}{2(2x+3)}+\frac{5}{2(3x-2)}$
