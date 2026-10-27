@@ -145,3 +145,18 @@ Let n = highest power of the numerator
 Then
 if n ≥ d the fraction is improper
 if n < d the fraction is proper
+
+---
+
+### 10. Transposing formulae
+
+#### 10.1 Rearranging a formula
+
+To transpose a formula you may:
+
+- add the same quantity to both sides
+- subtract the same quantity from both sides
+- multiply or divide both sides by the same quantity
+- Perform operations on both sides, such as 'square both sides', 'square root both sides' etc.
+
+---
