@@ -159,7 +159,7 @@ $(x-4)(x-1)=2x^2-1x-4x+4=x^2-5x+4$
 
 $\frac{5x-11}{(x-4)(x-1)}$
 
-Step 1: Set up the particial fraction form
+Step 1: Set up the partial fraction form
 
 $\frac{5x-11}{(x-4)(x-1)}=\frac{A}{x-1}+\frac{B}{x-4}$
 
@@ -209,7 +209,7 @@ $(x+2)(2x-1)=2x^2-1x+4x-2=x^2+3x-2$
 
 $\frac{3x+11}{(x+2)(2x-1)}$
 
-Step 1: Set up the particial fraction form
+Step 1: Set up the partial fraction form
 
 $\frac{3x+11}{(x+2)(2x-1)}=\frac{A}{x+2}+\frac{B}{2x-1}$
 
@@ -237,7 +237,7 @@ $\frac{3x+11}{x^2+3x-2}=\frac{-1}{x+2}+\frac{5}{2x-1}$
 
 $\frac{x+21}{2(2x+3)(3x-2)}$
 
-Step 1: Set up the particial fraction form
+Step 1: Set up the partial fraction form
 
 $\frac{x+21}{(2x+3)(3x-2)}=\frac{A}{2x+3}+\frac{B}{3x-2}$
 
@@ -263,3 +263,126 @@ $B=\frac{65}{13}=5$
 
 Final answer
 $\frac{x+21}{2(2x+3)(x-2)}=\frac{-3}{2(2x+3)}+\frac{5}{2(3x-2)}$
+
+---
+
+##### 3. Find the partial fractions of the following:
+
+(a) $\frac{x-35}{x^2-25}$
+
+(b) $\frac{x-4}{x^2-6x+9}$
+
+(c) $\frac{5x+4}{-x^2-x+2}$
+
+(d) $\frac{12x-5}{9x^2-6x+1}$
+
+Solution
+
+<b> (a) $\frac{x-35}{x^2-25}=\frac{x-35}{(x-5)(x+5)}$</b>
+
+Step 1: Set up the partial fraction from
+
+$\frac{x-35}{(x-5)(x+5)}=\frac{A}{x-5}+\frac{B}{x+5}$
+
+Step 2: Clear the denominator
+
+$x-35=A(x+5)+B(x-5)$
+
+To find A, let x = 5
+
+$5-35=A(5-5)+B(5+5)$
+$-30=A(0)+B(10)$
+$B=\frac{-30}{10}=-3$
+
+To find B, let x = -5
+
+$-5-35=A(-5-5)+B(-5+5)$
+$-40=A(-10)+B(0)$
+$A=\frac{-40}{-10}=4$
+
+Final answer
+
+$\frac{x-35}{x^2-25}=\frac{-3}{x-5}+\frac{4}{x+5}$
+
+<b> (b) $\frac{x-4}{x^2-6x+9}$ </b>
+
+$x^2-6x+9$
+
+Step 1: Multiply the first and last numbers
+
+$1 \times 9 =9 $
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give 9:
+2. Add to give -6:
+
+The numbers are and -3 and -3
+
+Step 3: Split the middle term
+$x^2-3x-3x+9$
+
+Step 4: Factor the grouping
+
+1. Left side: $x^2-3x=x(x-3)$
+2. Right side: $-3x+9= -3(x-3)$
+
+Step 5: Combine into the final answer
+$(x-3)(x-3)=x^2-3x-3x+9=x^2-6x+9$
+
+$\frac{x-4}{(x-3)(x-3)}$
+
+Step 1: Set up the partial fraction from
+
+$\frac{x-4}{(x-3)(x-3)}=\frac{A}{x-3}+\frac{B}{(x-3)(x-3)}$
+
+Step 2: Clear the denominator
+
+To find B, let x = 3
+
+$3-4=A(3-3)+B$
+$-1=A(0)+B$
+$B=-1$
+
+$x-4=A(x-3)+B$
+
+To find A, let x = 4
+
+$4-4=A(4-3)+B(-1)$
+$0=A(0)+B(-1)$
+$0=A(1)-1$
+$A=1$
+
+Final answer
+
+$\frac{x-4}{(x-3)(x-3)}=\frac{1}{x-3}+\frac{-1}{(x-3)(x-3)}$
+
+<b> (c) $\frac{5x+4}{-x^2-x+2}$ </b>
+
+$-x^2-x+2$
+
+Step 1: Multiply the first and last numbers
+
+$-1 \times 2 =-2 $
+
+Step 2: Find the magic numbers
+
+1. Multiply yo give -2: $1\times-2=-2$
+2. Add to give -1: $1+(-2)=-1$
+
+The numbers are and 1 and -2
+
+Step 3: Split the middle term
+$-x^2+1x-2x+2$
+
+Step 4: Factor the grouping
+
+1. Left side: $-x^2+1x=-x(x-1)$
+2. Right side: $-2x+2= -2(x-1)$
+
+Step 5: Combine into the final answer
+$-(x+2)(x-1)=-x^2-1x+2x-2=-x^2+x-2$
+
+<b> (d) $\frac{12x-5}{9x^2-6x+1}$ </b>
+
+---
