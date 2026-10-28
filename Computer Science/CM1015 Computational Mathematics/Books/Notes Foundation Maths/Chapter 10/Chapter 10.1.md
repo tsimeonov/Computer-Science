@@ -127,3 +127,41 @@ $\frac{8x}{8}=\frac{19-y}{8}$
 $x=\frac{19-y}{8}$
 
 ---
+
+##### 2. Transpose y=mx+c
+
+(a) for m
+(b) for x
+(c) for c
+
+Solution
+
+<h6 style="color: #DCAE96">(a) y=mx+c, for m</h6>
+
+$y-c=mx+c-c$
+
+$y-c=mx$
+
+$\frac{y-c}{x}=\frac{mx}{x}$
+
+$m=\frac{y-c}{x}$
+
+<h6 style="color: #DCAE96">(b) y=mx+c, for x</h6>
+
+$y-c=mx+c-c$
+
+$y-c=mx$
+
+$\frac{y-c}{m}=\frac{mx}{m}$
+
+$x=\frac{y-c}{m}$
+
+<h6 style="color: #DCAE96">(c) y=mx+c, for c</h6>
+
+$y-mx=mx+c$
+
+$y-mx=c$
+
+$c=y-mx$
+
+---
