@@ -217,3 +217,51 @@ $\frac{y+3t-a}{t}=\frac{tx}{t}$
 $x= \frac{y+3t-a}{t}$
 
 ---
+
+##### 4. Transpose each of the following formulae to make the given variable the subject:
+
+(a) $y=7x+11$, for x
+
+(b) $V=IR$, for I
+
+(c) $V=\frac{4}{3}πr^2$, for r
+
+(d) $F=ma$, for m
+
+Solution
+
+<h6 style="color: #DCAE96">(a) $y=7x+11$, for x</h6>
+
+$y-11=7x+11-11$
+
+$y-11=7x$
+
+$\frac{y-11}{7}=\frac{7x}{7}$
+
+$x=\frac{y-11}{7}$
+
+<h6 style="color: #DCAE96">(b) $V=IR$, for I</h6>
+
+$\frac{V}{R}=\frac{IR}{R}$
+
+$I=\frac{V}{R}$
+
+<h6 style="color: #DCAE96">(c) $V=\frac{4}{3}πr^2$, for r</h6>
+
+$3V=\frac{4}{3}πr^2\times3$
+
+$3V=4πr^2$
+
+$\frac{3V}{4π}=\frac{4πr^2}{4π}$
+
+$r^2=\frac{3V}{4π}$
+
+$r=\sqrt{\frac{3V}{4π}}$
+
+<h6 style="color: #DCAE96">(d) $F=ma$, for m</h6>
+
+$\frac{F}{a}=\frac{ma}{a}$
+
+$m=\frac{F}{a}$
+
+---
