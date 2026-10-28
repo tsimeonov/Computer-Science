@@ -165,3 +165,55 @@ $y-mx=c$
 $c=y-mx$
 
 ---
+
+##### 3. Transpose the following formulae for x:
+
+(a) $y=13(x-2)$
+
+(b) $y=x(1+\frac{1}{x})$
+
+(c) $y=a+t(x-3)$
+
+Solution
+
+<h6 style="color: #DCAE96">(a) $y=13(x-2)$</h6>
+
+$y=13x-26$
+
+$y+26=13x-26+26$
+
+$y+26=13x$
+
+$\frac{y+26}{13}=\frac{13x}{13}$
+
+$x= \frac{y+26}{13}$
+
+<h6 style="color: #DCAE96">(b) $y=x(1+\frac{1}{x})$</h6>
+
+$y=x\times1+x\times\frac{1}{x}$
+
+Since $x\times\frac{1}{x}=1$
+
+$y=x+1$
+
+$y-1=x+1-1$
+
+$x=y-1$
+
+<h6 style="color: #DCAE96">(c) $y=a+t(x-3)$</h6>
+
+$y=a+tx-3t$
+
+$y+3t=a+tx-3t+3t$
+
+$y+3t=a+tx$
+
+$y+3t-a=a+tx-a$
+
+$y+3t-a=tx$
+
+$\frac{y+3t-a}{t}=\frac{tx}{t}$
+
+$x= \frac{y+3t-a}{t}$
+
+---
