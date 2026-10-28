@@ -265,3 +265,20 @@ $\frac{F}{a}=\frac{ma}{a}$
 $m=\frac{F}{a}$
 
 ---
+
+##### 5. Make n the subject of the formula $l=a+(n-1)d$
+
+Solution
+
+<h6 style="color: #DCAE96">$l=a+(n-1)d$</h6>
+
+$l=a+nd-d$
+
+$l-a+d=a+nd-d$
+
+$l-a+d=nd$
+
+$\frac{l-a+d}{d}=\frac{nd}{d}$
+$n=\frac{l-a+d}{d}$
+
+---
