@@ -282,3 +282,18 @@ $\frac{l-a+d}{d}=\frac{nd}{d}$
 $n=\frac{l-a+d}{d}$
 
 ---
+
+##### 6. If $m=n+t\sqrt{x}$, find an expression for x
+
+Solution
+
+$m=n+t\sqrt{x}$
+
+$m-n=n+t\sqrt{x}-n$
+
+$m-n=t\sqrt{x}$
+
+$\frac{m-n}{t}=\frac{t\sqrt{x}}{t}$
+$\frac{m-n}{t}=\sqrt{x}$
+
+---
