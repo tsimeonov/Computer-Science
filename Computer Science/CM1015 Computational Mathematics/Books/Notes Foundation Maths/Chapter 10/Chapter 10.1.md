@@ -296,4 +296,6 @@ $m-n=t\sqrt{x}$
 $\frac{m-n}{t}=\frac{t\sqrt{x}}{t}$
 $\frac{m-n}{t}=\sqrt{x}$
 
+$x=(\frac{m-n}{t})^2$
+
 ---
