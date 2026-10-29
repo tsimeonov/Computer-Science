@@ -57,3 +57,47 @@ m. In a program, global constants are as dangerous as global variables => FALSE
 /*
 n. The memory for a static variable remains allocated between function calls => TRUE
 */
+
+#include <iostream>;
+
+using namespace std;
+
+void customFunc(int n, int m, int &sum, double &avg);
+
+int main()
+{
+ int firstNum = 2;
+ int secondNum = 4;
+ int totalSum = 0;
+ double average = 0.0;
+
+ customFunc(firstNum, secondNum, totalSum, average);
+ cout << "Numbers between " << firstNum << " and " << secondNum << endl
+      << flush;
+ cout << "Sum: " << totalSum << endl
+      << flush;
+ cout << "Average: " << average << endl
+      << flush;
+
+ return 0;
+}
+
+void customFunc(int n, int m, int &sum, double &avg)
+{
+ sum = 0;
+ int count = 0;
+
+ if (n <= m)
+ {
+  for (int i = n; i <= m; i++)
+  {
+   sum = sum + i;
+   count++;
+  }
+  avg = static_cast<double>(sum) / count;
+ }
+ else
+ {
+  cout << "The first number needs to be less than the second" << endl;
+ }
+}

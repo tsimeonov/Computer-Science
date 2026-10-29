@@ -25,5 +25,3 @@ void customFunc(int &num1, double &num2, string &str)
  num2 = 0;
  str = " ";
 }
-
-// 7558
