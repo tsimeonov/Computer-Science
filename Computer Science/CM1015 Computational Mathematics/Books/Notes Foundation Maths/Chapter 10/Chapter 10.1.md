@@ -299,3 +299,57 @@ $\frac{m-n}{t}=\sqrt{x}$
 $x=(\frac{m-n}{t})^2$
 
 ---
+
+##### 7. Make x the subject of the following formulae
+
+(a) $y=1-x^2$
+
+(b) $y=\frac{1}{1-x^2}$
+
+(c) $y=\frac{1-x^2}{2+x^2}$
+
+Solution:
+
+<h6 style="color: #DCAE96">(a) $y=1-x^2$</h6>
+
+Eliminate the negative sign by multiplying both sides by -1
+
+$-(y-1)=-(-x^2)$
+
+$y-1=x^2$
+
+$x=\sqrt{y-1}$
+
+<h6 style="color: #DCAE96">(b) $y=\frac{1}{1-x^2}$</h6>
+
+$y(1-x^2)=\frac{1}{1-x^2}\times 1-x^2$
+
+$y(1-x^2)=1$
+
+$\frac{y(1-x^2)}{y}=\frac{1}{y}$
+
+$1-x^2=\frac{1}{y}$
+
+$x^2=1-\frac{1}{y}$
+
+$x=\sqrt{1-\frac{1}{y}}$
+
+---
+
+$y(1-x^2)=\frac{1}{1-x^2}\times1-x^2$
+
+$y(1-x^2)=1$
+
+$\frac{y(1-x^2)}{y}=\frac{1}{y}$
+
+$1-x^2=\frac{1}{y}$
+
+$1-\frac{1}{y}=x^2$
+
+$x^2=1-\frac{1}{y}$
+
+$x=\sqrt{1-\frac{1}{y}}$
+
+<h6 style="color: #DCAE96">(c) $y=\frac{1-x^2}{2+x^2}$</h6>
+
+---
