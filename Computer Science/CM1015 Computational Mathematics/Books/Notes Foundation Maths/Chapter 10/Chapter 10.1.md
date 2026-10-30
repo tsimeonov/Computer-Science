@@ -322,20 +322,6 @@ $x=\sqrt{y-1}$
 
 <h6 style="color: #DCAE96">(b) $y=\frac{1}{1-x^2}$</h6>
 
-$y(1-x^2)=\frac{1}{1-x^2}\times 1-x^2$
-
-$y(1-x^2)=1$
-
-$\frac{y(1-x^2)}{y}=\frac{1}{y}$
-
-$1-x^2=\frac{1}{y}$
-
-$x^2=1-\frac{1}{y}$
-
-$x=\sqrt{1-\frac{1}{y}}$
-
----
-
 $y(1-x^2)=\frac{1}{1-x^2}\times1-x^2$
 
 $y(1-x^2)=1$
@@ -351,5 +337,23 @@ $x^2=1-\frac{1}{y}$
 $x=\sqrt{1-\frac{1}{y}}$
 
 <h6 style="color: #DCAE96">(c) $y=\frac{1-x^2}{2+x^2}$</h6>
+
+$y(2+x^2)=\frac{1-x^2}{2+x^2}\times 2+x^2$
+
+$y(2+x^2)=1-x^2$
+
+$2y+yx^2=1-x^2$
+
+$yx^2+2y+x^2=1$
+
+$yx^2+2y+x^2-2y=1-2y$
+
+$yx^2+x^2=1-2y$
+
+$x^2(y+1)=1-2y$
+
+$x^2=\frac{1-2y}{y+1}$
+
+$x=\sqrt{\frac{1-2y}{y+1}}$
 
 ---
