@@ -131,3 +131,13 @@ $\sqrt{x}=\frac{k}{v}$
 $x=\frac{k^2}{v^2}$
 
 ---
+
+##### 4. Transpose the formula $V= πr^2h$ for h
+
+$V= πr^2h$
+
+$\frac{V}{πr^2}= \frac{πr^2h}{πr^2}$
+
+$h=\frac{V}{πr^2}$
+
+---
