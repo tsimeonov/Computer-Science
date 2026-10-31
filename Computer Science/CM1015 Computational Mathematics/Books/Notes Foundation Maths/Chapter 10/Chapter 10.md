@@ -141,3 +141,35 @@ $\frac{V}{πr^2}= \frac{πr^2h}{πr^2}$
 $h=\frac{V}{πr^2}$
 
 ---
+
+##### 5. Make r the subject of the formula $y=H+Cr$
+
+$y=H+Cr$
+
+$y-H=H+Cr-H$
+
+$y-H=Cr$
+
+$\frac{y-H}{C}=\frac{Cr}{C}$
+
+$r=\frac{y-H}{C}$
+
+---
+
+##### 6. Transpose the formula $s=ut+\frac{1}{2}at^2$ for a
+
+$s=ut+\frac{1}{2}at^2$
+
+$s-ut=ut+\frac{1}{2}at^2-ut$
+
+$s-ut=\frac{1}{2}at^2$
+
+$2(s-ut)=\frac{1}{2}at^2\times2$
+
+$2(s-ut)=at^2$
+
+$\frac{2(s-ut)}{t^2}=\frac{at^2}{t^2}$
+
+$a=\frac{2(s-ut)}{t^2}$
+
+---
