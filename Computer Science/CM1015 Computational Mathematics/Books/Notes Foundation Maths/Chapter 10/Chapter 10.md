@@ -115,3 +115,19 @@ $x^2=2gy$
 $x=\sqrt{2gy}$
 
 ---
+
+##### 3. Make x the subject of the folrmula $v=k/\sqrt{x}$
+
+$v=\frac{k}{\sqrt{x}}$
+
+$v\times\sqrt{x}=\frac{k}{\sqrt{x}}\times \sqrt{x}$
+
+$v\times\sqrt{x}=k$
+
+$\frac{v\times\sqrt{x}}{v}=\frac{k}{v}$
+
+$\sqrt{x}=\frac{k}{v}$
+
+$x=\frac{k^2}{v^2}$
+
+---
