@@ -173,3 +173,15 @@ $\frac{2(s-ut)}{t^2}=\frac{at^2}{t^2}$
 $a=\frac{2(s-ut)}{t^2}$
 
 ---
+
+##### 7. Transpose the formula $v^2=u^2+2as$ for u
+
+$v^2=u^2+2as$
+
+$v^2-2as=u^2+2as-2as$
+
+$u^2=v^2-2as$
+
+$u=\sqrt{v^2-2as}$
+
+---
