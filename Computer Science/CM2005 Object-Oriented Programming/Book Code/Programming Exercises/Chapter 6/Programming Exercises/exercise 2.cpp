@@ -1,27 +1,27 @@
 #include <iostream>
-#include <cctype> // for tolower
+#include <cctype> // for lower
 
 using namespace std;
 
-bool isVowel(char ch);
+bool isLower(char ch);
 
 int main()
 {
- cout << boolalpha; // Prints "true" or "false" instead of 1 or 0
+ cout << boolalpha;
 
- cout << "isVowel('a'): " << isVowel('a') << endl; // true
- cout << "isVowel('E'): " << isVowel('E') << endl; // true
- cout << "isVowel('x'): " << isVowel('x') << endl; // false
- cout << "isVowel('9'): " << isVowel('9') << endl; // false
+ cout << "isLower('a')" << isLower('a') << endl; // true
+ cout << "isLower('E')" << isLower('E') << endl; // true
+ cout << "isLower('x')" << isLower('x') << endl; // false
+ cout << "isLower('g')" << isLower('g') << endl; // false
 
  return 0;
 }
 
-bool isVowel(char ch)
+bool isLower(char ch)
 {
- char lower = tolower(static_cast<unsigned char>(ch));
+ char lower = tolower(ch);
 
- if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u')
+ if (lower == 'a' || lower == 'e' || lower == 'o' || lower == 'i' || lower == 'u')
  {
   return true;
  }
