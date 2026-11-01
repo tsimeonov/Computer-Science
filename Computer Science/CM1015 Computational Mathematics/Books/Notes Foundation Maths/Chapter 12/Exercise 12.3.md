@@ -11,12 +11,17 @@
 ##### 2. Write down the first four terms of the geometric progression with first term $\frac{1}{4}$ and common ration $\frac{4}{5}$
 
 1st: 0.25
-2nd: $0.25\times0.8=1.05$
+2nd: $0.25\times0.8=0.2$
 3rd: $0.25\times(0.8)^2=0.25\times0.64=0.16$
-4rd: $0.25\times(0.8)^2=0.25\times0.64=0.16$
+4rd: $0.25\times(0.8)^3=0.25\times0.512=0.128$
 
 ##### 3. A geometric sequence has first term 4 and common ratio 2.
 
-Find (a) the 5th term and (b) the 11th term.
+Find:
+(a) the 5th term and
+
+(b) the 11th term.
+
+Solution
 
 ##### 4. A geometric progression is given by 2, -1, $\frac{1}{2}$, $-\frac{1}{4}$What is its common ratio?
