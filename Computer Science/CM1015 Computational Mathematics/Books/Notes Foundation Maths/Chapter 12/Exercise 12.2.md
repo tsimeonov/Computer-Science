@@ -26,6 +26,8 @@ Sixth term: 3+5(-1)= -2
 
 ##### 3. Find the 16th term of the arithmetic sequence with first term 2 and common difference 5.
 
-16th term: 2+15(5)=47
+16th term: 2+15(5)=77
 
 ##### 4. Find the 23rd term of the arithmetic progression with first term 11 and common difference -3.
+
+23rd term: $11+22(-3)=-55$

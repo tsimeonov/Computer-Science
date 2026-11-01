@@ -108,7 +108,7 @@ $x_k=-4$
 ##### 1. Write down the first four terms of the sequence given by $x_n=2^n+3^n$, starting from n = 0
 
 for n = 0
-$x_n=2^0+3^0=0$
+$x_n=2^0+3^0=1+1=2$
 
 for n = 1
 $x_n=2^1+3^1=5$
