@@ -185,3 +185,15 @@ $u^2=v^2-2as$
 $u=\sqrt{v^2-2as}$
 
 ---
+
+##### 8. Transose the formula $k=pv^3$ for v
+
+$k=pv^3$
+
+$\frac{k}{p}=\frac{pv^3}{p}$
+
+$v^3=\frac{k}{p}$
+
+$v=\sqrt[3]{\frac{k}{p}}$
+
+---
