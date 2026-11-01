@@ -1,6 +1,6 @@
-### 5.2 Power of Indices
+#### 5.2 Power of Indices
 
-#### 5.11 Evaluate
+##### 5.11 Evaluate
 
 a) $(1 + 2^3)^2$
 
@@ -22,7 +22,7 @@ b) $\frac{2^3-1}{2^2+3}$
 - $2^2+3 = 2^2 + 3 = 7$
 - $\frac{7}{7} = 1$
 
-#### 5.12 Simplify
+##### 5.12 Simplify
 
 $x^2y^2 + 3(xy)^2$
 
@@ -40,7 +40,7 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 
 - $x^2y^2 + 3(xy)^2 = 4x^2y^2$
 
-#### 6.1 The laws of indices
+##### 6.1 The laws of indices
 
 - First law
   $a^m \times a^n = a^{m+n}$
@@ -55,27 +55,27 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 
 - Key point: $(a^mb^n)^k = a^{mk}b^{nk}$
 
-#### 6.2 Negative powers
+##### 6.2 Negative powers
 
 - key poits - $a^{-m} = \frac{1}{a^m}$, $a^{m} = \frac{1}{a^{-m}}$
 
-#### 6.3 Square roots, cube roots and fractional powers
+##### 6.3 Square roots, cube roots and fractional powers
 
 - Key point: $x^\frac{1}{2} = \sqrt{x}$, $x^\frac{1}{3} = \sqrt[3]{x}$
 - Key point: $x^\frac{1}{n} = \sqrt[n]{x}$
 - Key point: $a^\frac{m}{n} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$
 
-#### 6.4 Multiplication and division by powers of 10
+##### 6.4 Multiplication and division by powers of 10
 
-#### 6.5 Scientific notation
+##### 6.5 Scientific notation
 
 ---
 
-### 7. Simplifying algebraic expressions
+#### 7. Simplifying algebraic expressions
 
-#### 7.1 Addition and substraction of like terms
+##### 7.1 Addition and substraction of like terms
 
-#### 7.2 Multiplying algebraic expressions and removing brackets
+##### 7.2 Multiplying algebraic expressions and removing brackets
 
 - Key point
   When multiplying
@@ -84,7 +84,7 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
   negative x positive = negative
   negative x negative = positive
 
-#### 7.3 Removing brackets from a(b+c), a(b-c), (a+b)(c+d) and (a+b)(c-d)
+##### 7.3 Removing brackets from a(b+c), a(b-c), (a+b)(c+d) and (a+b)(c-d)
 
 - Key point
   $a(b+c) = ab+ac$
@@ -95,11 +95,11 @@ $x^2y^2 + 3(xy)^2 = x^2y^2 + 3x^2y^2$
 
 ---
 
-### 8. Factorisation
+#### 8. Factorisation
 
-#### 8.1 Factors and common factors
+##### 8.1 Factors and common factors
 
-#### 8.2 Factorising quadratic expressions
+##### 8.2 Factorising quadratic expressions
 
 - Key points
 
@@ -107,7 +107,7 @@ An expression of the form $ax^2+bx+c$, where a, b and c are numbers, is called a
 
 - Quadratic expression where the coefficient of $x^2$ is 1
 
-#### 8.3 Different of two squares
+##### 8.3 Different of two squares
 
 $(x+m)(x+n)=(x+m)x+(x+m)n$
 $x^2+mx+nx+mn$
@@ -117,9 +117,9 @@ $x^2+(m+n)x+mn$
 
 ---
 
-### 9. Algebraic fractions
+#### 9. Algebraic fractions
 
-#### 9.1 Introduction
+##### 9.1 Introduction
 
 When dividing
 
@@ -128,17 +128,17 @@ When dividing
 - $\frac{positive}{negative}=negative$
 - $\frac{negative}{negative}=positive$
 
-#### 9.2 Cancelling common factors
+##### 9.2 Cancelling common factors
 
 When simplifying an algebraic fraction only factors common to both the numerator and denominator can be cancelled.
 
-#### 9.3 Multiplication and division of algebraic fractions
+##### 9.3 Multiplication and division of algebraic fractions
 
 $\frac{a}{b}\times\frac{c}{d}=\frac{a\times c}{b\times d}$
 
-#### 9.4 Addition and subtraction of algebraic fractions
+##### 9.4 Addition and subtraction of algebraic fractions
 
-#### 9.5. Partial fraction
+##### 9.5. Partial fraction
 
 Let d = highest power of the denominator
 Let n = highest power of the numerator
@@ -148,9 +148,9 @@ if n < d the fraction is proper
 
 ---
 
-### 10. Transposing formulae
+#### 10. Transposing formulae
 
-#### 10.1 Rearranging a formula
+##### 10.1 Rearranging a formula
 
 To transpose a formula you may:
 
@@ -160,3 +160,64 @@ To transpose a formula you may:
 - Perform operations on both sides, such as 'square both sides', 'square root both sides' etc.
 
 ---
+
+#### 12. Sequences and series
+
+##### 12.1 Sequences
+
+##### 12.2 Arithmetic progressions
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+An arithmetic progression can be written
+
+$a,a+d,a+2d,a+3d.....$
+
+a is the first term, d is the commoin difference
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The nth term of an arithmetic progression is givenby a + (n-1)d
+
+##### 12.3 Geometric progressions
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+A geometric progression can be written
+
+$a,ar,ar^2,ar^3 ...$
+
+a is the first term, r is the common ration
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The nth term of a geometric progression is given by $ar^{n-1}$
+
+##### 12.4 Infinite sequences
+
+##### 12.5 Series and sigma notation
+
+##### 12.6 Arithmetic series
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The sum of the first n terms of an arithmetic series with first term a and common difference d is denoted by $S_n$ and given by
+
+$S_n=\frac{n}{2}(2a+(n-1)d)$
+
+##### 12.7 Geometric series
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The sum of the first n terms of a geometric series with first term a and common ratio r is denoted by $S_n$ and given by
+
+$S_n=\frac{a(1-r^n)}{1-r}$ provided r is not equal to 1
+
+##### 12.8 Infinite geometric series
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The sum of an infinite number of terms of a geometric series is denoted by $S_∞$
+and is given by
+
+$S_∞=\frac{a}{1-r}$ provided $-1<r<1$
