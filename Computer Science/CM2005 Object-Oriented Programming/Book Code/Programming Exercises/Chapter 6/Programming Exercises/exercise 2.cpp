@@ -3,21 +3,21 @@
 
 using namespace std;
 
-bool isLower(char ch);
+bool isVowel(char ch);
 
 int main()
 {
  cout << boolalpha;
 
- cout << "isLower('a')" << isLower('a') << endl; // true
- cout << "isLower('E')" << isLower('E') << endl; // true
- cout << "isLower('x')" << isLower('x') << endl; // false
- cout << "isLower('g')" << isLower('g') << endl; // false
+ cout << "isVowel('a')" << isVowel('a') << endl; // true
+ cout << "isVowel('E')" << isVowel('E') << endl; // true
+ cout << "isVowel('x')" << isVowel('x') << endl; // false
+ cout << "isVowel('g')" << isVowel('g') << endl; // false
 
  return 0;
 }
 
-bool isLower(char ch)
+bool isVowel(char ch)
 {
  char lower = tolower(ch);
 
