@@ -9,24 +9,21 @@ bool isVowel(char ch);
 int main()
 {
  string sentence;
+ int counter = 0;
 
  cout << "Enter a sequence of characters: ";
  cin >> sentence;
  cout << endl;
 
- cout << "The sentence is: " << sentence << endl;
-
- int count = 0;
-
  for (int i = 0; i < sentence.length(); i++)
  {
   if (isVowel(sentence[i]))
   {
-   count++;
+   counter++;
   }
  }
 
- cout << "The number of vowels: " << count << endl;
+ cout << "The number of vowels is: " << counter << endl;
 
  return 0;
 }
