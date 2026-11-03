@@ -18,10 +18,13 @@
 ##### 3. A geometric sequence has first term 4 and common ratio 2.
 
 Find:
-(a) the 5th term and
+(a) the 5th term
 
 (b) the 11th term.
 
 Solution
+
+(a) $4\times2^4= 4\times 16= 64$
+(b) $4\times2^{10}= 4\times 1024 = 4096$
 
 ##### 4. A geometric progression is given by 2, -1, $\frac{1}{2}$, $-\frac{1}{4}$What is its common ratio?
