@@ -27,4 +27,8 @@ Solution
 (a) $4\times2^4= 4\times 16= 64$
 (b) $4\times2^{10}= 4\times 1024 = 4096$
 
-##### 4. A geometric progression is given by 2, -1, $\frac{1}{2}$, $-\frac{1}{4}$What is its common ratio?
+##### 4. A geometric progression is given by 2, -1, $\frac{1}{2}$, $-\frac{1}{4}$. What is its common ratio?
+
+To find the common ration (r) of a geometric progression, divide any term by the term immediately procesing it
+
+$r=\frac{T2}{T1}=\frac{-1}{2}=-\frac{1}{2}=-0.5$
