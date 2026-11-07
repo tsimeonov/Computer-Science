@@ -11,3 +11,25 @@
 (d) Y ⊆ Z
 
 (e) Z ⊆ X
+
+Solution
+
+<h6 style="color: #DCAE96">(a) Y ⊆ X</h6>
+
+True
+
+<h6 style="color: #DCAE96">(b) 10 ∈ X</h6>
+
+True
+
+<h6 style="color: #DCAE96">(c) 15 $\notin$ X</h6>
+
+False
+
+<h6 style="color: #DCAE96">(d) Y ⊆ Z</h6>
+
+False
+
+<h6 style="color: #DCAE96">(e) Z ⊆ X</h6>
+
+True
