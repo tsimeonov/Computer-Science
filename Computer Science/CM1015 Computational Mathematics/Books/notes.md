@@ -274,3 +274,54 @@ The union of X and Y contains all the elements of both X and Y
 |      $\cup$      |       Union       |           Combines all unique elements from both $A$ and $B$ ("OR").            |
 |      $\cap$      |   Intersection    |         Includes only elements that appear in both $A$ and $B$ ("AND").         |
 | $\mathcal{P}(A)$ |     Power Set     | The set of all possible subsets of $A$, including $\varnothing$ and $A$ itself. |
+
+---
+
+#### 14. Number bases
+
+##### 14.1 The decimal system
+
+$5192_{10}=5000+100+90+2=$
+$5(1000)+1(100)+9(10)+2(1)=$
+$5(10^3)+1(10)^2+9(10^1)+2(10)^0$
+
+##### 14.2 The binary system
+
+The binary system is bbased upon powers of 2.
+
+$110101_2=1(2^5)+1(2^4)+0(2^3)+1(2^2)+0(2^1)+1(2^0)=$
+$1(32)+1(16)+0(8)+1(4)+0(2)+1(1)=$
+$32+16+4+1=53_{10}$
+
+##### 14.3 Octal system
+
+Convert $325_8$ to decimal number
+
+$325_8=3(8^2)+2(8^1)+5(8^0)$
+$3(64)+2(8)+5(1)=$
+$192+16+5$
+$213_{10}$
+
+Octal numbers are bases upon powers of 8
+
+##### 14.4 Hexadecimal system
+
+Convert the following hexadecimal numbers to decimal numbers
+
+(a) 93A
+
+(b) F9B3
+
+Solution:
+
+<h6 style="color: #DCAE96">(a) 93A</h6>
+
+$93A_{16}=9(16^2)+3(16^1)+A(16^0)=$
+$9(256)+3(16)+10(1)=2362_{10}$
+
+<h6 style="color: #DCAE96">(b) F9B3</h6>
+
+$F9B3_{16}=F(16^3)+9(16^2)+B(16^1)+3(16^0)=$
+$15(4096)+9(256)+11(16)+3(1)=63923_{10}$
+
+---
