@@ -261,3 +261,16 @@ The union of X and Y contains all the elements of both X and Y
 ##### 13.3 Venn diagrams
 
 ##### 13.4 Number sets
+
+|      Symbol      |       Name        |                                   Description                                   |
+| :--------------: | :---------------: | :-----------------------------------------------------------------------------: |
+|      $\in$       |    Element of     |                   An object belongs to a set 3 $\in$ {1,2,3}                    |
+|     $\notin$     | Not an element of |               An object does not belongs to a set 4 $\in$ {1,2,3}               |
+|   $\subseteq$    |      Subset       |                 Every element of A is also in B (A can equal B)                 |
+|    $\subset$     |   Proper subset   |       Every element of A is in B, and B has extra elements ( $A \neq B$)        |
+| $\not\subseteq$  |   Not a subset    |                  $A$ contains at least one element not in $B$                   |
+|   $\supseteq$    |     Superset      |          Set $A$ contains all elements of set $B$ ($A$ can equal $B$).          |
+|    $\supset$     |  Proper superset  |      Set $A$ contains all elements of $B$ plus at least one extra element.      |
+|      $\cup$      |       Union       |           Combines all unique elements from both $A$ and $B$ ("OR").            |
+|      $\cap$      |   Intersection    |         Includes only elements that appear in both $A$ and $B$ ("AND").         |
+| $\mathcal{P}(A)$ |     Power Set     | The set of all possible subsets of $A$, including $\varnothing$ and $A$ itself. |
