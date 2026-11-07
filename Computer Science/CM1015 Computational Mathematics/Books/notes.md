@@ -221,3 +221,43 @@ The sum of an infinite number of terms of a geometric series is denoted by $S_�
 and is given by
 
 $S_∞=\frac{a}{1-r}$ provided $-1<r<1$
+
+---
+
+#### 13. Sets
+
+##### 13.1 Terminology
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+A set is a collection of clearly defined objects, things or states.
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The order of the elements of a set is not important. There is no need to repeat elements
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+If all elements of a set X are also elements of a set Y then X is a subset of Y, X ⊆ Y.
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The complement of X, denoted $\overline{X}$, contains all elements that are not in X.
+
+##### 13.2 Sets defined mathematically
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The intersection of X and Y contains the elements that are common to both sets.
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+If $X \cap Y=\emptyset$, that is the intersection has no elements, then X and Y are disjoint sets.
+
+<h6 style="color: #DCAE96">Key point</h6>
+
+The union of X and Y contains all the elements of both X and Y
+
+##### 13.3 Venn diagrams
+
+##### 13.4 Number sets
