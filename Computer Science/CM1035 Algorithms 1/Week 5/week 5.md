@@ -97,3 +97,8 @@ The basic operations for a queue are:
 </details>
 
   <br>
+
+Literature to read
+
+- Foundational Maths - page 331
+- Introduction to Algorithms - read Introduction of Section 3 Data Structures
