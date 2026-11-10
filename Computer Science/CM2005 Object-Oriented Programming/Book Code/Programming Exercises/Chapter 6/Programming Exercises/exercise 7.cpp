@@ -50,5 +50,31 @@ int main()
   }
  }
 
+ // STEP 6: Print the final totals
+ cout << endl;
+ cout << "Sum of all primes: " << sum << endl;
+ cout << "Numer of twin primes: " << twinCount << endl;
+
  return 0;
+}
+
+// STEP 7: Function definition
+bool isPrime(long long n)
+{
+ // Number 1 and below are not prime
+ if (n <= 1)
+ {
+  return false;
+ }
+
+ // Check if "n" can be divided evenly by any number from 2 up to it's square root
+ for (long long divisor = 2; divisor * divisor <= n; divisor++)
+ {
+  if (n % divisor == 0)
+  {
+   return false; // Found a divisor, so "n" is NOT prime
+  }
+ }
+
+ return true; // No divisors found, so "n" IS prime
 }
