@@ -14,7 +14,7 @@ int main()
  cout << endl;
 
  // STEP 3: Make sure num1 is the smaller number
- // If num1 is bigger than num2, we swam them using a tempory variable
+ // If num1 is bigger than num2, we swap them using a tempory variable
  if (num1 > num2)
  {
   long long temp = num1;
@@ -32,7 +32,7 @@ int main()
  // STEP 5: Loop through every number from num1 to num2
  for (long long current = num1; current <= num2; current++)
  {
-  // Check if the current number if prime
+  // Check if the current number is prime
   if (isPrime(current) == true)
   {
    // 5a. Add the prime number to our total sum
