@@ -78,3 +78,18 @@ bool isPrime(long long n)
 
  return true; // No divisors found, so "n" IS prime
 }
+
+/*
+Sample
+
+Enter two positive integers: 1 30
+
+Twin primes:
+3 and 5
+5 and 7
+11 and 13
+17 and 19
+
+Sum of all primes: 129
+Numer of twin primes: 4
+*/
