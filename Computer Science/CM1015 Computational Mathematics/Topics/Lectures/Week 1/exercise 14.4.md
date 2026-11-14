@@ -35,3 +35,15 @@ Solution
 <h6 style="color: #DCAE96">(e) 1000000</h6>
 
 ---
+
+3. Write the following decima numbers in binary, octal and hexadecimal form
+
+(a) 0.25
+(b) 0.75
+
+Solution
+
+<h6 style="color: #DCAE96">(a) 0.25</h6>
+<h6 style="color: #DCAE96">(b) 0.75</h6>
+
+---
