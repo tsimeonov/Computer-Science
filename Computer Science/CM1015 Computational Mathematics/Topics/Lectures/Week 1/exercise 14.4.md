@@ -11,9 +11,13 @@
 Solution
 
 <h6 style="color: #DCAE96">(a) 91</h6>
+
 <h6 style="color: #DCAE96">(b) 6C</h6>
+
 <h6 style="color: #DCAE96">(c) A1B</h6>
+
 <h6 style="color: #DCAE96">(d) F9D4</h6>
+
 <h6 style="color: #DCAE96">(e) ABCD</h6>
 
 ---
@@ -29,9 +33,13 @@ Solution
 Solution
 
 <h6 style="color: #DCAE96">(a) 160</h6>
+
 <h6 style="color: #DCAE96">(b) 396</h6>
+
 <h6 style="color: #DCAE96">(c) 5010</h6>
+
 <h6 style="color: #DCAE96">(d) 25000</h6>
+
 <h6 style="color: #DCAE96">(e) 1000000</h6>
 
 ---
@@ -44,6 +52,7 @@ Solution
 Solution
 
 <h6 style="color: #DCAE96">(a) 0.25</h6>
+
 <h6 style="color: #DCAE96">(b) 0.75</h6>
 
 ---
