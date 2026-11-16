@@ -89,7 +89,7 @@ $F4240_{16}$
 
 ---
 
-3. Write the following decima numbers in binary, octal and hexadecimal form
+3. Write the following decimal numbers in binary, octal and hexadecimal form
 
 (a) 0.25
 (b) 0.75
@@ -98,6 +98,44 @@ Solution
 
 <h6 style="color: #DCAE96">(a) 0.25</h6>
 
+1. Binary (Base 2) - multiply by 2
+
+$0.25 \times 2= 0.50$ -> integer part 0
+$0.50 \times 2= 1.00$ -> integer part 1 (fractional part is now 0)
+
+$0.25_{10}=0.01_2$
+
+2. Octal (Base 8) - multiply by 8
+
+$0.25 \times 8 = 2.00$ -> integer part 2 (fractional part is 0, stop)
+
+$0.25_{10}=0.2å_2$
+
+3. Hexadecimal (Base 16) multiply by 16
+
+$0.25\times 16=4.00$ -> integer part 4 (fractioal part is now 0, stop)
+
+$0.25_{10}=0.4_{16}$
+
 <h6 style="color: #DCAE96">(b) 0.75</h6>
+
+1. Binary (Base 2) - multiply by 2
+
+$0.75\times2=1.50$ -> integer part is 1 (fractional part is 0)
+$0.50\times2=1.0$ -> integer part is 1 (fractional part is 0)
+
+$0.75_{10}=0.11_2$
+
+2. Octal (Base 8) - multiply by 8
+
+$0.75\times 8=6.00$-> integer part is 6 (fractional part is 0)
+
+$0.75_{10}=0.6_8$
+
+3. Hexadecimal (Base 16) multiply by 16
+
+$0.75\times16=12.00$ integer part is 12 (fractioanal part is 0)
+
+$0.75_{10}=0.C_{16}$
 
 ---
