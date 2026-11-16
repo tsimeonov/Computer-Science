@@ -46,13 +46,46 @@ Solution
 
 <h6 style="color: #DCAE96">(a) 160</h6>
 
+$160\div16=10$, remainder 0
+$10\div16=0$, remainder 10
+
+$A0_{16}$
+
 <h6 style="color: #DCAE96">(b) 396</h6>
+
+$396\div16=24$, remainder 12
+$24\div16=1$, remainder 8
+$1\div16=0$, remainder 1
+
+$18C_{16}$
 
 <h6 style="color: #DCAE96">(c) 5010</h6>
 
+$5010 \div 16=313$, remainder 2
+$313 \div 16=19$, remainder 9
+$19 \div 16=1$, remainder 3
+$1 \div 16=0$, remainder 1
+
+$1392_{16}$
+
 <h6 style="color: #DCAE96">(d) 25000</h6>
 
+$25000\div16=1562$, remainder 8
+$1562\div16=97$, remainder 10
+$97\div16=6$, remainder 1
+$6\div16=0$, remainder 6
+
+$61A8_{16}$
+
 <h6 style="color: #DCAE96">(e) 1000000</h6>
+
+$1000000\div16=62500$, remainder 0
+$62500\div16=3906$, remainder 4
+$3906\div16=244$, remainder 2
+$244\div16=15$, remainder 4
+$15\div16=0$, remainder 15
+
+$F4240_{16}$
 
 ---
 
