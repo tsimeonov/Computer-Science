@@ -27,3 +27,31 @@
 </details>
 
 ---
+
+3. Which of the following correctly represents thhe deciaml number 15 in hexadecimal?
+
+- E
+- F
+- A
+- 10
+
+<details>
+  <summary>Solution</summary>
+  F
+</details>
+
+---
+
+4. Which number system uses the symbols 0-4 to represent it's values?
+
+- Binary
+- Decimal
+- Base 5
+- Hexadecimal
+
+<details>
+  <summary>Solution</summary>
+  Base 5
+</details>
+
+---
