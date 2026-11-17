@@ -1,0 +1,53 @@
+#### Conversion of non-integer numbers between bases
+
+To convert a non-integer number (a mixed number with both a whole part abd a fractional part, such as $25.625_{10}$ or $101.11_2$) between bases, split the number at the radix point and handle ewach side independently before joining them back together.
+
+##### 1. From decimal (base 10) to another base (B)
+
+Split the number into its integer part and fractional part:
+
+Example: Convert $25.625_{10}$ to binary (base 2)
+
+1. Integer part (25):
+
+- $25 \div 2=12$ , remainder 1
+- $12 \div 2=6$ , remainder 0
+- $6 \div 2=3$ , remainder 0
+- $3 \div 2=1$ , remainder 1
+- $1 \div 2=0$ , remainder 1
+
+Bottom to top: $11001_2$
+
+2. Fractional part (0.625)
+
+- $0.625 \times 2=1.25$ -> 1
+- $0.25 \times 2=0.50$ ->0
+- $0.50 \times 2=1.00$ -> 1 (fractional part is 0, stop)
+
+$0.101_2$
+
+3. Combine both parts:
+
+$25.625_{10}=11001.101_2$
+
+##### 2. From Another base (B) to decimal (base 10)
+
+Use positional expansion across the entire number. Exponents count up from 0 going left, and count down into negative numbers going right:
+
+$.......+d_2(B^2)+d_1(B^1)+d_0(B^0)+d_{-1}(B^{-1})+d_{-2}(B^{-2})....$
+
+Example: Convert 14.24_8 (Octal) to Decimal (base 10)
+
+- Left of point ($14_8$)
+
+  - $1\times8^1=1\times8=8$
+  - $4\times8^0=4\times1=4$
+
+- Right of point ($0.24_8$)
+
+  - $2\times8^{-1}=\frac{2}{8}=0.25$
+  - $4\times8^{-2}=\frac{4}{64}=0.0625$
+
+Add all terms together:
+
+$14.24_8=8+4+0.25+0.0625=12.3125_{10}$
