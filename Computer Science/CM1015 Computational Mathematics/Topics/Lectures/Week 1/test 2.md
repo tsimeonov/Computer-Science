@@ -74,3 +74,39 @@ Solution:
 $2F3=2(16^2)+15(16^1)+3(16^0)=512+240+3=755_{10}$
 
 ---
+
+9. Convert the decimal number 98 to it's base-5 equivalent.
+
+Solution:
+
+$98 \div 5=19$, remainder 3
+$19 \div 5=3$, remainder 4
+$3 \div 5=0$, remainder 3
+
+$343_{10}$
+
+---
+
+10. Convert the decimal number 1234 to it's base-8 equivalent
+
+$1234 \div 8= 154$, remainder 2
+$154 \div 8= 19$, remainder 2
+$19 \div 8= 2$, remainder 3
+$2 \div 8= 3$, remainder 2
+
+$2322_{8}$
+
+---
+
+11. Convert the base 8 number 1457 to its decimal equivalent
+
+$1457=1(8^3)+4(8^2)+5(8^1)+7(8^0)=$
+$=512+256+40+7=815_{10}$
+
+---
+
+12. Convert the hexadecimal number B4 to its decimal number
+
+$B4=11(16^1)+4(16^0)=176+4=180_{10}$
+
+---
