@@ -22,4 +22,41 @@ Solution:
 
 Solution
 
+5.75
+
+---
+
+3. Which of the following hexadecimal digits corresponds to the binary value 1100
+
+- E
+- A
+- 8
+- C
+
+Solution
+
+$1100_2=2^3+2^2+2^1+2^0=8+4=12_{10}$
+$E=14$
+$A=10$
+$8$
+$C=12$
+
+---
+
+4. Convert the hexadecimal number D08.1C to binary.
+
+Solution:
+
+1101 0000 1000.0001 1100
+
+---
+
+5. Convert the binary number 110101001.011 to decimal
+
+Solution
+
+110101001.011
+
+$110101001_2.011=1(2^8)+1(2^7)+0(2^6)+1(2^5)+0(2^4)+1(2^3)+0(2^2)+0(2^1)+1(2^0).0(2^{-1})+1(2^{-2})+1(2^{-3})$
+
 ---
