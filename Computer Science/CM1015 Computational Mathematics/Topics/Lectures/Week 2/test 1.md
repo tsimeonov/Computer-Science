@@ -12,3 +12,14 @@ Solution:
 - $3\times10^1+7\times10^0+3\times10^{-1}$
 
 --
+
+2. Convert the binary number 101.11 to its decimal equivalent.
+
+- 5.75
+- 5.5
+- 5.25
+- 6.25
+
+Solution
+
+---
