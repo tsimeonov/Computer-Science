@@ -29,3 +29,10 @@ Input: 145263 Output: 654321
 
 Input: 123456789 Output: 987654321
 */
+
+/*
+what are the three primary operations for a vector
+- lenght
+- select[k]
+- store![o,k]
+*/
