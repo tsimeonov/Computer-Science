@@ -117,3 +117,18 @@ $3 \div 2= 1$ remainder 1
 $1 \div 2=0$ remainder 1
 
 $7_{10}=111_2$
+
+##### 5. Operations with binary numbers - Multiplication
+
+$
+\begin{array}{r}
+  10111 \\
+  \times\; 101 \\
+  \hline
+  10111 \\
+  00000\phantom{0} \\
+  +\; 10111\phantom{00} \\
+  \hline
+  1110011
+\end{array}
+$
