@@ -68,3 +68,52 @@ $4+0+1+0.5+0.25=5.75_{10}$
   - $C_{16}=(12_{10})=8+4+0+0=1100_2$
 
 $D08.1C\_{16}=$1101 0000 1000.0001 1100
+
+##### 3. Operations with binary numbers - Addition
+
+$
+\begin{array}{r}
+  \color{gray}{11111}\quad \\
+  1101 \\
+  +\; 10111 \\
+  \hline
+  100100
+\end{array}
+$
+
+##### 4. Operations with binary numbers - Substraction
+
+Example 1:
+
+$
+\begin{array}{r}
+  1011 \\
+  -\; 10 \\
+  \hline
+  1001
+\end{array}
+$
+
+Example 2:
+
+$
+\begin{array}{r}
+  \color{gray}{011112} \\
+  100110 \\
+  -\; 11111 \\
+  \hline
+  000111
+\end{array}
+$
+
+$100110_2 = 1(2^5)+0(2^4)+0(2^3)+1(2^2)+1(2^1)+0(2^0)=$
+$32+4+2=38_{10}$
+
+$11111_2=1(2^4)+1(2^3)+1(2^2)+1(2^1)+1(2^0)=$
+$16+8+4+2+1=31_{10}$
+
+$7 \div 2= 3$ remainder 1
+$3 \div 2= 1$ remainder 1
+$1 \div 2=0$ remainder 1
+
+$7_{10}=111_2$
