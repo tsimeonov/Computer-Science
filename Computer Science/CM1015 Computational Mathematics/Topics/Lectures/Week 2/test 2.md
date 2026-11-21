@@ -101,3 +101,45 @@ $1 \div 2= 0$ remainder 1
 $21_{10}=10101_2$
 
 ---
+
+7. Add the binary numbers 1101 and 10111
+
+$
+\begin{array}{r}
+  \color{gray}{11111}\quad \\
+  1101 \\
+  +\; 10111 \\
+  \hline
+  100100
+\end{array}
+$
+
+---
+
+8. Add the binary numbers 110101 and 101110
+
+$
+\begin{array}{r}
+  \color{gray}{1111}\phantom{000} \\
+  110101 \\
+  +\; 101110 \\
+  \hline
+  1100011
+\end{array}
+$
+
+---
+
+9. Add the binary numbers 1011 and 1101.
+
+$
+\begin{array}{r}
+  \color{gray}{1111}\phantom{000} \\
+  110101 \\
+  +\; 101110 \\
+  \hline
+  1100011
+\end{array}
+$
+
+---
