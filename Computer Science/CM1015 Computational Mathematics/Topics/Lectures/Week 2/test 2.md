@@ -66,3 +66,38 @@ $
 $
 
 ---
+
+5. Multiply the binary numbers 110 and 101
+
+$
+\begin{array}{r}
+  110 \\
+  \times\; 101 \\
+  \hline
+  110 \\
+  000\phantom{0} \\
+  +\; 110\phantom{00} \\
+  \hline
+  11110
+\end{array}
+$
+
+---
+
+6. Multiply the binary numbers 111 and 11
+
+$111 = 1(2^2)+1(2^1)+1(2^0)=$
+$4+2+1=7$
+
+$11 = 1(2^1)+1(2^0)=$
+$2+1=3$
+
+$21 \div 2= 10$ remainder 1
+$10 \div 2= 5$ remainder 0
+$5 \div 2= 2$ remainder 1
+$2 \div 2= 1$ remainder 0
+$1 \div 2= 0$ remainder 1
+
+$21_{10}=10101_2$
+
+---
