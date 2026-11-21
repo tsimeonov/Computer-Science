@@ -1,0 +1,16 @@
+### Operations with binary numbers
+
+1. Subtract the binary numbers 1010 from 1101
+
+$1010_2=1(2^3)+0(2^2)+1(2^1)+0(2^0)=$
+$8+2=10_{10}$
+
+$1101_2=1(2^3)+1(2^2)+0(2^1)+1(2^0)=$
+$8+4+1=13_{10}$
+
+$3 \div 2 = 1$, remainder 1
+$1 \div 2 = 0$, remainder 1
+
+$3_{10}=0011_2$
+
+---
