@@ -1,14 +1,13 @@
 # Table of Content
 
-| Language   | Difficulty | Problem # |         Problem Name          |
-| ---------- | :--------: | :-------: | :---------------------------: |
-| JavaScript |   8 kyu    |     1     | [Descending Order](#problem1) |
+| Language   | Difficulty | Problem # |               Problem Name               |
+| ---------- | :--------: | :-------: | :--------------------------------------: |
+| JavaScript |   7 kyu    |     1     |      [Descending Order](#problem1)       |
+| JavaScript |   7 kyu    |     2     | [Sort array by string length](#problem1) |
 
 ---
 
 ### Problem #1 Descending Order<a name="problem1"></a>
-
-Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
 <details>
   <summary>Solution</summary>
@@ -52,8 +51,36 @@ Input: 145263 Output: 654321
 Input: 123456789 Output: 987654321
 \*/
 
-```
+````
+</details>
+
+----
+
+### Problem #2 Sort array by string length<a name="problem1"></a>
+
+Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
+
+<details>
+  <summary>Solution</summary>
+
+```javascript
+function sortByLenght(array) {
+	// Return an array containing the same strings, ordered fro shortest to longest
+
+	let inputArray = array;
+
+	inputArray.sort(function (a, b) {
+		return a.length - b.length;
+	});
+
+	return inputArray;
+}
+
+console.log(sortByLenght(['Telescopes', 'Glasses', 'Eyes', 'Monocles']));
+console.log(sortByLenght(['Beg', 'Life', 'I', 'To']));
+
+````
+
 </details>
 
 ---
-```
