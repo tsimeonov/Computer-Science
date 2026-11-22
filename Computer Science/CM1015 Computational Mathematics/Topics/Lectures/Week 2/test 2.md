@@ -134,11 +134,11 @@ $
 
 $
 \begin{array}{r}
-  \color{gray}{1111}\phantom{000} \\
-  110101 \\
-  +\; 101110 \\
+  \color{gray}{111}\phantom{0} \\
+  1011 \\
+  +\; 1101 \\
   \hline
-  1100011
+  11000
 \end{array}
 $
 
