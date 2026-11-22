@@ -24,3 +24,19 @@ Solution:
 - term 6: 3 + 5(-1) = 3 + (-5) = -2
 
 ---
+
+3. Find the 16th term of the arithmetic sequence with first term 2 and common difference 5
+
+Solution:
+
+- term 16: 2 + 15(5) = 2 + 75 = 77
+
+---
+
+4. Find the 23rd term of the arithmetic progression with first term 11 and common difference -3
+
+Solution
+
+- term 23: 11 + 22(-3) = 11 + (-66) = -55
+
+---
