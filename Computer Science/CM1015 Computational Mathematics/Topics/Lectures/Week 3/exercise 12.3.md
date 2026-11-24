@@ -32,3 +32,14 @@ Solution:
 (b) the 11th term: $4\times2^{10}=4\times1024=4096$
 
 ---
+
+4. A geometric progression is given by $2,-1,\frac{1}{2},-\frac{1}{4}....$
+   What is the common ratio?
+
+Solution:
+
+Divide any term by the previous term:
+
+$-1\div2=-0.5$
+
+---
