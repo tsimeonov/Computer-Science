@@ -41,3 +41,10 @@
 - The difference between terms
 - The ratio between consecutive terms
 - The sum of terms
+
+7. How is the nth of a geometric sequence represented?
+
+- $a+(n-1)d$
+- $a\times r^{n-1}$
+- $a\times(n-1)$
+- $a\div r^{(n-1)}$
