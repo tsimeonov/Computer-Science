@@ -48,3 +48,10 @@
 - $a\times r^{n-1}$
 - $a\times(n-1)$
 - $a\div r^{(n-1)}$
+
+8. What happens to a geometric sequence if the common ratio r is greater than 1?
+
+- It oscilates between values
+- It converges to a number
+- It remains constatnt
+- It diverges to infinity
