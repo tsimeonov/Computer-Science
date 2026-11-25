@@ -27,3 +27,10 @@
 - $a+nd$
 - $a+(n-1)d$
 - $a\times r^{n-1}$
+
+5. What is a geometric sequence?
+
+- A sequence where each term is multiplied by a constant
+- A sequence where each term is divided by a constant
+- A sequence where each term is dividded by a constant
+- A sequence where each term is subtracted by a constant
