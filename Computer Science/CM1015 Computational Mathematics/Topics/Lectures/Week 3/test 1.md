@@ -34,3 +34,10 @@
 - A sequence where each term is divided by a constant
 - A sequence where each term is dividded by a constant
 - A sequence where each term is subtracted by a constant
+
+6. What does the common ratio in a geometric sequence represent?
+
+- The product of terms
+- The difference between terms
+- The ratio between consecutive terms
+- The sum of terms
