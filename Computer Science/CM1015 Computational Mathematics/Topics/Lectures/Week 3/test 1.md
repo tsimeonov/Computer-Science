@@ -72,3 +72,13 @@
 13. Calculate the sum of the first 6 terms of an arithmetic sequence with a = 2 and d = 4
 
 14. Find the sum of the first terms of a geometric sequence where a is 1 and r = 2
+
+15. Determine the sixth term of a Fibonacci sequence starting with $u_1=0$ and $u_2=1$
+
+16. For the sequence defined by $u_n=n^2-n+1$, find $u_5$
+
+17. If $u_n=2^n+3$, calculate $u_4$
+
+18. Find the limit of the sequence $u_n=\frac{1}{2^n}$ as n approaches infinity
+
+19. Given a sequence where $u_{n+1}=3u_n+2$ and $u_1=1$ find $u_3$
