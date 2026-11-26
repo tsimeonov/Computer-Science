@@ -64,3 +64,5 @@
 - A sequence where eahc term is the difference of the two preceding items
 
 10. Find the 10th term of an arithmetic sequence where the first term a is 5 and the common difference is 3
+
+11. Determine the 5th term of a geometric sequence where the first term a is 2 and the common ration r is 3
