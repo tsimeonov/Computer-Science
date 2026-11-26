@@ -55,3 +55,10 @@
 - It converges to a number
 - It remains constatnt
 - It diverges to infinity
+
+9. What is a Fibonacci sequence?
+
+- A sequence where each term is the product of the preceding items
+- A sequence where eac term is the quotient of the two preceding terms
+- A sequence where each term is the sum of the two preceding terms.
+- A sequence where eahc term is the difference of the two preceding items
