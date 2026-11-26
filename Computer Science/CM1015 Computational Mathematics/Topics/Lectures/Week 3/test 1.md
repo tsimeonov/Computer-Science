@@ -70,3 +70,5 @@
 12. If the 4th term of an arithmetic sequence is 20 and the common difference d is 5, find the term a
 
 13. Calculate the sum of the first 6 terms of an arithmetic sequence with a = 2 and d = 4
+
+14. Find the sum of the first terms of a geometric sequence where a is 1 and r = 2
