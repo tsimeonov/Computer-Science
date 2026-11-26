@@ -62,3 +62,5 @@
 - A sequence where eac term is the quotient of the two preceding terms
 - A sequence where each term is the sum of the two preceding terms.
 - A sequence where eahc term is the difference of the two preceding items
+
+10. Find the 10th term of an arithmetic sequence where the first term a is 5 and the common difference is 3
