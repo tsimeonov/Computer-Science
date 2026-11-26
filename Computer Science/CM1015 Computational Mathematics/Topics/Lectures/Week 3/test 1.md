@@ -7,12 +7,20 @@
 - A sequence where each term is divided by a constant
 - A sequence where each term is obtained by adding constant to the previous term
 
+---
+
+Solution:
+
 2. Which term represents the common difference in an arithmetic sequence
 
 - a
 - r
 - d
 - n
+
+Solution:
+
+---
 
 3. What is the first term of an arithmetic sequence called?
 
@@ -21,12 +29,20 @@
 - d
 - n
 
+Solution:
+
+---
+
 4. How is the nth term of an arithmetic sequence represented
 
 - $a\div(n-1)$
 - $a+nd$
 - $a+(n-1)d$
 - $a\times r^{n-1}$
+
+Solution:
+
+---
 
 5. What is a geometric sequence?
 
@@ -35,12 +51,20 @@
 - A sequence where each term is dividded by a constant
 - A sequence where each term is subtracted by a constant
 
+Solution:
+
+---
+
 6. What does the common ratio in a geometric sequence represent?
 
 - The product of terms
 - The difference between terms
 - The ratio between consecutive terms
 - The sum of terms
+
+Solution:
+
+---
 
 7. How is the nth of a geometric sequence represented?
 
@@ -49,12 +73,20 @@
 - $a\times(n-1)$
 - $a\div r^{(n-1)}$
 
+Solution:
+
+---
+
 8. What happens to a geometric sequence if the common ratio r is greater than 1?
 
 - It oscilates between values
 - It converges to a number
 - It remains constatnt
 - It diverges to infinity
+
+Solution:
+
+---
 
 9. What is a Fibonacci sequence?
 
@@ -63,22 +95,66 @@
 - A sequence where each term is the sum of the two preceding terms.
 - A sequence where eahc term is the difference of the two preceding items
 
+Solution:
+
+---
+
 10. Find the 10th term of an arithmetic sequence where the first term a is 5 and the common difference is 3
+
+Solution:
+
+---
 
 11. Determine the 5th term of a geometric sequence where the first term a is 2 and the common ration r is 3
 
+Solution:
+
+---
+
 12. If the 4th term of an arithmetic sequence is 20 and the common difference d is 5, find the term a
+
+Solution:
+
+---
 
 13. Calculate the sum of the first 6 terms of an arithmetic sequence with a = 2 and d = 4
 
+Solution:
+
+---
+
 14. Find the sum of the first terms of a geometric sequence where a is 1 and r = 2
+
+Solution:
+
+---
 
 15. Determine the sixth term of a Fibonacci sequence starting with $u_1=0$ and $u_2=1$
 
+Solution:
+
+---
+
 16. For the sequence defined by $u_n=n^2-n+1$, find $u_5$
+
+Solution:
+
+---
 
 17. If $u_n=2^n+3$, calculate $u_4$
 
+Solution:
+
+---
+
 18. Find the limit of the sequence $u_n=\frac{1}{2^n}$ as n approaches infinity
 
+Solution:
+
+---
+
 19. Given a sequence where $u_{n+1}=3u_n+2$ and $u_1=1$ find $u_3$
+
+Solution:
+
+---
