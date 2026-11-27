@@ -20,7 +20,21 @@ function replace(s) {
 }
 */
 
-function replace(s) {}
+function replace(s) {
+	let stringInput = String(s);
+	let result = '';
+	let vowels = 'aeiouAEIOU';
+
+	for (let i = 0; i < stringInput.length; i++) {
+		if (vowels.includes(stringInput[i])) {
+			result += '!';
+		} else {
+			result += stringInput[i];
+		}
+	}
+
+	return result;
+}
 
 // vowels = aeiouAEIOU
 
