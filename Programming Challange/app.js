@@ -25,8 +25,7 @@ console.log(replace('aeiou'));
 console.log(replace('ABCDE'));
 
 /*
-finite vs infinite sequence
-finite sequence: has a fixed, number of element
-infinite sequence: continues forever without limit
+
+
 
  */
