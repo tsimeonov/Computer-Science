@@ -1,9 +1,10 @@
 # Table of Content
 
-| Language   | Difficulty | Problem # |               Problem Name               |
-| ---------- | :--------: | :-------: | :--------------------------------------: |
-| JavaScript |   7 kyu    |     1     |      [Descending Order](#problem1)       |
-| JavaScript |   7 kyu    |     2     | [Sort array by string length](#problem1) |
+| Language   | Difficulty | Problem # |                            Problem Name                            |
+| ---------- | :--------: | :-------: | :----------------------------------------------------------------: |
+| JavaScript |   7 kyu    |     1     |                   [Descending Order](#problem1)                    |
+| JavaScript |   7 kyu    |     2     |              [Sort array by string length](#problem2)              |
+| JavaScript |   8 kyu    |     3     | [Replace all vowel to exclamation mark in the sentence](#problem3) |
 
 ---
 
@@ -80,6 +81,45 @@ console.log(sortByLenght(['Telescopes', 'Glasses', 'Eyes', 'Monocles']));
 console.log(sortByLenght(['Beg', 'Life', 'I', 'To']));
 
 ````
+
+</details>
+
+---
+
+### Problem #3 Replace all vowel to exclamation mark in the sentence<a name="problem3"></a>
+
+Replace all vowel to exclamation mark in the sentence. aeiouAEIOU is vowel.
+
+<details>
+  <summary>Solution</summary>
+
+```javascript
+function replace(s) {
+	let stringInput = String(s);
+	let result = '';
+	const vowels = 'aeiouAEIOU';
+
+	for (let i = 0; i < stringInput.length; i++) {
+		if (vowels.includes(stringInput[i])) {
+			// runs when the if statements is true
+			// It appends (+=) an exclamation mark "!" onto the end of "results"
+			result += '!';
+		} else {
+			// runs when the if statement is false
+			// it keeps the original character by appending stringInput[i] onto result
+			result += stringInput[i];
+		}
+	}
+	// Once every character has been checked and added, the function hands back the finisher result string.
+	return result;
+}
+
+// vowels = aeiouAEIOU
+
+console.log(replace('Hi!'));
+console.log(replace('aeiou'));
+console.log(replace('ABCDE'));
+```
 
 </details>
 
