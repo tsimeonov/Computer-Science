@@ -1,5 +1,4 @@
-// 363
-
+/*
 function replace(s) {
 	let stringInput = String(s);
 	let result = '';
@@ -19,13 +18,12 @@ function replace(s) {
 	// Once every character has been checked and added, the function hands back the finisher result string.
 	return result;
 }
+*/
+
+function replace(s) {}
+
+// vowels = aeiouAEIOU
 
 console.log(replace('Hi!'));
 console.log(replace('aeiou'));
 console.log(replace('ABCDE'));
-
-/*
-
-
-
- */
